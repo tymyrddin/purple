@@ -1,0 +1,40 @@
+h1 {
+  color: #9900FF;
+}
+
+a {
+  color: #9900FF;
+}
+
+a:hover {
+  color: #CC00FF;
+}
+
+.wy-nav .wy-menu-vertical header {
+  color: #9900FF;
+}
+
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+  color: #9900FF;
+}
+
+.wy-side-nav-search {
+  background-color: #333333;
+  color: #fcfcfc;
+}
+
+.wy-side-nav-search input[type="text"] {
+  width: 100%;
+  border-radius: 0px;
+  padding: 6px 12px;
+  border-color: #9900FF;
+}
+
+.highlight {
+  background: #333;
+  color: #ddd;
+}
+
+.wy-nav-top {
+  background: #9900FF;
+}
