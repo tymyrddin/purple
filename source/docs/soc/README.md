@@ -2,12 +2,13 @@
 
 ## What?
 
-Incidents do and will continue to happen. Set up an incident response team.
+Incidents do and will continue to happen. Set up a security incident response team (SIRT). And a security 
+operations team (SOC).
 
 ## Why?
 
 To be better prepared to face security incidents with confidence and a clear action plan (instead of operating in a
-panic). 
+panic). And a SOC to defend against security breaches and actively isolate and mitigate security risks.
 
 ## How?
 

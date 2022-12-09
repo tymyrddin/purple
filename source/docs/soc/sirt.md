@@ -20,3 +20,7 @@ the roles and clearly communicate them, so that the team is well coordinated and
 
 While the active management members of the team will likely not be senior executives, ask executives to participate 
 in major recruitment and communications efforts. A SIRT can be a part of a [security operations team](soc.md).
+
+## Resources
+
+* [What Do Security Incident Response Team (SIRT) Engineers Do?](https://builtin.com/cybersecurity/sirt-engineers)

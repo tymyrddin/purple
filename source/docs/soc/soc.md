@@ -1,14 +1,12 @@
 # Set up a security operations team (SOC)
 
-## SOC roles
-
-There are some key roles on a SOC team. Depending on size of the organisation:
+Depending on size of the organisation, these roles may be beneficial:
 
 * Security analysts (4 tiers is common in large organisations) are first responders. They report on threats and implement any changes needed to protect the organisation. They are supposed to be the last line of defense against security threats, and work together with security managers and security engineers.
 * Security engineers are usually software and/or hardware specialists, and are in charge of maintaining and updating tools and systems. They are also responsible for documentation other team members might need, such as digital security protocols.
 * A direct manager is responsible for the team, directing operations and responsible for communications; hiring; training; and creating and executing the chosen security strategy. They also direct and orchestrate responses to major threats.
 * A chief information security officer (CISO) is responsible for creating security-related strategies, policies, and operations. They work closely with CEO, senior management, HR, legal departments, and inform management on security issues.
-* A leader of incident response (IR) only exists in very large organisations and is responsible for managing incidents, and [communicating security requirements](communications.md) to the organisation in the case of a data breach.
+* A leader of incident response (IR) is responsible for managing incidents, and [communicating security requirements](communications.md) to the organisation in the case of a data breach.
 
 ## Difference between SIRT and SOC
 
@@ -25,5 +23,10 @@ and often also operates as a method of response.
 * Both SOC and SIRT use security orchestration, automation and response (SOAR) tools.
 * Tier 1 work is pretty boring. Monitoring screens all the time, including nights and weekends. Motivation can fall, 
 including eyelids. When the teams are combined, job rotation is possible, and may keep people motivated.
-* Keeping the two separate allows them to focus on their core objectives.
+* Keeping the SIRT and SOC separate allows them to focus on their core objectives, say some. Or makes people less effective.
 * When an organisation has multiple sites, it is good practice to have a SOC at each, and a single centralised SIRT.
+
+## Resources
+
+* [Pros and Cons of Outsourced SOC](https://www.datashieldprotect.com/blog/pros-and-cons-of-an-outsourced-soc)
+* [Pros and cons of an outsourced SOC vs. in-house SOC](https://www.techtarget.com/searchsecurity/tip/In-house-vs-outsourced-cybersecurity-operations-center-capabilities)
