@@ -16,3 +16,4 @@ panic).
 * [Communications are key](communications.md)
 * [Security operations center in a nutshell](nutshell.md)
 * [Set up a security operations team](soc.md)
+* [Measuring team effectiveness](metrics.md)

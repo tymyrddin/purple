@@ -17,3 +17,13 @@ security incidents. SIRTs can be a part of a SOC or can stand alone.
 
 While the core function of a SIRT is to minimize and manage damage caused by an incident, it does not just deal with 
 the attack itself; they also [communicate with clients, executives, and the board](communications.md).
+
+## Considerations
+
+* The distinction between detection and response is not clear-cut. Threat hunting is used to identify threats, 
+and often also operates as a method of response.
+* Both SOC and SIRT use security orchestration, automation and response (SOAR) tools.
+* Tier 1 work is pretty boring. Monitoring screens all the time, including nights and weekends. Motivation can fall, 
+including eyelids. When the teams are combined, job rotation is possible, and may keep people motivated.
+* Keeping the two separate allows them to focus on their core objectives.
+* When an organisation has multiple sites, it is good practice to have a SOC at each, and a single centralised SIRT.

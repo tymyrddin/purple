@@ -15,7 +15,6 @@ or other incident response organisations.
   * In Europe, The General Data Protection Regulation (GDPR) applies. It also applies to organisations outside the 
   EU who process data from EU residents.
   * It seems that in the US, each state has its own legislation. Most of these only differ in minor ways.
-  * [Blue team →](green-soup:docs/irst)
 
 ## Lessons learned
 

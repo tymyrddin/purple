@@ -84,6 +84,7 @@ it serious unseriousness) to maintain our sanity when in paranoia mode.
    docs/soc/communications.md
    docs/soc/nutshell.md
    docs/soc/soc.md
+   docs/soc/metrics.md
 
 .. toctree::
    :glob:
