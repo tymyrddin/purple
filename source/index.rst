@@ -11,7 +11,7 @@ are mostly unrestricted in their actions.
 
 That does not mean pentesting is useless. We recommend having done enough pentesting and security awareness training
 before considering red teaming, unless you think you are already the target of an
-`APT adversary <https://tymyrddin.github.io/green-soup/docs/apt.html>`_.
+`APT adversary <https://green.tymyrddin.dev/projects/soup/en/latest/docs/apt.html>`_.
 
 .. figure:: _static/images/Causality-Consciousness-Choice-and-Trivium.png
    :alt: Causality, Consciousness, Choice and Trivium
@@ -40,7 +40,7 @@ it serious unseriousness) to maintain our sanity when in paranoia mode.
    docs/pentesting/roe.md
    docs/pentesting/targets.md
    docs/pentesting/scheduling.md
-   Cloud pentesting policy restrictions <https://tymyrddin.github.io/red-cloud/docs/challenges/policies.html>
+   Cloud pentesting policy restrictions <https://red.tymyrddin.dev/projects/cloud/en/latest/docs/challenges/policies.html>
 
 .. toctree::
    :glob:
@@ -91,13 +91,13 @@ it serious unseriousness) to maintain our sanity when in paranoia mode.
    :caption: Forest writeups
 
    docs/writeups/README.md
-   Red team writeups <https://tymyrddin.github.io/red/>
-   Blue team writeups <https://tymyrddin.github.io/blue/>
-   Green team writeups <https://tymyrddin.github.io/green/>
+   Red team writeups <https://red.tymyrddin.dev/>
+   Blue team writeups <https://blue.tymyrddin.dev/>
+   Green team writeups <https://green.tymyrddin.dev/>
 
 .. toctree::
    :caption: Links
 
-   Red Team <https://tymyrddin.github.io/red/>
-   Blue Team <https://tymyrddin.github.io/blue/>
-   Green Team <https://tymyrddin.github.io/green/>
+   Red team <https://red.tymyrddin.dev/>
+   Blue team <https://blue.tymyrddin.dev/>
+   Green team <https://green.tymyrddin.dev/>

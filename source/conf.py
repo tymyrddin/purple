@@ -75,22 +75,22 @@ html_show_copyright = False
 
 # Intersphinx
 intersphinx_mapping = {
-    "red": ("https://tymyrddin.github.io/red/", None),
-    "red-app": ("https://tymyrddin.github.io/red-app/", None),
-    "red-recon": ("https://tymyrddin.github.io/red-recon/", None),
-    "red-enum": ("https://tymyrddin.github.io/red-enum/", None),
-    "red-acorns": ("https://tymyrddin.github.io/red-acorns/", None),
-    "red-iac": ("https://tymyrddin.github.io/red-iac/", None),
-    "red-hurdles": ("https://tymyrddin.github.io/red-hurdles/", None),
-    "red-ad": ("https://tymyrddin.github.io/red-ad/", None),
-    "red-api": ("https://tymyrddin.github.io/red-api/", None),
-    "red-escalation": ("https://tymyrddin.github.io/red-escalation/", None),
-    "red-network": ("https://tymyrddin.github.io/red-network/", None),
-    "red-crypt": ("https://tymyrddin.github.io/red-crypt/", None),
-    "red-cloud": ("https://tymyrddin.github.io/red-cloud/", None),
-    "blue": ("https://tymyrddin.github.io/blue/", None),
-    "green": ("https://tymyrddin.github.io/green/", None),
-    "green-soup": ("https://tymyrddin.github.io/green-soup/", None),
+    "red": ("https://red.tymyrddin.dev/en/latest", None),
+    "red-app": ("https://red.tymyrddin.dev/projects/app/en/latest/", None),
+    "red-recon": ("https://red.tymyrddin.dev/projects/recon/en/latest/", None),
+    "red-enum": ("https://red.tymyrddin.dev/projects/enum/en/latest/", None),
+    "red-acorns": ("https://red.tymyrddin.dev/projects/acorns/en/latest/", None),
+    "red-iac": ("https://red.tymyrddin.dev/projects/iac/en/latest/", None),
+    "red-hurdles": ("https://red.tymyrddin.dev/projects/fire/en/latest/", None),
+    "red-ad": ("https://red.tymyrddin.dev/projects/ad/en/latest/", None),
+    "red-api": ("https://red.tymyrddin.dev/projects/api/en/latest/", None),
+    "red-escalation": ("https://red.tymyrddin.dev/projects/escalation/en/latest/", None),
+    "red-network": ("https://red.tymyrddin.dev/projects/network/en/latest/", None),
+    "red-crypt": ("https://red.tymyrddin.dev/projects/crypto/en/latest/", None),
+    "red-cloud": ("https://red.tymyrddin.dev/projects/cloud/en/latest/", None),
+    "blue": ("https://blue.tymyrddin.dev/en/latest", None),
+    "green": ("https://green.tymyrddin.dev/en/latest", None),
+    "green-soup": ("https://green.tymyrddin.dev/projects/soup/en/latest/", None),
 }
 
 myst_url_schemes = ["http", "https", ]
