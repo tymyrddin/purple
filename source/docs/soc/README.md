@@ -12,6 +12,7 @@ panic).
 ## How?
 
 * [Develop an incident response plan](plan.md)
-* [Set up an incident response team](who.md)
+* [Set up an incident response team](sirt.md)
 * [Communications are key](communications.md)
 * [Security operations center in a nutshell](nutshell.md)
+* [Set up a security operations team](soc.md)

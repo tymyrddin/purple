@@ -1,4 +1,4 @@
-# Set up an incident response team
+# Set up an incident response team (SIRT)
 
 There are some things that only people, and in some cases, only certain people, can do. Some things just 
 can not be automated.
@@ -19,4 +19,4 @@ the roles and clearly communicate them, so that the team is well coordinated and
 **before** a crisis happens.
 
 While the active management members of the team will likely not be senior executives, ask executives to participate 
-in major recruitment and communications efforts.
+in major recruitment and communications efforts. A SIRT can be a part of a [security operations team](soc.md).

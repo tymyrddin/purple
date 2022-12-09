@@ -80,9 +80,10 @@ it serious unseriousness) to maintain our sanity when in paranoia mode.
 
    docs/soc/README.md
    docs/soc/plan.md
-   docs/soc/who.md
+   docs/soc/sirt.md
    docs/soc/communications.md
    docs/soc/nutshell.md
+   docs/soc/soc.md
 
 .. toctree::
    :glob:
