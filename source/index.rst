@@ -13,14 +13,6 @@ That does not mean pentesting is useless. We recommend having done enough pentes
 before considering red teaming, unless you think you are already the target of an
 `APT adversary <https://green.tymyrddin.dev/projects/soup/en/latest/docs/apt.html>`_.
 
-.. figure:: _static/images/Causality-Consciousness-Choice-and-Trivium.png
-   :alt: Causality, Consciousness, Choice and Trivium
-   :width: 90%
-   :align: center
-   :target: https://evolveconsciousness.org/causality-consciousness-choice-and-trivium/
-
-   https://evolveconsciousness.org/causality-consciousness-choice-and-trivium/
-
 We are offering free services to NGO's and activists. And free does not necessarily mean our services are of low value.
 On the contrary. `Contact us <https://uu.tymyrddin.dev/registration/>`_ in the Unseen University to discover how we
 could work together. You do not have to wear a pointy hat or grow a beard. We just use unserious seriousness (or was
@@ -90,7 +82,7 @@ it serious unseriousness) to maintain our sanity when in paranoia mode.
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Forest writeups
+   :caption: Writeups
 
    docs/writeups/README.md
    Red team writeups <https://red.tymyrddin.dev/>
