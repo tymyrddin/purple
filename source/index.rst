@@ -82,7 +82,7 @@ it serious unseriousness) to maintain our sanity when in paranoia mode.
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Bug Bounty Hunting
+   :caption: Bug bounty hunting
 
    docs/bbh/README.md
    docs/bbh/self.md
