@@ -85,8 +85,9 @@ it serious unseriousness) to maintain our sanity when in paranoia mode.
    :caption: Bug Bounty Hunting
 
    docs/bbh/README.md
+   docs/bbh/self.md
+   docs/bbh/why.md
    docs/bbh/platforms.md
-   docs/bbh/methodology.md
 
 .. toctree::
    :glob:

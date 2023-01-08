@@ -2,13 +2,14 @@
 
 ## What?
 
-A [bug bounty program](red-bbh:index) is an initiative in which a company invites hackers to attack its products and service offerings.
+A bug bounty program is an initiative in which a company invites hackers to attack its products and service offerings.
 
 ## Why?
 
-Monetary rewards when in between customers, gaining experience, and for its learning opportunities.
+To embrace the hacker spirit and [leverage the hacking skills of independent individuals](red-bbh:index). 
 
 ## How?
 
-* [Bug bounty hunting platforms](platforms.md)
-* [Bug bounty hunting methodology](methodology.md)
+* [Self-hosted program](self.md)
+* [Why (not) a Bug Bounty platform?](why.md)
+* [Major platforms](platforms.md)
