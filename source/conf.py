@@ -88,6 +88,7 @@ intersphinx_mapping = {
     "red-network": ("https://red.tymyrddin.dev/projects/network/en/latest/", None),
     "red-crypt": ("https://red.tymyrddin.dev/projects/crypto/en/latest/", None),
     "red-cloud": ("https://red.tymyrddin.dev/projects/cloud/en/latest/", None),
+    "red-bbh": ("https://red.tymyrddin.dev/projects/bbh/en/latest/", None),
     "blue": ("https://blue.tymyrddin.dev/en/latest", None),
     "green": ("https://green.tymyrddin.dev/en/latest", None),
     "green-soup": ("https://green.tymyrddin.dev/projects/soup/en/latest/", None),

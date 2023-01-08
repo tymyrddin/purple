@@ -82,6 +82,16 @@ it serious unseriousness) to maintain our sanity when in paranoia mode.
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: Bug Bounty Hunting
+
+   docs/bbh/README.md
+   docs/bbh/platforms.md
+   docs/bbh/methodology.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
    :caption: Writeups
 
    docs/writeups/README.md
