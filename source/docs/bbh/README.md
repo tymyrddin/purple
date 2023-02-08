@@ -10,6 +10,13 @@ To embrace the hacker spirit and [leverage the hacking skills of independent ind
 
 ## How?
 
-* [Self-hosted program](self.md)
-* [Why (not) a Bug Bounty platform?](why.md)
+* [State of the industry](state.md)
 * [Major platforms](platforms.md)
+* [Private programs](private.md)
+* [Why (not) a Bug Bounty platform?](why.md)
+* [Self-hosted program](self.md)
+* [Asset types](assets.md)
+* [Scope, payouts, and response times](scope.md)
+
+
+
