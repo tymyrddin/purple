@@ -104,9 +104,3 @@ it serious unseriousness) to maintain our sanity when in paranoia mode.
    Blue team writeups <https://blue.tymyrddin.dev/>
    Green team writeups <https://green.tymyrddin.dev/>
 
-.. toctree::
-   :caption: Links
-
-   Red team <https://red.tymyrddin.dev/>
-   Blue team <https://blue.tymyrddin.dev/>
-   Green team <https://green.tymyrddin.dev/>
