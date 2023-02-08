@@ -88,8 +88,8 @@ it serious unseriousness) to maintain our sanity when in paranoia mode.
    docs/bbh/state.md
    docs/bbh/platforms.md
    docs/bbh/private.md
-   docs/bbh/why.md
    docs/bbh/self.md
+   docs/bbh/why.md
    docs/bbh/assets.md
    docs/bbh/scope.md
 
