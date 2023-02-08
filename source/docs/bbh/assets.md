@@ -1,4 +1,4 @@
-# Asset types
+# Asset types to hunt in
 
 In the context of a bug bounty program, an asset is an application, website, or product that you can hack. There are different types of assets, each with its own characteristics, requirements, and pros and cons. After considering these differences, you should choose a program with assets that play to your strengths, based on your skill set, experience level, and preferences.
 
