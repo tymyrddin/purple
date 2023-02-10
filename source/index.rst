@@ -100,7 +100,3 @@ it serious unseriousness) to maintain our sanity when in paranoia mode.
    :caption: Writeups
 
    docs/writeups/README.md
-   Red team writeups <https://red.tymyrddin.dev/>
-   Blue team writeups <https://blue.tymyrddin.dev/>
-   Green team writeups <https://green.tymyrddin.dev/>
-
