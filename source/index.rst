@@ -5,15 +5,13 @@ The forest, huge and wild, a digital landscape formed by nature's own processes 
 
 ----
 
-Raising security awareness
------------------------------------
-
 Security awareness program professionals are constrained in their ability to execute. The top three limitations are lack of leadership support, limited budgets and lack of time. Of the three, lack of leadership support seems to have the greatest impact on awareness program maturity, followed immediately by the inability to engage employees and change behaviours, indicating that programs are not "sticking" the way leaders would like.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: Raising security awareness
 
    docs/awareness/README.md
    docs/awareness/identify.md
@@ -23,15 +21,13 @@ Security awareness program professionals are constrained in their ability to exe
 
 ----
 
-Pentesting
--------------------------------
-
 Conventional pentesting covers the finding of technical vulnerabilities, as many as possible. The limitations on such processes include time and budget constraints, a limited scope, every effort being made to make the tests as non-disruptive as possible, and having a heavy IT focus. Real black hat adversaries do not follow such ethical codes and are mostly unrestricted in their actions.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: Pentesting
 
    docs/pentesting/README.md
    docs/pentesting/who.md
@@ -45,15 +41,13 @@ Conventional pentesting covers the finding of technical vulnerabilities, as many
 
 ----
 
-Bug bounty hunting
------------------------------------
-
 Bug bounty programs allow companies to leverage the hacker community to improve their systems' security posture over time continuously. And they come with their own challenges. They are hard to manage and expensive to run if an organisation does not plan accordingly or lacks cybersecurity maturity.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: Bug bounty hunting
 
    docs/bbh/README.md
    docs/bbh/state.md
@@ -66,15 +60,13 @@ Bug bounty programs allow companies to leverage the hacker community to improve 
 
 ----
 
-Red teaming
------------------------------------
-
 A gray hat red team does have to consider legal and corporate policies when operating. This has implications on how realistic certain scenarios can be played out – but certain scenarios should be at least played out on paper via tabletop exercises.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: Red teaming
 
    docs/redteaming/README.md
    docs/redteaming/flags.md
@@ -90,15 +82,13 @@ A gray hat red team does have to consider legal and corporate policies when oper
 
 ----
 
-Blue teaming
------------------------------------
-
 Blue teams have to deal with organisational policies, rules, and politics, understaffing, insufficient budgets, employees who undo and undermine security efforts, and a leadership not taking the threats seriously enough. Oh, and the "security debt", the buildup of application and infrastructure vulnerabilities in an IT environment that can increase the odds of a breach and impede effective cyber defense. Many burnouts.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: Blue teaming
 
    docs/soc/README.md
    docs/soc/plan.md
@@ -110,15 +100,13 @@ Blue teams have to deal with organisational policies, rules, and politics, under
 
 ----
 
-Purple teaming
---------------------------
-
 Purple teaming is one of the most effective ways to help grow your defenses quickly and help improve the maturity of the organisation quickly, especially if you have an internal offensive security team that can work with the blue team throughout.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: Purple teaming
 
    docs/purpleteaming/README.md
    docs/purpleteaming/threat-hunting.md
@@ -129,15 +117,13 @@ Purple teaming is one of the most effective ways to help grow your defenses quic
 
 ----
 
-Hiking trails
-----------------------------------
-
 There is no shortage of cybersecurity training and certifications for security professionals, yet most programs are focused on session completion, not outcomes. This outmoded approach to training does not translate to measurable improvements in cybersecurity knowledge, skills, and judgment that lead to long-term resilience.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: Hiking trails
 
    docs/hiking/README.md
    Hike trails in the forest with experts <https://uu.tymyrddin.dev>
