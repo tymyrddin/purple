@@ -78,6 +78,7 @@ html_show_copyright = False
 intersphinx_mapping = {
     "red": ("https://red.tymyrddin.dev/en/latest", None),
     "red-app": ("https://red.tymyrddin.dev/projects/app/en/latest/", None),
+    "red-testlab": ("https://red.tymyrddin.dev/projects/testlab/en/latest/", None),
     "red-recon": ("https://red.tymyrddin.dev/projects/recon/en/latest/", None),
     "red-enum": ("https://red.tymyrddin.dev/projects/enum/en/latest/", None),
     "red-acorns": ("https://red.tymyrddin.dev/projects/acorns/en/latest/", None),
@@ -91,6 +92,7 @@ intersphinx_mapping = {
     "red-cloud": ("https://red.tymyrddin.dev/projects/cloud/en/latest/", None),
     "red-bbh": ("https://red.tymyrddin.dev/projects/bbh/en/latest/", None),
     "blue": ("https://blue.tymyrddin.dev/en/latest", None),
+    "blue-dfir": ("https://blue.tymyrddin.dev/projects/dfir/en/latest/", None),
     "green": ("https://green.tymyrddin.dev/en/latest", None),
     "green-soup": ("https://green.tymyrddin.dev/projects/soup/en/latest/", None),
 }

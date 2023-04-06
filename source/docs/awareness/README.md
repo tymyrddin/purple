@@ -2,16 +2,18 @@
 
 ## What?
 
-Raise security awareness.
+Enable organisations to create truly mature security awareness programs. After a lack of resources, time, and support by leadership, people are still the weakest link. Raising security awareness requires that users:
+
+* Know the most common vulnerabilities
+* Recognise when being attacked
+* Realise that one can be attacked at any time
+* Have the ability to respond during a real incident
+* Recognise the importance of cybersecurity
+* Can participate in building resilience
 
 ## Why?
 
-People are still the weakest link. They click on links or open attachments in phishing emails, or share information 
-with unauthorised persons either intentionally or unintentionally. Organisations often struggle with peoples' 
-engagement in information security and privacy, resulting in people not being aware of the important role they play.
-
-And different people play different roles, and participants have different preferences. This must be taken into account. 
-One size does not fit all.
+Organisations often struggle with peoples' engagement in information security and privacy, resulting in people not being aware of the important role they play.
 
 ## How?
 

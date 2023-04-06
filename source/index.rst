@@ -1,28 +1,37 @@
 Laws of the forest
 ======================================================
 
-The forest, huge and wild, a digital landscape formed by nature's own processes and humanoid activities and neglect
-throughout decades. The forest does have human-made laws and inescapable natural law though.
+The forest, huge and wild, a digital landscape formed by nature's own processes and humanoid activities and neglect throughout decades. The forest does have human-made laws and inescapable natural law though.
 
-Conventional pentesting covers the finding of most technical vulnerabilities. The limitations on such
-processes include time and budget constraints, a limited scope, every effort being made to make the tests as
-non-disruptive as possible, and having a heavy IT focus. Real adversaries do not follow such ethical codes and
-are mostly unrestricted in their actions.
+----
 
-That does not mean pentesting is useless. We recommend having done enough pentesting and security awareness training
-before considering red teaming, unless you think you are already the target of an
-`APT adversary <https://green.tymyrddin.dev/projects/soup/en/latest/docs/apt.html>`_.
+Raising security awareness
+-----------------------------------
 
-We are offering free services to NGO's and activists. And free does not necessarily mean our services are of low value.
-On the contrary. `Contact us <https://uu.tymyrddin.dev/registration/>`_ in the Unseen University to discover how we
-could work together. You do not have to wear a pointy hat or grow a beard. We just use unserious seriousness (or was
-it serious unseriousness) to maintain our sanity when in paranoia mode.
+Security awareness program professionals are constrained in their ability to execute. The top three limitations are lack of leadership support, limited budgets and lack of time. Of the three, lack of leadership support seems to have the greatest impact on awareness program maturity, followed immediately by the inability to engage employees and change behaviours, indicating that programs are not "sticking" the way leaders would like.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Pentesting
+
+   docs/awareness/README.md
+   docs/awareness/identify.md
+   docs/awareness/guides.md
+   docs/awareness/workshops.md
+   docs/awareness/simulations.md
+
+----
+
+Pentesting
+-------------------------------
+
+Conventional pentesting covers the finding of technical vulnerabilities, as many as possible. The limitations on such processes include time and budget constraints, a limited scope, every effort being made to make the tests as non-disruptive as possible, and having a heavy IT focus. Real black hat adversaries do not follow such ethical codes and are mostly unrestricted in their actions.
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
 
    docs/pentesting/README.md
    docs/pentesting/who.md
@@ -34,23 +43,38 @@ it serious unseriousness) to maintain our sanity when in paranoia mode.
    docs/pentesting/scheduling.md
    Cloud pentesting policy restrictions <https://red.tymyrddin.dev/projects/cloud/en/latest/docs/challenges/policies.html>
 
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Raising security awareness
+----
 
-   docs/awareness/README.md
-   docs/awareness/identify.md
-   docs/awareness/guides.md
-   docs/awareness/workshops.md
-   docs/awareness/simulations.md
+Bug bounty hunting
+-----------------------------------
+
+Bug bounty programs allow companies to leverage the hacker community to improve their systems' security posture over time continuously. And they come with their own challenges. They are hard to manage and expensive to run if an organisation does not plan accordingly or lacks cybersecurity maturity.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Red Teaming
+
+   docs/bbh/README.md
+   docs/bbh/state.md
+   docs/bbh/platforms.md
+   docs/bbh/private.md
+   docs/bbh/self.md
+   docs/bbh/why.md
+   docs/bbh/assets.md
+   docs/bbh/scope.md
+
+----
+
+Red teaming
+-----------------------------------
+
+A gray hat red team does have to consider legal and corporate policies when operating. This has implications on how realistic certain scenarios can be played out – but certain scenarios should be at least played out on paper via tabletop exercises.
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
 
    docs/redteaming/README.md
    docs/redteaming/flags.md
@@ -64,11 +88,17 @@ it serious unseriousness) to maintain our sanity when in paranoia mode.
    docs/redteaming/operations.md
    docs/redteaming/mission.md
 
+----
+
+Blue teaming
+-----------------------------------
+
+Blue teams have to deal with organisational policies, rules, and politics, understaffing, insufficient budgets, employees who undo and undermine security efforts, and a leadership not taking the threats seriously enough. Oh, and the "security debt", the buildup of application and infrastructure vulnerabilities in an IT environment that can increase the odds of a breach and impede effective cyber defense. Many burnouts.
+
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Security operations
 
    docs/soc/README.md
    docs/soc/plan.md
@@ -78,25 +108,50 @@ it serious unseriousness) to maintain our sanity when in paranoia mode.
    docs/soc/soc.md
    docs/soc/metrics.md
 
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Bug bounty hunting
+----
 
-   docs/bbh/README.md
-   docs/bbh/state.md
-   docs/bbh/platforms.md
-   docs/bbh/private.md
-   docs/bbh/self.md
-   docs/bbh/why.md
-   docs/bbh/assets.md
-   docs/bbh/scope.md
+Purple teaming
+--------------------------
+
+Purple teaming is one of the most effective ways to help grow your defenses quickly and help improve the maturity of the organisation quickly, especially if you have an internal offensive security team that can work with the blue team throughout.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Writeups
 
-   docs/writeups/README.md
+   docs/purpleteaming/README.md
+   docs/purpleteaming/threat-hunting.md
+   docs/purpleteaming/systems.md
+   docs/purpleteaming/hypervisors.md
+   docs/purpleteaming/iot.md
+   docs/purpleteaming/cloud.md
+
+----
+
+Hiking trails
+----------------------------------
+
+There is no shortage of cybersecurity training and certifications for security professionals, yet most programs are focused on session completion, not outcomes. This outmoded approach to training does not translate to measurable improvements in cybersecurity knowledge, skills, and judgment that lead to long-term resilience.
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+
+   docs/hiking/README.md
+   Hike trails in the forest with experts <https://uu.tymyrddin.dev>
+   Build a testlab based on those trails <https://red.tymyrddin.dev/projects/testlab/en/latest/>
+   Red team writeups <https://red.tymyrddin.dev/>
+   Blue team writeups <https://blue.tymyrddin.dev/>
+   Green team writeups <https://green.tymyrddin.dev/>
+
+----
+
+Colourful teaming does not mean white hat pentesting is useless. We recommend having done enough pentesting and security awareness training before considering alternatives, unless you think you are already the target of an `APT adversary <https://green.tymyrddin.dev/projects/soup/en/latest/docs/apt.html>`_.
+
+We are offering free services to NGO's and activists. And free does not necessarily mean our services are of low value. On the contrary. `Contact us <https://uu.tymyrddin.dev/registration/>`_ in the Unseen University to discover how we could work together.
+
+----
+
+You do not have to wear a pointy hat or grow a beard. We just use unserious seriousness (or was it serious unseriousness) to maintain our sanity when in paranoia mode.
