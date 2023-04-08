@@ -14,8 +14,11 @@ Build skills for the wilderness by learning from the experts on safe trails (lab
 
 ## How?
 
-* [Hike trails in the forest with experts](https://uu.tymyrddin.dev/)
-* [Build a testlab based on those trails](red-testlab:index)
-* [Red team writeups](red:index)
-* [Blue team writeups](blue:index)
-* [Green team writeups](green:index)
+* [Hike trails in the forest with experts](https://uu.tymyrddin.dev/labs/)
+* [Catch some free and low-budget train rides](https://uu.tymyrddin.dev/courses/)
+* [Play some tabletop games underway](https://uu.tymyrddin.dev/games/)
+* [Build disposable pentesting environments based on your travels](red-testlab:index)
+* [Code your own tools](https://uu.tymyrddin.dev/scripts/)
+* [Make red team writeups](red:index)
+* [Make blue team writeups](blue:index)
+* [Make green team writeups](green:index)

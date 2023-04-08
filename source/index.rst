@@ -5,7 +5,7 @@ The forest, huge and wild, a digital landscape formed by nature's own processes 
 
 ----
 
-Security awareness program professionals are constrained in their ability to execute. The top three limitations are lack of leadership support, limited budgets and lack of time. Of the three, lack of leadership support seems to have the greatest impact on awareness program maturity, followed immediately by the inability to engage employees and change behaviours, indicating that programs are not "sticking" the way leaders would like.
+Security awareness program professionals are often too constrained in their ability to execute. In which case, the top three limitations are usually lack of leadership support, limited budgets and lack of time. Of the three, lack of leadership support seems to have the greatest impact on awareness program maturity, followed immediately by the inability to engage employees and change behaviours, indicating that programs are not "sticking" the way leaders would like.
 
 .. toctree::
    :glob:
@@ -60,7 +60,7 @@ Bug bounty programs allow companies to leverage the hacker community to improve 
 
 ----
 
-A gray hat red team does have to consider legal and corporate policies when operating. This has implications on how realistic certain scenarios can be played out – but certain scenarios should be at least played out on paper via tabletop exercises.
+A gray hat red team can better simulate real attackers, yet does have to consider legal and corporate policies when operating. This has implications on how realistic certain scenarios can be played out – and some scenarios can be played out on paper or via tabletop exercises.
 
 .. toctree::
    :glob:
@@ -82,7 +82,7 @@ A gray hat red team does have to consider legal and corporate policies when oper
 
 ----
 
-Blue teams have to deal with organisational policies, rules, and politics, understaffing, insufficient budgets, employees who undo and undermine security efforts, and a leadership not taking the threats seriously enough. Oh, and the "security debt", the buildup of application and infrastructure vulnerabilities in an IT environment that can increase the odds of a breach and impede effective cyber defense. Many burnouts.
+Blue teams may have to deal with organisational policies, rules, and politics, understaffing, insufficient budgets, employees who undo and undermine security efforts, and a leadership not taking the threats seriously enough. In which case, there is likely a "security debt", a buildup of application and infrastructure vulnerabilities in an IT environment that can increase the odds of a breach and impede effective cyber defense.
 
 .. toctree::
    :glob:
@@ -100,7 +100,7 @@ Blue teams have to deal with organisational policies, rules, and politics, under
 
 ----
 
-Purple teaming is one of the most effective ways to help grow your defenses quickly and help improve the maturity of the organisation quickly, especially if you have an internal offensive security team that can work with the blue team throughout.
+Purple teaming is one of the most effective ways to help grow your defenses quickly and help improve the maturity of the organisation quickly, especially when having an internal offensive security team that can work with the blue team throughout.
 
 .. toctree::
    :glob:
@@ -126,18 +126,31 @@ There is no shortage of cybersecurity training and certifications for security p
    :caption: Hiking trails
 
    docs/hiking/README.md
-   Hike trails in the forest with experts <https://uu.tymyrddin.dev>
-   Build a testlab based on those trails <https://red.tymyrddin.dev/projects/testlab/en/latest/>
-   Red team writeups <https://red.tymyrddin.dev/>
-   Blue team writeups <https://blue.tymyrddin.dev/>
-   Green team writeups <https://green.tymyrddin.dev/>
+   Hike trails in the forest with experts <https://uu.tymyrddin.dev/labs/>
+   Catch some free and low-budget train rides <https://uu.tymyrddin.dev/courses/>
+   Play some tabletop games underway <https://uu.tymyrddin.dev/games/>
+   Build disposable pentesting environments based on your travels <https://red.tymyrddin.dev/projects/testlab/en/latest/>
+   Code your own tools <https://uu.tymyrddin.dev/scripts/>
+   Make red team writeups <https://red.tymyrddin.dev/>
+   Make blue team writeups <https://blue.tymyrddin.dev/>
+   Make green team writeups <https://green.tymyrddin.dev/>
 
 ----
 
-Colourful teaming does not mean white hat pentesting is useless. We recommend having done enough pentesting and security awareness training before considering alternatives, unless you think you are already the target of an `APT adversary <https://green.tymyrddin.dev/projects/soup/en/latest/docs/apt.html>`_.
+Our services
+---------------------------------
 
-We are offering free services to NGO's and activists. And free does not necessarily mean our services are of low value. On the contrary. `Contact us <https://uu.tymyrddin.dev/registration/>`_ in the Unseen University to discover how we could work together.
+Large organisations and corporations can afford to use colourful teaming (and even then, the budget is often too small). Smaller organisations usually can not afford the costs at all. And there is no one-size-fits-all. Currently perceived states differ, even within an organisation, and a feasible and agreed-upon desired state is essential for any colourful program.
+
+As long as there are vulnerabilities, users are at risk. Therefore, it is incumbent on security professionals and researchers to prevent, find, and fix these vulnerabilities before an attacker takes advantage of them, harming the user.
+
+We offer low-budget support for programs with similar security stances. And depending on our current financial state, we are even offering free services to not-for-profits and activists. Low-budget or free does not necessarily mean our services are of low value. On the contrary.
+
+`Contact us <https://uu.tymyrddin.dev/registration/>`_ in the Unseen University to discover how we could work together.
 
 ----
+
+Important note
+---------------------------------
 
 You do not have to wear a pointy hat or grow a beard. We just use unserious seriousness (or was it serious unseriousness) to maintain our sanity when in paranoia mode.
