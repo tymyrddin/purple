@@ -37,7 +37,7 @@ Conventional pentesting covers the finding of technical vulnerabilities, as many
    docs/pentesting/roe.md
    docs/pentesting/targets.md
    docs/pentesting/scheduling.md
-   Cloud pentesting policy restrictions <https://red.tymyrddin.dev/projects/cloud/en/latest/docs/challenges/policies.html>
+   Cloud pentesting policy restrictions <https://cloud.tymyrddin.dev/docs/notes/challenges>
 
 ----
 
