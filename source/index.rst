@@ -129,7 +129,7 @@ There is no shortage of cybersecurity training and certifications for security p
    Hike trails in the forest with experts <https://uu.tymyrddin.dev/labs/>
    Catch some free and low-budget train rides <https://uu.tymyrddin.dev/courses/>
    Play some tabletop games underway <https://uu.tymyrddin.dev/games/>
-   Build disposable pentesting environments based on your travels <https://red.tymyrddin.dev/projects/testlab/en/latest/>
+   Build disposable environments based on your travels <https://testlab.tymyrddin.dev/>
    Code your own tools <https://uu.tymyrddin.dev/scripts/>
    Make red team writeups <https://red.tymyrddin.dev/>
    Make blue team writeups <https://blue.tymyrddin.dev/>
