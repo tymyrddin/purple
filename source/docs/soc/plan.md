@@ -14,4 +14,4 @@ in your organisation:
 * Connect with executives.
 * Bring concrete examples of how this part of the cybersecurity strategy can make a real impact, and a back of
 the envelope ROI.
-* Do not use any technical lingo and/or [alphabet soup](green-soup:index). Spell it out.
+* Do not use any technical lingo and/or alphabet soup. Spell it out.

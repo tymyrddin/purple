@@ -16,7 +16,7 @@ And it is expensive. The cost for hardware for sensors and software you need pal
 the people are hard to find because the required security analysis skill set is in high demand - shortage reaching 
 1.8 million professionals. 
 
-Luckily a lot of people are seriously [training for these roles, in nose-down, practical ways](https://tryhackme.com/), which 
-eventually will bring the price down. See some SOC related writeups in [Blue team](blue:index).
+Luckily a lot of people are seriously training for these roles, in nose-down, practical ways, which 
+eventually will bring the price down. See some SOC related writeups in Blue team.
 
 You can also "share resources" by hiring a Managed Security Services company. It may be cheaper. Or not.

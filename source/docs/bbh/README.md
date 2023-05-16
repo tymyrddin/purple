@@ -6,7 +6,7 @@ A bug bounty program is an initiative in which a company invites hackers to atta
 
 ## Why?
 
-To embrace the hacker spirit and [leverage the hacking skills of independent individuals](red-bbh:index). 
+To embrace the hacker spirit and leverage the hacking skills of independent individuals. 
 
 ## How?
 

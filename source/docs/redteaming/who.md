@@ -4,14 +4,14 @@ The teams are sometimes called "cells".
 
 * The purple team includes people from the organisation, and divides into red and blue subteams. Team members may flip 
 roles rather than exclusively focusing on red or blue, helping to keep their skills flexible.
-* [The red team](red:index) simulates the TTP's of a most likely adversary and tries to get at the [crown jewels](flags.md) 
+* The red team simulates the TTP's of a most likely adversary and tries to get at the [crown jewels](flags.md) 
 (usually a flag).
-* [The blue team](blue:index) are the defenders, trying to detect the red team and responding to their actions.
+* The blue team are the defenders, trying to detect the red team and responding to their actions.
 * The white team is the referee between red team activities and blue cell responses. Its people control the engagement 
 environment/network, monitors adherence to the Rules of Engagement, coordinates activities required to achieve 
 engagement goals, and correlates red cell activities with defensive actions. This ensures the engagement is conducted 
 without bias to either side. 
-* [The green team](green:index) documents what happens for a better understanding of the unseen logic of the forest, 
+* The green team documents what happens for a better understanding of the unseen logic of the forest, 
 with intent of creating human-readable threat modelling.
 
 More in [redteam.guide →](https://redteam.guide/docs/definitions/)
