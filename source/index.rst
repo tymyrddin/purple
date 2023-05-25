@@ -91,6 +91,8 @@ Blue teams may have to deal with organisational policies, rules, and politics, u
    :caption: Blue teaming
 
    docs/soc/README.md
+   docs/soc/law.md
+   docs/soc/challenges.md
    docs/soc/plan.md
    docs/soc/sirt.md
    docs/soc/communications.md

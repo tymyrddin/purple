@@ -12,6 +12,8 @@ panic). And a SOC to defend against security breaches and actively isolate and m
 
 ## How?
 
+* [Digital forensics law matters](law.md)
+* [Digital forensics problems and challenges](challenges.md)
 * [Develop an incident response plan](plan.md)
 * [Set up an incident response team](sirt.md)
 * [Communications are key](communications.md)
