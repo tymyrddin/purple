@@ -66,7 +66,7 @@ A gray hat red team can better simulate real attackers, yet does have to conside
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Red teaming
+   :caption: Red team
 
    docs/redteaming/README.md
    docs/redteaming/flags.md
@@ -88,7 +88,7 @@ Blue teams may have to deal with organisational policies, rules, and politics, u
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Blue teaming
+   :caption: Blue team
 
    docs/soc/README.md
    docs/soc/law.md
@@ -108,7 +108,7 @@ Purple teaming is one of the most effective ways to help grow your defenses quic
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Purple teaming
+   :caption: Purple team
 
    docs/purpleteaming/README.md
    docs/purpleteaming/threat-hunting.md
