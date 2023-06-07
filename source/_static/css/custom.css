@@ -39,7 +39,9 @@ a:hover {
   background: #AA00FF;
 }
 
-
+.rst-content code.literal, .rst-content tt.literal {
+  color: #AA00FF;
+}
 
 /* Breadcrumbs as navbar
 ***********************************/

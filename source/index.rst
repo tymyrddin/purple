@@ -142,13 +142,13 @@ There is no shortage of cybersecurity training and certifications for security p
 Our services
 ---------------------------------
 
-Large organisations and corporations can afford to use colourful teaming (and even then, the budget is often too small). Smaller organisations usually can not afford the costs at all. And there is no one-size-fits-all. Currently perceived states differ, even within an organisation, and a feasible and agreed-upon desired state is essential for any colourful program.
+Large organisations and corporations can afford to use colourful teaming (and even then, the budget is often too small). Smaller organisations can probably not afford such costs at all. And there is no one-size-fits-all. Currently perceived states differ, even within an organisation, making it impossible to see a common ground to start from. And a feasible and agreed-upon desired state is also essential for any colourful program.
 
-As long as there are vulnerabilities, users are at risk. Therefore, it is incumbent on security professionals and researchers to prevent, find, and fix these vulnerabilities before an attacker takes advantage of them, harming the user.
+Meanwhile, as long as there are vulnerabilities, users are at risk. It is incumbent on security professionals and researchers to prevent, find, and fix these vulnerabilities, before an attacker takes advantage and harms users.
 
-We offer low-budget support for programs with similar security stances. And depending on our current financial state, we are even offering free services to not-for-profits and activists. Low-budget or free does not necessarily mean our services are of low value. On the contrary.
+We offer low-budget support for programs with similar security stances. Depending on our current financial state, we are even offering free (gratuit) services to not-for-profits and activists.
 
-`Contact us <https://uu.tymyrddin.dev/registration/>`_ in the Unseen University to discover how we could work together.
+Low-budget or free does not necessarily mean services are of low value. On the contrary. `Contact us in the Unseen University <https://uu.tymyrddin.dev/registration/>`_ to discover how we could work together.
 
 ----
 
