@@ -4,8 +4,6 @@ From architecture analysis to VM escape exploits and defensive hardening
 
 ## Hypervisor fundamentals
 
-Key concepts
-
 ***x86 Virtualization (MITRE: [T1496](https://attack.mitre.org/techniques/T1496/))***: CPU rings, VT-x/AMD-V extensions, EPT/NPT
 
 Tool: Check virtualization support:

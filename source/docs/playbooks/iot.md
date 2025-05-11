@@ -223,5 +223,5 @@ Joint report with:
 
 Suggestions for:
 
-Red: Zigbee clustering attacks: Exploit poorly implemented ZCL (Zigbee Cluster Library).
-Blue: Honeypot Automation: Integrate HoneyThing with TheHive for incident response.
+* Red: Zigbee clustering attacks: Exploit poorly implemented ZCL (Zigbee Cluster Library).
+* Blue: Honeypot automation: Integrate HoneyThing with TheHive for incident response.
