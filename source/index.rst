@@ -9,11 +9,13 @@ Since the Red team is usually a somewhat messy fun of offensive operations, and 
 detection, defence, and incident response, the Purple team should own operational synergy: they turn lessons from
 attack and defence into better strategy, tooling, and training.
 
+Purple is the force multiplier that turns adversarial insights into resilient defences and strategic growth.
+
 .. toctree::
    :glob:
    :maxdepth: 2
    :includehidden:
-   :caption: Purple is the force multiplier that turns adversarial insights into resilient defences and strategic growth.
+   :caption: Fusing attack and defense into stronger security:
 
    docs/testing/index
    docs/feedback/index

@@ -1,4 +1,4 @@
-# Threat hunting
+# Threat hunting first
 
 Unlike the Security Operations Center (SOC) and Incident Response (IR) teams, threat hunters not only respond 
 to threats; they actively search for them. This process involves making hypotheses on the existence of potential 

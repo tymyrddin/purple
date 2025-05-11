@@ -11,4 +11,7 @@ Metrics and maturity models
    :includehidden:
    :caption: The mapmakers, charting where everyone stands.
 
-   blue.md
+   detection.md
+   simulation.md
+   maturity.md
+   operationalising.md

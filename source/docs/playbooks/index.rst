@@ -1,4 +1,4 @@
-Playbook development (under construction)
+Playbook development
 ===============================================
 
 Wake up to a constantly changing environment, with new threats, tactics, and technologies, to new laws, regulations,
@@ -15,7 +15,7 @@ still systems, and hypervisors, IoT, and the cloud.
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: The archivists and scribes of the ecosystem.
+   :caption: The archivists and scribes of the ecosystem made some examples:
 
    threat-hunting.md
    systems.md

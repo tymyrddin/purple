@@ -9,3 +9,7 @@ Feedback loops
    :maxdepth: 1
    :includehidden:
    :caption: Pollinators — spreading insight between wild creatures and cautious gardeners.
+
+   red-to-blue.md
+   blue-to-red.md
+   automation.md
