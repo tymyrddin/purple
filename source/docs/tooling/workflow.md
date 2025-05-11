@@ -1,6 +1,6 @@
 # Automation workflow
 
-```
+```text
   +---------------------+       +---------------------+       +---------------------+
   |                     |       |                     |       |                     |
   |   RED TEAM TOOLS    |------>|   DETECTION ENGINE  |------>|   SIEM / DASHBOARDS |

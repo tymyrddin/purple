@@ -10,3 +10,6 @@ Testing and validation
    :maxdepth: 1
    :includehidden:
    :caption: The botanists of the forest, running controlled experiments.
+
+   scenario.md
+   model.md

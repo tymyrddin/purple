@@ -6,10 +6,10 @@ Functionally, a Purple Team isn't just a colour blend — it's the collaborative
 meaningfully.
 
 Since the Red team is usually a somewhat messy fun of offensive operations, and the Blue is likely structured around
-detection, defence, and incident response, the Purple team should own operational synergy: they turn lessons from
-attack and defence into better strategy, tooling, and training.
+detection, defence, and incident response, for best results, the Purple team can own operational synergy: turning
+lessons from attack and defence into better strategy, tooling, and training.
 
-Purple is the force multiplier that turns adversarial insights into resilient defences and strategic growth.
+Purple is the force multiplier that can turn adversarial insights into resilient defences and strategic growth.
 
 .. toctree::
    :glob:

@@ -12,3 +12,7 @@ The lore-keepers — telling cautionary tales and sharing wisdom to guide both s
    :maxdepth: 1
    :includehidden:
    :caption: Bridging knowledge gaps through cross-team training.
+
+   cross.md
+   ctf.md
+   rotation.md
