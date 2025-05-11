@@ -9,13 +9,11 @@ Since the Red team is usually a somewhat messy fun of offensive operations, and 
 detection, defence, and incident response, for best results, the Purple team can own operational synergy: turning
 lessons from attack and defence into better strategy, tooling, and training.
 
-Purple is the force multiplier that can turn adversarial insights into resilient defences and strategic growth.
-
 .. toctree::
    :glob:
    :maxdepth: 2
    :includehidden:
-   :caption: Fusing attack and defense into stronger security:
+   :caption: Fusing attack and defense into stronger security.
 
    docs/testing/index
    docs/feedback/index
@@ -24,17 +22,4 @@ Purple is the force multiplier that can turn adversarial insights into resilient
    docs/metrics/index
    docs/tooling/index
    docs/transfer/index
-
-----
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Other teams
-
-   Red team <https://red.tymyrddin.dev/>
-   Blue team <https://blue.tymyrddin.dev/>
-   Green team <https://green.tymyrddin.dev/>
-
 
