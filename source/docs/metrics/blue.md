@@ -1,4 +1,4 @@
-# Measuring team effectiveness
+# Measuring blue team effectiveness
 
 ## SOC
 
