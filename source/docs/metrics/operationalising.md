@@ -1,6 +1,6 @@
-# Operationalizing Metrics
+# Operationalising metrics
 
-## Quarterly Improvement Cycle
+## Quarterly improvement cycle
 
 1. Baseline assessment
    * Run [Atomic Red Team tests](https://atomicredteam.io/) against current defenses.
