@@ -1,4 +1,4 @@
-Purple team (under construction)
+Purple team
 ======================================================
 
 Functionally, a Purple Team isn't just a colour blend — it's the collaborative glue between Red (attackers) and Blue
