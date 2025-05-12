@@ -22,4 +22,6 @@ lessons from attack and defence into better strategy, tooling, and training.
    docs/metrics/index
    docs/tooling/index
    docs/transfer/index
+   docs/red/index
+   docs/blue/index
 
