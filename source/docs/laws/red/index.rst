@@ -1,4 +1,4 @@
-Laws of the forest for the red team
+Red team
 ====================================
 
 Red teaming is a term borrowed from the military. In military exercises, a group would take the role of a red team

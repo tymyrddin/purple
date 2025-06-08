@@ -1,4 +1,4 @@
-Laws of the forest for the blue team
+Blue team
 =====================================
 
 Incidents do and will continue to happen. Set up a security incident response team (SIRT). And a security 
