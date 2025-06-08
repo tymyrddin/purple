@@ -18,7 +18,7 @@ support by leadership, people are still the weakest link. Raising security aware
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Bridging knowledge gaps through engaging security awareness, and empowering organisations to turn human risk into resilience
+   :caption: Bridging knowledge gaps through engaging security awareness, and empowering organisations to turn human risk into resilience:
 
    ai-deepfakes.md
    supply-chain.md
