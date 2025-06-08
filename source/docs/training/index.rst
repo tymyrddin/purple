@@ -1,4 +1,4 @@
-Cross training and knowledge transfer
+Cross-team training
 ===========================================
 
 The lore-keepers — telling cautionary tales and sharing wisdom to guide both sides.
@@ -13,6 +13,6 @@ The lore-keepers — telling cautionary tales and sharing wisdom to guide both s
    :includehidden:
    :caption: Bridging knowledge gaps through cross-team training.
 
-   cross.md
-   ctf.md
-   rotation.md
+   telemetry.md
+   tools-exchange.md
+   logs.md

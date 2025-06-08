@@ -11,4 +11,7 @@ Tooling and automation
    :includehidden:
    :caption: The engineers — building bridges between chaos and order.
 
-   *
+   workflow.md
+   categories.md
+   siem.md
+   sandboxed-clones.md

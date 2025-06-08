@@ -1,5 +1,5 @@
 Organisational knowledge transfer
-===========================================
+=============================================
 
 Organisations often struggle with peoples' engagement in information security and privacy,
 resulting in people not being aware of the important role they play.
@@ -20,7 +20,11 @@ support by leadership, people are still the weakest link. Raising security aware
    :includehidden:
    :caption: Bridging knowledge gaps through engaging security awareness, and empowering organisations to turn human risk into resilience
 
-   identify.md
-   guides.md
-   workshops.md
-   simulations.md
+   ai-deepfakes.md
+   supply-chain.md
+   biometrics.md
+   manipulation.md
+   drills.md
+   threat-hunting.md
+   rotation.md
+

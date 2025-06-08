@@ -15,13 +15,14 @@ lessons from attack and defence into better strategy, tooling, and training.
    :includehidden:
    :caption: Fusing attack and defense into stronger security.
 
+   docs/red/index
+   docs/blue/index
    docs/testing/index
    docs/feedback/index
    docs/playbooks/index
-   docs/training/index
    docs/metrics/index
    docs/tooling/index
    docs/transfer/index
-   docs/red/index
-   docs/blue/index
+   docs/training/index
+
 
