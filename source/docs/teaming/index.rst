@@ -6,6 +6,10 @@ refining strategies, and coordinating exercises, it ensures that attacks inform 
 against future attacks. This collaborative approach builds resilient, high-performing organisations capable of
 adapting to evolving threats.
 
+Since the Red team is usually a somewhat messy fun of offensive operations, and the Blue is likely structured
+around detection, defence, and incident response. For best results, the Purple team can own operational synergy:
+turning lessons from attack and defence into better strategy, tooling, and training.
+
 .. toctree::
    :glob:
    :maxdepth: 2
