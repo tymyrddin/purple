@@ -11,7 +11,7 @@ lessons from attack and defence into better strategy, tooling, and training.
 
 .. toctree::
    :glob:
-   :maxdepth: 2
+   :maxdepth: 1
    :includehidden:
    :caption: Fusing attack and defense into stronger security.
 
@@ -23,5 +23,6 @@ lessons from attack and defence into better strategy, tooling, and training.
    docs/tooling/index
    docs/transfer/index
    docs/training/index
+   docs/services/index
 
 
