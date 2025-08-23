@@ -28,5 +28,5 @@ including eyelids. When the teams are combined, job rotation is possible, and ma
 
 ## Resources
 
-* [Pros and Cons of Outsourced SOC](https://www.datashieldprotect.com/blog/pros-and-cons-of-an-outsourced-soc)
+* [Pros and Cons of Outsourced SOC](https://computertech.com/blog/pros-cons-outsourced-soc)
 * [Pros and cons of an outsourced SOC vs. in-house SOC](https://www.techtarget.com/searchsecurity/tip/In-house-vs-outsourced-cybersecurity-operations-center-capabilities)
