@@ -137,4 +137,4 @@ Participants gain practical experience in both attacking and defending modern en
 
 --- 
 
-Note: All exercises use isolated lab environments with no external connectivity. Sample malicious code is neutered and used for educational purposes only.
+Note: All exercises use isolated lab environments with no external connectivity. Sample malicious code has to be neutered and used for educational purposes only.

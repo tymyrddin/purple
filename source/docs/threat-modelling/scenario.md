@@ -177,7 +177,7 @@ Output into:
 This shows how red and blue teams can collaborate using appropriate tools for each phase of the framework:
 
 | Phase         | Red team tools                               | Blue team tools                          |
-| ------------- | -------------------------------------------- | ---------------------------------------- |
+|---------------|----------------------------------------------|------------------------------------------|
 | **Planning**  | MITRE ATT\&CK Navigator, Threat reports      | OWASP Threat Model, MITRE D3FEND         |
 | **Execution** | Atomic Red Team, Caldera, Stratus Red Team   | SIEM (Splunk, Elastic, Sentinel)         |
 | **Analysis**  | VECTR, Caldera C2 logs, Invoke-Atomic output | EDR (CrowdStrike, Defender, SentinelOne) |

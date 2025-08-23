@@ -16,8 +16,5 @@ panic). And a SOC to defend against security breaches and actively isolate and m
    law.md
    challenges.md
    plan.md
-   sirt.md
    communications.md
    nutshell.md
-   soc.md
-   metrics.md

@@ -6,7 +6,7 @@ Depending on size of the organisation, these roles may be beneficial:
 * Security engineers are usually software and/or hardware specialists, and are in charge of maintaining and updating tools and systems. They are also responsible for documentation other team members might need, such as digital security protocols.
 * A direct manager is responsible for the team, directing operations and responsible for communications; hiring; training; and creating and executing the chosen security strategy. They also direct and orchestrate responses to major threats.
 * A chief information security officer (CISO) is responsible for creating security-related strategies, policies, and operations. They work closely with CEO, senior management, HR, legal departments, and inform management on security issues.
-* A leader of incident response (IR) is responsible for managing incidents, and [communicating security requirements](communications.md) to the organisation in the case of a data breach.
+* A leader of incident response (IR) is responsible for managing incidents, and [communicating security requirements](../teaming/blue/communications.md) to the organisation in the case of a data breach.
 
 ## Difference between SIRT and SOC
 
@@ -14,7 +14,7 @@ An [incident response team](sirt.md) (alias CERT or CIRT) is responsible for rec
 security incidents. SIRTs can be a part of a SOC or can stand alone.
 
 While the core function of a SIRT is to minimize and manage damage caused by an incident, it does not just deal with 
-the attack itself; they also [communicate with clients, executives, and the board](communications.md).
+the attack itself; they also [communicate with clients, executives, and the board](../teaming/blue/communications.md).
 
 ## Considerations
 
