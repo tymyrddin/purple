@@ -1,10 +1,10 @@
-# Logs literacy (3-hour war games)
+# Logs: where the bodies are buried (3-hour simulation)
 
 Format: Competitive red team/blue team exercise with live attack simulation and forensic analysis  
 
 ---
 
-## Workshop Structure  
+## Workshop structure  
 
 Duration: 3 hours (1.5 hours attack, 1.5 hours defence & debrief)  
 
