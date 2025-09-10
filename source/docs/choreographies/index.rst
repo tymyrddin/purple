@@ -1,21 +1,23 @@
 Other facilitated choreographies
 ============================================
 
-Starts with desired state and work in reverse towards currently-perceived-state to identify the actions, dependencies,
-and potential obstacles along the way. We provide stepwise methodologies, guides, and templates to anticipate
-challenges and plan contingencies. This ensures your organisation progresses effectively toward its goals while
-avoiding common pitfalls.
+Instead of handing out rigid playbooks, we work with teams through choreographies: stepwise, face-to-face movements
+that surface obstacles before they appear. These are not the familiar linear processes with their tidy diagrams and
+false sense of certainty. They are looping and adaptive: as you move through them, new dependencies, blind spots,
+or risks will emerge, and the choreography shifts in response.
 
-Note: These are not a linear processes. They are iterative and dynamic: as you walk through them, new dependencies,
-risks, or insights may emerge, requiring adjustments. The process loops, revisits, and adapts continuously
-rather than following a straight line. Nor does one go through them alone. Hence the rewording to "choreographies".
+What sets them apart is the inclusion of what most frameworks ignore—obliviousness and congruence in scenario
+planning, timelines that reflect human energy rather than just project milestones, and human-based obstacle avoidance
+steering built in from the very start. And because no one does this alone, “choreographies” emphasises the
+collaborative nature: coordinated, rehearsed, and adjusted together, in the room, not on a screen.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Map the steps needed to overcome obstacles before they occur:
+   :caption: And once underway, without us needing to stay in the room:
 
+   retrospectives.md
    scenario-planning.md
    backward-planning.md
-   retrospectives.md
+
