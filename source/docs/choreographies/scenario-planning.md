@@ -1,4 +1,4 @@
-# Scenario planning (looking forward) sketch
+# Scenario planning and looking forward
 
 *Explore plausible futures, stress-test strategies, and spot potholes before you drive into them—always face-to-face, collaboratively, and with what most digital frameworks ignore.*
 
