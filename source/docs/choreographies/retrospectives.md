@@ -1,5 +1,7 @@
 # Temperature reading retrospectives & continuous learning
 
+![A large, realistic diagram drawn on a white wall. The top half is a horizontal timeline handwritten labeled 'Timeline of Events', filled with a dense cluster of multi-colored sticky notes. The bottom half is a chart hand-written titled 'Energy Timeline', featuring seven horizontally distinct, hand-drawn, squiggly lines, each in a different colour, showing dramatic rises and sharp falls. The style is photorealistic, with sharp focus on the detailed textures of the paper and ink.](/_static/images/retrospectives.png)
+
 *Inspired by Virginia Satir’s Temperature Reading, expanded with timelines for real organisational retrospectives*
 
 This choreography combines a factual sequence of events, the team’s shifting energy, and a structured reflection 

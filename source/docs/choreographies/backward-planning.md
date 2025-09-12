@@ -1,5 +1,7 @@
 # Backward planning with obstacle avoidance
 
+![A wall-sized whiteboard displaying a backward planning process diagram. On the left, a box labeled "Currently Perceived State" is filled with extremely chaotically placed blue sticky notes with scribbles. On the right, a box labeled "Desired State" is filled with much less chaotically placed yellow sticky notes with scribbles.](/_static/images/backward-planning.png)
+
 *Work backwards from your goals to surface dependencies, anticipate obstacles, and design smarter steps—always 
 face-to-face, collaboratively, and with what most frameworks miss.*
 
@@ -10,7 +12,7 @@ human realities often ignored: energy, timing, and blind spots, ensuring plans a
 
 ## The flow
 
-1. **Define the desired state** — clarify what success looks like and how you will recognise it.
+1. **Define the states** — describe currently perceived state and clarify what success looks like and how to recognise it.
 2. **Identify milestones & dependencies** — map what must come before each milestone and who or what it relies on.
 3. **Surface obstacles** — anticipate risks, blockers, and challenges along the path.
 4. **Develop contingencies** — design flexible strategies to navigate each obstacle.
