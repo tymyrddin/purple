@@ -1,5 +1,7 @@
 # Scenario planning and looking forward
 
+![A large, wooden table dominates the center of a modern, sunlit co-working space, adorned with hand-drawn maps, vibrant flip charts covered in colourful sticky notes, and team members dressed in casual, yet professional attire, leaning over in engaged discussion, surrounded by large windows flooding ...](/_static/images/scenario-planning-and-foresight.png)
+
 *Explore plausible futures, stress-test strategies, and spot potholes before you drive into them—always face-to-face, collaboratively, and with what most digital frameworks ignore.*
 
 This choreography helps teams peek around the corner of tomorrow while acknowledging human limits, 
