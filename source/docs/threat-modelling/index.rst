@@ -13,5 +13,9 @@ strengthen its defensive posture.
    :caption: Understand and anticipate the threats facing your organisation:
 
    choreography.md
+   adversary-persona-workshop.md
+   attack-path-mapping.md
+   operational-impact-exercise.md
+   bringing-it-together.md
    scenario.md
    model.md
