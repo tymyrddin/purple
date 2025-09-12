@@ -13,6 +13,7 @@ organisation, integrating security and organisational development at every stage
 
    docs/threat-modelling/index
    docs/choreographies/index
+   docs/learning/index
    docs/sirt-and-soc/index
    docs/teaming/index
-   docs/learning/index
+
