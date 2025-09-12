@@ -11,6 +11,7 @@ Practical exercises for digital spaces, simulated adversaries, turbulent scenari
 
    threat-modelling/index
    cross-training/index
+   culture-and-awareness/index
    Guerrilla gardeners @Privacy greenhouse <https://green.tymyrddin.dev/docs/l-space/>
    Myrddin’s menagerie @Red team <https://red.tymyrddin.dev/docs/services>
    Stormforge @Blue team <https://blue.tymyrddin.dev/docs/stormforge/>
