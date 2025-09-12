@@ -22,3 +22,10 @@ Each step produces valuable insight on its own, yet together they create a robus
 practice. By making assumptions, gaps, and incongruences visible, teams gain confidence in navigating 
 uncertainty—without the illusion of omniscience.
 
+```{raw} html
+        <div class="page__article">
+            <div class="page-post-card__link">
+                <a href="https://tymyrddin.dev/contact/">Curious where to begin? Use a free connection call to get a taste of strategic foresight.</a>
+            </div>
+        </div>
+```

@@ -20,3 +20,11 @@ This set of exercises provides structured templates, scenario prompts, and pract
    bringing-it-together.md
    crafting-scenarios.md
    building-model.md
+
+.. raw:: html
+
+        <div class="page__article">
+            <div class="page-post-card__link">
+                <a href="https://tymyrddin.dev/contact/">Let's have an honest conversation to explore if working together is the right next step for your team.</a>
+            </div>
+        </div>

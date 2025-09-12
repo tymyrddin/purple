@@ -23,3 +23,11 @@ collaborative playbooks, teams capture insights immediately, reflect on lessons 
    live-experiments.md
    rapid-retrospectives.md
    collaborative-playbooks.md
+
+.. raw:: html
+
+        <div class="page__article">
+            <div class="page-post-card__link">
+                <a href="https://tymyrddin.dev/contact/">Experience my facilitation approach firsthand in a free connection call. It's the best way to feel if it's the right fit for your team.</a>
+            </div>
+        </div>
