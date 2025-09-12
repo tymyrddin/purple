@@ -1,4 +1,4 @@
-Threat modelling
+Learning by doing
 ===============================
 
 Identify what is at risk, who the adversaries are, and how attacks could unfold.
@@ -10,10 +10,6 @@ This set of exercises provides structured templates, scenario prompts, and pract
    :includehidden:
    :caption: By turning potential vulnerabilities into concrete scenarios and an actionable model, your team can prioritise resources effectively and strengthen operational resilience:
 
-   choreography.md
-   adversary-persona-workshop.md
-   attack-path-mapping.md
-   operational-impact-exercise.md
-   bringing-it-together.md
-   crafting-scenarios.md
-   building-model.md
+   threat-modelling/index
+   cross-training/index
+

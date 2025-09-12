@@ -15,4 +15,4 @@ organisation, integrating security and organisational development at every stage
    docs/choreographies/index
    docs/sirt-and-soc/index
    docs/teaming/index
-   docs/cross-training/index
+   docs/learning/index
