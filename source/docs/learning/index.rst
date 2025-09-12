@@ -4,8 +4,6 @@ Learning by doing
 .. image:: /_static/images/relay.png
   :alt: Multi-skilled team development depicted as a relay race: one runner passes a USB stick to another runner BEHIND her.
 
-
-
 .. toctree::
    :glob:
    :maxdepth: 1
@@ -14,6 +12,7 @@ Learning by doing
 
    threat-modelling/index
    culture-and-awareness/index
+   incident-response/index
    Guerrilla gardeners @Privacy greenhouse <https://green.tymyrddin.dev/docs/l-space/>
    Myrddin’s menagerie @Red team <https://red.tymyrddin.dev/docs/services>
    Stormforge @Blue team <https://blue.tymyrddin.dev/docs/stormforge/>
