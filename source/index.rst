@@ -1,7 +1,7 @@
 Purple team
 ======================================================
 
-We support organisations growing securely, from small start-ups to large enterprises. By combining structured planning, threat modelling,
+We support organisations growing securely, from small startups to scale-ups, and NGO's. By combining structured planning, threat modelling,
 incident response, and team capability building, operations can be made resilient against evolving risks. This approach scales with your
 organisation, integrating security and organisational development at every stage.
 
