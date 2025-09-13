@@ -22,29 +22,29 @@ the gap between what they think they will do and what they actually do.
 
 The workshop is split into modular parts so you can choose the right intensity and duration.
 
-### 1. orientation: set the stage (15–30 minutes)
-*  Quick primer on objectives, safety rules, and timing.  
-*  Decide roles: incident commander, comms lead, technical lead, liaisons, observers.  
-*  Agree the scope and “do not touch” constraints (systems we will not disrupt).
+1. Orientation: set the stage (15–30 minutes)
+   *  Quick primer on objectives, safety rules, and timing.  
+   *  Decide roles: incident commander, comms lead, technical lead, liaisons, observers.  
+   *  Agree the scope and “do not touch” constraints (systems we will not disrupt).
 
-### 2. tabletop: clarify the plan (60–120 minutes)
-*  Scenario briefing: a short, sharp narrative that establishes the incident (service outage, data exfiltration, ransomware, supply chain failure, etc.).  
-*  Guided play: teams talk through decisions round by round. Facilitator introduces complications and new facts to surface dependencies.  
-*  Focus: decision triggers, escalation thresholds, external communications, and cross-team coordination.
+2. Tabletop: clarify the plan (60–120 minutes)
+   *  Scenario briefing: a short, sharp narrative that establishes the incident (service outage, data exfiltration, ransomware, supply chain failure, etc.).  
+   *  Guided play: teams talk through decisions round by round. Facilitator introduces complications and new facts to surface dependencies.  
+   *  Focus: decision triggers, escalation thresholds, external communications, and cross-team coordination.
 
-### 3. live injections: practise under pressure (1–4 hours)
-*  Controlled, safe disruptions are injected into real workflows: simulated alerts, fake press enquiries, a “compromised” account, or a broken vendor API.  
-*  Teams must act in real time, using their normal tools and channels. Observers record timings, handoffs, and friction points.  
-*  Optionally run a parallel red team to escalate pressure and realism.
+3. Live injections: practise under pressure (1–4 hours)
+   *  Controlled, safe disruptions are injected into real workflows: simulated alerts, fake press enquiries, a “compromised” account, or a broken vendor API.  
+   *  Teams must act in real time, using their normal tools and channels. Observers record timings, handoffs, and friction points.  
+   *  Optionally run a parallel red team to escalate pressure and realism.
 
-### 4. comms rehearsal: internal and external (30–60 minutes)
-*  Draft and deliver short internal messages and an external statement. Practice hotlines, executive briefings, and spokesperson handovers.  
-*  Emphasise speed + accuracy: how to avoid releasing unverified details and how to maintain trust under pressure.
+4. Comms rehearsal: internal and external (30–60 minutes)
+   *  Draft and deliver short internal messages and an external statement. Practice hotlines, executive briefings, and spokesperson handovers.  
+   *  Emphasise speed + accuracy: how to avoid releasing unverified details and how to maintain trust under pressure.
 
-### 5. rapid retrospective and action capture (30–45 minutes)
-*  What worked? What surprised us? Where did escalation stall?  
-*  Produce a short, prioritised improvement list: fixes, playbook tweaks, owner and due date.  
-*  Capture a one-page “after action” summary and a one-page immediate playbook for the next 72 hours.
+5. Rapid retrospective and action capture (30–45 minutes)
+   *  What worked? What surprised us? Where did escalation stall?  
+   *  Produce a short, prioritised improvement list: fixes, playbook tweaks, owner and due date.  
+   *  Capture a one-page “after action” summary and a one-page immediate playbook for the next 72 hours.
 
 ## Typical outputs
 
@@ -62,17 +62,17 @@ The workshop is split into modular parts so you can choose the right intensity a
 
 ## Formats & duration
 
-*   primer (90 minutes): tabletop + rapid retro — good for first timers and leadership alignment.  
-*   standard (half-day): tabletop, comms rehearsal, and detailed retro.  
-*   immersive (full day): tabletop + live injections + comms + deep after action.  
-*   enterprise (multi-day): scenario chaining, extended live ops, and playbook design with documentation handover.
+*   Primer (90 minutes): tabletop + rapid retro — good for first timers and leadership alignment.  
+*   Standard (half-day): tabletop, comms rehearsal, and detailed retro.  
+*   Immersive (full day): tabletop + live injections + comms + deep after action.  
+*   Enterprise (multi-day): scenario chaining, extended live ops, and playbook design with documentation handover.
 
 ## Optional add-ons
 
-*   evidence capture & metrics: automated logging of response timings and handoffs.  
-*   custom red team: scripted adversary to increase realism.  
-*   playbook authoring: we turn outputs into polished, team-specific runbooks.  
-*   follow-up coaching: short coaching sessions to embed changes and support adoption.
+*   Evidence capture & metrics: automated logging of response timings and handoffs.  
+*   Custom red team: scripted adversary to increase realism.  
+*   Playbook authoring: we turn outputs into polished, team-specific runbooks.  
+*   Follow-up coaching: short coaching sessions to embed changes and support adoption.
 
 ## Take the next step
 
