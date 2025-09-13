@@ -9,7 +9,7 @@ organisation, integrating security and organisational development at every stage
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Strengthen your organisation, anticipate threats, and build resilient teams that scale with you:
+   :caption: Outsmart threats, fortify teams, scale with confidence:
 
    docs/threat-modelling/index
    docs/choreographies/index
