@@ -1,6 +1,8 @@
 # Rapid resilience review (for execs and boards)
 
-Executives do not need another 100-page risk report gathering dust. They need clarity on what could take the organisation down, and whether the current response is enough. This session strips away jargon and exercises straight into what matters: top risks, resilience posture, and decisions at board level.
+Executives do not need another 100-page risk report gathering dust. They need clarity on what could take the 
+organisation down, and whether the current response is enough. This session strips away jargon and 
+exercises straight into what matters: top risks, resilience posture, and decisions at board level.
 
 ## Core principles
 

@@ -1,11 +1,11 @@
 # Stress-testing resilience under pressure
 
-It is easy to assume your continuity plans will work because they look good on paper.  
-Reality has a nasty habit of tearing those plans apart at the seams.  
+It is easy to assume your continuity plans will work because they look good on paper. Reality has a nasty habit of 
+tearing those plans apart at the seams.  
 
-This workshop is about *trying to break things on purpose* — in a safe environment.  
-By stress-testing your organisation against realistic scenarios, you discover whether your defences, processes,  
-and people can stand up under actual pressure. Better to learn in a room with coffee than in the middle of a crisis.  
+This workshop is about *trying to break things on purpose* — in a safe environment. By stress-testing your 
+organisation against realistic scenarios, you discover whether your defences, processes, and people can stand up 
+under actual pressure. Better to learn in a room with coffee than in the middle of a crisis.  
 
 ## Core principles
 

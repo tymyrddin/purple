@@ -1,6 +1,9 @@
 # Your organisation as an ecosystem
 
-Risks do not sit obediently in silos. They travel through people, technology, suppliers, and regulators with the grace of a domino chain collapsing. Yet most audits pretend each domain can be managed in isolation. This workshop takes a systems view: mapping your organisation as an ecosystem where interdependencies matter more than individual parts.
+Risks do not sit obediently in silos. They travel through people, technology, suppliers, and regulators with the 
+grace of a domino chain collapsing. Yet most audits pretend each domain can be managed in isolation. This workshop 
+takes a systems view: mapping your organisation as an ecosystem where interdependencies matter more than individual 
+parts.
 
 ## Core principles
 

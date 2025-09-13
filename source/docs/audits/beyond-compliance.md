@@ -1,7 +1,10 @@
 # Beyond compliance: building adaptive organisations
 
 Regulatory checklists are useful only until the threat doing the breaking does something the checklist did not anticipate.  
-Attackers do not read ISO standards; they exploit human shortcuts, business incentives, and brittle processes. This workshop helps organisations move from checkbox compliance to genuine resilience — the kind that survives surprises and adapts as the world changes.
+
+Attackers do not read ISO standards; they exploit human shortcuts, business incentives, and brittle processes. This 
+workshop helps organisations move from checkbox compliance to genuine resilience — the kind that survives surprises 
+and adapts as the world changes.
 
 ## Core principles
 
