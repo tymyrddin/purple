@@ -5,7 +5,7 @@ Explore what happens if an attack succeeds.
 ## Why impact exercises matter
 A system failure or breach is not just about data.
 It disrupts operations, affects people, and burns resources.
-Impact drills connect technical attacks to real-world consequences.
+Impact exercises connect technical attacks to real-world consequences.
 
 ## Exercise instructions
 1. Take one attack path from the previous exercise.

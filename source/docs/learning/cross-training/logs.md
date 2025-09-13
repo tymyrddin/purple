@@ -1,8 +1,6 @@
 # Logs: where the bodies are buried (3-hour simulation)
 
-Format: Competitive red team/blue team exercise with live attack simulation and forensic analysis  
-
----
+Format: Competitive red team/blue team exercise with live attack simulation and forensic analysis.
 
 ## Workshop structure  
 

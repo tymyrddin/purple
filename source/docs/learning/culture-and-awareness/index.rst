@@ -13,7 +13,7 @@ Introduce social engineering, phishing simulations, and human factors, tailored 
    :caption: The result is a team that is more aware, better prepared, and able to apply insights directly to real-world operations.
 
    social-engineering-workshop.md
-   The art of looking like you belong <https://red.tymyrddin.dev/docs/in/real/exploits/>
+   Hack the planet? Nah, just hold the door for me <https://red.tymyrddin.dev/docs/in/real/>
 
 .. raw:: html
 

@@ -1,4 +1,4 @@
-Incident response
+Incident response & crisis facilitation
 =============================================
 
 .. image:: /_static/images/incident.png

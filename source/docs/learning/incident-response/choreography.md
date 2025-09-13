@@ -1,10 +1,14 @@
-# Incident response & crisis facilitation
+# Tabletop and live simulations
 
 Tabletop and live simulations let teams test procedures, explore communication strategies, and practise continuity planning.
 
-Most incident exercises are polite performances: a few slides, a scripted scenario, and then everyone goes back to email. That makes for nice PowerPoints but weak preparedness. Real operational resilience demands messy rehearsal: live decisions, messy trade-offs, communication friction, and the human stress that reveals where plans actually break.
+Most incident exercises are polite performances: a few slides, a scripted scenario, and then everyone goes back to email. That makes for 
+nice PowerPoints but weak preparedness. Real operational resilience demands messy rehearsal: live decisions, messy trade-offs, 
+communication friction, and the human stress that reveals where plans actually break.
 
-This workshop is different. It is an adaptable, immersive facilitation process designed to turn plans on paper into practiced habits. We run tabletop war-games for strategic clarity and live injections for process muscle — then we force the team to close the gap between what they think they will do and what they actually do.
+This workshop is different. It is an adaptable, immersive facilitation process designed to turn plans on paper into practiced 
+habits. We run tabletop games for strategic clarity and live injections for process muscle — then we force the team to close 
+the gap between what they think they will do and what they actually do.
 
 ## Core principles
 
