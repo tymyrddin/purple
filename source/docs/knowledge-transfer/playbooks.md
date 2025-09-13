@@ -17,4 +17,4 @@ Each playbook is structured for speed:
 * Decision points: How to choose between containment, escalation, or monitoring.  
 * Tools: Queries, scripts, dashboards ready to run.  
 
-Playbooks are designed to be tested in exercises and updated with each iteration.
+Playbooks are designed [to be tested in exercises and updated with each iteration](../learning/incident-response/choreography.md).
