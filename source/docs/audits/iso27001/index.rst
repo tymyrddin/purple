@@ -12,7 +12,9 @@ The ISO 27001 mountain expedition
 
    mountain.md
    standards.md
-
+   cia.md
+   rat.md
+   isc-cheatsheet.md
 
 .. raw:: html
 
