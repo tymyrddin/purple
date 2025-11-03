@@ -1,20 +1,18 @@
-Organisational risk audits & resilience assessments
+Audits and assessments
 ======================================================
 
-.. image:: /_static/images/matrix.png
-  :alt: A stick figure team placing red and yellow flags on a large grid. The Y-axis is 'Impact'. The X-axis is 'Likelihood'. They are clustering most of their flags on the high-impact, likely quadrant. One stick figure is gesturing toward that cluster with an 'Action Here!' speech bubble.
+.. image:: /_static/images/map-room.png
+  :alt: Interior of a mountaineering expedition command room, large wooden table covered with maps, compasses, and notebooks.
+
 
 .. toctree::
    :glob:
-   :maxdepth: 1
+   :maxdepth: 2
    :includehidden:
-   :caption: Identify critical assets, dependencies, and potential weak points. Provide actionable insights so teams can prioritise mitigation and monitoring based on real risks.
+   :caption: Navigate your organisation’s risks and resilience with clarity, whether charting the cracks before they spread or climbing the peaks of ISO 27001 compliance.
 
-   cracks.md
-   stress-testing.md
-   beyond-compliance.md
-   ecosystem.md
-   rapid-resilience-review.md
+   resilience/index
+   iso27001/index
 
 .. raw:: html
 
