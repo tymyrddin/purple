@@ -2,6 +2,8 @@
 
 ![Base Camp](/_static/images/basecamp.png)
 
+[Download as pdf](/_static/presentations/base-camp.pdf)
+
 You've been [climbing steadily (implementing and operating your ISMS)](climb.md). Before attempting the final 
 summit push (external certification audit), it's time for a thorough check at base camp. This is where you pause, 
 assess, and ensure everything is working as intended.

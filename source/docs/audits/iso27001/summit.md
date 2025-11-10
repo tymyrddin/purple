@@ -2,6 +2,8 @@
 
 ![Summit](/_static/images/summit.png)
 
+[Download as pdf](/_static/presentations/summit-push.pdf)
+
 You've [checked your gear at base camp (internal audits and management reviews complete)](base-camp-check.md). Now comes the summit push, the external certification audit. This is where independent auditors from a certification body verify that your ISMS meets ISO 27001 requirements.
 
 Think of them as expert mountain guides with clipboards instead of crampons. They won't climb the entire route with you; their job is to verify you know which end of the rope goes where and that your team isn't pretending the climb exists on paper only.

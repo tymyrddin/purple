@@ -2,6 +2,8 @@
 
 ![Mountain](/_static/images/mountain.png)
 
+[Download as pdf](/_static/presentations/climb.pdf)
+
 You have [identified your route in the risk tent](risk-tent.md) (risk assessment), and selected your gear 
 (controls), and documented what you're taking (Statement of Applicability) in [the gear depot](gear-depot.md). 
 Now comes the actual climb, the operational execution that brings your ISMS to life.

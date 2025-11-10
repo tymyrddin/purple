@@ -2,6 +2,8 @@
 
 ![Gear depot](/_static/images/gear-depot.png)
 
+[Download as pdf](/_static/presentations/gear-depot.pdf)
+
 You have set up [a reliable framework for risk management](risk-tent.md).
 
 The "gear depot" is where you select and maintain your security controls, the tools and equipment that protect you on 

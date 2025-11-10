@@ -2,18 +2,11 @@
 
 ![Map room](/_static/images/map-room.png)
 
+[Download as pdf](/_static/presentations/map-room.pdf) 
+
 Every great climb begins with an argument about which mountain to attempt. Before anyone laces up their boots, the 
 expedition team needs to agree on the target, understand the terrain, know who will celebrate success or complain if 
 things go wrong, and ensure the expedition sponsor is genuinely committed. This is where the map room comes in.
-
-The map room represents ISO 27001 Clause 4 (Context of the Organisation) and Clause 5 (Leadership). These foundational clauses answer four critical questions before you begin implementing security controls:
-
-1. What environment are we operating in? (Clause 4.1 - Understanding the organisation and its context)
-2. Who cares about our information security? (Clause 4.2 - Understanding interested parties)
-3. What exactly are we protecting? (Clause 4.3 - Determining the scope of the ISMS)
-4. Who's accountable and committed? (Clause 5 - Leadership and commitment)
-
-Get these wrong, and the entire expedition collapses before you leave base camp. Get them right, and you have a solid foundation for everything that follows.
 
 ## Understanding the terrain (context)
 

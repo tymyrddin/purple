@@ -2,6 +2,8 @@
 
 ![ISO 27001 flag](/_static/images/flag.png)
 
+[Download as pdf](/_static/presentations/flag.pdf)
+
 You have reached the summit. The climb was long, demanding, and required careful preparation: risk assessments, 
 control selection, documentation, internal audits, and external verification. Planting your flag is both a symbol 
 of achievement and a checkpoint for ongoing vigilance.

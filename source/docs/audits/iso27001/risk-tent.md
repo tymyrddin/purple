@@ -2,6 +2,8 @@
 
 ![Risk tent](/_static/images/risk-tent.png)
 
+[Download as pdf](/_static/presentations/risk-tent.pdf)
+
 Having [agreed on which mountain](map-room.md), the "risk tent" represents the shelter of structured risk management, 
 without a reliable framework, your risk assessment collapses under pressure. Choosing the right methodology provides 
 the support structure that keeps your organisation protected, even when conditions change.
