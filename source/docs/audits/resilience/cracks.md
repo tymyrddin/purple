@@ -4,7 +4,7 @@ Most audits are paperwork theatre. Boxes get ticked, reports gather dust, and ev
 Meanwhile, attackers, accidents, and reality itself could not care less.  
 
 This workshop flips the script. Instead of focusing on compliance, we make risks visible in practical, human terms so 
-your team can actually act on them. It is about surfacing weak points before they break — and building resilience 
+your team can actually act on them. It is about surfacing weak points before they break and building resilience 
 that survives first contact with the unexpected.
 
 ## Core principles
@@ -47,6 +47,6 @@ This workshop is designed for organisations that want clarity rather than anothe
 
 ```{raw} html
 <div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">Ready to see where the cracks are — before they spread? Let’s design a session tailored to your organisation.</a>
+    <a href="https://tymyrddin.dev/contact/">Ready to see where the cracks are before they spread? Let’s design a session tailored to your organisation.</a>
 </div>
 ```

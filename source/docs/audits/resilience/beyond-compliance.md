@@ -1,18 +1,18 @@
-# Beyond compliance: building adaptive organisations
+# Building adaptive organisations
 
 Regulatory checklists are useful only until the threat doing the breaking does something the checklist did not anticipate.  
 
 Attackers do not read ISO standards; they exploit human shortcuts, business incentives, and brittle processes. This 
-workshop helps organisations move from checkbox compliance to genuine resilience — the kind that survives surprises 
+workshop helps organisations move from checkbox compliance to genuine resilience, the kind that survives surprises 
 and adapts as the world changes.
 
 ## Core principles
 
 * Adaptive, not static: Maturity is a direction of travel, not a certificate on a wall. We design changes that can evolve.  
-* Contextual, not copy-paste: Controls must fit your organisation’s mission, technology, and culture — not the other way round.  
-* Forward-looking, not rear-view: We prioritise risks you are likely to face next, not the ones you faced last year.  
+* Contextual, not copy-paste: Controls must fit your organisation’s mission, technology, and culture, not the other way round.  
+* Forward-looking, not rearview: We prioritise risks you are likely to face next, not the ones you faced last year.  
 * Inclusive, not siloed: Resilience requires operational, legal, HR, product and leadership voices in the same room.  
-* Evidence-driven: Recommendations come from interviews, observations, and light red-team probing — not from theory alone.
+* Evidence-driven: Recommendations come from interviews, observations, and light red-team probing, not from theory alone.
 
 ## How it works: practical steps
 

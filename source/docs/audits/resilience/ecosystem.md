@@ -9,7 +9,7 @@ parts.
 
 * Systems view: Look at the organisation as a living network, not a set of departments and policies.  
 * Interconnectedness: Dependencies between HR, IT, suppliers, and partners shape actual resilience.  
-* Cascading failure awareness: The first failure rarely matters most — it is the second, third, or tenth knock-on effect that brings the house down.  
+* Cascading failure awareness: The first failure rarely matters most. It is the second, third, or tenth knock-on effect that brings the house down.  
 * Cross-boundary thinking: Security, risk, operations, product, and vendor management are different lenses on the same system.  
 * Practical foresight: The goal is not to model every possible scenario but to highlight critical weak links and where they converge.
 
