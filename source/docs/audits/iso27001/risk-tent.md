@@ -1,8 +1,14 @@
 # The risk tent
 
-![Risk tent](/_static/images/risk-tent.png)
+<div class="page__article">
+  <div class="page-post-card__link2">
+    <a class="md-button md-button--primary" href="https://purple.tymyrddin.dev/_downloads/0c8b55fb4c7810238282116c3d375f26/risk-tent.pdf">
+      Download as pdf: Structured risk management, 19pp
+    </a>
+  </div>
+</div>
 
-[Download as pdf](/_static/presentations/risk-tent.pdf)
+![Risk tent](/_static/images/risk-tent.png)
 
 Having [agreed on which mountain](map-room.md), the "risk tent" represents the shelter of structured risk management, 
 without a reliable framework, your risk assessment collapses under pressure. Choosing the right methodology provides 
@@ -229,3 +235,11 @@ A key software supplier maintains critical systems. The organisation implements 
 ## Next
 
 Head for [the gear depot](gear-depot.md) to select the tools and equipment that protect you on the climb.
+
+<div class="page__article">
+  <div class="page-post-card__link2">
+    <a class="md-button md-button--primary" href="https://tymyrddin.dev/contact/">
+      Let's meet in the risk tent to discuss your route and see if we're the right climbing partners for your expedition.
+    </a>
+  </div>
+</div>

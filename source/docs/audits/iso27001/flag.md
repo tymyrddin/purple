@@ -1,8 +1,14 @@
 # Planting the flag
 
-![ISO 27001 flag](/_static/images/flag.png)
+<div class="page__article">
+  <div class="page-post-card__link2">
+    <a class="md-button md-button--primary" href="https://purple.tymyrddin.dev/_downloads/59774da306ac8cefe4b4b0dc38a9415a/flag.pdf">
+      Download as pdf: Surveillance cycle, recertification, PDCA, 19pp
+    </a>
+  </div>
+</div>
 
-[Download as pdf](/_static/presentations/flag.pdf)
+![ISO 27001 flag](/_static/images/flag.png)
 
 You have reached the summit. The climb was long, demanding, and required careful preparation: risk assessments, 
 control selection, documentation, internal audits, and external verification. Planting your flag is both a symbol 
@@ -545,4 +551,11 @@ Your organisation has demonstrated the capability to climb the mountain. Now dem
 
 The flag flies proudly. Keep it flying through dedication, attention, and the systematic approach that got you here in the first place.
 
-Welcome to life at the summit. The view is excellent. The responsibility is ongoing. The capability is proven.
+<div class="page__article">
+  <div class="page-post-card__link2">
+    <a class="md-button md-button--primary" href="https://tymyrddin.dev/contact/">
+      Let’s meet at the flag to analyse outcomes, and plan the next leg of your information security journey.
+    </a>
+  </div>
+</div>
+

@@ -1,8 +1,14 @@
 # The map room
 
-![Map room](/_static/images/map-room.png)
+<div class="page__article">
+  <div class="page-post-card__link2">
+    <a class="md-button md-button--primary" href="https://purple.tymyrddin.dev/_downloads/e95bbd42e284d027e69856272506d33f/map-room.pdf">
+      Download as pdf: Context, interested parties, scope, 30pp
+    </a>
+  </div>
+</div>
 
-[Download as pdf](/_static/presentations/map-room.pdf) 
+![Map room](/_static/images/map-room.png)
 
 Every great climb begins with an argument about which mountain to attempt. Before anyone laces up their boots, the 
 expedition team needs to agree on the target, understand the terrain, know who will celebrate success or complain if 
@@ -970,3 +976,11 @@ Without the map room, the risk tent collapses. Context tells you which risks mat
 The expedition is planned. The route is chosen. The sponsors are committed.
 
 [Time to assess the actual dangers of the climb](risk-tent.md).
+
+<div class="page__article">
+  <div class="page-post-card__link2">
+    <a class="md-button md-button--primary" href="https://tymyrddin.dev/contact/">
+      Arrange a free conversation to examine your security landscape and see if our mountaineering methods fit your journey.
+    </a>
+  </div>
+</div>

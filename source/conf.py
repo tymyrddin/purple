@@ -26,6 +26,10 @@ extensions = [
 
 # MyST parser configuration
 
+myst_substitutions = {
+    "static_path": "_static/presentations"
+}
+
 myst_enable_extensions = [
     "amsmath",
     "dollarmath",

@@ -1,8 +1,14 @@
 # Base camp checks
 
-![Base Camp](/_static/images/basecamp.png)
+<div class="page__article">
+  <div class="page-post-card__link2">
+    <a class="md-button md-button--primary" href="https://purple.tymyrddin.dev/_downloads/43e29cffc8a0e193492696c0105e36be/base-camp.pdf">
+      Download as pdf: Monitoring and measurement, internal audit, management review, 17pp
+    </a>
+  </div>
+</div>
 
-[Download as pdf](/_static/presentations/base-camp.pdf)
+![Base Camp](/_static/images/basecamp.png)
 
 You've been [climbing steadily (implementing and operating your ISMS)](climb.md). Before attempting the final 
 summit push (external certification audit), it's time for a thorough check at base camp. This is where you pause, 
@@ -434,3 +440,11 @@ Think of internal audits as dress rehearsals. The external audit is opening nigh
 You are not claiming perfection. You are demonstrating control, awareness, commitment to improvement, and evidence that your ISMS works. That's what external auditors want to see.
 
 With base camp secure, equipment checked, and team ready, you're prepared for [the summit push: external certification](summit.md).
+
+<div class="page__article">
+  <div class="page-post-card__link2">
+    <a class="md-button md-button--primary" href="https://tymyrddin.dev/contact/">
+      Let's talk at base camp and see if we're the right climbing partners for your expedition.
+    </a>
+  </div>
+</div>

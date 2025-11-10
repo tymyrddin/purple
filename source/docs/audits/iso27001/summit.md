@@ -1,8 +1,14 @@
 # The summit push
 
-![Summit](/_static/images/summit.png)
+<div class="page__article">
+  <div class="page-post-card__link2">
+    <a class="md-button md-button--primary" href="https://purple.tymyrddin.dev/_downloads/876b22983bf28be1578634050ee0a49f/summit-push.pdf">
+      Download as pdf: Stage 1, stage 2, outcomes, 30pp
+    </a>
+  </div>
+</div>
 
-[Download as pdf](/_static/presentations/summit-push.pdf)
+![Summit](/_static/images/summit.png)
 
 You've [checked your gear at base camp (internal audits and management reviews complete)](base-camp-check.md). Now comes the summit push, the external certification audit. This is where independent auditors from a certification body verify that your ISMS meets ISO 27001 requirements.
 
@@ -659,3 +665,11 @@ What evidence was incomplete?
 - Improve templates (ensure all required fields present)
 - Provide training on what constitutes adequate evidence
 - Build in review/approval steps
+
+<div class="page__article">
+  <div class="page-post-card__link2">
+    <a class="md-button md-button--primary" href="https://tymyrddin.dev/contact/">
+      Schedule a free call to explore which external certification options best suit your summit push.
+    </a>
+  </div>
+</div>
