@@ -5,7 +5,11 @@ related governance", but each has a different purpose. Breaking them down into l
 differences and relationships.
 
 **The catch: ISO standards are not freely available in full. They are copyrighted, so you usually have to 
-[purchase them](https://www.iso.org/standards.html).** So only get what you need.
+[purchase them](https://www.iso.org/standards.html).** So only get what you need. 
+
+And you can use the [ISO Online Browsing Platform (OBP)](https://www.iso.org/obp/ui) which will allow access the 
+most up-to-date content in ISO standards, graphical symbols, codes or terms and definitions. This way you can preview 
+content before you buy, search within documents and easily navigate between standards.
 
 ## Foundations and vocabulary
 
