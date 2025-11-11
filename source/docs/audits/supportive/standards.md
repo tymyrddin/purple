@@ -9,7 +9,7 @@ differences and relationships.
 
 And you can use the [ISO Online Browsing Platform (OBP)](https://www.iso.org/obp/ui) which will allow access the 
 most up-to-date content in ISO standards, graphical symbols, codes or terms and definitions. This way you can preview 
-content before you buy, search within documents and easily navigate between standards.
+content before you buy, search within documents and more easily navigate between standards.
 
 ## Foundations and vocabulary
 
