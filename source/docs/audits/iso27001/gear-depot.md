@@ -1,12 +1,12 @@
 # The gear depot
 
-<div class="page__article">
-  <div class="page-post-card__link2">
-    <a class="md-button md-button--primary" href="https://purple.tymyrddin.dev/_downloads/4c3bb1dd58a645793fb994784a578814/gear-depot.pdf">
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://purple.tymyrddin.dev/_downloads/4c3bb1dd58a645793fb994784a578814/gear-depot.pdf">
       Download as pdf: Controls, risk treatment plan, statement of applicability, 21pp
     </a>
-  </div>
 </div>
+```
 
 ![Gear depot](/_static/images/gear-depot.png)
 
@@ -638,10 +638,10 @@ The SoA translates risk treatment decisions into operational reality. It is the 
 
 Time to move. [Now theory will meet altitude](climb.md). 
 
-<div class="page__article">
-  <div class="page-post-card__link2">
-    <a class="md-button md-button--primary" href="https://tymyrddin.dev/contact/">
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
       Book a free consultation to discuss the obstacles ahead and see if our climbing expertise aligns with your needs.
     </a>
-  </div>
 </div>
+```

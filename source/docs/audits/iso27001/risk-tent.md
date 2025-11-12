@@ -1,12 +1,12 @@
 # The risk tent
 
-<div class="page__article">
-  <div class="page-post-card__link2">
-    <a class="md-button md-button--primary" href="https://purple.tymyrddin.dev/_downloads/0c8b55fb4c7810238282116c3d375f26/risk-tent.pdf">
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://purple.tymyrddin.dev/_downloads/0c8b55fb4c7810238282116c3d375f26/risk-tent.pdf">
       Download as pdf: Structured risk management, 19pp
     </a>
-  </div>
 </div>
+```
 
 ![Risk tent](/_static/images/risk-tent.png)
 
@@ -236,10 +236,10 @@ A key software supplier maintains critical systems. The organisation implements 
 
 Head for [the gear depot](gear-depot.md) to select the tools and equipment that protect you on the climb.
 
-<div class="page__article">
-  <div class="page-post-card__link2">
-    <a class="md-button md-button--primary" href="https://tymyrddin.dev/contact/">
-      Let's meet in the risk tent to discuss your route and see if we're the right climbing partners for your expedition.
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Let's meet in the gear depot to discuss your route and see if we're the right climbing partners for your expedition.
     </a>
-  </div>
 </div>
+```

@@ -1,12 +1,12 @@
 # Planting the flag
 
-<div class="page__article">
-  <div class="page-post-card__link2">
-    <a class="md-button md-button--primary" href="https://purple.tymyrddin.dev/_downloads/59774da306ac8cefe4b4b0dc38a9415a/flag.pdf">
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://purple.tymyrddin.dev/_downloads/59774da306ac8cefe4b4b0dc38a9415a/flag.pdf">
       Download as pdf: Surveillance cycle, recertification, PDCA, 19pp
     </a>
-  </div>
 </div>
+```
 
 ![ISO 27001 flag](/_static/images/flag.png)
 
@@ -551,11 +551,10 @@ Your organisation has demonstrated the capability to climb the mountain. Now dem
 
 The flag flies proudly. Keep it flying through dedication, attention, and the systematic approach that got you here in the first place.
 
-<div class="page__article">
-  <div class="page-post-card__link2">
-    <a class="md-button md-button--primary" href="https://tymyrddin.dev/contact/">
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
       Let’s meet at the flag to analyse outcomes, and plan the next leg of your information security journey.
     </a>
-  </div>
 </div>
-
+```

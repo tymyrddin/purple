@@ -1,12 +1,12 @@
 # Base camp checks
 
-<div class="page__article">
-  <div class="page-post-card__link2">
-    <a class="md-button md-button--primary" href="https://purple.tymyrddin.dev/_downloads/43e29cffc8a0e193492696c0105e36be/base-camp.pdf">
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://purple.tymyrddin.dev/_downloads/43e29cffc8a0e193492696c0105e36be/base-camp.pdf">
       Download as pdf: Monitoring and measurement, internal audit, management review, 17pp
     </a>
-  </div>
 </div>
+```
 
 ![Base Camp](/_static/images/basecamp.png)
 
@@ -441,10 +441,10 @@ You are not claiming perfection. You are demonstrating control, awareness, commi
 
 With base camp secure, equipment checked, and team ready, you're prepared for [the summit push: external certification](summit.md).
 
-<div class="page__article">
-  <div class="page-post-card__link2">
-    <a class="md-button md-button--primary" href="https://tymyrddin.dev/contact/">
-      Let's talk at base camp and see if we're the right climbing partners for your expedition.
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Schedule a free call to explore what options exist for your summit push.
     </a>
-  </div>
 </div>
+```

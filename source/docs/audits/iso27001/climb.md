@@ -1,12 +1,12 @@
 # The climb
 
-<div class="page__article">
-  <div class="page-post-card__link2">
-    <a class="md-button md-button--primary" href="https://purple.tymyrddin.dev/_downloads/9b01ffc1c1e3e012669006b6cef9a253/climb.pdf">
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://purple.tymyrddin.dev/_downloads/9b01ffc1c1e3e012669006b6cef9a253/climb.pdf">
       Download as pdf: Resources for the climb, 10pp
     </a>
-  </div>
 </div>
+```
 
 ![Mountain](/_static/images/mountain.png)
 
@@ -205,10 +205,10 @@ The climb succeeds not because the route is easy, but because every team member 
 
 Ready for [a thorough check at the final stage base camp](base-camp-check.md) before the push to the summit?
 
-<div class="page__article">
-  <div class="page-post-card__link2">
-    <a class="md-button md-button--primary" href="https://tymyrddin.dev/contact/">
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
       Let's meet to discuss your route and see if we're a fitting addition to your team for your climb.
     </a>
-  </div>
 </div>
+```
