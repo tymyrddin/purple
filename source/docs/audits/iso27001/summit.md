@@ -669,7 +669,7 @@ What evidence was incomplete?
 ```{raw} html
 <div class="page-post-card__link">
     <a href="https://tymyrddin.dev/contact/">
-      Schedule a free call to explore what happens after certification!
+      Connect with us to explore what happens after certification!
     </a>
 </div>
 ```

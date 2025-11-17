@@ -2,7 +2,7 @@
 
 Most security training fails. It's a one-off event, focused on passive awareness, that doesn't stick. Teams are left thinking "phishing" is just about poorly written emails, while attackers use a vast arsenal of psychological tactics.
 
-This workshop is different. It's a highly adaptable, immersive session designed to turn your team from the primary target into the first line of defense. We move beyond the email to explore the entire spectrum of social engineering: vishing (voice), smishing (SMS), pretexting, and more.
+This workshop is different. It's a highly adaptable, immersive session designed to turn your team from the primary target into the first line of defence. We move beyond the email to explore the entire spectrum of social engineering: vishing (voice), smishing (SMS), pretexting, and more.
 
 We don't just teach what to look for; we build your team's muscle memory to respond effectively and disrupt attacks in progress.
 

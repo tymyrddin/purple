@@ -23,7 +23,7 @@ Example Blue Team brief:
 Red Team adjusts emulation to:
 
 * Avoid "wasted" tests (e.g., known-blocked TTPs).
-* Focus on defense blind spots.
+* Focus on defence blind spots.
 
 ## Tools
 

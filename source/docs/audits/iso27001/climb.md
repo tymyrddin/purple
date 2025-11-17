@@ -176,7 +176,7 @@ Before moving its case files into a new document management system, a humanitari
 
 High-risk mitigations include:
 - End-to-end encryption for data at rest and in transit
-- Multi-factor authentication for all access
+- Multifactor authentication for all access
 - Data residency in EU-compliant infrastructure
 - Automated access logging and quarterly reviews
 

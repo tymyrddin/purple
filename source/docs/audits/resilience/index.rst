@@ -15,6 +15,7 @@ Organisational risk audits & resilience assessments
    beyond-compliance.md
    ecosystem.md
    rapid-resilience-review.md
+   two-paths.md
 
 .. raw:: html
 

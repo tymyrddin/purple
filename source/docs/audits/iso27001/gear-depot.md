@@ -641,7 +641,7 @@ Time to move. [Now theory will meet altitude](climb.md).
 ```{raw} html
 <div class="page-post-card__link">
     <a href="https://tymyrddin.dev/contact/">
-      Book a free consultation to discuss the obstacles ahead and see if our climbing expertise aligns with your needs.
+      Contact us to discuss the obstacles ahead and see if our climbing expertise aligns with your needs.
     </a>
 </div>
 ```

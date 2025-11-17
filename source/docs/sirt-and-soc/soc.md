@@ -2,7 +2,7 @@
 
 Depending on size of the organisation, these roles may be beneficial:
 
-* Security analysts (4 tiers is common in large organisations) are first responders. They report on threats and implement any changes needed to protect the organisation. They are supposed to be the last line of defense against security threats, and work together with security managers and security engineers.
+* Security analysts (4 tiers is common in large organisations) are first responders. They report on threats and implement any changes needed to protect the organisation. They are supposed to be the last line of defence against security threats, and work together with security managers and security engineers.
 * Security engineers are usually software and/or hardware specialists, and are in charge of maintaining and updating tools and systems. They are also responsible for documentation other team members might need, such as digital security protocols.
 * A direct manager is responsible for the team, directing operations and responsible for communications; hiring; training; and creating and executing the chosen security strategy. They also direct and orchestrate responses to major threats.
 * A chief information security officer (CISO) is responsible for creating security-related strategies, policies, and operations. They work closely with CEO, senior management, HR, legal departments, and inform management on security issues.

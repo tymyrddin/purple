@@ -7,7 +7,7 @@ evolving threats around the clock.
 A Security Operations Center minimally does:
 
 * Proactive detection of malicious network and system activity. You do not want to wait the average 206 days it takes most companies to detect a breach. You want to know as quickly as possible to minimise the effect of the breach.
-* Threat awareness to adjust defenses before the threat hits your organisation.
+* Threat awareness to adjust defences before the threat hits your organisation.
 * Vulnerability management to see what may be vulnerable on your network to new threats before you get hit with them.
 * Awareness of hardware and software assets running on your network for you to become more aware of possible threats to them.
 * Log management in a way to give you and any authorities the ability to complete forensics if you do incur an incident or breach.

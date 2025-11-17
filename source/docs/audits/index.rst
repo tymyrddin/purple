@@ -13,6 +13,7 @@ Audits and assessments
 
    resilience/index
    iso27001/index
+   nis2/index
    supportive/index
 
 .. raw:: html
