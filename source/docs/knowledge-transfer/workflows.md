@@ -1,15 +1,60 @@
-# Dashboards & workflows
+# Workflows that actually get followed
 
-Knowledge transfer is useless if it sits in PDFs. Dashboards and workflows bring playbooks to life:  
+## Turning playbooks into actions
 
-* Dashboards: Real-time visibility of [key metrics](../sirt-and-soc/metrics.md), aligned to playbooks.  
-* Workflows: Integrated in ticketing, SIEM, SOAR, or chatops systems.  
-* Cross-team visibility: Everyone sees the same picture, reducing finger-pointing.  
+Workflows are where knowledge becomes muscle memory. [Playbooks](playbooks.md) describe what should 
+happen; a workflow makes it happen. When the pressure hits, people do not want explanations. They want the next 
+step, right now.
 
-## Benefits
+A workflow that slows people down will be bypassed. A workflow that guides them will be used instinctively.
 
-* Faster onboarding: New team members ramp up quickly with embedded workflows.  
-* Reduced error rate: Steps are explicit and automated where possible.  
-* Continuous improvement: Each incident enriches the dashboards and workflows.  
+## What good workflows look like
 
-Workflows connect knowledge to action, ensuring lessons learned turn into lessons applied.
+### The “breadcrumb trail”
+
+A guided sequence that:
+
+* Shows the next step clearly
+* Offers the exact query / button / command needed
+* Captures evidence automatically
+* Prevents out-of-order or skipped steps
+
+If analysts leave the system to find instructions, your workflow is not a workflow.
+
+### The “guard rail”
+
+A workflow that stops self-inflicted chaos:
+
+* Safe defaults
+* Policy surfaced at the moment of action
+* Hard stops on destructive steps
+* Automatic routing to the right approver
+
+The point is not control; it is preventing preventable pain.
+
+### The “handover chain”
+
+A workflow designed for the reality of changing shifts:
+
+* Persistent context
+* Automatic notifications and ownership
+* Clear task history
+* No information loss during handover
+
+This is how you prevent incidents freezing because someone went home.
+
+## Workflow design principles
+
+1. Embedded, not external: Workflows must live in the tools people already use.
+2. Minimal steps, maximal clarity: Every extra click is a chance to bail out.
+3. Automation first: Humans make decisions; systems do the grunt work.
+4. No bureaucracy creep: Approvals where necessary, not everywhere.
+
+## Where workflows must live
+
+* Ticketing systems (Jira, ServiceNow, RTIR)
+* SIEM/SOAR platforms
+* ChatOps bots in Teams / Slack
+* Endpoint security consoles
+
+If a workflow requires opening yet another tool, it will die quietly and alone.

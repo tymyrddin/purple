@@ -6,10 +6,10 @@ This track flips that script: we turn hard-earned lessons from exercises and inc
 
 ## Core principles
 
-* Actionable, Not Archival: Playbooks must be used in the heat of the moment, not shelved.  
-* Tailored, Not Generic: Built from your own scenarios and incidents, not vendor boilerplate.  
-* Living Documents: Easy to update as threats evolve and teams change.  
-* Role-Friendly: Clear enough for new joiners, detailed enough for seasoned responders.  
+* Actionable, not archival: Playbooks must be used in the heat of the moment, not shelved.  
+* Tailored, not generic: Built from your own scenarios and incidents, not vendor boilerplate.  
+* Living documents: Easy to update as threats evolve and teams change.  
+* Role-friendly: Clear enough for new joiners, detailed enough for seasoned responders.  
 * Transferable: Formats that survive staff turnover and team rotation.  
 
 ## How it works
@@ -39,6 +39,6 @@ We follow a structured flow:
 
 ```{raw} html
 <div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">Ready to stop losing lessons learned? Let's build a living playbook system for your team.</a>
+    <a href="https://tymyrddin.dev/contact/">Ready to stop losing lessons learned? Let's build a living knowledge system for your team.</a>
 </div>
 ```
