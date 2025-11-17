@@ -91,8 +91,8 @@ is not a sign of perfection. It's a sign that nobody actually uses it.
 ## Examples
 
 Essential (build something like these first):
-- [Ransomware response playbook (NGO, 20 staff)](playbooks/ransomware-ngo.md)
-- [Phishing campaign response playbook (SME, 50-250 staff)](playbooks/phishing-sme.md)
+- [Ransomware response playbook (NGO, 20 staff)](playbook-examples/ransomware-ngo.md)
+- [Phishing campaign response playbook (SME, 50-250 staff)](playbook-examples/phishing-sme.md)
 - Compromised credentials playbook
 - Data breach
 - Service outage
@@ -101,7 +101,7 @@ Important (build these next):
 - DDoS attack
 - Insider threat
 - Supply chain compromise
-- [Compromised AWS credentials playbook (development environment)](playbooks/aws-credentials.md)
+- [Compromised AWS credentials playbook (development environment)](playbook-examples/aws-credentials.md)
 
 Build them, test them, break them, fix them. That's the cycle. Anyone promising you stable, unchanging, perfect 
 playbooks is selling you documentation theatre, not operational capability. Playbooks are designed [to be tested in 

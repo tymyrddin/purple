@@ -13,7 +13,7 @@ Knowledge transfer and IR playbook development
    choreography.md
    manuals.md
    playbooks.md
-   playbooks/index
+   playbook-examples/index
    dashboards.md
    workflows.md
 
