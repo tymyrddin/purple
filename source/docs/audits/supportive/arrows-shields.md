@@ -4,16 +4,6 @@ CWE, CAPEC, and MITRE ATT&CK describe attacks, vulnerabilities, and tactics. ISO
 organisations must do to protect against them. In other words: one set labels the arrows, the other sets the 
 shields.
 
-# Arrows and shields
-
-CWE, CAPEC, and MITRE ATT&CK describe attacks, vulnerabilities, and tactics from the attacker's perspective. 
-ISO 27001 and NIS2 describe what organisations must do to protect against them from the defender's perspective. 
-In other words, one set labels the arrows, the other sets the shields.
-
-This mapping can help understand how specific threats connect to which compliance obligations. When a vulnerability 
-scanner flags CWE-79, you know it relates to input validation controls. When threat intelligence mentions T1566 
-phishing campaigns, you know your security awareness training and incident response procedures are relevant.
-
 ## Web & application attacks
 
 These attacks target web applications and APIs. They exploit weaknesses in code, configuration, or design to 
