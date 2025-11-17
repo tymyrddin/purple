@@ -1,10 +1,5 @@
 # Playbooks that actually work
 
-
-.. image:: /_static/images/incident-playbook.png
-  :alt: A stick figure is writing on a giant scroll labeled 'Incident Playbook'. Another stick figure is erasing a step and writing a better one. A third stick figure is adding a 'Post-Mortem Lesson' sticky note to the margin. The playbook is shown as a messy, evolving document, not a pristine book.
-
-
 Playbooks bridge the gap between abstract policy and real-world action. They answer: *“What do we do when this happens?”*  
 
 ## Types of playbooks
