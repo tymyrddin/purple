@@ -334,3 +334,9 @@ A good manual is not something people read. It's something people use, reliably,
 If your manual requires calm, time, and concentration to be useful, you've built the wrong thing. Build for chaos instead. Build for 3am. Build for the moment when everything is on fire and someone needs to know exactly what to do next.
 
 That's not a manual. That's a lifeline.
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">Ready to turn dusty PDFs into lifelines? Get in touch.</a>
+</div>
+```

@@ -449,7 +449,7 @@ Know your organisation's most likely threats and prioritise monitoring for those
 ```{raw} html
 <div class="page-post-card__link">
     <a href="https://tymyrddin.dev/contact/">
-      Contact us to discuss if we can be of use to you.
+      See something you like? Let’s create your custom playbook.
     </a>
 </div>
 ```

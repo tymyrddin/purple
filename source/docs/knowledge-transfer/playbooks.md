@@ -110,7 +110,7 @@ exercises and updated with each iteration](../learning/incident-response/choreog
 ```{raw} html
 <div class="page-post-card__link">
     <a href="https://tymyrddin.dev/contact/">
-      Contact us to discuss if we can be of use to you.
+      Want playbooks your team will actually follow? Let’s build them.
     </a>
 </div>
 ```

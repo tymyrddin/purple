@@ -39,6 +39,6 @@ We follow a structured flow:
 
 ```{raw} html
 <div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">Ready to stop losing lessons learned? Let's build a living knowledge system for your team.</a>
+    <a href="https://tymyrddin.dev/contact/">Want to make sense of it all? Let’s talk strategy.</a>
 </div>
 ```

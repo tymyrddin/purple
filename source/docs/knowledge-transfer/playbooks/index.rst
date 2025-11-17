@@ -18,6 +18,6 @@ Playbook development examples
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Ready to stop losing lessons learned? Let's build a living playbook system for your team.</a>
+                <a href="https://tymyrddin.dev/contact/">See something you like? Let’s create your custom playbook.</a>
             </div>
         </div>
