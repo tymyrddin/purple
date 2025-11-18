@@ -13,7 +13,7 @@ additional capacity, and validation of your processes.
 ## Tips
 
 * Treat external partners as emergency contacts: regularly confirm availability.
-* Include partners in [occasional simulation exercises](../learning/incident-response/index.rst) to test coordination.
+* Include partners in [occasional simulation exercises](../../learning/incident-response/index.rst) to test coordination.
 * Keep partnerships documented and easily accessible during incidents.
 
 ## CSIRT.global

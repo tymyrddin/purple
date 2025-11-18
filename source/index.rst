@@ -16,8 +16,7 @@ organisation, integrating security and organisational development at every stage
    docs/risk-management/index
    docs/audits/index
    docs/knowledge-transfer/index
-   docs/sirt/index
-   docs/soc/index
+   docs/secops/index
    docs/teaming/index
    docs/learning/index
 

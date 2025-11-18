@@ -1,7 +1,7 @@
 # Improving after each incident
 
 Every incident is an opportunity to learn. Agile SIRTs [embed learning into daily practice, updating processes, 
-playbooks, and skills frequently](../knowledge-transfer/index.rst).
+playbooks, and skills frequently](../../knowledge-transfer/index.rst).
 
 ## Important practices
 
