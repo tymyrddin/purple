@@ -1,6 +1,9 @@
 Risk management & assessment
 ===============================
 
+.. image:: /_static/images/risk-management.png
+  :alt: A wooden table is strewn with open notebooks, pens, printed reports, and a folder. The folder’s cover reads “Risk management and assessment”.
+
 A set of exercises provides practical steps to understand risk hands-on. The basics. No complex frameworks.
 Just understanding. Then frameworks and complexity follows.
 

@@ -1,8 +1,8 @@
 Organisational risk audits & resilience assessments
 ======================================================
 
-.. image:: /_static/images/matrix.png
-  :alt: A stick figure team placing red and yellow flags on a large grid. The Y-axis is 'Impact'. The X-axis is 'Likelihood'. They are clustering most of their flags on the high-impact, likely quadrant. One stick figure is gesturing toward that cluster with an 'Action Here!' speech bubble.
+.. image:: /_static/images/beehive.png
+  :alt: A natural beehive hanging under a thick branch of an old oak tree, bees entering and leaving the small opening, sun filtering through leaves, some pollen-laden bees returning.
 
 .. toctree::
    :glob:

@@ -1,23 +1,22 @@
-# Set up an incident response team (SIRT)
+# Leveraging external support
 
-Some things in incident response can be automated. Many cannot. And some require not just people, but the *right* people — with the authority, skills, and temperament to keep their heads while everything else is on fire.
+No matter how lean, a SIRT benefits from external networks and expertise. These partnerships provide intelligence, 
+additional capacity, and validation of your processes.
 
-Your SIRT works best if you have clearly defined roles and responsibilities, written down and communicated long before the first breach alert comes in. Typical examples include:
+## Strategies
 
-* Business unit managers – especially from Legal and HR – to drive and coordinate team activities, keep focus on minimising damage, and ensure the organisation recovers quickly.
-* Technical lead – with strong executive backing and cross‑departmental access – to collect and analyse evidence, determine root cause, direct other security analysts, and oversee rapid system and service restoration.
-* Specialists – stress‑tolerant experts in areas such as network intrusion detection, malware analysis, or forensics.
-* Legal counsel – to provide guidance on compliance, liability, and any mandatory reporting.
-* Communications lead – to manage internal and external messaging, ensuring accuracy and consistency under pressure.
-* Documentation lead – to record all investigation, discovery, and recovery activities, producing reliable timelines for every stage of the incident.
+* Identify trusted CSIRTs and peers: Know who you can reach for guidance or support. Maintain current contact info.
+* Agreements for assistance: Have informal or formal arrangements for sharing intelligence or requesting technical help during incidents.
+* Optional support, not replacement: The SIRT remains responsible for decision-making; external partners supplement internal capability.
+* Engage regulators appropriately: If required, establish reporting channels before incidents occur to avoid delays or confusion.
 
-These are only examples. Your context may require more or fewer roles, but *clarity* is non‑negotiable. The team must know who does what before the crisis hits.
+## Tips
 
-While your active SIRT members may not be senior executives, it is wise to involve executives in recruitment and in organisation‑wide communications about the team. 
+* Treat external partners as emergency contacts: regularly confirm availability.
+* Include partners in [occasional simulation exercises](../learning/incident-response/index.rst) to test coordination.
+* Keep partnerships documented and easily accessible during incidents.
 
-A SIRT can also operate as part of a larger [security operations team](soc.md).
-
-## External partnerships: CSIRT.global
+## CSIRT.global
 
 [CSIRT.global](https://csirt.global/) is a volunteer‑led, non‑profit foundation registered in the Netherlands, with 
 a mission to make the internet safer by finding and reporting vulnerabilities that others often overlook. It works 
@@ -58,9 +57,4 @@ that could otherwise go unnoticed.
 | Sharing threat and vulnerability intel with trusted networks      | ✅ Sometimes              | ✅ Yes              |
 | Acting as a breach “first responder”                              | ✅ Yes                    | ❌ No               |
 | Long‑term preventative security collaboration                     | ✅ Yes                    | ✅ Yes              |
-
-## Resources
-
-* [What Do Security Incident Response Team (SIRT) Engineers Do?](https://builtin.com/cybersecurity/sirt-engineers)
-* [CSIRT.global](https://csirt.global/)
 
