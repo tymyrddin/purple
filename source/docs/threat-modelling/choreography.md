@@ -1,4 +1,4 @@
-# Introduction to steps
+# Introduction to exercises
 
 Experiment with adversary behaviour, attack paths, and operational risks.
 

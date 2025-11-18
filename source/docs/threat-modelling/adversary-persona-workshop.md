@@ -1,4 +1,4 @@
-# Adversary persona workshop
+# Adversary persona
 
 Define who might attack you: motivations, capabilities, and access.
 
