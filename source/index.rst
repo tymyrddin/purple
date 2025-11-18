@@ -11,8 +11,8 @@ organisation, integrating security and organisational development at every stage
    :includehidden:
    :caption: Outsmart threats, fortify teams, scale with confidence:
 
-   docs/threat-modelling/index
    docs/choreographies/index
+   docs/threat-modelling/index
    docs/learning/index
    docs/audits/index
    docs/knowledge-transfer/index

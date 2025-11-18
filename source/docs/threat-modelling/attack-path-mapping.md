@@ -15,5 +15,5 @@ shows where to defend.
 
 ## Quick tips
 - Keep it simple: you want a sketch, not a compliance report.  
-- Highlight chokepoints — the steps that appear in multiple attack paths.  
+- Highlight chokepoints: the steps that appear in multiple attack paths.  
 - Chokepoints are often the most efficient places to strengthen defences.

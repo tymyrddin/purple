@@ -14,7 +14,7 @@ and plan mitigation in a coherent way.
    - Attack paths  
    - Operational impacts  
    - Mitigations  
-3. Ensure the model is understandable by someone not in the exercise.  
+3. Make the model understandable by someone not in the exercise.  
 4. Highlight the top 2–3 risks and key lessons learned.
 
 ## Outcome

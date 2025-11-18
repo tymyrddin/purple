@@ -12,7 +12,7 @@ An adversary persona gives your team something concrete to plan against.
 3. Use the template below to build a persona for a realistic adversary.
 
 ## Persona template
-- Name/label: (e.g. "Disgruntled insider", "Competitor scout")  
+- Name/label: (like "Disgruntled insider", "Competitor scout")  
 - Motivation: (profit, disruption, revenge, curiosity)  
 - Capabilities: (skills, resources, insider knowledge, tools)  
 - Access: (what entry points they plausibly have)  

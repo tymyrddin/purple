@@ -1,4 +1,4 @@
-Other facilitated choreographies
+Facilitating choreographies
 ============================================
 
 .. image:: /_static/images/choreos.png
@@ -9,7 +9,7 @@ that surface obstacles before they appear. These are not the familiar linear pro
 false sense of certainty. They are looping and adaptive: as you move through them, new dependencies, blind spots,
 or risks will emerge, and the choreography shifts in response.
 
-What sets them apart is the inclusion of what most frameworks ignore—obliviousness and congruence in scenario
+What sets them apart is the inclusion of what most frameworks ignore: obliviousness and congruence in scenario
 planning, timelines that reflect human energy rather than just project milestones, and human-based obstacle avoidance
 steering built in from the very start. And because no one does this alone, “choreographies” emphasises the
 collaborative nature: coordinated, rehearsed, and adjusted together, in the room, not on a screen.
