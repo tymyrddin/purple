@@ -4,7 +4,7 @@ Threat modelling & preparation
 .. image:: /_static/images/threat-modelling-and-prep.png
   :alt: A cluttered workshop table from a top-down perspective, with scattered sticky notes, open notebooks, pens, phones, and coffee cups, surrounded by people's hands engaged in discussion, pointing at sketches of diagrams
 
-This set of exercises provides practical steps to explore threats hands-on. The basics. No complex tools. Just understanding.
+A set of exercises provides practical steps to explore threats hands-on. The basics. No complex tools. Just understanding. Then tools and complexity follows.
 
 .. toctree::
    :glob:
