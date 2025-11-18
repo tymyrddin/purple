@@ -118,3 +118,11 @@ Team retrospective (45 minutes):
 - How was inter-team coordination?
 - What tools or authorities were missing?
 - How did it feel vs. expectations?
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Ask us about preventing insider threat escalation
+    </a>
+</div>
+```

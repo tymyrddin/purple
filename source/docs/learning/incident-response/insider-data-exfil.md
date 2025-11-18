@@ -65,3 +65,12 @@ This scenario specifically tests:
 - Ethical decision-making under pressure
 - Understanding legal constraints on investigation
 - Sensitive communication management
+
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      More on mitigating insider threats?
+    </a>
+</div>
+```

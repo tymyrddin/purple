@@ -75,3 +75,12 @@ Add these for advanced teams:
 - Key technical person unreachable (vacation)
 - Regulatory body asks for incident update
 - Payment processing complications (Bitcoin expertise)
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      More on how to respond to DDoS and ransom attacks?
+    </a>
+</div>
+```
+

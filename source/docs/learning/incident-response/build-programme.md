@@ -44,3 +44,11 @@ Compliance:
 - Demonstrated preparedness
 - Tested procedures
 - Documented improvements
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Let's talk about creating a full incident-response programme
+    </a>
+</div>
+```

@@ -42,3 +42,10 @@ Measure progress over time:
 - Fewer coordination gaps?
 - Better decision quality?
 - Increased confidence?
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Discuss measuring and improving your simulations
+    </a>
+</div>

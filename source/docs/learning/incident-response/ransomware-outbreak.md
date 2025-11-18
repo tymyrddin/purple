@@ -121,3 +121,9 @@ Immediate improvements:
 - Communication templates refined
 - 3-5 priority improvements with owners
 
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Discuss handling ransomware scenarios with us
+    </a>
+</div>

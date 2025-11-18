@@ -104,3 +104,10 @@ Communication:
 - Were business stakeholders kept informed?
 - Was external communication coordinated?
 - Were legal/compliance looped in?
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Talk to us about securing your supply chain
+    </a>
+</div>

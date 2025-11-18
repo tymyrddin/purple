@@ -71,3 +71,12 @@ Capture actionable improvements:
 - Owned by someone
 - Time-bound
 - Measurable
+
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Connect with us for more facilitator tips and support
+    </a>
+</div>
+```

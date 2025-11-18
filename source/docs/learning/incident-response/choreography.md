@@ -74,9 +74,10 @@ The workshop is split into modular parts so you can choose the right intensity a
 *   Playbook authoring: we turn outputs into polished, team-specific runbooks.  
 *   Follow-up coaching: short coaching sessions to embed changes and support adoption.
 
-## Take the next step
-
 ```{raw} html
 <div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">Ready to test your team under real conditions? Have a free consultation and we can start to design a session for your needs.</a>
+    <a href="https://tymyrddin.dev/contact/">
+      Let's explore how tabletop exercises fit your team?
+    </a>
 </div>
+```
