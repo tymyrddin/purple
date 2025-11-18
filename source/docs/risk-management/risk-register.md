@@ -13,7 +13,7 @@ Step 1: Create your register structure (10 minutes)
 Simple columns work best:
 
 | Risk ID | Asset | Vulnerability | Likelihood | Impact | Risk Level | Treatment | Owner | Status | Review Date |
-|---------|-------|--------------|------------|---------|-----------|-----------|-------|--------|-------------|
+|---------|-------|---------------|------------|--------|------------|-----------|-------|--------|-------------|
 
 Add columns relevant to your context (compliance refs, costs, etc.).
 
