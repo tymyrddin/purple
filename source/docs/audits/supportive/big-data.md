@@ -11,7 +11,7 @@
 | [Apache Superset](https://superset.apache.org/) (open source, ASF EU mirrors) | Fully open-source data-visualisation platform. Highly customisable for internal audit dashboards; integrates well with PostgreSQL and data warehouses.           | Free to use. Typical small EU VPS setup ~ €25–€50/month infrastructure cost. Implementation effort moderate.                          |
 | [KNIME  Analytics Platform](https://www.knime.com/) (Switzerland/Germany)     | Open-source analytics workflow tool with BI extensions; excellent for data lineage, audit trails, and repeatable processes. Strong EU roots and privacy posture. | Free desktop/server community edition. Enterprise server licences start around €10k/year.                                             |
 
-## 
+## Versus Microsoft Power BI
 
 Comparison of the EU-focused BI tools versus Microsoft Power BI, using auditor-relevant criteria: data analysis, visualisation, data cleansing, collaboration, and monitoring.
 
