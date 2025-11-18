@@ -8,7 +8,7 @@ Organisational risk audits & resilience assessments
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Identify critical assets, dependencies, and potential weak points. Provide actionable insights so teams can prioritise mitigation and monitoring based on real risks.
+   :caption: Organisational resilience can feel like tending a beehive: hidden weak cells, overworked drones, and the odd swarm of challenges. We can keep the colony thriving.
 
    cracks.md
    stress-testing.md

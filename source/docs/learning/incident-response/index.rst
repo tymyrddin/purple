@@ -11,6 +11,16 @@ Incident response & crisis facilitation
    :caption: Tabletop and live simulations let teams test procedures, explore communication strategies, and practise continuity planning.
 
    choreography.md
+   ransomware-outbreak.md
+   insider-data-exfil.md
+   supply-chain-compromise.md
+   ddos-ransom.md
+   insider-threat-escalation.md
+   multi-vector.md
+   facilitator-guidance.md
+   adaptations.md
+   metrics.md
+   build-programme.md
 
 .. raw:: html
 

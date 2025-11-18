@@ -1,4 +1,4 @@
-# Tabletop and live simulations
+# Tabletop and live simulations (general)
 
 Tabletop and live simulations let teams test procedures, explore communication strategies, and practise continuity planning.
 
