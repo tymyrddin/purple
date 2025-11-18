@@ -18,4 +18,14 @@ and justify investments without overwhelming the team with unnecessary data.
 
 ## Example use
 
-Tracking MTTR over three months may reveal that certain alert types consistently take longer to resolve, highlighting gaps in workflow or analyst training.
+Tracking MTTR over three months may reveal that certain alert types consistently take longer to resolve, highlighting 
+gaps in workflow or analyst training.
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Talk to us about tuning those SOC metrics
+    </a>
+</div>
+```
+

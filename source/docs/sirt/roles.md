@@ -39,3 +39,13 @@ Even small SIRTs benefit from clearly defined roles. Clear responsibilities redu
 * Avoid assigning responsibilities on the fly during an incident—it increases mistakes and delays.
 * Use visual charts or simple tables to make roles and responsibilities immediately clear.
 * A SIRT can also operate as part of a larger [security operations team](../soc/index.rst).
+
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Clarify your SIRT roles with us
+    </a>
+</div>
+```
+

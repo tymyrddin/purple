@@ -19,3 +19,13 @@ effective and relevant.
 ## Example scenario
 
 A workflow for ransomware alerts may include automatic log collection, alerting SIRT, isolating affected endpoints, and post-incident review. Each step is reviewed and refined quarterly.
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Get help untangling your SOC workflows
+    </a>
+</div>
+```
+
+

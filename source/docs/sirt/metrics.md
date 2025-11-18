@@ -20,3 +20,13 @@ Metrics help a SIRT understand its efficiency, identify bottlenecks, and continu
 ## Example
 
 If your decision speed is consistently slow for certain alert types, you might improve it by refining workflows, adding playbook steps, or pre-identifying stakeholders for faster escalation.
+
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Improve your SIRT metrics with our help
+    </a>
+</div>
+```
+

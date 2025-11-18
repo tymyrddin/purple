@@ -18,3 +18,11 @@ bureaucracy while being ready for realistic incident scenarios.
    partnerships.md
    metrics.md
    loop.md
+
+.. raw:: html
+
+        <div class="page__article">
+            <div class="page-post-card__link">
+                <a href="https://tymyrddin.dev/contact/">Talk to us about building your SIRT</a>
+            </div>
+        </div>

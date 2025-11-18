@@ -31,3 +31,13 @@ Building and operating a SOC and SIRT is not just about tools, roles, or process
 
 * [Pros and Cons of Outsourced SOC](https://computertech.com/blog/pros-cons-outsourced-soc) – overview of advantages and disadvantages of outsourcing security operations.
 * [Pros and cons of an outsourced SOC vs. in-house SOC](https://www.techtarget.com/searchsecurity/tip/In-house-vs-outsourced-cybersecurity-operations-center-capabilities) – detailed comparison for organisations evaluating SOC models.
+
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Sort out your SOC–SIRT relationship with us?
+    </a>
+</div>
+```
+

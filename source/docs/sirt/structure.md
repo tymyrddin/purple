@@ -15,3 +15,14 @@ Best practices:
 * Use visual maps for escalation paths—flowcharts reduce confusion.
 * Test your structure periodically with tabletop exercises.
 * Keep all documents versioned but lightweight—don’t overcomplicate.
+
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Prepare your SIRT before things go sideways
+    </a>
+</div>
+```
+
+

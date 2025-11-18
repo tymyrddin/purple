@@ -18,3 +18,11 @@ continuous improvement.
    iteration.md
    feedback.md
    considerations.md
+
+.. raw:: html
+
+        <div class="page__article">
+            <div class="page-post-card__link">
+                <a href="https://tymyrddin.dev/contact/">Get in touch for our assistance in building your SOC</a>
+            </div>
+        </div>

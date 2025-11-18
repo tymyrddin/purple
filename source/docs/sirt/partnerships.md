@@ -58,3 +58,13 @@ that could otherwise go unnoticed.
 | Acting as a breach “first responder”                              | ✅ Yes                    | ❌ No               |
 | Long‑term preventative security collaboration                     | ✅ Yes                    | ✅ Yes              |
 
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Ask us about external incident support
+    </a>
+</div>
+```
+
+

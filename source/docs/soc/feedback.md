@@ -19,3 +19,13 @@ A SOC that stops improving is a SOC at risk. Continuous feedback and iterative l
 
 After a coordinated phishing simulation, the SOC updates alert thresholds, adjusts triage workflows, and retrains 
 analysts on email patterns to improve response next time.
+
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Start a conversation about growing your SOC (properly)
+    </a>
+</div>
+```
+

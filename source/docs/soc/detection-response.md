@@ -19,3 +19,13 @@ Detection without coordinated response is useless. A SOC’s main goal is to ide
 
 If a phishing email is detected targeting finance staff, SOC analysts triage the alert, escalate to SIRT for 
 investigation, and initiate containment procedures while recording all actions for post-incident learning.
+
+
+```{raw} html
+<div class="page-post-card__link">
+    <a href="https://tymyrddin.dev/contact/">
+      Discuss your detection and response reality check
+    </a>
+</div>
+```
+
