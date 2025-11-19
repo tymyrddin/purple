@@ -1,17 +1,24 @@
-Cross-training & capability building
-===========================================
+Red and blue capability building
+=============================================
 
-Cross-training builds versatile, resilient teams capable of responding to a wide range of challenges. Through
-practical exercises, gamified projects, and rotation programmes, your staff gain hands-on experience in both
-offensive and defensive operations. This strengthens individual skills while fostering collaboration and
-organisational agility.
+Cross-training between red and blue teams is one of those rare investments that actually pays for itself, usually by
+preventing a small disaster from becoming a headline.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Develop multi-skilled teams through hands-on exercises and rotations:
+   :caption: It works because both sides start seeing how the other actually thinks, prioritises, and panics.
 
-   telemetry.md
-   tools-exchange.md
-   logs.md
+   defensive-skills.md
+   rotation.md
+   gamified-scenarios.md
+   culture.md
+
+.. raw:: html
+
+        <div class="page__article">
+            <div class="page-post-card__link">
+                <a href="https://tymyrddin.dev/contact/">Experience my approach firsthand in a free connection call. It's the best way to feel if it's the right fit for your team.</a>
+            </div>
+        </div>

@@ -1,20 +1,38 @@
-# Adversary emulation
+# Adversary emulation vs. vulnerability testing
 
-Adversary emulation can be used to assess what a real adversary would do in an environment using their tools and 
-methodologies. The red team can use known cyber kill chains to summarize and assess the steps and procedures of an 
-engagement, or they can, if possible, 
-[gather intelligence on and study the APT group](https://attack.mitre.org/groups/) they are emulating.
+Red teaming has different flavours depending on objectives.
 
-Some reuseful resources:
+## Adversary emulation
 
-* [Lockheed Martin Cyber Kill Chain →](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
-* [Unified Kill Chain →](https://unifiedkillchain.com/)
-* [Varonis Cyber Kill Chain →](https://www.varonis.com/blog/cyber-kill-chain/)
-* [Active Directory Attack Cycle →](https://github.com/infosecn1nja/AD-Attack-Defense)
-* [MITRE ATT&CK Framework →](https://attack.mitre.org/)
+Purpose: Simulate specific threat actors relevant to your organisation.
 
+Approach: Research real adversary TTPs from threat intelligence. Replicate their tools, techniques, targeting, and operational patterns. Test whether defences detect and stop those specific adversaries.
 
-| ![Lockheed Martin Kill Chain](/_static/images/lockheed-martin.png) |
-|:------------------------------------------------------------------:|
-|                     Lockheed Martin Kill Chain                     |
+Example: If APT29 targets your sector, emulate their preference for Living-off-the-Land techniques, their credential theft methods, their command and control protocols.
+
+Value: Validates defences against realistic, known threats. Prioritises defensive improvements based on actual adversary behaviour.
+
+## Assumed breach
+
+Purpose: Test detection and response after initial compromise.
+
+Approach: Start exercise with access already granted (simulated phishing success, provided credentials, physical access). Focus on post-exploitation, lateral movement, and detection capabilities.
+
+Value: Tests blue team's ability to detect attackers already inside. Validates monitoring, alerting, and response procedures.
+
+## Full-scope red teaming
+
+Purpose: Test entire defensive programme from reconnaissance through impact.
+
+Approach: No holds barred (within rules of engagement). Use any ethical and legal technique to achieve objectives. Includes social engineering, physical access, supply chain attacks.
+
+Value: Most realistic test of organisational resilience. Reveals unexpected attack paths and cascading failures.
+
+## Focused technical testing
+
+Purpose: Test specific defensive controls or technologies.
+
+Approach: Constrained scope focusing on particular systems, controls, or detection capabilities. Might test EDR effectiveness, network segmentation, privileged access controls.
+
+Value: Provides detailed feedback on specific security investments. Validates vendor claims and configuration effectiveness.
 

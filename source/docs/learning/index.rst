@@ -13,10 +13,17 @@ Learning by doing
    threat-modelling/index
    culture-and-awareness/index
    incident-response/index
+   cross-training/index
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: More elsewhere
+
    Guerrilla gardeners @Privacy greenhouse <https://green.tymyrddin.dev/docs/l-space/>
    Myrddin’s menagerie @Red team <https://red.tymyrddin.dev/docs/services>
    Stormforge @Blue team <https://blue.tymyrddin.dev/docs/stormforge/>
-   cross-training/index
 
 .. raw:: html
 

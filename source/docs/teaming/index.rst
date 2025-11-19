@@ -1,14 +1,13 @@
-Purple teaming
+Colourful teaming
 ============================================
 
-Purple Teaming bridges the gap between offensive (Red) and defensive (Blue) operations. By sharing insights,
-refining strategies, and coordinating exercises, it ensures that attacks inform defenses and defenses strengthen
-against future attacks. This collaborative approach builds resilient, high-performing organisations capable of
-adapting to evolving threats.
+Red teaming done well reveals uncomfortable truths about security. Done ethically and collaboratively, those truths
+drive meaningful improvements that make organisations more resilient against real adversaries.
 
-Since the Red team is usually a somewhat messy fun of offensive operations, and the Blue is likely structured
-around detection, defence, and incident response. For best results, the Purple team can own operational synergy:
-turning lessons from attack and defence into better strategy, tooling, and training.
+Blue teaming isn't about building perfect defences. It's about being able to detect attacks quickly,
+respond effectively, and improve continuously.
+
+Purple teaming provides the feedback loop that makes blue teams stronger.
 
 .. toctree::
    :glob:
@@ -18,8 +17,7 @@ turning lessons from attack and defence into better strategy, tooling, and train
 
    red/index
    blue/index
-   playbooks/index
-   feedback/index
-   metrics/index
-
+   purple/index
+   engagement/index
+   advanced/index
 

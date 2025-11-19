@@ -1,20 +1,21 @@
 Blue team
 =====================================
 
-Incidents do and will continue to happen. Set up a security incident response team (SIRT). And a security 
-operations team (SOC).
-
-To be better prepared to face security incidents with confidence and a clear action plan (instead of operating in a
-panic). And a SOC to defend against security breaches and actively isolate and mitigate security risks.
+Blue teaming defends organisations against attacks. The mission: detect threats quickly, respond effectively,
+recover completely, and improve continuously.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Read up on these preparations:
+   :caption: Good blue teaming reacts to incidents, actively hunts threats, and hardens defences before attackers exploit weaknesses.
 
-   law.md
-   challenges.md
-   plan.md
-   communications.md
-   nutshell.md
+   mission.md
+   mindset.md
+   detect-recover.md
+   building-depth.md
+   tools.md
+   threat-hunting.md
+   purple.md
+   antipatterns.md
+   capability.md
