@@ -1,4 +1,4 @@
-Learning by doing
+Playground
 ===============================
 
 .. image:: /_static/images/relay.png
