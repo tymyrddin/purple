@@ -6,11 +6,11 @@ Learning by doing
 
 .. toctree::
    :glob:
-   :maxdepth: 1
+   :maxdepth: 2
    :includehidden:
    :caption: Practical exercises for digital spaces, simulated adversaries, turbulent scenarios, and multi-skilled team development.
 
-   threat-modelling/index
+   collaboration/index
    culture-and-awareness/index
    incident-response/index
    cross-training/index
@@ -19,11 +19,12 @@ Learning by doing
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: More elsewhere
+   :caption: If you were an attacker, you would click these next
 
    Guerrilla gardeners @Privacy greenhouse <https://green.tymyrddin.dev/docs/l-space/>
    Myrddin’s menagerie @Red team <https://red.tymyrddin.dev/docs/services>
    Stormforge @Blue team <https://blue.tymyrddin.dev/docs/stormforge/>
+   Hack the planet? Nah, just hold the door for me <https://red.tymyrddin.dev/docs/in/real/>
 
 .. raw:: html
 

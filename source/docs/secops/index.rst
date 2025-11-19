@@ -10,7 +10,7 @@ learning even faster.
 
 .. toctree::
    :glob:
-   :maxdepth: 1
+   :maxdepth: 2
    :includehidden:
    :caption: The aim is simple: fewer surprises, smoother recoveries, and a team that adapts as quickly as the threats do.
 
