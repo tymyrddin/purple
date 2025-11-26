@@ -1,4 +1,4 @@
-# Workflows that actually get followed
+# Workflows that get followed
 
 ## Turning playbooks into actions
 
