@@ -1,5 +1,8 @@
-Purple team
+Purple crossroads
 ======================================================
+
+.. image:: /_static/images/writing-purple.png
+  :alt: Typewriter
 
 We support organisations growing securely, from small startups to scale-ups, and NGO's. By combining structured planning, threat modelling,
 incident response, and team capability building, operations can be made resilient against evolving risks. This approach scales with your
