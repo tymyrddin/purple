@@ -15,9 +15,11 @@ bureaucracy while being ready for realistic incident scenarios.
 
    roles.md
    structure.md
+   disclosure.md
    partnerships.md
    metrics.md
    loop.md
+
 
 .. raw:: html
 
