@@ -3,11 +3,11 @@
 /* ============================================= */
 :root {
   /* Brand colors - NOW GREEN */
-  --md-primary-fg-color: #2A0A2A;      /* Primary green */
-  --md-accent-fg-color: #388E3C;       /* Accent green */
+  --md-primary-fg-color: #2A0A2A;
+  --md-accent-fg-color: #388E3C;
 
   /* Dark theme colors (unchanged) */
-  --md-default-bg-color: #222;
+  --md-default-bg-color: #2A0A2A;
   --md-header-bg-color: #160516;
   --md-default-fg-color: #e6e6e6;
 }
@@ -61,9 +61,9 @@ body {
   color: var(--md-default-fg-color);
 }
 
-.md-nav {
+/* .md-nav {
     background-color: #160516 !important;
-}
+} */
 
 .md-nav__item {
     background-color: #2A0A2A !important;
@@ -327,6 +327,16 @@ pre[class*="text"] {
 .page__article {
   text-align: center;
   margin: 1rem auto;
+}
+
+.md-typeset a {
+  color: var(--md-typeset-a-color);
+  word-break: break-word;
+}
+
+.md-typeset a: hover {
+  color: #800080;
+  word-break: break-word;
 }
 
 .page-post-card__link {
