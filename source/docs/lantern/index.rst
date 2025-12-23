@@ -17,11 +17,11 @@ We do not run your systems. We do not sell tools.
 
 .. toctree::
    :glob:
-   :maxdepth: 2
+   :maxdepth: 1
    :includehidden:
    :caption: We help you see clearly before it matters.
 
-   holding.md
+   red-lanterns/index
    shadow.md
    dilemma.md
 

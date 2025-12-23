@@ -1,0 +1,34 @@
+Project Red Lanterns
+===============================
+
+.. image:: /_static/images/red-lanterns.png
+   :alt: Night over steampunk city Ankh-Morpork, viewed from high above; the city sprawls deep below; about 20 glowing red oil lanterns are visible in the city, forming a subtle, intricate irregular network of signals.
+
+*Illuminating the space between attack and defence*
+
+This project develops methods, playbooks, and training that teach analysts to recognise when the city is being
+rewritten rather than attacked, and to do so before stability becomes a historical footnote. We have also been tasked
+to build a simulator to train people. Effective aim is to become prepared without doing damage to the city. Affective
+aim of this training to cultivate a professional unease in the face of quiet correctness, because in Ankh Morpork,
+that is usually where the trouble starts.
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: When correctness becomes the threat:
+
+   patrician-engagement.md
+   Border Gateway Protocol (BGP and MP-BGP) <https://red.tymyrddin.dev/docs/in/network/roots/bgp/>
+   control-vs-data-plane.md
+   indicators-control-plane-hacks.md
+   Red Lantern simulator under construction @GitHub <https://github.com/ninabarzh/red-lantern-sim>
+
+
+.. raw:: html
+
+        <div class="page__article">
+            <div class="page-post-card__link">
+                <a href="https://tymyrddin.dev/contact/">Get a free 30 mins consult</a>
+            </div>
+        </div>
