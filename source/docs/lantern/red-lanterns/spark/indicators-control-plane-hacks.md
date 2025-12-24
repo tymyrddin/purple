@@ -6,7 +6,7 @@ In Ankh‑Morpork, everyone knows about street crime. Pickpockets, confidence tr
 
 What nobody discusses over lunch is the Registry.
 
-Not because nothing happens there, but because **anything that does happen there is immediately classified, quietly fixed, and never spoken of again**.
+Not because nothing happens there, but because *anything that does happen there is immediately classified, quietly fixed, and never spoken of again*.
 
 The same is true for control‑plane attacks on Internet routing.
 
@@ -16,7 +16,7 @@ If you are asking: *“Do control‑plane attacks on BGP actually exist?”*
 
 Then the honest answer is:
 
-**Yes — at least at nation‑state level — and the absence of public case studies is itself one of the strongest indicators.**
+*Yes, at least at nation‑state level, and the absence of public case studies is itself one of the strongest indicators.*
 
 In Ankh‑Morpork terms: if the Guild Registry were ever tampered with successfully, you would not hear about it from the Watch. You would hear about it by noticing that certain people stopped being recognised as legitimate, and nobody could explain why.
 
@@ -50,7 +50,7 @@ In Ankh‑Morpork: the Guildmaster turns up at the door and is told, politely, t
 
 ## 2. Asymmetric validation behaviour across blocs
 
-Another indicator is **geopolitical asymmetry**.
+Another indicator is *geopolitical asymmetry*.
 
 Some parts of the city accept a route. Others do not.
 The split aligns suspiciously well with national or alliance boundaries.

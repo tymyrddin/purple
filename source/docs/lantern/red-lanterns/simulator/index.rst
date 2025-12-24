@@ -1,10 +1,5 @@
-Project Red Lanterns
+Red Lantern simulator
 ===============================
-
-.. image:: /_static/images/red-lanterns.png
-   :alt: Night over steampunk city Ankh-Morpork, viewed from high above; the city sprawls deep below; about 20 glowing red oil lanterns are visible in the city, forming a subtle, intricate irregular network of signals.
-
-*Illuminating the space between attack and defence*
 
 This project develops methods, playbooks, and training that teach analysts to recognise when the city is being
 rewritten rather than attacked, and to do so before stability becomes a historical footnote. We have also been tasked
@@ -14,13 +9,12 @@ that is usually where the trouble starts.
 
 .. toctree::
    :glob:
-   :maxdepth: 2
+   :maxdepth: 1
    :includehidden:
-   :caption: When correctness becomes the threat:
+   :caption: From red team playbooks to simulator scenarios:
 
-   spark/index
-   playbooks/index
-   simulator/index
+   Red Lantern simulator under construction @GitHub <https://github.com/ninabarzh/red-lantern-sim>
+
 
 .. raw:: html
 
