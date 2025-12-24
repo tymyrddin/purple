@@ -26,6 +26,6 @@ that is usually where the trouble starts.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Get a free 30 mins consult</a>
+                <a href="https://tymyrddin.dev/contact/">Synthesise Collective Facepalm</a>
             </div>
         </div>

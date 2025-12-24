@@ -30,6 +30,6 @@ intent. They don't know whether what they're observing is attack, misconfigurati
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Get a free 30 mins consult</a>
+                <a href="https://tymyrddin.dev/contact/">Deploy Bridge-Building™</a>
             </div>
         </div>

@@ -35,6 +35,6 @@ for all the right reasons.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Discuss a scenario</a>
+                <a href="https://tymyrddin.dev/contact/">Enable Strategic Patience</a>
             </div>
         </div>
