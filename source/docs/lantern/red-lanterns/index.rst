@@ -20,7 +20,7 @@ that is usually where the trouble starts.
 
    spark/index
    playbooks/index
-   simulator/index
+   scenarios/index
 
 .. raw:: html
 
