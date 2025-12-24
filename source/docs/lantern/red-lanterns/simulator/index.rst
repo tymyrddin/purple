@@ -13,7 +13,10 @@ that is usually where the trouble starts.
    :includehidden:
    :caption: From red team playbooks to simulator scenarios:
 
-   Red Lantern simulator under construction @GitHub <https://github.com/ninabarzh/red-lantern-sim>
+   scenario.md
+   telemetry.md
+   readme.md
+   Red Lantern simulator repository @GitHub <https://github.com/ninabarzh/red-lantern-sim>
 
 
 .. raw:: html
