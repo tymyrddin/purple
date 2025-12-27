@@ -1,4 +1,8 @@
-# From: The Patrician To: Directors of Purple Lantern Ltd.
+# From: The Patrician 
+
+To: Directors of Purple Lantern Ltd.
+
+December 1st, 2025
 
 To the Directors of Purple Lantern Practice Ltd.,
 

@@ -1,7 +1,7 @@
 # What an attack tree is allowed to be
 
 An attack tree is structural, not operational. It exists in the comfortable world of pure logic, where things 
-either work or they don't, gates either open or stay closed, and time is merely a dimension you drew an arrow along.
+either work or they don't, gates either open or stay closed, and time is merely a dimension I/you/we draw an arrow along.
 
 Take the [BGP hijacking and route leaks attack tree](https://red.tymyrddin.dev/docs/in/network/roots/ip/bgp-hijacking):
 
