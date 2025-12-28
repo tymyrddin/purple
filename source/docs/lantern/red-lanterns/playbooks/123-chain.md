@@ -278,3 +278,10 @@ From the purple page:
 *A control-plane attack, properly defined, does not lie within the rules. It rewrites the rules themselves.*
 
 That's what we've accomplished. We rewrote the RPKI rules (phase 2), then operated within those corrupted rules (phase 3). Everyone followed the rules. The rules were simply wrong.
+
+## Related
+
+- [A first look at common RPKI publication practices, 2025](https://arxiv.org/html/2512.16369v1)
+- [RPKI Read the docs Securing BGP, 2025](https://rpki.readthedocs.io/en/latest/rpki/securing-bgp.html)
+- [ARIN: RPKI Best Practices and Lessons Learned, 2025](https://www.arin.net/blog/2025/09/25/nro-rpki-best-practices/)
+- [ARIN: RPKI Best Practices and Troubleshooting](https://www.arin.net/resources/manage/rpki/help/bestpractices/)
