@@ -4,14 +4,14 @@ Risk management & assessment
 .. image:: /_static/images/risk-management.png
   :alt: A wooden table is strewn with open notebooks, pens, printed reports, and a folder. The folder’s cover reads “Risk management and assessment”.
 
-A set of exercises provides practical steps to understand risk hands-on. The basics. No complex frameworks.
-Just understanding. Then frameworks and complexity follows.
+You can't protect everything. Let's figure out what actually matters. We'll map your critical assets, realistic threats, and
+current gaps, then build a practical roadmap that fits your budget and capacity.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Identify what matters, what could go wrong, and what to do about it.
+   :caption: Get clear understanding of your risk exposure, prioritised actions, realistic timelines, and documentation you can show your board.
 
    choreography.md
    asset-identification.md
