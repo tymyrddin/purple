@@ -291,21 +291,25 @@ Complete example for control-plane playbook scenario:
 # The Poisoned Registry
 
 ## Scenario overview
+
 Control-plane attack targeting RPKI infrastructure itself.
 Difficulty: Hard | Duration: 15 minutes | Prerequisites: RPKI knowledge
 
 ## Attacker perspective
+
 (Condensed from Scarlet Semaphore op documentation)
 - Phase 1: Establish legitimate RPKI presence
 - Phase 2: Poison validation infrastructure
 - Phase 3: Exploit whilst appearing valid
 
 ## Defender perspective
+
 Early phase: Nearly invisible
 Mid phase: ROA audit log anomaly (if collected)
 Late phase: Confusing (RPKI says VALID but traffic patterns wrong)
 
 ## Common failure modes
+
 1. Trusting RPKI validation blindly
 2. Missing ROA audit log signal
 3. Blaming configuration error
@@ -313,6 +317,7 @@ Late phase: Confusing (RPKI says VALID but traffic patterns wrong)
 5. Assuming complete visibility
 
 ## Discussion prompts
+
 - Detection timing and data sources
 - Control-plane vs data-plane distinction
 - Operational improvements needed
@@ -320,11 +325,42 @@ Late phase: Confusing (RPKI says VALID but traffic patterns wrong)
 - Cascading effects if trust infrastructure compromised
 
 ## Related documentation
+
 - [Scarlet Semaphore: ROA Poisoning](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/roa_poisoning)
 - [Attack tree: BGP hijacking](https://red.tymyrddin.dev/docs/in/network/roots/ip/bgp-hijacking)
 - [Control-plane attacks](https://purple.tymyrddin.dev/docs/lantern/red-lanterns/control-vs-data-plane)
+- [Playbook 1: Registry reconnaissance and initial ROA creation](https://purple.tymyrddin.dev/docs/lantern/red-lanterns/playbooks/1)
+- [Playbook 2: ROA scope expansion and validation environment mapping](https://purple.tymyrddin.dev/docs/lantern/red-lanterns/playbooks/2)
+- [Playbook 3: Prefix hijacking with RPKI validation cover](https://purple.tymyrddin.dev/docs/lantern/red-lanterns/playbooks/3)
 ```
 
 Concise. Honest. Links to operational documentation. Frames learning without spoiling exercise.
 
-That's what good scenario READMEs accomplish.
+That's what good scenario READMEs accomplish. 
+
+## Related
+
+### Context
+
+- The Spark (foreign element): The Scarlet Semaphore begins its "experimentation," visible only by [a fleeting internal notice](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/internal-notice-tss) and red lanterns rearranging routes.
+- The Reaction: The Department of Silent Stability detects the anomalies and [issues a cautious briefing](https://blue.tymyrddin.dev/docs/shadows/red-lantern/kickoff/internal-briefing-doss), which is promptly [intercepted by the attackers](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/internal-briefing-doss).
+- The Escalation: The red team uses this intelligence to [refine its "control-plane attack" theories](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/control-plane), creating a formal catalog.
+- The Patrician's Move: Seeing the activity as a useful but disruptive threat, the Patrician intervenes. He [recruits the talent](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/ponders-visit), converting the threat into a strategic asset.
+- The New Equilibrium: The project is rebranded under [Purple Lantern Practice Ltd.](https://purple.tymyrddin.dev/docs/lantern/red-lanterns/spark/patrician-engagement), with the goal of "controlled burns" to strengthen the city's overall defenses, as the blue team continues its intelligence gathering and detection capabilities.
+
+### Scarlet semaphore's
+
+- [Making of the fat finger hijack simulator scenario](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/simulator/fat_finger_hijack)
+- [Making of the subprefix intercept simulator scenario](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/simulator/subprefix_intercept)
+- [Making of the ROA poisoning simulator scenario](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/simulator/roa_poisoning)
+
+### Repository
+
+And I still need to do a lot of work on these (when I have time):
+
+### Repository
+
+- [Scenarios](https://github.com/ninabarzh/red-lantern-sim/blob/main/simulator/scenarios/README.md)
+- [Fat finger hijack README.md](https://github.com/ninabarzh/red-lantern-sim/blob/main/simulator/scenarios/easy/fat_finger_hijack/README.md)
+- [Subprefix interception README.md](https://github.com/ninabarzh/red-lantern-sim/blob/main/simulator/scenarios/medium/subprefix_intercept/README.md)
+- [ROA poisoning/Control plane manipulation README.md](https://github.com/ninabarzh/red-lantern-sim/blob/main/simulator/scenarios/advanced/roa_poisoning/README.md)

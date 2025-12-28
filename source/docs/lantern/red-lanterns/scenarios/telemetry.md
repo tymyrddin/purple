@@ -380,4 +380,28 @@ Before running scenario, ask:
 - Are there red herrings? If every event is attack-related, defenders aren't being tested.
 - Would real defenders see this? If scenario assumes perfect logging/monitoring, it's aspirational not realistic.
 
-The goal is telemetry that defenders must interpret, not telemetry that interprets itself.
+The goal is telemetry that defenders must interpret, not telemetry that interprets itself. And for now, the simulator is still under construction.
+
+## Related
+
+### Context
+
+- The Spark (foreign element): The Scarlet Semaphore begins its "experimentation," visible only by [a fleeting internal notice](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/internal-notice-tss) and red lanterns rearranging routes.
+- The Reaction: The Department of Silent Stability detects the anomalies and [issues a cautious briefing](https://blue.tymyrddin.dev/docs/shadows/red-lantern/kickoff/internal-briefing-doss), which is promptly [intercepted by the attackers](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/internal-briefing-doss).
+- The Escalation: The red team uses this intelligence to [refine its "control-plane attack" theories](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/control-plane), creating a formal catalog.
+- The Patrician's Move: Seeing the activity as a useful but disruptive threat, the Patrician intervenes. He [recruits the talent](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/ponders-visit), converting the threat into a strategic asset.
+- The New Equilibrium: The project is rebranded under [Purple Lantern Practice Ltd.](https://purple.tymyrddin.dev/docs/lantern/red-lanterns/spark/patrician-engagement), with the goal of "controlled burns" to strengthen the city's overall defenses, as the blue team continues its intelligence gathering and detection capabilities.
+
+### Scarlet Semaphore's
+
+- [Making of the fat finger hijack simulator scenario](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/simulator/fat_finger_hijack)
+- [Making of the subprefix intercept simulator scenario](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/simulator/subprefix_intercept)
+- [Making of the ROA poisoning simulator scenario](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/simulator/roa_poisoning)
+
+### Repository
+
+- [Scenarios](https://github.com/ninabarzh/red-lantern-sim/blob/main/simulator/scenarios/README.md)
+- [Fat finger hijack telemetry.py](https://github.com/ninabarzh/red-lantern-sim/blob/main/simulator/scenarios/easy/fat_finger_hijack/telemetry.py)
+- [Subprefix interception telemetry.py](https://github.com/ninabarzh/red-lantern-sim/blob/main/simulator/scenarios/medium/subprefix_intercept/telemetry.py)
+- [ROA poisoning/Control plane manipulation telemetry.py](https://github.com/ninabarzh/red-lantern-sim/blob/main/simulator/scenarios/advanced/roa_poisoning/telemetry.py)
+

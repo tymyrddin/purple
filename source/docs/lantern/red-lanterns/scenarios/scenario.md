@@ -249,6 +249,7 @@ This is operational definition, not attack narrative. Narrative lives in README.
 ## When scenario.yaml is done
 
 You know scenario.yaml is complete when:
+
 - Every entry maps to playbook action or realistic noise
 - Timing is plausible (not instant, not impossibly long)
 - No explanations snuck in
@@ -256,6 +257,7 @@ You know scenario.yaml is complete when:
 - Assumptions match playbook preconditions
 
 You know scenario.yaml is wrong when:
+
 - Events explain themselves
 - Timing is convenient rather than realistic
 - Every event is attack-related (no noise)
@@ -263,3 +265,26 @@ You know scenario.yaml is wrong when:
 
 The file should be boring enough that reading it doesn't spoil the exercise. Save excitement for the debrief when 
 defenders realise what they missed.
+
+## Related
+
+### Context
+
+- The Spark (foreign element): The Scarlet Semaphore begins its "experimentation," visible only by [a fleeting internal notice](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/internal-notice-tss) and red lanterns rearranging routes.
+- The Reaction: The Department of Silent Stability detects the anomalies and [issues a cautious briefing](https://blue.tymyrddin.dev/docs/shadows/red-lantern/kickoff/internal-briefing-doss), which is promptly [intercepted by the attackers](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/internal-briefing-doss).
+- The Escalation: The red team uses this intelligence to [refine its "control-plane attack" theories](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/control-plane), creating a formal catalog.
+- The Patrician's Move: Seeing the activity as a useful but disruptive threat, the Patrician intervenes. He [recruits the talent](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/ponders-visit), converting the threat into a strategic asset.
+- The New Equilibrium: The project is rebranded under [Purple Lantern Practice Ltd.](https://purple.tymyrddin.dev/docs/lantern/red-lanterns/spark/patrician-engagement), with the goal of "controlled burns" to strengthen the city's overall defenses, as the blue team continues its intelligence gathering and detection capabilities.
+
+### Scarlet semaphore's
+
+- [Making of the fat finger hijack simulator scenario](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/simulator/fat_finger_hijack)
+- [Making of the subprefix intercept simulator scenario](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/simulator/subprefix_intercept)
+- [Making of the ROA poisoning simulator scenario](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/simulator/roa_poisoning)
+
+### Repository
+
+- [Scenarios](https://github.com/ninabarzh/red-lantern-sim/blob/main/simulator/scenarios/README.md)
+- [Fat finger hijack scenario.yaml](https://github.com/ninabarzh/red-lantern-sim/blob/main/simulator/scenarios/easy/fat_finger_hijack/scenario.yaml)
+- [Subprefix interception scenario.yaml](https://github.com/ninabarzh/red-lantern-sim/blob/main/simulator/scenarios/medium/subprefix_intercept/scenario.yaml)
+- [ROA poisoning/Control plane manipulation scenario.yaml](https://github.com/ninabarzh/red-lantern-sim/blob/main/simulator/scenarios/advanced/roa_poisoning/scenario.yaml)
