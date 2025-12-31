@@ -31,7 +31,7 @@ hijack as legitimate**. We're not bypassing security. We're corrupting the found
 **Objective:** Poison the validation infrastructure
 
 **Key actions:**
-- Create fraudulent ROA authorizing our AS for victim's prefix
+- Create fraudulent ROA authorising our AS for victim's prefix
 - Map which regions enforce RPKI validation
 - Deploy monitoring for ROA status changes
 
@@ -150,7 +150,7 @@ Phase 3:
 
 **Why RPKI validation fails to detect:**
 
-RPKI is designed to prevent unauthorized announcements by checking against authoritative ROAs. This attack works because:
+RPKI is designed to prevent unauthorised announcements by checking against authoritative ROAs. This attack works because:
 
 1. We created authoritative ROA (phase 2)
 2. Validators trust that ROA (it's signed by RIR)
@@ -180,7 +180,7 @@ The defense mechanism is working correctly. It's checking the right source. The 
    - Use signed BGP communities for additional validation layer
    - Requires widespread deployment (not currently available)
 
-The most effective countermeasure is **RPKI audit trail monitoring**, which would catch phase 2 before phase 3 executes. Most organizations don't have this because RPKI itself is new and auditing the validation infrastructure is not yet standard practice.
+The most effective countermeasure is **RPKI audit trail monitoring**, which would catch phase 2 before phase 3 executes. Most organisations don't have this because RPKI itself is new and auditing the validation infrastructure is not yet standard practice.
 
 ## Operational security considerations
 

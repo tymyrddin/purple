@@ -21,9 +21,9 @@ intent. They don't know whether what they're observing is attack, misconfigurati
    time.md
    visibility.md
    boundary.md
-   scenario.md
-   telemetry.md
-   readme.md
+   1.md
+   2.md
+   3.md
    Red Lantern simulator repository @GitHub <https://github.com/ninabarzh/red-lantern-sim>
 
 .. raw:: html

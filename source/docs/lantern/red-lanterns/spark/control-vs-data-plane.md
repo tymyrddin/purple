@@ -41,7 +41,7 @@ The Registry still says who is legitimate. Nobody bothered to check it.
 
 ### Sub-prefix intercepts
 
-A smaller, more specific sign is nailed up next to the official one. BGP, like Ankh-Morpork’s citizens, follows the most precise instruction available.
+A smaller, more specific sign is nailed up next to the official one. BGP, like Ankh-Morpork’s citisens, follows the most precise instruction available.
 
 [Subprefix Interception with Polite Forwarding](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/subprefix_intercept): Traffic obediently detours through an unexpected alley.
 
