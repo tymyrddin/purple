@@ -19,3 +19,9 @@ You have built walls and patrols, but attackers exist. This page is not theory; 
 * Confirm that logs, monitoring, and incident response procedures would detect or contain attempted exploits. Missing evidence is a gap.
 * Validate that ownership is assigned for each control and response. Unclear responsibility is a finding.
 * Ensure all zones and network segments are considered. Threats crossing undocumented or unmonitored zones indicate gaps.
+
+## Related 
+
+* [ISO 22301 Potential storms and saboteurs](../iso22301/adversaries.md)
+* [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
+

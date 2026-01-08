@@ -50,3 +50,10 @@ Gaps in documentation are as fatal as gaps in configuration.
 
 *Treat this page as a checklist for post-deployment inspection: if a threat exists without documented mitigation, 
 monitoring, or ownership, it is a gap that must be closed before anyone audits the system.*
+
+## Related
+
+* [ISO 22301 The resilience dossier](../iso22301/evidence.md)
+* [NIS2 Reaching the far bank](../../audits/nis2/bank.md)
+* [ISO 27001 Base camp check](../../audits/iso27001/base-camp-check.md)
+* [Unseen University Power & Light Co. IT/OCS pentesting](https://red.tymyrddin.dev/docs/power/)

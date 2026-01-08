@@ -43,6 +43,12 @@ The walls are up, the machines are running, threats are mapped. Controls are the
 * Ownership clarity: Controls without a responsible owner or custodian are gaps.
 * Consistency: Policies, procedures, and physical or network configurations must match documented controls. Deviations are findings.
 
-
 *Use this page to validate your defences: check that each threat has a documented, effective, and owned control. Any gap is a place to shore up before the auditor arrives.*
+
+## Related
+
+* [ISO 22301 The factory’s emergency systems](../iso22301/controls.md)
+* [NIS2 Building a raft](../../audits/nis2/raft.md)
+* [ISO 27001 The gear depot](../../audits/iso27001/gear-depot.md)
+* [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
 

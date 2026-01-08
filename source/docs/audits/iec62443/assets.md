@@ -23,3 +23,11 @@ defences post‑deployment.
 
 *Use this page as a checklist for post‑work inspection: if it is missing, misaligned, or undocumented, it is something to fix before an auditor sees it.*
 
+## Related
+
+* [ISO 22301 The factory’s heartbeat](../iso22301/assets.md)
+* [NIS2 Understanding the river](../../audits/nis2/river.md)
+* [ISO 27001 Risk tent](../../audits/iso27001/risk-tent.md)
+* [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
+* [What matters (asset identification)](../../risk-management/asset-identification.md)
+
