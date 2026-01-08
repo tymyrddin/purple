@@ -21,6 +21,6 @@ Organisational risk audits & resilience assessments
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Let's do a free connection call to discuss your challenges and see if our approach is a good fit.</a>
+                <a href="https://tymyrddin.dev/contact/">Open a Channel of Polite Inquiry</a>
             </div>
         </div>
