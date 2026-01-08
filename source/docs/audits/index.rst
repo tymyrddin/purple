@@ -11,6 +11,7 @@ Audits and assessments
    :includehidden:
    :caption: Navigate your organisation’s risks and resilience with clarity, whether charting the cracks before they spread or climbing the peaks of ISO 27001 compliance.
 
+   iec62443/index
    iso27001/index
    nis2/index
    resilience/index
