@@ -12,9 +12,8 @@ Most organisations don't have:
 - Real-time RPKI audit log monitoring
 - Alerting on ROA creation for prefixes they don't control
 - Correlation between ROA changes and BGP announcements
-
-The [Scarlet Semaphore operation notes on ROA poisoning](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/roa_poisoning):  
-RPKI CA audit logs exist but aren't monitored. ROA changes are logged but not alerted on. Validation state changes 
+ 
+RPKI CA audit logs exist but weren't monitored. ROA changes were logged but not alerted on. Validation state changed 
 propagate slowly (30-90 minutes).
 
 A scenario that makes this obviously detectable is lying about defender capabilities.
@@ -27,18 +26,11 @@ A better scenario emits:
 
 Defenders must connect these dots themselves. The scenario doesn't do it for them.
 
-## Related
+## Narrative
 
-### Context
+- The Spark (foreign element): The Scarlet Semaphore began its "experimentation," visible only by [a fleeting internal notice](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/internal-notice-tss) and red lanterns rearranging routes.
+- The Reaction: The Department of Silent Stability detected the anomalies and [issued a cautious briefing](https://blue.tymyrddin.dev/docs/shadows/red-lantern/kickoff/internal-briefing-doss), which is promptly [intercepted by the attackers](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/internal-briefing-doss).
+- The Escalation: The Scarlet Semaphore used this intelligence to [refine its "control-plane attack" theories](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/bench/), creating a formal catalog.
+- The Patrician's Move: Seeing the activity as a useful but disruptive threat, the Patrician intervened. He [recruited the talent](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/ponders-visit), converting the threat into a strategic asset.
+- The New Equilibrium: The project was rebranded under [Purple Lantern Practice Ltd.](../spark/patrician-engagement), with the goal of "simulated controlled burns" to strengthen the city's overall defenses, as the [Dept. of Silent Stability](https://blue.tymyrddin.dev/docs/shadows/) continues its intelligence gathering and detection capabilities.
 
-- The Spark (foreign element): The Scarlet Semaphore begins its "experimentation," visible only by [a fleeting internal notice](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/internal-notice-tss) and red lanterns rearranging routes.
-- The Reaction: The Department of Silent Stability detects the anomalies and [issues a cautious briefing](https://blue.tymyrddin.dev/docs/shadows/red-lantern/kickoff/internal-briefing-doss), which is promptly [intercepted by the attackers](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/internal-briefing-doss).
-- The Escalation: The red team uses this intelligence to [refine its "control-plane attack" theories](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/control-plane), creating a formal catalog.
-- The Patrician's Move: Seeing the activity as a useful but disruptive threat, the Patrician intervenes. He [recruits the talent](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/wall/ponders-visit), converting the threat into a strategic asset.
-- The New Equilibrium: The project is rebranded under [Purple Lantern Practice Ltd.](https://purple.tymyrddin.dev/docs/lantern/red-lanterns/spark/patrician-engagement), with the goal of "controlled burns" to strengthen the city's overall defenses, as the blue team continues its intelligence gathering and detection capabilities.
-
-### Scarlet Semaphore's
-
-- [Making of the fat finger hijack simulator scenario](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/simulator/fat_finger_hijack)
-- [Making of the subprefix intercept simulator scenario](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/simulator/subprefix_intercept)
-- [Making of the ROA poisoning simulator scenario](https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/simulator/roa_poisoning)
