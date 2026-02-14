@@ -80,12 +80,12 @@
 - Narrative Hooks: "Filigree Street bank run after rumour of insolvency," "Thieves' Guild 'quota day' causes merchant strike," "Mended Drum brawl spills into street, breaks new fountain."
 
 ## Small Gods
-- Description: A sprawling, mixed-use district south of the river. A chaotic blend of small workshops, terraced housing, pubs, and minor temples. The default "ordinary Ankh-Morpork" - not rich, not desperately poor, just getting on with it. Name is a pun on "small gods" (the minor deities) and its modest scale.
+- Description: A sprawling, mixed-use district south of the river. A chaotic blend of small workshops, terraced housing, pubs, and minor temples. The default "ordinary Ankh-Morpork", not rich, not desperately poor, just getting on with it. Name is a pun on "small gods" (the minor deities) and its modest scale.
 - Wealth Level: Low to Medium (working poor to comfortable artisan)
 - Population Density: High (mixed housing and workshops crammed together)
 - Infrastructure Quality: Low to Medium (patchy; some streets maintained, others not)
 - Political Influence: Low (no single voice; represented indirectly through multiple minor guilds)
-- Media Attention Multiplier: 0.5x (only reported in aggregate - "Small Gods residents complain about...")
+- Media Attention Multiplier: 0.5x (only reported in aggregate: "Small Gods residents complain about...")
 - Systemic Stressors:
     - Underinvestment (Chronic): Always the last to receive upgrades, the first to be overlooked.
     - Social Inequality (Moderate): Residents see Nap Hill every day across the river.
@@ -99,7 +99,7 @@
 - Population Density: N/A (but heavily used by barges, fishermen, and launderers)
 - Infrastructure Quality: Very Low (it's a river; it does what it wants)
 - Political Influence: Medium (affects everyone; no one controls it)
-- Media Attention Multiplier: 1.2x (river stories are perennial favourites - floods, fires, curious objects floating by)
+- Media Attention Multiplier: 1.2x (river stories are perennial favourites: floods, fires, curious objects floating by)
 - Systemic Stressors:
     - Underinvestment: Dredging? Pollution control? That would cost money.
     - Interdependence: Every district depends on it for waste removal; some depend on it for water.

@@ -2,7 +2,7 @@
 
 ## Dependency types
 
-What they represent: The web of relationships that keep a building functioning. A building isn't an island - it requires inputs from other buildings and services, and its outputs feed others.
+What they represent: The web of relationships that keep a building functioning. A building isn't an island, it requires inputs from other buildings and services, and its outputs feed others.
 
 Core dependency categories:
 
@@ -77,7 +77,7 @@ Patrician demands action; guild influence erodes
 
 Consumes:
 - Energy: Moderate (lighting the sign, cellar, kitchen)
-- Water: High (cleaning, brewing, diluting beer - allegedly)
+- Water: High (cleaning, brewing, diluting beer, allegedly)
 - Communications: Gossip (lifeblood), clacks for suppliers
 - Food & Beverage Supplies: Brewery (beer), farms (food), ice house (preservation)
 - Labour: Barmen, bouncers, serving staff (local residents)
@@ -116,7 +116,7 @@ Pub closes; unemployment; local morale drop
 Small Gods district trust declines
 ```
 
-Special case - Biers: Biers has unusual dependencies. Its clientele (undead) are less sensitive to beer temperature, more sensitive to... existential ambiance. If the "right sort" can't find it, they simply don't come. Its dependency is reputation and discoverability rather than supply chains.
+Special case: Biers: Biers has unusual dependencies. Its clientele (undead) are less sensitive to beer temperature, more sensitive to... existential ambiance. If the "right sort" can't find it, they simply don't come. Its dependency is reputation and discoverability rather than supply chains.
 
 ## Civic amenities
 
@@ -212,7 +212,7 @@ Vimes intervention; political crisis; nobles complain about "favoritism"
 Global trust impact (delayed, severe)
 ```
 
-Special case - Cockbill Street pride: Cockbill Street residents will not report failures. They'd rather suffer silently than admit need. This means detection time is maximum, decay is advanced before discovery, and recovery requires Vimes-level intervention.
+Special case: Cockbill Street pride: Cockbill Street residents will not report failures. They'd rather suffer silently than admit need. This means detection time is maximum, decay is advanced before discovery, and recovery requires Vimes-level intervention.
 
 ## Middle-class and artisan housing
 
@@ -262,7 +262,7 @@ Temples complain to Patrician
 Political influence activates; repair prioritized
 ```
 
-## 6. Major civic institutions
+## Major civic institutions
 
 *(Pseudopolis Yard, Post Office, Royal Mint)*
 
@@ -308,13 +308,13 @@ Other infrastructure projects delayed
 Small Gods water pump upgrade postponed...
 ```
 
-Special case - interconnected civic institutions:
+Special case: interconnected civic institutions:
 The Post Office, Mint, and Watch are increasingly interdependent under Vetinari's reforms. A failure in one cascades to others:
 - Post Office fails → Watch can't receive mail-in crime tips
 - Mint fails → Watch can't pay salaries
 - Watch fails → Post Office robbed, Mint vulnerable
 
-## 7. The Palace / Patrician's seat
+## The Palace / Patrician's seat
 
 Consumes:
 - Energy: High (constant lighting, security systems)
@@ -360,9 +360,7 @@ Vetinari discovers deception; massive accountability actions
 Trust recovers; but fragility exposed
 ```
 
----
-
-## 8. Unseen University (UU)
+## Unseen University (UU)
 
 Consumes:
 - Energy: Massive (magical research, heating, lighting)
@@ -411,7 +409,7 @@ Budget hit; regulatory pressure on UU increases
 UU becomes slightly more cooperative (for a while)
 ```
 
-Special case - UU as landlord: UU owns much of the Shades. If UU experiences financial pressure (rare), it might 
+Special case: UU as landlord: UU owns much of the Shades. If UU experiences financial pressure (rare), it might 
 demand rent increases from the poorest residents. This creates a dependency chain:
 
 ```
@@ -422,7 +420,7 @@ UU budget pressure → Rent increases → Shades evictions → Homelessness → 
 
 Cross-district examples.
 
-## Example 1: The Water cascade
+## Example: Water cascade
 
 ```
 Small Gods Pump Failure (Infrastructure Quality: Low)
@@ -458,7 +456,7 @@ Global trust: Small Gods (+), Shades (+), Nap Hill (-), Isle of Gods (-)
 Net effect: Complicated
 ```
 
-## Example 2: The Transport cascade
+## Example: Transport cascade
 
 ```
 Isle of Gods Bridge Structural Failure (Degradation & Neglect)
@@ -494,7 +492,7 @@ Regulatory pressure remains high; political stability trembles
 Patrician reflects: "One bridge..."
 ```
 
-## Example 3: The Communications cascade
+## Example: Communications cascade
 
 *Strategic interference*
 
@@ -546,7 +544,7 @@ Not all dependencies are equal. Some are critical (failure = immediate shutdown)
 | Slum Dwelling     | Water pump               | Community networks       | Landlord tolerance     |
 | Artisan Housing   | Transport                | Local shops, Energy      | Schools                |
 | Civic Institution | Communications, Energy   | Staff, Records           | Public trust           |
-| Palace            | Communications, Security | Information, Loyalty     | (none - it's the top)  |
+| Palace            | Communications, Security | Information, Loyalty     | (none: it's the top)  |
 | Unseen University | Arcane supplies, Food    | Internal cooperation     | Patrician tolerance    |
 
 ## Detection time modifiers by building type
@@ -566,8 +564,8 @@ How quickly a failure is noticed depends on building type and district:
 
 This building dependency framework creates the final layer of decision pressure:
 
-- A broken pump in the Shades isn't just a pump - it's a cascade that will eventually reach Nap Hill through crime, disease, or Vimes's conscience.
-- A brewery failure isn't just about beer - it's about tavern closures, unemployment, local trust decay, and eventually merchant pressure.
-- A clacks tower failure might be accident, neglect, or strategic interference - and guessing wrong has consequences.
+- A broken pump in the Shades isn't just a pump, it's a cascade that will eventually reach Nap Hill through crime, disease, or Vimes's conscience.
+- A brewery failure isn't just about beer, it's about tavern closures, unemployment, local trust decay, and eventually merchant pressure.
+- A clacks tower failure might be accident, neglect, or strategic interference, and guessing wrong has consequences.
 
 The Patrician must see the whole web, not just the broken thread.

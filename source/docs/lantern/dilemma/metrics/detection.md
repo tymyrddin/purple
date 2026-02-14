@@ -14,7 +14,7 @@ discovered after a week may have already triggered cascades.
 | Media investigation    | *Ankh-Morpork Times* reporters discover stories            | Moderate (they look for news)          | Moderate to Fast     | High-influence districts prioritized  |
 | Tax shortfall          | Budget office notices reduced revenue                      | High (numbers don't lie)               | Slow (weeks)         | All (economic indicator)              |
 | Vimes intuition        | Commander Vimes "has a feeling"                            | Paradoxically high                     | Variable             | Anywhere he's paying attention        |
-| Spontaneous event      | Explosion, fire, collapse - hard to miss                   | 100%                                   | Immediate            | Any                                   |
+| Spontaneous event      | Explosion, fire, collapse, hard to miss                   | 100%                                   | Immediate            | Any                                   |
 | Strategic intelligence | Vetinari's personal network                                | Very High                              | Fast                 | All (but limited capacity)            |
 | No detection           | Failure continues until cascade forces discovery           | N/A                                    | Potentially infinite | Shades, Cockbill Street               |
 
@@ -51,7 +51,7 @@ Buildings themselves within a district affect discovery speed:
 Example calculation:
 - Small Gods base: 24-48 hours
 - Small Gods tavern failure: 24-48 × 0.8 = 19-38 hours
-- Small Gods slum failure: 24-48 × 1.5 (Slum) = 36-72 hours (no, wait, Slums aren't in Small Gods - let's do Shades instead)
+- Small Gods slum failure: 24-48 × 1.5 (Slum) = 36-72 hours (no, wait, Slums aren't in Small Gods, let's do Shades instead)
 - Shades base: 72-120 hours
 - Shades slum failure: 72-120 × 2.0 = 144-240 hours (6-10 days)
 

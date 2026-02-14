@@ -2,9 +2,9 @@
 
 ## Public trust
 
-What it represents: The population's confidence that the Patrician and the guild system will maintain order, provide essential services, and keep the city functioning. Not affection - Vetinari doesn't need to be loved - but a pragmatic acceptance that things work.
+What it represents: The population's confidence that the Patrician and the guild system will maintain order, provide essential services, and keep the city functioning. Not affection. Vetinari doesn't need to be loved, but a pragmatic acceptance that things work.
 
-Starting value: "Business as usual" - the baseline after centuries of pragmatic tyranny. The city functions; people grumble but go about their business. The Patrician has arranged things so that removing him would cause chaos, which people trust him to prevent.
+Starting value: "Business as usual", the baseline after centuries of pragmatic tyranny. The city functions; people grumble but go about their business. The Patrician has arranged things so that removing him would cause chaos, which people trust him to prevent.
 
 Decay behaviours:
 
@@ -32,9 +32,9 @@ Special cases:
 - Vimes effect: If Vimes personally intervenes in a failure, trust recovers faster in the Shades and Cockbill Street, but may cause resentment elsewhere ("he cares more about them than us").
 - Moist von Lipwig effect: If Moist is put in charge of fixing something, trust initially drops (con man!), then recovers dramatically if he succeeds.
 
-## Budget (City Treasury)
+## Budget
 
-What it represents: Not just gold in the vault, but the city's capacity to spend on repairs, compensation, and investment. Includes tax revenue, guild contributions, and emergency borrowing capacity.
+What it represents: City Treasury. Not just gold in the vault, but the city's capacity to spend on repairs, compensation, and investment. Includes tax revenue, guild contributions, and emergency borrowing capacity.
 
 Starting treasury: "Comfortable but not extravagant." Vetinari runs a tight ship; there's reserve for genuine emergencies, but not enough to fix everything at once. Major projects require guild loans.
 
@@ -58,6 +58,7 @@ Expenditure costs (per remedy application):
 | Accountability actions | Low             | Political capital, not gold                              | Firing someone is cheap; hiring their replacement later is not.                        |
 
 Special behaviours:
+
 - Crisis spending: During a major incident, the Patrician can authorise emergency funds beyond normal budget, but this depletes reserves and may require guild approval.
 - Guild loans: Available immediately, but the guild will expect favours later. Mr Boggis doesn't forget.
 - Narrative effect on income: If trust drops below a threshold, tax collection becomes "difficult" (passive resistance, "mistakes" in accounting).
@@ -101,7 +102,7 @@ Thresholds for intervention:
 
 ## Political stability
 
-What it represents: The absence of coup, revolution, or civil war. Not the same as trust - a stable city can have grumpy citizens. Instability means factions are actively maneuvering against each other or the Patrician.
+What it represents: The absence of coup, revolution, or civil war. Not the same as trust, a stable city can have grumpy citizens. Instability means factions are actively maneuvering against each other or the Patrician.
 
 Starting value: High. Vetinari has arranged things beautifully. Everyone *could* overthrow him; no one can agree on who would replace him.
 
@@ -190,7 +191,7 @@ Recovery rate:
 | Popular acclaim      | Variable    | Spontaneous "Long live the Patrician!" moments. Rare.                         |
 | Carrot's endorsement | Extreme     | If the rightful heir publicly supports you, legitimacy becomes unassailable.  |
 
-Special case - Carrot: If Carrot ever chose to press his claim, legitimacy would transfer instantly to him. Not because he'd be better (he might be), but because he's the *rightful* king. Vetinari knows this. Carrot knows this. Everyone knows this. Carrot's decision *not* to claim the throne is the only thing maintaining Vetinari's ultimate legitimacy. If Carrot ever changed his mind, the Patrician would step aside. Probably with a faint smile.
+Special case: Carrot: If Carrot ever chose to press his claim, legitimacy would transfer instantly to him. Not because he'd be better (he might be), but because he's the *rightful* king. Vetinari knows this. Carrot knows this. Everyone knows this. Carrot's decision *not* to claim the throne is the only thing maintaining Vetinari's ultimate legitimacy. If Carrot ever changed his mind, the Patrician would step aside. Probably with a faint smile.
 
 ## Metric behaviours
 

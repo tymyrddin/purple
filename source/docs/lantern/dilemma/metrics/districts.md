@@ -145,11 +145,11 @@ Dynamic changes:
 | Major disaster     | Temporary increase (media attention, sympathy) - the "victim multiplier" |
 | Decades of neglect | Slow decay (if ignored long enough, a district's influence atrophies)    |
 
-Special case - Cockbill Street:
+Special case: Cockbill Street:
 
 Cockbill Street has baseline negligible influence, but a standing "Vimes proxy" of 1.5x whenever Samuel Vimes is personally aware of an issue. If Vimes visits, the street briefly has Nap Hill-level attention. This creates interesting dynamics: nobles resent it ("why do *they* get priority?"), and Vimes must choose which battles to fight.
 
-## Local Trust/Satisfaction
+## Local trust/satisfaction
 
 What it represents: District-level confidence in the city government. Can diverge significantly from global Public Trust. A district can be furious while the rest of the city is calm, or vice versa.
 
@@ -203,7 +203,7 @@ Special interactions:
 - Guild intervention: If a guild fixes a problem in their district, trust in the *guild* increases, but trust in the *city* may not (residents credit the guild, not the Patrician).
 - Contagion: Low trust in one district can spread to adjacent districts. Shades dissatisfaction seeps into Small Gods. Nap Hill smugness annoys everyone else.
 
-## Summary Table - District Metrics Behaviour
+## District metrics behaviour
 
 | District            | Wealth   | Density    | Infrastructure | Influence         | Local Trust (Start)         | Special Characteristics                                                                   |
 |---------------------|----------|------------|----------------|-------------------|-----------------------------|-------------------------------------------------------------------------------------------|
@@ -216,7 +216,7 @@ Special interactions:
 | Cockbill Street     | Very Low | Very High  | Very Low       | Low (Vimes proxy) | 20 (in city), 80 (in Vimes) | Proud; won't complain; Vimes is their real government                                     |
 | River Ankh          | N/A      | N/A        | Very Low       | Medium            | N/A                         | No residents, but affects all districts; symbolic heart                                   |
 
-## How District Metrics Interact with Global Metrics
+## Interactions with City-wide metrics
 
 | Global Metric       | District Interaction                                                                                                                                   |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|

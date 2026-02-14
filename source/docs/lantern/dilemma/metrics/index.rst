@@ -20,6 +20,6 @@ is merely grumbling or on the verge of consuming itself.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Consult the Guilds</a>
+                <a href="https://tymyrddin.dev/contact/">Sound the Alarm</a>
             </div>
         </div>
