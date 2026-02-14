@@ -1,12 +1,8 @@
 Critical infrastructure in Ankh-Morpork
 =============================================================
 
-This threat model describes how disruptions to digital and operational systems affect:
-
-* essential services
-* economic activity
-* public trust
-* political and regulatory pressure
+This threat model describes how disruptions to digital and operational systems affect essential services, economic
+activity, public trust, and political and regulatory pressure
 
 The focus is not on *how* systems are attacked or fail, but on *what happens next* and *who feels it*.
 
