@@ -2,19 +2,15 @@ The Patrician’s dilemma
 ===============================
 
 .. image:: /_static/images/simulator-map.png
-   :alt: Night over steampunk city Ankh-Morpork, viewed from high above; the city sprawls deep below; about 20 glowing red oil lanterns are visible in the city, forming a subtle, intricate irregular network of signals.
-
-.. raw:: html
-
-   <p style="text-align: center;"><em><a href="https://red.tymyrddin.dev/docs/power/">(Government and civic analogue)</a></em></p>
+   :alt: A purple steampunk lantern glowing softly in a dark room, casting light onto a detailed parchment map of the BIG city Ankh Morpork with its many districts spread across an old big wooden table. Ink pots, quills, and sealing wax beside it.
 
 `Unseen University Power & Light Co. <https://red.tymyrddin.dev/docs/power/>`_ faces increasing pressure
-from `Department of Silent Stability <https://blue.tymyrddin.dev/docs/shadows/>`_  to “see more”
+from `Department of Silent Stability <https://blue.tymyrddin.dev/docs/shadows/>`_  to *see more*
 `in the name of stability <https://indigo.tymyrddin.dev/docs/vetinari/>`_. Competing interests emerge between
 security, civil trust, and political accountability.
 
-And so, the Purple Lantern is making another simulator, this time where the question isn't *"how do we stop the attack?"*
-but *"when the lights go out, who pays the price?"*
+And so, the Purple Lantern is making another simulator, this time where the question isn't, *how do we stop the attack?*,
+but, *when the lights go out, who pays the price?*
 
 .. toctree::
    :glob:
