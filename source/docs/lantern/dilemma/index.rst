@@ -19,6 +19,8 @@ but, *when the lights go out, who pays the price?*
    :caption: Stability can be defended without being explained. Trust cannot.
 
    threat-modelling/index
+   design/index
+   metrics/index
 
 Outcome: Leave with a shared understanding of boundaries, trade-offs, and the risks of silent overreach.
 

@@ -8,7 +8,7 @@ The focus is not on *how* systems are attacked or fail, but on *what happens nex
 
 .. toctree::
    :glob:
-   :maxdepth: 1
+   :maxdepth: 2
    :includehidden:
    :caption: The city of Ankh-Morpork is fictional. The infrastructure patterns, dependencies, and impacts are deliberately realistic and aligned with European urban environments.
 
