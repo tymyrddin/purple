@@ -22,8 +22,8 @@ We do not run your systems. We do not sell tools.
    :caption: We help you see clearly before it matters.
 
    red-lanterns/index
+   dilemma/index
    shadow.md
-   dilemma.md
 
 Disclaimer
 ----------
