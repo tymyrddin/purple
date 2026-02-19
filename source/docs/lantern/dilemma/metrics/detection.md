@@ -37,16 +37,32 @@ How long before *someone* in authority notices a non-catastrophic failure (e.g.,
 
 Buildings themselves within a district affect discovery speed:
 
-| Building Type     | Discovery Time Modifier                | Mechanism                        |
-|-------------------|----------------------------------------|----------------------------------|
-| Guild HQ          | 0.5x (half the district time)          | Self-reporting                   |
-| Tavern            | 0.8x                                   | Customers notice and talk        |
-| Civic Amenity     | 1.5x                                   | May be visited infrequently      |
-| Slum Dwelling     | 2.0x (Shades), 3.0x (Cockbill)         | No reporting; active concealment |
-| Artisan Housing   | 1.0x (baseline)                        | Neighbors notice                 |
-| Civic Institution | 0.3x (fastest)                         | Staff present 24/7               |
-| Palace            | 0.1x (effectively immediate)           | Vetinari                         |
-| Unseen University | 2.0x (if internal), 1.0x (if external) | They may not tell anyone         |
+| Building Type          | Discovery Time Modifier                | Mechanism                                                    |
+|------------------------|----------------------------------------|--------------------------------------------------------------|
+| Guild HQ               | 0.5x (half the district time)          | Self-reporting                                               |
+| Tavern                 | 0.8x                                   | Customers notice and talk                                    |
+| Civic Amenity          | 1.5x                                   | May be visited infrequently                                  |
+| Slum Dwelling          | 2.0x (Shades), 3.0x (Cockbill)         | No reporting; active concealment                             |
+| Artisan Housing        | 1.0x (baseline)                        | Neighbors notice                                             |
+| Civic Institution      | 0.3x (fastest)                         | Staff present 24/7                                           |
+| Palace                 | 0.1x (effectively immediate)           | Vetinari                                                     |
+| Unseen University      | 2.0x (if internal), 1.0x (if external) | They may not tell anyone                                     |
+| Water Source           | 0.6x                                   | Outright failure spotted fast; slow pressure drops can hide  |
+| Power Source           | 0.4x                                   | Operators and meters spot failure fast                       |
+| Clacks Tower           | 0.3x                                   | Tower goes dark; operators and users notice within minutes   |
+| Food Supply            | 0.8x                                   | Market managers notice shortages; contamination hides longer |
+| Brewery                | 0.5x                                   | Workers monitor vats; contamination can take a day to show   |
+| Transport              | 0.6x                                   | Closure immediate; structural degradation hides much longer  |
+| Communications Office  | 0.8x                                   | Office closure less visible than a tower going dark          |
+| Apothecary             | 1.2x                                   | Small premises; failure surfaces when customer finds it shut |
+| Healthcare             | 0.3x                                   | Staff 24/7; monitoring equipment; failures spotted at once   |
+| Security Post          | 0.4x                                   | Watch staff notice failures fast; patrol gaps show in reports|
+| Intelligence Service   | 3.0x                                   | Deep cover; failures surface very late and at one remove     |
+| Tech Business          | 0.4x                                   | Continuous monitoring; alerts fire before humans notice      |
+| Hackerspace            | 1.5x                                   | Operates covertly; disruptions surface slowly and obliquely  |
+| Workshop               | 1.0x (baseline)                        | Fires obvious; structural decay and contamination hide longer|
+| Fire Service           | 0.3x                                   | Station staff notice equipment failures and missed calls fast |
+| Media                  | 0.6x                                   | Reporters notice things; their own failures surface gradually |
 
 Example calculation:
 - Small Gods base: 24-48 hours

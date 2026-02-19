@@ -1,22 +1,20 @@
-Designing the District Atlas
+Implementing goblin-grade complexity
 =============================================================
 
-.. image:: /_static/images/simulator-map.png
+.. image:: /_static/images/ankh-morpork-sim.png
    :alt: A purple steampunk lantern glowing softly in a dark room, casting light onto a detailed parchment map of the BIG city Ankh Morpork with its many districts spread across an old big wooden table. Ink pots, quills, and sealing wax beside it.
 
-The District Atlas maps the social and political terrain upon which those failures occur. Wealth,
-density, and influence vary wildly from Nap Hill to the Shades, dictating who feels a crisis first and whose
-complaints reach the Palace.
+A system where the hard terms are so unspeakable that everyone enthusiastically agrees to the easy terms, which are
+themselves incomprehensible.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: It is the anatomy of the city's populace.
+   :caption: Lord Vetinari's preferred negotiation tactic: offer something so terrible that complex bureaucracy looks like a gift.
 
-   buildings.md
-   districts.md
-   achitecture.md
+   disclaimer.md
+   Repository @GitHub <https://github.com/ninabarzh/ankh-crisis-sim>
 
 .. raw:: html
 

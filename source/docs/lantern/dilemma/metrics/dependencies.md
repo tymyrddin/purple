@@ -536,16 +536,32 @@ But damage done: fragility exposed
 
 Not all dependencies are equal. Some are critical (failure = immediate shutdown), others are operational (failure = degraded function), others are strategic (failure = long-term decline).
 
-| Building Type     | Critical Dependencies    | Operational Dependencies | Strategic Dependencies |
-|-------------------|--------------------------|--------------------------|------------------------|
-| Guild HQ          | Communications           | Energy, Water            | Watch cooperation      |
-| Tavern            | Brewery supply, Water    | Energy, Thieves' Guild   | Transport (staff)      |
-| Civic Amenity     | Security                 | Communications, Energy   | Tourist traffic        |
-| Slum Dwelling     | Water pump               | Community networks       | Landlord tolerance     |
-| Artisan Housing   | Transport                | Local shops, Energy      | Schools                |
-| Civic Institution | Communications, Energy   | Staff, Records           | Public trust           |
-| Palace            | Communications, Security | Information, Loyalty     | (none: it's the top)  |
-| Unseen University | Arcane supplies, Food    | Internal cooperation     | Patrician tolerance    |
+| Building Type         | Critical Dependencies           | Operational Dependencies              | Strategic Dependencies         |
+|-----------------------|---------------------------------|---------------------------------------|--------------------------------|
+| Guild HQ              | Communications                  | Energy, Water                         | Watch cooperation              |
+| Tavern                | Brewery supply, Water           | Energy, Thieves' Guild                | Transport (staff)              |
+| Civic Amenity         | Security                        | Communications, Energy                | Tourist traffic                |
+| Slum Dwelling         | Water pump                      | Community networks                    | Landlord tolerance             |
+| Artisan Housing       | Transport                       | Local shops, Energy                   | Schools                        |
+| Civic Institution     | Communications, Energy          | Staff, Records                        | Public trust                   |
+| Palace                | Communications, Security        | Information, Loyalty                  | (none: it's the top)           |
+| Unseen University     | Arcane supplies, Food           | Internal cooperation                  | Patrician tolerance            |
+| Water Source          | Energy                          | Maintenance staff, Communications     | Infrastructure budget          |
+| Power Source          | Fuel supply, Maintenance staff  | Communications                        | Infrastructure budget          |
+| Clacks Tower          | Energy                          | Maintenance staff                     | Infrastructure budget          |
+| Food Supply           | Transport                       | Energy, Water, Communications         | Climate, Trade routes          |
+| Brewery               | Water, Food supplies            | Energy, Communications, Transport     | Ingredient supply              |
+| Transport             | Maintenance staff               | Energy, Communications                | Infrastructure budget          |
+| Communications Office | Staff, Communications           | Energy, Water                         | Licensing contracts            |
+| Apothecary            | Medical supplies                | Energy, Water                         | Guild of Physicians licence    |
+| Healthcare            | Energy, Staff, Communications   | Water, Food supplies                  | Medicine supply                |
+| Security Post         | Staff, Communications           | Energy, Transport                     | Budget, Public cooperation     |
+| Intelligence Service  | Communications, Loyal staff     | Energy, Financial reserves            | Patrician mandate              |
+| Tech Business         | Energy, Communications          | Staff                                 | Data contracts                 |
+| Hackerspace           | Communications, Energy          | Food supplies                         | Informal network               |
+| Workshop              | Energy, Transport               | Water, Food supplies                  | Guild licensing                |
+| Fire Service          | Water, Communications           | Staff, Energy                         | Infrastructure budget          |
+| Media                 | Communications, Staff           | Energy                                | Press freedom                  |
 
 ## Detection time modifiers by building type
 

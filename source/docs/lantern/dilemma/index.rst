@@ -1,8 +1,8 @@
 The Patrician’s dilemma
 ===============================
 
-.. image:: /_static/images/simulator-map.png
-   :alt: A purple steampunk lantern glowing softly in a dark room, casting light onto a detailed parchment map of the BIG city Ankh Morpork with its many districts spread across an old big wooden table. Ink pots, quills, and sealing wax beside it.
+.. image:: /_static/images/ankh-morpork-sim.png
+   :alt: Screenshot of the game
 
 `Unseen University Power & Light Co. <https://red.tymyrddin.dev/docs/power/>`_ faces increasing pressure
 from `Department of Silent Stability <https://blue.tymyrddin.dev/docs/shadows/>`_  to *see more*
@@ -21,6 +21,7 @@ but, *when the lights go out, who pays the price?*
    threat-modelling/index
    design/index
    metrics/index
+   implementation/index
 
 Outcome: Leave with a shared understanding of boundaries, trade-offs, and the risks of silent overreach.
 

@@ -198,10 +198,44 @@ Special case: Carrot: If Carrot ever chose to press his claim, legitimacy would 
 | Metric              | Starting                        | Decay Drivers                                             | Recovery Drivers                     | Special Notes                                                    |
 |---------------------|---------------------------------|-----------------------------------------------------------|--------------------------------------|------------------------------------------------------------------|
 | Public Trust        | Moderate (pragmatic acceptance) | Service failures, guild conflict, narrative amplification | Fixes, compensation, accountability  | Vimes effect in poor districts; Moist effect on visible projects |
-| Budget              | Comfortable reserves            | Spending, economic downturn                               | Taxes, guild loans, tariffs          | Guild loans come with political strings                          |
+| Budget              | Comfortable reserves            | Spending, economic downturn                               | Taxes, guild loans, tariffs          | Guild fees scale with operational buildings; tariffs cut by disruption |
 | Regulatory Pressure | Moderate equilibrium            | Guild complaints, noble outcry, media, repeated failures  | Accountability, fixes, negotiation   | Pressure shifts attention; new crisis replaces old               |
 | Political Stability | High (Vetinari's masterpiece)   | Guild war, conspiracy, shortages, succession trigger      | Crisis management, concessions, time | Carrot is the ultimate safety valve and the ultimate threat      |
 | Legitimacy          | High (historical right)         | Charter violation, coup, guild withdrawal                 | Time, victory, endorsement           | Carrot's endorsement = instant max                               |
+
+## Passive metric dynamics
+
+Independent of individual events, the engine applies background drift each day:
+
+**Regulatory pressure**
+- Rises by 1.0 per detected-but-unresponded event, 0.2 per event under remedy
+- Falls by 2.0 after a full quiet week with no visible incidents
+
+**Political stability**
+- Falls by 2.0 per day when public trust drops below 25
+- Rises by 1.0 after a full incident-free week
+
+**Legitimacy**
+- Rises by 0.5 per month when political stability has remained above 50
+
+**Crime level**
+- Rises when Watch coverage falls below 50% (scaled by deficit)
+- Suppressed slowly (−0.1/day) when Watch coverage exceeds 80%
+
+**Global trust from district aggregate**
+- Recalculated each tick as a weighted average of residential district trust (weighted by density and political influence)
+- Blended 70% district aggregate, 30% existing value for smoothing
+
+## Budget income model
+
+Monthly income is applied to the city budget and scaled dynamically by city conditions:
+
+| Source | Base amount | Dynamic scaling |
+|---|---|---|
+| Taxes (general) | Configurable | Penalised when public trust < threshold (default 30) |
+| Guild fees | Configurable | Floored at 50%, scaled by fraction of operational guild buildings |
+| Trade tariffs | Configurable | Reduced by 30% per failed transport or food-supply building |
+| University contribution | Configurable | Fixed; politically impossible to increase |
 
 This framework gives you everything needed to understand *how* the city responds to crises, without requiring numerical balance. The Patrician's decisions become meaningful trade-offs:
 
