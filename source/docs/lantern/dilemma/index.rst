@@ -4,32 +4,41 @@ The Patrician’s dilemma
 .. image:: /_static/images/ankh-morpork-sim.png
    :alt: Screenshot of the game
 
-`Unseen University Power & Light Co. <https://red.tymyrddin.dev/docs/power/>`_ faces increasing pressure
-from `Department of Silent Stability <https://blue.tymyrddin.dev/docs/shadows/>`_  to *see more*
-`in the name of stability <https://indigo.tymyrddin.dev/docs/vetinari/>`_. Competing interests emerge between
-security, civil trust, and political accountability.
+Lord Havelock Vetinari, Patrician of Ankh-Morpork, keeps lists.
 
-And so, the Purple Lantern is making another simulator, this time where the question isn't, *how do we stop the attack?*,
-but, *when the lights go out, who pays the price?*
+Not of enemies or debts or opportunities, though he keeps those too.
+He keeps lists of the things he knows are wrong with the city that he
+is not going to fix this year. The Shades generator, on its third service
+extension. The water mains under Cockbill Street, laid in his grandfather's
+time and never replaced. The Grand Trunk Company's growing monopoly over
+financial communications. The widening gap between what the Guild of
+Engineers charges and what any alternative would have cost if anyone had
+maintained an alternative. The gradually shortening window between when
+an infrastructure failure occurs and when the repair crew arrives, in
+inverse proportion to the political influence of the affected district.
+
+He knows. This is important to establish first. The Patrician's dilemma
+is not a problem of information. He has the engineering reports. He
+receives the maintenance logs. He understands the feedback mechanisms
+that compound each deferred decision into a harder problem for the next
+year. He is not governing in ignorance of the structural conditions his
+city operates under. He is governing in full knowledge of them, with
+a budget that does not reach all of them, a political economy that
+rewards the wrong responses, and a set of tools that each carry their
+own structural costs.
+
+This is the dilemma: not that the problems are unknown, but that knowing
+them does not resolve the constraints that prevent their resolution.
 
 .. toctree::
    :glob:
    :maxdepth: 2
    :includehidden:
-   :caption: Stability can be defended without being explained. Trust cannot.
+   :caption: On governing a city whose structural problems you can see and cannot fix.
 
-   threat-modelling/index
-   design/index
-   metrics/index
-   implementation/index
-
-Outcome: Leave with a shared understanding of boundaries, trade-offs, and the risks of silent overreach.
-
-Do NOT focus on:
-
-* Where does defensive monitoring become intelligence gathering?
-* How legitimacy is preserved, or quietly eroded?
-* Who decides what is acceptable when no option is clean?
+   explained/index
+   counter-intuitive/index
+   rare/index
 
 .. raw:: html
 
