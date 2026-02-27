@@ -39,6 +39,7 @@ them does not resolve the constraints that prevent their resolution.
    explained/index
    counter-intuitive/index
    rare/index
+   design/index
    threat-modelling/index
    metrics/index
    implementation/index
