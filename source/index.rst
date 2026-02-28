@@ -11,6 +11,7 @@ Purple crossroads
    :caption: Organisations designed to be simulations on paper:
 
    docs/lantern/index
+   docs/mclu/index
 
 .. toctree::
    :glob:

@@ -23,7 +23,6 @@ We do not run your systems. We do not sell tools.
 
    red-lanterns/index
    dilemma/index
-   shadow.md
 
 Disclaimer
 ----------
