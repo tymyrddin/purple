@@ -50,4 +50,4 @@ mitigation, monitoring, or ownership, it is a gap that must be closed before any
 * [NIS2 Understanding the river](../../audits/nis2/river.md)
 * [ISO 27001 Risk tent](../../audits/iso27001/risk-tent.md)
 * [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
-* [Threat modelling & preparation](../../threat-modelling/index.rst)
+* [Threat modelling as a process](../../workshops/threat-modelling.md)

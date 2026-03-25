@@ -1,90 +1,41 @@
 # From exercises to operations
 
-You've built a risk register and process. Now make it operational.
+You have built a risk register and documented a process. The question now is whether that work will change how the organisation operates, or whether it will describe how the organisation should operate while actual operations continue unchanged.
+
+This is the ChangeShop question. The exercises produced accurate analysis. The register documents decisions. Whether those decisions produce change depends on conditions that the exercises themselves cannot create: ownership that is real rather than nominal, authority to implement treatments, protected time and budget, and the trust and communication conditions that allow people to be honest about progress and blockages.
 
 ## Integration points
 
-With [ISO 27001](../audits/iso27001/index.rst) implementation:
-- Your risk register feeds control selection (Annex A)
-- Risk assessment documentation satisfies Clause 6.1
-- Risk treatment plans become your implementation roadmap
-- Risk reviews inform management reviews
+With ISO 27001: the risk register feeds control selection from Annex A. The risk assessment documentation satisfies clause 6.1. Treatment plans become the implementation roadmap. Risk reviews inform the management reviews required by clause 9.3. These connections are straightforward once the underlying risk work is done honestly; they become problematic when the risk work is done primarily to satisfy the audit rather than to understand the actual exposure.
 
-With [NIS2](../audits/nis2/index.rst) compliance:
-- Critical assets identified map to Article 21 requirements
-- Risk assessment supports "appropriate and proportionate" measures
-- Treatment plans address mandatory security measures
-- Register demonstrates systematic risk management
+With NIS2: critical assets identified in the exercises map to the Article 21 risk analysis requirement. The risk assessment supports the "appropriate and proportionate" standard for security measures. Treatment plans address the mandatory security measures. The register demonstrates systematic risk management to supervisory authorities.
 
-With incident response:
-- Known risks have response plans ready
-- Incidents trigger risk assessment updates
-- Post-incident reviews feed back to risk register
-- High-impact scenarios drive tabletop exercises
+With incident response: known risks should have documented response procedures. When an incident occurs in a risk category that was assessed and given a treatment plan, the response should be faster and more effective than if the risk had not been thought through. When an incident reveals a risk that was not in the register, that gap is a finding that requires both an incident response and a risk register update.
 
-With business continuity:
-- Asset dependencies inform continuity plans
-- Impact assessments determine recovery priorities
-- Treatment options include continuity controls
-- Register identifies single points of failure
+With business continuity: asset dependencies identified in the exercises inform continuity plans. Impact assessments determine recovery priorities. The register identifies single points of failure that continuity planning needs to address. These connections mean that risk management and continuity planning should be coordinated, not run as parallel exercises that duplicate effort and sometimes produce inconsistent conclusions.
 
-## Maturity progression
+## Maturity as a realistic trajectory
 
-Level 1: Reactive (You're starting here)
-- Risks identified after incidents
-- Ad-hoc assessments
-- Basic register
-- Fire-fighting mode
+Rather than a fixed maturity model with defined levels, think of maturity as a direction. The starting point is wherever the organisation is. The direction is toward risk management that is:
 
-Level 2: Structured (Next 3-6 months)
-- Regular risk identification workshops
-- Consistent assessment criteria
-- Maintained risk register
-- Planned treatment approach
+More proactive: risks identified and addressed before they materialise as incidents, rather than discovered through incidents.
 
-Level 3: Integrated (6-12 months)
-- Risk management embedded in processes
-- Automated workflows and reporting
-- Proactive risk identification
-- Risk-informed decisions
+More integrated: risk thinking embedded in how decisions are made, rather than conducted as a separate exercise.
 
-Level 4: Predictive (12+ months)
-- Threat intelligence feeds risk model
-- Scenario planning and stress testing
-- Forward-looking risk metrics
-- Risk culture embedded
+More accurate: risk assessments that reflect the actual environment, updated when conditions change, rather than documents that describe the environment as it was when the last workshop was run.
 
-Don't try to jump to Level 4. Build capability progressively.
+More owned: treatment decisions that belong to people who have the capacity and authority to implement them, rather than action items assigned to whoever was in the room.
 
-## Keeping it alive
+Progress along this trajectory is uneven and non-linear. A significant incident can reveal that the risk model was substantially wrong in ways that require rebuilding rather than updating. A leadership change can affect the political conditions for implementing treatments. An organisational restructuring can invalidate ownership assignments. These are not failures of the risk management process; they are the reasons the process needs to be continuous rather than episodic.
 
-Monthly:
-- Review Critical risks
-- Check treatment progress
-- Update based on incidents or changes
+## What operations looks like
 
-Quarterly:
-- Review High and Medium risks
-- Report to executives
-- Adjust treatment priorities
-- Capture new risks
+Monthly: review critical risks, check treatment progress against the committed timeline, update the register based on any incidents or significant changes.
 
-Annually:
-- Full risk assessment refresh
-- Validate likelihood/impact criteria
-- Review process effectiveness
-- Update appetite and thresholds
+Quarterly: review high and medium risks, report to relevant stakeholders in a format matched to what they need to know, adjust treatment priorities based on progress and any changes in the risk landscape.
 
-As needed:
-- New system launches
-- Major organisational changes
-- Significant incidents
-- Regulatory updates
+Annually: refresh the full risk assessment, validate that the likelihood and impact criteria still reflect the organisation's actual context, review the process itself for whether it is producing useful outputs, update risk appetite if organisational circumstances have changed.
 
-## Resources for going deeper
+As needed: when any of the triggers documented in the risk model fire.
 
-Frameworks:
-- [ISO 31000](https://www.iso.org/obp/ui#iso:pub:PUB100426) (risk management principles)
-- [ISO 27005](https://www.iso.org/obp/ui#iso:std:iso-iec:27005:ed-4:v1:en) (information security risk management)
-- [NIST SP 800-30](https://csrc.nist.gov/pubs/sp/800/30/r1/final) (risk assessment guide)
-- [FAIR (Factor Analysis of Information Risk)](https://www.fairinstitute.org/hubfs/Standards%20Artifacts/Factor%20Analysis%20of%20Information%20Risk%20(FAIR)%20Standard%20v3.0%20(January%202025).pdf)
+The resources for going deeper into quantitative risk modelling and framework alignment are ISO 31000 (risk management principles), ISO 27005 (information security risk management), NIST SP 800-30 (risk assessment guidance), and FAIR (Factor Analysis of Information Risk) for organisations that need to quantify risk in financial terms.

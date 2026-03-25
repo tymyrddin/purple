@@ -1,4 +1,4 @@
-Knowledge transfer and IR playbook development
+Knowledge transfer and playbook development
 ======================================================
 
 .. image:: /_static/images/incident-playbook.png
@@ -21,6 +21,6 @@ Knowledge transfer and IR playbook development
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Ready to stop losing lessons learned? Let's build a living system.</a>
+                <a href="https://tymyrddin.dev/contact/">Want playbooks your team will actually follow? Let’s build them.</a>
             </div>
         </div>

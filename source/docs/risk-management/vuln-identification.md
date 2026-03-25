@@ -1,60 +1,47 @@
-# What could break it (vulnerability identification)
+# What could break it: vulnerability identification
 
-Duration: 45-60 minutes  
+Duration: 45 to 60 minutes
 
-Materials: Asset cards from previous exercise, new cards for vulnerabilities, markers
+Materials: asset cards from the previous exercise, new cards for vulnerabilities, markers
 
 ## The exercise
 
-For each critical asset, identify specific ways it could fail, be compromised, or become unavailable.
+For each critical asset, identify specific ways it could fail, be compromised, or become unavailable. Vulnerabilities are not just technical weaknesses. They are any condition that makes an asset exposed to a threat.
 
-Step 1: Pick an asset (5 minutes)
+The SEM framing is useful here. Most recurring vulnerability classes have a model underneath them. Unpatched systems persist because the model is "patching creates operational risk" and there is no mechanism for establishing that the risk of not patching is higher. Secrets in source code persist because the model is "secret management is someone else's concern" and no safe alternative exists within the workflow. Identifying the vulnerability without identifying the model that produced it means the vulnerability will return in a different form after it is addressed.
 
-Start with your most critical asset. Focus on one at a time.
+Step 1: Focus on one asset at a time (5 minutes to select)
+
+Start with the most critical asset. Trying to assess all assets simultaneously produces superficial coverage of everything. Depth on the most important assets is more valuable than breadth across all of them.
 
 Step 2: Brainstorm vulnerabilities (15 minutes per asset)
 
-Ask: What could go wrong? Think about:
+Ask: what could go wrong? Work across four categories:
 
-- Technical weaknesses: Unpatched systems, weak authentication, no backups, single points of failure, insecure configurations
-- Process failures: No change control, missing documentation, inadequate testing, poor access management
-- Human factors: Lack of training, social engineering susceptibility, mistakes under pressure, key person dependencies
-- External threats: Supplier failures, cyber attacks, natural disasters, regulatory changes, market disruptions
+Technical weaknesses: unpatched systems, weak or absent authentication, no backups, single points of failure, insecure configurations, insufficient monitoring. Be specific. "Weak security" is not a vulnerability. "Admin accounts without MFA on the payment processing system" is.
 
-Write each vulnerability on a card. Be specific: "No MFA on admin accounts" not "weak security."
+Process failures: absent change control, missing documentation, inadequate testing procedures, poor access management lifecycle, no formal offboarding process.
+
+Human factors: susceptibility to social engineering, key person dependencies where only one person understands a critical system, decisions made under pressure without adequate review, training that produces awareness without capability.
+
+External exposure: supplier failures, third-party access that is broader than necessary, regulatory changes that create new compliance obligations, dependencies on services outside the organisation's control.
 
 Step 3: Reality check (10 minutes)
 
-For each vulnerability, ask:
-- Does this actually exist? (Verify, don't assume)
-- Can this realistically be exploited?
-- Have we seen this happen before (here or elsewhere)?
+For each vulnerability, ask: does this actually exist, or is it theoretical? Can it realistically be exploited given the access a plausible adversary would have? Has something like this happened here or in comparable organisations?
 
-Remove theoretical or irrelevant items. Keep real, current vulnerabilities.
+Remove items that are theoretical or that require adversary capabilities well beyond any realistic threat actor. Keep the list grounded in what is real and current.
 
-Step 4: Group by type (10 minutes)
+Step 4: Group by type and repeat
 
-Cluster vulnerabilities:
-- Technical/infrastructure
-- Process/operational
-- People/awareness
-- Third-party/external
-
-Step 5: Repeat for other critical assets
-
-Work through your top 5-10 assets. You don't need to analyse everything, focus on what matters most.
+Cluster the vulnerabilities by the four types above, then repeat for the next four or five critical assets.
 
 ## Output
 
-- Vulnerabilities mapped to critical assets
-- Grouped by type
-- Verified as current and realistic
-- Specific enough to address
+Vulnerabilities mapped to critical assets, grouped by type, verified as current and realistic, and specific enough to be addressed. The specificity requirement is worth enforcing: a vulnerability description that is too vague to be given an owner is too vague to be a finding.
 
-## Common pitfalls
+## What the exercise reveals
 
-*"Too abstract"* → "Poor security" becomes "No MFA", "Unpatched servers", "No monitoring"
+The distribution of vulnerabilities across the four categories is informative. A list that is predominantly technical and nearly empty on the human and process sides reflects the composition and focus of the group rather than the actual vulnerability landscape. Organisations rarely fail primarily for technical reasons.
 
-*"Missing operational risks"* → Include process failures, not just technical exploits
-
-*"Everything is a vulnerability"* → Prioritise. What is most likely to be exploited?
+The reality check step is where the conversation becomes most useful. When the group disagrees about whether a vulnerability is real or theoretical, that disagreement is revealing either a gap in shared understanding of the system or a gap between the group's model of the system and the system itself.

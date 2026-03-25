@@ -1,82 +1,51 @@
-# How likely, how bad (risk assessment)
+# How likely, how bad: risk assessment
 
-Duration: 60-90 minutes
+Duration: 60 to 90 minutes
 
-Materials: Asset and vulnerability cards, 2x2 grid (drawn on whiteboard or large paper), markers
+Materials: asset and vulnerability cards from previous exercises, a 2x2 or 3x3 grid drawn on a whiteboard or large paper, markers
 
 ## The exercise
 
-Assess each vulnerability-asset combination for likelihood and impact. Create a simple risk matrix to prioritise.
+Assess each vulnerability-asset combination for likelihood and impact. The goal is a prioritised picture of where the organisation's exposure is most serious.
 
-Step 1: Create your assessment grid (10 minutes)
+This is where the political layer becomes most visible. Likelihood and impact ratings are not objective measurements. They are judgements made by people in a room, and those judgements are shaped by the political dynamics of the room: whose assessments carry more weight, who is reluctant to name a high-impact finding that would implicate their area, who has an interest in a risk being rated lower than it is because they would be responsible for addressing it.
 
-Draw a 2x2 or 3x3 grid:
+A facilitator who is not attending to these dynamics will produce a risk matrix that reflects the room's political landscape as much as the organisation's actual exposure. Naming this openly, without blame, is part of running the exercise well.
 
-|                   | Low impact | Medium impact | High impact |
-|-------------------|------------|---------------|-------------|
-| High likelihood   | Medium     | High          | Critical    |
-| Medium likelihood | Low        | Medium        | High        |
-| Low likelihood    | Low        | Low           | Medium      |
+Step 1: Create the assessment grid (10 minutes)
 
-Step 2: Define your scales (15 minutes)
+Draw a grid with likelihood on one axis and impact on the other. A 3x3 grid (high/medium/low on each axis) is usually sufficient. The resulting risk levels:
 
-Make it concrete for your organisation.
+| | Low impact | Medium impact | High impact |
+|---|---|---|---|
+| High likelihood | Medium | High | Critical |
+| Medium likelihood | Low | Medium | High |
+| Low likelihood | Low | Low | Medium |
 
-Likelihood (How often could this happen?):
-- High: Could happen multiple times per year, easy to exploit, we've seen it before
-- Medium: Could happen once per year, requires some effort or conditions
-- Low: Unlikely in normal operations, requires significant effort or rare conditions
+Step 2: Define the scales concretely (15 minutes)
 
-Impact (What happens if it does?):
-- High: Service outage > 1 day, major financial loss, regulatory penalties, safety risk, reputational damage
-- Medium: Service degradation, moderate financial impact, customer complaints, recovery effort required
-- Low: Minor inconvenience, minimal financial impact, quick recovery, limited scope
+Generic definitions produce inconsistent ratings. Define likelihood and impact in terms specific to your organisation.
 
-Adapt these to your context. Healthcare, finance, and manufacturing have different impact definitions.
+Likelihood: high means this could happen multiple times per year, requires limited effort or access, and is consistent with what comparable organisations have experienced. Medium means it could happen once per year and requires some effort or particular conditions. Low means it is unlikely in normal circumstances and requires significant effort or rare conditions.
 
-Step 3: Assess each risk (30-40 minutes)
+Impact: high means service outage exceeding one day, significant financial loss, regulatory exposure, safety implications, or serious reputational damage. Medium means service degradation, moderate financial impact, customer complaints, and a meaningful recovery effort. Low means minor inconvenience with quick recovery and limited scope.
 
-For each vulnerability-asset combination:
+Adapt these to your context. The right definitions for a healthcare provider are different from those for a software company.
 
-1. Discuss likelihood: How often could this realistically happen?
-2. Discuss impact: What breaks if it does? Who's affected? How long to recover?
-3. Place the card on the grid
-4. Note your reasoning (write on the card)
+Step 3: Assess each risk (30 to 40 minutes)
 
-Work through systematically. Don't overthink: gut feel informed by experience is fine.
+For each vulnerability-asset combination, discuss likelihood and impact and place the card on the grid. Write the reasoning on the card: not just the rating but why the group placed it there. The reasoning is what makes the assessment credible and what allows it to be revisited intelligently later.
 
-Step 4: Validate the results (15 minutes)
+When the group disagrees on a rating, explore the disagreement rather than averaging. Disagreement often indicates either different information about the actual situation or different assumptions about what is realistic. Both are worth surfacing.
 
-Look at your grid:
-- Do the "Critical" and "High" risks make sense?
-- Are you surprised by anything in "Low"?
-- Missing any obvious risks?
-- Any grouped risks that should be separated?
+Step 4: Validate and draw the line (25 minutes)
 
-Adjust positions based on discussion.
+Look at the completed grid. Do the critical and high ratings make sense collectively? Are there findings in the low category that feel underrated on reflection? Are any obvious risks missing?
 
-Step 5: Draw the line (10 minutes)
+Decide on the risk appetite line: which levels require action and which will be accepted or monitored. This is a decision with political content. Make it explicitly, with the people who have the authority to make it, rather than leaving it implicit.
 
-Decide your risk appetite:
-- Critical and High → Must address
-- Medium → Should address (prioritise based on resources)
-- Low → Accept or monitor
+## What the exercise is testing
 
-Mark this clearly on your grid.
+A group that rates everything as high risk is avoiding the discomfort of prioritisation. A group that rates everything as low risk is managing the discomfort of acknowledging serious exposure. Neither produces a useful output.
 
-## Output
-
-- Risk matrix with all vulnerabilities positioned
-- Clear priority groupings (Critical, High, Medium, Low)
-- Reasoning documented for key assessments
-- Risk appetite line defined
-
-## Common pitfalls
-
-*"Everything's high risk"* → Force differentiation. Can't address everything equally.
-
-*"Too optimistic about likelihood"* → Check: has this happened in your sector?
-
-*"Underestimating impact"* → Think cascading effects: what else breaks when this breaks?
-
-*"Ignoring low-likelihood, high-impact"* → Rare but catastrophic risks need attention.
+The rating conversation is also a test of whether the group's models of likelihood are calibrated against reality. Likelihood ratings that consistently diverge from what is actually observed in the threat landscape and in comparable organisations are model failures. The facilitator should bring external reference points into the conversation: what is the actual frequency of this class of attack in your sector?

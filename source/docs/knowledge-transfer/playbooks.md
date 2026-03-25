@@ -105,12 +105,5 @@ Important (build these next):
 
 Build them, test them, break them, fix them. That's the cycle. Anyone promising you stable, unchanging, perfect 
 playbooks is selling you documentation theatre, not operational capability. Playbooks are designed [to be tested in 
-exercises and updated with each iteration](../learning/incident-response/choreography.md).
+exercises and updated with each iteration](../purple/incident-response/choreography.md).
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">
-      Want playbooks your team will actually follow? Let’s build them.
-    </a>
-</div>
-```

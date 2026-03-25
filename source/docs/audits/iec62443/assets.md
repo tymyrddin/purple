@@ -29,5 +29,5 @@ defences post‑deployment.
 * [NIS2 Understanding the river](../../audits/nis2/river.md)
 * [ISO 27001 Risk tent](../../audits/iso27001/risk-tent.md)
 * [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
-* [What matters (asset identification)](../../risk-management/asset-identification.md)
+* [Risk management as a process](../../workshops/risk-management.md)
 
