@@ -52,10 +52,3 @@ Sustain commitment from leadership and across the organisation. Maintain executi
 
 The output of this stage is annual compliance reviews showing continued adherence, updated risk assessments reflecting current reality, continuous monitoring reports demonstrating vigilance, improvement roadmaps showing evolution rather than stagnation, and board reporting packages keeping leadership informed and engaged.
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">
-      Connect with us to explore what needs to happen to keep crossing your fast changing river.
-    </a>
-</div>
-```

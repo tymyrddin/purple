@@ -61,9 +61,3 @@ This is where tomorrow’s breach quietly announces itself.
 * On a TV in the incident room
 
 Dashboards that are hard to reach become dashboards nobody reaches for.
-
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">Tired of dashboards nobody looks at? Let’s make them live.</a>
-</div>
-```

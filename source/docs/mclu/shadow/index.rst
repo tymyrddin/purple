@@ -36,6 +36,6 @@ interests are being protected when those two things diverge.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Submit Evidence (Anonymously, We Strongly Suggest)</a>
+                <a href="https://tymyrddin.dev/contact/">Submit Evidence Discreetly</a>
             </div>
         </div>

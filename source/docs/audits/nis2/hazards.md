@@ -89,11 +89,3 @@ External communication may also be necessary. Inform customers if their services
 ## Output
 
 The output of this stage is a functional incident response plan, reporting procedures with tested templates, notification templates ready for use, tested communication channels, and an incident log documenting reporting history for compliance evidence.
-
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">
-      Contact us to discuss the hazards ahead and see if our expertise aligns with your needs.
-    </a>
-</div>
-```

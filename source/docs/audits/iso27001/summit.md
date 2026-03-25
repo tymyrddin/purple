@@ -3,7 +3,7 @@
 ```{raw} html
 <div class="page-post-card__link">
     <ahref="https://purple.tymyrddin.dev/_downloads/876b22983bf28be1578634050ee0a49f/summit-push.pdf">
-      Download as pdf: Stage 1, stage 2, outcomes, 30pp
+      Download the summit pack
     </a>
 </div>
 ```
@@ -666,10 +666,4 @@ What evidence was incomplete?
 - Provide training on what constitutes adequate evidence
 - Build in review/approval steps
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">
-      Connect with us to explore what happens after certification!
-    </a>
-</div>
-```
+

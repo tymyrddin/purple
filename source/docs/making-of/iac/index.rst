@@ -1,4 +1,4 @@
-Getting a foothold in the top of the world tree
+A foothold in the top of the world tree
 =========================================================
 
 Building cloud attack infrastructure is like being a digital property developer - except instead of luxury condos,

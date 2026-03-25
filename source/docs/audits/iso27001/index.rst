@@ -27,6 +27,6 @@ maintain certification successfully.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Sound the Purple Signal</a>
+                <a href="https://tymyrddin.dev/contact/">Base camp calling</a>
             </div>
         </div>

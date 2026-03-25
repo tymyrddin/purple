@@ -58,9 +58,3 @@ This is how you prevent incidents freezing because someone went home.
 * Endpoint security consoles
 
 If a workflow requires opening yet another tool, it will die quietly and alone.
-
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">Need workflows that stick in practice? Let’s design them together.</a>
-</div>
-```

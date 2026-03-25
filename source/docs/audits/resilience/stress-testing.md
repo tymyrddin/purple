@@ -47,10 +47,3 @@ This workshop is designed for teams who cannot afford to discover weaknesses dur
 * Cross-functional project teams with high dependencies.  
 * Organisations preparing for audits, certifications, or public scrutiny.  
 
-## Take the next step
-
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">Ready to see how your team holds up under fire? Let’s design a stress test tailored to your reality.</a>
-</div>
-```

@@ -65,15 +65,3 @@ Prioritise remediation based on risk and effort, and develop a roadmap with real
 By the end of this stage, you have a regulatory requirements matrix, a risk register, a gap analysis, and 
 a prioritised remediation plan.
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">
-      Let's meet to discuss your route and see if we're the right partners for your crossing.
-    </a>
-</div>
-```
-
-
-
-
-

@@ -30,17 +30,13 @@ what that honesty will cost them.
    satir-core.md
    composite-model.md
    in-security.md
-   security-culture.md
    wrong.md
-   role-specific.md
    roleplay.md
-   hands-on.md
-   phishing.md
 
 .. raw:: html
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Security culture is not a campaign. Let's build something that lasts.</a>
+                <a href="https://tymyrddin.dev/contact/">Culture beats campaigns</a>
             </div>
         </div>

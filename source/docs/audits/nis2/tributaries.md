@@ -100,10 +100,3 @@ The output of this stage is a supplier inventory with risk classifications, a se
 controls to supplier tiers, an assessment schedule with results tracking, contractual templates for new suppliers, 
 monitoring procedures that detect problems early, and contingency plans for critical supplier failures.
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">
-      Contact us to discuss your tributaries and see if we can be of use to you for such mappings and planning.
-    </a>
-</div>
-```

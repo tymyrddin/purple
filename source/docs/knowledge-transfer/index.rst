@@ -13,7 +13,6 @@ Knowledge transfer and playbook development
    choreography.md
    manuals.md
    playbooks.md
-   playbook-examples/index
    dashboards.md
    workflows.md
 

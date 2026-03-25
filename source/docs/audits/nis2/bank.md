@@ -130,10 +130,3 @@ The output of this stage is a compliance evidence package organised logically, s
 confirmation where required, audit-ready documentation, and a self-assessment report showing an honest evaluation 
 of compliance status.
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">
-      Connect with us to explore what happened and make ready for an audit.
-    </a>
-</div>
-```

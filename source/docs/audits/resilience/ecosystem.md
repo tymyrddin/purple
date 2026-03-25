@@ -62,11 +62,3 @@ This is an applied mapping and analysis process, grounded in collaborative works
 * Integration with existing BCM / ISO frameworks.  
 * Visual dashboards for ongoing ecosystem monitoring.  
 * Follow-up scenario exercises and red-team style stress tests.  
-
-## Take the next step
-
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">Stop auditing in silos. Map your organisation as a living ecosystem and see where resilience really lives. Let's talk!</a>
-</div>
-```

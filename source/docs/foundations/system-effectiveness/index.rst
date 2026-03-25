@@ -33,6 +33,6 @@ of failure will return in a slightly different form.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">If your metrics look fine but your outcomes do not, the system deserves a closer look.</a>
+                <a href="https://tymyrddin.dev/contact/">Question your metrics</a>
             </div>
         </div>

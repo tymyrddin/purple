@@ -3,7 +3,7 @@
 ```{raw} html
 <div class="page-post-card__link">
     <a href="https://purple.tymyrddin.dev/_downloads/e95bbd42e284d027e69856272506d33f/map-room.pdf">
-      Download as pdf: Context, interested parties, scope, 30pp
+      Download the map room pack
     </a>
 </div>
 ```
@@ -977,10 +977,3 @@ The expedition is planned. The route is chosen. The sponsors are committed.
 
 [Time to assess the actual dangers of the climb](risk-tent.md).
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">
-      Arrange a free conversation to examine your security landscape and see if our mountaineering methods fit your journey.
-    </a>
-</div>
-```

@@ -32,6 +32,6 @@ to know this.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Contact us (You Are Already Logged)</a>
+                <a href="https://tymyrddin.dev/contact/">Contact Us (Already Logged)</a>
             </div>
         </div>

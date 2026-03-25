@@ -22,6 +22,6 @@ complaints reach the Palace.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Consult the Guilds</a>
+                <a href="https://tymyrddin.dev/contact/">Retain the Guilds</a>
             </div>
         </div>

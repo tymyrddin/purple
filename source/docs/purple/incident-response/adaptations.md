@@ -56,10 +56,4 @@ Advanced teams:
 - Red team opposition
 - Minimal facilitator guidance
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">
-      Discuss tailoring exercises to your organisation
-    </a>
-</div>
-```
+

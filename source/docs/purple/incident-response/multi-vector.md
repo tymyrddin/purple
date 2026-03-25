@@ -111,10 +111,3 @@ Improvement planning (30 minutes):
 - Training needs
 - Tool gaps
 
-
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">
-      Explore further multi-vector attack simulations with us
-    </a>
-</div>

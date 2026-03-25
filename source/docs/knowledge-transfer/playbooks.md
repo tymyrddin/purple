@@ -91,8 +91,8 @@ is not a sign of perfection. It's a sign that nobody actually uses it.
 ## Examples
 
 Essential (build something like these first):
-- [Ransomware response playbook (NGO, 20 staff)](playbook-examples/ransomware-ngo.md)
-- [Phishing campaign response playbook (SME, 50-250 staff)](playbook-examples/phishing-sme.md)
+- [Ransomware response playbook (NGO, 20 staff)](https://blue.tymyrddin.dev/docs/soc/dfir/playbooks/ransomware-ngo)
+- [Phishing campaign response playbook (SME, 50-250 staff)](https://blue.tymyrddin.dev/docs/soc/dfir/playbooks/phishing-sme)
 - Compromised credentials playbook
 - Data breach
 - Service outage
@@ -101,9 +101,13 @@ Important (build these next):
 - DDoS attack
 - Insider threat
 - Supply chain compromise
-- [Compromised AWS credentials playbook (development environment)](playbook-examples/aws-credentials.md)
+- [Compromised AWS credentials playbook (development environment)](https://blue.tymyrddin.dev/docs/soc/dfir/playbooks/aws-credentials)
 
 Build them, test them, break them, fix them. That's the cycle. Anyone promising you stable, unchanging, perfect 
 playbooks is selling you documentation theatre, not operational capability. Playbooks are designed [to be tested in 
 exercises and updated with each iteration](../purple/incident-response/choreography.md).
+
+## Related
+
+- [Incident response runbooks](https://blue.tymyrddin.dev/docs/ngo/data/)
 

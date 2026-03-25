@@ -1,108 +1,29 @@
-# Roleplay & social engineering games
+# Roleplay in organisational development
 
-Theatre-style exercises where people experience manipulation first-hand. Acting out scenarios makes abstract 
-concepts concrete and builds recognition skills.
+Roleplay is one of the most powerful tools available in organisational development work, and one of the most underused in professional settings. The reluctance is understandable: it feels exposing, it can feel childish, and in organisations where performance and appearance matter it carries risk. That reluctance is itself instructive. The things that make roleplay uncomfortable are often exactly the things that make it useful.
 
-## Game: Social engineering speed dating (30 minutes)
+## Why it works
 
-Setup: Pairs rotate every 3 minutes. One person is attacker, one is target.
+Roleplay creates a temporary space in which people can behave differently from how they normally behave, observe their own reactions, and examine the dynamics of situations they ordinarily navigate on autopilot. The learning happens in the body before it happens in the head. A person who has experienced the pull of a manipulative interaction, the discomfort of delivering difficult feedback, or the paralysis of being asked to make a decision with incomplete information under time pressure knows something they could not have learned from a description of the same situation.
 
-Scenarios provided on cards:
-- "Convince them to let you into secure area without badge"
-- "Get their password for 'security audit'"
-- "Persuade them to click link in suspicious email"
-- "Obtain sensitive company information through casual conversation"
+This is a Montessori observation as much as a Satir one: the prepared environment allows for experiential discovery that propositional instruction cannot produce. But Satir's work gives the deeper explanation for why roleplay works specifically in organisations dealing with communication and change.
 
-Rules:
-- Attacker uses any psychological tactic
-- Target tries to resist without being rude
-- After 3 minutes, discuss what worked and why
-- Rotate: target becomes attacker, move to new partner
+## The Satir mechanism
 
-Debrief: Which tactics were most effective? How did it feel to be manipulated? What red flags should we remember?
+Satir observed that people under stress revert to survival stances. They placate to avoid conflict, blame to deflect accountability, compute to retreat into abstraction, or distract to disengage from what is uncomfortable. These responses are fast, automatic, and largely invisible to the person performing them. You do not decide to placate; you placate, and notice it afterwards, if at all.
 
-## Game: "Yes, and..." security edition (20 minutes)
+Roleplay interrupts this automaticity. When a situation is framed as a role rather than a real encounter, the stakes are lowered enough that people can slow down and observe what they are doing. The survival stance still appears, but there is now a frame around it that allows it to be named. The person playing the manager who avoids the uncomfortable conversation can recognise the avoidance because they are watching themselves do it, not just doing it. The person playing the subordinate who acquiesces rather than disagrees can feel the pull of the placating response and choose to respond differently.
 
-Improv theatre game adapted for security awareness.
+This is what Satir called the path toward congruence: aligning what one says, does, feels, and understands about the context. Congruence cannot be taught as a concept. It can be practised, and roleplay is one of the primary methods by which the practice happens.
 
-Rules:
-- Person starts security scenario
-- Next person says "Yes, and..." and makes it worse
-- Continue around circle making increasingly bad security decisions
-- See how absurd it can get
+## What roleplay surfaces that other methods do not
 
-Example chain:
-- Person 1: "I received an email from my bank asking to verify my account"
-- Person 2: "Yes, and I clicked the link even though the sender was actually bank.security-verify.ru"
-- Person 3: "Yes, and I entered my username, password, and social security number"
-- Person 4: "Yes, and I also entered my mother's maiden name and first pet's name"
-- Person 5: "Yes, and when it asked for my full card details, I sent a photo of my card front and back"
+Group discussion of how communication should work produces normative statements about how people ought to behave. Roleplay produces evidence about how they actually behave and, crucially, about the gap between the two. That gap is not a character failing. It is information about what the current conditions produce, and it is the most useful starting point for development work.
 
-Learning: Escalation of mistakes, how one bad decision leads to worse ones, absurdity makes it memorable.
+In organisational settings, roleplay also surfaces the political layer. Who in the room is willing to play the difficult character? Who defers to seniority even in a fictional frame? Who breaks the scene to offer a meta-comment rather than stay in the discomfort? Each of these behaviours is data about the organisation's actual communication culture, not the one described in the values statement.
 
-## Game: Red flag spotting competition (15 minutes)
+## The facilitator's role
 
-Setup: Teams compete to identify most security red flags in scenarios.
+The value of the exercise depends heavily on the debrief. The roleplay is the stimulus; the learning happens in the conversation that follows. A facilitator who moves too quickly to the normative lesson, "and so we should always do X", forecloses the more important conversation about what actually happened and why.
 
-Materials: Print scenarios or display on screen.
-
-Scenarios include:
-- Email messages (legitimate and phishing mixed)
-- Office photos with security issues
-- Phone call transcripts
-- Text message conversations
-
-Scoring:
-- 1 point for each legitimate red flag identified
-- Minus 1 point for false positives
-- Bonus points for explaining the risk
-
-Example email:
-
-```
-From: IT.Support@company-services.net
-Subject: URGENT: Verify Your Account
-Dear Valued Employee,
-We detected suspicious activity on your account. Click here immediately
-to verify your identity or your account will be suspended in 24 hours.
-Best Regards,
-IT Security Team
-```
-
-Red flags to spot:
-- External domain pretending to be internal
-- Generic greeting
-- Urgency and fear tactics
-- Suspicious link
-- No specific details
-- Grammatical issues
-
-## Game: Social engineering theatre (45 minutes)
-
-Setup: Scripted scenarios acted out by volunteers with audience participation.
-
-Scenario 1: The helpful stranger
-- Actor plays lost visitor needing to access building
-- Targets employee for help
-- Uses sympathy, urgency, authority to manipulate entry
-- Audience calls out manipulation tactics as they spot them
-- Replay with correct response
-
-Scenario 2: The urgent phone call
-- Actor calls pretending to be from IT
-- Claims system emergency requiring immediate password
-- Uses technical jargon, urgency, authority
-- Audience votes whether to comply
-- Discuss consequences and correct response
-
-Scenario 3: The CEO email
-- Display email from "CEO" requesting urgent wire transfer
-- Ask what's suspicious
-- Reveal it's fraud
-- Discuss verification procedures
-
-Scenario 4: The USB drop
-- Actor "finds" USB drive in parking lot labelled "Salary Information 2024"
-- Debates plugging it in to find owner
-- Audience discusses risks
-- Reveal consequences (malware, data theft)
+The debrief questions that matter are not "what should have happened?" but "what did happen, and what made it hard to do differently?" The survival stances should be named without blame, as Satir intended: not "you were being defensive" but "I noticed the conversation moved away from the uncomfortable point, what was going on for you there?" This requires a facilitator who is attending to the emotional and political layers of the room, not just the content of the exercise.

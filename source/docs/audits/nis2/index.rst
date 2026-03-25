@@ -27,6 +27,6 @@ important entities across the EU are successfully making the crossing.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Summon a Lantern Bearer</a>
+                <a href="https://tymyrddin.dev/contact/">Find a river guide</a>
             </div>
         </div>

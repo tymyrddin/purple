@@ -22,6 +22,6 @@ Audits and assessments
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Let's do a free connection call to discuss your challenges and see if our approach is a good fit.</a>
+                <a href="https://tymyrddin.dev/contact/">Compare notes first</a>
             </div>
         </div>

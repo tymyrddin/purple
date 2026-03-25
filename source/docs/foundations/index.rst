@@ -31,6 +31,6 @@ Applied to security, these approaches change what you look at, what questions yo
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">If the technical work is sound but the outcomes are not improving, the answer is usually here.</a>
+                <a href="https://tymyrddin.dev/contact/">Find what's blocking it</a>
             </div>
         </div>

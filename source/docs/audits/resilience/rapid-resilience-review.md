@@ -59,10 +59,3 @@ This is not a consultancy marathon. It is a rapid, high-value intervention desig
 * Quarterly cadence: ongoing updates with evolving risk picture.  
 * Deep dive (add-on): follow-up with targeted assessments or scenario planning.
 
-## Take the next step
-
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">Get the clarity your leadership team needs: a focused review, an executive dashboard, and a roadmap for resilience. Contact us.</a>
-</div>
-```

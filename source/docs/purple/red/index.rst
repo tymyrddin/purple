@@ -23,6 +23,6 @@ Red teaming simulates adversary behaviour to test organisational defences.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Let's talk to find out whether we are the right fit for your team.</a>
+                <a href="https://tymyrddin.dev/contact/">Pressure test your defences</a>
             </div>
         </div>

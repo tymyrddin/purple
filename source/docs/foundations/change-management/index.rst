@@ -32,6 +32,6 @@ the unsafe one. Resistance is not noise. It is a map.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Security programmes that stick are built with people, not around them. Let's talk.</a>
+                <a href="https://tymyrddin.dev/contact/">Build change that sticks</a>
             </div>
         </div>

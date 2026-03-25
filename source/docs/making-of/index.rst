@@ -31,4 +31,5 @@ conditions for them have been created, and fail when those conditions are assume
    :includehidden:
    :caption: Labs and environments:
 
-   labs/index
+   iac/index
+   cloud/index

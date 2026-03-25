@@ -31,6 +31,6 @@ has been received, which is itself a data point, though not one we can file in e
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">File a Subject Access Request (Processing Time: Unknown)</a>
+                <a href="https://tymyrddin.dev/contact/">File an SAR (Eventually)</a>
             </div>
         </div>

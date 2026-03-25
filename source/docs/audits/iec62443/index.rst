@@ -24,6 +24,6 @@ up defences, and verify that every control is documented and auditable.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Request Tactical Banter</a>
+                <a href="https://tymyrddin.dev/contact/">Mind the OT gap</a>
             </div>
         </div>

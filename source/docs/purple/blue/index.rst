@@ -25,6 +25,6 @@ recover completely, and improve continuously.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Let's talk to find out whether we are the right fit for your team.</a>
+                <a href="https://tymyrddin.dev/contact/">Tune your detections</a>
             </div>
         </div>

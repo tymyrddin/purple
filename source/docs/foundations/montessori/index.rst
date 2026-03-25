@@ -44,6 +44,6 @@ draining.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">If your team's training produces confidence but not capability, let's talk about what a different approach looks like.</a>
+                <a href="https://tymyrddin.dev/contact/">Try teaching differently</a>
             </div>
         </div>

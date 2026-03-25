@@ -148,10 +148,3 @@ Governance structure: Sponsor assigned, owner designated, committees formed, rep
 
 This is your launch point. Get this right, and the crossing becomes navigable. Rush past it, and you'll find yourself in the current without a map, a crew, or a clear destination.
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">
-      Arrange a free conversation to examine your landscape and see if our river crossing methods fit your journey.
-    </a>
-</div>
-```

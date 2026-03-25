@@ -44,10 +44,3 @@ Human resources security begins at hiring. Conduct background checks where appro
 
 By the end of this stage, the organisation will have implemented controls that function effectively, documented procedures that staff can follow, trained personnel who understand their roles, and a governance structure with clear authority.
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">
-      Let's meet to look at your raft and see if we're the right paddlers for your crossing.
-    </a>
-</div>
-```

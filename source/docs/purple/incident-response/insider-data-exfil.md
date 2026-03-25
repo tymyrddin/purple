@@ -67,10 +67,3 @@ This scenario specifically tests:
 - Sensitive communication management
 
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">
-      More on mitigating insider threats?
-    </a>
-</div>
-```

@@ -37,6 +37,6 @@ at any point, considered telling the clients.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Request the Documentation That Was Never Written</a>
+                <a href="https://tymyrddin.dev/contact/">Request Unwritten Documentation</a>
             </div>
         </div>

@@ -34,11 +34,3 @@ We follow a structured flow:
 * Security and IT teams tired of re-learning the same lessons.  
 * Organisations with rotating staff or shared responsibilities.  
 * Leadership looking for assurance that knowledge survives turnover.  
-
-## Take the next step
-
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">Want to make sense of it all? Let’s talk strategy.</a>
-</div>
-```

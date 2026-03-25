@@ -1,15 +1,15 @@
-A wolverine’s guide to controlled carnage
+A cloud hacking CTF on root-me
 ===============================================
 
 Designing cloud hacking challenges for Root-Me requires a balance of real-world relevance, technical feasibility, and
 educational value. A structured approach to building them, along with vulnerability ideas tailored for a CTF
-environment.
+environment. Just in design state for now.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Where educational value meets ‘oh god, they actually did that’:
+   :caption: Where educational value meets ‘oh god, they actually did that’.
 
    infra.md
    vulns.md

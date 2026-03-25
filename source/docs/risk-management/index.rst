@@ -26,6 +26,6 @@ current gaps, then build a practical roadmap that fits your budget and capacity.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Let's have an honest conversation to explore if working together is the right next step for your team.</a>
+                <a href="https://tymyrddin.dev/contact/">Be honest about exposure</a>
             </div>
         </div>

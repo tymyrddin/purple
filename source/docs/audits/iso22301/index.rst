@@ -26,6 +26,6 @@ systems, and now need to verify coverage, spot gaps, and prepare for an audit.
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Request Tactical Banter</a>
+                <a href="https://tymyrddin.dev/contact/">Plan your comeback</a>
             </div>
         </div>

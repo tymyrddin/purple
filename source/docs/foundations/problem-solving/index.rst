@@ -32,6 +32,6 @@ inconvenienced someone important. If you are stuck, you are probably solving the
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">If your security programme keeps solving the same problems, let's find out why.</a>
+                <a href="https://tymyrddin.dev/contact/">Break the problem loop</a>
             </div>
         </div>

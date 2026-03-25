@@ -21,6 +21,6 @@ Organisational risk audits & resilience assessments
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Open a Channel of Polite Inquiry</a>
+                <a href="https://tymyrddin.dev/contact/">Test before it breaks</a>
             </div>
         </div>

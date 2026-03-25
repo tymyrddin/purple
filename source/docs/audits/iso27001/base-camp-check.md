@@ -3,7 +3,7 @@
 ```{raw} html
 <div class="page-post-card__link">
     <a href="https://purple.tymyrddin.dev/_downloads/43e29cffc8a0e193492696c0105e36be/base-camp.pdf">
-      Download as pdf: Monitoring and measurement, internal audit, management review, 17pp
+      Download the base camp pack
     </a>
 </div>
 ```
@@ -441,10 +441,3 @@ You are not claiming perfection. You are demonstrating control, awareness, commi
 
 With base camp secure, equipment checked, and team ready, you're prepared for [the summit push: external certification](summit.md).
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">
-      Schedule a free call to explore what options exist for your summit push.
-    </a>
-</div>
-```

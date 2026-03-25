@@ -24,6 +24,6 @@ A set of exercises provides practical steps to explore threats hands-on. The bas
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Let's have an honest conversation to explore if working together is the right next step for your team.</a>
+                <a href="https://tymyrddin.dev/contact/">Name your actual threats</a>
             </div>
         </div>

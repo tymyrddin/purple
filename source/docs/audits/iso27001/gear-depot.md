@@ -3,7 +3,7 @@
 ```{raw} html
 <div class="page-post-card__link">
     <a href="https://purple.tymyrddin.dev/_downloads/4c3bb1dd58a645793fb994784a578814/gear-depot.pdf">
-      Download as pdf: Controls, risk treatment plan, statement of applicability, 21pp
+      Download the gear depot pack
     </a>
 </div>
 ```
@@ -638,10 +638,3 @@ The SoA translates risk treatment decisions into operational reality. It is the 
 
 Time to move. [Now theory will meet altitude](climb.md). 
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">
-      Contact us to discuss the obstacles ahead and see if our climbing expertise aligns with your needs.
-    </a>
-</div>
-```

@@ -64,10 +64,3 @@ This is a structured assessment and co-design process, scalable from a focused t
 * Playbook authoring and documentation handover.  
 * Follow-up coaching sessions to embed changes and measure improvement.
 
-## Take the next step
-
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">Ready to move beyond mere compliance and make resilience a capability? Contact us.</a>
-</div>
-```

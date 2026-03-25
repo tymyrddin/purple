@@ -65,10 +65,3 @@ This workshop is designed for teams who want to:
 We work with your actual or by you chosen systems, processes, and people, not generic templates or hypothetical 
 scenarios that do not reflect your reality.
 
-## Take the next step
-
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">Ready to see where the cracks are before they spread? Let’s design a session tailored to your organisation.</a>
-</div>
-```

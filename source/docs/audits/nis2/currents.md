@@ -27,10 +27,3 @@ Address these challenges through clear communication of regulatory obligations. 
 An operational security programme running daily, tested procedures that staff actually follow, performance metrics 
 showing what works and what does not, and documented lessons learned for continuous improvement.
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://tymyrddin.dev/contact/">
-      Let's meet to look at your paddling and see if we're the right paddlers to add for your crossing.
-    </a>
-</div>
-```

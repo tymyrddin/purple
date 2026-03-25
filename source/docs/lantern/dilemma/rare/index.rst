@@ -17,6 +17,6 @@ For example, ratchet vs level, trust vs legitimacy, circuit breaker asymmetry
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Consult the Guilds</a>
+                <a href="https://tymyrddin.dev/contact/">Convene the Guilds</a>
             </div>
         </div>

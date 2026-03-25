@@ -26,6 +26,6 @@ Incident response & crisis facilitation
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Experience my approach firsthand in a free connection call. It's the best way to feel if it's the right fit for your team.</a>
+                <a href="https://tymyrddin.dev/contact/">See it in practice</a>
             </div>
         </div>
