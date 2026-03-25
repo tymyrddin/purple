@@ -12,7 +12,7 @@ Purple crossroads
    docs/lantern/index
    docs/mclu/index
 
-Foundations
+The work
 ------------------------
 .. toctree::
    :glob:
