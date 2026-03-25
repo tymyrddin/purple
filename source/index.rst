@@ -4,8 +4,6 @@ Purple crossroads
 .. image:: /_static/images/writing-purple.png
   :alt: Typewriter
 
-----
-
 .. toctree::
    :glob:
    :maxdepth: 1
