@@ -38,6 +38,7 @@ draining.
    culture.md
    rotation.md
    gamified-scenarios.md
+   ctf-value.md
    defensive-skills.md
 
 .. raw:: html

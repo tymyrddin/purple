@@ -1,6 +1,6 @@
 # Moving beyond manuals that nobody reads
 
-An incident response plan that lives in a dusty 50-page PDF is not a plan. It's a liability. Manuals only matter if they can be used in moments of stress, distraction, and partial information. The aim is to move from comprehensive to comprehensible so that, when something breaks, people reach instinctively for the right aid.
+An [incident response](../purple/incident-response/index.rst) plan that lives in a dusty 50-page PDF is not a plan. It's a liability. Manuals only matter if they can be used in moments of stress, distraction, and partial information. The aim is to move from comprehensive to comprehensible so that, when something breaks, people reach instinctively for the right aid.
 
 The test is simple: can someone who's never seen it before use it successfully at 3am? If not, it's documentation theatre, not operational guidance.
 

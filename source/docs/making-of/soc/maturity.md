@@ -6,7 +6,7 @@ This matters because maturity level frameworks tend to produce compliance with t
 
 ## What movement in the right direction looks like
 
-More accurate detection: the detection model more closely matches the actual threat environment, with fewer rules that fire on irrelevant activity and fewer gaps that adversaries can operate in undetected. Movement here requires active maintenance of detection logic, feedback from SIRT investigations, and purple team exercises that test coverage honestly.
+More accurate detection: the detection model more closely matches the actual threat environment, with fewer rules that fire on irrelevant activity and fewer gaps that adversaries can operate in undetected. Movement here requires active maintenance of detection logic, feedback from SIRT investigations, and [purple team exercises](../../purple/index.rst) that test coverage honestly.
 
 More consistent process: analysts make similar decisions in similar situations, and those decisions are traceable to documented criteria. Inconsistency is a sign that the process is implicit and person-dependent rather than explicit and transferable. Movement here requires documenting the criteria that currently live in experienced analysts' heads.
 
@@ -20,4 +20,4 @@ Analyst attrition: experienced analysts carry significant implicit knowledge abo
 
 Alert volume: a SOC that is handling more alerts than its analysts can meaningfully process is not monitoring. It is reacting to a random sample of alerts, which is worse than having a smaller, more carefully maintained set of detection rules. Managing alert volume, including suppressing rules that generate noise without signal, is maintenance work that takes time but directly improves the quality of what analysts can do.
 
-The no-blame condition: the same Satir dynamic that applies in SIRT post-incident review applies in SOC learning. Analysts who expect blame for missed detections will underreport near-misses and borderline calls. Underreporting means the organisation does not learn from its near-misses, which means the same gaps persist. A SOC that has become politically safe to be honest in will surface more of what it needs to improve.
+The no-blame condition: the same [Satir](../../foundations/organisational-development/satir-core.md) dynamic that applies in SIRT [post-incident](../../making-of/sirt/learning.md) review applies in SOC learning. Analysts who expect blame for missed detections will underreport near-misses and borderline calls. Underreporting means the organisation does not learn from its near-misses, which means the same gaps persist. A SOC that has become politically safe to be honest in will surface more of what it needs to improve.

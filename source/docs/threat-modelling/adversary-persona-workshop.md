@@ -35,3 +35,7 @@ Personas that are built and then set aside have not been useful. The persona is 
 Every group eventually produces a persona so sophisticated (nation-state level, unlimited resources) that it becomes useless for planning. If this happens, add a constraint: this adversary has a budget of X, or is not willing to spend more than Y hours on reconnaissance. Constraints make adversaries plannable against.
 
 Groups also sometimes produce only the adversaries they feel capable of defending against. The facilitator should gently push toward the adversary the group finds most uncomfortable. That discomfort is usually pointing at something real.
+
+## Related
+
+[Simulations in practice](../workshops/simulations.md) describes how to run the personas built in this exercise against simulation environments, and how to structure the debrief.

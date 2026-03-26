@@ -2,13 +2,13 @@
 
 Impact assessment is where the threat model connects to what actually matters to the organisation: not systems failing, but operations failing, people being affected, and recovery consuming resources that were needed elsewhere.
 
-It is also where the Satir dynamics are most visible. Naming the operational consequences of a successful attack requires people to say uncomfortable things in front of colleagues: that a service would be down for days, not hours; that customer data would be exposed, not just at risk; that regulatory consequences would be serious, not manageable. The survival stances appear reliably here. Some people placate (the impact would probably not be that bad). Some compute (let me give you the technical explanation of what would fail). Some deflect (that is really a question for the business continuity team).
+It is also where the [Satir](../foundations/organisational-development/satir-core.md) dynamics are most visible. Naming the operational consequences of a successful attack requires people to say uncomfortable things in front of colleagues: that a service would be down for days, not hours; that customer data would be exposed, not just at risk; that regulatory consequences would be serious, not manageable. The [survival stances](../foundations/organisational-development/satir-core.md) appear reliably here. Some people placate (the impact would probably not be that bad). Some compute (let me give you the technical explanation of what would fail). Some deflect (that is really a question for the business continuity team).
 
 The facilitator's role is to keep the group in contact with the realistic scenario rather than the reassuring one. The political layer matters too: who in the room has the authority to acknowledge a given impact? A finding that requires someone to admit that a critical service could be unavailable for a week is a finding that will only be documented accurately if the person who needs to act on it is present and willing to own it.
 
 ## The exercise
 
-Take one attack path from the previous exercise. Choose one that reaches a critical asset, not the most technically interesting one.
+Take one attack path from the [previous exercise](attack-path-mapping.md). Choose one that reaches a critical asset, not the most technically interesting one.
 
 Assume the attack succeeds. This is the important step: not "what could prevent this" but "what happens next." Resistance to the assumption is itself informative.
 

@@ -165,7 +165,7 @@ How the residual risks will be evaluated:
 
 There's no mandated format for the risk treatment plan. Choose what works for your organisation:
 
-Option 1: Integrated with risk register
+Option 1: Integrated with [risk register](../../risk-management/risk-register.md)
 
 Add treatment columns to your risk register:
 

@@ -4,9 +4,14 @@ A threat model turns the outputs of separate exercises into a structured, mainta
 
 ## What the model contains
 
-Review all previous exercises: adversary personas, attack paths, operational impacts, and scenarios. Organise the findings into a structure that shows the relationships between them.
+Review all previous exercises: [adversary personas](adversary-persona-workshop.md), 
+[attack paths](attack-path-mapping.md), [operational impacts](operational-impact-exercise.md), and 
+[scenarios](crafting-scenarios.md). Organise the findings into a structure that shows the relationships between them.
 
-The model needs four components: the adversaries (who, with what capabilities and motivations), the attack paths (how they would move through the system from entry to objective), the operational impacts (what the consequences would be if each path were executed successfully), and the mitigations (what is already in place and what is planned).
+The model needs four components: the adversaries (who, with what capabilities and motivations), the attack 
+paths (how they would move through the system from entry to objective), the operational impacts (what the 
+consequences would be if each path were executed successfully), and the mitigations (what is already in place 
+and what is planned).
 
 ## Making it legible outside the workshop
 

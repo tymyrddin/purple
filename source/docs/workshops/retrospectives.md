@@ -1,6 +1,6 @@
 # Temperature reading retrospectives
 
-*Inspired by Virginia Satir's Temperature Reading, expanded with timelines for real organisational retrospectives.*
+*Inspired by Virginia [Satir](../foundations/organisational-development/satir-core.md)'s Temperature Reading, expanded with timelines for real organisational retrospectives.*
 
 ![A large diagram drawn on a white wall. The top half is a horizontal timeline labelled "Timeline of Events", filled with a dense cluster of multi-coloured sticky notes. The bottom half is a chart titled "Energy Timeline", featuring seven horizontally distinct, hand-drawn squiggly lines, each in a different colour, showing dramatic rises and sharp falls.](/_static/images/retrospectives.png)
 
@@ -18,7 +18,7 @@ The result is a retrospective that surfaces hidden dynamics, strengthens collect
 
 Most retrospectives treat events as things that happened to a neutral team. The energy timeline makes the team's experience of events visible as a parallel record. A decision that looked routine in the event log may have triggered a significant dip in energy that is only visible when you overlay the two timelines.
 
-This is where the Satir influence is most direct. The energy dips are often the places where survival stances appeared: someone placated rather than named a problem, someone computed rather than felt the weight of what was happening, someone disengaged. Making those moments visible, without blame, is the first condition for learning from them.
+This is where the Satir influence is most direct. The energy dips are often the places where [survival stances](../foundations/organisational-development/satir-core.md) appeared: someone placated rather than named a problem, someone computed rather than felt the weight of what was happening, someone disengaged. Making those moments visible, without blame, is the first condition for learning from them.
 
 ## The temperature reading structure
 

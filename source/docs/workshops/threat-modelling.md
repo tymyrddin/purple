@@ -2,13 +2,13 @@
 
 Threat modelling is a structured process for understanding who would attack you, how they would do it, and what would hurt most. Done as a workshop rather than as a solo analyst exercise, it builds shared understanding across technical and non-technical participants and surfaces assumptions that no single person would have noticed alone.
 
-The full threat modelling process lives in its own section of this documentation. What follows is its place in the family of analytical processes.
+The full [threat modelling](../threat-modelling/choreography.md) process lives in its own section of this documentation. What follows is its place in the family of analytical processes.
 
 ## What kind of process it is
 
 Threat modelling works with a system and asks what could go wrong with it. This makes it complementary to scenario planning, which works with the future, and to backward planning, which works with a desired state. Threat modelling is the process for understanding the current system's vulnerability to the adversaries who are actually likely to target it.
 
-The SEM framing is important here. A threat model is a model. It encodes assumptions about who the adversaries are, what they want, and what paths they have available. Those assumptions are accurate at the point of creation and drift thereafter. A threat model that is not periodically revisited becomes a record of historical thinking rather than a current analysis, and the gap between the model and reality is the gap that adversaries will use.
+The [SEM](../foundations/system-effectiveness/index.rst) framing is important here. A threat model is a model. It encodes assumptions about who the adversaries are, what they want, and what paths they have available. Those assumptions are accurate at the point of creation and drift thereafter. A threat model that is not periodically revisited becomes a record of historical thinking rather than a current analysis, and the gap between the model and reality is the gap that adversaries will use.
 
 ## Where it fits with the other processes
 

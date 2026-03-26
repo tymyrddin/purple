@@ -2,13 +2,13 @@
 
 This exercise assembles the outputs of the previous sessions into a coherent threat model. It is also the moment when the gap between "having done the exercises" and "having produced something that will change how the organisation behaves" becomes visible.
 
-The ChangeShop insight applies directly here. The group has done genuine analytical work. They have built personas, mapped paths, assessed impacts, and crafted scenarios. The question now is whether the conditions for acting on those findings are in place. A threat model that accurately describes the organisation's exposure and then sits in a shared drive is not a threat model in any useful sense. It is a description of risk that the organisation chose not to act on.
+The [ChangeShop](../foundations/change-management/index.rst) insight applies directly here. The group has done genuine analytical work. They have built personas, mapped paths, assessed impacts, and crafted scenarios. The question now is whether the conditions for acting on those findings are in place. A threat model that accurately describes the organisation's exposure and then sits in a shared drive is not a threat model in any useful sense. It is a description of risk that the organisation chose not to act on.
 
 This is not a failure of the exercise. It is a finding about the organisation, and it deserves to be named as one.
 
 ## The exercise
 
-Combine the adversary personas with the mapped attack paths. For each path, note the persona or personas that could execute it and the operational impact if they do.
+Combine the [adversary personas](adversary-persona-workshop.md) with the [mapped attack paths](attack-path-mapping.md). For each path, note the persona or personas that could execute it and the operational impact if they do.
 
 Prioritise. Which risks are unacceptable given the organisation's actual risk appetite, not the stated one? Which can be tolerated? The distinction between stated and actual risk appetite is important: organisations frequently say they have a low appetite for certain risks and then routinely accept them in practice. The gap between those two positions is worth naming.
 

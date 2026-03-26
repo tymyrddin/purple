@@ -4,7 +4,7 @@ SOC workflows are documented hypotheses about how specific categories of event s
 
 ## Designing workflows
 
-The Montessori framing is useful here: a well-designed workflow is a prepared environment for the analyst. It provides the structure and the materials for the work without removing the need for judgement. A workflow that attempts to pre-decide every branch of a complex incident is a workflow that will be abandoned the first time the incident does not follow the script.
+The [Montessori](../../foundations/montessori/index.rst) framing is useful here: a well-designed workflow is a prepared environment for the analyst. It provides the structure and the materials for the work without removing the need for judgement. A workflow that attempts to pre-decide every branch of a complex incident is a workflow that will be abandoned the first time the incident does not follow the script.
 
 A useful workflow for an alert category covers:
 
@@ -14,7 +14,7 @@ What the decision criteria are. Not "is this suspicious?" but "does this meet th
 
 What the response actions are for each decision outcome. Containment steps, escalation contacts, communication requirements.
 
-What to document, and where. The documentation that happens during the response is the input to the post-incident review and the compliance record. If it requires a separate effort after the fact, it will be incomplete.
+What to document, and where. The documentation that happens during the response is the input to the [post-incident](../../making-of/sirt/learning.md) review and the compliance record. If it requires a separate effort after the fact, it will be incomplete.
 
 ## Iteration as method
 

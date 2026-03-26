@@ -8,7 +8,7 @@ Materials: your risk register, organisational context, any applicable frameworks
 
 A risk register records what the organisation currently knows about its exposure. A risk model describes the process by which that knowledge is acquired, maintained, and acted upon. The model makes risk management a continuous practice rather than a periodic documentation exercise.
 
-The SEM framing is central here. The risk register is a model of the organisation's exposure at a point in time. It encodes assumptions about likelihood, about the adversary landscape, about what the critical assets are and what threatens them. Those assumptions are accurate when they are made and drift thereafter. A risk model without explicit mechanisms for detecting and correcting model drift is a risk model that becomes less accurate over time without anyone noticing.
+The [SEM](../foundations/system-effectiveness/index.rst) framing is central here. The risk register is a model of the organisation's exposure at a point in time. It encodes assumptions about likelihood, about the adversary landscape, about what the critical assets are and what threatens them. Those assumptions are accurate when they are made and drift thereafter. A risk model without explicit mechanisms for detecting and correcting [model drift](../foundations/system-effectiveness/core-triad.md) is a risk model that becomes less accurate over time without anyone noticing.
 
 ## Documenting the process
 

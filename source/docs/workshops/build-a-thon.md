@@ -12,7 +12,7 @@ The best candidates for a build-a-thon are things that are genuinely needed, cle
 time available by the people in the room.
 
 Detection content: rules, queries, or correlation logic for techniques that are known to be used by relevant 
-adversaries but are not yet covered by existing monitoring. Purple team exercises and threat modelling sessions are 
+adversaries but are not yet covered by existing monitoring. Purple team exercises and [threat modelling](../threat-modelling/choreography.md) sessions are 
 natural sources for this list.
 
 Playbooks: documented response procedures for scenarios that are likely but not yet covered, or for scenarios where 
@@ -28,7 +28,7 @@ Tooling and automation: scripts, workflows, or integrations that reduce the fric
 
 Gather proposals in advance. Ask the team what they have wanted to build but have not had time for. Collect the list, group related items, and let the team vote or select on the day. This surfaces what is actually felt as useful rather than what a manager believes is useful.
 
-Prepare the environment before the event starts. A build-a-thon where the first three hours are spent getting access to systems, finding documentation, or waiting for permissions to be granted is a build-a-thon that has lost its momentum before the work begins. This is the Montessori prepared environment principle applied directly: everything needed should be accessible without ceremony.
+Prepare the environment before the event starts. A build-a-thon where the first three hours are spent getting access to systems, finding documentation, or waiting for permissions to be granted is a build-a-thon that has lost its momentum before the work begins. This is the [Montessori](../foundations/montessori/index.rst) prepared environment principle applied directly: everything needed should be accessible without ceremony.
 
 Set a clear finishing condition. Each project should have a stated definition of done that is achievable within the time available. "Finished enough to be useful" is a legitimate bar.
 

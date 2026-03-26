@@ -10,7 +10,7 @@ Understanding why patching falls behind is the prerequisite for designing a spri
 
 The usual reasons are a combination of capacity (patching competes with delivery and loses), fear (applying a patch in a production system that lacks good rollback mechanisms is genuinely risky), ownership gaps (the system that needs patching belongs to no single team), and incentive misalignment (nobody is rewarded for reducing risk that has not yet materialised as an incident).
 
-A patch sprint that does not address at least the capacity and fear problems will produce a week of nominal activity followed by a rapid return to the previous backlog growth rate. The sprint is a ChangeShop-style intervention: it temporarily alters the conditions that make patching hard. Lasting improvement requires changing those conditions permanently, which is a different piece of work that the sprint can inform but cannot replace.
+A patch sprint that does not address at least the capacity and fear problems will produce a week of nominal activity followed by a rapid return to the previous backlog growth rate. The sprint is a [ChangeShop](../foundations/change-management/index.rst)-style intervention: it temporarily alters the conditions that make patching hard. Lasting improvement requires changing those conditions permanently, which is a different piece of work that the sprint can inform but cannot replace.
 
 ## Preparing the sprint
 

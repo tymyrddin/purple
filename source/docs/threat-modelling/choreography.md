@@ -12,7 +12,7 @@ A threat model produced by a single security analyst reflects that analyst's mod
 
 A threat model produced collaboratively, with the people who built the system, the people who operate it, and the people who are responsible for what happens when it fails, surfaces a much richer picture. It also surfaces the disagreements, the gaps in shared understanding, and the places where different parts of the organisation are operating on incompatible assumptions. Those are findings too.
 
-PSL is directly relevant here: all three layers need to be present. The rational layer (what the system does, what the vulnerabilities are) is the easy part. The emotional layer (what people are afraid to name, what concerns feel too uncomfortable to raise with colleagues in the room) and the political layer (whose risk appetite shapes what gets prioritised, who has authority to act on a finding) determine whether the exercise produces change or produces a document.
+[PSL](../foundations/problem-solving/index.rst) is directly relevant here: all three layers need to be present. The rational layer (what the system does, what the vulnerabilities are) is the easy part. The emotional layer (what people are afraid to name, what concerns feel too uncomfortable to raise with colleagues in the room) and the political layer (whose risk appetite shapes what gets prioritised, who has authority to act on a finding) determine whether the exercise produces change or produces a document.
 
 ## How to use this set
 

@@ -10,7 +10,7 @@ When to use: early purple team exercises, testing new defensive tools or procedu
 
 What this tests: whether the detection and response process works when primed. It does not test whether the organisation detects attacks under realistic conditions. That is a legitimate thing to test at an early stage; the limitation only becomes a problem when the organisation believes disclosed testing is validating the same thing as more realistic testing.
 
-The ChangeShop observation: disclosed testing is the mode with the lowest resistance. Both sides know what is happening, the exercise is clearly bounded, and the findings are easier to accept because everyone was prepared. This is also why it is the mode that produces the least discomfort, and the mode where the organisation learns the least about what would actually happen.
+The [ChangeShop](../../foundations/change-management/index.rst) observation: disclosed testing is the mode with the lowest resistance. Both sides know what is happening, the exercise is clearly bounded, and the findings are easier to accept because everyone was prepared. This is also why it is the mode that produces the least discomfort, and the mode where the organisation learns the least about what would actually happen.
 
 ## Blind testing
 
@@ -32,7 +32,7 @@ What this tests: everything disclosed and blind testing tests, plus whether the 
 
 The costs are real: risk of confusion, inappropriate response, and operational disruption. This mode requires careful scoping and safety controls. It also provides delayed learning, because the debrief happens after the exercise is complete rather than during it.
 
-The PSL note: this mode puts the most stress on the political layer. The blue team discovering that it did not detect a significant simulated attack, in a mode where it had no warning, can trigger the defensive reactions that prevent learning. The debrief facilitation here is the most demanding.
+The [PSL](../../foundations/problem-solving/index.rst) note: this mode puts the most stress on the political layer. The blue team discovering that it did not detect a significant simulated attack, in a mode where it had no warning, can trigger the defensive reactions that prevent learning. The debrief facilitation here is the most demanding.
 
 ## Continuous purple teaming
 

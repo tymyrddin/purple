@@ -445,7 +445,7 @@ Mandatory ISMS documents:
 - ISMS scope with boundaries and justifications
 - Information security policy (top-level)
 - All policies referenced in Statement of Applicability
-- Risk assessment methodology and current risk register
+- Risk assessment methodology and current [risk register](../../risk-management/risk-register.md)
 - Risk treatment plan with control mapping
 - Statement of Applicability with all Annex A controls addressed
 - Internal audit reports (past 12 months minimum)

@@ -8,7 +8,7 @@ Materials: your risk matrix from the previous exercise, cards for treatment opti
 
 For each risk above your appetite line, identify what you can actually do about it. The constraint on "actually" matters. Treatment options that cannot be implemented given the organisation's actual capacity, budget, and authority structure are not treatment options. They are aspirations, and aspirations do not reduce risk.
 
-This is where ChangeShop is most directly applicable. Most treatment plans fail not because the technical controls are unavailable but because the conditions for implementing them are not in place: no clear owner, no protected budget, no authority to make the required changes, implementation that would require co-operation from teams that have not been engaged. A treatment plan that does not account for these conditions will produce a list of things to do that gradually ages in a register without being done.
+This is where [ChangeShop](../foundations/change-management/index.rst) is most directly applicable. Most treatment plans fail not because the technical controls are unavailable but because the conditions for implementing them are not in place: no clear owner, no protected budget, no authority to make the required changes, implementation that would require co-operation from teams that have not been engaged. A treatment plan that does not account for these conditions will produce a list of things to do that gradually ages in a register without being done.
 
 Step 1: Understand the options (10 minutes)
 

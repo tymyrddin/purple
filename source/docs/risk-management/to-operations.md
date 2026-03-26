@@ -2,7 +2,7 @@
 
 You have built a risk register and documented a process. The question now is whether that work will change how the organisation operates, or whether it will describe how the organisation should operate while actual operations continue unchanged.
 
-This is the ChangeShop question. The exercises produced accurate analysis. The register documents decisions. Whether those decisions produce change depends on conditions that the exercises themselves cannot create: ownership that is real rather than nominal, authority to implement treatments, protected time and budget, and the trust and communication conditions that allow people to be honest about progress and blockages.
+This is the [ChangeShop](../foundations/change-management/index.rst) question. The exercises produced accurate analysis. The register documents decisions. Whether those decisions produce change depends on conditions that the exercises themselves cannot create: ownership that is real rather than nominal, authority to implement treatments, protected time and budget, and the trust and communication conditions that allow people to be honest about progress and blockages.
 
 ## Integration points
 

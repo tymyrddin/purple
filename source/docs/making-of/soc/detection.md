@@ -6,7 +6,7 @@ Detection without coordinated response is situational awareness with no conseque
 
 Every detection rule encodes an assumption: that a particular pattern of behaviour indicates a threat, that a particular threshold of activity is anomalous, that a particular log source is reliable enough to act on. Those assumptions are accurate when the rule is written. They drift because the environment changes, because adversaries adapt, and because the rule was written against a threat model that has since evolved.
 
-The SEM principle here is that errors are model failures. A rule that fires on benign activity and generates noise is a model that has drifted from reality. A rule that fails to fire on malicious activity that it was designed to catch is a model failure of a different kind, and one that is harder to notice because silence does not announce itself. Both types of failure deserve the same investigative attention.
+The [SEM](../../foundations/system-effectiveness/index.rst) principle here is that errors are model failures. A rule that fires on benign activity and generates noise is a model that has drifted from reality. A rule that fails to fire on malicious activity that it was designed to catch is a model failure of a different kind, and one that is harder to notice because silence does not announce itself. Both types of failure deserve the same investigative attention.
 
 Treating detection as a managed model rather than a set of installed rules means: explicitly documenting what each rule is intended to catch and on what assumption, reviewing rules regularly against what is being observed, and treating false positive and false negative findings as evidence about model accuracy rather than as housekeeping items.
 

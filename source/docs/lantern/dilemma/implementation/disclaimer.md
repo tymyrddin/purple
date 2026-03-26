@@ -31,3 +31,7 @@ Outcomes in the simulation are illustrative, not prescriptive.
 - Value lies in reflection, discussion, and comparison, before real people, services, and livelihoods are affected.
 - Reality is messier than any simulation. That does not make simulation useless, it makes it honest.
 - A space to explore, to test instincts, and to see yourself reflected back in the consequences of your choices.
+
+## Related
+
+[Simulations in practice](../../../workshops/simulations.md) describes what simulation environments are for and how to structure sessions using the Patrician's Crisis simulator and others.

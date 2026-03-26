@@ -6,7 +6,7 @@ The relationship to scenario planning is direct. Scenario planning (in the works
 
 ## The exercise
 
-Take one or two attack paths from the previous exercise. Choose paths that reached critical assets and produced significant impacts.
+Take one or two attack paths from the [previous exercise](bringing-it-together.md). Choose paths that reached critical assets and produced significant impacts.
 
 Write a short scenario for each. The scenario should include the adversary persona, the sequence of moves from entry to objective, and the operational impact when the objective is reached. One page or one index card is the right length. Longer scenarios become hard to use.
 
@@ -14,9 +14,13 @@ The sequence of moves is the part that takes most attention. A scenario that say
 
 ## The peer swap
 
-Once each group has a scenario, swap with another group. Read their scenario and identify weak points and overlooked risks: places where the scenario assumes something about detection that may not hold, places where the timeline seems optimistic, places where a different adversary with different capabilities would have taken a different path.
+Once each group has a scenario, swap with another group. Read their scenario and identify weak points and overlooked 
+risks: places where the scenario assumes something about detection that may not hold, places where the timeline seems 
+optimistic, places where a different adversary with different capabilities would have taken a different path.
 
-This is the Montessori peer review in action. The group that wrote the scenario is inside its own assumptions. The group that reads it from outside notices the gaps. The conversation that follows is usually more valuable than either group's individual work.
+This is the [Montessori](../foundations/montessori/index.rst) peer review in action. The group that wrote the scenario 
+is inside its own assumptions. The group that reads it from outside notices the gaps. The conversation that follows 
+is usually more valuable than either group's individual work.
 
 ## What makes a scenario useful
 

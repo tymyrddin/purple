@@ -14,7 +14,7 @@ How does the SIRT get assembled? When an incident is declared, who is notified, 
 
 How does the SIRT coordinate during the incident? What communication channels are used, what is the cadence of updates, and how are decisions made when the team is distributed or time-constrained?
 
-How does the incident get closed? Who declares it resolved, what is required before that declaration is made, and what triggers the post-incident review?
+How does the incident get closed? Who declares it resolved, what is required before that declaration is made, and what triggers the [post-incident review](learning.md)?
 
 ## Preparation as the primary work
 
@@ -26,6 +26,6 @@ Simple checklists for recurring incident types, such as malware detections, acco
 
 The structure as designed will not match the structure as operated after significant time has passed. People change roles. Organisational structure changes. Systems are added or replaced. The threat landscape shifts. Each of these changes can invalidate parts of the SIRT model without the model being updated.
 
-The SEM principle applies: errors are model failures. When the SIRT does not function as expected during an incident, the gap between the model and reality is information about what has drifted. Post-incident review is the primary mechanism for capturing this information and using it to update the model. An organisation that reviews incidents primarily to assign responsibility, rather than to understand the gap, loses this information.
+The [SEM](../../foundations/system-effectiveness/index.rst) principle applies: errors are model failures. When the SIRT does not function as expected during an incident, the gap between the model and reality is information about what has drifted. Post-incident review is the primary mechanism for capturing this information and using it to update the model. An organisation that reviews incidents primarily to assign responsibility, rather than to understand the gap, loses this information.
 
 Version the SIRT documentation and review it at least annually, or after any significant organisational change or significant incident. A SIRT structure that has not been reviewed in two years is probably wrong in ways no one has noticed yet.

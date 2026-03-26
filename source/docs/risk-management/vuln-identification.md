@@ -8,7 +8,7 @@ Materials: asset cards from the previous exercise, new cards for vulnerabilities
 
 For each critical asset, identify specific ways it could fail, be compromised, or become unavailable. Vulnerabilities are not just technical weaknesses. They are any condition that makes an asset exposed to a threat.
 
-The SEM framing is useful here. Most recurring vulnerability classes have a model underneath them. Unpatched systems persist because the model is "patching creates operational risk" and there is no mechanism for establishing that the risk of not patching is higher. Secrets in source code persist because the model is "secret management is someone else's concern" and no safe alternative exists within the workflow. Identifying the vulnerability without identifying the model that produced it means the vulnerability will return in a different form after it is addressed.
+The [SEM](../foundations/system-effectiveness/index.rst) framing is useful here. Most recurring vulnerability classes have a model underneath them. Unpatched systems persist because the model is "patching creates operational risk" and there is no mechanism for establishing that the risk of not patching is higher. Secrets in source code persist because the model is "secret management is someone else's concern" and no safe alternative exists within the workflow. Identifying the vulnerability without identifying the model that produced it means the vulnerability will return in a different form after it is addressed.
 
 Step 1: Focus on one asset at a time (5 minutes to select)
 

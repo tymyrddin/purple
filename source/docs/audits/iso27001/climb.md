@@ -153,7 +153,7 @@ This is where planning becomes reality, turning all that preparation into a cont
 Organisations must:
 
 * Establish and monitor processes to meet information security objectives
-* Assess risks regularly and maintain the risk register
+* Assess risks regularly and maintain the [risk register](../../risk-management/risk-register.md)
 * Reassess when conditions change (new systems, incidents, regulatory changes)
 * Treat risks with appropriate controls, as documented in the Statement of Applicability
 * Document results of both risk assessments and treatment decisions

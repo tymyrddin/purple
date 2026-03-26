@@ -20,10 +20,14 @@ The process is deliberately not about predicting the future. It is about develop
 
 ## Obliviousness and congruence
 
-These two concepts, drawn from Satir's work, give scenario planning its particular character.
+These two concepts, drawn from [Satir](../foundations/organisational-development/satir-core.md)'s work, give scenario planning its particular character.
 
-Obliviousness is the gap between what is actually happening and what the team believes is happening. Scenario planning surfaces this by asking teams to state their current assumptions explicitly and then examine them. The assumptions that feel too obvious to mention are usually the ones most worth examining.
+Obliviousness is the gap between what is actually happening and what the team believes or perceives is happening. Scenario planning surfaces this by asking teams to state their current assumptions explicitly and then examine them. The assumptions that feel too obvious to mention are usually the ones most worth examining.
 
 Congruence is the alignment between what the team says, what it believes, and what it actually does. Scenarios often reveal incongruences: the organisation says it is prepared for a certain kind of incident but the actual preparations do not match that claim. Making this visible is uncomfortable and useful.
 
 The scenario planning process is most valuable not in the scenarios it produces but in the assumptions and incongruences it forces into the open.
+
+## Related
+
+[Simulations in practice](simulations.md) describes how simulation environments extend scenario planning into a safe consequence space, including the Patrician's Crisis and Smart Grid simulators.

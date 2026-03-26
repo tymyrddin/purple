@@ -6,15 +6,15 @@ The distinction matters in security because most threats do not arrive without w
 
 ## What forward-looking is not
 
-It is not a risk register exercise. Risk registers capture known risks and assign scores to them. Forward-looking processes are for developing thinking about the future: what is changing in the environment, what assumptions are being tested by those changes, and what responses would be available if certain things came to pass.
+It is not a [risk register](../risk-management/risk-register.md) exercise. Risk registers capture known risks and assign scores to them. Forward-looking processes are for developing thinking about the future: what is changing in the environment, what assumptions are being tested by those changes, and what responses would be available if certain things came to pass.
 
-It is not a threat modelling session, though it draws on similar thinking. Threat modelling focuses on a system and asks what could go wrong with it. A forward-looking process starts with the organisation and asks what the next six to eighteen months might bring and how prepared the organisation is to meet it.
+It is not a [threat modelling](../threat-modelling/choreography.md) session, though it draws on similar thinking. Threat modelling focuses on a system and asks what could go wrong with it. A forward-looking process starts with the organisation and asks what the next six to eighteen months might bring and how prepared the organisation is to meet it.
 
 ## The core questions
 
 A forward-looking workshop for a security team works with questions like these:
 
-What is changing in the threat landscape that the current programme was not designed for? This surfaces model drift: the programme was designed for conditions that may no longer hold.
+What is changing in the threat landscape that the current programme was not designed for? This surfaces [model drift](../foundations/system-effectiveness/core-triad.md): the programme was designed for conditions that may no longer hold.
 
 What is changing inside the organisation that creates new exposure? Growth, restructuring, new cloud adoption, new partnerships, regulatory changes: each of these alters the attack surface and may not have triggered a corresponding adjustment to the security posture.
 

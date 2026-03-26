@@ -62,6 +62,6 @@ Prioritise remediation based on risk and effort, and develop a roadmap with real
 
 ## Output
 
-By the end of this stage, you have a regulatory requirements matrix, a risk register, a gap analysis, and 
+By the end of this stage, you have a regulatory requirements matrix, a [risk register](../../risk-management/risk-register.md), a gap analysis, and 
 a prioritised remediation plan.
 

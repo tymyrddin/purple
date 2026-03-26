@@ -20,6 +20,7 @@ The work
    :includehidden:
 
    docs/foundations/index
+   docs/systems-architecture/index
    docs/purple/index
    docs/workshops/index
    docs/threat-modelling/index
