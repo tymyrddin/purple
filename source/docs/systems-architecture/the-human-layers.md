@@ -14,9 +14,9 @@ None of these are primarily rational responses, and they are not irrational ones
 
 The political layer is the domain of authority and sanction. Architectural decisions are binding decisions about shared resources and shared standards, and their bindingness depends on authority. An architect without organisational authority to require that their designs be followed is in an advisory role, whether or not that is how the role is described. Understanding the political layer means understanding who has the standing to make architectural decisions binding, and working with rather than around that reality.
 
-## Satir's [survival stances](../foundations/organisational-development/satir-core.md) in architecture contexts
+## Satir's survival stances in architecture contexts
 
-Satir observed that people under stress revert to survival stances. These stances are as visible in architectural settings as anywhere else.
+Satir observed that people under stress revert to [survival stances](../foundations/organisational-development/satir-core.md). These stances are as visible in architectural settings as anywhere else.
 
 The computing stance is a particular occupational hazard for architects. It means retreating into technical detail and precision as a way of avoiding accountability for the social dimensions of a decision. The architect who responds to concerns about implementation difficulty with increasingly detailed technical justification, rather than engaging with the concern about capacity, is computing. The stance is recognisable because it produces technically unassailable responses to questions that were not primarily technical.
 
