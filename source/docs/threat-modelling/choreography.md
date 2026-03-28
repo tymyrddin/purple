@@ -32,5 +32,5 @@ You will also have surfaced the assumptions that nobody had examined, the risks 
 
 ## Examples
 
-- [Digital threat modelling for partner abuse: Power On](https://poweron.tymyrddin.dev/en/docs/threat-model/) applies this sequence in a context where the adversary is a known individual and the assets are personal safety and privacy.
-- [The garden layout: Threat model, Green team](https://green.tymyrddin.dev/docs/deanonymisation/) applies it to deanonymisation risks, with adversaries, assets, attack vectors, and impacts.
+- [Digital threat modelling for partner abuse: Power On](https://green.tymyrddin.dev/docs/threat-models/poweron/) applies this sequence in a context where the adversary is a known individual and the assets are personal safety and privacy.
+- [The garden layout: Threat model, Green team](https://green.tymyrddin.dev/docs/threat-models/deanonymisation/) applies it to deanonymisation risks, with adversaries, assets, attack vectors, and impacts.
