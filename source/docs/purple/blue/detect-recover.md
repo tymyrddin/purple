@@ -45,3 +45,24 @@ Clean rebuild over quick fix: Don't trust compromised systems. Rebuild from scra
 Validation before restoration: Test recovered systems in isolated environment before reconnecting to production. Verify no reinfection or persistence.
 
 Enhanced monitoring: Temporarily increase logging and monitoring on recovered systems to catch any remaining attacker presence quickly.
+
+## Playbooks
+
+- [DFIR Playbook development examples](https://blue.tymyrddin.dev/docs/soc/dfir/playbooks)
+- [Golem Trust Computing Ltd. Startup Playbooks](https://blue.tymyrddin.dev/docs/org/startup/playbooks)
+- [Golem Trust Computing Ltd. Scale-Up Playbooks](https://blue.tymyrddin.dev/docs/org/scale-up/playbooks)
+
+## Runbooks
+
+- [The Home for Bewildered Beasts of Legend Security Awareness Runbooks](https://blue.tymyrddin.dev/docs/ngo/awareness/runbooks) 
+- [The Home for Bewildered Beasts of Legend Incident response runbooks](https://blue.tymyrddin.dev/docs/ngo/data/runbooks)
+- [Golem Trust Computing Ltd. Enterprise Runbooks](https://blue.tymyrddin.dev/docs/org/enterprise/runbooks)
+- [Golem Trust Computing Ltd. Scale-Up Runbooks](https://blue.tymyrddin.dev/docs/org/scale-up/runbooks)
+- [Golem Trust Computing Ltd. StartUp Runbooks](https://blue.tymyrddin.dev/docs/org/startup/runbooks)
+- [Blue team @Purpleteaming Collection activity hunting](https://blue.tymyrddin.dev/docs/purple/end/collection/runbooks)
+- [Blue team @Purpleteaming The data egress hunt](https://blue.tymyrddin.dev/docs/purple/end/exfiltration/runbooks)
+- [Blue team @Purpleteaming Responding to active impact](https://blue.tymyrddin.dev/docs/purple/end/impact/runbooks)
+- [Blue team @Purpleteaming Buffer overflow runbooks](https://blue.tymyrddin.dev/docs/purple/middle/buffer-overflow/runbooks)
+- [Blue team @Purpleteaming Evasion runbooks](https://blue.tymyrddin.dev/docs/purple/middle/evasion/runbooks)
+- [Blue team @Purpleteaming Persistence runbooks](https://blue.tymyrddin.dev/docs/purple/middle/persistence/runbooks)
+- [Blue team @Purpleteaming Steganography Runbooks](https://blue.tymyrddin.dev/docs/purple/middle/steganography/runbooks)

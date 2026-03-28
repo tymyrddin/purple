@@ -65,3 +65,33 @@ Exfiltration techniques:
 - HTTPS uploads: Legitimate protocol abuse testing
 - DNS tunnelling: Test for DNS exfiltration detection
 - Cloud storage: Test for unauthorised cloud service usage
+
+## Playbooks
+
+- [From access to staged data](https://red.tymyrddin.dev/docs/out/collection/playbooks)
+- [Cloud initial access playbooks](https://red.tymyrddin.dev/docs/in/cloud/playbooks)
+- [API attack playbooks](https://red.tymyrddin.dev/docs/in/api/playbooks)
+- [Web application attack playbooks](https://red.tymyrddin.dev/docs/in/app/playbooks)
+- [Attack chain playbooks for network operations](https://red.tymyrddin.dev/docs/in/network/playbooks)
+- [Attack chain playbooks for endpoint operations](https://red.tymyrddin.dev/docs/in/endpoint/playbooks)
+- [Evasion Playbooks](https://red.tymyrddin.dev/docs/through/evasion/playbooks)
+- [Social engineering playbooks](https://red.tymyrddin.dev/docs/in/real/playbooks)
+
+## Runbooks
+
+- [Step-by-step attack runbooks](https://red.tymyrddin.dev/docs/in/real/runbooks)
+- [Reverse engineering Runbooks](https://red.tymyrddin.dev/docs/through/reverse-engineering/runbooks)
+- [Steganography Runbooks](https://red.tymyrddin.dev/docs/through/steganography/runbooks)
+- [Crypto-attack Runbooks](https://red.tymyrddin.dev/docs/through/crypto-attacks/runbooks)
+- [Buffer Overflow Runbooks](https://red.tymyrddin.dev/docs/through/buffer-overflow/runbooks)
+- [Evasion Runbooks](https://red.tymyrddin.dev/docs/through/evasion/runbooks)
+- [Persistence runbooks](https://red.tymyrddin.dev/docs/through/persistence/runbooks)
+- [Finding and pulling the data](https://red.tymyrddin.dev/docs/out/collection/runbooks)
+- [Moving the data](https://red.tymyrddin.dev/docs/out/exfiltration/runbooks)
+- [Execution and concealment](https://red.tymyrddin.dev/docs/out/impact/runbooks)
+- [Cloud recon runbooks](https://red.tymyrddin.dev/docs/in/cloud/runbooks)
+- [API recon and attack runbooks](https://red.tymyrddin.dev/docs/in/api/runbooks)
+- [Web application attack runbooks](https://red.tymyrddin.dev/docs/in/app/runbooks)
+- [Operational procedures for network attacks](https://red.tymyrddin.dev/docs/in/network/runbooks)
+- [Operational procedures for endpoint attacks](https://red.tymyrddin.dev/docs/in/endpoint/runbooks)
+- [Operational procedures for OT attacks](https://red.tymyrddin.dev/docs/in/ot/runbooks)

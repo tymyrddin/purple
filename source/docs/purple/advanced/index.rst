@@ -7,6 +7,7 @@ Advanced purple operations
    :includehidden:
    :caption: Turning security testing into continuous improvement
 
+   playbooks-vs-runbooks.md
    playbooks.md
    detect-response.md
    feedback.md

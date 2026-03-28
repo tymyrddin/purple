@@ -43,3 +43,4 @@ Backup and recovery: Regular backups, offline/immutable backups, tested restore 
 Business continuity planning: Alternative work processes, failover systems, manual procedures when systems unavailable.
 
 Disaster recovery: Rebuild procedures, backup sites, recovery prioritisation, regular disaster recovery testing.
+
