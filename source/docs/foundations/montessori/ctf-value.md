@@ -41,3 +41,10 @@ Over-gamification is the most common failure mode. When the objective becomes so
 Under-difficulty produces no productive struggle. If every challenge is immediately solvable, the participant is not developing capability. They are confirming existing knowledge. The environment needs to be challenging enough that the participant has to extend themselves.
 
 No debrief is the third failure mode. The experience without the consolidation is only half the learning. A CTF that ends when the scoring closes has used the most expensive part of the preparation and discarded the part that makes it stick.
+
+## Related
+
+- [Gamified scenarios](gamified-scenarios.md)
+- [Reflection and feedback loops](reflection.md)
+- [The prepared environment](prepared-environment.md)
+- [Making of a cloud CTF](../../making-of/cloud/design.md)

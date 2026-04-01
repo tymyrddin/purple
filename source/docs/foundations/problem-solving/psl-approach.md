@@ -33,3 +33,10 @@ A controlled test of a detection capability against a known technique is more us
 Weinberg's version of this is direct and slightly uncomfortable: your reactions are part of the system. If you communicate in a way that makes people defensive, you will see defensive behaviour, and you may conclude the team cannot be trusted with hard information. The conclusion will be self-fulfilling.
 
 The version that matters for security is this: how a security team is experienced by the rest of the organisation shapes how much useful information reaches it. A team that is experienced as judgemental, obstructive, or disconnected from operational reality will be managed, not collaborated with. That is a capability gap.
+
+## Related
+
+- [PSL applied to security work](in-security.md)
+- [The three domains of problem solving](three-domains.md)
+- [Core ideas of Satir systems OD](../organisational-development/satir-core.md)
+- [Making of a purple team](../../making-of/purple-team/team.md)

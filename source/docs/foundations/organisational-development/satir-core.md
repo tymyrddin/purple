@@ -55,3 +55,10 @@ people resist a change, they are signalling something about their experience of 
 expectations of the proposed one.
 
 This overlaps directly with ChangeShop: the resistance is a map. The question is what it maps.
+
+## Related
+
+- [The Satir Change Model](satir-change-model.md)
+- [Satir OD applied to security work](in-security.md)
+- [What ChangeShop is](../change-management/what-it-is.md)
+- [PSL applied to security work](../problem-solving/in-security.md)

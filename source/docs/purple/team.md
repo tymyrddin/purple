@@ -55,3 +55,10 @@ Purple team facilitator responsibilities:
 - Lead debrief sessions
 - Track findings and improvements
 - Report progress to leadership
+
+## Related
+
+- [What purple teaming actually is](mission.md)
+- [When you're ready for purple teaming](readiness.md)
+- [Coordination models](coordination.md)
+- [Building a purple team](../making-of/purple-team/team.md)

@@ -27,3 +27,10 @@ Record the responses briefly. The record does not need to be polished. Its purpo
 The rapid retrospective sits alongside the temperature reading retrospective as a lighter-weight companion. The temperature reading is the right tool for longer cycles, significant incidents, or any situation where the team's experience of events needs to be examined alongside the events themselves. The rapid retrospective is for the end of an afternoon's session.
 
 They are not alternatives. A team that uses both develops a continuous reflection practice, where short cycles feed into longer ones and learning compounds rather than evaporates.
+
+## Related
+
+- [Temperature reading retrospectives](retrospectives.md)
+- [Simulations in practice](simulations.md)
+- [Reflection and feedback loops](../foundations/montessori/reflection.md)
+- [Incident response build programme](../purple/incident-response/build-programme.md)

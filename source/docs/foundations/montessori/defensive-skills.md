@@ -75,3 +75,10 @@ Before engagements: Review defensive capabilities. Know what monitoring exists. 
 During engagements: Consider detection opportunities. Note what should have been detected but wasn't. Document blue team visibility.
 
 After engagements: Provide detection-focused feedback. Explain exactly where blue team could have detected activity. Help write detection rules.
+
+## Related
+
+- [Rotation programmes](rotation.md)
+- [Building blue team capability](../../purple/blue/capability.md)
+- [SOC detection](../../making-of/soc/detection.md)
+- [Purple team coordination](../../making-of/purple-team/coordination.md)

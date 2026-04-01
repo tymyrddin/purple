@@ -60,3 +60,10 @@ Model-level findings require a different class of remediation. They cannot be cl
 They require someone to acknowledge that a belief the organisation has been operating on is wrong, which is a harder 
 conversation than patching a service. That difficulty is worth documenting, because the resistance to having it is 
 itself a security finding.
+
+## Related
+
+- [Systems, models, and errors](core-triad.md)
+- [Applying SEM to security](applying-sem.md)
+- [PSL applied to security work](../problem-solving/in-security.md)
+- [Attack path mapping](../../threat-modelling/attack-path-mapping.md)

@@ -21,3 +21,10 @@ By the end of these sessions, teams will have:
 - Practical playbooks for everyday operations  
 
 These sessions are designed to be iterative and adaptable. Repeat, tweak, and learn continuously to strengthen team readiness and operational resilience.
+
+## Related
+
+- [What purple teaming actually is](mission.md)
+- [When you're ready for purple teaming](readiness.md)
+- [Building your purple team](team.md)
+- [Building a purple team](../making-of/purple-team/team.md)

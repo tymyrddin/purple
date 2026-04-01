@@ -27,3 +27,10 @@ Capture the key impacts on one sheet. The sheet should be specific enough that a
 Beyond the outputs, this exercise is testing whether the organisation can have a clear-eyed conversation about its own vulnerability. Groups that cannot complete the exercise honestly, that consistently soften the impacts or redirect to what they would do to prevent it, are showing something about the conditions for change in the organisation.
 
 That observation is worth bringing to the group, carefully: the difficulty of naming the impact is related to the difficulty of acting on the finding. If acknowledging a three-day outage feels too alarming to say aloud, the discussion about how to prevent it will be shaped by the same discomfort.
+
+## Related
+
+- [Attack path mapping](attack-path-mapping.md)
+- [Bringing it together](bringing-it-together.md)
+- [Core ideas of Satir systems OD](../foundations/organisational-development/satir-core.md)
+- [Risk assessment](../risk-management/risk-assessment.md)

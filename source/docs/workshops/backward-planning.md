@@ -21,6 +21,17 @@ Each step produces usable insight on its own. Together they create a planning pr
 
 ## What "obstacle avoidance" means
 
-Obstacle avoidance in this process is not about eliminating obstacles. Many cannot be eliminated. It is about naming them before they appear so that the team has thought through a response and is not improvising under pressure.
+Obstacle avoidance in this process is not about eliminating obstacles. Many cannot be eliminated. It is about naming 
+them before they appear so that the team has thought through a response and is not improvising under pressure.
 
-The human obstacles are the ones most often omitted from plans and most often responsible for derailment. Who will resist this change and why? Whose co-operation is required but not yet secured? Where will the team's energy be lowest and what does the plan ask of people at that moment? These questions belong in the planning process, not in the post-mortem.
+The human obstacles are the ones most often omitted from plans and most often responsible for derailment. Who will 
+resist this change and why? Whose co-operation is required but not yet secured? Where will the team's energy be 
+lowest and what does the plan ask of people at that moment? These questions belong in the planning process, not in 
+a post-mortem or retrospective.
+
+## Related
+
+- [Forward-looking security planning](forward-looking.md)
+- [Risk management workshop](risk-management.md)
+- [Scenario planning](scenario-planning.md)
+- [Why security change stalls](../foundations/change-management/why-change-fails.md)

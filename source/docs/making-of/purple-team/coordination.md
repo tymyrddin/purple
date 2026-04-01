@@ -32,7 +32,7 @@ What this tests: everything disclosed and blind testing tests, plus whether the 
 
 The costs are real: risk of confusion, inappropriate response, and operational disruption. This mode requires careful scoping and safety controls. It also provides delayed learning, because the debrief happens after the exercise is complete rather than during it.
 
-The [PSL](../../foundations/problem-solving/index.rst) note: this mode puts the most stress on the political layer. The blue team discovering that it did not detect a significant simulated attack, in a mode where it had no warning, can trigger the defensive reactions that prevent learning. The debrief facilitation here is the most demanding.
+The [problem solving](../../foundations/problem-solving/index.rst) note: this mode puts the most stress on the political layer. The blue team discovering that it did not detect a significant simulated attack, in a mode where it had no warning, can trigger the defensive reactions that prevent learning. The debrief facilitation here is the most demanding.
 
 ## Continuous purple teaming
 
@@ -43,3 +43,10 @@ When to use: mature organisations with dedicated resources, automated testing fr
 What this produces: the fastest improvement cycle. Detection gaps identified and closed rapidly. High confidence in the accuracy of the detection model.
 
 The risk at this level is alert fatigue and normalisation: when exercises are continuous, the signal that "this is important" can become background noise. Managing this requires deliberate attention to what the programme is surfacing and whether it is producing genuine improvement or the appearance of a working programme.
+
+## Related
+
+- [Building the team](team.md)
+- [Readiness for purple teaming](readiness.md)
+- [Purple team engagement coordination](../../purple/engagement/coordination.md)
+- [SOC workflows](../soc/workflows.md)

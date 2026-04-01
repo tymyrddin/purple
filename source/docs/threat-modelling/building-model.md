@@ -32,3 +32,10 @@ Assign an owner. The threat model will drift toward obsolescence at the rate the
 Document the assumptions the model depends on. The model assumes that a specific system is isolated from the production network. It assumes that contractor access is mediated through a specific gateway. It assumes that the billing system does not have a direct connection to the customer database. Each of these assumptions is a test that can be run and a trigger for updating the model if the test fails.
 
 Set the triggers for revision explicitly: new system additions, significant architectural changes, incidents that resemble a modelled scenario, changes in the threat intelligence picture relevant to the named adversaries. A model revised on a fixed calendar schedule regardless of environmental change is a model that will be wrong in unpredictable ways. A model revised when its assumptions are violated is a model that stays accurate.
+
+## Related
+
+- [Bringing it together](bringing-it-together.md)
+- [Architecture as model](../systems-architecture/architecture-as-model.md)
+- [Applying SEM to security](../foundations/system-effectiveness/applying-sem.md)
+- [Risk register](../risk-management/risk-register.md)

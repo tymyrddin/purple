@@ -31,3 +31,10 @@ A useful scenario is also honest about the adversary's capabilities. Scenarios w
 ## Keeping scenarios current
 
 Like all models, scenarios drift. A scenario written against last year's adversary using last year's techniques against last year's architecture is a historical document, not a current planning tool. Mark each scenario with the date it was written and the trigger conditions for revisiting it: a new system in scope, a new technique observed in the threat landscape, an incident that resembles part of the scenario.
+
+## Related
+
+- [Bringing it together](bringing-it-together.md)
+- [Adversary persona workshop](adversary-persona-workshop.md)
+- [Scenario planning and looking forward](../workshops/scenario-planning.md)
+- [Purple team incident response choreography](../purple/incident-response/choreography.md)

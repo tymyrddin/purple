@@ -45,3 +45,10 @@ Treatment options for each priority risk, reality-checked for feasibility, with 
 The treatment conversation exposes the gap between what the organisation knows it should do and what it is actually in a position to do. That gap is important information. A treatment plan that requires resources or authority the organisation does not have is not a plan; it is a statement of what would be needed.
 
 If the gap is large, that is a finding for leadership, not a reason to produce ambitious treatment plans that will not be implemented. An honest treatment assessment that says "we can address three of these six critical risks with current capacity; addressing the remaining three requires X" is more useful than a plan that nominally addresses all six and is implemented for none of them.
+
+## Related
+
+- [Risk assessment](risk-assessment.md)
+- [The risk register](risk-register.md)
+- [PSL applied to security work](../foundations/problem-solving/in-security.md)
+- [ISO 27001 risk assessment](../audits/iso27001/risk-tent.md)

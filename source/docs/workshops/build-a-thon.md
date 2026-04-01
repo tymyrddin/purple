@@ -47,3 +47,10 @@ End with each group presenting what they built in ten minutes or less: what it i
 The handover is critical. Anything built during the event needs a clear owner, a home in the relevant documentation or repository, and a brief note on what conditions would indicate that it needs updating. A build-a-thon that produces things that live only on the laptops of the people who built them has produced activity rather than capability.
 
 A retrospective using the rapid retrospective format closes the event. What got built? What did not get finished and why? What would make the next one better?
+
+## Related
+
+- [Rapid retrospectives](rapid-retrospectives.md)
+- [The prepared environment](../foundations/montessori/prepared-environment.md)
+- [Knowledge transfer: playbooks](../knowledge-transfer/playbooks.md)
+- [Patch sprint](patch-sprint.md)

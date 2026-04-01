@@ -1,8 +1,11 @@
 # Forward-looking processes
 
-Retrospectives look at what happened. Forward-looking processes ask what is likely to happen, what conditions are building toward a problem, and what would need to be true for things to go well.
+Retrospectives look at what happened. Forward-looking processes ask what is likely to happen, what conditions are 
+building toward a problem, and what would need to be true for things to go well.
 
-The distinction matters in security because most threats do not arrive without warning. They develop through a sequence of conditions, decisions, and small failures that were visible in advance but not attended to. A forward-looking process is a structured way of attending to them before they become incidents.
+The distinction matters in security because most threats do not arrive without warning. They develop through a 
+sequence of conditions, decisions, and small failures that were visible in advance but not attended to. A 
+forward-looking process is a structured way of attending to them before they become incidents.
 
 ## What forward-looking is not
 
@@ -24,18 +27,35 @@ What signals are we currently not collecting that would tell us things were goin
 
 ## Weinberg's contribution
 
-Weinberg's problem-solving work suggests that the most valuable part of a forward-looking process is not the predictions it produces but the mental models it surfaces. When a group works through what they expect to happen over the next year, they are revealing the assumptions they are currently operating on. Those assumptions can then be examined: are they still accurate? Are there conditions under which they would fail? What would early evidence of that failure look like?
+Weinberg's problem-solving work suggests that the most valuable part of a forward-looking process is not the 
+predictions it produces but the mental models it surfaces. When a group works through what they expect to happen 
+over the next year, they are revealing the assumptions they are currently operating on. Those assumptions can 
+then be examined: are they still accurate? Are there conditions under which they would fail? What would early 
+evidence of that failure look like?
 
-This is SEM applied to planning: the forward-looking exercise is a tool for making models visible so they can be tested rather than just acted on.
+This is SEM applied to planning: the forward-looking exercise is a tool for making models visible so they can be 
+tested rather than just acted on.
 
 ## Running a forward-looking session
 
 A useful structure for a security team:
 
-Set the time horizon explicitly. Eighteen months is usually far enough to be genuinely forward-looking without becoming speculative. Twelve months works if the organisation is in a fast-changing environment.
+Set the time horizon explicitly. Eighteen months is usually far enough to be genuinely forward-looking without 
+becoming speculative. Twelve months works if the organisation is in a fast-changing environment.
 
 Work in small groups on each of the core questions, then bring groups together to share. Different parts of the team will have different visibility into what is changing and what the organisation is not ready for.
 
 Capture not only the findings but the reasoning behind them. The assumptions that led to a particular expectation are often more valuable than the expectation itself, because they can be monitored and updated as reality develops.
 
 End with explicit identification of the two or three things that, if they change in the next period, should trigger a re-run of the process. This makes the forward-looking work a continuous practice rather than a one-time event.
+
+## Other forward looking
+
+A looking forward/scenario planning choreography can also be used to look years into the future. Not doing that here.
+
+## Related
+
+- [Backward planning with obstacle avoidance](backward-planning.md)
+- [Scenario planning](scenario-planning.md)
+- [Threat modelling as a workshop process](threat-modelling.md)
+- [Systems, models, and errors](../foundations/system-effectiveness/core-triad.md)

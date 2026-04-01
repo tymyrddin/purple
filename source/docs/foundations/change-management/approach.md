@@ -39,3 +39,10 @@ A ChangeShop lens on this: the users find MFA more disruptive than helpful in th
 An alternative approach: pilot with one team that has a relatively simple environment. Gather friction data from the experience, not from a survey. Adjust the rollout approach based on what actually blocked adoption rather than what the implementation plan assumed would block it. Secure leadership commitment to the exceptions policy before announcing the mandate, so exemptions do not undermine the change in progress.
 
 Slower at the start. Much faster at the end. And the result is adoption rather than the appearance of adoption.
+
+## Related
+
+- [The Satir Change Model](../organisational-development/satir-change-model.md)
+- [Why security change stalls](why-change-fails.md)
+- [PSL applied to security work](../problem-solving/in-security.md)
+- [Organisational development in security](../organisational-development/in-security.md)

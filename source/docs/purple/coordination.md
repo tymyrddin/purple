@@ -41,3 +41,10 @@ When to use: Mature organisations with dedicated resources, automated testing fr
 Advantages: Fastest improvement cycle. Detection gaps identified and closed rapidly. High confidence in defensive effectiveness.
 
 Disadvantages: Requires significant resources and tooling. Can create alert fatigue if not managed carefully.
+
+## Related
+
+- [Building your purple team](team.md)
+- [Measurements and early success](measurements.md)
+- [Purple team coordination models](../making-of/purple-team/coordination.md)
+- [SOC detection and response](../making-of/soc/detection.md)

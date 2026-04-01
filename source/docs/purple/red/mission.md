@@ -32,3 +32,10 @@ maintain operational security and avoid disruption while still testing defences 
 It is also not about surprise attacks: Effective red teaming requires coordination with defenders or at least clear 
 rules of engagement. Completely surprising your own organisation rarely produces useful learning.
 
+## Related
+
+- [Offensive mindset and methodology](mindset.md)
+- [Ethical boundaries and rules of engagement](ethics.md)
+- [What purple teaming actually is](../mission.md)
+- [Adversary persona workshop](../../threat-modelling/adversary-persona-workshop.md)
+

@@ -2,11 +2,17 @@
 
 Clearly defined roles reduce confusion during incidents and ensure that critical actions have owners. The temptation to leave roles ambiguous in order to preserve flexibility is a temptation worth resisting: flexibility during an incident is not the same as ambiguity, and the cost of ambiguity, at the moment when it matters, is very high.
 
-## The [PSL](../../foundations/problem-solving/index.rst) view of role definition
+## The problem solving view of role definition
 
-Assigning roles involves three layers. The rational layer is the straightforward one: who does what, in what sequence, with what authority. The emotional layer is less often addressed: does the person in this role understand why it matters, and do they feel equipped to do it under pressure? A role that looks correct on paper but belongs to someone who has never exercised it is a gap waiting to be discovered at the worst moment. The political layer is the one most often avoided: who has the standing to declare an incident, to escalate it to leadership, and to require that other parts of the organisation cooperate?
+[Assigning roles involves three layers](../../foundations/problem-solving/index.rst). The rational layer is the straightforward one: who does what, in what sequence, 
+with what authority. The emotional layer is less often addressed: does the person in this role understand why it 
+matters, and do they feel equipped to do it under pressure? A role that looks correct on paper but belongs to someone 
+who has never exercised it is a gap waiting to be discovered at the worst moment. The political layer is the one 
+most often avoided: who has the standing to declare an incident, to escalate it to leadership, and to require that 
+other parts of the organisation cooperate?
 
-Skipping the emotional and political layers produces a role chart that describes what should happen without creating the conditions for it to happen.
+Skipping the emotional and political layers produces a role chart that describes what should happen without creating 
+the conditions for it to happen.
 
 ## Essential roles
 
@@ -27,3 +33,10 @@ These are examples, not a template. A very small organisation may combine severa
 The statement that someone is "available" for SIRT work during an incident is not the same as role clarity. Availability and clarity are both necessary.
 
 Test the roles before you need them. A [tabletop](../../purple/incident-response/choreography.md) exercise that runs the team through a plausible incident scenario will reveal gaps in role clarity, authority, and process that no amount of documentation review will surface.
+
+## Related
+
+- [Why a SIRT exists](purpose.md)
+- [SIRT structure](structure.md)
+- [PSL applied to security work](../../foundations/problem-solving/in-security.md)
+- [Incident response choreography](../../purple/incident-response/choreography.md)

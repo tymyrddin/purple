@@ -36,3 +36,10 @@ Problem: Using techniques real adversaries wouldn't (massive network scans, obvi
 
 Better: Match tradecraft to threat model. APT groups operate differently than ransomware gangs. Emulate the threats your organisation actually faces.
 
+## Related
+
+- [Common anti-patterns and pitfalls](../antipatterns.md)
+- [Ethical boundaries and rules of engagement](ethics.md)
+- [Coordinating with purple team](coordination.md)
+- [Why simulations fail](../../social-engineering/why-simulations-fail.md)
+

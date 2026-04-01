@@ -41,3 +41,11 @@ When pushback comes on a finding, it is not noise to be managed. It is data abou
 Most organisations do not have a security problem in the narrow technical sense. They have a problem-solving problem. The vulnerabilities that remain open the longest are not open because nobody could write the fix. They are open because the conditions required to act on them do not exist.
 
 PSL is useful in security precisely because it refuses to treat that observation as someone else's problem.
+
+## Related
+
+- [The three domains of problem solving](three-domains.md)
+- [Practical problem solving behaviours for security leaders](psl-approach.md)
+- [Applying SEM to security](../system-effectiveness/applying-sem.md)
+- [Building a purple team](../../making-of/purple-team/team.md)
+- [Building a SIRT](../../making-of/sirt/purpose.md)

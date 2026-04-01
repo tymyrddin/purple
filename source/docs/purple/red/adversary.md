@@ -36,3 +36,10 @@ Approach: Constrained scope focusing on particular systems, controls, or detecti
 
 Value: Provides detailed feedback on specific security investments. Validates vendor claims and configuration effectiveness.
 
+## Related
+
+- [Offensive mindset and methodology](mindset.md)
+- [Adversary persona workshop](../../threat-modelling/adversary-persona-workshop.md)
+- [Attack path mapping](../../threat-modelling/attack-path-mapping.md)
+- [Crafting scenarios](../../threat-modelling/crafting-scenarios.md)
+

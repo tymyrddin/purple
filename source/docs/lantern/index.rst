@@ -24,9 +24,6 @@ We do not run your systems. We do not sell tools.
    red-lanterns/index
    dilemma/index
 
-Disclaimer
-----------
-
 These engagements are designed to be simulations on paper, yet close enough to reality to make participants uneasy
 for all the right reasons.
 

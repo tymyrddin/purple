@@ -51,3 +51,10 @@ more precise diagnosis: the model is wrong, and the system is providing evidence
 Fixing the symptom without correcting the model is the characteristic failure mode. Permissions get tightened after a 
 lateral movement incident, the model that produced the overpermissioning is unchanged, and six months later a different 
 role has the same profile for the same underlying reasons.
+
+## Related
+
+- [Applying SEM to security](applying-sem.md)
+- [SEM for defence and red teaming](for-defence.md)
+- [Integrating PSL, ChangeShop, SEM, and Satir OD](../organisational-development/composite-model.md)
+- [Architecture as model](../../systems-architecture/architecture-as-model.md)

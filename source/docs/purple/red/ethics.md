@@ -35,3 +35,10 @@ Regular check-ins: Red team periodically confirms with exercise manager that ope
 Observer role: Sometimes a third party monitors operations to ensure compliance with rules of engagement.
 
 Post-exercise disclosure: Reveal all activities to defenders even if some actions weren't detected. Full transparency enables complete learning.
+
+## Related
+
+- [The red team mission](mission.md)
+- [Coordinating with purple team](coordination.md)
+- [Documentation and evidence collection](docs.md)
+- [PSL applied to security work](../../foundations/problem-solving/in-security.md)

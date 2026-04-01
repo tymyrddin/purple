@@ -63,3 +63,10 @@ Imposter syndrome: Feeling incompetent in unfamiliar role. Mitigation: Set reali
 Resistance to return: Enjoying new role more than primary role. Mitigation: Frame rotation as development opportunity, not permanent change. Some role changes may be appropriate if mutually beneficial.
 
 Lost productivity: Training period reduces output. Mitigation: Accept productivity dip as investment. Long-term benefits outweigh short-term costs.
+
+## Related
+
+- [Defensive skills for attackers](defensive-skills.md)
+- [Learning culture](culture.md)
+- [Purple team coordination](../../making-of/purple-team/coordination.md)
+- [SOC maturity](../../making-of/soc/maturity.md)

@@ -1,8 +1,8 @@
 # Scenario planning and looking forward
 
-*Explore plausible futures, stress-test strategies, and spot trouble before you drive into it: always face-to-face, collaboratively, and with what most digital frameworks ignore.*
-
 ![A large wooden table in a modern sunlit co-working space, covered with hand-drawn maps, vibrant flip charts with coloured sticky notes, and team members in engaged discussion. Large windows flood the room with light.](/_static/images/scenario-planning-and-foresight.png)
+
+*Explore plausible futures, stress-test strategies, and spot trouble before you drive into it: always face-to-face, collaboratively, and with what most digital frameworks ignore.*
 
 Scenario planning helps teams look around the corner of tomorrow while accounting for human limits, blind spots, and the state of the world. It combines structured foresight with attention to obliviousness and congruence: surfacing assumptions, misalignments, and gaps between what the team expects and what is actually true.
 
@@ -30,4 +30,7 @@ The scenario planning process is most valuable not in the scenarios it produces 
 
 ## Related
 
-[Simulations in practice](simulations.md) describes how simulation environments extend scenario planning into a safe consequence space, including the Patrician's Crisis and Smart Grid simulators.
+- [Simulations in practice](simulations.md) describes how simulation environments extend scenario planning into a safe consequence space, including the Patrician's Crisis and Smart Grid simulators.
+- [Threat modelling as a workshop process](threat-modelling.md)
+- [Forward-looking security planning](forward-looking.md)
+- [Crafting scenarios](../threat-modelling/crafting-scenarios.md)

@@ -49,3 +49,10 @@ Decide on the risk appetite line: which levels require action and which will be 
 A group that rates everything as high risk is avoiding the discomfort of prioritisation. A group that rates everything as low risk is managing the discomfort of acknowledging serious exposure. Neither produces a useful output.
 
 The rating conversation is also a test of whether the group's models of likelihood are calibrated against reality. Likelihood ratings that consistently diverge from what is actually observed in the threat landscape and in comparable organisations are model failures. The facilitator should bring external reference points into the conversation: what is the actual frequency of this class of attack in your sector?
+
+## Related
+
+- [Asset identification](asset-identification.md)
+- [Vulnerability identification](vuln-identification.md)
+- [Treatment options](treatment-options.md)
+- [Risk register](risk-register.md)

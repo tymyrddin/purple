@@ -33,3 +33,10 @@ It also means that following an unexpected thread is supported rather than redir
 Self-direction applies to teams as well as individuals. A team that can identify its own gaps, design exercises to address them, and adjust its learning approach based on what is actually working is a more capable and more resilient team than one that waits for training to be scheduled.
 
 Building this capacity requires trusting the team with genuine information about what the security programme is and is not achieving, and creating the conditions where proposing an experiment or a different approach is safe rather than presumptuous.
+
+## Related
+
+- [The prepared environment](prepared-environment.md)
+- [Facilitation over instruction](facilitation.md)
+- [Reflection and feedback loops](reflection.md)
+- [SIRT learning and development](../../making-of/sirt/learning.md)

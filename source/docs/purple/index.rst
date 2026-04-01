@@ -29,6 +29,7 @@ coordination modes, and how to assess readiness, is covered in the `making-of se
    mission.md
    coordination.md
    readiness.md
+   conditions.md
    team.md
    measurements.md
    antipatterns.md

@@ -44,3 +44,11 @@ You cannot implement change from the outside. You can only alter the conditions 
 This is not a counsel of patience. It is a practical observation about leverage. Pushing harder against a homeostatic 
 system usually makes it resist harder. Finding the conditions that allow the system to change its own state is a 
 different kind of work, and it is what ChangeShop teaches.
+
+## Related
+
+- [The Satir Change Model](../organisational-development/satir-change-model.md)
+- [Why security change stalls](why-change-fails.md)
+- [A ChangeShop-informed approach](approach.md)
+- [Building a purple team](../../making-of/purple-team/team.md)
+- [Building a SIRT](../../making-of/sirt/purpose.md)

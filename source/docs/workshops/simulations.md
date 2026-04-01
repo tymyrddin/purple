@@ -39,3 +39,10 @@ The following environments support different kinds of sessions. Each is most use
 The value of a simulation accumulates in the debrief. A simulation run without a debrief leaves the learning in the room. The questions that matter are not "did we win" but what was the group surprised by, what assumptions turned out to be wrong, what decision would the group make differently, and what does the simulation suggest about the actual system.
 
 The retrospective format from [retrospectives](retrospectives.md) applies directly. The simulation gives the energy timeline its material. The debrief makes that material useful.
+
+## Related
+
+- [Scenario planning and looking forward](scenario-planning.md)
+- [Temperature reading retrospectives](retrospectives.md)
+- [The prepared environment](../foundations/montessori/prepared-environment.md)
+- [Roleplay in organisational development](../foundations/organisational-development/roleplay.md)

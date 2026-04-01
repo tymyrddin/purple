@@ -34,3 +34,10 @@ This is the core Montessori insight and it applies directly to the Satir and Cha
 A security team that works in an environment where raising a concern is more effortful than ignoring it will ignore concerns. A learner who works in an environment where going deep on an interesting problem requires navigating bureaucratic approval will not go deep. The environment is not a backdrop. It is a determinant of what happens.
 
 Preparing the environment is not a one-time task. As the threat landscape changes, as the team's capability develops, and as frictions are discovered in practice, the environment needs to be adjusted. The role of the facilitator is partly to observe what the environment is producing and to change it when it is producing the wrong things.
+
+## Related
+
+- [Facilitation over instruction](facilitation.md)
+- [Hands-on materials and exercises](hands-on.md)
+- [Self-directed learning](self-directed.md)
+- [Applying SEM to security](../system-effectiveness/applying-sem.md)

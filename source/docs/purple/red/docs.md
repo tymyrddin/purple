@@ -29,3 +29,10 @@ Evidence package: Collect all artefacts, logs, screenshots, and malware samples 
 Executive summary: High-level findings for leadership. Focus on business impact and risk, not technical minutiae.
 
 Technical report: Detailed walkthrough for blue team and security practitioners. Include detection opportunities, defensive gaps, remediation recommendations.
+
+## Related
+
+- [Coordinating with purple team](coordination.md)
+- [Knowledge transfer: playbooks](../../knowledge-transfer/playbooks.md)
+- [Knowledge transfer: manuals](../../knowledge-transfer/manuals.md)
+- [Incident response choreography](../incident-response/choreography.md)

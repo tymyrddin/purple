@@ -19,3 +19,10 @@ understand adversary behaviour, and spot vulnerabilities early.
 ## Outcome
 Teams develop an intuitive sense of how scenarios play out,
 highlighting weak points and opportunities for improvement.
+
+## Related
+
+- [Live experiments](live-experiments.md)
+- [Crafting scenarios](../threat-modelling/crafting-scenarios.md)
+- [Gamified scenarios](../foundations/montessori/gamified-scenarios.md)
+- [Simulations in practice](../workshops/simulations.md)

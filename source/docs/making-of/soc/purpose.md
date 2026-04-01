@@ -14,8 +14,23 @@ Process: what happens when an alert fires? Who makes the triage decision, on wha
 
 Feedback: detection rules are hypotheses about what threats look like. They should be tested against reality and updated. The results of SIRT investigations should feed back into the SOC's detection model. Purple team exercises should test what the SOC actually detects. Without these feedback loops, the detection model becomes a historical document rather than a current one.
 
-## The [ChangeShop](../../foundations/change-management/index.rst) layer
+## The ChangeShop layer
 
-Building a SOC changes how the organisation processes information about its own security state. That is a significant change, and significant changes meet the resistance characteristic of [homeostatic](../../foundations/change-management/what-it-is.md) systems. The resistance is likely to appear as resource constraints, as scope disputes about what the SOC should monitor, and as reluctance to act on findings that implicate existing systems or processes.
+Building a SOC changes how the organisation processes information about its own security state. 
+That is a significant change, and significant changes meet the resistance characteristic of 
+[homeostatic](../../foundations/change-management/what-it-is.md) systems. The resistance is likely to appear as 
+resource constraints, as scope disputes about what the SOC should monitor, and as reluctance to act on findings that 
+implicate existing systems or processes.
 
-Understanding this resistance as information is useful. Scope disputes often reveal that some part of the organisation does not want to be visible in the way a SOC makes things visible. Resource constraints may reflect a genuine question about whether the investment is justified, or they may reflect the displacement of a cost that was previously invisible. Working through these questions before the SOC is operational is considerably easier than working through them during an incident when the SOC has just identified something uncomfortable.
+Understanding this resistance as information is useful. Scope disputes often reveal that some part of the organisation 
+does not want to be visible in the way a SOC makes things visible. Resource constraints may reflect a genuine question 
+about whether the investment is justified, or they may reflect the displacement of a cost that was previously invisible. 
+Working through these questions before the SOC is operational is considerably easier than working through them during 
+an incident when the SOC has just identified something uncomfortable.
+
+## Related
+
+- [SOC maturity](maturity.md)
+- [Detection and response](detection.md)
+- [Why a SIRT exists](../sirt/purpose.md)
+- [What ChangeShop is](../../foundations/change-management/what-it-is.md)

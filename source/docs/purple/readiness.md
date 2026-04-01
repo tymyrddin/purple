@@ -37,3 +37,34 @@ Curiosity about effectiveness: Genuine interest in "do our defences actually wor
 Ability to act on findings: Can allocate time and resources to implement improvements discovered through purple teaming.
 
 Psychological safety: Teams can discuss failures and gaps without blame. Learning mindset over perfection mindset.
+
+## Organisational readiness
+
+Technical readiness is the easier half. The harder half is whether the organisation is structured to do anything
+useful with what purple teaming reveals.
+
+The political layer is frequently missing. Someone needs the authority to require that findings are acted on, not
+just acknowledged. In organisations where security sits below the line at which resource allocation decisions are
+made, findings from purple team exercises become a list that everyone agrees is important and no one has time to
+address. The exercise runs, the report lands, and six months later the same gaps are rediscovered. This is not a
+purple teaming problem. It is a political layer problem that purple teaming cannot solve by itself.
+
+The communication conditions matter too. Satir's work on communication patterns under stress is directly
+applicable here: teams under pressure default to placating (telling the exercise facilitator what they want to
+hear), computing (responding to every finding with a process or policy rather than a capability change), or
+blaming (identifying the individual who missed the alert rather than the system that made missing it likely).
+None of these produce learning. A purple team exercise in an organisation where these patterns are well established
+will surface them rather than solve them, which is useful information but requires a different intervention than
+more exercises.
+
+The practical question, before investing in purple teaming, is whether there is a realistic path from finding to
+fix. Not a theoretical one. Who, specifically, can require that a finding from next month's exercise results in a
+changed control or a reallocated budget? If the answer is unclear, that is the first problem to address.
+
+## Related
+
+- [What purple teaming actually is](mission.md)
+- [Quick wins: the first exercises](quick-wins.md)
+- [Readiness for purple teaming](../making-of/purple-team/readiness.md)
+- [Why security change stalls](../foundations/change-management/why-change-fails.md)
+- [Organisational conditions for change](conditions.md)

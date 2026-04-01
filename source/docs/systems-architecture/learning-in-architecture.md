@@ -27,3 +27,10 @@ The most durable architectural learning happens between the architect and the pe
 Creating the conditions for this learning to happen is partly a facilitation task. PSL's observation that the effective leader of a complex group creates the conditions for others to contribute their best work applies directly. The architect who treats design reviews as presentations rather than conversations, or who treats implementation feedback as a quality control problem rather than a model-correction opportunity, forecloses this learning.
 
 The Montessori principle of facilitation over instruction is relevant: the architect's job in a learning context is to ask the questions that help others articulate what they know, not to explain what the architect already knows. The people closest to the system often understand it more accurately than the architecture describes it. That understanding is a resource, not a threat to the architect's authority.
+
+## Related
+
+- [Architecture as model](architecture-as-model.md)
+- [Facilitation over instruction](../foundations/montessori/facilitation.md)
+- [Reflection and feedback loops](../foundations/montessori/reflection.md)
+- [Applying SEM to security](../foundations/system-effectiveness/applying-sem.md)

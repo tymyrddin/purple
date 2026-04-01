@@ -27,3 +27,10 @@ TTP sharing: Red team provides detailed technical information so blue team can b
 Detection opportunities: Identify specific points where blue team could have detected activity but didn't. These become priority improvements.
 
 Realistic feedback: Red team provides honest assessment of defensive effectiveness. Where were defences strong? Where were blind spots obvious?
+
+## Related
+
+- [Documentation and evidence collection](docs.md)
+- [Working with purple team for improvement](../blue/purple.md)
+- [Purple team coordination models](../../making-of/purple-team/coordination.md)
+- [Knowledge transfer: playbooks](../../knowledge-transfer/playbooks.md)

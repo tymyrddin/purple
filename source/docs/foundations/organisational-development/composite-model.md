@@ -69,3 +69,10 @@ likely in the first place.
 
 None of these is easy to capture. All of them are more predictive of actual security posture than the metrics that 
 appear in most dashboards.
+
+## Related
+
+- [Core ideas of Satir systems OD](satir-core.md)
+- [PSL in security work](../problem-solving/in-security.md)
+- [Applying SEM to security](../system-effectiveness/applying-sem.md)
+- [What ChangeShop is](../change-management/what-it-is.md)

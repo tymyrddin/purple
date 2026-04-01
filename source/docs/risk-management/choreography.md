@@ -24,3 +24,10 @@ The exercises are designed to be concrete and practical. Abstract risk discussio
 
 - [ISO 27001 risk assessment](../audits/iso27001/risk-tent.md) shows how the exercise outputs map to the structured requirements of information security management.
 - [NIS2 compliance](../audits/nis2/river.md) shows how critical asset analysis connects to the proportionate measures required for essential and important entities.
+
+## Related
+
+- [Risk management workshop](../workshops/risk-management.md)
+- [Introduction to threat modelling exercises](../threat-modelling/choreography.md)
+- [What ChangeShop is](../foundations/change-management/what-it-is.md)
+- [From exercises to operations](to-operations.md)

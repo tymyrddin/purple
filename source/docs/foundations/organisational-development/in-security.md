@@ -54,3 +54,11 @@ rather than invisible remediation, and leadership behaviour that models the hone
 Satir's contribution here is the observation that this is not primarily a policy design problem. It is a 
 relationship and trust problem. The conditions for honest reporting are built through the accumulated experience of 
 what happens when people are honest, and they are destroyed faster than they are built.
+
+## Related
+
+- [Core ideas of Satir systems OD](satir-core.md)
+- [The Satir Change Model](satir-change-model.md)
+- [Why simulations fail](../../social-engineering/why-simulations-fail.md)
+- [Building a phishing programme that actually works](../../social-engineering/phishing-programme.md)
+- [Building a SIRT](../../making-of/sirt/purpose.md)

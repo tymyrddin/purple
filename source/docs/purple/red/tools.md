@@ -35,3 +35,10 @@ Red teamers use a mix of custom tools, open-source frameworks, and legitimate ad
 - EDR evasion: Direct syscalls, PPID spoofing, unhooking techniques
 - Network evasion: Domain fronting, protocol tunneling, DNS exfiltration
 - Log evasion: Event log clearing, ETW tampering, SIEM blind spots
+
+## Related
+
+- [Offensive mindset and methodology](mindset.md)
+- [Blue team tools and capabilities](../blue/tools.md)
+- [SOC detection and response](../../making-of/soc/detection.md)
+- [CTFs as learning environments](../../foundations/montessori/ctf-value.md)

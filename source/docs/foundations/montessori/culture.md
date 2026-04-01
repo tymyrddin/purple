@@ -67,3 +67,10 @@ Knowledge sharing: How frequently does team share knowledge internally and exter
 Retention: Are people staying because they're learning and growing?
 
 Innovation: Are new ideas and approaches emerging from cross-trained staff?
+
+## Related
+
+- [Rotation programmes](rotation.md)
+- [Self-directed learning](self-directed.md)
+- [SIRT learning and development](../../making-of/sirt/learning.md)
+- [Building a purple team](../../making-of/purple-team/team.md)

@@ -2,10 +2,10 @@
 
 Turn exercise insights into living team practices.
 
-## Why collaborative playbooks matter
-Exercises only matter if their lessons are applied.
-Playbooks capture what works, what fails, and how to respond,
-giving teams ready-to-use guidance for real operations.
+## On collaborative playbooks
+
+- Exercises only matter if their lessons are applied.
+- Playbooks capture what works, what fails, and how to respond, giving teams ready-to-use guidance for real operations.
 
 ## Exercise instructions
 1. Review observations and lessons from scenario labs, live experiments, and retrospectives.  
@@ -17,5 +17,12 @@ giving teams ready-to-use guidance for real operations.
 4. Share and review regularly as situations evolve.
 
 ## Outcome
-Teams leave with actionable playbooks that reflect real learning,
-making risk management part of everyday operations.
+
+Teams leave with actionable playbooks that reflect real learning, making risk management part of everyday operations.
+
+## Related
+
+- [Knowledge transfer: playbooks](../knowledge-transfer/playbooks.md)
+- [Knowledge transfer: workflows](../knowledge-transfer/workflows.md)
+- [Incident response choreography](incident-response/choreography.md)
+- [Reflection and feedback loops](../foundations/montessori/reflection.md)

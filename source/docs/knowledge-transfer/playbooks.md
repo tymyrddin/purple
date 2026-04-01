@@ -110,4 +110,8 @@ exercises and updated with each iteration](../purple/incident-response/choreogra
 ## Related
 
 - [Incident response runbooks](https://blue.tymyrddin.dev/docs/ngo/data/)
+- [Workflows](workflows.md)
+- [Manuals that actually work](manuals.md)
+- [Incident response choreography](../purple/incident-response/choreography.md)
+- [SOC detection](../making-of/soc/detection.md)
 

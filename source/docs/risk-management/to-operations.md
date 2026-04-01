@@ -39,3 +39,10 @@ Annually: refresh the full risk assessment, validate that the likelihood and imp
 As needed: when any of the triggers documented in the risk model fire.
 
 The resources for going deeper into quantitative risk modelling and framework alignment are ISO 31000 (risk management principles), ISO 27005 (information security risk management), NIST SP 800-30 (risk assessment guidance), and FAIR (Factor Analysis of Information Risk) for organisations that need to quantify risk in financial terms.
+
+## Related
+
+- [The risk register](risk-register.md)
+- [Building your risk model](risk-model.md)
+- [What ChangeShop is](../foundations/change-management/what-it-is.md)
+- [SOC maturity](../making-of/soc/maturity.md)

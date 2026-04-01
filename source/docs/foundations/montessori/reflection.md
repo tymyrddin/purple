@@ -34,4 +34,12 @@ This connection requires the facilitator to bring knowledge of the real environm
 
 Reflection generates feedback not only for individual learners but for the learning programme itself. Patterns in what participants are consistently getting wrong, consistently finding too easy, or consistently finding difficult to transfer to their actual work are signals that the exercises need to change.
 
-This closes the loop between the prepared environment and the learning that happens in it. The environment is designed, the learning happens, the reflection surfaces what the design produced, and the environment is adjusted. The programme improves not through a periodic curriculum review but through continuous observation and adjustment -- which is the Montessori method applied to the programme as a whole rather than to individual learners.
+This closes the loop between the prepared environment and the learning that happens in it. The environment is designed, the learning happens, the reflection surfaces what the design produced, and the environment is adjusted. The programme improves not through a periodic curriculum review but through continuous observation and adjustment, which is the Montessori method applied to the programme as a whole rather than to individual learners.
+
+## Related
+
+- [Facilitation over instruction](facilitation.md)
+- [The prepared environment](prepared-environment.md)
+- [Retrospectives](../../workshops/retrospectives.md)
+- [Rapid retrospectives](../../purple/scenario-labs.md)
+- [SIRT learning and development](../../making-of/sirt/learning.md)

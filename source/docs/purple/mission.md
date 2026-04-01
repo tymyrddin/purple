@@ -21,3 +21,10 @@ Shared language: Red and blue teams develop common understanding of TTPs, defens
 Prioritised improvements: Instead of endless security backlog, teams focus on gaps revealed through testing. Data-driven decisions about where to invest defensive resources.
 
 Cultural change: Purple teaming breaks down "offense vs. defense" mentality. Teams work toward shared goal: organisational resilience.
+
+## Related
+
+- [Building your purple team](team.md)
+- [When you're ready for purple teaming](readiness.md)
+- [Common anti-patterns and pitfalls](antipatterns.md)
+- [Building a purple team](../making-of/purple-team/team.md)

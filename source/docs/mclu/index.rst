@@ -16,9 +16,6 @@ Founded: 1992 (or possibly 1382). The Ankh-Morpork calendar is confusing, and ho
 
    shadow/index
 
-Disclaimer
-----------
-
 These happenings are designed to be simulations on paper, yet close enough to reality to make participants uneasy
 for all the right reasons.
 

@@ -29,3 +29,11 @@ The structure as designed will not match the structure as operated after signifi
 The [SEM](../../foundations/system-effectiveness/index.rst) principle applies: errors are model failures. When the SIRT does not function as expected during an incident, the gap between the model and reality is information about what has drifted. Post-incident review is the primary mechanism for capturing this information and using it to update the model. An organisation that reviews incidents primarily to assign responsibility, rather than to understand the gap, loses this information.
 
 Version the SIRT documentation and review it at least annually, or after any significant organisational change or significant incident. A SIRT structure that has not been reviewed in two years is probably wrong in ways no one has noticed yet.
+
+## Related
+
+- [Why a SIRT exists](purpose.md)
+- [SIRT roles](roles.md)
+- [The learning loop](learning.md)
+- [Knowledge transfer: playbooks](../../knowledge-transfer/playbooks.md)
+- [SOC workflows](../soc/workflows.md)

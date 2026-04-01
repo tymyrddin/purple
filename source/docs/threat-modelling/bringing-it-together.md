@@ -29,3 +29,10 @@ Build in explicit triggers for revisiting it: when a significant new system or i
 ## Whether the findings will produce change
 
 Before closing, address this directly: who in the room has the authority and the capacity to act on each priority finding? If the answer for a critical finding is "nobody present," then either the right person needs to be brought into the conversation or the finding needs to be escalated. A threat model whose highest-priority findings have no owner is a document, not a programme.
+
+## Related
+
+- [Building the model](building-model.md)
+- [Crafting scenarios](crafting-scenarios.md)
+- [What ChangeShop is](../foundations/change-management/what-it-is.md)
+- [Purple team engagement objectives](../purple/engagement/objectives.md)

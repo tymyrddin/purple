@@ -33,4 +33,11 @@ We follow a structured flow:
 
 * Security and IT teams tired of re-learning the same lessons.  
 * Organisations with rotating staff or shared responsibilities.  
-* Leadership looking for assurance that knowledge survives turnover.  
+* Leadership looking for assurance that knowledge survives turnover.
+
+## Related
+
+- [Playbooks](playbooks.md)
+- [Workflows](workflows.md)
+- [SIRT structure](../making-of/sirt/structure.md)
+- [SOC workflows](../making-of/soc/workflows.md)  

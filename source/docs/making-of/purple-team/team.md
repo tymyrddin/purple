@@ -33,3 +33,11 @@ Red team responsibilities: plan and execute attack simulations, document all act
 Blue team responsibilities: monitor for and respond to simulated attacks, document what was detected and how quickly, investigate alerts and suspicious activity, execute incident response procedures, identify detection gaps and defensive weaknesses. The discipline to document during the exercise is harder than it sounds and worth practising separately.
 
 Purple team facilitator responsibilities: coordinate exercise planning and scheduling, ensure both teams understand objectives, facilitate communication during exercises, lead debrief sessions, track findings and improvements, report progress to leadership. The facilitation role is the one most directly responsible for whether the emotional and political layers of the exercise are handled well.
+
+## Related
+
+- [Coordination models](coordination.md)
+- [Readiness for purple teaming](readiness.md)
+- [PSL applied to security work](../../foundations/problem-solving/in-security.md)
+- [Building a SIRT](../sirt/purpose.md)
+- [Purple team mission](../../purple/mission.md)

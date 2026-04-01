@@ -29,3 +29,10 @@ Assumed breach scenarios: Start with access and test detection, response, and re
 Purple team automation: Continuous adversary simulation with automated red team testing and blue team tuning.
 
 Purple team as a service: Mature organisations develop internal purple team capabilities that continuously challenge and improve security posture.
+
+## Related
+
+- [Building blue team capability](../blue/capability.md)
+- [Defensive skills for attackers](../../foundations/montessori/defensive-skills.md)
+- [Rotation programmes](../../foundations/montessori/rotation.md)
+- [Making of a purple team](../../making-of/purple-team/team.md)

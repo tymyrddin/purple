@@ -39,3 +39,10 @@ The sprint produces two outputs: the patches applied, and the map of what made p
 The second output is often more valuable than the first. A record of every blocker encountered during the sprint is a diagnostic of the conditions that produce patch backlog. Some of those conditions can be changed: clearer ownership, better rollback tooling, a standing time allocation for security maintenance. Others reflect genuine trade-offs that require a decision by someone with the authority to make it.
 
 Document the blockers and bring them to whoever can act on them. A patch sprint that produces only applied patches and no systemic learning has addressed the symptom without touching the model that produced it.
+
+## Related
+
+- [Rapid retrospectives](rapid-retrospectives.md)
+- [Applying SEM to security](../foundations/system-effectiveness/applying-sem.md)
+- [Risk management workshop](risk-management.md)
+- [Build-a-thon](build-a-thon.md)

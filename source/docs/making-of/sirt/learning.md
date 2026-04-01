@@ -31,3 +31,11 @@ Metrics are useful to the extent that they reveal trends and prompt questions ra
 Watch the trends rather than the individual numbers. A single slow incident may reflect unusual complexity. Consistently slow detection-to-decision times suggest a bottleneck in the process or the tooling that is worth investigating.
 
 Metrics only change behaviour if someone looks at them and asks what the trend means. A dashboard no one consults is not measurement; it is performance of measurement.
+
+## Related
+
+- [Why a SIRT exists](purpose.md)
+- [SIRT structure](structure.md)
+- [Incident response choreography](../../purple/incident-response/choreography.md)
+- [Knowledge transfer: workflows](../../knowledge-transfer/workflows.md)
+- [Retrospectives](../../workshops/retrospectives.md)

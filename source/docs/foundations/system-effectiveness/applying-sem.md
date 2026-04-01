@@ -64,3 +64,10 @@ systems in ways that turn a single trust assumption into an organisation-wide ex
 A model that says "this service is internal only" may be accurate for the service itself and entirely wrong about its 
 exposure through an API gateway. The service is internal. The gateway is not. The model was correct about one layer 
 and silent about the others. In a cloud-native environment, that silence scales.
+
+## Related
+
+- [Systems, models, and errors](core-triad.md)
+- [SEM for defence and red teaming](for-defence.md)
+- [Architecture as model](../../systems-architecture/architecture-as-model.md)
+- [SOC maturity](../../making-of/soc/maturity.md)

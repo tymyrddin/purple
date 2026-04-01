@@ -31,3 +31,11 @@ Treat each update as a small, deliberate improvement rather than a rewrite. Rewr
 Automate the steps that do not require human judgement: log collection, initial enrichment, alert correlation across sources, notification routing. Do not automate decisions that require context the automation cannot have: whether a particular activity is suspicious in this specific organisational context, whether the situation warrants escalation, whether containment is appropriate given business constraints.
 
 The goal of automation is to reduce the cognitive load on analysts during routine handling so that more attention is available for the events that genuinely require it. Automation that replaces human oversight on decisions that matter is a different thing, and a risk in its own right.
+
+## Related
+
+- [Detection and response](detection.md)
+- [SIRT structure](../sirt/structure.md)
+- [The learning loop](../sirt/learning.md)
+- [Knowledge transfer: workflows](../../knowledge-transfer/workflows.md)
+- [Knowledge transfer: playbooks](../../knowledge-transfer/playbooks.md)

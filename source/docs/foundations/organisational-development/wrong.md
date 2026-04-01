@@ -111,3 +111,10 @@ Action items: Each person commits to one specific behaviour change based on work
 Resources: Share quick reference card with common red flags and correct responses.
 
 Feedback: What was most valuable? What should we do differently next time?
+
+## Related
+
+- [Facilitation](../montessori/facilitation.md)
+- [Gamified scenarios](../montessori/gamified-scenarios.md)
+- [Why simulations fail](../../social-engineering/why-simulations-fail.md)
+- [Simulations in practice](../../workshops/simulations.md)

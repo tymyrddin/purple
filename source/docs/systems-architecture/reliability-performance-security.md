@@ -76,3 +76,10 @@ secure system are not the same question.
 
 A system that passes its audit and fails in production has met the compliance requirement. The compliance requirement 
 was not the right question.
+
+## Related
+
+- [Architecture as model](architecture-as-model.md)
+- [SEM for defence and red teaming](../foundations/system-effectiveness/for-defence.md)
+- [Audits and resilience: beyond compliance](../audits/resilience/beyond-compliance.md)
+- [Resilience stress testing](../audits/resilience/stress-testing.md)

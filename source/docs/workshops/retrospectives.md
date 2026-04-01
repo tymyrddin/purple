@@ -33,3 +33,10 @@ Puzzles: things that are not yet understood. Naming a puzzle without needing to 
 New information: anything that emerged during the period that changes how the situation is understood.
 
 Hopes and visions for the next cycle: what the team wants to move toward, in concrete terms.
+
+## Related
+
+- [Rapid retrospectives](rapid-retrospectives.md)
+- [Simulations in practice](simulations.md)
+- [Core ideas of Satir systems OD](../foundations/organisational-development/satir-core.md)
+- [The learning loop](../making-of/sirt/learning.md)

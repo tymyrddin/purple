@@ -39,3 +39,10 @@ There is genuine curiosity: "do our defences actually work?" asked as a real que
 The organisation can act on findings: time and resource can be allocated to implement improvements the programme discovers. Findings that go nowhere degrade trust in the programme.
 
 Psychological safety: teams can discuss failures and gaps without blame. This is a Satir condition: the communication pattern in the debrief will reflect the communication pattern that exists in the organisation. If the organisation's pattern is primarily blaming or placating, the debrief will produce blame or false reassurance rather than learning.
+
+## Related
+
+- [Building the team](team.md)
+- [Core ideas of Satir systems OD](../../foundations/organisational-development/satir-core.md)
+- [What ChangeShop is](../../foundations/change-management/what-it-is.md)
+- [SIRT purpose](../sirt/purpose.md)

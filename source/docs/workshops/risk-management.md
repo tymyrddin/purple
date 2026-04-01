@@ -25,3 +25,10 @@ The risk management section of this documentation covers the full process: asset
 The workshop format is not optional here. Risk assessments that happen in isolation from the people who operate the assets they describe are assessments of a model of the organisation, not the organisation itself. The workshops surface the gap between the documented architecture and the lived reality, and that gap is usually where the most important risks are.
 
 The SEM connection is central: risk management is an ongoing process of testing and updating models. A risk register that is reviewed annually is a risk register that is wrong eleven months of the year. The goal of a well-designed risk management process is to make [model drift](../foundations/system-effectiveness/core-triad.md) visible and to shorten the cycle between when reality changes and when the assessment reflects that change.
+
+## Related
+
+- [Threat modelling as a workshop process](threat-modelling.md)
+- [Forward-looking security planning](forward-looking.md)
+- [Risk assessment](../risk-management/risk-assessment.md)
+- [Risk register](../risk-management/risk-register.md)

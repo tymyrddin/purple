@@ -27,3 +27,11 @@ Design problems: given a set of requirements and constraints, design a security 
 Exercises that do not change become exercises in following a known path rather than exercises in security thinking. The material needs to rotate as the threat landscape changes, as the team's capability develops, and as new techniques become relevant.
 
 This is not a large production effort if the library is designed for modularity. Updating a scenario to reflect a current threat intelligence report is a different exercise from rebuilding the whole curriculum. The rotation also signals to the team that the learning is connected to what is actually happening, which supports the intrinsic motivation that self-directed learning depends on.
+
+## Related
+
+- [The prepared environment](prepared-environment.md)
+- [CTFs as learning environments](ctf-value.md)
+- [Reflection and feedback loops](reflection.md)
+- [Scenario labs](../../purple/scenario-labs.md)
+- [Live experiments](../../purple/live-experiments.md)

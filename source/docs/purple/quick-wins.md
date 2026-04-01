@@ -41,3 +41,10 @@ Red team: Multi-stage attack from initial access through objectives (data exfilt
 Blue team: Full incident response including detection, containment, eradication, recovery.
 
 Learning: Does complete defensive program work end-to-end? What breaks under pressure?
+
+## Related
+
+- [When you're ready for purple teaming](readiness.md)
+- [Coordination models](coordination.md)
+- [Measurements and early success](measurements.md)
+- [Building a phishing programme that actually works](../social-engineering/phishing-programme.md)

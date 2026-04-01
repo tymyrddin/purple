@@ -97,3 +97,10 @@ Format: Teams respond to realistic incidents. Judged on speed, accuracy, communi
 Scoring: Time to containment, completeness of eradication, recovery success, quality of documentation.
 
 Learning: Response procedures under pressure, team coordination, decision-making skills.
+
+## Related
+
+- [CTFs as learning environments](ctf-value.md)
+- [Hands-on materials and exercises](hands-on.md)
+- [Simulations in practice](../../workshops/simulations.md)
+- [Scenario labs](../../purple/scenario-labs.md)

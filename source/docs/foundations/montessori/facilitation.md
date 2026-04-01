@@ -33,3 +33,11 @@ Do not intervene to provide the answer, to demonstrate your own knowledge, or to
 Facilitation in this sense is a skill that develops through practice and reflection. Most people who are good at security are not automatically good at this kind of facilitation, because the skills are different and the instincts point in opposite directions. The expert's instinct is to share what they know. The facilitator's instinct needs to be to create conditions where the learner can discover it.
 
 This is worth naming directly rather than assuming it will happen by default.
+
+## Related
+
+- [Reflection and feedback loops](reflection.md)
+- [The prepared environment](prepared-environment.md)
+- [Roleplay in organisational development](../organisational-development/roleplay.md)
+- [Incident response facilitator guidance](../../purple/incident-response/facilitator-guidance.md)
+- [Simulations in practice](../../workshops/simulations.md)

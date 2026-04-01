@@ -33,3 +33,10 @@ The Satir quality that produces honest and durable architectural practice is con
 Congruence is not the same as rigidity. A congruent architect can change their mind, revise their designs, and acknowledge when they were wrong, because those are honest responses to new information. What they do not do is present a position they do not hold, agree in the room and disengage afterwards, or retreat into technical formalism to avoid the harder conversation.
 
 Creating the conditions for congruent architectural practice is partly a matter of individual habit and partly a matter of organisational culture. In environments where architectural error is career-consequential, architects will learn to protect their positions rather than report them honestly. In environments where finding the model failure is valued more than appearing to have had the right model all along, the same architects will produce more accurate architectures faster.
+
+## Related
+
+- [The role of a systems architect](the-role.md)
+- [Core ideas of Satir systems OD](../foundations/organisational-development/satir-core.md)
+- [PSL applied to security work](../foundations/problem-solving/in-security.md)
+- [Learning in architecture](learning-in-architecture.md)

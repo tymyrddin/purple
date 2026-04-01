@@ -2,7 +2,7 @@
 
 An architecture document is a model. It represents the intended system: its components, their relationships, the constraints they operate within, and the assumptions that explain why the design takes the form it does. Like all models, it is a simplification, and like all simplifications, it is wrong in certain respects from the moment it is produced. The question is not whether an architecture is accurate but how quickly its inaccuracy becomes consequential.
 
-## The [SEM](../foundations/system-effectiveness/index.rst) framing
+## The SEM framing
 
 Weinberg's [SEM](../foundations/system-effectiveness/index.rst) triad places models at the centre of how people understand and act on complex systems. The model is the mental representation of how the system works. The system is the actual thing, which behaves according to its own properties regardless of what the model says about it. Errors, in this framing, are not mistakes. They are mismatches between model and system, and they persist until the model is corrected rather than the symptoms treated.
 
@@ -46,3 +46,10 @@ conditions change.
 This is not a diminished vision of the role. It is a more accurate one. The architect whose model is continuously 
 accurate is more valuable, and more trusted, than the architect whose comprehensive initial design becomes 
 progressively less connected to reality over the following years.
+
+## Related
+
+- [Change and homeostasis](change-and-homeostasis.md)
+- [The role of a systems architect](the-role.md)
+- [Systems, models, and errors](../foundations/system-effectiveness/core-triad.md)
+- [Building a threat model](../threat-modelling/building-model.md)

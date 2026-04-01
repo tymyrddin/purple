@@ -2,30 +2,69 @@
 
 ## Competitive rather than collaborative
 
-Problem: Red and blue teams view purple teaming as competition. Red team tries to "win" by evading detection. Blue team feels defensive about gaps discovered.
+Red and blue teams view purple teaming as competition. Red team tries to "win" by evading detection. Blue team
+feels defensive about gaps discovered.
 
-Better: Shared goal is organisational resilience. Red team succeeding means organisation learns about gaps before real adversaries exploit them. Celebrate discoveries, not victories.
+This is the default state of separated teams, not a character flaw. Teams that have operated independently have
+built identity around their respective expertise: the red team's identity is finding things, the blue team's
+identity is stopping things. Bringing them into the same room and asking them to collaborate does not dissolve
+that dynamic. It surfaces it. The antipattern persists because the organisational conditions that created it are
+still present.
+
+The direction of change is shared goals rather than shared exercises. Red team success means the organisation
+learns about gaps before real adversaries exploit them. That reframe has to be genuine and supported visibly by
+whoever commissioned the programme, not just stated in a kick-off meeting and then forgotten.
 
 ## No follow-through on findings
 
-Problem: Purple team exercises reveal gaps but nothing gets fixed. Same weaknesses discovered repeatedly because improvements never happen.
+Purple team exercises reveal gaps but nothing gets fixed. The same weaknesses are discovered at the next
+exercise, and the one after that, while the findings backlog grows quietly in a spreadsheet.
 
-Better: Treat findings like vulnerabilities. Assign owners, set timelines, track remediation. Next exercise validates that improvements actually worked.
+This is almost always a political layer problem rather than a motivation problem. The people who ran the exercise
+want to fix things. The people who would need to allocate time or budget to fix them have competing priorities
+and no particular reason to treat security findings as urgent until something goes wrong. The exercise produces
+information. It does not produce the authority to require that information is acted on.
+
+Treating findings like vulnerabilities (assigning owners, setting timelines, tracking remediation) is correct
+process. But process without authority produces well-documented stagnation. The question is who can require
+action, and whether that person is genuinely invested in the outcome.
 
 ## Overly complex scenarios
 
-Problem: First purple team exercise tries to emulate sophisticated nation-state adversary with multi-stage attack across hybrid cloud environment.
+The first exercise attempts to emulate a sophisticated nation-state adversary across a hybrid cloud environment.
+This is optimistic about current capability and produces a great deal of chaos from which it is difficult to
+extract learning.
 
-Better: Start simple. Test basic attack paths and common defensive gaps. Build complexity gradually as both teams mature.
+Start with the simplest attack paths and the most common defensive gaps. Complexity is a reward for maturity,
+not a substitute for it.
 
 ## Inadequate preparation
 
-Problem: Red team doesn't document actions clearly. Blue team doesn't prepare monitoring or response procedures. Exercise happens but learning is minimal.
+Red team does not document actions clearly. Blue team has not prepared monitoring or response procedures. The
+exercise runs and generates activity, but the debrief has little to work with because no one can reconstruct
+what actually happened.
 
-Better: Invest time in planning. Clear objectives, defined scope, prepared scenarios, tested monitoring, ready playbooks.
+Good documentation is not bureaucracy. It is what makes the difference between an exercise that produces a
+learning event and one that produces a vague sense that things could be better.
 
 ## Blame culture
 
-Problem: Gaps discovered during exercises lead to finger-pointing. Blue team blamed for missing detection. IT team blamed for unpatched systems.
+Gaps discovered during exercises lead to finger-pointing. The analyst who missed the alert is identified. The
+team that left the system unpatched is named. The debrief becomes a retrospective accountability exercise with
+no one coming away eager to participate in the next one.
 
-Better: Blameless post-mortems. Focus on systemic improvements, not individual fault. Purple teaming reveals organisational weaknesses, not personal failures.
+Purple teaming reveals organisational weaknesses, not personal failures. The analyst who missed the alert was
+operating in a system that produced too many alerts to triage, with tooling that made the relevant one hard to
+distinguish from noise. Fixing the individual (through additional training, or more pointed feedback) without
+fixing the system produces a slightly more anxious version of the same vulnerability.
+
+Blameless post-mortems are not softness. They are the condition under which people will tell you what actually
+happened rather than what they wish had happened.
+
+## Related
+
+- [What purple teaming actually is](mission.md)
+- [When you're ready for purple teaming](readiness.md)
+- [Coordination models](coordination.md)
+- [Organisational conditions for change](conditions.md)
+- [Why simulations fail](../social-engineering/why-simulations-fail.md)

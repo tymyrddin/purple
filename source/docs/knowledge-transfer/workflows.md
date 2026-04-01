@@ -58,3 +58,10 @@ This is how you prevent incidents freezing because someone went home.
 * Endpoint security consoles
 
 If a workflow requires opening yet another tool, it will die quietly and alone.
+
+## Related
+
+- [Playbooks](playbooks.md)
+- [Manuals that actually work](manuals.md)
+- [SOC workflows](../making-of/soc/workflows.md)
+- [SIRT structure](../making-of/sirt/structure.md)

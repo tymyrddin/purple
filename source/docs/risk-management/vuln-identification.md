@@ -45,3 +45,10 @@ Vulnerabilities mapped to critical assets, grouped by type, verified as current 
 The distribution of vulnerabilities across the four categories is informative. A list that is predominantly technical and nearly empty on the human and process sides reflects the composition and focus of the group rather than the actual vulnerability landscape. Organisations rarely fail primarily for technical reasons.
 
 The reality check step is where the conversation becomes most useful. When the group disagrees about whether a vulnerability is real or theoretical, that disagreement is revealing either a gap in shared understanding of the system or a gap between the group's model of the system and the system itself.
+
+## Related
+
+- [Asset identification](asset-identification.md)
+- [Risk assessment](risk-assessment.md)
+- [Attack path mapping](../threat-modelling/attack-path-mapping.md)
+- [SEM for defence and red teaming](../foundations/system-effectiveness/for-defence.md)

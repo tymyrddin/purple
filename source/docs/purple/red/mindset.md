@@ -127,3 +127,10 @@ In exercises, we merely point out the damage that *could* have been inflicted. Y
 * [Varonis Cyber Kill Chain →](https://www.varonis.com/blog/cyber-kill-chain/)
 * [Active Directory Attack Cycle →](https://github.com/infosecn1nja/AD-Attack-Defense)
 * [MITRE ATT&CK Framework →](https://attack.mitre.org/)
+
+## Related
+
+- [The red team mission](mission.md)
+- [Adversary emulation vs. vulnerability testing](adversary.md)
+- [SEM for defence and red teaming](../../foundations/system-effectiveness/for-defence.md)
+- [Crafting scenarios](../../threat-modelling/crafting-scenarios.md)

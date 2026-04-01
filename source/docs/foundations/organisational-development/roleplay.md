@@ -27,3 +27,10 @@ In organisational settings, roleplay also surfaces the political layer. Who in t
 The value of the exercise depends heavily on the debrief. The roleplay is the stimulus; the learning happens in the conversation that follows. A facilitator who moves too quickly to the normative lesson, "and so we should always do X", forecloses the more important conversation about what actually happened and why.
 
 The debrief questions that matter are not "what should have happened?" but "what did happen, and what made it hard to do differently?" The survival stances should be named without blame, as Satir intended: not "you were being defensive" but "I noticed the conversation moved away from the uncomfortable point, what was going on for you there?" This requires a facilitator who is attending to the emotional and political layers of the room, not just the content of the exercise.
+
+## Related
+
+- [Core ideas of Satir systems OD](satir-core.md)
+- [Facilitation](../montessori/facilitation.md)
+- [Simulations in practice](../../workshops/simulations.md)
+- [Incident response facilitator guidance](../../purple/incident-response/facilitator-guidance.md)

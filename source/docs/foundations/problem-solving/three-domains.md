@@ -27,3 +27,10 @@ This is the graveyard of good security work. Findings classified as accepted ris
 Most failed problem solving over-indexes on the rational dimension while the real blockage sits in the other two. Weinberg's formulation is direct: if you are stuck, you are probably solving the wrong part of the problem.
 
 The implication for security is that a technically brilliant report is not the output. The output is change. Change requires that all three dimensions are addressed, and that the people doing the work can see all three clearly enough to know where the actual obstruction is.
+
+## Related
+
+- [PSL applied to security work](in-security.md)
+- [Practical PSL behaviours for security leaders](psl-approach.md)
+- [Why security change stalls](../change-management/why-change-fails.md)
+- [Bringing it together](../../threat-modelling/bringing-it-together.md)

@@ -27,6 +27,7 @@ what that honesty will cost them.
    :includehidden:
    :caption: Building security organisations that are genuinely resilient, not just compliant:
 
+   satir-change-model.md
    satir-core.md
    composite-model.md
    in-security.md

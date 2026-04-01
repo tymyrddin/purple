@@ -18,3 +18,10 @@ teams learn to adapt and respond under realistic conditions.
 ## Outcome
 Participants gain first-hand experience with operational challenges,
 and teams identify concrete improvements to processes and coordination.
+
+## Related
+
+- [Scenario labs](scenario-labs.md)
+- [Simulations in practice](../workshops/simulations.md)
+- [Hands-on materials and exercises](../foundations/montessori/hands-on.md)
+- [Incident response build programme](incident-response/build-programme.md)

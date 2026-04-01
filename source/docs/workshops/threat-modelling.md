@@ -23,3 +23,10 @@ The retrospective processes close the loop: after a purple team exercise or a re
 The threat modelling section of this documentation covers the full process: adversary persona development, attack path mapping, operational impact assessment, scenario construction, and building a coherent model from the components. These are designed as face-to-face exercises, run with the people who know the system and the people who understand the threat landscape together in the same room.
 
 The workshop format matters because threat models built by a single analyst in isolation reflect that analyst's mental model of the system. Threat models built with the people who operate the system, the people who built it, and the people who are responsible for its security surface a much richer and more accurate picture, along with the disagreements and gaps that reveal where the real work is.
+
+## Related
+
+- [Introduction to threat modelling exercises](../threat-modelling/choreography.md)
+- [Scenario planning](scenario-planning.md)
+- [Backward planning with obstacle avoidance](backward-planning.md)
+- [Risk management workshop](risk-management.md)

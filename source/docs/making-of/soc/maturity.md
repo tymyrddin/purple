@@ -21,3 +21,11 @@ Analyst attrition: experienced analysts carry significant implicit knowledge abo
 Alert volume: a SOC that is handling more alerts than its analysts can meaningfully process is not monitoring. It is reacting to a random sample of alerts, which is worse than having a smaller, more carefully maintained set of detection rules. Managing alert volume, including suppressing rules that generate noise without signal, is maintenance work that takes time but directly improves the quality of what analysts can do.
 
 The no-blame condition: the same [Satir](../../foundations/organisational-development/satir-core.md) dynamic that applies in SIRT [post-incident](../../making-of/sirt/learning.md) review applies in SOC learning. Analysts who expect blame for missed detections will underreport near-misses and borderline calls. Underreporting means the organisation does not learn from its near-misses, which means the same gaps persist. A SOC that has become politically safe to be honest in will surface more of what it needs to improve.
+
+## Related
+
+- [Why a SOC exists](purpose.md)
+- [Detection and response](detection.md)
+- [Applying SEM to security](../../foundations/system-effectiveness/applying-sem.md)
+- [Purple team coordination](../purple-team/coordination.md)
+- [Resilience and system effectiveness](../../audits/resilience/stress-testing.md)
