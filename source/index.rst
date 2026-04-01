@@ -18,6 +18,7 @@ Foundation nobody asked for and a third option that makes both of them slightly 
 
 The work
 ------------------------
+
 .. toctree::
    :glob:
    :maxdepth: 1
