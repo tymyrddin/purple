@@ -1,7 +1,6 @@
 # Challenge design principles
 
-To create an effective cloud hacking CTF, challenges should progress from basic reconnaissance to full-scale cloud 
-compromise, teaching practical skills at each level. Below is an expanded breakdown of difficulty tiers, including 
+To create an effective cloud hacking CTF, challenges work well when they progress from basic reconnaissance to full-scale cloud compromise, teaching practical skills at each level. Below is an expanded breakdown of difficulty tiers, including 
 learning objectives, real-world parallels, and defensive takeaways.
 
 ## Beginner (Easy) – "The Cloud Tourist"

@@ -17,7 +17,7 @@ Phase 3: [Prefix hijacking with RPKI validation cover](../playbooks/3.md)
 - Attacker knows: "I'm exploiting the poisoned control plane to hijack traffic"
 - Defender sees: BGP announcement that validates as VALID. Traffic routing changing. Services degrading. Possibly thousands of unrelated alerts because attacker triggered noise generation.
 
-The scenario must model what defenders see, when they see it, and with what ambiguity.
+The scenario models what defenders see, when they see it, and with what ambiguity.
 
 ## Narrative
 

@@ -2,8 +2,7 @@
 
 ## Turning playbooks into actions
 
-Workflows are where knowledge becomes muscle memory. [Playbooks](playbooks.md) describe what should 
-happen; a workflow makes it happen. When the pressure hits, people do not want explanations. They want the next 
+Workflows are where knowledge becomes muscle memory. [Playbooks](playbooks.md) describe the intended response; a workflow makes it happen. When the pressure hits, people do not want explanations. They want the next 
 step, right now.
 
 A workflow that slows people down will be bypassed. A workflow that guides them will be used instinctively.
@@ -45,12 +44,20 @@ This is how you prevent incidents freezing because someone went home.
 
 ## Workflow design principles
 
-1. Embedded, not external: Workflows must live in the tools people already use.
+1. Embedded, not external: Workflows live in the tools people already use.
 2. Minimal steps, maximal clarity: Every extra click is a chance to bail out.
 3. Automation first: Humans make decisions; systems do the grunt work.
 4. No bureaucracy creep: Approvals where necessary, not everywhere.
 
-## Where workflows must live
+Bureaucracy creep is worth pausing on, because it does not appear by accident. Approval steps accumulate because each 
+one was added by someone protecting themselves or their team from accountability for a decision. 
+
+The [PSL framing](../foundations/problem-solving/in-security.md) is useful here: the political layer shapes the 
+workflow as much as the rational one. A workflow audit that only asks "is this step necessary?" will not remove steps 
+that exist for political reasons. The question to ask is: what consequence was this approval step added to prevent, 
+and for whom?
+
+## Where workflows probably live
 
 * Ticketing systems (Jira, ServiceNow, RTIR)
 * SIEM/SOAR platforms

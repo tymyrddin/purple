@@ -18,9 +18,9 @@ The assurance has to be backed by visible behaviour from leadership. An organisa
 
 ## What to do with findings
 
-A finding that is not connected to a change in process, structure, or tooling is a finding that documents the same problem appearing again next time. The post-incident review should produce a short list of specific changes, each owned by a named person with a realistic timeline.
+A finding that is not connected to a change in process, structure, or tooling is a finding that documents the same problem appearing again next time. A useful post-incident review produces a short list of specific changes, each owned by a named person with a realistic timeline.
 
-The changes should be proportionate to the finding. Significant gaps in structure or authority require structural response. A gap in documentation practice may require only an update to a checklist. Not every finding requires a project.
+The changes are most useful when proportionate to the finding. Significant gaps in structure or authority require structural response. A gap in documentation practice may require only an update to a checklist. Not every finding requires a project.
 
 Track recurring issues separately. If the same finding appears in multiple post-incident reviews, it is a systemic issue, not a per-incident one. Systemic issues require systemic response, which typically involves the political layer: someone with authority to require the change, protected time and budget to make it, and the willingness to treat a recurring gap as a management priority rather than a team performance issue.
 
@@ -36,6 +36,6 @@ Metrics only change behaviour if someone looks at them and asks what the trend m
 
 - [Why a SIRT exists](purpose.md)
 - [SIRT structure](structure.md)
-- [Incident response choreography](../../purple/incident-response/choreography.md)
+- [Incident response choreography](../../incident-response/choreography.md)
 - [Knowledge transfer: workflows](../../knowledge-transfer/workflows.md)
 - [Retrospectives](../../workshops/retrospectives.md)

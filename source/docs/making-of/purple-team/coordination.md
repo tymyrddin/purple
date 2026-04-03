@@ -48,5 +48,5 @@ The risk at this level is alert fatigue and normalisation: when exercises are co
 
 - [Building the team](team.md)
 - [Readiness for purple teaming](readiness.md)
-- [Purple team engagement coordination](../../purple/engagement/coordination.md)
+- [Purple team engagement coordination](../../engagement/coordination.md)
 - [SOC workflows](../soc/workflows.md)

@@ -22,21 +22,21 @@ written by a single analyst.
 
 Exercises and lab scenarios: prepared environments for future training, modelled on real techniques and real conditions. These take time to build well, and a build-a-thon creates the protected time and the collaborative conditions that make building them feel worthwhile.
 
-Tooling and automation: scripts, workflows, or integrations that reduce the friction in a commonly performed task. The constraint here is that the output should be something the team will actually maintain, not something that works on the day and is abandoned a month later when the person who built it is unavailable to fix it.
+Tooling and automation: scripts, workflows, or integrations that reduce the friction in a commonly performed task. The constraint here is that the output needs to be something the team will actually maintain, not something that works on the day and is abandoned a month later when the person who built it is unavailable to fix it.
 
 ## Preparing the event
 
 Gather proposals in advance. Ask the team what they have wanted to build but have not had time for. Collect the list, group related items, and let the team vote or select on the day. This surfaces what is actually felt as useful rather than what a manager believes is useful.
 
-Prepare the environment before the event starts. A build-a-thon where the first three hours are spent getting access to systems, finding documentation, or waiting for permissions to be granted is a build-a-thon that has lost its momentum before the work begins. This is the [Montessori](../foundations/montessori/index.rst) prepared environment principle applied directly: everything needed should be accessible without ceremony.
+Prepare the environment before the event starts. A build-a-thon where the first three hours are spent getting access to systems, finding documentation, or waiting for permissions to be granted is a build-a-thon that has lost its momentum before the work begins. This is the [Montessori](../foundations/montessori/index.rst) prepared environment principle applied directly: everything needed is accessible without ceremony.
 
-Set a clear finishing condition. Each project should have a stated definition of done that is achievable within the time available. "Finished enough to be useful" is a legitimate bar.
+Set a clear finishing condition. Each project benefits from a stated definition of done that is achievable within the time available. "Finished enough to be useful" is a legitimate bar.
 
 ## Running it
 
 Organise in small groups of two to four, each working on a single project. Mixing skills is useful: a detection engineer and an analyst working on a detection rule together produce something more operationally grounded than either would alone.
 
-Keep interruptions minimal. The value of the build-a-thon is the protected time and attention. The event should be treated as genuinely protected, not as a day where people also attend their normal meetings.
+Keep interruptions minimal. The value of the build-a-thon is the protected time and attention. The event works best treated as genuinely protected, not as a day where people also attend their normal meetings.
 
 Hold a brief mid-event check-in to surface projects that are stuck and may need rescoping, and to share early progress across the groups. Progress is contagious. Seeing that other teams are producing real things helps groups that are slower to get started.
 

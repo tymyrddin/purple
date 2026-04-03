@@ -357,6 +357,6 @@ When evaluating any node, ask these questions derived from your text to see if i
 - Technical effect: Can you predict the specific change in a routing table or traffic flow that will result?
 - Observable footprint: Can you list the specific log entries or monitoring alerts it would generate?
 
-If you can answer "yes" to all four for a node, it's a strong candidate. If any answer is "no" or is vague, the node should be excluded for now.
+If you can answer "yes" to all four for a node, it's a strong candidate. If any answer is "no" or is vague, the node is worth excluding for now.
 
 I hope this systematic breakdown helps you focus your playbook development efforts on the most actionable parts of the tree. Would you like to try applying this framework to one of the candidate nodes, like 1.1.1.2 Exploiting longest prefix match?

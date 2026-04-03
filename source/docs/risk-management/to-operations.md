@@ -1,6 +1,6 @@
 # From exercises to operations
 
-You have built a risk register and documented a process. The question now is whether that work will change how the organisation operates, or whether it will describe how the organisation should operate while actual operations continue unchanged.
+You have built a risk register and documented a process. The question now is whether that work will change how the organisation operates, or whether it will describe how the organisation intends to operate while actual operations continue unchanged.
 
 This is the [ChangeShop](../foundations/change-management/index.rst) question. The exercises produced accurate analysis. The register documents decisions. Whether those decisions produce change depends on conditions that the exercises themselves cannot create: ownership that is real rather than nominal, authority to implement treatments, protected time and budget, and the trust and communication conditions that allow people to be honest about progress and blockages.
 
@@ -10,9 +10,9 @@ With ISO 27001: the risk register feeds control selection from Annex A. The risk
 
 With NIS2: critical assets identified in the exercises map to the Article 21 risk analysis requirement. The risk assessment supports the "appropriate and proportionate" standard for security measures. Treatment plans address the mandatory security measures. The register demonstrates systematic risk management to supervisory authorities.
 
-With incident response: known risks should have documented response procedures. When an incident occurs in a risk category that was assessed and given a treatment plan, the response should be faster and more effective than if the risk had not been thought through. When an incident reveals a risk that was not in the register, that gap is a finding that requires both an incident response and a risk register update.
+With incident response: known risks benefit from documented response procedures. When an incident occurs in a risk category that was assessed and given a treatment plan, the response is likely to be faster and more effective than if the risk had not been thought through. When an incident reveals a risk that was not in the register, that gap is a finding that requires both an incident response and a risk register update.
 
-With business continuity: asset dependencies identified in the exercises inform continuity plans. Impact assessments determine recovery priorities. The register identifies single points of failure that continuity planning needs to address. These connections mean that risk management and continuity planning should be coordinated, not run as parallel exercises that duplicate effort and sometimes produce inconsistent conclusions.
+With business continuity: asset dependencies identified in the exercises inform continuity plans. Impact assessments determine recovery priorities. The register identifies single points of failure that continuity planning needs to address. These connections mean that risk management and continuity planning are most useful when coordinated, not run as parallel exercises that duplicate effort and sometimes produce inconsistent conclusions.
 
 ## Maturity as a realistic trajectory
 

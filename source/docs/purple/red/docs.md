@@ -35,4 +35,4 @@ Technical report: Detailed walkthrough for blue team and security practitioners.
 - [Coordinating with purple team](coordination.md)
 - [Knowledge transfer: playbooks](../../knowledge-transfer/playbooks.md)
 - [Knowledge transfer: manuals](../../knowledge-transfer/manuals.md)
-- [Incident response choreography](../incident-response/choreography.md)
+- [Incident response choreography](../../incident-response/choreography.md)

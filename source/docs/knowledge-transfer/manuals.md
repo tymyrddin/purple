@@ -1,14 +1,18 @@
 # Moving beyond manuals that nobody reads
 
-An [incident response](../purple/incident-response/index.rst) plan that lives in a dusty 50-page PDF is not a plan. It's a liability. Manuals only matter if they can be used in moments of stress, distraction, and partial information. The aim is to move from comprehensive to comprehensible so that, when something breaks, people reach instinctively for the right aid.
+An [incident response](../incident-response/index.rst) plan that lives in a dusty 50-page PDF is not a plan. It is a 
+liability. Manuals only matter if they can be used in moments of stress, distraction, and partial information. The 
+aim is to move from comprehensive to comprehensible so that, when something breaks, people reach instinctively for the 
+right aid.
 
-The test is simple: can someone who's never seen it before use it successfully at 3am? If not, it's documentation theatre, not operational guidance.
+The test is simple: can someone who's never seen it before use it successfully at 3:00? If not, it's documentation 
+theatre, not operational guidance.
 
 ## What types of manuals will actually be read?
 
 Readable manuals behave like tools. They're designed for exactly one moment of need, not for theoretical completeness.
 
-### The "flashlight in a blackout"
+### The "torch in a blackout"
 
 A single page covering the first fifteen minutes of a suspected breach. It answers two questions: whom do I call, and what do I do right now.
 
@@ -19,6 +23,7 @@ What it contains:
 - Nothing else
 
 Example:
+
 ```
 SUSPECTED SECURITY INCIDENT
 
@@ -40,12 +45,14 @@ Where it lives: Printed and laminated at every desk. Phone home screen. Pinned m
 Laminated lists for repeated, high-risk situations such as ransomware detection, leaked credentials, or DDoS disruption. They stop people skipping steps when adrenaline spikes.
 
 What it contains:
+
 - Checkbox format (physical checking prevents skipping)
 - Time expectations for each step
 - "Stop and escalate if..." decision points
 - No explanations, just actions
 
 Example ransomware checklist:
+
 ```
 ☐ Take photo of ransom note (don't touch files)
 ☐ Disconnect network cable / disable WiFi
@@ -57,13 +64,16 @@ Example ransomware checklist:
 ☐ Preserve one infected machine for forensics
 ```
 
-Where it lives: Laminated card in server room. Printed copy in incident response folder. Digital version in team wiki with "print this" link.
+Where it lives: Laminated card in server room. Printed copy in incident response folder. Digital version in team wiki 
+with "print this" link.
 
 ### The "translation guide"
 
-Short references that focus on what someone actually has to do with a given tool. For a SIEM, list the five most important queries. For secure communication, provide the one approved channel and the button that launches it.
+Short references that focus on what someone actually has to do with a given tool. For a SIEM, list the five most 
+important queries. For secure communication, provide the one approved channel and the button that launches it.
 
 What it contains:
+
 - Tool-specific quick reference
 - Only the queries/commands actually used
 - Screenshots of where to click
@@ -94,15 +104,18 @@ Where it lives: Stuck to the wall next to the SOC analyst workstation. Shortcut 
 
 ### The "understudy playbook"
 
-Role-specific guidance for when the usual lead is unavailable. It names the systems to check and the people to notify, in the correct order.
+Role-specific guidance for when the usual lead is unavailable. It names the systems to check and the people to notify, 
+in the correct order.
 
 What it contains:
+
 - "You're now the incident lead because [Name] isn't available"
 - Systems you're responsible for checking
 - Decisions you can make vs. must escalate
 - Who to hand off to when the primary returns
 
 Example deputy security lead guide:
+
 ```
 YOU'RE DEPUTY INCIDENT LEAD
 
@@ -130,25 +143,30 @@ Escalation order:
 Hand-off: When primary returns, brief them and transfer logs/notes.
 ```
 
-Where it lives: Sealed envelope in secure location. Encrypted file on designated backup's laptop. Card in incident response folder.
+Where it lives: Sealed envelope in secure location. Encrypted file on designated backup's laptop. Card in incident 
+response folder.
 
 ## How to make them readable
 
 Readability is not about literary polish. It comes from structure, constraint, and brutal prioritisation.
 
-### 1. Use the one-page rule
+### Use the one-page rule
 
-If the procedure cannot fit on one page or screen, it's a policy, not a job aid. Shrinking it forces decisions about what genuinely matters in the moment.
+If the procedure cannot fit on one page or screen, it's a policy, not a job aid. Shrinking it forces decisions about 
+what genuinely matters in the moment.
 
 What fits on one page:
+
 - Ransomware first response: yes
 - Complete ransomware investigation, remediation, and recovery: no (that's a playbook)
 - Emergency contacts and first call actions: yes
 - Complete escalation procedures with approval workflows: no (that's a process document)
 
-When you exceed one page: You're either trying to cover too much or including background that can be linked to elsewhere. The one-page version gets you started; the linked playbook provides detail once you've contained the immediate crisis.
+When you exceed one page: You're either trying to cover too much or including background that can be linked to 
+elsewhere. The one-page version gets you started; the linked playbook provides detail once you've contained the 
+immediate crisis.
 
-### 2. Lead with visuals
+### Lead with visuals
 
 People under stress process images faster than text.
 
@@ -274,15 +292,15 @@ The incident response manual is in a secure document management system requiring
 
 The problem: Treating manuals like sensitive secrets instead of operational necessities.
 
-The fix: Job aids should be accessible. They don't contain sensitive data (no credentials, no architecture diagrams). If you think they need locking away, you're including the wrong content.
+The fix: Job aids are accessible. They don't contain sensitive data (no credentials, no architecture diagrams). If you think they need locking away, you're including the wrong content.
 
 ### The theoretical manual
 
 Written by people who've never responded to an incident, describing idealised procedures that assume perfect conditions, available resources, and calm decision-making.
 
-The problem: No connection to operational reality.
+The problem: No connection to operational reality, but more precisely, a [congruence gap](../foundations/organisational-development/satir-core.md). The people who have responded to incidents know what the manual should say. The people writing the manual have not. The gap between them is not accidental: documenting the real process means naming decisions, shortcuts, and structural gaps that reflect on systems and people. In organisations where honest reporting has a cost, the theoretical manual is the safe version. It describes what should happen, which nobody can argue with, rather than what does happen, which somebody might.
 
-The fix: Write manuals with input from people who actually respond to incidents. Test them. Update based on what works, not what should work in theory.
+The fix: Write manuals with direct input from people who actually respond to incidents. Treat the gap between what they say and what the theoretical version says as a finding. Update based on what works in practice, not what should work in theory.
 
 ### The hidden manual
 
@@ -331,7 +349,9 @@ The goal: Manuals become instinctive tools, not optional references. When someth
 
 A good manual is not something people read. It's something people use, reliably, on the worst day of the year.
 
-If your manual requires calm, time, and concentration to be useful, you've built the wrong thing. Build for chaos instead. Build for 3am. Build for the moment when everything is on fire and someone needs to know exactly what to do next.
+If your manual requires calm, time, and concentration to be useful, you've built the wrong thing. Build for chaos 
+instead. Build for 3am. Build for the moment when everything is on fire and someone needs to know exactly what to do 
+next.
 
 That's not a manual. That's a lifeline.
 
@@ -340,4 +360,4 @@ That's not a manual. That's a lifeline.
 - [Playbooks](playbooks.md)
 - [Workflows](workflows.md)
 - [SIRT roles](../making-of/sirt/roles.md)
-- [Incident response choreography](../purple/incident-response/choreography.md)
+- [Incident response choreography](../incident-response/choreography.md)

@@ -1,6 +1,6 @@
 # Building the team
 
-Purple teaming is a practice, not an org chart. Different organisations structure it differently based on size, maturity, and what they are trying to accomplish. The structure should follow the purpose, not the other way around.
+Purple teaming is a practice, not an org chart. Different organisations structure it differently based on size, maturity, and what they are trying to accomplish. The structure follows the purpose, not the other way around.
 
 ## Small organisations
 
@@ -8,7 +8,7 @@ In small organisations, the same people often play red and blue roles at differe
 
 External assistance for red team capability is a common and sensible approach when internal offensive skill is limited. Internal staff focus on blue team response and learning. The value depends on how the external and internal parties communicate: an external red team that produces a report and disappears has not contributed to the learning loop.
 
-Scheduled exercises, quarterly or semi-annual, rather than continuous operations. Make each exercise count by focusing on common attack paths, validating core detections, and ensuring [incident response](../../purple/incident-response/index.rst) works. The goal is not sophistication; it is honest assessment of actual capability.
+Scheduled exercises, quarterly or semi-annual, rather than continuous operations. Make each exercise count by focusing on common attack paths, validating core detections, and ensuring [incident response](../../incident-response/index.rst) works. The goal is not sophistication; it is honest assessment of actual capability.
 
 ## Medium organisations
 

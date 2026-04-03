@@ -10,7 +10,7 @@ This means:
 - No actual traffic gets intercepted (good, this is testing)
 - No actual services fail (good, this is safe)
 - No actual RPKI gets modified (good, no legal concerns)
-- Telemetry must be realistic enough to trigger authentic analysis (required, otherwise worthless)
+- Telemetry needs to be realistic enough to trigger authentic analysis (required, otherwise worthless)
 
 The boundary is "what would logs/metrics/alerts show if this attack really happened?"
 

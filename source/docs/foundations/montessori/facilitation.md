@@ -6,7 +6,7 @@ For security teams, this is a significant departure from most training contexts,
 
 ## What facilitation looks like
 
-The facilitator in a Montessori-inspired security context spends most of their time watching: what the team is engaging with, where they are getting stuck, what they are skipping over, and what questions they are not asking that they probably should be.
+The facilitator in a Montessori-inspired security context spends most of their time watching: what the team is engaging with, where they are getting stuck, what they are skipping over, and what questions they are not asking that would be worth asking.
 
 The intervention when someone is stuck is a question, not an answer. "What assumptions are you making about the trust boundary here?" produces different thinking than "the trust boundary is misconfigured in line four." The former develops the learner's ability to interrogate their own model. The latter delivers a fix that may or may not transfer to the next problem.
 
@@ -39,5 +39,5 @@ This is worth naming directly rather than assuming it will happen by default.
 - [Reflection and feedback loops](reflection.md)
 - [The prepared environment](prepared-environment.md)
 - [Roleplay in organisational development](../organisational-development/roleplay.md)
-- [Incident response facilitator guidance](../../purple/incident-response/facilitator-guidance.md)
+- [Incident response facilitator guidance](../../incident-response/facilitator-guidance.md)
 - [Simulations in practice](../../workshops/simulations.md)

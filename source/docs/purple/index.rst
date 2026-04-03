@@ -42,7 +42,6 @@ coordination modes, and how to assess readiness, is covered in the `making-of se
 
    red/index
    blue/index
-   engagement/index
    advanced/index
 
 .. toctree::
@@ -54,7 +53,6 @@ coordination modes, and how to assess readiness, is covered in the `making-of se
    collaborative-playbooks.md
    live-experiments.md
    scenario-labs.md
-   incident-response/index
 
 .. raw:: html
 

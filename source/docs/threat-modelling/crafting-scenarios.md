@@ -8,7 +8,7 @@ The relationship to scenario planning is direct. Scenario planning (in the works
 
 Take one or two attack paths from the [previous exercise](bringing-it-together.md). Choose paths that reached critical assets and produced significant impacts.
 
-Write a short scenario for each. The scenario should include the adversary persona, the sequence of moves from entry to objective, and the operational impact when the objective is reached. One page or one index card is the right length. Longer scenarios become hard to use.
+Write a short scenario for each. The scenario works best when it includes the adversary persona, the sequence of moves from entry to objective, and the operational impact when the objective is reached. One page or one index card is the right length. Longer scenarios become hard to use.
 
 The sequence of moves is the part that takes most attention. A scenario that says "the attacker gains access and exfiltrates data" is not a scenario. A scenario that says "the attacker sends a targeted email to a finance administrator, obtains credentials for the payment system, spends three days moving laterally without triggering alerts, and extracts transaction records over a weekend" is usable for planning, detection engineering, and response preparation.
 
@@ -24,7 +24,7 @@ is usually more valuable than either group's individual work.
 
 ## What makes a scenario useful
 
-A useful scenario is specific enough to act on. Someone reading it should be able to say: we would or would not detect this step, we do or do not have a response procedure for this situation, we would or would not be able to recover within the timeframe the scenario implies.
+A useful scenario is specific enough to act on. Someone reading it can say: we would or would not detect this step, we do or do not have a response procedure for this situation, we would or would not be able to recover within the timeframe the scenario implies.
 
 A useful scenario is also honest about the adversary's capabilities. Scenarios written against an adversary the organisation is comfortable defending against are useful for confidence but not for capability development. The scenarios worth practising against are the ones where the honest answer to "would we detect this?" is "probably not."
 
@@ -37,4 +37,4 @@ Like all models, scenarios drift. A scenario written against last year's adversa
 - [Bringing it together](bringing-it-together.md)
 - [Adversary persona workshop](adversary-persona-workshop.md)
 - [Scenario planning and looking forward](../workshops/scenario-planning.md)
-- [Purple team incident response choreography](../purple/incident-response/choreography.md)
+- [Purple team incident response choreography](../incident-response/choreography.md)

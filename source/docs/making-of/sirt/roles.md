@@ -11,7 +11,7 @@ who has never exercised it is a gap waiting to be discovered at the worst moment
 most often avoided: who has the standing to declare an incident, to escalate it to leadership, and to require that 
 other parts of the organisation cooperate?
 
-Skipping the emotional and political layers produces a role chart that describes what should happen without creating 
+Skipping the emotional and political layers produces a role chart that describes the intended process without creating 
 the conditions for it to happen.
 
 ## Essential roles
@@ -32,11 +32,11 @@ These are examples, not a template. A very small organisation may combine severa
 
 The statement that someone is "available" for SIRT work during an incident is not the same as role clarity. Availability and clarity are both necessary.
 
-Test the roles before you need them. A [tabletop](../../purple/incident-response/choreography.md) exercise that runs the team through a plausible incident scenario will reveal gaps in role clarity, authority, and process that no amount of documentation review will surface.
+Roles are worth testing before an incident. A [tabletop](../../incident-response/choreography.md) exercise that runs the team through a plausible incident scenario will reveal gaps in role clarity, authority, and process that no amount of documentation review will surface.
 
 ## Related
 
 - [Why a SIRT exists](purpose.md)
 - [SIRT structure](structure.md)
 - [PSL applied to security work](../../foundations/problem-solving/in-security.md)
-- [Incident response choreography](../../purple/incident-response/choreography.md)
+- [Incident response choreography](../../incident-response/choreography.md)

@@ -44,7 +44,7 @@ The register is most useful when it reflects what is actually happening, not wha
 
 ## Keeping it proportionate
 
-The register should be as simple as it can be while remaining useful. A thirty-field register that requires two hours to update a single entry will not be updated. A five-field register that captures the essential information and takes fifteen minutes to update will be.
+The register works best when as simple as it can be while remaining useful. A thirty-field register that requires two hours to update a single entry will not be updated. A five-field register that captures the essential information and takes fifteen minutes to update will be.
 
 The temptation to add sophistication before the basic practice is established is a common failure mode. Start with what is genuinely useful, add complexity only when you can demonstrate that simpler is no longer sufficient.
 

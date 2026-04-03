@@ -20,7 +20,7 @@ Who is directly affected, and how quickly? Staff, customers, suppliers, regulato
 
 How long until normal operations resume? This requires honesty about recovery capability that the group may or may not have. If nobody knows the answer, that is the finding.
 
-Capture the key impacts on one sheet. The sheet should be specific enough that a decision-maker who was not in the room can understand what is at stake.
+Capture the key impacts on one sheet. The sheet works best when specific enough that a decision-maker who was not in the room can understand what is at stake.
 
 ## What this exercise is really doing
 

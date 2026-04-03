@@ -33,4 +33,4 @@ They are not alternatives. A team that uses both develops a continuous reflectio
 - [Temperature reading retrospectives](retrospectives.md)
 - [Simulations in practice](simulations.md)
 - [Reflection and feedback loops](../foundations/montessori/reflection.md)
-- [Incident response build programme](../purple/incident-response/build-programme.md)
+- [Incident response build programme](../incident-response/build-programme.md)

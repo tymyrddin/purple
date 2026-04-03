@@ -47,7 +47,7 @@ Work in small groups on each of the core questions, then bring groups together t
 
 Capture not only the findings but the reasoning behind them. The assumptions that led to a particular expectation are often more valuable than the expectation itself, because they can be monitored and updated as reality develops.
 
-End with explicit identification of the two or three things that, if they change in the next period, should trigger a re-run of the process. This makes the forward-looking work a continuous practice rather than a one-time event.
+End with explicit identification of the two or three things that, if they change in the next period, would prompt a re-run of the process. This makes the forward-looking work a continuous practice rather than a one-time event.
 
 ## Other forward looking
 

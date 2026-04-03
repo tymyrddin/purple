@@ -1,6 +1,6 @@
 # Workflows and runbooks
 
-SOC workflows are documented hypotheses about how specific categories of event should be handled. They are not procedures that, once written, can be followed mechanically; they are starting points that require human judgement and that need to be updated as experience accumulates.
+SOC workflows are documented hypotheses about how specific categories of event are handled. They are not procedures that, once written, can be followed mechanically; they are starting points that require human judgement and that need to be updated as experience accumulates.
 
 ## Designing workflows
 

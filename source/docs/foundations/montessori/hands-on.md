@@ -1,6 +1,6 @@
 # Hands-on materials and exercises
 
-The Montessori insight about materials is that they should be concrete, self-correcting, and designed to isolate a single concept or skill so that the learner can engage with it directly without requiring interpretation from an instructor.
+The Montessori insight about materials is that they work best when concrete, self-correcting, and designed to isolate a single concept or skill so that the learner can engage with it directly without requiring interpretation from an instructor.
 
 For adult security learning, this translates to exercises that are close enough to real conditions to be meaningful, safe enough to fail in without consequence, and designed so that the feedback comes from the exercise itself rather than from someone evaluating the attempt.
 
@@ -10,7 +10,7 @@ A good exercise targets a real challenge. Cloud misconfiguration is real. Privil
 
 A good exercise is modular. The starting point is accessible without requiring hours of setup. The core challenge is containable and completable in a session. Optional extensions exist for those who want to go deeper. The exercise does not assume that every person who engages with it is starting from the same place or needs to arrive at the same depth.
 
-A good exercise is self-correcting. The learner should be able to tell whether their approach is working from the results they observe, without requiring an instructor to validate each step. In a sandboxed lab, this might mean that a successful privilege escalation produces visible access to a target file. In a detection exercise, it might mean that the alert fires or does not fire in a way that is directly observable.
+A good exercise is self-correcting. The learner can tell whether their approach is working from the results they observe, without requiring an instructor to validate each step. In a sandboxed lab, this might mean that a successful privilege escalation produces visible access to a target file. In a detection exercise, it might mean that the alert fires or does not fire in a way that is directly observable.
 
 ## Categories of exercise for security teams
 

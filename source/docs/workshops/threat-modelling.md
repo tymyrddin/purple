@@ -16,7 +16,7 @@ Scenario planning asks what futures are possible. Threat modelling asks who is t
 
 Backward planning uses threat modelling as one of its inputs. Understanding the attack paths available to realistic adversaries shapes what "the desired state of security" actually means and what obstacles stand between the current state and that desired state.
 
-The retrospective processes close the loop: after a purple team exercise or a real incident, the retrospective should examine whether the threat model was accurate and what needs to be updated.
+The retrospective processes close the loop: after a purple team exercise or a real incident, the retrospective can examine whether the threat model was accurate and what needs to be updated.
 
 ## Running it as a workshop
 

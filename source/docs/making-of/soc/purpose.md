@@ -12,14 +12,14 @@ People: monitoring at the volume produced by a modern environment requires susta
 
 Process: what happens when an alert fires? Who makes the triage decision, on what criteria, with what information? Without explicit process, each analyst makes their own decisions, which produces inconsistent outcomes and makes it impossible to improve systematically.
 
-Feedback: detection rules are hypotheses about what threats look like. They should be tested against reality and updated. The results of SIRT investigations should feed back into the SOC's detection model. Purple team exercises should test what the SOC actually detects. Without these feedback loops, the detection model becomes a historical document rather than a current one.
+Feedback: detection rules are hypotheses about what threats look like. Worth testing against reality and updating. The results of SIRT investigations can feed back into the SOC's detection model. Purple team exercises can test what the SOC actually detects. Without these feedback loops, the detection model becomes a historical document rather than a current one.
 
 ## The ChangeShop layer
 
 Building a SOC changes how the organisation processes information about its own security state. 
 That is a significant change, and significant changes meet the resistance characteristic of 
 [homeostatic](../../foundations/change-management/what-it-is.md) systems. The resistance is likely to appear as 
-resource constraints, as scope disputes about what the SOC should monitor, and as reluctance to act on findings that 
+resource constraints, as scope disputes about what the SOC monitors, and as reluctance to act on findings that 
 implicate existing systems or processes.
 
 Understanding this resistance as information is useful. Scope disputes often reveal that some part of the organisation 

@@ -6,7 +6,7 @@ This is not how CTFs are usually described, and not how they always work. But it
 
 ## Why the structure fits
 
-The prepared environment principle holds that the materials for learning should be arranged so that the learner encounters what they need to encounter, at the right level of challenge, without unnecessary obstacles or unnecessary scaffolding. A CTF challenge that is designed this way gives the participant a problem that is solvable, that requires them to develop or apply a technique, and that reveals something about how the technique works when they solve it.
+The prepared environment principle holds that the materials for learning work best when arranged so that the learner encounters what they need to encounter, at the right level of challenge, without unnecessary obstacles or unnecessary scaffolding. A CTF challenge that is designed this way gives the participant a problem that is solvable, that requires them to develop or apply a technique, and that reveals something about how the technique works when they solve it.
 
 Self-directed learning in a CTF means that the participant decides which challenges to attempt, in which order, and how long to spend. This is not the same as unconstrained freedom. The environment is structured. But within that structure, the participant governs their own path. This matters because the motivation to keep going comes from the work itself rather than from external obligation.
 

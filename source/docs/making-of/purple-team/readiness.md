@@ -6,17 +6,17 @@ Purple teaming requires certain conditions to exist before the work is useful. S
 
 Red team capability: someone who can simulate attacks realistically. This does not require elite offensive skill, but it does require understanding adversary TTPs and the ability to operate safely within the agreed scope. An exercise conducted by someone who does not understand what they are simulating is not threat-realistic.
 
-Blue team capability: monitoring, detection, and [incident response](../../purple/incident-response/index.rst) foundations must exist. A purple team exercise cannot validate detections that have not been built or test response procedures that do not exist. Exercises against a team with no visibility surface gaps the team already knows about and cannot act on without the foundations first.
+Blue team capability: monitoring, detection, and [incident response](../../incident-response/index.rst) foundations need to be in place. A purple team exercise cannot validate detections that have not been built or test response procedures that do not exist. Exercises against a team with no visibility surface gaps the team already knows about and cannot act on without the foundations first.
 
 Safe environment: the ability to test without breaking production. This means either isolated test environments or very controlled production testing with explicit safety limits agreed in advance.
 
 ## Organisational prerequisites
 
-Willing participants on both sides: both offensive and defensive participants must genuinely want to collaborate. A red team that treats the exercise as an opportunity to demonstrate superiority will not share findings in a way the blue team can learn from. A blue team that treats testing as criticism will not engage honestly with gaps. Neither stance produces a useful outcome.
+Willing participants on both sides: both offensive and defensive participants need to genuinely want to collaborate. A red team that treats the exercise as an opportunity to demonstrate superiority will not share findings in a way the blue team can learn from. A blue team that treats testing as criticism will not engage honestly with gaps. Neither stance produces a useful outcome.
 
 The [Satir](../../foundations/organisational-development/satir-core.md) framing is useful here: the blaming stance ("the red team is trying to make us look bad") and the placating stance ("everything detected fine, no problems here") are both ways of not learning. The conditions that allow both sides to be congruent, describing what actually happened and what they actually thought, are what make the exercise productive.
 
-Executive support: purple teaming takes time and resources and will reveal uncomfortable gaps. Leadership must understand what the programme is for, accept that finding gaps is the point, and be prepared to act on systemic findings that require decisions above the team level. A programme that reveals findings leadership does not want to act on will stop producing honest findings.
+Executive support: purple teaming takes time and resources and will reveal uncomfortable gaps. Leadership needs to understand what the programme is for, accept that finding gaps is the point, and be prepared to act on systemic findings that require decisions above the team level. A programme that reveals findings leadership does not want to act on will stop producing honest findings.
 
 ## You are not ready if
 

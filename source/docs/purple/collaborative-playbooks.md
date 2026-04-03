@@ -24,5 +24,5 @@ Teams leave with actionable playbooks that reflect real learning, making risk ma
 
 - [Knowledge transfer: playbooks](../knowledge-transfer/playbooks.md)
 - [Knowledge transfer: workflows](../knowledge-transfer/workflows.md)
-- [Incident response choreography](incident-response/choreography.md)
+- [Incident response choreography](../incident-response/choreography.md)
 - [Reflection and feedback loops](../foundations/montessori/reflection.md)

@@ -24,7 +24,7 @@ For each asset or cluster, ask: if this were unavailable for a day, what breaks?
 
 Mark the ten to twenty assets that are genuinely critical. These are the focus of the rest of the exercises.
 
-The "everything is critical" response that groups sometimes produce is a placating move: it avoids the discomfort of prioritisation by not prioritising. The facilitator should push back gently but firmly. Not everything is equally critical. If a group cannot identify which assets would cause immediate operational failure if lost, they do not yet have the shared understanding of the system that risk management requires.
+The "everything is critical" response that groups sometimes produce is a placating move: it avoids the discomfort of prioritisation by not prioritising. The facilitator can push back gently but firmly. Not everything is equally critical. If a group cannot identify which assets would cause immediate operational failure if lost, they do not yet have the shared understanding of the system that risk management requires.
 
 Step 4: Document dependencies (10 minutes)
 

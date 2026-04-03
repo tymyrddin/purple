@@ -55,7 +55,7 @@ down."
 
 Confidence drops faster than performance. People experience not only the friction of the new system but the
 loss of competence they had in the old one. Someone who could confidently manage a server by hand now cannot
-confidently explain why a pipeline step is failing. That experience is real and should not be dismissed.
+confidently explain why a pipeline step is failing. That experience is real and deserves acknowledgement.
 
 This is the moment organisations abandon the effort.
 

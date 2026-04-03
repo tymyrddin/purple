@@ -1,10 +1,11 @@
-Knowledge transfer and IR playbook development
+Knowledge transfer and playbook development
 ======================================================
 
 .. image:: /_static/images/incident-playbook.png
   :alt: A stick figure is writing on a giant scroll labeled 'Incident Playbook'. Another stick figure is erasing a step and writing a better one. A third stick figure is adding a 'Post-Mortem Lesson' sticky note to the margin. The playbook is shown as a messy, evolving document, not a pristine book.
 
-Weaving security wisdom into the fabric of how an organisation operates, making sure critical knowledge is not just stored in a document, but can be actively used and understood by all.
+Weaving security wisdom into the fabric of how an organisation operates, making sure critical knowledge is not just
+stored in a document, but can be actively used and understood by all.
 
 .. toctree::
    :glob:

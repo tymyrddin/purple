@@ -1,6 +1,6 @@
 # The visibility problem
 
-Playbooks assume attacker visibility into their own actions. Scenarios must not.
+Playbooks assume attacker visibility into their own actions. Scenarios do not.
 
 From the playbook, Phase 2 Action 2.1 (fraudulent ROA creation) is the control-plane attack. It's the moment 
 where the Registry gets poisoned. It's the critical action that enables everything else.
@@ -24,7 +24,7 @@ A better scenario emits:
 - Validator state change 30 minutes later (prefix transitions to "not found" for victim, "valid" for attacker)
 - BGP announcement that correlates with ROA change (but only if defenders think to correlate)
 
-Defenders must connect these dots themselves. The scenario doesn't do it for them.
+Defenders connect these dots themselves. The scenario doesn't do it for them.
 
 ## Narrative
 

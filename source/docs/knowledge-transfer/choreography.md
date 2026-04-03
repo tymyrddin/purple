@@ -1,43 +1,46 @@
-# Overview and basics
+# Why security knowledge does not easily transfer
 
-Most lessons learned from incidents vanish into dusty reports or forgotten post-mortems. Teams stumble on the same problems again and again because knowledge is not captured in a usable, living form.  
+After every significant incident, the organisation produces documentation. Findings are written up, lessons are 
+captured, playbooks are updated, post-mortems are filed. Then the next incident arrives, and the team encounters 
+the same gaps in roughly the same places.
 
-This track flips that script: we turn hard-earned lessons from exercises and incidents into practical manuals, detection playbooks, dashboards, and workflows. Resources that teams can grab, adapt, and extend as they grow, rotate roles, or face new adversaries.  
+This is not a documentation format problem. It is a conditions problem.
 
-## Core principles
+[Satir's work on congruence](../foundations/organisational-development/satir-core.md) is directly applicable here. The 
+stated culture says: we learn from incidents and document what we find. The actual culture often says something 
+different: honest findings attract scrutiny, scrutiny generates workload, and the person who names the real cause 
+carries a disproportionate share of what follows. People make rational decisions about what to document based on the 
+actual culture, not the stated one. The result is documentation that reflects the process the organisation wishes it 
+had, not the one it uses.
 
-* Actionable, not archival: Playbooks must be used in the heat of the moment, not shelved.  
-* Tailored, not generic: Built from your own scenarios and incidents, not vendor boilerplate.  
-* Living documents: Easy to update as threats evolve and teams change.  
-* Role-friendly: Clear enough for new joiners, detailed enough for seasoned responders.  
-* Transferable: Formats that survive staff turnover and team rotation.  
+[SEM offers a complementary diagnosis](../foundations/system-effectiveness/core-triad.md). An incident is not a 
+deviation from normal operations: It is normal operations with one model assumption exposed as false. A playbook 
+that documents the sequence of the incident without examining the model that produced it leaves that model intact. 
+The system will generate the same class of failure again with different timestamps, and the next playbook update 
+will document that one too.
 
-## How it works
+The practical work of knowledge transfer, building playbooks, manuals, dashboards, and workflows that actually get 
+used, is not separable from the conditions question. Playbooks decay not because nobody maintains them but because 
+the people who know what they should say do not feel it is safe to say it. Manuals fail not because of bad formatting 
+but because they were written by people who have never used them under pressure, and the people who have are not the 
+ones writing. Dashboards become decoration not because of bad design choices but because the incentive to show good 
+numbers shapes what gets displayed.
 
-We follow a structured flow:
+Getting the conditions right does not require resolving all of this before doing the practical work. It requires 
+naming it, building processes that produce honest rather than safe documentation, and treating the gap between the 
+written version and the operational reality as a finding rather than an embarrassment.
 
-1. Capture: Extract lessons from incidents, simulations, and exercises.  
-2. Translate: Turn findings into step-by-step workflows, playbooks, and guides.  
-3. Visualise: Build dashboards and quick-reference tools for real-time use.  
-4. Share: Make resources accessible across teams and roles.  
-5. Evolve: Regular reviews keep playbooks sharp and relevant.  
-
-## Outputs
-
-* Playbooks for incident detection, triage, and escalation.  
-* Role-specific quick-reference guides.  
-* Dashboards aligned with team workflows.  
-* Resilient knowledge base: living, usable, and ready for the next crisis.  
-
-## Who it is for
-
-* Security and IT teams tired of re-learning the same lessons.  
-* Organisations with rotating staff or shared responsibilities.  
-* Leadership looking for assurance that knowledge survives turnover.
+So how to build playbooks that survive contact with reality, 
+manuals that get used at 3:00, dashboards that answer the question the analyst is actually asking, and workflows 
+that reduce friction rather than add it. They are most useful when the conditions for honest documentation exist. 
+Where those conditions are still being built, the section on 
+[organisational development](../foundations/organisational-development/satir-core.md) is the place to start.
 
 ## Related
 
-- [Playbooks](playbooks.md)
-- [Workflows](workflows.md)
+- [Playbooks that actually work](playbooks.md)
+- [Moving beyond manuals nobody reads](manuals.md)
+- [Dashboards that actually get used](dashboards.md)
+- [Workflows that get followed](workflows.md)
 - [SIRT structure](../making-of/sirt/structure.md)
-- [SOC workflows](../making-of/soc/workflows.md)  
+- [SOC workflows](../making-of/soc/workflows.md)

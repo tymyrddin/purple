@@ -6,7 +6,7 @@ The [PSL](../foundations/problem-solving/index.rst) and [Satir](../foundations/o
 
 ## The three layers in architecture practice
 
-The rational layer in architecture is the domain of technical reasoning: what the system requires, what design satisfies those requirements, what trade-offs the design involves, and how the design should be communicated. This is the layer most architectural education focuses on, and it is genuinely important. But it is the layer that is most often treated as the whole of the work.
+The rational layer in architecture is the domain of technical reasoning: what the system requires, what design satisfies those requirements, what trade-offs the design involves, and how the design can be communicated. This is the layer most architectural education focuses on, and it is genuinely important. But it is the layer that is most often treated as the whole of the work.
 
 The emotional layer is the domain of people's experience of architectural decisions. For engineers, architectural decisions often touch on their sense of competence: a decision to replace a technology they know with one they do not, or to establish standards that make certain approaches they have used successfully feel illegitimate. For managers, architectural decisions often touch on their commitments: a new architecture may make previous delivery estimates no longer credible, or may require admitting that a direction that was presented confidently needs to change. For executives, architectural decisions touch on their priorities: investment in architectural coherence competes with investment in features and with the immediate demands that generate the most visible pressure.
 

@@ -20,7 +20,7 @@ A PSL-aware approach involves a different scope from the start.
 
 Not just systems, but decision paths, ownership gaps, and trust assumptions. Where does responsibility transfer between teams? Where are handoffs informal? Where does someone assume someone else has visibility they do not have?
 
-Ownership ambiguity is a vulnerability class. It should be reported as one.
+Ownership ambiguity is a vulnerability class. It is worth reporting as one.
 
 ### Reporting organisational findings alongside technical ones
 

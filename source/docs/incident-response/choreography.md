@@ -1,13 +1,14 @@
 # Tabletop and live simulations (general)
 
-Tabletop and live simulations let teams test procedures, explore communication strategies, and practise continuity planning.
+Tabletop and live simulations let teams test procedures, explore communication strategies, and practise continuity 
+planning.
 
-Most incident exercises are polite performances: a few slides, a scripted scenario, and then everyone goes back to email. That makes for 
-nice PowerPoints but weak preparedness. Real operational resilience demands messy rehearsal: live decisions, messy trade-offs, 
-communication friction, and the human stress that reveals where plans actually break.
+Most incident exercises are polite performances: a few slides, a scripted scenario, and then everyone goes back to 
+email. That makes for nice PowerPoints but weak preparedness. Real operational resilience demands messy rehearsal: 
+live decisions, messy trade-offs, communication friction, and the human stress that reveals where plans actually break.
 
-This workshop is different. It is an adaptable, immersive facilitation process designed to turn plans on paper into practiced 
-habits. We run tabletop games for strategic clarity and live injections for process muscle — then we force the team to close 
+This workshop is different. It is an adaptable, immersive facilitation process designed to turn plans on paper into 
+practiced habits. We run tabletop games for strategic clarity and live injections for process muscle — then we force the team to close 
 the gap between what they think they will do and what they actually do.
 
 ## Core principles
@@ -34,7 +35,7 @@ The workshop is split into modular parts so you can choose the right intensity a
 
 3. Live injections: practise under pressure (1–4 hours)
    *  Controlled, safe disruptions are injected into real workflows: simulated alerts, fake press enquiries, a “compromised” account, or a broken vendor API.  
-   *  Teams must act in real time, using their normal tools and channels. Observers record timings, handoffs, and friction points.  
+   *  Teams act in real time, using their normal tools and channels. Observers record timings, handoffs, and friction points.  
    *  Optionally run a parallel red team to escalate pressure and realism.
 
 4. Comms rehearsal: internal and external (30–60 minutes)
@@ -56,9 +57,9 @@ The workshop is split into modular parts so you can choose the right intensity a
 ## Who it is for
 
 *   Incident response and security teams who need to practise coordination under pressure.  
-*   Senior leaders who must get confident making fast, evidence-based decisions.  
-*   Communications and legal teams who must work in lockstep with operations.  
-*   Cross-functional operational teams (platform, product, customer service) who must practise continuity and customer handling.
+*   Senior leaders who want to build confidence in fast, evidence-based decisions.  
+*   Communications and legal teams working in lockstep with operations.  
+*   Cross-functional operational teams (platform, product, customer service) who want to practise continuity and customer handling.
 
 ## Formats & duration
 

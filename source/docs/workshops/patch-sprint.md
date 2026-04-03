@@ -18,7 +18,7 @@ The preparation matters more than the sprint itself.
 
 Triage the backlog before the sprint begins. Not everything in a vulnerability backlog warrants the same urgency or the same approach. Group items by owner, by risk, and by complexity. Identify the items that are straightforwardly fixable within the sprint and the ones that require architectural work, co-ordination with other teams, or decisions that need to happen before the technical fix can proceed.
 
-Prepare the environment. Rollback mechanisms should be in place or explicitly understood before the sprint starts. A patch sprint where people are afraid to apply fixes because they cannot safely test them is a sprint where nothing will actually be applied to the systems that matter.
+Prepare the environment. Rollback mechanisms are worth establishing, or explicitly understanding, before the sprint starts. A patch sprint where people are afraid to apply fixes because they cannot safely test them is a sprint where nothing will actually be applied to the systems that matter.
 
 Agree on scope and success criteria. What counts as done? A patch applied to all affected systems, or applied to the highest-risk tier? A vulnerability remediated or a vulnerability mitigated with a documented plan for full remediation? Being explicit about this before the sprint prevents the common pattern of declaring success on the basis of tickets closed rather than risk reduced.
 

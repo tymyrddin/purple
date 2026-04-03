@@ -10,7 +10,7 @@ The process is deliberately not about predicting the future. It is about develop
 
 ## The flow
 
-1. Define the focal issue: choose the core question or challenge your organisation wants to explore. This should be specific enough to be meaningful and open enough to admit genuine uncertainty.
+1. Define the focal issue: choose the core question or challenge your organisation wants to explore. Specific enough to be meaningful, open enough to admit genuine uncertainty.
 2. Identify driving forces: map external factors shaping the future. In security, this includes the threat landscape, the regulatory environment, the organisation's own growth trajectory, and the capabilities of likely adversaries.
 3. Spot critical uncertainties: surface the unknowns that could radically alter outcomes. These are the things you cannot control and cannot predict with confidence. They are different from risks, which are known and estimable.
 4. Develop scenarios: sketch distinct, plausible futures based on how the critical uncertainties might resolve. Aim for variety: scenarios that are genuinely different from each other are more useful than variations on the same theme.

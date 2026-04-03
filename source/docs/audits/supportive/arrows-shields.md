@@ -193,7 +193,7 @@ When investigating incidents:
 
 1. Map observed indicators to MITRE ATT&CK techniques
 2. Identify related CWE/CAPEC patterns to understand the vulnerability exploited
-3. Check which ISO 27001 controls should have prevented or detected the attack
+3. Check which ISO 27001 controls could have prevented or detected the attack
 4. Verify NIS2 incident reporting obligations based on impact and threat type
 5. Document lessons learned to improve controls
 

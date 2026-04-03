@@ -16,6 +16,9 @@ Foundation nobody asked for and a third option that makes both of them slightly 
 
    docs/asimov/index
 
+.. image:: /_static/images/asimovs-foundations.png
+  :alt: A vast sci-fi scene inspired by Isaac Asimov’s Foundation universe: on the left, the First Foundation on Terminus, a sleek futuristic city under a transparent dome, glowing with advanced technology and starships; on the right, the hidden Second Foundation represented by shadowy figures in a vast ancient library on Trantor, surrounded by data streams and subtle psychic energy; in the centre background, Gaia as a living planet, covered in lush forests and oceans, glowing with a soft green consciousness, faint neural patterns connecting all life; the three elements connected by faint lines of light symbolising influence and control.
+
 The work
 ------------------------
 
@@ -30,11 +33,13 @@ The work
    docs/systems-architecture/index
    docs/purple/index
    docs/workshops/index
+   docs/incident-response/index
    docs/threat-modelling/index
    docs/risk-management/index
    docs/making-of/index
    docs/audits/index
    docs/knowledge-transfer/index
+   docs/engagement/index
 
 Stories, roleplay, simulations, and simulators
 -------------------------------------------------

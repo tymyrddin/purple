@@ -35,4 +35,4 @@ Before closing, address this directly: who in the room has the authority and the
 - [Building the model](building-model.md)
 - [Crafting scenarios](crafting-scenarios.md)
 - [What ChangeShop is](../foundations/change-management/what-it-is.md)
-- [Purple team engagement objectives](../purple/engagement/objectives.md)
+- [Purple team engagement objectives](../engagement/objectives.md)

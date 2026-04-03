@@ -56,7 +56,7 @@ Activities: Form hypothesis, search logs and telemetry, analyse findings, docume
 
 Learning: Hypothesis-driven investigation, data mining skills, what makes effective IOCs, hunt documentation requirements.
 
-## Tools red team should learn
+## Tools worth learning
 
 SIEM platforms: Splunk, Elastic, Sentinel - Query languages, correlation rules, dashboard creation.
 
@@ -72,7 +72,7 @@ Threat intelligence: TIP platforms, IOC formats, STIX/TAXII, threat actor profil
 
 Before engagements: Review defensive capabilities. Know what monitoring exists. Plan operations that test realistic gaps.
 
-During engagements: Consider detection opportunities. Note what should have been detected but wasn't. Document blue team visibility.
+During engagements: Consider detection opportunities. Note what was not detected. Document blue team visibility.
 
 After engagements: Provide detection-focused feedback. Explain exactly where blue team could have detected activity. Help write detection rules.
 

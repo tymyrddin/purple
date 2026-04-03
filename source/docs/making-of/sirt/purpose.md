@@ -12,15 +12,15 @@ A SIRT provides the organisation with a coordinated response when something goes
 
 Without coordination, each incident gets handled by whoever notices it first, using whatever resources and methods they have available. That produces inconsistent outcomes, incomplete records, and the same incidents recurring because the learning does not get captured and acted on.
 
-The [SEM](../../foundations/system-effectiveness/index.rst) framing is useful here: the current response behaviour, however improvised, is a model. It encodes assumptions about which incidents are serious enough to escalate, who the right person is to escalate to, and what response means. Making those assumptions explicit is part of what building a SIRT accomplishes. The SIRT is a better model of how incidents should be handled, not just an additional team.
+The [SEM](../../foundations/system-effectiveness/index.rst) framing is useful here: the current response behaviour, however improvised, is a model. It encodes assumptions about which incidents are serious enough to escalate, who the right person is to escalate to, and what response means. Making those assumptions explicit is part of what building a SIRT accomplishes. The SIRT is a better model of how incidents are handled, not just an additional team.
 
 ## What the organisation needs to provide
 
 A SIRT requires four things that no amount of technical planning can substitute for:
 
-Mandate: someone with organisational authority must decide that the SIRT exists, that it has the right to be involved in incidents, and that the organisation is expected to cooperate with it. A SIRT without a mandate has no way to obtain the access and information it needs when an incident occurs.
+Mandate: someone with organisational authority needs to decide that the SIRT exists, that it has the right to be involved in incidents, and that the organisation is expected to cooperate with it. A SIRT without a mandate has no way to obtain the access and information it needs when an incident occurs.
 
-Resources: a SIRT whose members have no time allocated to SIRT work will not function. This does not require large dedicated headcount, but it does require protected time. Incidents are not evenly distributed, and a team that can only work on incidents when nothing else is happening will always have something else happening.
+Resources: a SIRT whose members have no time allocated to SIRT work will not function. This does not require large dedicated headcount, but it does need protected time. Incidents are not evenly distributed, and a team that can only work on incidents when nothing else is happening will always have something else happening.
 
 Authority: the SIRT needs the authority to declare an incident, to require containment actions, and to communicate externally when communication is required. Authority that has to be negotiated from scratch during an active incident is authority that arrives too slowly.
 
