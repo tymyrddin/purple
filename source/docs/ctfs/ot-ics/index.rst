@@ -13,7 +13,7 @@ is the more ambitious option, and the harder one to get right.
 
 .. toctree::
    :glob:
-   :maxdepth: 2
+   :maxdepth: 1
    :includehidden:
 
    attack-surface.md

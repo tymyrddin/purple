@@ -1,4 +1,4 @@
-Root-Me
+Puzzles for Root-Me
 ===============================================
 
 Root-Me is a European cybersecurity platform hosting over 500 individual challenges across categories like network,
