@@ -20,16 +20,8 @@ conditions for them have been created, and fail when those conditions are assume
 .. toctree::
    :maxdepth: 2
    :includehidden:
-   :caption: Security teams:
 
    sirt/index
    soc/index
    purple-team/index
-
-.. toctree::
-   :maxdepth: 2
-   :includehidden:
-   :caption: Labs and environments:
-
    iac/index
-   cloud/index

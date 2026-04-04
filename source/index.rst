@@ -22,6 +22,7 @@ Foundation nobody asked for and a third option that makes both of them slightly 
    docs/systems-architecture/index
    docs/purple/index
    docs/workshops/index
+   docs/ctfs/index
    docs/incident-response/index
    docs/threat-modelling/index
    docs/risk-management/index
