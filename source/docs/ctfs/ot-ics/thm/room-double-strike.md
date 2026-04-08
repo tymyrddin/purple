@@ -10,8 +10,7 @@ partially recover from. The room is accurate to the documented incident while st
 constraints of a single VM.
 
 Difficulty: intermediate to advanced.
-Techniques covered: 8 (trust exploitation), 10 (initial access and lateral movement), 2
-(intelligence gathering), 1 (unauthorised state manipulation), destructive payload.
+Techniques covered: trust exploitation, initial access and lateral movement, process intelligence gathering, unauthorised state manipulation, destructive payload.
 Simulator: power-and-light-sim, IEC-104 complete on port 2404, single-process, no Docker.
 Prerequisites: familiarity with port scanning and basic web application interaction. Room 1
 ("Dead Reckoning") is useful but not required.
@@ -214,13 +213,13 @@ required answer.
 
 ## Flag summary
 
-| Flag | Location                                   | Technique           | How earned                                             |
-|:-----|:-------------------------------------------|:--------------------|:-------------------------------------------------------|
-| 1    | Authenticated session response header      | 8                   | Default credential login to corporate portal           |
-| 2    | IEC-104 data object, general interrogation | 10                  | Pivot from corporate to OT, issue interrogation        |
-| 3    | Measured value quality descriptor field    | 2                   | Read every data object before touching anything        |
-| 4    | Data object written by physics engine      | 1                   | Correct C_SC_NA_1 command, breaker trips               |
-| 5    | Backup configuration file                  | Destructive payload | Wiper understood and located before or after execution |
+| Flag | Location                                   | Technique                   | How earned                                             |
+|:-----|:-------------------------------------------|:----------------------------|:-------------------------------------------------------|
+| 1    | Authenticated session response header      | trust exploitation          | Default credential login to corporate portal           |
+| 2    | IEC-104 data object, general interrogation | lateral movement            | Pivot from corporate to OT, issue interrogation        |
+| 3    | Measured value quality descriptor field    | process intelligence        | Read every data object before touching anything        |
+| 4    | Data object written by physics engine      | state manipulation          | Correct C_SC_NA_1 command, breaker trips               |
+| 5    | Backup configuration file                  | destructive payload         | Wiper understood and located before or after execution |
 
 ## VM specification
 

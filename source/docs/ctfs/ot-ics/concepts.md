@@ -17,19 +17,27 @@ A good OT/ICS CTF concept passes three tests before any code is written:
 The technique categories in the attack surface reference map unevenly to the simulators. The table below
 shows which categories have direct simulator backing and where the coverage comes from.
 
-| Technique                                  | Simulator coverage                                                                                                                           |
-|:-------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Unauthorised state manipulation         | power-and-light-sim: Modbus coil write, turbine overspeed, safety interlock bypass; DNP3, IEC-104, and S7 protocols present and reachable    |
-| 2. Process intelligence gathering          | power-and-light-sim: OPC UA anonymous browsing, recon phase scripts; ics-simlab: relay configuration read                                    |
-| 3. Data exfiltration                       | ics-simlab: historian data access, relay config pull; power-and-light-sim: register reads across protocols                                   |
-| 4. Data integrity manipulation             | partial: historian tampering in ics-simlab touches this but the physics layer does not yet accept injected values as real sensor input       |
-| 6. Control logic manipulation              | power-and-light-sim: setpoint-level attacks; S7 program blocks reachable on port 102 but no challenge exercises CPU stop or logic upload yet |
-| 7. Denial of control and safety disruption | power-and-light-sim: safety interlock bypass, emergency stop command                                                                         |
-| 8. Trust exploitation and misconfiguration | power-and-light-sim: SCADA anonymous access, RBAC bypass, OPC UA credential sniffing                                                         |
-| 10. Initial access and lateral movement    | ics-simlab: EWS pivot, zone-to-zone movement; power-and-light-sim: enterprise-to-control lateral movement                                    |
+| Technique                                   | Simulator coverage                                                                                                                           |
+|:--------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
+| Spear phishing and social engineering       | none; OT challenges conventionally treat initial IT access as given and start participants inside the network                                |
+| Credential attacks and authentication abuse | power-and-light-sim: OPC UA credential sniffing; ics-simlab: EWS login path; no dedicated brute-force or MFA-bypass scenario yet           |
+| Supply chain and third-party compromise     | none; would require modelling a trusted update or vendor access path that neither simulator currently provides                               |
+| Physical access and insider threat          | not reproducible in software simulation; see "What cannot be simulated"                                                                      |
+| Initial access and lateral movement         | ics-simlab: EWS pivot, zone-to-zone movement; power-and-light-sim: enterprise-to-control lateral movement                                    |
+| Trust exploitation and misconfiguration     | power-and-light-sim: SCADA anonymous access, RBAC bypass, OPC UA credential sniffing                                                         |
+| Living-off-the-land and pre-positioning     | none; requires persistent foothold mechanics and a time dimension neither simulator models                                                   |
+| Process intelligence gathering              | power-and-light-sim: OPC UA anonymous browsing, recon phase scripts; ics-simlab: relay configuration read                                    |
+| Data exfiltration                           | ics-simlab: historian data access, relay config pull; power-and-light-sim: register reads across protocols                                   |
+| Replay and timing attacks                   | none; see "Feasible but not yet simulated"                                                                                                   |
+| Unauthorised state manipulation             | power-and-light-sim: Modbus coil write, turbine overspeed, safety interlock bypass; DNP3, IEC-104, and S7 protocols present and reachable    |
+| Data integrity manipulation                 | partial: historian tampering in ics-simlab touches this but the physics layer does not yet accept injected values as real sensor input       |
+| Control logic manipulation                  | power-and-light-sim: setpoint-level attacks; S7 program blocks reachable on port 102 but no challenge exercises CPU stop or logic upload yet |
+| Denial of control and safety disruption     | power-and-light-sim: safety interlock bypass, emergency stop command                                                                         |
+| Safety system targeting and SIS bypass      | power-and-light-sim: safety interlock bypass maps to this; no scenario models the SIS as a distinct target with its own protocol path        |
+| Protocol abuse and malformed input          | none; see "Feasible but not yet simulated"                                                                                                   |
 
-Techniques 5 (replay and timing), 9 (protocol abuse), and the vendor remote access and HMI sub-surfaces
-of technique 10 have no current simulator coverage.
+Replay and timing attacks, protocol abuse, and the vendor remote access and HMI sub-surfaces of lateral
+movement have no current simulator coverage.
 
 ## Feasible but not yet simulated
 
@@ -115,21 +123,21 @@ itself a network.
 ## Challenge inventory
 
 The following challenges are ready for packaging. Each maps to an existing exercise in the simulation
-repositories. The technique column references the category numbers in the attack surface reference.
+repositories. The technique column references the category in the attack surface reference.
 
-| #  | Name                                             | Technique | Category | Difficulty            | Source              |
-|:---|:-------------------------------------------------|:----------|:---------|:----------------------|:--------------------|
-| 1  | SCADA Anonymous Access                           | 8         | Realist  | Beginner              | power-and-light-sim |
-| 2  | Role-Based Access Control Bypass                 | 8         | Realist  | Beginner-Intermediate | power-and-light-sim |
-| 3  | Covering Tracks (Audit Log Evasion)              | 3         | Realist  | Intermediate          | power-and-light-sim |
-| 4  | Turbine Overspeed Injection                      | 1         | Realist  | Intermediate          | power-and-light-sim |
-| 5  | Dangerous Modbus Function Codes                  | 1         | Realist  | Beginner-Intermediate | power-and-light-sim |
-| 6  | Safety Interlock Bypass                          | 7         | Realist  | Intermediate          | power-and-light-sim |
-| 7  | Credential Sniffing (OPC UA)                     | 8         | Network  | Intermediate          | power-and-light-sim |
-| 8  | Lateral Movement (Enterprise to Control)         | 10        | Realist  | Advanced              | power-and-light-sim |
-| 9  | Zone-to-Zone Pivot (via Engineering Workstation) | 10        | Realist  | Intermediate          | ics-simlab          |
-| 10 | Historian Data Tampering                         | 3         | Realist  | Beginner-Intermediate | ics-simlab          |
-| 11 | Protective Relay Configuration Read              | 2         | Network  | Beginner              | ics-simlab          |
-| 12 | Modbus Coil Write Attack (Breaker Open)          | 1         | Realist  | Beginner-Intermediate | ics-simlab          |
+| #  | Name                                             | Technique                       | Category | Difficulty            | Source              |
+|:---|:-------------------------------------------------|:--------------------------------|:---------|:----------------------|:--------------------|
+| 1  | SCADA Anonymous Access                           | Trust exploitation              | Realist  | Beginner              | power-and-light-sim |
+| 2  | Role-Based Access Control Bypass                 | Trust exploitation              | Realist  | Beginner-Intermediate | power-and-light-sim |
+| 3  | Covering Tracks (Audit Log Evasion)              | Data exfiltration               | Realist  | Intermediate          | power-and-light-sim |
+| 4  | Turbine Overspeed Injection                      | State manipulation              | Realist  | Intermediate          | power-and-light-sim |
+| 5  | Dangerous Modbus Function Codes                  | State manipulation              | Realist  | Beginner-Intermediate | power-and-light-sim |
+| 6  | Safety Interlock Bypass                          | Denial of control               | Realist  | Intermediate          | power-and-light-sim |
+| 7  | Credential Sniffing (OPC UA)                     | Trust exploitation              | Network  | Intermediate          | power-and-light-sim |
+| 8  | Lateral Movement (Enterprise to Control)         | IT/OT lateral movement          | Realist  | Advanced              | power-and-light-sim |
+| 9  | Zone-to-Zone Pivot (via Engineering Workstation) | IT/OT lateral movement          | Realist  | Intermediate          | ics-simlab          |
+| 10 | Historian Data Tampering                         | Data exfiltration               | Realist  | Beginner-Intermediate | ics-simlab          |
+| 11 | Protective Relay Configuration Read              | Process intelligence gathering  | Network  | Beginner              | ics-simlab          |
+| 12 | Modbus Coil Write Attack (Breaker Open)          | State manipulation              | Realist  | Beginner-Intermediate | ics-simlab          |
 
 See the [attack surface reference](attack-surface.md) for the technique mechanics behind each challenge.

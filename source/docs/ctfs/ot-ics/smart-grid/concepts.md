@@ -39,9 +39,5 @@ the technique lands, and that is what the simulation needs to show.
 
 ## Challenge inventory
 
-Pending. No smart grid simulator exists yet. This table will be populated once the simulation layer is
-built. See resources for what needs to be developed.
-
-| # | Name | Category | Difficulty | Source |
-|:--|:-----|:---------|:-----------|:-------|
-| - | -    | -        | -          | -      |
+Pending. No smart grid simulator exists yet. See [resources](resources.md) for what needs to be
+developed before any challenge can be built here.

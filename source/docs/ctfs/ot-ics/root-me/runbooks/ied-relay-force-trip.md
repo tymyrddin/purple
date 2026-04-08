@@ -3,7 +3,7 @@
 Force-trip a protective relay by writing coil 0 via unauthenticated Modbus. The breaker
 opens. The physics engine reflects the loss of load.
 
-- Technique: [1: unauthorised state manipulation](../../attack-surface.md)
+- Technique: [Unauthorised state manipulation](../../attack-surface.md)
 - Challenge type: Network (PCAP) or Realist
 - Difficulty: Intermediate
 

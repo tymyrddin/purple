@@ -3,7 +3,7 @@
 Unauthenticated path traversal on the historian `/export` endpoint returns the raw SQLite
 database. The database contains alarm thresholds, credentials, and process history.
 
-- Technique: [3: data exfiltration](../../attack-surface.md)
+- Technique: [Data exfiltration](../../attack-surface.md)
 - Challenge type: Network (PCAP) or Forensic
 - Difficulty: Intermediate
 
@@ -91,5 +91,5 @@ is both the exfiltration target and the recon stage for the relay attack.
 
 Chain this with the IED relay runbook: the alarm thresholds extracted here map directly
 to the relay holding registers `HR[0]` to `HR[2]`. A challenge that requires both steps (path
-traversal to learn thresholds, then Modbus write to manipulate them) covers techniques 3
-and 6 in sequence and sits at Advanced difficulty.
+traversal to learn thresholds, then Modbus write to manipulate them) covers data exfiltration
+and control logic manipulation in sequence and sits at Advanced difficulty.

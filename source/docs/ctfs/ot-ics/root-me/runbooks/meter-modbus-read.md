@@ -3,7 +3,7 @@
 Unauthenticated read of all five input registers on the revenue meter, revealing live
 turbine process values. No write, no side effects.
 
-- Technique: [2: process intelligence gathering](../../attack-surface.md)
+- Technique: [Process intelligence gathering](../../attack-surface.md)
 - Challenge type: Network (PCAP)
 - Difficulty: Beginner
 

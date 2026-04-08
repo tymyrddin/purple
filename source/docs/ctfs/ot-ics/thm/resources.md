@@ -1,11 +1,11 @@
-# Simulator: power-and-light-sim
+# Simulator power-and-light-sim
 
 [https://github.com/tymyrddin/power-and-light-sim](https://github.com/tymyrddin/power-and-light-sim)
 
 Python-based simulator with a physics engine and a Purdue-model network topology (enterprise,
 operations, control, DMZ zones). Configuration-driven via YAML. Runs with Python 3.12.
 
-Technique numbers reference the categories in [attack surface](../attack-surface.md).
+Techniques reference the categories in [attack surface](../attack-surface.md).
 
 ## Protocol implementation status
 
@@ -47,26 +47,26 @@ PLC Modbus vulnerability is documented with real-world impact assessment in `the
 
 ## Done
 
-* Modbus TCP and RTU servers (technique 1)
-* IEC 104 server (technique 1)
-* OPC UA server with certificate tooling (techniques 1, 2, 8)
-* S7 server (techniques 1, 6), privileged port workaround required
-* DNP3 partial implementation (techniques 1, 2)
+* Modbus TCP and RTU servers (state manipulation)
+* IEC 104 server (state manipulation)
+* OPC UA server with certificate tooling (state manipulation, process intelligence, trust exploitation)
+* S7 server (state manipulation, control logic manipulation), privileged port workaround required
+* DNP3 partial implementation (state manipulation, process intelligence)
 * EtherNet/IP with simplified CIP support
-* Physics engines responding to control writes (technique 1)
+* Physics engines responding to control writes (state manipulation)
 * Blue team tooling: `tools/blue_team.py`, 8+ workshop challenges
 
 ## Feasible
 
 * DNP3 CROB challenge: protocol present at port 20000, partial implementation; a dedicated
   challenge exercising the control relay output block path with visible physical consequence is
-  not yet built (technique 1)
+  not yet built (state manipulation)
 * Subtle setpoint drift: physics layer responds to setpoint writes; a within-bounds incremental
-  manipulation challenge does not yet exist (technique 6)
+  manipulation challenge does not yet exist (control logic manipulation)
 * Data integrity injection: the physics layer is in place but there is no confirmed attacker path
-  that feeds false readings into the physics model as real sensor input (technique 4)
+  that feeds false readings into the physics model as real sensor input (data integrity manipulation)
 * Replay challenge: the deterministic physics makes power-and-light-sim well suited to replay
   (stable expected behaviour makes deviations detectable), but no replay infrastructure exists
-  yet (technique 5)
+  yet (replay attacks)
 * MQTT broker: not present; adding one as a telemetry bus would enable wildcard subscription and
-  false telemetry injection challenges at low cost (techniques 2, 4)
+  false telemetry injection challenges at low cost (process intelligence, data integrity manipulation)

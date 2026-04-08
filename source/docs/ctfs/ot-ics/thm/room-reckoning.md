@@ -10,8 +10,7 @@ against a live physics simulation. Every action has a consequence the participan
 
 Difficulty: beginner to intermediate.
 
-Techniques covered: 1 (unauthorised state manipulation), 2 (process intelligence gathering),
-8 (trust exploitation and misconfiguration abuse).
+Techniques covered: unauthorised state manipulation, process intelligence gathering, trust exploitation and misconfiguration abuse.
 
 Simulator: power-and-light-sim, single-process, no Docker.
 
@@ -162,12 +161,12 @@ required answer.
 
 ## Flag summary
 
-| Flag | Location                               | Technique | How earned                      |
-|:-----|:---------------------------------------|:----------|:--------------------------------|
-| 1    | OPC UA server description field        | 8         | Anonymous OPC UA connection     |
-| 2    | OPC UA node under turbine device       | 2         | Namespace browsing              |
-| 3    | Holding register, unlabelled           | 2         | Modbus register enumeration     |
-| 4    | Written by physics engine on overspeed | 1         | Correct governor setpoint write |
+| Flag | Location                               | Technique                   | How earned                      |
+|:-----|:---------------------------------------|:----------------------------|:--------------------------------|
+| 1    | OPC UA server description field        | trust exploitation          | Anonymous OPC UA connection     |
+| 2    | OPC UA node under turbine device       | process intelligence        | Namespace browsing              |
+| 3    | Holding register, unlabelled           | process intelligence        | Modbus register enumeration     |
+| 4    | Written by physics engine on overspeed | state manipulation          | Correct governor setpoint write |
 
 ## VM specification
 

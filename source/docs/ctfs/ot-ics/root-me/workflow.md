@@ -11,11 +11,12 @@ Each runbook is the concrete reference; this workflow is the framing around it.
 Select one technique from [attack-surface.md](../attack-surface.md) and one specific mechanic.
 One challenge, one technique. Decide the flag location before designing anything else.
 
-The meter Modbus read challenge targets technique 2: the flag lives in input register `IR[4]`,
-present in the capture from the first read. The IED relay challenge targets technique 1: the
-flag appears in holding registers only after the force-trip write, teaching that the consequence
-matters as much as the command. The historian path traversal targets technique 3: the flag is
-a row in the credentials table, reachable only by downloading and querying the full database.
+The meter Modbus read challenge targets process intelligence gathering: the flag lives in input
+register `IR[4]`, present in the capture from the first read. The IED relay challenge targets
+unauthorised state manipulation: the flag appears in holding registers only after the force-trip
+write, teaching that the consequence matters as much as the command. The historian path traversal
+targets data exfiltration: the flag is a row in the credentials table, reachable only by
+downloading and querying the full database.
 
 Identify which ics-simlab component produces the relevant traffic:
 

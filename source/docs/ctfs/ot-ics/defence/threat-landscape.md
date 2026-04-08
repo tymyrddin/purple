@@ -1,0 +1,23 @@
+# European OT Threat Landscape
+
+The table below covers thirteen consolidated threat categories ordered by operational relevance,
+not kill-chain position. It draws on the same sixteen techniques in the
+[attack surface reference](../attack-surface.md) but groups some related items and orders by
+likelihood rather than by attack phase. The intent is threat prioritisation for defenders, not
+a step-by-step attacker playbook.
+
+|  | Technique | Likelihood (EU) | Impact (EU) | Rationale |
+|:---|:---|:---|:---|:---|
+| 1 | Reconnaissance and environment mapping | High | Medium | ENISA consistently identifies weak segmentation and exposed OT services. Attackers are mapping; most operators cannot see it. |
+| 2 | Data exfiltration | Medium | Medium-High | Historians are dual-homed and poorly owned. Confirmed in global incidents (Nordex, Encevo/Creos IT access) but public OT-layer exfiltration confirmation is rare. Likely under-detected. |
+| 3 | Data integrity manipulation | Low-Medium | High | Confirmed outside Europe (Canada water, 2025). ENISA tracks "active manipulation." Hard to detect, even harder to attribute. Impact is physical process disruption. |
+| 4 | Replay and timing attacks | Low | Medium | Well-understood academically (DNP3, IEC-104). Confirmed vulnerabilities (CVE-2017-6034). Attackers with access tend to prefer direct writes. Detection is nearly impossible without sequence checking. |
+| 5 | Control logic manipulation | Low-Medium | High | Industroyer2 (command injection, not full logic rewrite) is the closest European precedent. Supply chain attacks (ENISA) could deliver logic changes via trusted firmware. Impact is persistent, stealthy, and hard to revert. |
+| 6 | Denial of control and safety disruption | Medium | High | Confirmed in Europe: Poland hydropower (2025), Poland wiper attack (2025) caused loss of view and control. KillDisk (2015) blinded operators. IT-ransomware cascading into OT downtime (Norsk Hydro, Varta) is the dominant European pattern. |
+| 7 | Trust exploitation and misconfiguration | High | Medium-High | The most consistently relevant technique in European OT. ENISA findings: default credentials, anonymous OPC UA, flat networks. Protocol gateways are a specific and underowned gap. |
+| 8 | Protocol abuse and malformed input | Low | Low-Medium | CVEs exist (Schneider, Siemens, ABB). Public exploit code exists. Observed adversarial use in Europe is rare. Accidental triggering (misconfigured tools, corrupted updates) may be more common than intentional attacks. |
+| 9 | IT/OT boundary initial access and lateral movement | High | High | The dominant pattern in every major European OT incident (BlackEnergy, Industroyer, NotPetya, Triton). EWS, historian, HMI, and vendor VPN are the front door. NIS2 supply chain provisions exist precisely because of this. |
+| 10 | Credential attacks and authentication abuse | High | High | Colonial Pipeline is the canonical example. ENISA consistently finds default credentials and absent multifactor authentication across European operators. The simplest technique; frequently the most effective. |
+| 11 | Supply chain and third-party compromise | Medium-High | High | COSMICENERGY, SolarWinds. ENISA identifies it as a primary emerging threat. NIS2 includes dedicated supply chain risk management obligations. Vendor and integrator access is endemic and often unmonitored. |
+| 12 | Spear phishing and social engineering | High | High | BlackEnergy and Sandworm both began with spear phishing. The IT foothold that precedes every IT/OT lateral movement. Universally applicable, rarely defended in OT operator training. |
+| 13 | Physical access and insider threat | Low-Medium | High | Stuxnet is the canonical physical vector. Insider threat is operationally more common in European OT than the public incident record suggests. Hard to detect and harder to attribute than network-based techniques. |

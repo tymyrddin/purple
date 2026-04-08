@@ -6,7 +6,7 @@ Compose configuration, not an artefact.
 
 The [full-chain runbook](runbooks/full-chain.md) is the concrete reference for the first
 Realist challenge: a three-zone attack from jump-host entry to turbine emergency stop,
-covering techniques 8, 3, 10, 2, and 1 in sequence. This workflow follows that chain
+covering trust exploitation, data exfiltration, lateral movement, process intelligence, and state manipulation in sequence. This workflow follows that chain
 as a running example.
 
 See [workflow.md](workflow.md) for Network and Forensic challenge creation.
@@ -76,8 +76,9 @@ credentials file, and the engineering notes are all inside the environment.
 Solution for Root-Me reviewers:
 * Exact commands at each stage with expected outputs
 * Flag location (`HR[9]` on 10.10.3.21, present only after turbine trips)
-* Technique breakdown: 8 (FTP/SMB legacy trust), 3 (historian credential exfiltration),
-  10 (pivot via engineering workstation), 2 (PLC register read), 1 (estop write)
+* Technique breakdown: trust exploitation (FTP/SMB legacy trust), data exfiltration (historian
+  credential exfiltration), lateral movement (pivot via engineering workstation), process intelligence
+  (PLC register read), state manipulation (estop write)
 * Real-world reference: ICS-CERT ICSA-10-090-01, BlackEnergy/Ukraine 2015
 
 ## Phase 5: Resource and timing checks
@@ -107,7 +108,7 @@ challenge at a time until the first one clears review.
 
 Root-Me flags are static per submission. The full-chain challenge covers the complete attack
 path. The next Realist challenge uses the same infrastructure but a different endpoint, for
-example IED relay threshold manipulation (technique 6) instead of the turbine estop. The
+example IED relay threshold manipulation (control logic manipulation) instead of the turbine estop. The
 participant reaches the engineering workstation by the same path, then pivots to the relay
 rather than the PLC. Each challenge teaches a distinct technique; the series as a whole
 covers the full depth of the environment.
