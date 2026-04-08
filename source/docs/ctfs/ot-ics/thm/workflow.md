@@ -1,4 +1,4 @@
-# Workflow: creating rooms with power-and-light-sim
+# Workflow
 
 This workflow is being derived from designing [Dead Reckoning](room-reckoning.md) and [Double Strike](room-double-strike.md).
 Both rooms use `power-and-light-sim` as a single-process Python service, no Docker. Each room is

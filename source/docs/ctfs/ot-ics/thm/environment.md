@@ -35,9 +35,9 @@ Services run as `systemd` units and start automatically on boot without manual i
 TryHackMe rooms are built from tasks. Each task has a description and optional questions.
 There are no other section types.
 
-| Element            | Notes                                                                      |
-|:-------------------|:---------------------------------------------------------------------------|
-| Tasks              | Primary unit; each has a description and 0 or more questions               |
+| Element            | Notes                                                                       |
+|:-------------------|:----------------------------------------------------------------------------|
+| Tasks              | Primary unit; each has a description and 0 or more questions                |
 | Question types     | Free-text (specific answer required), multiple choice, no answer needed     |
 | Max questions      | 15 per room; more requires explicit admin approval                          |
 | Attached VM        | One VM per room, attached at task level                                     |

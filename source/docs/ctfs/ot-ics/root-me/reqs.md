@@ -1,4 +1,4 @@
-# Requirements and constraints
+# Root-me requirements and constraints
 
 ## Submission process
 

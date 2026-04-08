@@ -1,4 +1,4 @@
-# Requirements and constraints
+# TryHackMe requirements and constraints
 
 TryHackMe's official documentation states: *Please submit only community challenge content (CTF) for public release, as walkthrough rooms are currently not being reviewed for public publishing. However, you are more than welcome to continue creating and experimenting with walkthrough rooms for personal use and share them privately with friends or colleagues.*
 
