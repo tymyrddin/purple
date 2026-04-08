@@ -1,100 +1,233 @@
-# OT/ICS attack surface reference
+# OT/ICS attack surface reference (technique-based)
 
-These are the protocols in scope for the simulation environments. Each entry covers what the protocol does,
-what it exposes, and what an attacker can do with it. This is the reference layer for challenge design: if a
-technique does not appear here, the simulation environments probably do not support it.
+This layer abstracts protocol specifics into attacker techniques. Each technique can be implemented via one
+or more protocols in the simulation environments. If a technique is not represented here, it is either out
+of scope or not supported by the current lab stack.
 
-## Modbus
+The protocol reference (Modbus, DNP3, IEC-104, OPC UA, S7, MQTT) remains the toolbox. This is the playbook.
 
-Port 502/tcp. No authentication. No encryption. Designed for serial communication in the 1970s and never
-meaningfully updated for network environments.
+Where a technique has no confirmed real-world incident, this is noted. Theoretically validated means
+peer-reviewed research has established the method is sound; it does not mean it has been deployed against
+live infrastructure.
 
-Attack surface:
+## 1. Unauthorised state manipulation
 
-* Read coils and registers without any credential check (FC01, FC02, FC03, FC04)
-* Write coils and registers to force physical state changes (FC05, FC06, FC15, FC16)
-* No audit trail at the protocol level
-* Responses are deterministic and easy to spoof
+Change the physical process by issuing control commands.
 
-What breaks in CTF design: Modbus function code attacks are simple to demonstrate but easy to make too obvious.
-The interesting design space is in the consequence, not the write itself. What happens to the physical model when
-the coil flips?
+What it looks like:
 
-## DNP3
+* Flip coils, write registers, operate breakers, toggle actuators
+* Start or stop PLC execution
+* Override setpoints (temperature, pressure, flow)
 
-Port 20000/tcp (also serial). Designed for SCADA communications in electric utilities. Secure Authentication v5
-exists but is rarely deployed. Base DNP3 has no authentication.
+Protocols involved:
 
-Attack surface:
+* Modbus (writes)
+* DNP3 (CROB)
+* IEC-104 (single/double commands)
+* S7 (DB writes, CPU control)
+* OPC UA (write nodes)
 
-* Unauthenticated control relay output block (CROB) messages to operate breakers and switches
-* Read analog and binary inputs to exfiltrate process data
-* Replay attacks: captured control messages re-sent to reproduce an effect
-* Spoofed unsolicited responses to inject false data into the SCADA historian
+Design angle: The write itself is dull. The consequence is where things get interesting. Does the pump
+cavitate, does the grid destabilise, does the safety system trip?
 
-What breaks in CTF design: DNP3 object variations are not intuitive without a protocol reference. Challenges
-that require participants to decode object group/variation pairs need a clear resource pointer or the challenge
-becomes a documentation scavenger hunt rather than a technique exercise.
+## 2. Process intelligence gathering
 
-## IEC 60870-5-104 (IEC-104)
+Build an internal model of the system before touching it.
 
-Port 2404/tcp. The network adaptation of IEC 60870-5-101, used widely in European utilities and grid control.
-No authentication in the base standard.
+What it looks like:
 
-Attack surface:
+* Enumerate registers, nodes, data points
+* Map relationships between sensors and actuators
+* Identify safety limits and control loops
+* Passively observe process behaviour over time
+* Subscribe to MQTT topic `#` to receive every message on the broker without credentials
 
-* Inject control commands (type identifier C\_SC\_NA\_1 for single commands, C\_DC\_NA\_1 for double commands)
-* Read process information spontaneously or by interrogation
-* Force a general interrogation to map all data objects on the outstation
-* Craft malformed APDUs to test outstation error handling
+Protocols involved:
 
-What breaks in CTF design: IEC-104 is less familiar than Modbus to most participants. Challenges work better
-when the protocol framing is part of the learning, not an obstacle to it.
+* OPC UA (namespace browsing)
+* Modbus (read functions)
+* DNP3 and IEC-104 (interrogation, unsolicited responses)
+* MQTT (wildcard topic subscription)
 
-## OPC UA
+Design angle: Good attackers do this first. Good challenges reward patience here instead of rushing to
+"press the red button". The MQTT wildcard is an underappreciated intelligence vector in environments that
+use it for sensor telemetry: one command and every reading on the broker is visible.
 
-Port 4840/tcp. The current standard for OT/IT integration. Has a security model, but anonymous access is
-commonly enabled and certificates are frequently self-signed or bypassed.
+## 3. Data exfiltration
 
-Attack surface:
+Extract process data, often quietly.
 
-* Anonymous browsing of the node namespace reveals process structure, variable names, and live values
-* Read and write process variables where the security policy allows
-* Credential sniffing when running without TLS (OPC UA Basic128Rsa15 or None security mode)
-* Node enumeration to map the entire information model before touching anything
+What it looks like:
 
-What breaks in CTF design: OPC UA's security model means the challenge design has to make a deliberate choice
-about what is misconfigured and why. A well-designed OPC UA challenge teaches configuration review, not just
-tool use.
+* Read sensor values and historian feeds
+* Subscribe to telemetry streams
+* Pull configuration or program logic from PLCs
 
-## Siemens S7
+Protocols involved:
 
-Port 102/tcp. Proprietary Siemens protocol for communicating with S7-series PLCs. No authentication in S7comm.
-S7comm-plus (used in newer firmware) has partial protection but has been partially broken.
+* Modbus, DNP3, IEC-104 (reads)
+* OPC UA (variable access)
+* MQTT (subscriptions)
+* S7 (program block and DB upload)
 
-Attack surface:
+Design angle: Make the data meaningful. Stealing "register 40001 = 123" is pointless. Stealing "reactor
+pressure approaching critical threshold" is a decision point. Pulling an S7 program block is a full
+blueprint of what the process is doing and where the limits are.
 
-* Read and write data blocks (DBs) without authentication
-* Start and stop PLC CPU execution
-* Enumerate firmware version and hardware configuration
-* Upload and download program blocks
+## 4. Data integrity manipulation
 
-What breaks in CTF design: S7 attacks require snap7 or equivalent. Participants without prior Siemens exposure
-may spend most of their time on tooling rather than the technique. Works better as an advanced challenge with
-explicit tool documentation.
+Lie to the operator or control system.
 
-## MQTT
+What it looks like:
 
-Port 1883/tcp (unencrypted), 8883/tcp (TLS). Publish/subscribe protocol designed for constrained IoT devices.
-Authentication is optional and frequently disabled or set to default credentials.
+* Inject false sensor readings
+* Replay old "safe" values
+* Spoof responses from field devices
+* Poison historian data
 
-Attack surface:
+Protocols involved:
 
-* Subscribe to wildcard topic `#` to receive all messages on the broker
-* Publish false sensor readings to poison the data feed
-* Enumerate retained messages to recover historical state
-* Broker access with default or no credentials
+* DNP3 (replay, unsolicited responses)
+* IEC-104 (response injection)
+* MQTT (publish fake telemetry)
+* Modbus (spoofed replies)
 
-What breaks in CTF design: MQTT is easy to interact with and produces visible results quickly. The risk is that
-challenges become trivially solvable with a single `mosquitto_sub -t '#'`. The interesting design space is in
-what the injected data causes downstream.
+Design angle: This is where subtlety lives. The best attacks do not break the system, they convince it
+everything is fine while it quietly breaks itself.
+
+## 5. Replay and timing attacks
+
+Reuse valid traffic to reproduce effects or desynchronise systems.
+
+What it looks like:
+
+* Capture and replay control messages
+* Delay or reorder packets
+* Exploit deterministic response patterns
+
+Protocols involved:
+
+* DNP3 (classic replay)
+* Modbus (predictable transactions)
+* IEC-104 (sequence manipulation)
+
+Design angle: These are low-effort, high-impact in poorly defended environments. Also a good place to
+introduce detection challenges.
+
+## 6. Control logic manipulation
+
+Change how the system behaves, not just its current state.
+
+What it looks like:
+
+* Upload modified PLC logic
+* Change function blocks or ladder logic
+* Alter alarm thresholds or control loops
+* Adjust a single setpoint by a small increment, staying within normal operating range but nudging the
+  process toward a fault condition over time
+
+Protocols involved:
+
+* S7 (program upload/download)
+* OPC UA (method calls, configuration writes)
+
+Design angle: This is persistence in OT clothing. The system keeps betraying itself long after the
+attacker leaves. Subtle setpoint changes are more realistic for stealth operations than dramatic logic
+rewrites: they stay within normal operating parameters, avoid triggering alarms, and are considerably
+harder to attribute.
+
+## 7. Denial of control and safety disruption
+
+Prevent operators or systems from controlling the process safely.
+
+What it looks like:
+
+* Stop PLC CPU
+* Flood communication channels
+* Break protocol sessions
+* Trigger fail-safe or fail-open states
+
+Protocols involved:
+
+* S7 (CPU stop)
+* IEC-104 and DNP3 (session abuse)
+* MQTT (broker flooding)
+
+Design angle: Not all outages are loud. A slow loss of visibility can be far more dangerous than an
+immediate shutdown. MQTT broker flooding is theoretically plausible as a denial-of-service on the
+publish/subscribe layer but has no confirmed real-world incident in OT environments.
+
+## 8. Trust exploitation and misconfiguration abuse
+
+Abuse the fact that OT networks assume everything inside is friendly.
+
+What it looks like:
+
+* Anonymous OPC UA access
+* Default MQTT credentials
+* Flat network movement between zones
+* Blind trust between SCADA and field devices
+* Protocol gateway and converter devices at zone boundaries: they translate between Modbus, DNP3, and
+  IP, are often poorly secured, and sit between network segments by design
+
+Protocols involved: all of them, frankly.
+
+Design angle: This is the bridge to reality. Most real incidents are not zero-days; they are "why is
+this open to the entire network". Protocol gateways are a specific gap: security teams rarely own them
+clearly, and they are accessible from both sides of the boundary they sit on.
+
+## 9. Protocol abuse and malformed input
+
+Break or stress implementations rather than using them as intended.
+
+What it looks like:
+
+* Send malformed frames or APDUs
+* Trigger edge-case parsing behaviour
+* Fuzz protocol handlers
+
+Protocols involved:
+
+* IEC-104 (APDU crafting)
+* S7 and Modbus (implementation quirks)
+
+Design angle: Easy to get wrong in a CTF. If overused, it turns into "guess the crash input" rather
+than learning anything useful.
+
+## 10. Initial access and lateral movement through the IT/OT boundary
+
+Reach the OT environment from adjacent systems that span the divide.
+
+What it looks like:
+
+* Compromise an engineering workstation (EWS): it has legitimate protocol access to every PLC and IED
+  it manages, and is often a standard Windows machine on a shared or adjacent network
+* Abuse vendor remote access channels: persistent VPN or remote desktop sessions installed for
+  maintenance, rarely monitored, sometimes active permanently
+* Pivot via the SCADA historian: often dual-homed between IT and OT networks, running standard Windows,
+  and treated as IT infrastructure by IT teams and OT infrastructure by OT teams, adequately protected
+  by neither
+* Reach OT systems through Active Directory or shared authentication infrastructure extended into the
+  OT zone
+* Use the HMI as a command-issuing endpoint: it has full protocol access to the process and is often the
+  most accessible Windows machine in the OT zone
+
+Incident anchors: Triton/TRISIS was installed on an engineering workstation that had legitimate access to
+the Triconex safety controllers. Industroyer and BlackEnergy (Ukraine 2015) both reached OT systems
+through prior compromise of the corporate IT network. Colonial Pipeline's initial access was a VPN
+credential with no multi-factor authentication.
+
+Design angle: The initial access layer is almost entirely absent from published CTF challenges, which
+typically drop the participant already inside the OT network. Including even a simple EWS-to-PLC pivot
+teaches something most participants have never practised, and reflects how the vast majority of real
+incidents actually begin.
+
+## Playbooks
+
+This becomes the playbook.
+
+For example, *"Manipulate the cooling system so the reactor overheats, without triggering alarms"*
+
+A participant has options: direct write (loud, obvious), data spoofing (subtle), logic manipulation
+(persistent). Learning happens. Most likely.

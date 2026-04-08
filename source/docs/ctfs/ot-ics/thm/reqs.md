@@ -1,10 +1,6 @@
 # Requirements and constraints
 
-TryHackMe's official documentation states:
-
-> Please submit only community challenge content (CTF) for public release, as walkthrough rooms are currently not being
-> reviewed for public publishing. However, you are more than welcome to continue creating and experimenting with
-> walkthrough rooms for personal use and share them privately with friends or colleagues.
+TryHackMe's official documentation states: *Please submit only community challenge content (CTF) for public release, as walkthrough rooms are currently not being reviewed for public publishing. However, you are more than welcome to continue creating and experimenting with walkthrough rooms for personal use and share them privately with friends or colleagues.*
 
 Users get a VM and an objective. And, we can build our own workshop from that, with questions and reflection.
 
@@ -49,6 +45,6 @@ TryHackMe allocates only 0.5-1 GiB RAM and 1 CPU core to uploaded VMs. The full 
 containers and requires 4-8 GB RAM locally. Therefore:
 
 - Do not attempt to run the full `ics-simlab` inside the TryHackMe VM
-- Use `power-and-light-sim` (Python-based, lighter weight) or a heavily stripped-down version of `ics-simlab`
+- Use `power-and-light-sim` (Python-based, lighter weight)
 - Request a resource bump from TryHackMe support if the simplified environment still fails
 

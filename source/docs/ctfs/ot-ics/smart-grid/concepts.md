@@ -44,4 +44,4 @@ built. See resources for what needs to be developed.
 
 | # | Name | Category | Difficulty | Source |
 |:--|:-----|:---------|:-----------|:-------|
-| — | —    | —        | —          | —      |
+| - | -    | -        | -          | -      |

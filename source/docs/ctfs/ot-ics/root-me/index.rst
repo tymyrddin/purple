@@ -12,7 +12,10 @@ skills: Modbus function codes, DNP3 object variations, or IEC-104 packet analysi
    :maxdepth: 1
    :includehidden:
 
+   resources.md
    reqs.md
    environment.md
-   work.md
+   workflow.md
+   workflow-realist.md
    problems.md
+   runbooks/index.rst

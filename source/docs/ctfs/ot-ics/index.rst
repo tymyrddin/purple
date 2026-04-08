@@ -21,3 +21,4 @@ is the more ambitious option, and the harder one to get right.
    resources.md
    thm/index
    root-me/index
+   smart-grid/index

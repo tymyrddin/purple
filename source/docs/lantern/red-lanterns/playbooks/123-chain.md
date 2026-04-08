@@ -71,9 +71,7 @@ RPKI Validator: "Checking ROAs... VALID. Accept this announcement."
 Defense: Fails because validation system itself is compromised.
 ```
 
-The distinction from the [control-plane vs data-plane page](https://purple.tymyrddin.dev/docs/lantern/red-lanterns/control-vs-data-plane):
-
-> Most BGP incidents are forged letters carried by an overly trusting postal service. Control-plane attacks rewrite the Guild Registry itself. From that moment on, everyone is "following the rules". The rules are simply wrong.
+The distinction from the [control-plane vs data-plane page](https://purple.tymyrddin.dev/docs/lantern/red-lanterns/control-vs-data-plane): *Most BGP incidents are forged letters carried by an overly trusting postal service. Control-plane attacks rewrite the Guild Registry itself. From that moment on, everyone is "following the rules". The rules are simply wrong.*
 
 That's exactly what we've done. Validators are following the rules (check announcements against ROAs). The ROAs are simply wrong (because we poisoned them).
 

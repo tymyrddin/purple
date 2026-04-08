@@ -10,7 +10,10 @@ exports it to OVA format, and uploads it to TryHackMe. TryHackMe converts the VM
    :maxdepth: 1
    :includehidden:
 
+   resources.md
    reqs.md
    environment.md
-   work.md
+   room-reckoning.md
+   room-double-strike.md
+   workflow.md
    problems.md
