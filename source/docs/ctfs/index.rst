@@ -9,9 +9,14 @@ well-designed CTFs work as learning environments, see :doc:`/docs/foundations/mo
 
 .. toctree::
    :glob:
-   :maxdepth: 1
+   :maxdepth: 2
    :includehidden:
-   :caption: Where educational value meets ‘oh god, they actually did that’.
 
    ot-ics/index
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+
    cloud/index
