@@ -1,4 +1,4 @@
-Room for TryHackMe
+Creating rooms for TryHackMe
 ===============================================
 
 TryHackMe is a beginner-friendly platform where each "room" is a complete learning module with multiple tasks,
