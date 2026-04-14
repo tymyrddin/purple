@@ -1,4 +1,4 @@
-# Challenge concepts
+# Smart grid challenge concepts
 
 ## What is distinct about smart grid challenges
 

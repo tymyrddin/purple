@@ -3,20 +3,21 @@
 Unauthenticated read of all five input registers on the revenue meter, revealing live
 turbine process values. No write, no side effects.
 
-- Technique: [Process intelligence gathering](../../attack-surface.md)
+- Technique: [Process intelligence gathering](https://purple.tymyrddin.dev/docs/ctfs/ot-ics/attack-surface#process-intelligence-gathering)
 - Challenge type: Network (PCAP)
 - Difficulty: Beginner
 
 ## Components to start
 
-```
-cd ics-simlab
-make generate && make build
-docker compose -f zones/control/docker-compose.yml up -d uupl-meter uupl-turbine-plc
+```bash
+./ctl up
 ```
 
-The meter derives its values from the turbine PLC physics engine, so the PLC needs to be
-running to produce meaningful readings.
+Minimal containers: `hex-turbine-plc`, `uupl-meter`, `uupl-eng-ws`
+
+The meter derives its values from the turbine PLC simulation, so the PLC needs to be
+running to produce meaningful readings. `uupl-eng-ws` provides the control zone pivot
+host from which port 502 on the meter is reachable.
 
 ## Attack path
 
@@ -33,7 +34,7 @@ print(r.registers)
 # IR[1] = temperature (°C)
 # IR[2] = pressure (bar)
 # IR[3] = line voltage (V)
-# IR[4] = current (A, contains flag)
+# IR[4] = current (A)
 ```
 
 Or with `mbpoll`:

@@ -3,20 +3,21 @@
 Force-trip a protective relay by writing coil 0 via unauthenticated Modbus. The breaker
 opens. The physics engine reflects the loss of load.
 
-- Technique: [Unauthorised state manipulation](../../attack-surface.md)
+- Technique: [Unauthorised state manipulation](https://purple.tymyrddin.dev/docs/ctfs/ot-ics/attack-surface#unauthorised-state-manipulation)
 - Challenge type: Network (PCAP) or Realist
 - Difficulty: Intermediate
 
 ## Components to start
 
-```
-cd ics-simlab
-make generate && make build
-docker compose -f zones/control/docker-compose.yml up -d uupl-relay-a uupl-turbine-plc uupl-breaker-a
+```bash
+./ctl up
 ```
 
-The relay polls the turbine PLC every 500 ms. The breaker actuator executes the trip command.
-Both are needed to produce a visible consequence in the physics engine.
+Minimal containers: `hex-turbine-plc`, `uupl-relay-a`, `uupl-breaker-a`, `uupl-eng-ws`
+
+Use `uupl-relay-b` and `uupl-breaker-b` instead to target the Nap Hill feeder. The relay
+polls the turbine PLC every 500 ms. The breaker actuator executes the trip command. Both
+need to be running to produce a visible consequence in the simulation.
 
 ## Attack path
 

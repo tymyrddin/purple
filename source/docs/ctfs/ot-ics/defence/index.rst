@@ -1,4 +1,4 @@
-European OT Defence Reference
+European OT defence reference
 ===============================================
 
 Attack technique coverage without a defensive counterpart is half the picture. These pages map European

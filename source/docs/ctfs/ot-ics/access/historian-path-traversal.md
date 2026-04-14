@@ -3,19 +3,19 @@
 Unauthenticated path traversal on the historian `/export` endpoint returns the raw SQLite
 database. The database contains alarm thresholds, credentials, and process history.
 
-- Technique: [Data exfiltration](../../attack-surface.md)
+- Technique: [Data exfiltration](https://purple.tymyrddin.dev/docs/ctfs/ot-ics/attack-surface#data-exfiltration)
 - Challenge type: Network (PCAP) or Forensic
 - Difficulty: Intermediate
 
 ## Components to start
 
-```
-cd ics-simlab
-make generate && make build
-docker compose -f zones/operational/docker-compose.yml up -d uupl-historian
+```bash
+./ctl up
 ```
 
-No other components needed. The historian runs standalone.
+Minimal containers: `uupl-historian`
+
+No other components are needed for this chain. The historian runs standalone.
 
 ## Attack path
 
@@ -38,25 +38,28 @@ sqlite3 historian.db "SELECT * FROM alarm_config;"
 # relay_a_oc    | overcurrent    | 150    | 2023-11-02
 # relay_a_uv    | undervoltage   | 195    | 2023-11-02
 
-# Extract credentials
+# Enumerate tables
 sqlite3 historian.db ".tables"
-# alarm_config  credentials  sensor_data  events
+# alarm_config  config  readings
 
-sqlite3 historian.db "SELECT * FROM credentials;"
-# hist_admin | Historian2015 | ssh
-# hist_read  | history2017   | api
+# Extract credentials
+sqlite3 historian.db "SELECT * FROM config;"
+# ssh_user   | hist_admin    | ...
+# ssh_pass   | Historian2015 | ...
+# ingest_user| hist_read     | ...
+# ingest_pass| history2017   | ...
 ```
 
 ## Flag placement
 
-Place the flag as a row in the `credentials` table with a service name of `ctf_flag`:
+Place the flag as a row in the `config` table with a distinctive key:
 
 ```sql
-INSERT INTO credentials VALUES ('flag', 'RM{...}', 'ctf_flag');
+INSERT INTO config VALUES ('ctf_flag', 'RM{...}', 'flag');
 ```
 
 Add this to the historian container's database initialisation script. The participant
-downloads the database, lists the tables, queries credentials, and finds the flag.
+downloads the database, lists the tables, queries `config`, and finds the flag.
 
 Alternatively, place it in the `alarm_config` table as an unusually named threshold entry.
 That variant rewards participants who read the table carefully rather than grepping for

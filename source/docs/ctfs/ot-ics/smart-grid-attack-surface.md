@@ -291,7 +291,7 @@ What it looks like:
 Incident anchors: Triton/TRISIS was installed on an engineering workstation that had legitimate access
 to the Triconex safety controllers. Industroyer and BlackEnergy (Ukraine 2015) both reached OT systems
 through prior compromise of the corporate IT network. Colonial Pipeline's initial access was a VPN
-credential with no multi-factor authentication.
+credential with no multifactor authentication.
 
 Design angle: The initial access layer is almost entirely absent from published CTF challenges, which
 typically drop the participant already inside the OT network. Including even a simple EWS-to-IED pivot

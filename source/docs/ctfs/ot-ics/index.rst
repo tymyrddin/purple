@@ -19,7 +19,7 @@ is the more ambitious option, and the harder one to get right.
    attack-surface.md
    concepts.md
    resources.md
+   access/index
+   smart-grid-attack-surface.md
+   smart-grid-concepts.md
    defence/index
-   thm/index
-   root-me/index
-   smart-grid/index
