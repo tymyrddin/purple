@@ -81,6 +81,7 @@ html_extra_path = ['_static/_headers']
 # -- Build settings ----------------------------------------------------------
 nitpicky = True  # Warn about broken references
 # suppress_warnings = ["myst.xref_missing"]  # Backward compatibility
+suppress_warnings = ["misc.highlighting_failure"]
 
 # Disable all automatic anchor generation
 autosectionlabel_prefix_document = False

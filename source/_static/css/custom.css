@@ -217,19 +217,24 @@ div.highlight pre code {
 /* Plain text blocks specific styling */
 pre.text,
 pre[class*="text"] {
-  color: #e8e8e8 !important; /* Slightly brighter for plain text */
+  color: #e8e8e8 !important;
   font-family: inherit;
+}
+
+/* Neutralise Pygments token colours — the bash lexer misfires on IPs and shell constructs */
+div.highlight span[class] {
+  color: inherit !important;
 }
 
 /* Inline code (single backticks) */
 :not(pre) > code {
-  background-color: #3a3a3a !important;
-  color: #f0f0f0 !important;
+  background-color: #ede7f6 !important;
+  color: #333 !important;
   padding: 0.2em 0.4em;
   border-radius: 3px;
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
   font-size: 0.8em;
-  border: 1px solid #444 !important;
+  border: 1px solid #c5b3e6 !important;
   white-space: normal;
 }
 
@@ -249,7 +254,7 @@ pre[class*="text"] {
 .md-content img {
   display: block;
   margin: 0 auto;
-  max-width: 75%;
+  max-width: 100%;
   height: auto;
 }
 
