@@ -8,6 +8,14 @@ ISO 27001 certification is achievable for organisations of any size. It requires
 commitment, and realistic expectations, but it is not mysterious or out of reach — thousands of organisations
 maintain certification successfully.
 
+Compliance is treated as something derived from observed system behaviour rather than demonstrated
+through documentation alone. Controls encode assumptions about the environment they operate in. When a control
+fails to produce its intended effect, the question worth asking is not whether the procedure was followed but
+whether the assumption the control was built on fits the operational reality. The evidence that matters is not
+that a control exists and ran but that it produced the expected effect under realistic conditions: observations
+that are repeatable and can take the form of a penetration test, a simulated phishing exercise, a tabletop
+drill, a proof-of-concept, or a CTF scenario. Each stage of the journey reflects this framing.
+
 .. toctree::
    :glob:
    :maxdepth: 1
@@ -21,7 +29,6 @@ maintain certification successfully.
    base-camp-check.md
    summit.md
    flag.md
-   dossier.md
 
 .. raw:: html
 

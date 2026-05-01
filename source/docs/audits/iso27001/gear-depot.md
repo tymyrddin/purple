@@ -1,13 +1,5 @@
 # The gear depot
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://purple.tymyrddin.dev/_downloads/4c3bb1dd58a645793fb994784a578814/gear-depot.pdf">
-      Download the gear depot pack
-    </a>
-</div>
-```
-
 ![Gear depot](/_static/images/gear-depot.png)
 
 You have set up [a reliable framework for risk management](risk-tent.md).
@@ -18,13 +10,18 @@ on identified risks. Not every climb needs ice axes, and not every organisation 
 
 ## Controls
 
-Controls are the practical technical, physical, and organisational measures that protect your assets and operations. They're what you actually *do* about the risks you've identified. The goal is to reduce the likelihood of threats, limit the impact of realised risks, and ensure the organisation can detect, respond to, and correct undesired events.
+Controls are the practical technical, physical, and organisational measures that protect your assets and operations. 
+They're what you actually *do* about the risks you've identified. The goal is to reduce the likelihood of threats, 
+limit the impact of realised risks, and ensure the organisation can detect, respond to, and correct undesired events.
 
-Controls are selected and implemented as part of the risk treatment process, based on the risks identified and the chosen treatment strategies. While ISO/IEC 27001 Annex A provides a comprehensive catalogue of controls, organisations can also define additional controls to suit their specific context.
+Controls are selected and implemented as part of the risk treatment process, based on the risks identified and the 
+chosen treatment strategies. While ISO/IEC 27001 Annex A provides a comprehensive catalogue of controls, 
+organisations can also define additional controls to suit their specific context.
 
 ### Controls and risk treatment
 
-Controls primarily address risk modification (mitigation), but understanding how they relate to all four treatment strategies helps clarify when controls are needed:
+Controls primarily address risk modification (mitigation), but understanding how they relate to all four treatment 
+strategies helps clarify when controls are needed:
 
 - Risk modification (mitigation): Most controls fall here, reducing likelihood or impact through preventive, detective, or corrective measures
 - Risk avoidance: Choosing not to engage in risky activity (no controls needed, activity simply not undertaken)
@@ -112,6 +109,13 @@ Organisations should select controls that are applicable to their ISMS, aligned 
 
 6. Document your reasoning: The Statement of Applicability requires you to justify both inclusions and exclusions. Think through your rationale as you select controls.
 
+Every control encodes a model assumption about the environment it operates in. MFA assumes users have reliable access 
+to a second factor and sufficient time to use it. Annual access reviews assume that ownership of the review process is 
+clear and that someone is accountable for acting on the findings. A SIEM assumes the threat profile is anomalous 
+relative to a stable baseline. When a control is technically present but behaviourally ineffective, the model is 
+usually the culprit: the assumption does not fit the operational reality. Before selecting a control, it is worth 
+asking what the control assumes, and whether those assumptions hold in this environment.
+
 ## Risk treatment plan
 
 *ISO/IEC 27001 Clause 6.1.3c*
@@ -138,7 +142,7 @@ Actions to be taken:
 - Documentation to be created or updated
 
 Resources required:
-- Budget needed (tools, licenses, services, training)
+- Budget needed (tools, licences, services, training)
 - People required (FTEs, contractors, consultants)
 - Time investment (implementation effort, ongoing operation)
 - Technology infrastructure (servers, software, subscriptions)
@@ -249,13 +253,17 @@ Phase 2 (3-6 months): High-risk complex treatments
 - Risk NET-03 (High): Lateral movement → Network segmentation (higher cost, complex)
 - Risk CLOUD-01 (High): Misconfigured cloud → CSPM tool deployment (moderate cost, training needed)
 
-Phase 3 (6-12 months): Medium risks and optimization
+Phase 3 (6-12 months): Medium risks and optimisation
 - Risk MOBILE-02 (Medium): BYOD risks → MDM implementation (moderate cost, policy development)
 - Risk ORG-04 (Medium): Incomplete recordkeeping → Document management system (moderate cost, process change)
 
 Ongoing: Low risks and accepted risks
 - Risk PHYS-05 (Low): Minor equipment loss → Accept with enhanced insurance
 - Review low risks annually for changes
+
+### Piloting before scaling
+
+Before rolling out a control across the organisation, running it with one team first reveals friction the design did not anticipate. If a change approval process adds three steps to a deployment that previously took one, the organisation will discover this either during a controlled pilot or during a frustrated workaround that quietly bypasses the control entirely. Friction observed in a pilot is system information: it describes the gap between the model the control was designed for and the environment it is entering. Adjusting before scaling is far less costly than discovering the gap after the rollout has produced a compliance posture that diverges from actual practice.
 
 ### Tracking progress and status
 
@@ -454,7 +462,7 @@ No success criteria:
 
 ✗ "Make network more secure"
 
-✓ "Reduce lateral movement risk from High to Medium; detect unauthorized access within 15 minutes; achieve 100% VLAN segmentation"
+✓ "Reduce lateral movement risk from High to Medium; detect unauthorised access within 15 minutes; achieve 100% VLAN segmentation"
 
 Never updated:
 
@@ -541,10 +549,15 @@ A typical SoA includes:
 
 | Control reference              | Control description                   | Applicability | Implementation status | Risk reference | Justification / comments                                                                                                                                                                                                       | Evidence                           |
 |--------------------------------|---------------------------------------|---------------|-----------------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
-| A.9.2 Access control           | User access rights reviewed regularly | Yes           | Fully implemented     | HR-02, SYS-05  | Access reviews conducted quarterly; exceptions logged                                                                                                                                                                          | Access review reports Q1-Q4 2025   |
-| A.12.4 Logging & monitoring    | Logging of system events              | Yes           | Partially implemented | NET-03, SYS-01 | SIEM in place for core systems; expanding to endpoints by Q2 2026                                                                                                                                                              | SIEM deployment plan, logs         |
+| A.9.2 Access control           | User access rights reviewed regularly | Yes           | Fully implemented     | HR-02, SYS-05  | Access reviews conducted quarterly; exceptions logged                                                                                                                                                                          | Access review reports Q1-Q4 2025; Q3 2025 review identified 9 excessive permissions, all removed within 3 days |
+| A.12.4 Logging & monitoring    | Logging of system events              | Yes           | Partially implemented | NET-03, SYS-01 | SIEM in place for core systems; expanding to endpoints by Q2 2026                                                                                                                                                              | SIEM deployment plan, logs; simulated brute-force on test account triggered alert within 2 minutes (October 2025) |
 | A.11.2 Physical entry controls | Badge access to server room           | No            | N/A                   | N/A            | Server room currently in cloud provider; physical control managed by provider                                                                                                                                                  | Cloud provider SOC 2 report        |
 | A.8.31 Separation of duties    | Segregation of incompatible tasks     | No            | N/A                   | ORG-04         | Organisation has <10 employees; full separation would require additional headcount not justified by risk level (Low). Compensating controls: dual approval for critical changes, enhanced logging, quarterly management review | Dual approval workflow, audit logs |
+
+The Evidence column records both implementation evidence (the control is in place) and effectiveness evidence (the 
+control produces its intended effect). Where a control is fully implemented, effectiveness evidence takes the form of 
+a repeatable scenario: a quarterly review that finds and removes something, a detection test confirming an alert fires, 
+a tabletop revealing response times. That kind of evidence is more durable than a deployment log.
 
 ### SoA creation
 
@@ -568,14 +581,16 @@ Example 1: Lost or stolen mobile devices
 - Risk reference: MOBILE-01 from risk register (Medium-High risk: confidentiality breach from lost device)
 - Control: A.8.3 (Handling of assets) - MDM solution with encryption and remote wipe capability
 - Implementation status: Fully implemented
-- Evidence: MDM logs showing 100% device enrolment, encryption verification reports, remote wipe procedures documented and tested quarterly
+- Evidence (implementation): MDM logs showing 100% device enrolment, encryption verification reports
+- Evidence (effectiveness): Remote wipe test results, Q4 2025: 3 test devices wiped and data-clear confirmed, average 4 minutes from trigger to confirmation; procedure repeated quarterly
 - Justification: Directly addresses high-probability asset loss scenario; prevents data breach from lost devices. Control cost (€5.000/year) justified by potential breach cost (€50.000+ including GDPR fines)
 
 Example 2: Misconfigured cloud storage
 - Risk reference: CLOUD-02 from risk register (High risk: data exposure through misconfiguration)
 - Control: A.14.2 (Security in development and support processes) - Automated cloud security posture management and access controls
 - Implementation status: Partially implemented (70% coverage)
-- Evidence: CSPM tool deployment records, audit findings from Q3 2025
+- Evidence (implementation): CSPM tool deployment records, Q3 2025 audit findings showing 70% production coverage
+- Evidence (effectiveness): Q3 2025 scan identified 3 critical misconfigurations in production; all remediated within 48 hours; monthly manual reviews for development environments with findings logged
 - Justification: Core production systems covered; remaining development environments scheduled for completion Q1 2026. Interim manual reviews conducted monthly
 - Target completion: 31 March 2026
 - Responsible: Cloud Infrastructure Team Lead
@@ -589,25 +604,19 @@ Example 3: Phishing susceptibility
 
 ### Control effectiveness
 
-Controls must be regularly tested and reviewed to ensure they work as intended. The SoA should reference evidence of effectiveness:
+The SoA records two kinds of evidence for each control: evidence of implementation (the control is in place and running) and evidence of effectiveness (the control produces its intended effect under realistic conditions). Implementation evidence proves the control exists; effectiveness evidence demonstrates it works. For compliance grounded in observed behaviour, the second category carries more weight.
 
 Technical controls:
-- Vulnerability scans and penetration test results
-- Configuration compliance audits
-- Security tool logs and alerts
-- Automated testing results
+- Implementation: Configuration compliance audits, security tool logs and alerts, automated testing results
+- Effectiveness: Penetration test results, repeated test scenarios verifying that detection fires against expected techniques, MFA bypass attempt results confirming enforcement holds
 
 Physical controls:
-- Physical security audit reports
-- Badge access logs and exception reports
-- Video surveillance system checks
-- Environmental monitoring data
+- Implementation: Physical security audit reports, badge access logs, environmental monitoring data
+- Effectiveness: Tailgating or access attempt results, exception reports showing investigation and follow-up, surveillance coverage checks against a defined standard
 
 Organisational controls:
-- Policy compliance assessments
-- Training completion rates and test scores
-- Access review completion records
-- Incident response exercise results
+- Implementation: Training completion rates, access review completion records, policy sign-off records
+- Effectiveness: Simulated phishing click rates after training, access review findings actioned and verified, incident response exercise results showing response times and decision quality
 
 Document effectiveness evidence in the SoA to demonstrate controls are not just implemented but actually working. During audits, you'll need to show both implementation (the control exists) and effectiveness (the control achieves its intended purpose).
 

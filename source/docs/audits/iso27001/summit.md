@@ -1,13 +1,5 @@
 # The summit push
 
-```{raw} html
-<div class="page-post-card__link">
-    <ahref="https://purple.tymyrddin.dev/_downloads/876b22983bf28be1578634050ee0a49f/summit-push.pdf">
-      Download the summit pack
-    </a>
-</div>
-```
-
 ![Summit](/_static/images/summit.png)
 
 You've [checked your gear at base camp (internal audits and management reviews complete)](base-camp-check.md). Now comes the summit push, the external certification audit. This is where independent auditors from a certification body verify that your ISMS meets ISO 27001 requirements.
@@ -597,6 +589,16 @@ Was it a culture problem?
 - Management not visibly supporting security?
 - Fix: Leadership engagement, communication, incentives
 
+Was it a model problem?
+
+Every control encodes an assumption about the environment it operates in. If a finding recurs despite previous 
+corrective actions, the underlying assumption may no longer hold: the environment changed, the threat evolved, or 
+the control was built for conditions that no longer exist. Fixing the symptom and updating the procedure addresses 
+two levels. Model correction asks the third question: what belief made this gap possible, and does that belief still 
+fit operational reality? An access review that accumulates rubber-stamp approvals despite repeated corrective actions 
+is not primarily a training problem. It is evidence that the model the control was built on does not match how access 
+decisions actually get made.
+
 #### Control effectiveness
 
 Were your preventive, detective, and corrective controls working in practice?
@@ -610,6 +612,8 @@ Controls that were being bypassed:
 - What made them impractical? (Process too slow? Interface too clunky?)
 - Are workarounds creating security risks?
 - How can we make the secure path the easy path?
+
+A control that is consistently bypassed, even after enforcement and retraining, is a model signal rather than a compliance failure. The model assumed a fit between the control and the workflow it would operate in. Persistent bypass is evidence the fit does not hold. Asking what made the workaround feel necessary is more diagnostic than escalating enforcement.
 
 Controls that worked well:
 - What made them successful? (Automation? Clear ownership? Simple?)
@@ -627,6 +631,8 @@ If deviations occurred:
 - Is there a good reason for the deviation? (Business need changed, risk reduced)
 
 Decision: Either update procedures to match reality (if the reality is secure and effective) or update reality to match procedures (if deviations create risk).
+
+Process drift is a model failure before it is a compliance failure. When documented procedures and actual practice diverge, the divergence is evidence that the model the procedure was built on no longer fits operational reality. The diagnostic question is what changed: the environment, the risk, the tools, or the people's understanding of the task. Updating the documentation or retrain the staff addresses the surface condition. Asking why the drift happened in the first place is what prevents it from reappearing.
 
 #### Communication and awareness
 

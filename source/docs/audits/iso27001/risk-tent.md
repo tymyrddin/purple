@@ -1,13 +1,5 @@
 # The risk tent
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://purple.tymyrddin.dev/_downloads/0c8b55fb4c7810238282116c3d375f26/risk-tent.pdf">
-      Download the risk tent pack
-    </a>
-</div>
-```
-
 ![Risk tent](/_static/images/risk-tent.png)
 
 Having [agreed on which mountain](map-room.md), the "risk tent" represents the shelter of structured risk management, 
@@ -46,6 +38,22 @@ Each approach gets you to the same goal: understanding what could go wrong, how 
 | You have 10-500 employees without dedicated risk teams | You need board-ready metrics and reporting             | You require alignment with ISO 27001 or NIS2     |
 
 Note: Each table below reflects its methodology's focus, OCTAVE emphasises threat sources and assets, MEHARI uses quantitative scoring, and EBIOS centres on security objectives. Choose the style that best fits your organisational culture and reporting needs.
+
+The entries in these tables are starting hypotheses, not verdicts. A likelihood of "High" for phishing susceptibility reflects the organisation's current belief about its staff and its threat environment. A likelihood of "Medium" for lateral movement reflects a belief about network segmentation and monitoring effectiveness. Some of those beliefs will be wrong, and some can be tested before an attacker tests them. Treating risk scenarios as assumptions to verify, rather than facts to document, is what makes risk assessment useful rather than decorative.
+
+### What the methodology misses
+
+All three methodologies work in the rational domain: identify threats, estimate likelihood, estimate impact. This is 
+necessary, but a risk register built solely from this process will be systematically incomplete in predictable ways.
+
+The emotional layer asks which risks are difficult to name. Insider threat is chronically underrepresented in risk 
+registers not because it is rare but because naming it implicates colleagues and changes the atmosphere of the session. 
+A senior employee's access profile that has not been reviewed in four years is a risk scenario; raising it in a 
+workshop has social consequences. The political layer asks whose interests are served by a particular outcome. If 
+treating a risk creates work for one team while the benefit accrues to another, acceptance becomes the path of least 
+resistance regardless of the risk score. The tables below provide the structure for a rational assessment. That 
+structure is most useful when the people using it have also asked: which risks are we unlikely to surface because 
+naming them is uncomfortable, and whose interests are served by the current picture?
 
 ### OCTAVE style
 
@@ -184,6 +192,8 @@ When managing information security risks, selecting an appropriate treatment str
 
 Applying risk treatment: Once you've mapped risks using your chosen methodology, apply the appropriate treatment strategy. Most mitigating controls in the tables above represent risk *modification* (mitigation). If a control is too costly or complex, consider risk *retention* (acceptance) or *sharing* (transfer) instead. Risk *avoidance* means choosing not to engage in the risky activity at all.
 
+Treatment decisions are not immune to the dynamics described above. Risk acceptance in particular is politically shaped: if the cost of treating a risk falls on one team and the benefit accrues to another, acceptance is the outcome of least resistance regardless of the risk score. An unusually high proportion of accepted Medium or High risks in one area of the business is worth examining before the register is finalised.
+
 ### Risk avoidance
 
 Eliminating a risk by choosing not to engage in the activity that generates it.
@@ -231,6 +241,12 @@ Sensitive backups are stored in a third-party cloud with strong SLA guarantees a
 Example: Vendor dependencies
 
 A key software supplier maintains critical systems. The organisation implements contracts specifying liability, service levels, and disaster recovery obligations, sharing responsibility for availability and security. Escrow agreements ensure access to source code if the vendor ceases operations, further mitigating dependency risk.
+
+### Testing risk assumptions before treatment
+
+Risk treatment decisions are based on estimates of likelihood and impact that may not match the environment. Before committing resources to a treatment, some of those estimates can be tested directly. A simulated phishing exercise checks whether the likelihood assigned to social engineering is accurate. A tabletop exercise reveals whether the incident response plan's assumptions about escalation speed and decision authority hold under realistic pressure. A lateral movement test in a controlled environment checks whether the network segmentation model actually contains what it is supposed to contain.
+
+These are not supplementary assurance activities. They are the mechanism by which the risk register moves from a set of beliefs about the environment to a set of claims grounded in observed behaviour, which is the only basis on which treatment decisions are worth making.
 
 ## Next
 

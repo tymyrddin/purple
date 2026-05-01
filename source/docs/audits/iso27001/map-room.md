@@ -1,13 +1,5 @@
 # The map room
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://purple.tymyrddin.dev/_downloads/e95bbd42e284d027e69856272506d33f/map-room.pdf">
-      Download the map room pack
-    </a>
-</div>
-```
-
 ![Map room](/_static/images/map-room.png)
 
 Every great climb begins with an argument about which mountain to attempt. Before anyone laces up their boots, the 
@@ -123,6 +115,8 @@ Step 3: Review regularly (annually minimum, or when major changes occur)
 - Update after significant events (mergers, major incidents, strategic shifts)
 - Feed context changes into risk reassessment
 - Adjust ISMS scope or controls as context evolves
+
+A context document captures what the organisation believes about its environment. Those beliefs are assumptions, and some will be wrong. The climate analysis may describe the organisation as operating in a stable regulatory environment while enforcement patterns have quietly shifted. The internal culture assessment may describe security as a core value while the incident log tells a different story. Treat the context document as a set of propositions to test over time, not settled background information. When a risk materialises that the context analysis did not anticipate, that is not bad luck; it is evidence that a model was wrong, and the review cycle is the mechanism for correcting it.
 
 ### Example: Context analysis for a healthcare provider
 
@@ -426,6 +420,18 @@ Invalid exclusions (will fail audit):
 - "Legacy system" (Age doesn't exempt criticality)
 - "Only used internally" (Internal systems still have risks)
 
+### Scope derived from observation
+
+A scope statement describes intent. The actual ISMS boundary is wherever information flows, systems connect, and third 
+parties handle data, and those may not match the diagram. A supplier assumed to be out of scope may have direct 
+database access. A development environment assumed to be isolated may share credentials with production. A cloud 
+service adopted by one team may process customer data that the scope document does not mention.
+
+Before finalising scope, trace actual data flows and access paths against what the architecture documents and 
+contracts claim. The gaps between intended and observed boundary are findings before any auditor arrives. Documenting 
+them explicitly, and deciding whether to bring the relevant systems into scope or to address the exposure another way, 
+is more defensible than a scope statement that does not reflect how the organisation actually operates.
+
 ### Documenting the scope
 
 Scope statement should include:
@@ -449,7 +455,7 @@ Context linkage:
 
 Example scope statement:
 
-*"The ISMS covers CloudServe Ltd's Software-as-a-Service platform, including:*
+*The ISMS covers CloudServe Ltd's Software-as-a-Service platform, including:*
 
 - *All software development, testing, production, and support processes*
 - *Customer data processing and storage*
@@ -464,7 +470,7 @@ Example scope statement:
 - *Financial accounting systems (managed by separate outsourced finance provider with own ISO 27001 certification; financial data flows defined in interface agreement)*
 - *Marketing website (hosted on separate infrastructure; no customer data; low sensitivity)*
 
-*The ISMS does not extend to customer's internal systems or networks, though secure integration guidance is provided as part of platform documentation."*
+*The ISMS does not extend to customer's internal systems or networks, though secure integration guidance is provided as part of platform documentation.*
 
 ### Scope evolution
 
@@ -589,7 +595,7 @@ Medium organisation (50-500 people):
 Large organisation (500+ people):
 - Board of Directors
 - C-suite (CEO, CFO, CTO, CISO if C-level)
-- May include Business Unit Presidents for multi-national
+- Can include Business Unit Presidents for multinational
 
 Key point: Top management must have authority to allocate resources and make strategic decisions affecting entire ISMS scope. Middle management isn't sufficient.
 
@@ -628,7 +634,7 @@ Is reviewed and updated:
 
 ### Example information security policy
 
-*"CloudServe Ltd Information Security Policy*
+*CloudServe Ltd Information Security Policy*
 
 *Purpose: This policy establishes our commitment to protecting information assets and maintaining customer trust through effective information security management.*
 
@@ -735,10 +741,16 @@ Actions that show real leadership commitment:
 - Management asks informed questions about security (they understand the issues)
 - Policies apply to everyone including executives (no exceptions for leadership)
 - Security incidents trigger management attention and resources
-- Good security behaviors recognised and rewarded
+- Good security behaviours recognised and rewarded
 - Security roles given authority to stop risky activities
 - "We can't afford not to" attitude rather than "we can't afford it"
 - Long-term security strategy exists, not just compliance focus
+
+The distinction between stated and observable commitment matters for the ISMS. A signed policy is evidence of intent. 
+Observable commitment appears in resource allocation decisions when security competes with other priorities, in whether 
+the security manager has actual authority to stop activities that create unacceptable risk, and in how the organisation 
+responds to repeated policy violations. When the documented commitment pattern diverges from the observed behaviour 
+pattern, that divergence is itself a finding. It belongs in the management review, not just the warning signs list.
 
 ## Outcome: Ready to leave the map room
 
@@ -939,7 +951,7 @@ Interested Parties (4.2):
 - Insurance provider: Requires basic security controls for cyber insurance, influences premiums based on posture
 
 Scope (4.3):
-*"The ISMS covers TechConsult Ltd's consultancy services and supporting IT infrastructure, including:*
+*The ISMS covers TechConsult Ltd's consultancy services and supporting IT infrastructure, including:*
 - *All client project work (requirements through delivery)*
 - *Client data and intellectual property*
 - *Corporate IT systems (email, file storage, collaboration tools, CRM)*
@@ -949,7 +961,7 @@ Scope (4.3):
 
 *Applies to all employees and contractors.*
 
-*Excluded: Accounting and payroll (outsourced to specialist accountancy firm with own security; interface defined in service contract)"*
+*Excluded: Accounting and payroll (outsourced to specialist accountancy firm with own security; interface defined in service contract)*
 
 Leadership (5):
 - Top management: Two founders (CEO and CTO), both involved in ISMS

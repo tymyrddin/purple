@@ -1,13 +1,5 @@
 # The climb
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://purple.tymyrddin.dev/_downloads/9b01ffc1c1e3e012669006b6cef9a253/climb.pdf">
-      Download the climb pack
-    </a>
-</div>
-```
-
 ![Mountain](/_static/images/mountain.png)
 
 You have [identified your route in the risk tent](risk-tent.md) (risk assessment), and selected your gear 
@@ -72,12 +64,18 @@ Awareness: Everyone understands their role in information security and the conse
 
 A rope team depends on everyone knowing their knots (competence), learning new techniques when the route demands it (training), and understanding when to tighten the rope (awareness).
 
+The distinction matters for evidence. Competence is not evidenced by a course completion certificate; it is evidenced by what someone does in a realistic situation. A system administrator who has completed firewall training has attended training; one who configures a firewall correctly under realistic conditions, with incomplete documentation and time pressure, has demonstrated competence. Awareness is not evidenced by a quiz score; it is evidenced by what people do when they encounter an actual phishing attempt or notice something unusual. Designing the programme around observable outcomes rather than training delivery shifts the metric from attendance to behaviour.
+
 ### Building security awareness
 
 Awareness is not a slide deck once a year; it is a steady rhythm of reminders, briefings, and habits that reinforce secure behaviour.
 
+Awareness that changes behaviour works best when the learning environment is close to the actual work context. A short briefing on a threat that appeared in the organisation's own sector that week works better than an hour on abstract policy, because it is specific, timely, and actionable. Simulations, tabletop exercises, and scenario-based challenges work for the same reason: they are self-correcting. The participant experiences the consequence of a wrong choice in a safe environment, which is more durable than being told what the right choice is. Designing awareness around exercises that reflect what people actually encounter, rather than policy content delivered in isolation, is the mechanism that moves click rates and keeps them there.
+
 Example: 
 During phishing season (which seems to be all year), a logistics company runs five-minute "campfire briefings" before shifts. Workers learn what suspicious messages look like and how to report them. No one expects them to quote the ISO clause, they just need to hold the line when it matters. After three months, click rates on simulated phishing tests drop from 18% to 5%.
+
+The facilitator's role in security awareness is to create conditions where people encounter realistic situations and have to make real decisions, not to deliver content. A briefing that presents a real recent incident from the sector and asks "what would you have done?" produces more durable learning than one that explains the correct procedure. The debrief after a simulation exercise, where people articulate what they noticed and what they would do differently, is where the awareness is actually formed. What the group discussed and decided in that debrief is more informative evidence than an attendance record.
 
 ## Communication on the mountain
 
@@ -169,6 +167,34 @@ When controls change: Adding, removing, or significantly modifying security cont
 When new threats emerge: Significant cybersecurity events affecting your sector (ransomware campaigns, zero-day vulnerabilities, supply chain compromises).
 
 When assumptions change: Growth, downsizing, changes in business model, shifts in threat landscape, new legal obligations.
+
+The climb itself produces evidence about which assumptions were right. When new controls arrive, the organisation 
+experiences increased friction before any benefit is felt. People will find workarounds, not because they are 
+obstructive but because the control's model does not yet fit their workflow. A control that is consistently bypassed 
+(a VPN disabled before working, an approval process that accumulates rubber-stamp sign-offs without review) is 
+not primarily a compliance failure. It is a signal that an assumption does not match the operational environment. The 
+question to ask before escalating enforcement is whether the underlying model still holds. Treating bypass patterns 
+as system information rather than individual non-compliance is what separates a maturing ISMS from one that 
+accumulates workarounds beneath a clean compliance surface.
+
+### The chaos phase
+
+Every significant change to controls or processes goes through a disruption phase before reaching a new stable state. 
+This is structural, not failure. When MFA is introduced, the first weeks will generate more helpdesk tickets, more 
+complaints, and more workarounds than the final state will. When an access review process is formalised, it will 
+initially take longer and feel more burdensome than the informal practice it replaced.
+
+The disruption has predictable characteristics: people will agree in meetings and find workarounds in practice; 
+performance metrics will dip before they improve; early adopters will be frustrated that others have not adapted. 
+None of this is evidence that the control is wrong or that the rollout has failed. It is evidence that the transition 
+is underway.
+
+What helps during this phase: acknowledge the dip explicitly rather than treating it as deviation; provide 
+structured support, such as a named point of contact in each team and a fast route to report friction; treat 
+workarounds as feedback rather than non-compliance; and run the change with one team first so the friction can 
+inform adjustments before the rest of the organisation encounters it. The programme that designs for this phase 
+produces an ISMS that operates as documented. The one that treats the dip as a problem to suppress produces a 
+compliance surface that diverges from operational reality.
 
 ### Example: Risk reassessment before major change
 

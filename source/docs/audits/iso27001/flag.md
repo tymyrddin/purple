@@ -1,13 +1,5 @@
 # Planting the flag
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://purple.tymyrddin.dev/_downloads/59774da306ac8cefe4b4b0dc38a9415a/flag.pdf">
-      Download the flag pack
-    </a>
-</div>
-```
-
 ![ISO 27001 flag](/_static/images/flag.png)
 
 You have reached the summit. The climb was long, demanding, and required careful preparation: risk assessments, 
@@ -130,14 +122,20 @@ Corrective controls: Ensure problems are fixed effectively
 - Disaster recovery procedures exercised (annual minimum, recovery time tested)
 
 Monitoring metrics: Track meaningful indicators
-- Security incidents by type, severity, and response time
-- Vulnerability remediation time by criticality
+
+Delivery metrics (confirm the control is running):
 - Training completion rates and assessment scores
 - Access review completion within deadlines
-- Backup success rates and restoration test results
 - Patch compliance percentages
 - Policy exception requests and approvals
-- Control effectiveness measures
+
+Effectiveness metrics (confirm the control produces its intended effect):
+- Security incidents by type, severity, and response time
+- Vulnerability remediation time by criticality
+- Backup restoration success rates (not just backup completion)
+- Phishing simulation click rate trends over time
+- Alert detection rate and mean time to detect for monitored threat scenarios
+- Incident response exercise results: response times and decision quality
 
 #### 2. Conduct regular internal audits
 
@@ -217,12 +215,12 @@ Existing staff refresher training:
 - Simulated exercises (phishing tests, incident scenarios)
 
 Training effectiveness measurement:
-- Completion rates tracked (target: >95%)
-- Assessment scores recorded (identify knowledge gaps)
-- Phishing simulation results (track improvement over time)
-- Incident response exercise performance
+- Phishing simulation results (track click rate trends over time, not just completion)
+- Incident response exercise performance (response times, decision quality under pressure)
+- Observable behaviour changes (reporting rates, fewer credential-related incidents)
 - Feedback surveys (is training relevant and useful?)
-- Observable behaviour changes (fewer incidents, better reporting)
+- Assessment scores recorded (identify knowledge gaps)
+- Completion rates tracked (target: >95%) (delivery evidence: confirms training ran; effectiveness is measured above)
 
 Preventing complacency:
 - Vary training delivery methods (e-learning, workshops, briefings)
@@ -297,6 +295,8 @@ Why it's needed: Verifies that over the 3-year cycle:
 - Continuous improvement occurred (not just maintained status quo)
 - Organisation evolved appropriately with changing risks
 - Surveillance findings were addressed effectively
+
+The recertification question is not "do we still have the controls?" It is: "has our understanding of these controls improved?" Three years of operation produces evidence no initial risk assessment can generate: which controls actually reduced the incidents they were designed to prevent, which assumptions about the threat environment turned out to be wrong, and which gaps between documented practice and observed behaviour proved significant. Demonstrating that evidence is what recertification is for.
 
 Cost: Similar to initial Stage 2 audit (€3.000-€10.000 typically)
 
@@ -449,6 +449,8 @@ Adaptation:
 
 The PDCA cycle never stops. Each iteration builds on previous learning, creating upward spiral of improvement rather than static maintenance.
 
+Each loop is also a model validation cycle. Plan encodes what the organisation currently believes about its risks and what controls are appropriate. Do tests whether those beliefs hold in practice. Check surfaces where they do not. Act corrects the model. An ISMS treated as a compliance maintenance mechanism stays technically conformant but gradually diverges from the actual risk environment. An ISMS treated as continuous model testing becomes more accurate over time: a better description of what the organisation actually faces and what actually protects it.
+
 ## Staying on the summit: Key success factors
 
 Maintaining ISO 27001 certification long-term requires more than meeting requirements. It requires embedding security 
@@ -469,6 +471,11 @@ Security becomes "how we work":
 - Security champions emerge naturally across departments
 - People proactively identify and report risks
 - Security thinking integrated into decision-making
+
+This condition does not arrive by announcement. It is the outcome of having moved through the disruption of initial 
+implementation, adjusted controls that did not fit the operational environment, and iterated until the security 
+practices and the work practices became the same thing. When that happens, security culture is no longer managed; 
+it is observed.
 
 Documentation stays relevant:
 - Policies updated when practices change

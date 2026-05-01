@@ -1,13 +1,5 @@
 # Base camp checks
 
-```{raw} html
-<div class="page-post-card__link">
-    <a href="https://purple.tymyrddin.dev/_downloads/43e29cffc8a0e193492696c0105e36be/base-camp.pdf">
-      Download the base camp pack
-    </a>
-</div>
-```
-
 ![Base Camp](/_static/images/basecamp.png)
 
 You've been [climbing steadily (implementing and operating your ISMS)](climb.md). Before attempting the final 
@@ -23,9 +15,12 @@ an external auditor points them out with a raised eyebrow. Think of it as a dres
 
 ### What is monitoring and measurement?
 
-Monitoring and measurement means continuously checking whether your ISMS is working as intended. This isn't a one-time activity. It is the ongoing process of verifying that controls are effective, objectives are being met, and the ISMS remains fit for purpose.
+Monitoring and measurement means continuously checking whether your ISMS is working as intended. This isn't a one-time 
+activity. It is the ongoing process of verifying that controls are effective, objectives are being met, and the ISMS 
+remains fit for purpose.
 
-At base camp, this is like checking your ropes, equipment, and supplies regularly to ensure they're still fit for the next leg of the journey. You don't wait until a rope snaps to discover it was frayed.
+At base camp, this is like checking your ropes, equipment, and supplies regularly to ensure they're still fit for the 
+next leg of the journey. You don't wait until a rope snaps to discover it was frayed.
 
 ### What to monitor and measure
 
@@ -46,7 +41,7 @@ Poor indicators:
 - "Reduce incidents" (not time-bound)
 
 Good indicators:
-- "Achieve 95% staff completion of annual security training by Q4 2025"
+- "Achieve 95% staff completion of annual security training by Q4 2025" (delivery evidence: confirms training ran; pair it with an effectiveness indicator)
 - "Review 100% of user access rights quarterly, with findings documented within 5 working days"
 - "Reduce security incidents by 20% compared to 2024 baseline by December 2025"
 
@@ -56,7 +51,7 @@ Warning: Setting unrealistic indicators creates frustration and false data. If y
 
 For each metric, define:
 
-- What: Which processes, controls, and objectives to measure (e.g., backup success rates, patch compliance, training completion)
+- What: Which processes, controls, and objectives to measure (e.g., backup restoration success rates, phishing click rate trends, patch compliance)
 - How: Methods and tools (automated monitoring, manual reviews, testing, surveys)
 - When: Frequency and timing (daily logs, monthly reports, quarterly reviews, annual assessments)
 - Who: Responsibility for monitoring, analysis, and reporting (specify roles, not just names)
@@ -88,7 +83,14 @@ An internal audit is a structured, independent examination of your ISMS to verif
 - You're complying with your own ISMS policies and procedures
 - Nonconformities are identified and addressed
 
-Think of it as a practice run before the real certification audit. You want to find problems yourself, on your terms, with time to fix them.
+Internal audits can include running test scenarios against controls rather than only reviewing documentation: verifying 
+that an alert fires when expected, running a phishing simulation to check whether awareness has actually changed 
+behaviour, or testing whether backup restoration succeeds under realistic conditions. These produce effectiveness 
+evidence that document review alone cannot. The question is not only whether the control is in place but whether it 
+still does what the model assumed it would do.
+
+Think of it as a practice run before the real certification audit. You want to find problems yourself, on your terms, 
+with time to fix them.
 
 ### Planning your internal audit programme
 
@@ -143,6 +145,8 @@ Process drift examples:
 Why it matters: If what you do doesn't match what you document, you're nonconforming against your own ISMS. Auditors will find this immediately.
 
 Fix: Update documentation to match reality, or update reality to match documentation. Choose whichever makes more sense for your actual security needs.
+
+Process drift is a model failure before it is a compliance failure. The documentation describes the system as it was understood to work; the observed behaviour describes the system as it actually works. When these diverge, the question worth asking is which is more accurate: the documentation or the behaviour. If the behaviour is more accurate, update the documentation. If the documentation is more accurate, investigate why the environment resists the documented procedure. A process that consistently drifts in one direction is evidence that the documented approach does not fit the operational context, not that individuals are failing to comply.
 
 ### 2. Are logs missing? (Evidence gaps)
 
@@ -268,11 +272,29 @@ Example:
 
 Both are needed. Correction stops the bleeding; corrective action prevents the wound.
 
+There is a third level that the first two can miss: model correction. Correction fixes the symptom. Corrective action 
+addresses the root cause. Model correction surfaces the belief that made the gap possible.
+
+In the backup example: the correction restores the system; the corrective action implements monitoring and assigns 
+ownership. But if the underlying belief is "backup responsibility is clear and someone is watching it," that belief 
+will produce the same gap under different circumstances. Model correction asks what the organisation believed about 
+this process that allowed the failure to seem impossible until it happened.
+
+The diagnostic signal is a corrective action that passes verification and then reappears as the same finding in the 
+next audit cycle. At that point, the surface condition was addressed but the model was not.
+
 ## Lessons for the next ascent
 
-Every internal audit contributes to ISMS maturity. Audit results show whether your organisation is merely surviving the climb or thriving as it matures.
+Every internal audit contributes to ISMS maturity. Audit results show whether your organisation is merely surviving 
+the climb or thriving as it matures.
 
 ### Measuring ISMS maturity
+
+Recurring NCRs are a diagnostic signal about models, not about effort. When the same finding reappears after a 
+corrective action was verified as complete, the corrective action addressed the surface condition but left the 
+underlying belief intact. A backup reviewer was assigned; the access review still slips because the team's actual 
+model of ownership does not match what the procedure assumes. The question to ask is not why the corrective action 
+failed, but what belief the system keeps operating on that produces this outcome.
 
 Reactive (immature ISMS):
 - Same NCRs recurring every audit
