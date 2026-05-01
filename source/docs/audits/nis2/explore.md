@@ -6,7 +6,7 @@ Before entering the water, answer three questions: Must we cross? What does the 
 
 ## Are you in scope?
 
-NIS2 applies to "essential" and "important" entities in specific sectors. The distinction matters: essential entities face stricter supervision and higher penalties.
+NIS2 applies to "essential" and "important" entities in specific sectors. The distinction is consequential: essential entities face stricter supervision and higher penalties.
 
 ### Essential entities (the critical core)
 
@@ -16,13 +16,13 @@ If you operate in energy, transport, banking, healthcare, drinking water, digita
 
 Postal services, waste management, chemicals, food production, manufacturing, online marketplaces, search engines, and research organisations fall here. Still important, but disruption has more contained impacts: regional rather than systemic.
 
-### Size matters, but not always
+### Size is a factor, but not the whole story
 
 Medium and large enterprises (50+ employees or €50M+ turnover) typically fall in scope. Small and micro companies usually get a pass unless they're the sole provider of something critical or national rules say otherwise. The classic edge case: a tiny software company managing security for banks might be in scope regardless of size.
 
 ### Five questions to test your scope
 
-"We serve banks but we're tiny: are we really in scope?"  
+"We serve banks, but we're tiny: are we really in scope?"  
 If you're handling their security-critical systems as a managed service provider, possibly yes.
 
 "We manufacture electronics: general or critical?"  
@@ -78,7 +78,7 @@ Rate yourself 1-5 on governance, risk management, policies, technical controls, 
 supply chain security, and awareness. Be honest: 1 means nothing exists, 5 means mature and validated.
 
 Mostly 1-2? Plan for 12-24 months of work. Mostly 3-4? You've got 9-18 months to fill gaps. Mostly 5? Either you are 
-already compliant or you are overconfident: validate externally.
+already compliant or you are overconfident: validate externally. Validation means testing, not attestation. A score of 5 on incident response, validated through tabletop exercises and a penetration test, produces different evidence than a score of 5 based on documentation being in place. The self-assessment is a starting point; the evidence supporting it determines whether a supervisory authority would agree.
 
 ### Your timeline in months
 
@@ -86,7 +86,7 @@ Check your member state's deadline. Then work backward based on where you scored
 
 Low maturity needs 12-24 months with dedicated resources. Medium maturity needs 9-18 months focussing on gaps. High maturity (like ISO 27001 certified) needs 6-12 months for NIS2-specific items: incident reporting, supply chain formalisation, governance documentation.
 
-If your deadline is under 12 months and you scored low, you have a resource problem. Get external help, prioritise ruthlessly, document what you're doing and why, and prepare to explain proportionality to regulators.
+If your deadline is under 12 months, and you scored low, you have a resource problem. Get external help, prioritise ruthlessly, document what you're doing and why, and prepare to explain proportionality to regulators.
 
 ## Engage your stakeholders
 
@@ -126,7 +126,7 @@ Create security requirements for new supplier RFPs, develop assessment questionn
 
 Mandatory awareness training for everyone. Security integration into onboarding and offboarding. Management training on obligations. Possibly background checks for privileged roles. Security isn't just technology: it's people and process.
 
-### Structure matters
+### Structure
 
 Assign an executive sponsor (CEO, COO, CISO) with authority and board reporting responsibility. Designate a programme owner (often CISO or compliance lead) for day-to-day coordination. Form a core team across IT, operations, legal, procurement, HR, and finance.
 
@@ -134,7 +134,7 @@ Establish governance: steering committee monthly, working group weekly, board up
 
 ## Output
 
-Don't rush into implementation. Get these foundations right first.
+Don't rush into it. Get the foundations right first.
 
 Scope clarity: Which sector, essential or important, what services, which authority, what deadline. Write it down in one clear paragraph.
 

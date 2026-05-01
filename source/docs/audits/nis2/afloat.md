@@ -10,13 +10,17 @@ Security operations need constant vigilance. Monitor critical systems around the
 
 Control effectiveness requires regular testing. Test controls on defined schedules to verify they still function. Conduct internal audits reviewing documentation and practice. Run penetration testing at least annually to simulate realistic attacks. Execute tabletop exercises walking through incident scenarios. Consider red team assessments for mature programmes that want a realistic challenge.
 
-Performance tracking shows what is working. Measure the mean time to detect incidents to understand how quickly problems are spotted. Track mean time to respond to see how fast incidents are contained and remediated. Monitor vulnerability remediation times from discovery to fix. Measure patch compliance rates across your environment. Track security awareness test results to verify training effectiveness. Analyse incident trends to identify improvements. Identify gaps where risks are not adequately addressed.
+Performance tracking shows what is working. Measure the mean time to detect incidents to understand how quickly problems are spotted. Track mean time to respond to see how fast incidents are contained and remediated. Monitor vulnerability remediation times from discovery to fix. Measure patch compliance rates across your environment. Track security awareness test results to verify training effectiveness. Analyse incident trends to identify improvements. [Identify gaps](../supportive/gap-analysis.md) where risks are not adequately addressed.
+
+Effectiveness metrics and activity metrics are different categories. Meantime to detect and mean time to respond measure outcome performance. Phishing click rate trends and exercise decision quality measure whether training produced observable behaviour change. Patch compliance rates and training completion rates measure whether activities occurred. Both categories are useful, but only the first two confirm that controls are producing their intended effect under realistic conditions.
 
 ## Maintain an annual governance cycle
 
 Board-level reviews keep security visible. Conduct an annual review of the security programme, its strategy, and effectiveness. Update risk assessments as threats and business operations change. Allocate budget and resources based on current needs. Review strategic security initiatives and their progress. Report compliance status honestly with supporting evidence. Refresh management training on evolving obligations.
 
-Policy and procedure updates prevent drift. Review policies annually for relevance and accuracy. Validate procedures against current practice to catch divergence. Update templates to reflect lessons learned. Integrate lessons from incidents into documentation. Incorporate regulatory changes as they occur.
+Policy and procedure updates prevent [drift](../../foundations/system-effectiveness/for-defence.md). Review policies annually for relevance and accuracy. Validate procedures against current practice to catch divergence. Update templates to reflect lessons learned. Integrate lessons from incidents into documentation. Incorporate regulatory changes as they occur.
+
+When procedures and current practice diverge, the divergence is a model signal before it is a compliance failure. The procedure encodes an assumption about how the work gets done; divergence is evidence that the assumption no longer fits. The diagnostic question is what changed: the environment, the risk, the tools, or the team's understanding of the task. Updating the documentation to match reality addresses the surface condition. Asking why the [drift](../../foundations/system-effectiveness/for-defence.md) happened is what prevents it reappearing.
 
 Training and awareness never stop. Deploy annual mandatory training for all staff on current threats. Provide role-specific refreshers for specialised functions. Integrate security into new employee onboarding from day one. Brief management regularly on emerging security issues. Raise awareness of emerging threats as they appear.
 
@@ -38,7 +42,9 @@ Participate in sector forums for shared learning. Join information sharing and a
 
 Learn from everything that happens. Conduct post-incident reviews after every significant event. Address audit findings systematically rather than ignoring them. Capture lessons from exercises and act on them. Analyse operational challenges to identify root causes. Study near-miss incidents that could have been worse.
 
-Benchmark and mature your programme. Compare practices against sector peers to identify gaps. Adopt security framework maturity models to measure progress. Progress from reactive response towards proactive prevention. Build predictive capabilities to identify problems before they manifest. Develop a security culture where everyone feels responsible.
+When a corrective action from a previous review reappears as the same finding in a later cycle, the corrective action addressed the surface condition but left an assumption intact. There is a third level beyond fixing the symptom (correction) and fixing the root cause (corrective action): asking what the organisation believed about this control's operating conditions that made the gap seem impossible. That belief, once named, can be checked against current reality and either confirmed or corrected.
+
+Benchmark and mature your programme. Compare practices against sector peers to [identify gaps](../supportive/gap-analysis.md). Adopt security framework maturity models to measure progress. Progress from reactive response towards proactive prevention. Build predictive capabilities to identify problems before they manifest. Develop a security culture where everyone feels responsible.
 
 Innovation and optimisation make security sustainable. Automate repetitive tasks to free staff for higher-level work. Improve control efficiency to reduce overhead. Reduce false positives that cause alert fatigue. Streamline processes to remove unnecessary friction. Leverage new technologies to make security easier rather than harder.
 

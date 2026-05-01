@@ -1,4 +1,4 @@
-Reference basecamp
+Supportive materials
 ======================================================
 
 .. toctree::
@@ -11,3 +11,5 @@ Reference basecamp
    cia.md
    big-data.md
    arrows-shields.md
+   gap-analysis.md
+   threat-register.md

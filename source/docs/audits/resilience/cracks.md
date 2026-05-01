@@ -1,4 +1,4 @@
-# Seeing the cracks before they spread
+# Seeing the cracks
 
 Most audits are paperwork theatre. Not all, but most. Boxes get ticked, reports gather dust, and everyone pretends 
 risks are "managed." Meanwhile, attackers, accidents, and reality itself continue unimpeded.
@@ -19,7 +19,7 @@ building resilience that survives first contact with the unexpected.
 The workshop is modular and adaptable, scalable from a focused half-day session to a multi-day deep dive depending on 
 your organisation's complexity and needs.
 
-### 1. Mapping what matters (The "What")
+### 1. Mapping what is at stake (The "What")
 
 - Identify your most critical assets: systems, processes, and relationships
 - Capture interdependencies that often get ignored (key personnel, vendors, data flows)
@@ -30,6 +30,8 @@ your organisation's complexity and needs.
 - Explore realistic "what-if" events: supply chain disruption, ransomware outbreak, critical staff absence, regulatory changes
 - Discuss cascading consequences across departments
 - Map recovery pathways and decision points under pressure
+
+Stress scenarios are not only discussion exercises. When the team walks through a ransomware scenario and discovers that the offsite backup is three days behind, or that two of the four named responders are on leave simultaneously, the discovery is behavioural evidence: it confirms that an assumption encoded in the continuity plan does not hold in the current operational environment. This is what separates resilience assessment from risk documentation.
 
 ### 3. Prioritising weak spots (The "Now What")
 
@@ -64,4 +66,6 @@ This workshop is designed for teams who want to:
 
 We work with your actual or by you chosen systems, processes, and people, not generic templates or hypothetical 
 scenarios that do not reflect your reality.
+
+When a gap identified in one session reappears in the next after a corrective action was applied, the corrective action addressed the surface condition but left an assumption intact. The question worth asking is not why the corrective action failed but what the organisation believed about this process that made the gap seem impossible. That belief is what needs to be corrected at the design level.
 

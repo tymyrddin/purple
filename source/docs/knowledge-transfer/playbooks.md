@@ -87,7 +87,7 @@ is not a sign of perfection. It's a sign that nobody actually uses it.
 
 * Nobody references them during actual incidents. Either the playbooks are wrong or nobody knows they exist. Both problems need fixing.
 * Every incident reveals steps that don't work. Tools have changed, contacts are wrong, procedures assume resources you don't have.
-* The playbooks assume perfect conditions. Procedures fall apart when the primary SIEM is down, the incident lead is on holiday, or it's 3am on a Sunday.
+* The playbooks assume perfect conditions. Procedures fall apart when the primary SIEM is down, the incident lead is on holiday, or it's 3:00 on a Sunday.
 * They're comprehensive but useless. Your phishing playbook is 40 pages and requires reading three other documents. That's not a playbook; that's procrastination formatted as documentation.
 * Tribal knowledge fills the gaps. Only senior analysts know how things really work. Your playbooks document the process you wish you had, not the one you actually use.
 

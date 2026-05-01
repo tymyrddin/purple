@@ -1,4 +1,4 @@
-# Your organisation as an ecosystem
+# Organisations as an ecosystem
 
 Risks do not sit obediently in silos. They travel through people, technology, suppliers, and regulators with the 
 grace of a domino chain collapsing. Yet most audits pretend each domain can be managed in isolation. This workshop 
@@ -9,7 +9,7 @@ parts.
 
 * Systems view: Look at the organisation as a living network, not a set of departments and policies.  
 * Interconnectedness: Dependencies between HR, IT, suppliers, and partners shape actual resilience.  
-* Cascading failure awareness: The first failure rarely matters most. It is the second, third, or tenth knock-on effect that brings the house down.  
+* Cascading failure awareness: The first failure is rarely the consequential one. It is the second, third, or tenth knock-on effect that brings the house down.  
 * Cross-boundary thinking: Security, risk, operations, product, and vendor management are different lenses on the same system.  
 * Practical foresight: The goal is not to model every possible scenario but to highlight critical weak links and where they converge.
 
@@ -31,6 +31,7 @@ This is an applied mapping and analysis process, grounded in collaborative works
    * Walk through realistic “what if” scenarios: cloud outage, key supplier failure, insider absence, regulatory shock.  
      * Trace the ripple effects across the system map to see how problems cascade.  
      * Capture intervention points and resilience gaps.
+     * Scenario walkthroughs produce two kinds of output. The first is the map: a visual record of where the organisation believes its dependencies and failure points are. The second is behavioural evidence from the walkthrough itself: where the team hesitated, which dependencies they had not considered, which recovery pathways turned out to depend on assumptions that did not hold. The map is implementation evidence. The behaviour during the walkthrough is [effectiveness evidence](../../foundations/system-effectiveness/applying-sem.md). Both are worth capturing; only the second reveals whether the system model is accurate.
 
 4. Synthesis & roadmap (remote, 2–3 days)
    * Translate findings into a concise ecosystem risk profile.  

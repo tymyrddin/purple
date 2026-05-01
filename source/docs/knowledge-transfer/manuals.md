@@ -288,7 +288,7 @@ The fix: Assign owners. Schedule reviews. Test in exercises. Update immediately 
 
 ### The locked manual
 
-The incident response manual is in a secure document management system requiring three levels of authentication and manager approval to access. When you need it at 2am, good luck.
+The incident response manual is in a secure document management system requiring three levels of authentication and manager approval to access. When you need it at 2:00, good luck.
 
 The problem: Treating manuals like sensitive secrets instead of operational necessities.
 
@@ -316,7 +316,7 @@ Before declaring a manual "done," test it honestly:
 
 Can someone unfamiliar with the procedure follow it successfully? Hand it to a junior team member who's never used it. Watch them try. Where do they get stuck?
 
-Can it be used at 3am? Tired, stressed, distracted. Does it still work? Or does it require clear thinking and careful reading?
+Can it be used at 3:00? Tired, stressed, distracted. Does it still work? Or does it require clear thinking and careful reading?
 
 Can it be used when primary systems are down? If the incident took out your infrastructure, can you still access the manual?
 
@@ -350,7 +350,7 @@ The goal: Manuals become instinctive tools, not optional references. When someth
 A good manual is not something people read. It's something people use, reliably, on the worst day of the year.
 
 If your manual requires calm, time, and concentration to be useful, you've built the wrong thing. Build for chaos 
-instead. Build for 3am. Build for the moment when everything is on fire and someone needs to know exactly what to do 
+instead. Build for 3:00. Build for the moment when everything is on fire and someone needs to know exactly what to do 
 next.
 
 That's not a manual. That's a lifeline.

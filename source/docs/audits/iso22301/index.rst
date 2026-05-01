@@ -22,6 +22,15 @@ systems, and now need to verify coverage, spot gaps, and prepare for an audit.
    evidence.md
    adversaries.md
 
+Compliance is treated as something derived from observed system behaviour rather than demonstrated through
+documentation alone. Each continuity control encodes an assumption about how the factory will behave under
+disruption: whether the failover will engage, whether the recovery procedure will work under pressure, whether
+the team will know their roles when a real incident interrupts normal working patterns. The evidence that is relevant
+is not that procedures are written and controls are installed, but that they produce their intended effect under
+conditions that approximate the actual disruption: a tested restoration confirming backup integrity, a tabletop
+exercise revealing gaps in the incident reporting chain, a PoC or red team scenario checking whether a cyber
+incident is contained as the OT continuity plan assumes it will be.
+
 .. raw:: html
 
         <div class="page__article">

@@ -1,4 +1,4 @@
-# Building adaptive organisations
+# Adaptive organisations
 
 Regulatory checklists are useful only until the threat doing the breaking does something the checklist did not anticipate.  
 
@@ -13,6 +13,9 @@ and adapts as the world changes.
 * Forward-looking, not rearview: We prioritise risks you are likely to face next, not the ones you faced last year.  
 * Inclusive, not siloed: Resilience requires operational, legal, HR, product and leadership voices in the same room.  
 * Evidence-driven: Recommendations come from interviews, observations, and light red-team probing, not from theory alone.
+
+Every control in a resilience programme encodes a model assumption about the organisation: that the escalation path 
+will work at 2:00, that the backup vendor can deliver within the recovery time objective, that the team knows the procedure when the documentation is inaccessible. Controls that have only been designed and documented are predictions. Controls that have been tested under realistic conditions are findings. The directed probing and red-team steps in this process are the mechanism that converts predictions into evidence.
 
 ## How it works: practical steps
 
@@ -29,6 +32,7 @@ This is a structured assessment and co-design process, scalable from a focused t
 3. Directed probing & light red team (1–3 days)
    * Non-destructive probing to test assumptions: phishing-lite, process walk-throughs, supplier failure scenarios, or a short red-team vignette.  
    * The goal is to surface real-world gaps quickly, not to run a full adversary emulation campaign.
+   * The results of this phase are [effectiveness evidence](../../foundations/system-effectiveness/applying-sem.md): they confirm whether controls produce their intended effect under conditions that approximate the actual threat. This evidence is more persuasive in any subsequent audit, regulatory interaction, or board conversation than a well-organised set of policies.
 
 4. Co-design workshop (1 day)
    * Cross-functional session to translate findings into practical interventions.  

@@ -1,8 +1,10 @@
-# Rapid resilience review (for execs and boards)
+# Rapid resilience review 
+
+(for execs and boards)
 
 Executives do not need another 100-page risk report gathering dust. They need clarity on what could take the 
 organisation down, and whether the current response is enough. This session strips away jargon and 
-exercises straight into what matters: top risks, resilience posture, and decisions at board level.
+exercises straight into what counts: top risks, resilience posture, and decisions at board level.
 
 ## Core principles
 
@@ -26,6 +28,7 @@ This is not a consultancy marathon. It is a rapid, high-value intervention desig
    * Walk through the top risks in scenario format: “What happens if this breaks tomorrow?”  
    * Map readiness gaps and decision points.  
    * Encourage candid debate about risk appetite and priorities.
+   * The tabletop is not only a discussion. It is a behavioural test of whether leadership can make decisions under the conditions of a real event: who hesitates, which escalation paths are unclear, which stated risk appetite does not hold when a specific scenario is named. What the group does during the scenario is more informative evidence about organisational readiness than what they say they would do.
 
 3. Response alignment (onsite or remote, 1–2 hours)
    * Capture agreed actions and responsibilities.  

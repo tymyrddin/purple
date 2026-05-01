@@ -20,6 +20,15 @@ up defences, and verify that every control is documented and auditable.
    evidence.md
    adversaries.md
 
+Auditable controls are necessary but not sufficient. Each control in an IEC 62443 deployment encodes an assumption
+about how the ICS environment will behave under attack: that the firewall rule will enforce what the diagram says it
+will, that the anomaly detection will fire against the technique the attacker will actually use, that the incident
+response team will execute the procedure under the conditions of a real event. The evidence that is relevant is not that
+controls are documented and auditable, but that they produce their intended effect under realistic conditions: a
+penetration test verifying that segmentation holds against the techniques in scope, a PoC confirming that an anomaly
+detection signature fires as expected, a tabletop exercise checking that the incident response chain operates under
+time pressure.
+
 .. raw:: html
 
         <div class="page__article">

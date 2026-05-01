@@ -17,6 +17,14 @@ Organisational risk audits & resilience assessments
    rapid-resilience-review.md
    two-paths.md
 
+Organisational resilience is treated here as something derived from observed behaviour under realistic
+conditions rather than demonstrated through documentation alone. Controls encode assumptions about how an
+organisation will respond when things go wrong: that the incident response chain will work under time pressure,
+that recovery procedures will execute with current staffing, that dependencies between teams are understood well
+enough to contain cascading failures. The evidence that counts is not that procedures exist and are documented,
+but that they produce their intended effect when tested. Stress tests, scenario exercises, red team probes, and
+structured tabletops are the mechanisms that generate this evidence.
+
 .. raw:: html
 
         <div class="page__article">

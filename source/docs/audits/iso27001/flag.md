@@ -72,7 +72,7 @@ Your team is trained, procedures are followed, and evidence exists to prove it a
 
 ## Maintaining camp: The surveillance cycle
 
-The mountain doesn't wait. Storms (emerging threats) will come, equipment degrades (controls lose effectiveness), personnel change (creating knowledge gaps), and processes may drift (documented vs actual practice diverge).
+The mountain doesn't wait. Storms (emerging threats) will come, equipment degrades (controls lose effectiveness), personnel change (creating knowledge gaps), and processes may [drift](../../foundations/system-effectiveness/for-defence.md) (documented vs actual practice diverge).
 
 The certificate is valid for three years, but you'll face annual surveillance audits to verify continued conformance. 
 Maintaining certification requires ongoing effort. This is where many organisations struggle.
@@ -158,7 +158,7 @@ Audit programme maintenance:
 Compare documented vs actual practice:
 - Do staff follow procedures as written?
 - Are procedures realistic and current?
-- Has process drift occurred? (Common after staff changes)
+- Has process [drift](../../foundations/system-effectiveness/for-defence.md) occurred? (Common after staff changes)
 - Are new risks being addressed?
 - Is evidence being created and retained?
 
@@ -510,7 +510,7 @@ Certification complacency: Treating certificate as finish line rather than check
 
 Audit-driven only: Only acting when audit is approaching. Result: Reactive rather than proactive, missed opportunities, expensive last-minute fixes.
 
-Documentation drift: Procedures become outdated, inconsistent with practice. Result: Audit findings, staff confusion, ineffective controls.
+Documentation [drift](../../foundations/system-effectiveness/for-defence.md): Procedures become outdated, inconsistent with practice. Result: Audit findings, staff confusion, ineffective controls.
 
 Turnover impacts: Key people leave, knowledge walks out door. Result: Processes break down, institutional knowledge lost, capability gaps.
 
@@ -557,4 +557,12 @@ The summit is proof of past achievement. Staying there requires future commitmen
 Your organisation has demonstrated the capability to climb the mountain. Now demonstrate the maturity to remain at the peak through ongoing vigilance, continuous improvement, and readiness for whatever challenges emerge.
 
 The flag flies proudly. Keep it flying through dedication, attention, and the systematic approach that got you here in the first place.
+
+## Related
+
+* [ISO 27001 Base camp check](base-camp-check.md)
+* [ISO 27001 Summit push](summit.md)
+* [Gap analysis](../supportive/gap-analysis.md)
+* [NIS2 Staying afloat](../nis2/afloat.md)
+* [Applying SEM to security](../../foundations/system-effectiveness/applying-sem.md)
 

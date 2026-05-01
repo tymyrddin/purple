@@ -14,7 +14,7 @@ Not every security event requires notifying regulators. First focus on incidents
 * Data breaches affecting many individuals
 * Compromise of network and information systems
 
-Next, sector considerations are important. What is significant for a hospital differs from what is significant for a 
+Next, sector context carries weight. What is significant for a hospital differs from what is significant for a 
 logistics company. Organisations should coordinate with their supervisory authority and sector CSIRT for guidance 
 on thresholds.
 
@@ -59,6 +59,8 @@ Recovery restores normal operations.
 * Document actions taken and the reasons behind them.
 * Update procedures and controls based on lessons learned.
 * Feed insights back into your risk assessment and control selection.
+
+When the same class of incident recurs after a corrective action was verified as complete, the corrective action addressed the surface condition but left an assumption intact. The question worth asking is not why the corrective action failed but what the organisation believed about this control that made the recurrence seem impossible. That belief is what needs to be corrected.
 
 ## Mandatory reporting has deadlines
 

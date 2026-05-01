@@ -1,4 +1,4 @@
-# Stress-testing resilience under pressure
+# Stress-testing resilience
 
 It is easy to assume your continuity plans will work because they look good on paper. Reality has a nasty habit of 
 tearing those plans apart at the seams.  
@@ -6,6 +6,8 @@ tearing those plans apart at the seams.
 This workshop is about *trying to break things on purpose* in a safe environment. By stress-testing your 
 organisation against realistic scenarios, you discover whether your defences, processes, and people can stand up 
 under actual pressure. Better to learn in a room with coffee than in the middle of a crisis.  
+
+Stress test results are compliance evidence, not only learning outputs. A tested recovery procedure that met its time objective with current staffing is a stronger claim to regulators, auditors, or the board than a recovery procedure that exists only in documentation. A scenario that exposed a gap in the escalation chain is evidence that a control's model assumption did not hold, and the corrective action that follows produces a testable hypothesis for the next cycle. Running stress tests on a recurring schedule converts a one-time discovery into a continuous verification mechanism.
 
 ## Core principles
 
@@ -32,7 +34,8 @@ This workshop can run as a focused tabletop (2–3 hours) or as a full-day live 
 3. Debrief: Harvest the insights  
    * What worked surprisingly well?  
    * Where did we stall or stumble?  
-   * Which dependencies proved most fragile?  
+   * Which dependencies proved most fragile?
+   * For technical teams, CTF (capture the flag) exercises serve the same function for operational competence: participants work through structured incident scenarios with immediate feedback on whether their response produced the intended effect. The format is self-correcting: the incident is either contained or it isn't, and the debrief surfaces exactly where the team's model of "how we respond to this" diverged from what the environment actually required.  
 
 4. Output: Action plan under fire  
    * A distilled set of lessons, captured in plain language.  

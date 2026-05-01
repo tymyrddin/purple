@@ -1,4 +1,4 @@
-# Two paths across, NIS2 and ISO 27001
+# Two paths, NIS2 and ISO 27001
 
 Organisations often ask whether to pursue NIS2 compliance on its own or combine it with ISO 27001 certification. 
 The answer depends on your situation, but understanding how they differ can help decision-making.
@@ -32,6 +32,8 @@ management.
 The combined benefits matter. ISO 27001 implementation satisfies many NIS2 requirements. ISO 27001 certification helps 
 demonstrate that you have taken appropriate measures. Shared documentation and evidence reduce duplication. A single 
 ISMS framework covers both. Mature processes reduce the overall compliance burden.
+
+Both paths share one requirement: that compliance evidence comes from tested control behaviour, not only from documented controls. ISO 27001 certification provides third-party validation that the management system exists and audits have been conducted. NIS2 supervisory oversight asks whether controls produce their intended effect under operational conditions. Neither substitutes for the behavioural evidence that stress tests, tabletop exercises, and targeted probing generate. Shared documentation reduces duplication of paperwork; shared testing cycles reduce duplication of the work that produces evidence worth presenting.
 
 ## When dual compliance makes sense
 
@@ -72,4 +74,4 @@ Maintain both through a unified set of processes going forward.
 
 Map requirements to find overlaps. Article 21 of NIS2 aligns closely with ISO 27001 Annex A. Incident reporting is 
 not part of ISO 27001. Supply chain requirements are similar but phrased more firmly in NIS2. Governance obligations 
-overlap substantially. Use gap analysis to identify what is unique to each.
+overlap substantially. Use [gap analysis](../supportive/gap-analysis.md) to identify what is unique to each.

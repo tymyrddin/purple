@@ -253,7 +253,7 @@ Information security professionals:
 
 Employees and users:
 - Must follow security policies and procedures
-- Need to understand why security matters
+- Need to understand why security is worth taking seriously
 - Want security to be usable, not obstructive
 - Their requirements: Clear policies, practical procedures, adequate training, support when needed
 - Your response: User-friendly security, comprehensive awareness training, help desk support
@@ -526,9 +526,9 @@ Each expansion triggered risk assessment update, new controls where needed, and 
 
 *ISO/IEC 27001 Clause 5*
 
-Although day-to-day ISMS tasks fall to assigned staff (CISO, Information Security Manager, security team), top management holds overall accountability. Their role is to fund the climb, endorse the route, ensure the team has enough resources (oxygen), and demonstrate that information security matters strategically.
+Although day-to-day ISMS tasks fall to assigned staff (CISO, Information Security Manager, security team), top management holds overall accountability. Their role is to fund the climb, endorse the route, ensure the team has enough resources (oxygen), and demonstrate that information security carries strategic weight.
 
-Clause 5 formalises this as leadership and commitment, ensuring that the ISMS aligns with the organisation's strategic objectives and that everyone knows why the climb matters.
+Clause 5 formalises this as leadership and commitment, ensuring that the ISMS aligns with the organisation's strategic objectives and that everyone understands the point of the climb.
 
 Without genuine support from management, the expedition never leaves base camp. Security becomes "IT's problem," resources aren't allocated, staff don't prioritise it, and certification attempts fail.
 
@@ -746,7 +746,7 @@ Actions that show real leadership commitment:
 - "We can't afford not to" attitude rather than "we can't afford it"
 - Long-term security strategy exists, not just compliance focus
 
-The distinction between stated and observable commitment matters for the ISMS. A signed policy is evidence of intent. 
+The distinction between stated and observable commitment is consequential for the ISMS. A signed policy is evidence of intent. 
 Observable commitment appears in resource allocation decisions when security competes with other priorities, in whether 
 the security manager has actual authority to stop activities that create unacceptable risk, and in how the organisation 
 responds to repeated policy violations. When the documented commitment pattern diverges from the observed behaviour 
@@ -927,7 +927,7 @@ You're ready to leave the map room when:
 
 ✓ Resources committed: Budget allocated, roles assigned, time dedicated
 
-✓ Communication successful: Staff aware of ISMS initiative and understand why it matters
+✓ Communication successful: Staff aware of ISMS initiative and understand why it is relevant
 
 ✓ Foundation solid: Subsequent work (risk assessment, control selection) can proceed confidently
 

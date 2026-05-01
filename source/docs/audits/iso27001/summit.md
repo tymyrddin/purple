@@ -141,12 +141,12 @@ Quality issues:
 
 ### Stage 1 outcomes
 
-Pass - Proceed to Stage 2: Documentation is adequate and complete. Stage 2 scheduled (typically 4-12 weeks later).
+Pass -> Proceed to Stage 2: Documentation is adequate and complete. Stage 2 scheduled (typically 4-12 weeks later).
 
-Minor gaps - Proceed with conditions: Documentation mostly adequate but some issues identified. Stage 2 can proceed, 
+Minor gaps -> Proceed with conditions: Documentation mostly adequate but some issues identified. Stage 2 can proceed, 
 but gaps must be addressed before certification issued.
 
-Major gaps - Stage 2 postponed: Significant documentation problems require resolution before on-site audit makes 
+Major gaps -> Stage 2 postponed: Significant documentation problems require resolution before on-site audit makes 
 sense. Address issues and restart Stage 1 (typically 1-3 months later). Additional fees usually apply.
 
 ### Example Stage 1 finding
@@ -256,7 +256,7 @@ Direct observation: "Show me how you handle a suspected phishing email right now
 
 Evidence requests: "Can you show me access review records for the past year?"
 
-Scenario testing: "If the backup system fails at 2am, who gets called and what happens next?"
+Scenario testing: "If the backup system fails at 2:00, who gets called and what happens next?"
 
 Awareness checks: "What would you do if you found an unknown USB drive in the car park?"
 
@@ -480,7 +480,7 @@ Do:
 
 ✓ Have evidence organised: Auditors should be able to find requested documents within minutes, not hours.
 
-✓ Involve staff beforehand: Brief them on what to expect, but don't script their answers. Authenticity matters.
+✓ Involve staff beforehand: Brief them on what to expect, but don't script their answers. Authenticity is what lands.
 
 ✓ Take notes during audit: Document what auditors look at and questions asked for future reference.
 
@@ -514,7 +514,7 @@ Over-preparation (audit theatre): Creating new evidence specifically for audit, 
 
 Under-preparation: Not knowing where evidence is located, who's responsible for what, or being unable to demonstrate basic processes. Suggests lack of readiness.
 
-Perfection anxiety: Trying to fix everything the night before or making last-minute changes creates chaos and is often counterproductive. Better to acknowledge gaps with plans than panic.
+Perfection anxiety: Trying to fix everything the night before or making last-minute changes creates [chaos](../../foundations/change-management/satir-change-model.md) and is often counterproductive. Better to acknowledge gaps with plans than panic.
 
 Radio silence: Not communicating with staff about the audit, why it's happening, or what to expect. This creates anxiety and inconsistent responses.
 
@@ -524,7 +524,7 @@ Inconsistent documentation: Policies that contradict procedures, or documented p
 
 ## Reflection and improvement
 
-*ISO/IEC 27001 Clause 10 - Improvement*
+*ISO/IEC 27001 Clause 10: Improvement*
 
 Reaching the summit is exhilarating, but the climb doesn't end with the certificate in your hands. The summit is also your vantage point to look back, learn, and prepare for ongoing operation, because mountains change, and so do risks.
 
@@ -620,7 +620,7 @@ Controls that worked well:
 - Can we replicate that pattern elsewhere?
 - Can we build on this success?
 
-#### Process drift
+#### Process [drift](../../foundations/system-effectiveness/for-defence.md)
 
 Did your team follow documented procedures?
 
@@ -632,7 +632,7 @@ If deviations occurred:
 
 Decision: Either update procedures to match reality (if the reality is secure and effective) or update reality to match procedures (if deviations create risk).
 
-Process drift is a model failure before it is a compliance failure. When documented procedures and actual practice diverge, the divergence is evidence that the model the procedure was built on no longer fits operational reality. The diagnostic question is what changed: the environment, the risk, the tools, or the people's understanding of the task. Updating the documentation or retrain the staff addresses the surface condition. Asking why the drift happened in the first place is what prevents it from reappearing.
+Process [drift](../../foundations/system-effectiveness/for-defence.md) is a model failure before it is a compliance failure. When documented procedures and actual practice diverge, the divergence is evidence that the model the procedure was built on no longer fits operational reality. The diagnostic question is what changed: the environment, the risk, the tools, or the people's understanding of the task. Updating the documentation or retrain the staff addresses the surface condition. Asking why the [drift](../../foundations/system-effectiveness/for-defence.md) happened in the first place is what prevents it from reappearing.
 
 #### Communication and awareness
 
@@ -671,5 +671,14 @@ What evidence was incomplete?
 - Improve templates (ensure all required fields present)
 - Provide training on what constitutes adequate evidence
 - Build in review/approval steps
+
+## Related
+
+* [ISO 27001 Flag](flag.md)
+* [ISO 27001 Base camp check](base-camp-check.md)
+* [ISO 27001 Risk tent](risk-tent.md)
+* [ISO 27001 The gear depot](gear-depot.md)
+* [Gap analysis](../supportive/gap-analysis.md)
+* [Standards reference](../supportive/standards.md)
 
 

@@ -192,7 +192,7 @@ Risk NET-03: Lateral movement after network breach
   * A.12.4 Enhanced logging (SIEM deployment)
   * A.9.4 Access control review (quarterly instead of annual)
 - Owner: IT Manager (implementation), CISO (oversight)
-- Resources: €15.000 (SIEM license + VLAN equipment), 80 hours engineer time
+- Resources: €15.000 (SIEM licence + VLAN equipment), 80 hours engineer time
 - Schedule:
   * Feb 2026: SIEM procurement and deployment
   * Mar 2026: VLAN implementation and testing
@@ -363,7 +363,7 @@ Ongoing Monitoring and Review
 
 ### Example: Complete risk treatment plan excerpt
 
-TechConsult Ltd - Risk Treatment Plan 2026
+TechConsult Ltd Risk Treatment Plan 2026
 
 Risk HUMAN-03: Phishing susceptibility leading to credential theft
 
@@ -392,7 +392,7 @@ Implementation plan:
 | Procure email security tool        | IT Manager | 01 Feb 26 | 15 Feb 26 | €3.000/year                       | Complete    |
 | Deploy email filtering             | IT Manager | 16 Feb 26 | 28 Feb 26 | 20 hours                          | Complete    |
 | Enable MFA for M365                | IT Manager | 01 Mar 26 | 15 Mar 26 | 10 hours                          | In progress |
-| Purchase password manager licenses | IT Manager | 01 Mar 26 | 08 Mar 26 | €1.500/year                       | Not started |
+| Purchase password manager licences | IT Manager | 01 Mar 26 | 08 Mar 26 | €1.500/year                       | Not started |
 | Deploy password manager            | IT Manager | 16 Mar 26 | 31 Mar 26 | 15 hours                          | Not started |
 | Develop awareness training         | HR Manager | 01 Feb 26 | 28 Feb 26 | 40 hours + €2.000 external        | Complete    |
 | Deliver initial training           | HR Manager | 01 Mar 26 | 31 Mar 26 | 25 hours (all staff 2hr sessions) | In progress |
@@ -554,8 +554,8 @@ A typical SoA includes:
 | A.11.2 Physical entry controls | Badge access to server room           | No            | N/A                   | N/A            | Server room currently in cloud provider; physical control managed by provider                                                                                                                                                  | Cloud provider SOC 2 report        |
 | A.8.31 Separation of duties    | Segregation of incompatible tasks     | No            | N/A                   | ORG-04         | Organisation has <10 employees; full separation would require additional headcount not justified by risk level (Low). Compensating controls: dual approval for critical changes, enhanced logging, quarterly management review | Dual approval workflow, audit logs |
 
-The Evidence column records both implementation evidence (the control is in place) and effectiveness evidence (the 
-control produces its intended effect). Where a control is fully implemented, effectiveness evidence takes the form of 
+The Evidence column records both implementation evidence (the control is in place) and [effectiveness evidence](../../foundations/system-effectiveness/applying-sem.md) (the 
+control produces its intended effect). Where a control is fully implemented, [effectiveness evidence](../../foundations/system-effectiveness/applying-sem.md) takes the form of 
 a repeatable scenario: a quarterly review that finds and removes something, a detection test confirming an alert fires, 
 a tabletop revealing response times. That kind of evidence is more durable than a deployment log.
 
@@ -579,7 +579,7 @@ a tabletop revealing response times. That kind of evidence is more durable than 
 
 Example 1: Lost or stolen mobile devices
 - Risk reference: MOBILE-01 from risk register (Medium-High risk: confidentiality breach from lost device)
-- Control: A.8.3 (Handling of assets) - MDM solution with encryption and remote wipe capability
+- Control: A.8.3 (Handling of assets): MDM solution with encryption and remote wipe capability
 - Implementation status: Fully implemented
 - Evidence (implementation): MDM logs showing 100% device enrolment, encryption verification reports
 - Evidence (effectiveness): Remote wipe test results, Q4 2025: 3 test devices wiped and data-clear confirmed, average 4 minutes from trigger to confirmation; procedure repeated quarterly
@@ -587,7 +587,7 @@ Example 1: Lost or stolen mobile devices
 
 Example 2: Misconfigured cloud storage
 - Risk reference: CLOUD-02 from risk register (High risk: data exposure through misconfiguration)
-- Control: A.14.2 (Security in development and support processes) - Automated cloud security posture management and access controls
+- Control: A.14.2 (Security in development and support processes): Automated cloud security posture management and access controls
 - Implementation status: Partially implemented (70% coverage)
 - Evidence (implementation): CSPM tool deployment records, Q3 2025 audit findings showing 70% production coverage
 - Evidence (effectiveness): Q3 2025 scan identified 3 critical misconfigurations in production; all remediated within 48 hours; monthly manual reviews for development environments with findings logged
@@ -597,14 +597,14 @@ Example 2: Misconfigured cloud storage
 
 Example 3: Phishing susceptibility
 - Risk reference: HUMAN-03 from risk register (High risk: credential theft and malware via phishing)
-- Control: A.7.2.2 (Information security awareness, education and training) - Quarterly phishing simulations and security awareness training
+- Control: A.7.2.2 (Information security awareness, education and training): Quarterly phishing simulations and security awareness training
 - Implementation status: Fully implemented
 - Evidence: Training completion rates (98% Q4 2025), simulated phishing test results showing improvement from 15% click rate (Jan 2025) to 4% click rate (Oct 2025)
 - Justification: Addresses human vulnerability factor; measurable improvement in user behaviour demonstrates effectiveness
 
 ### Control effectiveness
 
-The SoA records two kinds of evidence for each control: evidence of implementation (the control is in place and running) and evidence of effectiveness (the control produces its intended effect under realistic conditions). Implementation evidence proves the control exists; effectiveness evidence demonstrates it works. For compliance grounded in observed behaviour, the second category carries more weight.
+The SoA records two kinds of evidence for each control: evidence of implementation (the control is in place and running) and evidence of effectiveness (the control produces its intended effect under realistic conditions). Implementation evidence proves the control exists; [effectiveness evidence](../../foundations/system-effectiveness/applying-sem.md) demonstrates it works. For compliance grounded in observed behaviour, the second category carries more weight.
 
 Technical controls:
 - Implementation: Configuration compliance audits, security tool logs and alerts, automated testing results
@@ -618,7 +618,7 @@ Organisational controls:
 - Implementation: Training completion rates, access review completion records, policy sign-off records
 - Effectiveness: Simulated phishing click rates after training, access review findings actioned and verified, incident response exercise results showing response times and decision quality
 
-Document effectiveness evidence in the SoA to demonstrate controls are not just implemented but actually working. During audits, you'll need to show both implementation (the control exists) and effectiveness (the control achieves its intended purpose).
+Document [effectiveness evidence](../../foundations/system-effectiveness/applying-sem.md) in the SoA to demonstrate controls are not just implemented but actually working. During audits, you'll need to show both implementation (the control exists) and effectiveness (the control achieves its intended purpose).
 
 ## TL;DR
 
@@ -639,7 +639,7 @@ The SoA translates risk treatment decisions into operational reality. It is the 
 * Created after risk assessment, owned by CISO/security manager
 * Links every control to specific risks in your risk register
 * Justifies both inclusions and exclusions
-* Tracks implementation status and effectiveness evidence
+* Tracks implementation status and [effectiveness evidence](../../foundations/system-effectiveness/applying-sem.md)
 * Reviewed annually or when significant changes occur
 * Essential for certification audits and ongoing compliance
 

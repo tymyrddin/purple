@@ -46,10 +46,10 @@ The entries in these tables are starting hypotheses, not verdicts. A likelihood 
 All three methodologies work in the rational domain: identify threats, estimate likelihood, estimate impact. This is 
 necessary, but a risk register built solely from this process will be systematically incomplete in predictable ways.
 
-The emotional layer asks which risks are difficult to name. Insider threat is chronically underrepresented in risk 
+The [emotional layer](../../foundations/problem-solving/three-domains.md) asks which risks are difficult to name. Insider threat is chronically underrepresented in risk 
 registers not because it is rare but because naming it implicates colleagues and changes the atmosphere of the session. 
 A senior employee's access profile that has not been reviewed in four years is a risk scenario; raising it in a 
-workshop has social consequences. The political layer asks whose interests are served by a particular outcome. If 
+workshop has social consequences. The [political layer](../../foundations/problem-solving/three-domains.md)) asks whose interests are served by a particular outcome. If 
 treating a risk creates work for one team while the benefit accrues to another, acceptance becomes the path of least 
 resistance regardless of the risk score. The tables below provide the structure for a rational assessment. That 
 structure is most useful when the people using it have also asked: which risks are we unlikely to surface because 
@@ -193,6 +193,21 @@ When managing information security risks, selecting an appropriate treatment str
 Applying risk treatment: Once you've mapped risks using your chosen methodology, apply the appropriate treatment strategy. Most mitigating controls in the tables above represent risk *modification* (mitigation). If a control is too costly or complex, consider risk *retention* (acceptance) or *sharing* (transfer) instead. Risk *avoidance* means choosing not to engage in the risky activity at all.
 
 Treatment decisions are not immune to the dynamics described above. Risk acceptance in particular is politically shaped: if the cost of treating a risk falls on one team and the benefit accrues to another, acceptance is the outcome of least resistance regardless of the risk score. An unusually high proportion of accepted Medium or High risks in one area of the business is worth examining before the register is finalised.
+
+When a treatment that was agreed and resourced stalls repeatedly, or when the same risk is accepted with unchanged 
+justification in successive cycles, the constraint is usually in the 
+[political or emotional layer](../../foundations/problem-solving/three-domains.md) rather than the technical one. 
+Practical signals: a remediation that has not progressed despite being resourced for two review periods; a risk 
+accepted for the third consecutive year; a treatment plan where the responsible team consistently cites competing 
+priorities. The diagnostic question is not whether the risk score is accurate but whether the incentive structure 
+makes treatment worthwhile for the team responsible for delivering it. 
+[Escalating to whoever controls those incentives](../../foundations/problem-solving/psl-approach.md) is often more 
+effective than refining the score.
+
+The emotional layer produces a different kind of gap. Risks involving insider threat, historical failures, or 
+practices in well-regarded teams tend to be underrepresented not because they are unlikely but because naming them 
+changes the atmosphere in the room. Running risk identification with some form of anonymity, or separating the 
+identification session from the ownership discussion, gives these risks room to surface.
 
 ### Risk avoidance
 

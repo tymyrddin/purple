@@ -7,7 +7,7 @@ NIS2 explicitly requires managing these risks because high-profile incidents suc
 Log4j have shown how supplier compromises can cascade to customers. Weaknesses upstream can pull you under even 
 if your own defences are strong.
 
-## Why this matters now
+## Why this is relevant now
 
 Your obligations include taking appropriate measures to manage supply chain risks, considering vulnerabilities specific to each supplier, including security requirements in contracts, and monitoring supplier security posture over time. If your suppliers are also in scope for NIS2, they have their own compliance requirements. Coordination can prevent duplication while ensuring nothing falls through the gaps.
 
@@ -31,7 +31,7 @@ Classify suppliers by risk and criticality:
 
 Establish minimum security standards, which may include:
 
-* Security certifications such as ISO 27001 or SOC 2 for critical suppliers
+* Security certifications such as ISO 27001 or SOC 2 for critical suppliers (these are implementation evidence: they confirm a management system passed an audit at a point in time; they are not [effectiveness evidence](../../foundations/system-effectiveness/applying-sem.md) that the supplier's controls produce their intended effect in the context of your specific integration)
 * Completion of security questionnaires demonstrating baseline controls
 * Incident notification obligations so you know when supplier incidents affect you
 * Audit rights and regular reporting to verify continued compliance

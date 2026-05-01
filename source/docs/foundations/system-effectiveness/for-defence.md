@@ -21,7 +21,7 @@ without anyone noticing.
 
 Deliberate model testing is not the same as penetration testing. It is asking specific questions: does the isolation 
 we believe exists actually exist? Does the alert we believe fires actually fire against this technique? Does the 
-escalation path we have documented actually work at 2am?
+escalation path we have documented actually work at 2:00?
 
 This is closer to chaos engineering applied to security assumptions than to a traditional red team engagement. The 
 goal is to make model drift visible before an attacker finds it.

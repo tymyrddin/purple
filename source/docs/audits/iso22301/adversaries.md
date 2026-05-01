@@ -8,29 +8,26 @@ that could stop the factory if unprepared. Understanding them allows targeted co
 ## Key disruption categories
 
 1. Technical outages
-
    * PLC, SCADA, server, or sensor failure.
    * Check: Are redundancies and failover systems in place? Are maintenance records current?
 
 2. Environmental incidents
-
    * Power loss, fire, flooding, HVAC failure, or extreme temperatures.
    * Check: Are backup power, environmental monitoring, and emergency procedures documented and tested?
 
 3. Human factors
-
    * Operator error, procedural mistakes, staff absence, or miscommunication.
    * Check: Are procedures documented and understood? Is cross-training in place?
 
 4. Supply chain interruptions
-
    * Delays in spares, maintenance services, or vendor support.
    * Check: Are critical suppliers identified? Are alternative vendors and contingency stock planned?
 
 5. Cyber incidents
-
    * Malware, ransomware, misconfiguration, or protocol abuse affecting OT systems.
    * Check: Are IT/OT continuity plans aligned? Are recovery procedures defined for cyber disruptions?
+
+Each disruption category is also a test scenario. A technical outage can be simulated through a controlled failover test. An environmental incident can be walked through in a tabletop to check whether backup power procedures and emergency contacts are accessible under time pressure. A cyber incident can be run as a PoC or red team scenario against a staging environment to verify that IT/OT response assumptions reflect what an actual compromise would look like. Disruptions that have only been planned for, and never tested against, remain assumptions about how the factory will behave. The difference between a disruption that is navigated successfully and one that extends into a crisis is usually found in the gap between the plan and the tested reality.
 
 ## Executive gap‑spotting
 
@@ -43,3 +40,4 @@ that could stop the factory if unprepared. Understanding them allows targeted co
 
 * [IEC 62443 Who could sneak into the factory?](../iec62443/adversaries.md)
 * [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
+* [Gap analysis](../supportive/gap-analysis.md)

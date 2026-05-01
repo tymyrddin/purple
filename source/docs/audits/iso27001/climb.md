@@ -64,7 +64,19 @@ Awareness: Everyone understands their role in information security and the conse
 
 A rope team depends on everyone knowing their knots (competence), learning new techniques when the route demands it (training), and understanding when to tighten the rope (awareness).
 
-The distinction matters for evidence. Competence is not evidenced by a course completion certificate; it is evidenced by what someone does in a realistic situation. A system administrator who has completed firewall training has attended training; one who configures a firewall correctly under realistic conditions, with incomplete documentation and time pressure, has demonstrated competence. Awareness is not evidenced by a quiz score; it is evidenced by what people do when they encounter an actual phishing attempt or notice something unusual. Designing the programme around observable outcomes rather than training delivery shifts the metric from attendance to behaviour.
+The distinction is relevant for evidence. Competence is not evidenced by a course completion certificate; it is evidenced 
+by what someone does in a realistic situation. A system administrator who has completed firewall training has attended 
+training; one who configures a firewall correctly under realistic conditions, with incomplete documentation and time 
+pressure, has demonstrated competence. Awareness is not evidenced by a quiz score; it is evidenced by what people do 
+when they encounter an actual phishing attempt or notice something unusual. Designing the programme around observable 
+outcomes rather than training delivery shifts the metric from attendance to behaviour.
+
+[CTF and roleplay exercises](../../foundations/organisational-development/roleplay.md) apply this principle directly to 
+technical competence: participants work through structured 
+challenges with immediate feedback on success or failure. The format is self-correcting by design: the flag is either captured 
+or it isn't, and the environment is realistic enough to produce observable behaviour rather than recalled procedure. 
+A technically-oriented team member who completes a network-attack scenario in a CTF has produced better competence 
+evidence than one who passed an examination on the same topic.
 
 ### Building security awareness
 
@@ -73,7 +85,7 @@ Awareness is not a slide deck once a year; it is a steady rhythm of reminders, b
 Awareness that changes behaviour works best when the learning environment is close to the actual work context. A short briefing on a threat that appeared in the organisation's own sector that week works better than an hour on abstract policy, because it is specific, timely, and actionable. Simulations, tabletop exercises, and scenario-based challenges work for the same reason: they are self-correcting. The participant experiences the consequence of a wrong choice in a safe environment, which is more durable than being told what the right choice is. Designing awareness around exercises that reflect what people actually encounter, rather than policy content delivered in isolation, is the mechanism that moves click rates and keeps them there.
 
 Example: 
-During phishing season (which seems to be all year), a logistics company runs five-minute "campfire briefings" before shifts. Workers learn what suspicious messages look like and how to report them. No one expects them to quote the ISO clause, they just need to hold the line when it matters. After three months, click rates on simulated phishing tests drop from 18% to 5%.
+During phishing season (which seems to be all year), a logistics company runs five-minute "campfire briefings" before shifts. Workers learn what suspicious messages look like and how to report them. No one expects them to quote the ISO clause, they just need to hold the line when it counts. After three months, click rates on simulated phishing tests drop from 18% to 5%.
 
 The facilitator's role in security awareness is to create conditions where people encounter realistic situations and have to make real decisions, not to deliver content. A briefing that presents a real recent incident from the sector and asks "what would you have done?" produces more durable learning than one that explains the correct procedure. The debrief after a simulation exercise, where people articulate what they noticed and what they would do differently, is where the awareness is actually formed. What the group discussed and decided in that debrief is more informative evidence than an attendance record.
 
@@ -127,7 +139,7 @@ Avoid these pitfalls:
 - Outdated documents: Policies that contradict current practice, making compliance impossible
 - Hidden documents: Stored where people can't find them when needed
 - No version control: Leading to confusion about what's current and who approved what
-- Over-documentation: Burying important information in bureaucracy; if everything is "critical," nothing is
+- Over-documentation: Burying critical information in bureaucracy; if everything is "critical," nothing is
 - Under-documentation: No record of decisions, making it impossible to demonstrate due diligence
 
 Example: 
@@ -180,7 +192,7 @@ accumulates workarounds beneath a clean compliance surface.
 ### The chaos phase
 
 Every significant change to controls or processes goes through a disruption phase before reaching a new stable state. 
-This is structural, not failure. When MFA is introduced, the first weeks will generate more helpdesk tickets, more 
+[This is structural, not failure](../../foundations/organisational-development/satir-change-model.md). When MFA is introduced, the first weeks will generate more helpdesk tickets, more 
 complaints, and more workarounds than the final state will. When an access review process is formalised, it will 
 initially take longer and feel more burdensome than the informal practice it replaced.
 
@@ -227,7 +239,7 @@ In practice, this means:
 
 Security culture is not enforced through memos; it grows through repetition, trust, and shared responsibility. When everyone understands *why* the rules exist, they stop seeing them as red tape and start treating them as oxygen. Invisible, vital, and entirely necessary for the altitude ahead.
 
-The climb succeeds not because the route is easy, but because every team member knows their role, has the tools they need, trusts their rope partners, and understands that reaching the summit requires each person to hold the line when it matters most.
+The climb succeeds not because the route is easy, but because every team member knows their role, has the tools they need, trusts their rope partners, and understands that reaching the summit requires each person to hold the line under pressure.
 
 Ready for [a thorough check at the final stage base camp](base-camp-check.md) before the push to the summit?
 

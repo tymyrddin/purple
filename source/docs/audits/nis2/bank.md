@@ -23,6 +23,8 @@ Governance evidence demonstrates board accountability:
 
 Technical evidence demonstrates that controls actually work:
 
+Implementation evidence confirms the control is in place and running. [effectiveness evidence](../../foundations/system-effectiveness/applying-sem.md) confirms it produces its intended effect under realistic conditions. Both are worth organising. A penetration test result showing network segmentation held against a realistic attack path, a tabletop result showing the incident reporting chain met the 72-hour deadline under simulated pressure, and a phishing simulation showing click rates have moved after awareness interventions are more persuasive to a supervisory authority assessing proportionality than configuration documentation alone.
+
 * System inventories and network diagrams
 * Evidence of security control implementation from audits and assessments
 * Configuration documentation for critical systems
@@ -116,7 +118,7 @@ Run through a checklist honestly. Example:
 * Incident reporting procedures established with successful test notifications
 * Supply chain security programme implemented with supplier assessments
 * Business continuity plans documented and tested successfully
-* Security awareness training deployed with completion tracking
+* Security awareness training deployed with completion tracking (delivery evidence; pair with [effectiveness evidence](../../foundations/system-effectiveness/applying-sem.md): phishing simulation click rate trends, exercise performance)
 * All evidence organised and accessible for audit
 * Supervisory authority registration completed where required
 * Regular review cycles established and functioning

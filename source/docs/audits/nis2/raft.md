@@ -18,6 +18,8 @@ and handling instructions. These documents are operational guides.
 
 ## Technical implementation builds the foundation
 
+Every control encodes an assumption about the environment it is designed to protect. Network segmentation assumes traffic follows expected paths. MFA assumes the second factor is not recoverable through the same attack path as the first. Patch management assumes the patching window closes exposure before exploitation. Selecting a control means selecting its assumptions. Before committing to an implementation, it is worth asking: what conditions are needed for this control to produce its intended effect, and do those conditions hold in this environment?
+
 Identity and access management should start with multifactor authentication on critical systems. Implement role-based access control aligned with job responsibilities, and privileged access management for administrative functions. Conduct regular access reviews to remove permissions that are no longer required.
 
 Network and system security can include segmentation to contain breaches, intrusion detection to spot attacks, continuous monitoring and logging, patch management to close known vulnerabilities, endpoint protection, and vulnerability scanning to identify weaknesses before attackers do.
@@ -37,6 +39,8 @@ Asset management may include maintaining a comprehensive inventory, classifying 
 ## People and culture complete the vessel
 
 Security awareness training should be continuous and practical. Provide regular sessions for all staff, role-specific training for IT, security, and management, and phishing simulations to test effectiveness. Maintain visibility of security through ongoing communications, and ensure management understands their obligations under NIS2.
+
+[CTF and roleplay exercises](../../foundations/organisational-development/roleplay.md) extend this to technical competence: participants work through structured challenges with immediate feedback on success or failure. The format is self-correcting by design: the flag is either captured or it isn't, and the environment is realistic enough to produce observable behaviour rather than recalled procedure. A staff member who completes an incident-analysis or network-attack CTF has produced better competence evidence than one who attended the equivalent training session. Facilitation counts for more than delivery here. Awareness that changes behaviour comes from environments where people encounter realistic situations and have to make real decisions. A briefing that presents a recent incident from the sector and asks "what would you have done?" produces more durable learning than one that explains the correct procedure. The debrief, where people articulate what they noticed and what they would do differently, is where the awareness is actually formed.
 
 Human resources security begins at hiring. Conduct background checks where appropriate, include security clauses in contracts, deliver onboarding briefings, and ensure offboarding procedures revoke access and recover equipment. Employees should acknowledge acceptable use policies.
 

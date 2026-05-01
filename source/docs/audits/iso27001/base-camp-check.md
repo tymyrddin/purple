@@ -131,22 +131,22 @@ Before you set off for the final climb (external certification audit), conductin
 
 Here are the three critical things to examine during an internal audit:
 
-### 1. Are ropes frayed? (Process drift)
+### 1. Are ropes frayed? (Process [drift](../../foundations/system-effectiveness/for-defence.md))
 
-What to look for: Have your procedures and policies stayed aligned with what's documented? Or have practices drifted from what's written?
+What to look for: Have your procedures and policies stayed aligned with what's documented? Or have practices [drift](../../foundations/system-effectiveness/for-defence.md)ed from what's written?
 
-Process drift examples:
+Process [drift](../../foundations/system-effectiveness/for-defence.md) examples:
 - Policy says passwords change every 90 days, but IT changed the system to 180 days without updating the policy
 - Risk assessment procedure says quarterly reviews, but they're actually happening annually
 - Backup policy requires monthly restoration testing, but last test was 6 months ago
 - Access review procedure says "manager approval required," but approvals are done by IT team lead
 - Incident response plan references old contact numbers and outdated escalation procedures
 
-Why it matters: If what you do doesn't match what you document, you're nonconforming against your own ISMS. Auditors will find this immediately.
+If what you do doesn't match what you document, you're nonconforming against your own ISMS. Auditors will find this immediately.
 
 Fix: Update documentation to match reality, or update reality to match documentation. Choose whichever makes more sense for your actual security needs.
 
-Process drift is a model failure before it is a compliance failure. The documentation describes the system as it was understood to work; the observed behaviour describes the system as it actually works. When these diverge, the question worth asking is which is more accurate: the documentation or the behaviour. If the behaviour is more accurate, update the documentation. If the documentation is more accurate, investigate why the environment resists the documented procedure. A process that consistently drifts in one direction is evidence that the documented approach does not fit the operational context, not that individuals are failing to comply.
+Process [drift](../../foundations/system-effectiveness/for-defence.md) is a model failure before it is a compliance failure. The documentation describes the system as it was understood to work; the observed behaviour describes the system as it actually works. When these diverge, the question worth asking is which is more accurate: the documentation or the behaviour. If the behaviour is more accurate, update the documentation. If the documentation is more accurate, investigate why the environment resists the documented procedure. A process that consistently [drift](../../foundations/system-effectiveness/for-defence.md)s in one direction is evidence that the documented approach does not fit the operational context, not that individuals are failing to comply.
 
 ### 2. Are logs missing? (Evidence gaps)
 
@@ -170,7 +170,7 @@ Red flags auditors hate:
 - "I think someone did it" (no accountability)
 - Documents with no dates, versions, or authors
 
-Why it matters: Auditors love evidence. If you can't prove it happened, it didn't happen. "Trust us" doesn't work in audits.
+Auditors love evidence. If you can't prove it happened, it didn't happen. "Trust us" doesn't work in audits.
 
 Fix: Implement simple recording mechanisms (spreadsheets, forms, logs). Evidence doesn't need to be complicated. It just needs to exist and be accessible.
 
@@ -198,7 +198,7 @@ Observation: Not a nonconformity yet, but could become one if not addressed:
 - Some procedures could be clearer
 - Improvement opportunity identified
 
-Why it matters: External audits won't grant certification with unresolved major nonconformities. Even minor nonconformities need corrective actions.
+External audits won't grant certification with unresolved major nonconformities. Even minor nonconformities need corrective actions.
 
 Remember: Audits aren't about blame. They're about finding weak spots, fixing them, and ensuring the next climb will be smoother.
 
@@ -210,7 +210,7 @@ When internal audits uncover issues, document them as Nonconformity Reports (NCR
 
 - What was found: Clear description of the issue
 - Where it was found: Process, control, or requirement affected
-- Why it matters: Impact on ISMS effectiveness or compliance
+- Why this is relevant: Impact on ISMS effectiveness or compliance
 - Evidence: What demonstrated the nonconformity
 - Severity: Major, minor, or observation
 - Corrective action: Planned fixes addressing root cause
@@ -296,6 +296,8 @@ underlying belief intact. A backup reviewer was assigned; the access review stil
 model of ownership does not match what the procedure assumes. The question to ask is not why the corrective action 
 failed, but what belief the system keeps operating on that produces this outcome.
 
+A practical routing mechanism: before closing any corrective action, ask whether a finding of the same class has appeared before. If yes, note what assumption the previous corrective action left intact. When a finding returns after verification, open a model review rather than a new corrective action. The model review has one question: what does the organisation currently believe about the conditions under which this control operates, and is that belief still accurate? The answer either confirms the model and points to an execution failure, or surfaces a belief that no longer fits reality and needs to be corrected at the design level.
+
 Reactive (immature ISMS):
 - Same NCRs recurring every audit
 - Corrective actions taking 6+ months to complete
@@ -325,12 +327,12 @@ Adaptive (mature ISMS):
 A healthy base camp (and ISMS) will demonstrate:
 
 * Fewer repeat issues over time (you're learning)
-* Faster corrective actions after problems are identified (you're responsive)
+* Faster corrective actions after problems are identified (being responsive)
 * Better awareness across teams about risks and controls (culture is improving)
-* Proactive identification of issues through monitoring, not just audits (you're ahead of problems)
-* Trend analysis showing improvement in key metrics (you're measuring what matters)
+* Proactive identification of issues through monitoring, not just audits (being ahead of problems)
+* Trend analysis showing improvement in key metrics (measuring what is relevant)
 
-This self-awareness makes the organisation ready for external audit. You might not be perfect, but you're stable, self-correcting, and able to adapt under pressure.
+This self-awareness makes the organisation ready for external audit. It might not be perfect, but it is stable, self-correcting, and able to adapt under pressure.
 
 ## Management review
 
@@ -462,4 +464,13 @@ Think of internal audits as dress rehearsals. The external audit is opening nigh
 You are not claiming perfection. You are demonstrating control, awareness, commitment to improvement, and evidence that your ISMS works. That's what external auditors want to see.
 
 With base camp secure, equipment checked, and team ready, you're prepared for [the summit push: external certification](summit.md).
+
+## Related
+
+* [ISO 27001 Summit push](summit.md)
+* [ISO 27001 Flag](flag.md)
+* [ISO 27001 Risk tent](risk-tent.md)
+* [ISO 27001 The gear depot](gear-depot.md)
+* [Gap analysis](../supportive/gap-analysis.md)
+* [Applying SEM to security](../../foundations/system-effectiveness/applying-sem.md)
 
