@@ -62,3 +62,9 @@ This is not a consultancy marathon. It is a rapid, high-value intervention desig
 * Quarterly cadence: ongoing updates with evolving risk picture.  
 * Deep dive (add-on): follow-up with targeted assessments or scenario planning.
 
+## Related
+
+* [Findings and reporting](../supportive/findings-reporting.md)
+* [Risk scoring](../supportive/risk-scoring.md)
+* [Interview and workshop facilitation](../supportive/interview-facilitation.md)
+

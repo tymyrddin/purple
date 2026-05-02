@@ -52,8 +52,9 @@ training corpus. A risk score that does not recognise a current attacker techniq
 risk score; it is a gap dressed as a number.
 
 Over-reliance follows naturally from how useful these tools are when they work. AI-assisted gap analysis
-supplements auditor judgment and does not replace it. The auditor's role is to evaluate whether the model's
-outputs fit the specific environment, not to transmit them as findings.
+supplements human judgement and does not replace it. Outputs from any AI tool in this workflow need to be
+evaluated against specific organisational context before being used as compliance evidence: the model
+identifies candidates; the person reviewing decides whether they are findings.
 
 ## EU AI Act (Regulation 2024/1689)
 
@@ -70,10 +71,10 @@ systems require:
 * Logging of operation to support post-event auditing
 * Registration in the EU database of high-risk AI systems
 
-For audit tooling specifically: an AI system that automates risk decisions or generates findings directly
-used in regulatory evidence may attract closer scrutiny under the Act than one that assists a human auditor
-who exercises independent judgment. The distinction between AI as decision support and AI as decision maker
-is consequential here.
+For compliance tooling specifically: an AI system that automates risk decisions or generates outputs used
+directly in regulatory evidence may attract closer scrutiny under the Act than one that assists a human
+reviewer exercising independent judgement. The distinction between AI as decision support and AI as decision
+maker is consequential for how the organisation's compliance evidence is characterised under the Act.
 
 The full regulation is available at [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689)
 
@@ -104,13 +105,14 @@ Several open-source or EU-anchored tools are in use for AI-assisted audit and se
   search and analytics with security plugins. Deployable on EU infrastructure, used for log aggregation
   and pattern analysis.
 
-For document review and AI-assisted policy analysis, deployment model matters more than product choice:
+For document review and AI-assisted policy analysis, deployment model counts for more than product choice:
 most capable LLMs have EU-hosted API options or can be deployed locally with open-weight models, and the
 choice between them depends primarily on the sensitivity of the documents being processed.
 
 ## Related
 
 * [Use of big data in audits](big-data.md)
+* [Continuous compliance monitoring](continuous-monitoring.md)
 * [EU regulations reference](eu-regulations.md)
 * [Gap analysis](gap-analysis.md)
 * [ISO 27001 Base camp check](../iso27001/base-camp-check.md)

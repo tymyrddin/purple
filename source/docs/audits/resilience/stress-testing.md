@@ -48,5 +48,11 @@ This workshop is designed for teams who cannot afford to discover weaknesses dur
 * Executive crisis response groups.  
 * IT & security operations centres.  
 * Cross-functional project teams with high dependencies.  
-* Organisations preparing for audits, certifications, or public scrutiny.  
+* Organisations preparing for audits, certifications, or public scrutiny.
+
+## Related
+
+* [Gap analysis](../supportive/gap-analysis.md)
+* [Risk scoring](../supportive/risk-scoring.md)
+* [Findings and reporting](../supportive/findings-reporting.md)
 

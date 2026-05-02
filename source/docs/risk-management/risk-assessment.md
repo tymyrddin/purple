@@ -56,3 +56,4 @@ The rating conversation is also a test of whether the group's models of likeliho
 - [Vulnerability identification](vuln-identification.md)
 - [Treatment options](treatment-options.md)
 - [Risk register](risk-register.md)
+- [Risk scoring](../audits/supportive/risk-scoring.md)

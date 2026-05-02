@@ -67,3 +67,7 @@ decision. It may reflect that the cost of treatment falls on a team that does no
 * [IEC 62443 Threats to the factory](../iec62443/threats.md)
 * [ISO 22301 Storms on the factory floor](../iso22301/threats.md)
 * [Arrows and shields](arrows-shields.md)
+* [Attack path mapping](../../threat-modelling/attack-path-mapping.md)
+* [Adversary persona workshop](../../threat-modelling/adversary-persona-workshop.md)
+* [Risk scoring](risk-scoring.md)
+* [Interview and workshop facilitation](interview-facilitation.md)

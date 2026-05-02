@@ -69,3 +69,10 @@ scenarios that do not reflect your reality.
 
 When a gap identified in one session reappears in the next after a corrective action was applied, the corrective action addressed the surface condition but left an assumption intact. The question worth asking is not why the corrective action failed but what the organisation believed about this process that made the gap seem impossible. That belief is what needs to be corrected at the design level.
 
+## Related
+
+* [Gap analysis](../supportive/gap-analysis.md)
+* [Threat register](../supportive/threat-register.md)
+* [Risk scoring](../supportive/risk-scoring.md)
+* [Supply chain and third-party risk](../supportive/supply-chain.md)
+

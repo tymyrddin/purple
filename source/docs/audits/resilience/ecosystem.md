@@ -62,4 +62,11 @@ This is an applied mapping and analysis process, grounded in collaborative works
 
 * Integration with existing BCM / ISO frameworks.  
 * Visual dashboards for ongoing ecosystem monitoring.  
-* Follow-up scenario exercises and red-team style stress tests.  
+* Follow-up scenario exercises and red-team style stress tests.
+
+## Related
+
+* [Supply chain and third-party risk](../supportive/supply-chain.md)
+* [Threat register](../supportive/threat-register.md)
+* [Gap analysis](../supportive/gap-analysis.md)
+* [Arrows and shields](../supportive/arrows-shields.md)

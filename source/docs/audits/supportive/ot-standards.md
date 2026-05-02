@@ -113,3 +113,4 @@ available at [csrc.nist.gov](https://csrc.nist.gov). NERC CIP standards are free
 * [IEC 62443 Threats to the factory](../iec62443/threats.md)
 * [IEC 62443 The factory's defensive mechanisms](../iec62443/controls.md)
 * [ISO/IEC information security standards](standards.md)
+* [Scope definition](scope-definition.md)

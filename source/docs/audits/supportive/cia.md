@@ -29,8 +29,9 @@ Examples:
 * A USB drive with internal project files is securely wiped before reuse.
 * A shared drive with open read access for “Everyone” violates confidentiality, even if no one misuses it.
 
-Auditors will check whether permissions match job roles, whether encryption is actually enabled, and whether 
-staff follow procedures for data handling. They may review access logs, policy documents, or system configurations.
+Demonstrating confidentiality in practice means having evidence that permissions align with job roles,
+encryption is active rather than configured but not enforced, and staff handling procedures are followed.
+Access logs, policy documents, and system configuration records are the typical evidence sources.
 
 ## Integrity
 
@@ -50,7 +51,9 @@ Examples:
 * Automated scripts that import supplier data validate the input before updating records.
 * A ransomware attack that encrypts and renames files breaks integrity, even if backups exist.
 
-Auditors will look for systems that track changes, enforce review or approval for edits, and detect data corruption or unauthorised modifications. They may check audit logs, version histories, or data validation settings.
+Demonstrating integrity in practice means having systems that track changes, enforce review or approval for
+modifications, and detect corruption or unauthorised alterations. Audit logs, version histories, and data
+validation records serve as the evidence.
 
 ## Availability
 
@@ -70,8 +73,10 @@ Examples:
 * A ransomware incident can deny access to systems even if the data itself remains intact.
 * Scheduled maintenance outside working hours supports availability without disrupting users.
 
-Auditors will check whether backup procedures are tested, whether downtime is logged and reviewed, and whether 
-continuity plans exist and align with business priorities. They may also ask to see the results of recovery tests.
+Demonstrating availability in practice means having tested backup and recovery procedures, documented downtime
+records with evidence of review, and continuity plans validated against actual business priorities. Recovery
+test results are among the stronger evidence items because they demonstrate operational capability rather than
+documented intention.
 
 ## Balancing act
 
@@ -108,5 +113,6 @@ making deliberate, documented choices.
 1. Identify critical information and systems.
 2. Assess which CIA element is most sensitive in each context.
 3. Document trade-offs and decisions: why a control was chosen, why another was not, and compensating measures if any.
-4. Be ready to explain your rationale calmly during an audit. Auditors look for thoughtfulness, not perfection.
+4. Be ready to explain your rationale. Documented, deliberate choices carry more weight than an apparently
+   complete control set that cannot be explained.
 

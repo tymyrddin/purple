@@ -75,3 +75,10 @@ Maintain both through a unified set of processes going forward.
 Map requirements to find overlaps. Article 21 of NIS2 aligns closely with ISO 27001 Annex A. Incident reporting is 
 not part of ISO 27001. Supply chain requirements are similar but phrased more firmly in NIS2. Governance obligations 
 overlap substantially. Use [gap analysis](../supportive/gap-analysis.md) to identify what is unique to each.
+
+## Related
+
+* [ISO/IEC standards reference](../supportive/standards.md)
+* [EU regulations](../supportive/eu-regulations.md)
+* [Supply chain and third-party risk](../supportive/supply-chain.md)
+* [Risk scoring](../supportive/risk-scoring.md)

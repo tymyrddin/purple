@@ -87,3 +87,4 @@ the risk treatment plan and the corrective action log.
 * [ISO 22301 The resilience dossier](../iso22301/evidence.md)
 * [IEC 62443 Threats to the factory](../iec62443/threats.md)
 * [IEC 62443 The factory's defensive mechanisms](../iec62443/controls.md)
+* [Risk scoring](risk-scoring.md)

@@ -37,5 +37,6 @@ Comparison of the EU-focused BI tools versus Microsoft Power BI, using auditor-r
 
 * [Use of AI in audits](ai-in-audits.md)
 * [Gap analysis](gap-analysis.md)
+* [Continuous compliance monitoring](continuous-monitoring.md)
 * [ISO 27001 Base camp check](../iso27001/base-camp-check.md)
 

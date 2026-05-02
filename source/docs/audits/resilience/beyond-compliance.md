@@ -68,3 +68,9 @@ This is a structured assessment and co-design process, scalable from a focused t
 * Playbook authoring and documentation handover.  
 * Follow-up coaching sessions to embed changes and measure improvement.
 
+## Related
+
+* [Gap analysis](../supportive/gap-analysis.md)
+* [Findings and reporting](../supportive/findings-reporting.md)
+* [Supply chain and third-party risk](../supportive/supply-chain.md)
+

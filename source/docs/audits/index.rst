@@ -11,12 +11,12 @@ Audits and assessments
    :includehidden:
    :caption: Navigate your organisation’s risks and resilience with clarity, whether charting the cracks before they spread or climbing the peaks of ISO 27001 compliance.
 
+   supportive/index
    iso22301/index
    iec62443/index
    nis2/index
    iso27001/index
    resilience/index
-   supportive/index
 
 .. raw:: html
 
