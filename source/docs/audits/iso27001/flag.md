@@ -113,6 +113,8 @@ Detective controls: Ensure they identify when preventive controls fail
 - Incident reporting mechanisms working (staff know how to report, incidents logged)
 - Audit trails complete and protected (logs retained per policy, integrity verified)
 
+Where ML-assisted monitoring is in use within a SIEM or log analysis platform, its alert configuration, tuning records, and alert-handling procedures form part of the detective control evidence base.
+
 Corrective controls: Ensure problems are fixed effectively
 - Incident response procedures tested (annual minimum, tabletop or simulation)
 - Backup restoration verified (quarterly minimum with documented evidence)

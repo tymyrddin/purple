@@ -18,7 +18,7 @@ documents that they work.
    * System logs (controllers, SCADA, HMIs)
    * Network device logs (firewalls, switches, segmentation devices)
    * Security monitoring / SIEM alerts
-   * Gap check: Missing logs, incomplete retention periods, or unassigned log owners are findings. Confirm logging covers all critical assets and events relevant to IEC 62443 requirements.
+   * Gap check: Missing logs, incomplete retention periods, or unassigned log owners are findings. Confirm logging covers all critical assets and events relevant to IEC 62443 requirements. ML-assisted anomaly detection in OT-capable SIEM deployments can surface deviations in controller behaviour or protocol patterns that volume-based manual review misses; where such tooling is in use, its configuration and alert handling form part of the evidence base.
 
 2. Device configurations
    * Baseline settings, secure defaults, firmware versions

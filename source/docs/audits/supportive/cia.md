@@ -84,7 +84,7 @@ and risks. Each element supports the others, but none can be absolute.
 Protecting sensitive information can limit access for those who need it, slowing operations. For example:
 
 * Your threat intelligence team stores malware samples and internal reports on a secure sandbox. Access is heavily restricted, so when a SOC analyst on a late shift urgently needs a sample to investigate an incident, it takes hours to get approval, delaying response.
-* A cloud storage bucket is encrypted with client-side keys, but the recovery keys are held by one overworked engineer who is on vacation. As a result, critical data is technically protected but temporarily unavailable.
+* A cloud storage bucket is encrypted with client-side keys, but the recovery keys are held by one overworked engineer who is on holiday. As a result, critical data is technically protected but temporarily unavailable.
 
 ### Integrity vs. Availability
 

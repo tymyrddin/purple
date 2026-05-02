@@ -6,7 +6,7 @@ The river keeps flowing. Threats evolve, regulations update, and your organisati
 
 ## Monitor continuously for effectiveness
 
-Security operations need constant vigilance. Monitor critical systems around the clock if service criticality demands it. Run regular vulnerability scans to find weaknesses before attackers do. Integrate threat intelligence to understand current attack patterns. Analyse security events to separate signals from noise. Track metrics and KPIs to see whether controls are working as intended.
+Security operations need constant vigilance. Monitor critical systems around the clock if service criticality demands it. Run regular vulnerability scans to find weaknesses before attackers do. Integrate threat intelligence to understand current attack patterns. Analyse security events to separate signals from noise; ML-assisted anomaly detection reduces manual review burden when event volumes are high. Track metrics and KPIs to see whether controls are working as intended.
 
 Control effectiveness requires regular testing. Test controls on defined schedules to verify they still function. Conduct internal audits reviewing documentation and practice. Run penetration testing at least annually to simulate realistic attacks. Execute tabletop exercises walking through incident scenarios. Consider red team assessments for mature programmes that want a realistic challenge.
 

@@ -1,8 +1,11 @@
-# A forest of ISO standards and related documents
+# ISO/IEC information security standards
 
-These ISO standards and related documents all orbit around "information security, management systems, auditing, and 
-related governance", but each has a different purpose. Breaking them down into logical groups and explaining their 
-differences and relationships.
+These standards orbit around information security, management systems, auditing, and related governance within the
+ISO/IEC 27000 series. Each has a distinct purpose. Breaking them down into logical groups explains their differences
+and how they relate to one another.
+
+For OT/ICS standards (IEC 62443 and related), see [OT/ICS standards](ot-standards.md). For EU regulatory
+instruments (NIS2, DORA, CER), see [EU regulations reference](eu-regulations.md).
 
 **The catch: ISO standards are not freely available in full. They are copyrighted, so you usually have to 
 [purchase them](https://www.iso.org/standards.html).** So only get what you need. 
@@ -82,6 +85,10 @@ for management systems in general.
 
 These are complementary ISO standards that often inform or integrate with ISO 27001:
 
+* ISO 22301:2019: *Business continuity management systems*
+  Requirements for a BCMS. Sits alongside ISO 27001 as a complementary management system standard; the two share
+  structural Annex SL alignment and are routinely implemented together in organisations with both information security
+  and operational resilience obligations.
 * ISO 9000:2015: *Quality management vocabulary and fundamentals*
   Introduces management system principles. Useful when integrating quality and ISMS.
 * ISO 31000:2018: *Risk management guidelines*
@@ -91,8 +98,8 @@ These are complementary ISO standards that often inform or integrate with ISO 27
 * NIST SP 500-291:2013: *Cloud computing standards roadmap*
   US standard, not ISO, provides cloud-specific guidance. Can complement ISO 27001 for cloud deployments.
 
-These provide conceptual and operational context for risk, asset, and quality management. All relevant for an 
-integrated ISMS.
+These provide conceptual and operational context for risk, asset, continuity, and quality management. All relevant
+for an integrated ISMS.
 
 ## Summary of relationships
 

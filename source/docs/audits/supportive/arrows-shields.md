@@ -1,8 +1,11 @@
 # Arrows and shields
 
-CWE, CAPEC, and MITRE ATT&CK describe attacks, vulnerabilities, and tactics. ISO27001 and NIS2 describe what 
-organisations must do to protect against them. In other words: one set labels the arrows, the other sets the 
+CWE, CAPEC, and MITRE ATT&CK describe attacks, vulnerabilities, and tactics. ISO 27001 and NIS2 describe what
+organisations must do to protect against them. In other words: one set labels the arrows, the other sets the
 shields.
+
+This page covers IT attack categories. OT/ICS attack patterns (ATT&CK for ICS, protocol abuse, firmware
+threats) are covered in the [IEC 62443 adversaries page](../iec62443/adversaries.md).
 
 ## Web & application attacks
 
