@@ -25,6 +25,7 @@ Foundation nobody asked for and a third option that makes both of them slightly 
    docs/ctfs/index
    docs/incident-response/index
    docs/threat-modelling/index
+   docs/ai-security/index
    docs/risk-management/index
    docs/making-of/index
    docs/audits/index
