@@ -1,4 +1,4 @@
-# The product input layer
+# What the model reads
 
 In startups and scale-ups, security operations depend on signals generated from within the product itself.
 Those signals are not produced by a separate monitoring system; they come from the same surfaces users interact
