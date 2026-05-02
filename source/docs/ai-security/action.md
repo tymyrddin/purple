@@ -93,6 +93,10 @@ restriction, or an analyst spending three hours responding to a synthetically tr
 The quality of an AI decision is determined not just by its accuracy but by what happens downstream when
 it is wrong.
 
+The state change that leaves this layer, an account suspended, a ticket opened, a restriction applied,
+becomes input to the integration layer and to any downstream system that treats account state or case
+status as a signal. The original classification error propagates outward, not inward.
+
 ## Building in oversight and reversibility
 
 Designing reversal paths for every automated action before deploying the automation. Account
@@ -114,5 +118,5 @@ decisions appropriately.
 ## Related
 
 * [Continuous compliance monitoring](../audits/supportive/continuous-monitoring.md)
-* [The decision layer](layer-decision.md)
-* [The integration layer](layer-integration.md)
+* [The decision layer](decision.md)
+* [The integration layer](integration.md)

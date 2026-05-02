@@ -28,6 +28,12 @@ constraint is not observed.
 This is not a gap in specific guardrail implementations. It is a property of instruction-following
 systems. The constraint is only as robust as the model's understanding of when it applies.
 
+The AI function here is evaluation: the model assesses whether the current input falls within the scope
+of the instruction-defined constraint. The concrete state change is a gate determination: an input
+assessed as permitted passes through; one assessed as prohibited is suppressed or redirected. That gate
+determination is the policy layer's output and the last opportunity to intercept a violation before it
+reaches a user or triggers a downstream action.
+
 ## How guardrails get bypassed
 
 *Jailbreaks that satisfy the literal content of a system prompt while violating its intent*: A system
@@ -128,4 +134,4 @@ reliable in one version may degrade in another without announcement.
 
 * [Gap analysis](../audits/supportive/gap-analysis.md)
 * [Audit findings and reporting](../audits/supportive/findings-reporting.md)
-* [The decision layer](layer-decision.md)
+* [The decision layer](decision.md)

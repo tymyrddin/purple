@@ -27,6 +27,12 @@ pipeline is a dependency of the organisation's security posture.
 
 The chain of trust extends outside the organisation's boundary whether it is drawn there or not.
 
+The external layer does not add a new transformation to the pipeline. It makes existing transformations
+at the context and decision stages partially unauditable: the score arriving via the API looks the same
+whether the vendor model behaved as expected or shifted silently. The organisation's routing decision
+changes without anything changing on the organisation's side, and the cause is not visible in any owned
+system.
+
 ## How external dependencies become exposure points
 
 *Vendor model updates that silently change decision boundaries*: A fraud API or LLM provider may update
@@ -95,6 +101,11 @@ Vendor compromise is particularly difficult: the service appears to function nor
 response formats, and produces outputs within historical ranges. The compromise is in the training or
 serving infrastructure, not in the API interface.
 
+The attacker's touch point in this layer is not the organisation's own systems. It is the vendor's
+training pipeline, the upstream data sources the vendor aggregates, or the enrichment feeds the vendor
+incorporates. The organisation's pipeline is never accessed directly; influence enters the system through
+externally generated API responses that are treated as trusted inputs.
+
 ## What dependency means for the threat model
 
 The organisation's threat model includes the threat model of every external dependency that influences
@@ -103,6 +114,9 @@ a security decision.
 Knowing which decisions depend on external AI services, and what the fallback is when those services
 behave unexpectedly, is a prerequisite for understanding the actual boundary of the security posture.
 Organisations that have not drawn that boundary have not understood where it is.
+
+The external layer is less a tenth transition point than an acknowledgement that some of the other
+nine are not fully owned.
 
 ## Understanding what you depend on
 
@@ -125,4 +139,4 @@ posture of the vendors it depends on for security decisions.
 
 * [Supply chain and third-party risk](../audits/supportive/supply-chain.md)
 * [Gap analysis](../audits/supportive/gap-analysis.md)
-* [The integration layer](layer-integration.md)
+* [The integration layer](integration.md)

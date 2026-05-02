@@ -27,6 +27,12 @@ to the current decision is opaque.
 That opacity is what makes the context layer attackable. There is no single field to audit; there is a
 history to shape.
 
+The AI component's function here is to combine structured and unstructured inputs into a composite risk score. The
+concrete state change is what passes to the decision layer: an event that entered with a raw
+classification label leaves with an enriched risk score incorporating device reputation, account
+history, and peer signals. That score is richer than the label it replaced and harder to trace back to
+any individual contributing signal.
+
 ## How context gets shaped over time
 
 *Slow-burn accounts that establish clean histories before pivoting to abuse*: An account that spends three
@@ -77,7 +83,11 @@ context at inference time all fall into this category.
 
 The architectural risk is not any one provider. It is the assembly: context is drawn from multiple sources
 with different update cadences, different data origins, and different susceptibility to shaping. The final
-risk score reflects all of them, usually without weighting that is visible to the analyst reviewing it.
+risk score reflects all of them, usually without weighting that is visible to the analyst reviewing it. The
+fields an attacker can influence are specific: the API response from an enrichment provider, the device
+fingerprint value on record, the IP reputation score from a third-party feed, the outcome label on a prior
+reviewed transaction. Each is a concrete input the context assembly reads, and each can be shaped without
+touching the risk scoring model directly.
 
 ## Why context poisoning is slow to surface
 
@@ -115,6 +125,6 @@ detection, through red team exercises focused on the context layer specifically.
 ## Related
 
 * [Supply chain and third-party risk](../audits/supportive/supply-chain.md)
-* [The input layer](layer-input.md)
-* [The decision layer](layer-decision.md)
+* [The input layer](input.md)
+* [The decision layer](decision.md)
 * [Threat register](../audits/supportive/threat-register.md)

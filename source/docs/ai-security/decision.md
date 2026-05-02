@@ -103,6 +103,10 @@ fully characterised.
 Knowing where your rules are is feasible. Knowing where your decision boundaries are under adversarial
 pressure requires deliberate, ongoing testing.
 
+The routing decision this layer produces, whether an input triggers automated action or is sent to the
+human review queue, is what the action layer acts on. That boundary, not any rule list, is the surface
+the attacker is trying to move.
+
 ## Hardening the decision surface
 
 Evaluating classifiers against adversarial inputs as a distinct exercise from accuracy testing.
@@ -115,7 +119,7 @@ point-in-time accuracy metrics.
 Routing cases near decision boundaries to human review rather than automated action. The boundary
 region is where adversarial inputs concentrate; it is also where the model's uncertainty is highest.
 
-Treating near-boundary probing — systematic variations of similar inputs within short time windows —
+Treating near-boundary probing (systematic variations of similar inputs within short time windows)
 as a detectable signal pattern rather than normal variance. It is the reconnaissance phase for
 boundary exploitation.
 
@@ -123,6 +127,6 @@ boundary exploitation.
 
 * [Attack path mapping](../threat-modelling/attack-path-mapping.md)
 * [Risk scoring](../audits/supportive/risk-scoring.md)
-* [The input layer](layer-input.md)
-* [The action layer](layer-action.md)
-* [The feedback layer](layer-feedback.md)
+* [The input layer](input.md)
+* [The action layer](action.md)
+* [The feedback layer](feedback.md)

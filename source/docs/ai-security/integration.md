@@ -29,6 +29,13 @@ This is not unique to AI. It is a standard property of coupled systems. What AI 
 in the chain is now influenceable through the content it receives, not just through direct access to its
 inputs.
 
+The integration layer is not a classification step. It propagates risk and identity attributes as cross-system state changes, without altering their
+meaning within each system, carrying the output of one classification step to systems that did not
+perform it. An error bounded in the fraud system
+becomes an error in the account reputation model, the content moderation threshold, and the customer
+tier simultaneously. The attacker who exploits any upstream AI layer gains reach proportional to how
+many systems consume that layer's output, not just the system where the classification happened.
+
 ## How cross-system paths get exploited
 
 *Signals calibrated to produce a desired output in one subsystem specifically because that output
@@ -79,6 +86,11 @@ The concern is not any individual integration but the system-level picture: whic
 which downstream systems, through which paths, and with what accumulated effect. That picture is
 rarely drawn in advance and often only assembled after a failure that required tracing it.
 
+The concrete fields that carry AI influence across system boundaries are specific: the fraud score field
+in an account record, the risk tier value in a shared feature store, the classification event payload
+on an internal event bus. Shaping one of these fields upstream propagates to every downstream system
+that reads it.
+
 ## Why relational failures are hard to spot
 
 Individual components produce no anomalous signals. Each is doing what it is designed to do. The failure
@@ -95,7 +107,8 @@ A system whose components all function correctly can still behave unexpectedly w
 coupled through AI-influenced signals.
 
 Correctness at the component level is necessary but not sufficient for correctness at the system level.
-The coupling is the attack surface.
+The coupling is the attack surface: not a new decision point in the pipeline, but a multiplier on the
+blast radius of every decision point upstream.
 
 ## Knowing what connects to what
 
@@ -117,5 +130,5 @@ component security. Relational failures require a relational view to detect.
 
 * [Attack path mapping](../threat-modelling/attack-path-mapping.md)
 * [Scope definition](../audits/supportive/scope-definition.md)
-* [The action layer](layer-action.md)
-* [The external dependency layer](layer-external.md)
+* [The action layer](action.md)
+* [The external dependency layer](external.md)

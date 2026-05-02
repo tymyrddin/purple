@@ -110,6 +110,10 @@ An analyst who is deceived directly requires a convincing lie. An analyst who is
 tooling requires a convincing summary. One of those is harder for the attacker to construct and easier
 for the organisation to detect. The other is not.
 
+The analyst's decision, to escalate, dismiss, or continue investigating, is a state change with
+downstream consequences: a case closed, a new action chain opened, or a new label fed into the
+training queue. Framing that shaped that decision has shaped all of those outcomes.
+
 ## Protecting the analyst from the pipeline
 
 Periodically spot-checking AI-generated summaries against the underlying raw data, particularly for
@@ -131,5 +135,5 @@ it makes analysts more likely to notice when they have not looked outside the in
 
 * [Adversary persona workshop](../threat-modelling/adversary-persona-workshop.md)
 * [Interview and workshop facilitation](../audits/supportive/interview-facilitation.md)
-* [The input layer](layer-input.md)
-* [The decision layer](layer-decision.md)
+* [The input layer](input.md)
+* [The decision layer](decision.md)

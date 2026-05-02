@@ -95,6 +95,10 @@ account. The permission system does not know whether the action was intended or 
 
 The blast radius of a compromised AI layer is the blast radius of its credentials.
 
+The record of the privileged action, as a service account event in the audit log, becomes input to the
+integration layer and to any downstream system that treats account state or ticket status as a signal.
+The action cannot easily be distinguished from an intended one, and neither can its downstream effects.
+
 ## Limiting what AI can be induced to do
 
 Applying least-privilege to AI service accounts with the same rigour applied to human service accounts.
@@ -115,5 +119,5 @@ than being triggered directly by model output.
 ## Related
 
 * [Gap analysis](../audits/supportive/gap-analysis.md)
-* [The action layer](layer-action.md)
-* [The integration layer](layer-integration.md)
+* [The action layer](action.md)
+* [The integration layer](integration.md)

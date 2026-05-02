@@ -28,6 +28,11 @@ non-deterministic, and attacker influence becomes harder to delimit.
 The core shift is not that AI adds more software to the stack. It is that the interpretation layer itself
 becomes influenceable by the content it is meant to evaluate.
 
+Concretely, an incoming event with no classification leaves this layer with a label attached: abuse,
+benign, high-priority, or uncertain, alongside a confidence score. That label and score pass to the
+context layer as the first concrete handover in the pipeline. The attacker who shapes the input here
+shapes every downstream stage that relies on it.
+
 ## What exploitation looks like in practice
 
 *Abusive content embedded inside apparently legitimate support requests*: A user submitting a harassment campaign wraps 
@@ -141,6 +146,6 @@ particularly for high-severity or high-consequence cases.
 ## Related
 
 * [Attack path mapping](../threat-modelling/attack-path-mapping.md)
-* [The context layer](layer-context.md)
-* [The decision layer](layer-decision.md)
+* [The context layer](context.md)
+* [The decision layer](decision.md)
 * [Threat register](../audits/supportive/threat-register.md)
