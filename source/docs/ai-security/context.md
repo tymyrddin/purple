@@ -1,4 +1,4 @@
-# The context layer
+# The history assembled
 
 AI decisions in security operations rarely run on a single signal. They run on enriched context assembled at
 runtime from multiple sources, some internal, some external, and some contributed over time by the users

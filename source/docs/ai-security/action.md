@@ -1,4 +1,4 @@
-# The action layer
+# From score to consequence
 
 Interpretation errors that stay in a queue cause no immediate harm. Interpretation errors that trigger
 automated actions become system events.

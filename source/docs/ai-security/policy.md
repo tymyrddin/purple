@@ -1,4 +1,4 @@
-# The policy and guardrail layer
+# The rule that interprets itself
 
 Rules enforce deterministically. Guardrails interpret probabilistically. That distinction has operational
 consequences that are easy to underestimate when the system is working as intended, and hard to miss when

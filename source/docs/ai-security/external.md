@@ -1,4 +1,4 @@
-# The external dependency layer
+# Trust assumed
 
 A startup's security posture includes the security posture of every AI API, fraud service, and enrichment
 provider it depends on. That boundary is rarely drawn explicitly, and even less rarely tested.

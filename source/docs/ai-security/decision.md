@@ -1,4 +1,4 @@
-# The decision layer
+# Where probability becomes policy
 
 Fixed rules have a predictable failure mode: a gap in the ruleset is a gap in coverage. AI-based
 classification has a different failure mode: the decision boundary is implicit, probabilistic, and can be

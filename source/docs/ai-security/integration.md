@@ -1,4 +1,4 @@
-# The system integration layer
+# How far an error can travel
 
 Security in a startup or scale-up is not one system. It is a set of systems built at different times by
 different teams, connected by integrations that often predate the AI components now passing data through

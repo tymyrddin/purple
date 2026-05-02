@@ -1,4 +1,4 @@
-# The identity and permission layer
+# Acting with borrowed authority
 
 AI systems in security operations do not only advise; they act. That requires credentials, and credentials
 require permissions. The scope of those permissions is typically defined by what the automation was

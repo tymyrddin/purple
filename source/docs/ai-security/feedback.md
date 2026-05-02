@@ -1,4 +1,4 @@
-# The feedback layer
+# The trainable surface
 
 Machine learning models improve by learning from outcomes. In security operations, outcomes are the labels
 applied to decisions: blocked, escalated, cleared, false positive. Those labels are worth shaping if you

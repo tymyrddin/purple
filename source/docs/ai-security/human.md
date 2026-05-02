@@ -1,4 +1,4 @@
-# The human-in-the-loop layer
+# Reading the machine's reading
 
 Human operators are not outside the AI pipeline in modern security operations; they are the final stage of
 it. What they see, and what they conclude, is shaped by the AI summaries placed in front of them.
