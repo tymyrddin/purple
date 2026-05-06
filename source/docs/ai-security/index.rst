@@ -24,13 +24,13 @@ Ten pages map where that influence takes hold, eight forming a sequential chain,
    :maxdepth: 1
    :includehidden:
 
-   input
-   context
-   decision
-   action
-   human
-   identity
-   feedback
-   integration
-   external
-   policy
+   input.md
+   context.md
+   decision.md
+   action.md
+   human.md
+   identity.md
+   feedback.md
+   integration.md
+   external.md
+   policy.md
