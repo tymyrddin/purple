@@ -1,11 +1,13 @@
 # Strategic frame
 
-The three cases on the sibling pages and the proof-of-concept design that follows them all point at the same finding.
+The three
+cases, [Radarstation Herwijnen](herwijnen.md), [Maintenance tender for secured network rooms](netwerkruimtes.md), [Defensie Pijpleiding Organisatie (DPO) fuel pipeline](dpo.md)
+and the [proof-of-concept design SOS](sos.md), all point at the same finding.
 None concerns leaked information. None concerns intrusion. Each is a record of how routine, individually justified
 publication, when read collectively, reduces uncertainty about critical infrastructure to a degree the publishers did
 not intend.
 
-No document on those pages is sensitive in the classical sense. Each was published for legitimate reasons: legal
+No document on those pages is sensitive in the classical sense. Each public source existed for legitimate reasons: legal
 transparency, environmental and water management regulation, infrastructure coordination, public accountability. Read
 together they identify operationally important nodes, expose dependency chains and constraints, and allow partial
 reconstruction of system behaviour from public data alone.
@@ -22,11 +24,11 @@ A dependencies classification guide, naming which categories of routine public d
 sites, does not appear to exist. It is unclear whether one is in development. Existing classification machinery treats
 individual documents as the unit of decision; aggregation across documents is not on its checklist. Closing the gap is
 partly a writing exercise (what would such a guide actually say?) and partly an institutional one (whose remit is it?).
-Both are genuinely hard. Neither is being done at the depth the cases on the sibling pages suggest is needed.
+Both are genuinely hard. Neither is being done at the depth the cases suggest is needed.
 
 ## Framework gap
 
-Standard security frameworks (ISO 27001, BIO, NIST CSF) focus on internal IT and physical perimeters. They do not cover
+Standard security frameworks focus on internal IT and physical perimeters. They do not cover
 correlated public-data exposure, because the risk does not present at the perimeter. It presents in the publication
 choices of organisations that may not consider themselves part of the security stack at all: planning offices, water
 boards, procurement aggregators.
@@ -61,8 +63,9 @@ agendas). Most stuck problems are stuck in the second or third while everyone ke
 The rational case for an aggregation-aware classification regime is easy to make and has been made. The political layer
 is where it sits: turf between the Ministry of Defence, the MIVD, gemeenten, water authorities, and network operators,
 none of whom currently own the cross-domain question. The emotional layer is the discomfort of being seen as adversarial
-inside an institution whose default posture is defensive. Hiring systems thinkers rather than compliance auditors, is 
-a right instinct in the wrong domain. The people are findable. The system that would have to host them is the harder bet.
+inside an institution whose default posture is defensive. Hiring systems thinkers rather than compliance auditors, is
+a right instinct in the wrong domain. The people are findable. The system that would have to host them is the harder
+bet.
 
 ### Models, errors, and the same incident in slightly different clothes
 
