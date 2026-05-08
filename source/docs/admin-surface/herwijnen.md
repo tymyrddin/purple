@@ -26,7 +26,7 @@ A second [Omroep Gelderland piece](https://www.gld.nl/nieuws/8393128/raad-van-st
 
 The RCR (*Rijkscoördinatieregeling*) is a fast-track planning route reserved for projects of national interest. Being refused it is not an administrative footnote. It is a constraint indicator: timing, sequencing, and implementation stability are all subject to parliamentary and judicial boundaries that can move.
 
-## What an adversary can do with this information
+## Adversarial reading
 
 What follows is reasoning available from those three sources alone. No intrusion, no access required.
 

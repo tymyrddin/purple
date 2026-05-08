@@ -26,7 +26,7 @@ Access: what entry points do they realistically have? Consider technical access,
 
 Preferred tactics: phishing, insider misuse, supply chain compromise, credential stuffing, social engineering, API abuse. Choose based on the persona's capabilities and access, not based on what is easiest to defend against.
 
-## What to do with the personas
+## Using the personas
 
 Personas that are built and then set aside have not been useful. The persona is the input to the next exercise. At the end of the session, look at your personas and ask: are we missing any realistic adversary? Are we assuming away any uncomfortable ones? The answer to the second question is often more informative than the answer to the first.
 

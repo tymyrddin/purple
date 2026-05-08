@@ -18,7 +18,7 @@ A Water Authority publication notice ([WSB-2024-19528](https://zoek.officielebek
 
 This confirms active maintenance, names the pipeline contents (kerosene), gives the exact intervention site (a different town from Voorst, indicating a distributed network rather than a single asset), and provides operational timing: the work has a permit window in late 2024. *Lozingsvoorziening* is a temporary water-discharge installation used while pipeline sections are dewatered for repair.
 
-## What an adversary can do with this information
+## Adversarial reading
 
 What follows is reasoning available from these two sources alone, with older incident reporting (a 1995 rupture is the prominent example) and KLIC context filling in burial-depth variation. No intrusion, no access required.
 

@@ -36,7 +36,7 @@ Risks change at different rates. Critical risks warrant monthly review. High ris
 
 Assign review owners and put it in calendars. A review schedule that exists in a document but not in anyone's calendar is a review schedule that will not happen.
 
-## What makes a register live rather than static
+## Keeping the register live
 
 A register that is only updated at the scheduled review dates is a register that is wrong most of the time. Build in triggers: when a new system goes live, when an incident occurs, when a treatment is implemented and the residual risk needs reassessing, when the threat landscape changes in a way that affects a rated risk.
 

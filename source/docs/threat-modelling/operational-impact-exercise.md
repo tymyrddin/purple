@@ -22,7 +22,7 @@ How long until normal operations resume? This requires honesty about recovery ca
 
 Capture the key impacts on one sheet. The sheet works best when specific enough that a decision-maker who was not in the room can understand what is at stake.
 
-## What this exercise is really doing
+## The exercise as diagnosis
 
 Beyond the outputs, this exercise is testing whether the organisation can have a clear-eyed conversation about its own vulnerability. Groups that cannot complete the exercise honestly, that consistently soften the impacts or redirect to what they would do to prevent it, are showing something about the conditions for change in the organisation.
 

@@ -32,7 +32,7 @@ where the [foundations work](../foundations/index.rst) reveals the framework's l
 - The [PSL](../foundations/problem-solving/index.rst) dimension is partly present and partly absent. The e-CF acknowledges stakeholder communication and business alignment, which addresses the rational layer in a limited way. It does not address the emotional layer or the political layer. A senior e-CF A.5 architect is expected to "provide authoritative guidance" and to work with stakeholders at a strategic level, but the framework does not specify what capability this requires beyond technical seniority. The political work of creating and maintaining architectural authority, and the emotional work of engaging with the human consequences of architectural decisions, are not captured.
 - The [Satir](../foundations/organisational-development/satir-core.md) dimension is absent. The e-CF does not address communication patterns, does not address the conditions for honest architectural review, and does not address how architects behave under stress. The [survival stances](../foundations/organisational-development/satir-core.md) that produce architectural dysfunction are not visible in a competence profile.
 
-## What this means for using the e-CF
+## The e-CF as a floor
 
 The e-CF is most useful as a floor: it describes the minimum technical competence required for architectural work at 
 a given level. Below that floor, the technical work is not reliable. Above it, whether the technical competence 

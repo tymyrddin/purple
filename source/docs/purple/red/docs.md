@@ -2,7 +2,7 @@
 
 Red team operations require meticulous documentation. Blue team needs complete visibility into what happened to build better defences.
 
-## What to document
+## Items to record
 
 Every action: Commands executed, tools used, files created or modified, network connections made, credentials obtained, 
 systems accessed.

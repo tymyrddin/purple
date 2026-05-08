@@ -13,7 +13,7 @@ rebuilding the technical layer but by working on the minds that operated it.
 
 Without them, the encyclopaedia would have survived as a document and failed as a civilisation.
 
-## What the Second Foundation looks like in security
+## The Second Foundation in security
 
 The second foundation in security is the organisational and psychological layer, and it is just as easy to
 overlook as its Asimovian counterpart, for roughly the same reasons. Nobody particularly wants to acknowledge

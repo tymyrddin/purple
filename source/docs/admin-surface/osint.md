@@ -20,7 +20,7 @@ A narrow, repeatable loop tends to work better than a broad sweep. Pick the smal
 6. Run the adversarial reframe. If the goal were to interrupt this site's primary function for 48 hours, which single points does the public record already expose?
 7. Note what was never visible without aggregation. The structural finding tends to be the dependency chain, not any single document. This step is the one most often skipped, and the one that connects the work to the administrative attack surface as a whole.
 
-## What the breadcrumbs look like
+## Breadcrumb categories
 
 Useful categories when scanning:
 

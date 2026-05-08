@@ -11,7 +11,7 @@ are often straightforward. What is missing is the protected time, the clear owne
 safe to apply changes without fear of breaking something that cannot be quickly recovered. A patch sprint creates those
 conditions deliberately rather than hoping they will emerge from normal workflow.
 
-## Why the backlog exists
+## Origins of the backlog
 
 Understanding why patching falls behind is the prerequisite for designing a sprint that actually works.
 

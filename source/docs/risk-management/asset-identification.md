@@ -34,7 +34,7 @@ For each critical asset, note what it depends on: which systems it relies on, wh
 
 A list of critical assets of ten to twenty items, with categories, dependencies noted, and a shared understanding of why each is the point. The shared understanding is as important as the list: a risk register built on a list that only one person actually understands is a risk register that only one person can maintain.
 
-## What this exercise is testing
+## A test of shared understanding
 
 Beyond the outputs, this exercise reveals whether the group has a shared and accurate model of what the organisation depends on. Disagreements during the exercise are findings: they indicate that different parts of the organisation are operating on different understandings of what is load-bearing. Those gaps are worth naming and resolving before the risk assessment proceeds.
 

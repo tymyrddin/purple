@@ -1,10 +1,10 @@
-# Why a SOC exists
+# The case for a SOC
 
 The direct answer is that organisations have more monitoring surface than they can watch informally, and the events that matter most are exactly the ones that look like noise until they do not. A SOC is the function that maintains consistent visibility and translates that visibility into signal.
 
 The more useful answer is that a SOC is a learning system about the organisation's actual threat environment. The alerts it handles are data. The false positives are data about rules that do not match reality. The true positives are data about which threats are active. The near-misses, events that were detected but would not have been caught under different conditions, are data about the edge of detection coverage. A SOC that treats monitoring as a reactive task, waiting for something to appear, is a SOC that does not use most of that data.
 
-## What the organisation needs to commit to
+## Organisational commitments
 
 A SOC requires sustained investment in a way that is easy to underestimate at the start. The tooling is the visible part of the investment and often the part that gets most of the budget discussion. The less visible parts are what makes the tooling useful.
 

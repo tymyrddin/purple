@@ -1,4 +1,4 @@
-# Why a SIRT exists
+# The case for a SIRT
 
 The case for a security incident response team is not primarily a technical argument. The technical argument is straightforward: incidents happen, and an organisation that has no process for handling them handles them badly. That is true and mostly accepted. The harder question is why it so often takes a significant incident before the team gets built.
 
@@ -6,7 +6,7 @@ The [ChangeShop](../../foundations/change-management/index.rst) explanation is t
 
 This is not a reason not to build one. It is a reason to be honest about what building one requires. The SIRT is not an addition to existing operations; it is a change to how the organisation processes the category of event called an incident. That change has to be owned somewhere, funded from somewhere, and protected from the pressure to defer it indefinitely.
 
-## What a SIRT actually does
+## The SIRT's work
 
 A SIRT provides the organisation with a coordinated response when something goes wrong that has security implications. Coordination here means: a shared understanding of what is happening, agreed roles for who does what, a process for escalating and communicating, and a mechanism for learning from the event once it is resolved.
 
@@ -14,7 +14,7 @@ Without coordination, each incident gets handled by whoever notices it first, us
 
 The [SEM](../../foundations/system-effectiveness/index.rst) framing is useful here: the current response behaviour, however improvised, is a model. It encodes assumptions about which incidents are serious enough to escalate, who the right person is to escalate to, and what response means. Making those assumptions explicit is part of what building a SIRT accomplishes. The SIRT is a better model of how incidents are handled, not just an additional team.
 
-## What the organisation needs to provide
+## Organisational provisions
 
 A SIRT requires four things that no amount of technical planning can substitute for:
 

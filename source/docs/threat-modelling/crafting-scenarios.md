@@ -22,7 +22,7 @@ This is the [Montessori](../foundations/montessori/index.rst) peer review in act
 is inside its own assumptions. The group that reads it from outside notices the gaps. The conversation that follows 
 is usually more valuable than either group's individual work.
 
-## What makes a scenario useful
+## Markers of a useful scenario
 
 A useful scenario is specific enough to act on. Someone reading it can say: we would or would not detect this step, we do or do not have a response procedure for this situation, we would or would not be able to recover within the timeframe the scenario implies.
 

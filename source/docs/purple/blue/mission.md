@@ -2,7 +2,7 @@
 
 Blue teams exist to protect organisational assets, detect security incidents, and maintain operational security. Defence isn't passive: it requires active monitoring, hunting, and continuous improvement.
 
-## What blue teaming is
+## Blue teaming
 
 Detection and monitoring: Continuously watching for indicators of compromise, anomalous behaviour, and security events across networks, systems, and applications.
 
@@ -14,7 +14,7 @@ Defence hardening: Implementing security controls, patching vulnerabilities, and
 
 Recovery and resilience: Ensuring systems can recover from incidents. Backup procedures, disaster recovery plans, business continuity.
 
-## What blue teaming is not
+## Common confusions
 
 Pure compliance: Meeting regulatory checkboxes without ensuring controls actually work against real attacks. Compliance is necessary, not sufficient.
 

@@ -1,4 +1,4 @@
-# Why security knowledge does not easily transfer
+# Security knowledge does not transfer easily
 
 After every significant incident, the organisation produces documentation. Findings are written up, lessons are 
 captured, playbooks are updated, post-mortems are filed. Then the next incident arrives, and the team encounters 

@@ -2,7 +2,7 @@
 
 A threat model turns the outputs of separate exercises into a structured, maintainable picture. The word "maintainable" is doing important work. A threat model that cannot be updated is not a model of the current system; it is a historical record of an earlier one.
 
-## What the model contains
+## The model's components
 
 Review all previous exercises: [adversary personas](adversary-persona-workshop.md), 
 [attack paths](attack-path-mapping.md), [operational impacts](operational-impact-exercise.md), and 

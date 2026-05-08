@@ -26,7 +26,7 @@ Tool and technique-driven: Search for specific attack tools or techniques. "Let'
 
 6. Documentation: Record hunts, findings, and new detection rules created. Build organisational knowledge.
 
-## What to hunt for
+## Hunt targets
 
 Credential abuse: Unusual authentication patterns, lateral movement with single account, service accounts used interactively.
 

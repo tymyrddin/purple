@@ -85,7 +85,7 @@ the publication system that produced the aggregation. Computing retreats into pr
 handled under regulation X) rather than engaging with what was actually exposed. Both are honest survival behaviours,
 and both block the conversation that would change the model. Naming the stance is the cheapest move available.
 
-## What this asks of practitioners
+## Demands on practitioners
 
 The work in this section can be done by anyone with patience, technical curiosity, and the willingness to read boring
 documents alongside each other. It does not require classified access. It does not require offensive tooling. It
@@ -97,7 +97,7 @@ the same survival pattern. The job is not to prove institutions wrong. It is to 
 rational, emotional, and political domains can be engaged at once, instead of pretending only the first is doing the
 work.
 
-## What that looks like in practice
+## Concrete moves
 
 The three-domain frame has a way of collapsing back into "we wrote a good analysis and nobody acted." A few moves keep
 that from happening:

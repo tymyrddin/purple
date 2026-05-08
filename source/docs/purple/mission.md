@@ -1,4 +1,4 @@
-# What purple teaming actually is
+# Purple teaming
 
 Purple teaming isn't a third team wearing purple shirts. It's a methodology for red and blue teams to work together, combining offensive testing with defensive validation in coordinated cycles.
 

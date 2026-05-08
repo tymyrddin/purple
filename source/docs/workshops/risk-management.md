@@ -4,7 +4,7 @@ Risk management is a structured process for deciding what to protect, understand
 
 The full risk management process lives in its own section of this documentation. What follows is its place in the family of analytical processes.
 
-## What kind of process it is
+## Character of the process
 
 Risk management works with the organisation's assets and asks which threats are realistic, how likely they are to materialise, and what the impact would be. This makes it the process for translating the outputs of [threat modelling](../threat-modelling/choreography.md) and scenario planning into prioritised action.
 

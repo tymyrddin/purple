@@ -16,7 +16,7 @@ Extend paths step by step. From each entry point, ask: what would this adversary
 
 Repeat for each entry point. You are looking for overlap: steps that appear in multiple attack paths are chokepoints, and chokepoints are usually the most efficient places to strengthen defences.
 
-## What the map reveals
+## Reading the map
 
 Beyond the paths themselves, pay attention to:
 

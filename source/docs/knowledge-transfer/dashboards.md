@@ -17,7 +17,7 @@ Dashboards that work answer three questions instantly:
 
 If analysts cannot answer these at a glance, the dashboard has failed its only job.
 
-## What good dashboards look like
+## Useful dashboard shapes
 
 ### The “smoke alarm”
 

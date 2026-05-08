@@ -14,7 +14,7 @@ This process combines a factual sequence of events, the team's shifting energy, 
 
 The result is a retrospective that surfaces hidden dynamics, strengthens collective insight, and builds the capacity for continuous learning.
 
-## Why the energy timeline matters
+## Reading the energy timeline
 
 Most retrospectives treat events as things that happened to a neutral team. The energy timeline makes the team's experience of events visible as a parallel record. A decision that looked routine in the event log may have triggered a significant dip in energy that is only visible when you overlay the two timelines.
 

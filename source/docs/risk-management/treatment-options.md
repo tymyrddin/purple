@@ -1,10 +1,10 @@
-# What you can do: treatment options
+# Treatment options
 
 Duration: 45 to 60 minutes
 
 Materials: your risk matrix from the previous exercise, cards for treatment options, markers
 
-## The exercise
+## An exercise
 
 For each risk above your appetite line, identify what you can actually do about it. The constraint on "actually" matters. Treatment options that cannot be implemented given the organisation's actual capacity, budget, and authority structure are not treatment options. They are aspirations, and aspirations do not reduce risk.
 
@@ -40,7 +40,7 @@ The quick wins question is worth spending time on. There is usually a treatment 
 
 Treatment options for each priority risk, reality-checked for feasibility, with a rough prioritisation order and clear ownership for each decision.
 
-## What the exercise reveals
+## Surfacing the implementation gap
 
 The treatment conversation exposes the gap between what the organisation recognises it could do and what it is actually in a position to do. That gap is important information. A treatment plan that requires resources or authority the organisation does not have is not a plan; it is a statement of what would be needed.
 

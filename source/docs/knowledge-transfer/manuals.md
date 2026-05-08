@@ -8,7 +8,7 @@ right aid.
 The test is simple: can someone who's never seen it before use it successfully at 3:00? If not, it's documentation 
 theatre, not operational guidance.
 
-## What types of manuals will actually be read?
+## Manual types that get used
 
 Readable manuals behave like tools. They're designed for exactly one moment of need, not for theoretical completeness.
 
@@ -146,7 +146,7 @@ Hand-off: When primary returns, brief them and transfer logs/notes.
 Where it lives: Sealed envelope in secure location. Encrypted file on designated backup's laptop. Card in incident 
 response folder.
 
-## How to make them readable
+## Making them readable
 
 Readability is not about literary polish. It comes from structure, constraint, and brutal prioritisation.
 
@@ -326,7 +326,7 @@ Has it been used successfully in practice? Not theory, not exercises (though tho
 
 If the answer to any of these is no, it's not done. Keep simplifying, testing, and refining until it passes all five tests.
 
-## What success looks like
+## Signs of success
 
 When manuals work, you see:
 - People reference them during incidents instead of improvising

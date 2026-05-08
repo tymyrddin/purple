@@ -8,7 +8,7 @@ trade-offs, whether they were made consciously or not.
 
 The problem is not that the trade-offs exist. The problem is that they are almost never treated as decisions.
 
-## What usually goes wrong
+## Where it usually breaks
 
 Trade-offs made implicitly cannot be revisited. When a caching strategy was chosen for performance reasons at the cost of a security property, and that choice was not documented as a trade-off, the next person who encounters the system does not know it was a choice. They think it is how things are done. When conditions change and the trade-off no longer makes sense, nobody knows it was a trade-off to revisit.
 
@@ -62,7 +62,7 @@ here are the conditions under which that choice is defensible, and here is who i
 is uncomfortable because it makes the accountability explicit. It is also the only thing that allows the decision 
 to be made properly rather than deferred until circumstances make it for the organisation.
 
-## What compliance cannot do
+## Limits of compliance
 
 A compliance checkpoint asks whether a control is present. It does not ask whether the control is effective under 
 the conditions the system actually operates under. It does not ask whether the reliability mechanism added to satisfy 

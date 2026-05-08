@@ -19,7 +19,7 @@ The Weinberg connection here is direct. The currently perceived state is a model
 
 Each step produces usable insight on its own. Together they create a planning practice that accounts for the system rather than just the task.
 
-## What "obstacle avoidance" means
+## "Obstacle avoidance", defined
 
 Obstacle avoidance in this process is not about eliminating obstacles. Many cannot be eliminated. It is about naming 
 them before they appear so that the team has thought through a response and is not improvising under pressure.

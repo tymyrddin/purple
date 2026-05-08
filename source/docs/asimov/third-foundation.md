@@ -18,7 +18,7 @@ Foundation to quietly correct its deviations.
 
 This is, as noted, slightly terrifying.
 
-## What Gaia looks like in security
+## Gaia in security
 
 The security equivalent of Gaia is the organisation that has genuinely internalised security as a shared
 practice rather than a function being applied to it from outside.

@@ -7,7 +7,7 @@ The distinction matters in security because most threats do not arrive without w
 sequence of conditions, decisions, and small failures that were visible in advance but not attended to. A 
 forward-looking process is a structured way of attending to them before they become incidents.
 
-## What forward-looking is not
+## Distinct from adjacent processes
 
 It is not a [risk register](../risk-management/risk-register.md) exercise. Risk registers capture known risks and assign scores to them. Forward-looking processes are for developing thinking about the future: what is changing in the environment, what assumptions are being tested by those changes, and what responses would be available if certain things came to pass.
 

@@ -4,7 +4,7 @@ Maturity in a SOC context is most usefully understood as a direction rather than
 
 This matters because maturity level frameworks tend to produce compliance with the description of a level rather than the underlying capability. An organisation can credibly claim to be at a given level while its actual detection and response capability is weaker than a lower-rated organisation that takes its model seriously and updates it continuously.
 
-## What movement in the right direction looks like
+## Movement in the right direction
 
 More accurate detection: the detection model more closely matches the actual threat environment, with fewer rules that fire on irrelevant activity and fewer gaps that adversaries can operate in undetected. Movement here requires active maintenance of detection logic, feedback from SIRT investigations, and [purple team exercises](../../purple/index.rst) that test coverage honestly.
 
@@ -14,7 +14,7 @@ Faster feedback loops: the gap between an incident and the process update that r
 
 Better learning integration: findings from the SOC inform the broader security posture, and findings from other security activities feed back into SOC detection and process. Purple team exercises, risk assessments, and audit findings all contain information relevant to the SOC model.
 
-## What limits movement
+## Constraints on movement
 
 Analyst attrition: experienced analysts carry significant implicit knowledge about the environment, about what is normal, and about how to apply the documented criteria in situations the documentation does not fully cover. When they leave, that knowledge needs to be made explicit or it is lost. SOCs with high turnover often have detection and triage capability that looks intact on paper but degrades in practice.
 

@@ -14,7 +14,7 @@ The contractor "is required to comply with the General Security Requirements for
 
 Compliance is supervised: "the Industrial Security department of the MIVD oversees enforcement of the ABDO 2019 rules" (*"De afdeling Industrieveiligheid van de MIVD ziet erop toe dat de voorschriften uit ABDO 2019 worden nageleefd"*). The MIVD is the Military Intelligence and Security Service of the Netherlands; its Industrial Security unit vets and audits contractors that hold authorised access.
 
-## What an adversary can do with this information
+## Adversarial reading
 
 What follows is reasoning available from the tender notice alone. No intrusion, no access required.
 

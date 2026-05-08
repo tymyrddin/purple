@@ -14,7 +14,7 @@ The exercises in this section require the people who know what the organisation 
 
 If the last group is absent, the exercises will produce accurate risk documentation that nobody has the authority to act on. That is the most common failure mode.
 
-## How to use this set
+## Using this set
 
 Work through the exercises in order: what matters, what could break it, how likely and how bad, what you can do, building the register, building the model, from exercises to operations. Each exercise produces inputs to the next.
 

@@ -2,11 +2,11 @@
 
 Experiment, learn, and apply insights together.
 
-## Why these sessions matter
+## The point of these sessions
 Threats and operational challenges are best understood by doing, not just talking.  
 These collaborative sessions let teams explore scenarios, test assumptions in real time, reflect on lessons, and turn insights into practical guidance.
 
-## How to use this set
+## Using this set
 1. Work through the sessions in order:  
    - Scenario labs → Live experiments → Rapid retrospectives → Collaborative playbooks.  
 2. Focus on practical outputs rather than theory.  

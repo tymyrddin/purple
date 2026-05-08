@@ -42,7 +42,7 @@ The monthly runs measure clicks, credential submissions, report rates, and defen
 both the effectiveness of controls and staff response behaviour, and they reinforce the lessons from the purple
 team sessions rather than operating in isolation from them.
 
-## What current techniques look like
+## Current techniques
 
 QR codes embedded in PDFs bypass URL scanning that operates on text. Credential harvesting pages hosted on
 legitimate Microsoft or Google infrastructure blend into domains that browser security indicators treat as

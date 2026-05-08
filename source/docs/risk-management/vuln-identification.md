@@ -1,10 +1,10 @@
-# What could break it: vulnerability identification
+# Vulnerability identification
 
 Duration: 45 to 60 minutes
 
 Materials: asset cards from the previous exercise, new cards for vulnerabilities, markers
 
-## The exercise
+## An exercise
 
 For each critical asset, identify specific ways it could fail, be compromised, or become unavailable. Vulnerabilities are not just technical weaknesses. They are any condition that makes an asset exposed to a threat.
 
@@ -40,7 +40,7 @@ Cluster the vulnerabilities by the four types above, then repeat for the next fo
 
 Vulnerabilities mapped to critical assets, grouped by type, verified as current and realistic, and specific enough to be addressed. The specificity requirement is worth enforcing: a vulnerability description that is too vague to be given an owner is too vague to be a finding.
 
-## What the exercise reveals
+## Reading the vulnerability list
 
 The distribution of vulnerabilities across the four categories is informative. A list that is predominantly technical and nearly empty on the human and process sides reflects the composition and focus of the group rather than the actual vulnerability landscape. Organisations rarely fail primarily for technical reasons.
 

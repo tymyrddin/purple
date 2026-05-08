@@ -16,7 +16,7 @@ None of these produce useful learning. Congruent review means describing what ac
 
 The assurance has to be backed by visible behaviour from leadership. An organisation that says the review is for learning and then makes personnel decisions based on review findings has communicated clearly that the assurance is not credible. People adapt accordingly.
 
-## What to do with findings
+## Acting on findings
 
 A finding that is not connected to a change in process, structure, or tooling is a finding that documents the same problem appearing again next time. A useful post-incident review produces a short list of specific changes, each owned by a named person with a realistic timeline.
 

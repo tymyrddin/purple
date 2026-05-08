@@ -28,7 +28,7 @@ More owned: treatment decisions that belong to people who have the capacity and 
 
 Progress along this trajectory is uneven and non-linear. A significant incident can reveal that the risk model was substantially wrong in ways that require rebuilding rather than updating. A leadership change can affect the political conditions for implementing treatments. An organisational restructuring can invalidate ownership assignments. These are not failures of the risk management process; they are the reasons the process needs to be continuous rather than episodic.
 
-## What operations looks like
+## Operating cadence
 
 Monthly: review critical risks, check treatment progress against the committed timeline, update the register based on any incidents or significant changes.
 

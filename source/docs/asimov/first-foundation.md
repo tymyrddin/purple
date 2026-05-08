@@ -13,7 +13,7 @@ for access. Eventually a proto-state, governing through the one thing nobody cou
 
 In security, this maps with uncomfortable accuracy.
 
-## What the First Foundation looks like in security
+## The First Foundation in security
 
 The First Foundation in security is the technical and knowledge layer: the tooling, the frameworks, the
 documented understanding of how attacks work and defences are built. MITRE ATT&CK is a First Foundation
@@ -46,7 +46,7 @@ The First Foundation's encyclopaedia is accurate about the technical facts and s
 them. This is not a flaw in the knowledge. It is a structural limitation of a layer that was never designed
 to address human behaviour directly.
 
-## What the First Foundation cannot do alone
+## Limits of the First Foundation alone
 
 It cannot change the conditions under which people behave. A detection rule does not alter whether an analyst
 trusts their instinct to escalate or their instinct to close the ticket and move on. A compliance framework does

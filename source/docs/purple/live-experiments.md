@@ -2,7 +2,7 @@
 
 Test team responses with controlled, real-time challenges.
 
-## Why live experiments matter
+## The point of live experiments
 Simulations reveal gaps and strengths that discussion alone cannot.
 By experimenting with small, safe disruptions,
 teams learn to adapt and respond under realistic conditions.

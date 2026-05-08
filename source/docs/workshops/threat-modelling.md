@@ -4,7 +4,7 @@ Threat modelling is a structured process for understanding who would attack you,
 
 The full [threat modelling](../threat-modelling/choreography.md) process lives in its own section of this documentation. What follows is its place in the family of analytical processes.
 
-## What kind of process it is
+## Character of the process
 
 Threat modelling works with a system and asks what could go wrong with it. This makes it complementary to scenario planning, which works with the future, and to backward planning, which works with a desired state. Threat modelling is the process for understanding the current system's vulnerability to the adversaries who are actually likely to target it.
 

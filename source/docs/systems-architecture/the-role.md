@@ -1,4 +1,4 @@
-# What a systems architect does
+# The systems architect's role
 
 A systems architect designs complex IT systems and takes responsibility for the coherence of those designs as they move 
 through implementation, operation, and change. The work spans hardware, software, and network concerns, and it requires 
@@ -57,7 +57,7 @@ Understanding the political layer does not require the architect to become prima
 requires them to understand whose endorsement is needed for a design decision to be treated as a decision rather 
 than a suggestion, and to invest in obtaining that endorsement as part of the design process rather than after it.
 
-## What this means in practice
+## Across the three layers
 
 A systems architect is effective when they attend to all three layers, not just the rational one. The technical 
 work is the entry requirement. The ability to work the emotional and political layers is what determines whether 

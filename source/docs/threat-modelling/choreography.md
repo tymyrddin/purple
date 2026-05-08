@@ -14,7 +14,7 @@ A threat model produced collaboratively, with the people who built the system, t
 
 [PSL](../foundations/problem-solving/index.rst) is directly relevant here: all three layers need to be present. The rational layer (what the system does, what the vulnerabilities are) is the easy part. The emotional layer (what people are afraid to name, what concerns feel too uncomfortable to raise with colleagues in the room) and the political layer (whose risk appetite shapes what gets prioritised, who has authority to act on a finding) determine whether the exercise produces change or produces a document.
 
-## How to use this set
+## Using this set
 
 Work through the exercises in order: adversary personas, attack path mapping, operational impact, scenario crafting, bringing it together, building the model. Each exercise produces something the next one builds on.
 
@@ -24,7 +24,7 @@ Collaborate openly. The moment when someone says "I had no idea that system was 
 
 Keep each exercise to one sheet, one card, or one diagram per output. Complexity is the enemy of use.
 
-## What you are building
+## The output of the sequence
 
 By the end of this sequence you will have clear adversary personas, mapped attack paths, operational impact assessments, realistic scenarios, and a lightweight threat model that reflects what the group actually believes and knows.
 

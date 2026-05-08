@@ -6,7 +6,7 @@ The distinction from a hackathon is one of orientation. Hackathons tend to rewar
 do not survive contact with the production environment. A build-a-thon is oriented toward operational usefulness: 
 things that will actually be used by the team, in the actual environment, after the event ends.
 
-## What to build
+## Candidate builds
 
 The best candidates for a build-a-thon are things that are genuinely needed, clearly scoped, and buildable within the 
 time available by the people in the room.

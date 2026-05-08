@@ -3,7 +3,7 @@
 Red teams exist to challenge assumptions about security. Not to break things for fun, but to show where defences fail 
 under realistic attack conditions.
 
-## What red teaming is
+## Red teaming
 
 Adversary emulation: Replicating tactics, techniques, and procedures (TTPs) of real threat actors relevant to your 
 organisation. Not random exploitation, but purposeful simulation of how actual adversaries would operate.
@@ -18,7 +18,7 @@ Command and control infrastructure, living-off-the-land binaries, social enginee
 Evidence collection: Documenting every action, timestamp, and technique used so blue team can understand exactly 
 what happened and build better detections.
 
-## What red teaming is not
+## Common confusions
 
 Vulnerability scanning is useful, but it is not red teaming. Red team operations assume vulnerabilities 
 exist and focus on exploitation paths and defensive gaps.

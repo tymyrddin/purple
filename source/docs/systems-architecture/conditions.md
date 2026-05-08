@@ -20,7 +20,7 @@ Architecture work is irreducibly social. The architect who attends to the ration
 
 The job description mentions stakeholder collaboration and business alignment. It does not describe what that work actually requires: attending to people's investments in the existing system, understanding whose authority sanctions architectural decisions, and creating the conditions for honest engagement rather than compliance theatre.
 
-## What the foundations add
+## The foundations' contribution
 
 None of this makes the technical work less important. It makes the technical work contingent on conditions that are not themselves technical, and that are not described in any job description or competence framework for the role.
 

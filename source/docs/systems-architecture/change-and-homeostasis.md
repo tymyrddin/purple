@@ -8,7 +8,7 @@ Weinberg's [ChangeShop](../foundations/change-management/index.rst) framework ob
 
 The ChangeShop insight is not that change is impossible. It is that change requires the creation of conditions under which the new state is stable, not just the introduction of a new design. An architectural change that addresses the technical requirements without addressing the conditions for the new state to take root will produce a pattern that architects recognise: the architecture is approved, the implementation is complete, and two years later the system operates largely as it did before.
 
-## What homeostasis looks like in architecture work
+## Forms of architectural homeostasis
 
 The homeostatic resistance to architectural change takes several recognisable forms:
 

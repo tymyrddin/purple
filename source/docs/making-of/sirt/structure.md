@@ -2,7 +2,7 @@
 
 The structure of a SIRT is a model of how the organisation expects incidents to unfold and be handled. Like all models, it is accurate when designed and drifts thereafter. Understanding it as a model rather than as a fixed arrangement has practical consequences for how it is built and maintained.
 
-## What the structure needs to do
+## Functions of the structure
 
 Before settling on a structure, document what the structure is for. A SIRT operating in a small organisation with one site and no regulatory reporting obligations has different structural requirements from one operating across multiple jurisdictions with mandatory breach notification timelines. Designing a structure that matches the complexity of the larger case when the smaller case is the actual situation produces overhead that prevents the SIRT from functioning.
 

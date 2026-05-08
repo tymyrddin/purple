@@ -2,7 +2,7 @@
 
 Explore plausible situations and experiment with responses.
 
-## Why scenario labs matter
+## The point of scenario labs
 Seeing risks on paper is not enough.
 Scenario labs let teams play out events in a safe environment,
 understand adversary behaviour, and spot vulnerabilities early.

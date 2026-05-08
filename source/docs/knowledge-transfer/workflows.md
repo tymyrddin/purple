@@ -7,7 +7,7 @@ step, right now.
 
 A workflow that slows people down will be bypassed. A workflow that guides them will be used instinctively.
 
-## What good workflows look like
+## Useful workflow shapes
 
 ### The “breadcrumb trail”
 

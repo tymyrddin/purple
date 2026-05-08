@@ -44,7 +44,7 @@ Look at the completed grid. Do the critical and high ratings make sense collecti
 
 Decide on the risk appetite line: which levels require action and which will be accepted or monitored. This is a decision with political content. Make it explicitly, with the people who have the authority to make it, rather than leaving it implicit.
 
-## What the exercise is testing
+## A test of calibration
 
 A group that rates everything as high risk is avoiding the discomfort of prioritisation. A group that rates everything as low risk is managing the discomfort of acknowledging serious exposure. Neither produces a useful output.
 

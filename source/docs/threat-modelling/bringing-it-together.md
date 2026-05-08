@@ -14,7 +14,7 @@ Prioritise. Which risks are unacceptable given the organisation's actual risk ap
 
 Decide on next steps for each priority risk: specific mitigations with owners, monitoring approaches, or explicit acceptance with the conditions under which the acceptance would be revisited. "Awareness" without an owner and a timeline is not a next step.
 
-## What the assembled model shows
+## Reading the assembled model
 
 Look at the model as a whole. Where are the chokepoints, the paths that appear most often and the assets that most frequently appear as objectives? These are the places where investment in defence produces the most leverage.
 

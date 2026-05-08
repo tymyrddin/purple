@@ -19,7 +19,7 @@ Models drift through several mechanisms:
 - Organisational change: the people and teams who understood the design decisions, including the reasons certain approaches were chosen and certain alternatives were rejected, change roles or leave. The documentation remains but the interpretive knowledge required to apply it is no longer present.
 - Scope creep and accretion: systems accumulate components, integrations, and workarounds that were not in the original design. Each addition makes sense at the time. The aggregate effect is a system that increasingly diverges from the architecture's account of it.
 
-## Why this is important for architects
+## The architect's particular stake
 
 Every role that depends on systems works with imperfect models. The reason this is specifically important for architects 
 is that their explicit function is to produce and maintain the authoritative model of the system. When the architecture 

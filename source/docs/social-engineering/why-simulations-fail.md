@@ -1,4 +1,4 @@
-# Why phishing simulations often fail
+# Where phishing simulations fail
 
 Most security awareness programmes have a structural flaw: they teach people to recognise phishing emails drawn
 from vendor training libraries, which are typically six to eighteen months behind what is actually arriving at
@@ -54,7 +54,7 @@ reflect the real state of the environment.
 The new status quo is a programme that evolves with attacker techniques, measures things worth measuring, and
 treats security as a habit rather than a training module.
 
-## What the metrics actually measure
+## Reading the metrics
 
 Trends matter more than point-in-time results.
 
