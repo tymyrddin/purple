@@ -1,6 +1,6 @@
 # Playbooks and runbooks
 
-Both playbooks and runbooks are operational documents. They look similar on the surface — both describe what to do in a given situation — but they serve different purposes and are used differently in practice.
+Both playbooks and runbooks are operational documents. They look similar on the surface, since both describe what to do in a given situation, but they serve different purposes and are used differently in practice.
 
 ## Playbooks
 
@@ -36,7 +36,7 @@ The question to ask when categorising a document: does it require the reader to 
 
 ## When the line blurs
 
-Some documents contain both. A response playbook might embed a runbook for a specific containment procedure. An attack playbook might reference a runbook for tool setup. That is fine — the outer document sets the scenario and the decision logic; the inner procedure handles the execution detail.
+Some documents contain both. A response playbook might embed a runbook for a specific containment procedure. An attack playbook might reference a runbook for tool setup. That is fine: the outer document sets the scenario and the decision logic; the inner procedure handles the execution detail.
 
 If a document has grown into something that is neither clearly one nor the other, it is usually a sign it needs to be split.
 

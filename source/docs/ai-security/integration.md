@@ -66,7 +66,7 @@ appears reasonable given their inputs. The error is not visible in any single co
 only in the end-to-end trace. For cascades that cross team boundaries, assembling that trace may require
 coordination that does not happen within the time window of the incident.
 
-## Why the system map is rarely complete
+## The system map is rarely complete
 
 Startups build integrations quickly, with ownership distributed across teams and limited documentation of
 what flows where. Security review in this environment typically happens at the component level: is this
@@ -91,7 +91,7 @@ in an account record, the risk tier value in a shared feature store, the classif
 on an internal event bus. Shaping one of these fields upstream propagates to every downstream system
 that reads it.
 
-## Why relational failures are hard to spot
+## Relational failures are hard to spot
 
 Individual components produce no anomalous signals. Each is doing what it is designed to do. The failure
 mode is relational and only visible when the full signal chain is traced from the attacker-controlled input
@@ -101,7 +101,7 @@ That chain is often long enough to cross team boundaries, which means no single 
 visibility over it. The monitoring that would surface the pattern is not obviously anyone's responsibility
 to build.
 
-## What coupling changes about failure
+## Coupling and failure
 
 A system whose components all function correctly can still behave unexpectedly when the components are
 coupled through AI-influenced signals.

@@ -9,7 +9,7 @@ From an audit perspective, supply chain risk cuts across all major frameworks. T
 organisation uses third parties. It is whether the risk those relationships introduce is visible, assessed, and
 managed with the same discipline applied to internal risks.
 
-## What the frameworks require
+## Framework requirements
 
 ### NIS2
 

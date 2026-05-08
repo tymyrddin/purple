@@ -76,7 +76,7 @@ organisation is seen to be managing the optics of a structural problem
 without addressing the structure. This accelerates legitimacy loss rather
 than arresting it.
 
-## Why legitimacy damage is hard to see
+## Legitimacy damage is hard to see
 
 Legitimacy damage is harder to identify than trust damage partly because
 it does not manifest as identifiable anger at specific people. It manifests

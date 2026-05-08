@@ -232,7 +232,7 @@ chain. Individual firms cannot capture the full return on providing it.
 The rational response is to free the capital. The system consequence is
 fragility that appears efficient until it isn't.
 
-## What resilience actually costs
+## The cost of resilience
 
 There are three places where supply chain resilience can live, and each
 has a different cost structure and visibility.

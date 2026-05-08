@@ -7,7 +7,7 @@ where the Registry gets poisoned. It's the critical action that enables everythi
 
 But will defenders see it?
 
-Most organisations don't have:
+What is often missing:
 
 - Real-time RPKI audit log monitoring
 - Alerting on ROA creation for prefixes they don't control

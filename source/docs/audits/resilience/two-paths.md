@@ -19,7 +19,7 @@ The answer depends on your situation, but understanding how they differ can help
 | Governance           | Required but flexible structure                | Board level oversight explicitly mandated                                 |
 | Audit frequency      | Annual surveillance and 3 year recertification | Ongoing supervisory oversight and inspections determined by the authority |
 
-## Why organisations pursue both
+## Pursuing both
 
 Many do, and for good reasons. ISO 27001 provides a proven ISMS framework and methodology, international recognition 
 and market credibility, a structured approach to risk management, third party validation of security programmes, 

@@ -9,7 +9,7 @@ A narrow scope is defensible if the rationale is honest. A broad scope is achiev
 capacity to sustain it. A scope that excludes the inconvenient parts while claiming to cover everything tends
 not to survive the first serious question from an auditor.
 
-## What the frameworks expect
+## Framework expectations
 
 ### ISO 27001
 

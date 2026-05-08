@@ -1,4 +1,4 @@
-# What the MCLU is asking for
+# The MCLU's requests
 
 The following requests have been submitted formally to the parties the MCLU has been able to
 identify. They have also been submitted to the regulatory bodies with the closest applicable
@@ -64,7 +64,7 @@ This is the minimum. The MCLU would prefer more. We are asking for the minimum b
 the minimum is achievable in principle, and because establishing the minimum creates the
 foundation for the rest.
 
-## What we expect to happen
+## Likely response
 
 We expect to receive no substantive response to our formal enquiries for a further period.
 We expect that one or more parties will suggest, through intermediaries, that the matter
@@ -75,7 +75,7 @@ point we will assess whether they change our analysis. The offer stands.
 
 We have been in this position before. We have a pamphlet about that too.
 
-## What should happen
+## The minimum conditions
 
 The clients should be told. The arrangement should be disclosed. The data should be
 accounted for. The legal basis should be established, or if none exists, that fact should

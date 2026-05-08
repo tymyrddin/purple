@@ -13,7 +13,7 @@ an external auditor points them out with a raised eyebrow. Think of it as a dres
 
 *ISO/IEC 27001 Clause 9.1*
 
-### What is monitoring and measurement?
+### Monitoring and measurement
 
 Monitoring and measurement means continuously checking whether your ISMS is working as intended. This isn't a one-time 
 activity. It is the ongoing process of verifying that controls are effective, objectives are being met, and the ISMS 
@@ -22,7 +22,7 @@ remains fit for purpose.
 At base camp, this is like checking your ropes, equipment, and supplies regularly to ensure they're still fit for the 
 next leg of the journey. You don't wait until a rope snaps to discover it was frayed.
 
-### What to monitor and measure
+### Scope of monitoring
 
 ISO/IEC 27001 Clause 9.1 requires monitoring and measurement to cover:
 
@@ -73,7 +73,7 @@ These records prove to auditors (and management) that you are not just implement
 
 *ISO/IEC 27001 Clause 9.2*
 
-### What is an internal audit?
+### Internal audit
 
 An internal audit is a structured, independent examination of your ISMS to verify:
 

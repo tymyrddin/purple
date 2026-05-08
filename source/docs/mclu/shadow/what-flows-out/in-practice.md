@@ -1,4 +1,4 @@
-# What this means in practice
+# The arrangement in operation
 
 The tools run continuously on client infrastructure. Not in response to incidents. Not during
 maintenance windows. Continuously.

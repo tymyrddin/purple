@@ -4,7 +4,7 @@ A well-designed Capture the Flag exercise is one of the closest natural approxim
 
 This is not how CTFs are usually described, and not how they always work. But it is what they can be, and understanding the conditions that make them work is more useful than cataloguing their formats.
 
-## Why the structure fits
+## The structure fits
 
 The prepared environment principle holds that the materials for learning work best when arranged so that the learner encounters what they need to encounter, at the right level of challenge, without unnecessary obstacles or unnecessary scaffolding. A CTF challenge that is designed this way gives the participant a problem that is solvable, that requires them to develop or apply a technique, and that reveals something about how the technique works when they solve it.
 

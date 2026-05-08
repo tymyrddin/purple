@@ -7,7 +7,7 @@ apparatus does not distinguish between these in any way that limits what it coll
 
 This is not a secondary concern. It is the situation the MCLU is currently in.
 
-## What this investigation has generated
+## The data trail
 
 The MCLU has sent communications, received documents, submitted formal requests, and engaged
 with technical advisors, some of which passed through infrastructure connected to the cloud
@@ -20,7 +20,7 @@ different here is the mechanism: not informants or opened correspondence, but co
 infrastructure we chose to use without understanding its data flows. Which is, as it happens,
 precisely the situation of every client we have been writing about.
 
-## What to do if you are investigating this
+## If you are investigating this
 
 Be aware that you are probably being logged while doing so. Use channels that do not pass
 through infrastructure connected to the provider. The MCLU acknowledges the irony of

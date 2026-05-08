@@ -58,7 +58,7 @@ paths. The attacker's target is not necessarily the system the AI directly contr
 system that the automation reaches. The permission check occurs at the integration boundary, which the
 attacker never touches directly.
 
-## Why permission hygiene lags capability
+## Permission hygiene lags capability
 
 Service account permissions in startups are often broad because narrowing them requires detailed
 knowledge of exactly what each automation does, which is often not documented. "The pipeline needs
@@ -78,7 +78,7 @@ The architectural point is that AI systems in this layer are not assessed just b
 to do, but by what they could be induced to do given their permission scope. Least-privilege applies to
 AI service accounts as it applies to human service accounts. It is applied less consistently.
 
-## Why induced actions look like intended ones
+## Induced actions resemble intended ones
 
 AI-triggered privileged actions appear in audit logs as service account activity. They look identical
 to intended service account activity unless the audit trail captures the AI input and reasoning path
@@ -88,7 +88,7 @@ Most production environments log what happened, not why the AI decided to make i
 whether a privileged action was induced or intended requires logging the model input and output alongside
 the downstream action, which is not the default configuration for most AI-augmented pipelines.
 
-## What delegated execution means for accountability
+## Delegated execution and accountability
 
 An AI system with service account credentials is, from the permission system's perspective, a service
 account. The permission system does not know whether the action was intended or manipulated.

@@ -1,4 +1,4 @@
-# What the tools are built to observe
+# Categories of observation
 
 The following categories are collected as a matter of routine operation. There is no minimum
 threshold of concern required before observation begins. Observation is the default state,

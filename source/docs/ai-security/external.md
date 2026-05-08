@@ -70,12 +70,12 @@ attack, the scope is determined by the vendor's customer base rather than the at
 decisions. The organisation's own controls are intact. The vendor's may not be. The incident response
 timeline starts when the vendor discloses, which may be after the affected period has already passed.
 
-## Why startups inherit risk they cannot audit
+## Startups inherit risk they cannot audit
 
 Heavy SaaS dependence is characteristic of startups. The efficiency argument is strong: using a
 specialist fraud API is faster and cheaper than building and maintaining a fraud model. The security
 implication is that the fraud API's security posture is part of the organisation's security posture,
-whether or not there is a contractual mechanism to audit it.
+whether there is a contractual mechanism to audit it.
 
 Vendor security questionnaires establish what providers claim about their practices. They do not
 establish how vendor model updates are validated before deployment, how vendor training pipelines
@@ -91,7 +91,7 @@ the organisation know if the service's behaviour changed, and what is the fallba
 is unavailable or compromised? For many startup integrations, the answer to the second and third
 questions is "unclear."
 
-## Why vendor behaviour changes are hard to catch
+## Vendor behaviour changes hard to catch
 
 The organisation cannot audit vendor model behaviour at the level of detail that would reveal systematic
 manipulation or drift. Output monitoring for anomalies is possible, but distinguishing legitimate model
@@ -106,7 +106,7 @@ training pipeline, the upstream data sources the vendor aggregates, or the enric
 incorporates. The organisation's pipeline is never accessed directly; influence enters the system through
 externally generated API responses that are treated as trusted inputs.
 
-## What dependency means for the threat model
+## Dependency in the threat model
 
 The organisation's threat model includes the threat model of every external dependency that influences
 a security decision.

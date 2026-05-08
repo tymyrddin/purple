@@ -5,7 +5,7 @@ systems, services, and operations. It is the input side of risk management: the 
 go wrong, so that the risk assessment can evaluate likelihood and impact, and controls can be selected and
 mapped against each threat.
 
-## What to capture per entry
+## Per-entry fields
 
 A minimal entry includes:
 

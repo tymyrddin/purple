@@ -28,7 +28,7 @@ In both cases the temptation is identical: "we made things worse." This conclusi
 phase of almost every meaningful change, and it is almost always wrong. What has changed is not the actual risk,
 but the visibility of it.
 
-## What survival looks like
+## Surviving the chaos phase
 
 Getting through the chaos phase requires a specific kind of organisational behaviour that does not come naturally.
 
@@ -54,7 +54,7 @@ Supporting early adopters matters disproportionately. The people who move into i
 practical demonstrations that the new system is survivable. They answer questions their peers will not ask a
 facilitator, and they reduce the perceived risk of committing to the change.
 
-## What the metrics look like
+## The metrics during chaos
 
 During the chaos phase, the metrics will look worse. This is the correct reading of the situation, not a failure
 of measurement.

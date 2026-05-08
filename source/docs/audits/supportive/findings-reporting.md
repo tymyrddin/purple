@@ -28,7 +28,7 @@ IEC 62443 audit findings map to security level gaps: the difference between what
 achieve and what the security level requirement specifies. A finding is specific to a zone and a security
 level, which gives it a built-in remediation direction.
 
-## What a well-formed finding contains
+## A well-formed finding
 
 Understanding what constitutes good evidence in a finding serves two purposes: it helps an organisation
 prepare evidence of the right kind before the audit, and it means the organisation can ask informed questions
@@ -47,7 +47,7 @@ can strengthen corrective action responses: "This gap was identified in our inte
 corrective action was taken on [date], and the subsequent exercise confirmed the gap was closed" demonstrates
 active compliance management rather than reactive remediation.
 
-## Why findings create a change challenge
+## Findings create a change challenge
 
 The [three domains of problem solving](../../foundations/problem-solving/three-domains.md) apply to every
 internal conversation about audit findings.

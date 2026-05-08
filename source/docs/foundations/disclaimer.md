@@ -55,7 +55,7 @@ extensions and elaborations accumulated over decades of work with software organ
 of that time, a specific kind of institution. Applying these frameworks to current security practice requires
 some translation and some critical distance.
 
-## How to use them
+## Using them
 
 Use them as lenses, not recipes. A lens changes what is visible. It does not prescribe what to do with what
 you see.

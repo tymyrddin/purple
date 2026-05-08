@@ -6,7 +6,7 @@ NIS2 expects measures that are appropriate and proportionate. That means underst
 requires, which is the regulatory current, and what your own risks demand, which are the hazards in your particular 
 crossing. You cannot build the right vessel until you understand both.
 
-## What the law requires
+## Legal requirements
 
 [Article 21](https://www.nis2-info.eu/article-21-cybersecurity-risk-management-measures/) sets out mandatory minimum 
 measures for every entity within scope. These are not optional and not something to postpone. They include risk 
@@ -27,7 +27,7 @@ Some sectors have additional expectations beyond this baseline. Energy may need 
 healthcare may have patient safety considerations, and digital infrastructure providers may have availability 
 guarantees. Check with your supervisory authority for sector specific requirements.
 
-## What specific risks demand
+## Hazards
 
 Once the legal current is mapped, you must chart your own hazards. Identify the most likely threats in your sector, 
 like ransomware in healthcare, DDoS attacks on infrastructure, supply chain compromises in manufacturing. Consider 

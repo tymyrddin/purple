@@ -64,7 +64,7 @@ with pre-existing concerns about the institution. A severe failure
 communicated immediately causes less long-term trust damage than a
 minor failure surrounded by hours of official absence.
 
-## Why voids fill badly
+## Voids fill badly
 
 Information voids do not fill randomly. The narratives that form in
 the absence of official explanation follow a consistent pattern that

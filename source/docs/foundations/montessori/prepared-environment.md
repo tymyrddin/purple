@@ -2,7 +2,7 @@
 
 In Montessori practice, the environment is not neutral. It is designed to make certain kinds of engagement possible and to reduce the friction that prevents them. For adults learning security work, this means thinking carefully about what the physical and digital spaces make easy, what they make difficult, and what they make invisible.
 
-## What preparation means in practice
+## Preparation in practice
 
 An unprepared environment for security learning looks like this: a training module in an LMS that takes forty minutes, covers twelve concepts, and ends with a quiz. The learner has no context for why the concepts matter, no opportunity to test them against anything real, and no way to go deeper on the one thing that actually interested them. The environment has shaped a particular kind of experience, and it is not a useful one.
 

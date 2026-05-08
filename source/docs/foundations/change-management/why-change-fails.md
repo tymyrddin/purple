@@ -1,4 +1,4 @@
-# Why security change stalls
+# Security change stalls
 
 Security programmes stall for recognisable reasons. ChangeShop surfaces them quickly because the same patterns that derail change in organisations show up in the workshop room within an hour.
 
@@ -8,7 +8,7 @@ Most security efforts assume that problems are technical, solutions are deployab
 
 People do not comply with security policies because the policies are correct. They comply when the policies are easier than the alternatives, when the consequences of non-compliance are real, and when they trust the people asking them to change their behaviour. None of these conditions is created by a policy document.
 
-## What resistance looks like in practice
+## Resistance in practice
 
 ChangeShop identifies patterns that appear reliably when change encounters a system that is not ready for it.
 

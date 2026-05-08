@@ -4,7 +4,7 @@
 
 The river has hazards. Incidents will happen, and the question is whether you navigate them safely or capsize. Unlike ISO 27001, where incident reporting is internal, NIS2 has strict mandatory timelines for notifying authorities. Your ability to detect, respond, and report determines compliance.
 
-## What triggers mandatory reporting
+## Mandatory reporting triggers
 
 Not every security event requires notifying regulators. First focus on incidents that cause or could cause:
 

@@ -4,7 +4,7 @@ The Montessori insight about materials is that they work best when concrete, sel
 
 For adult security learning, this translates to exercises that are close enough to real conditions to be meaningful, safe enough to fail in without consequence, and designed so that the feedback comes from the exercise itself rather than from someone evaluating the attempt.
 
-## What makes a good security exercise
+## A good security exercise
 
 A good exercise targets a real challenge. Cloud misconfiguration is real. Privilege escalation is real. Credential harvesting via legitimate cloud services is real. An exercise that uses a scenario that is obviously fictional, that uses terminology that does not match what the team will encounter in practice, or that simplifies the environment to the point where the skills learned do not transfer, does not meet this standard.
 

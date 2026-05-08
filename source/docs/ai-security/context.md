@@ -67,7 +67,7 @@ schedule. Device fingerprints, IP reputation data, and shared identity signals r
 systems may carry the established normality profile forward to the new account, defeating the purpose
 of the reset and allowing shaped context to persist across what appears to be a fresh start.
 
-## Why startup enrichment is especially vulnerable
+## Startup enrichment is especially vulnerable
 
 Enrichment infrastructure in startups is often assembled from third-party APIs without a clear model of how
 those signals interact. Signal weighting is rarely documented. Data retention policies for enrichment inputs
@@ -89,7 +89,7 @@ fingerprint value on record, the IP reputation score from a third-party feed, th
 reviewed transaction. Each is a concrete input the context assembly reads, and each can be shaped without
 touching the risk scoring model directly.
 
-## Why context poisoning is slow to surface
+## Context poisoning slow to surface
 
 Context poisoning is slow and produces no anomalous signal at any single moment. The account behaves
 normally. The enrichment APIs return normal responses. The risk score reflects the context accurately. The
@@ -98,7 +98,7 @@ attack lies in the history that produced the context, not in the current event.
 By the time the poisoned context produces a meaningful operational effect, the shaping campaign may be
 months behind the detection window.
 
-## What assembled context means for trust
+## Assembled context and trust
 
 Old enrichment looked up facts. New enrichment assembles a picture.
 

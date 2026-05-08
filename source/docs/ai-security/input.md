@@ -33,7 +33,7 @@ benign, high-priority, or uncertain, alongside a confidence score. That label an
 context layer as the first concrete handover in the pipeline. The attacker who shapes the input here
 shapes every downstream stage that relies on it.
 
-## What exploitation looks like in practice
+## Exploitation
 
 *Abusive content embedded inside apparently legitimate support requests*: A user submitting a harassment campaign wraps 
 the abusive content inside a plausible complaint narrative. The summarisation layer extracts the surface framing, 
@@ -81,7 +81,7 @@ An attacker who can influence what the AI summary says about an incident directs
 toward a false explanation before they have looked at any raw data. The investigation becomes an
 exercise in ruling out the planted hypothesis rather than finding what actually happened.
 
-## Why this hits startups first
+## Startups feel it first
 
 Startups and scale-ups often have rapidly changing schemas, partial observability, thin operational staffing,
 shared infrastructure ownership, heavy SaaS dependence, and limited security review capacity. AI frequently
@@ -104,7 +104,7 @@ The risk is not that these tools are insecure in themselves. It is that they cre
 input to security-relevant interpretation to operational output. The length and opacity of that path tends to
 grow without anyone deciding it needs review.
 
-## Why it is hard to catch
+## Hard to catch
 
 Traditional rule failures are usually observable: a rule fired, or it did not; a threshold was misconfigured
 and the value is auditable. Interpretation failures are murkier. The output looks plausible. The reasoning

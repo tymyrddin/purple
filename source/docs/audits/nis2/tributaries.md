@@ -7,7 +7,7 @@ NIS2 explicitly requires managing these risks because high-profile incidents suc
 Log4j have shown how supplier compromises can cascade to customers. Weaknesses upstream can pull you under even 
 if your own defences are strong.
 
-## Why this is relevant now
+## Relevance now
 
 Your obligations include taking appropriate measures to manage supply chain risks, considering vulnerabilities specific to each supplier, including security requirements in contracts, and monitoring supplier security posture over time. If your suppliers are also in scope for NIS2, they have their own compliance requirements. Coordination can prevent duplication while ensuring nothing falls through the gaps.
 

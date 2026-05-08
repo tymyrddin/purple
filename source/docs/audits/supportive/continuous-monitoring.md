@@ -9,7 +9,7 @@ Systems are added without going through the documented process. An organisation 
 on audit day and does nothing until the next one will, by the time the next audit arrives, have accumulated
 gaps in several areas. The ones still compliant are the ones that kept looking.
 
-## What monitoring covers
+## Monitoring coverage
 
 Continuous compliance monitoring is not a single activity. It is a set of overlapping mechanisms that keep
 the compliance picture current.
@@ -35,7 +35,7 @@ Review processes: formal reviews of the risk register, threat register, access r
 on a defined schedule ensure that the compliance picture is updated, not merely preserved from the last time
 it was checked.
 
-## What the frameworks expect
+## Framework expectations
 
 ISO 27001 Clause 9.1 requires the organisation to determine what needs to be monitored, how, when, and by
 whom, and to analyse and evaluate the results. The specific approach is left to the organisation, but the

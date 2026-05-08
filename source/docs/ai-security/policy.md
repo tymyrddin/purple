@@ -70,7 +70,7 @@ reading of the policy. Context that establishes the requester as a professional 
 researcher with stated credentials, or a user in a specific operational scenario, shifts the model's
 interpretation of what the policy permits, without changing the policy text.
 
-## Why policy layers are often retrofitted
+## Policy layers are often retrofitted
 
 Guardrails are often retrofitted after deployment rather than designed alongside the system. The initial
 focus is on capability: does the model do what it is intended to do? Constraint robustness is assessed
@@ -92,7 +92,7 @@ enforcement: constraints that are expressed as instructions to a model that inte
 different in kind from constraints expressed as conditions that a runtime enforces. Treating the
 former as equivalent to the latter is the source of most guardrail failures.
 
-## Why successful bypasses leave no trace
+## Successful bypasses leave no trace
 
 A guardrail bypass that succeeds quietly produces no error signal. The output looks like a normal
 model response. There is no threshold that was crossed, no rule that fired incorrectly, no anomalous
@@ -103,7 +103,7 @@ Inconsistencies across model versions or deployments are only visible through sy
 across those configurations. In production environments with multiple AI-assisted workflows, that
 testing is rarely comprehensive.
 
-## What interpretive constraints change about enforcement
+## Interpretive constraints reshape enforcement
 
 Policy constraints expressed as instructions to a model enforce what the model understands the
 policy to mean.

@@ -1,4 +1,4 @@
-# What disclosure achieves
+# Disclosure's reach
 
 Less than it should, in a city with this particular political geography. The MCLU publishes
 this assessment not to discourage disclosure but because accurate expectations are more
@@ -22,7 +22,7 @@ the assumption that it will not. Decisions made on the basis of continued non-di
 need to be revisited. Actions that were reasonable when the arrangement was private become
 less reasonable now that it is not. This is not nothing, even if it is not everything.
 
-## What it creates for those who can no longer claim ignorance
+## Obligations for those no longer claiming ignorance
 
 Disclosure creates obligations for parties who are now aware of the situation and have
 responsibilities that awareness activates.
@@ -57,7 +57,7 @@ We publish anyway. The structural problem becomes harder to leave intact each ti
 named clearly. Progress in this work is measured in years, not responses, and the MCLU
 has been registered long enough to take the longer view.
 
-## Why this still matters
+## Plainest argument
 
 The clients deserve to know. This is, in the end, the plainest argument for disclosure and
 the one that does not require any assessment of likely consequences. The clients handed their

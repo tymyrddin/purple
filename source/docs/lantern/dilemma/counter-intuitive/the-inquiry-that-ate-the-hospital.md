@@ -64,7 +64,7 @@ are added after each failure but old ones are rarely removed. Over time, the
 total compliance burden on the organisation grows with each incident, gradually
 displacing the operational capacity that the oversight was meant to protect.
 
-## Why this is easy to miss
+## Easy to miss
 
 The accountability trap is genuinely counterintuitive. Accountability is
 normatively correct. When a hospital fails and patients die, the impulse to
@@ -209,7 +209,7 @@ the ones responsible for clinical outcomes. The connection between these facts
 is documented in operational experience and almost entirely absent from
 oversight design.
 
-## What different design looks like
+## A different design
 
 The accountability trap is not inevitable. It follows from accountability
 mechanisms that are designed to draw on the resources of the overseen

@@ -118,9 +118,9 @@ Control‑plane manipulation is ideal for this:
 
 Exactly the sort of thing you would never see in a public incident report.
 
-## Why none of this is public
+## None of this is public
 
-This is the part people dislike.
+This is the part people will probably most dislike.
 
 ### 1. Disclosure would expose trust anchors
 

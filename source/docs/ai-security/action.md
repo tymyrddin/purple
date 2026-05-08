@@ -56,7 +56,7 @@ threshold, which affects the human review rate, which affects the escalation rat
 in how the account is treated through a chain of individually below-threshold steps. The cumulative
 effect was not designed by any single system; it emerged from their coupling.
 
-## Why automation runs ahead of oversight
+## Automation running ahead of oversight
 
 Automation is adopted early in startups to compensate for thin operations teams. The appeal is direct:
 one engineer can supervise a pipeline that handles thousands of decisions a day. The risk is that
@@ -75,7 +75,7 @@ The concern is not the automation platform itself. It is the distance between th
 triggers the action and the human review that might catch a mistake. In well-designed pipelines, that
 distance is short and the reversal path is clear. In practice, it is often not.
 
-## Why action chains are hard to trace back
+## Action chains are hard to trace back
 
 The action log shows what happened. What it often does not show clearly is why: which AI classification,
 on what input, produced the score that crossed the threshold that triggered the action.
@@ -85,7 +85,7 @@ model calls, enrichment lookups, and threshold evaluations, is a forensic exerci
 architectures it is possible in principle and rarely done in practice until something notable has already
 gone wrong.
 
-## What irreversibility costs
+## The cost of irreversibility
 
 Misclassification is not a data quality problem if it results in an account suspension, a customer-facing
 restriction, or an analyst spending three hours responding to a synthetically triggered alert.

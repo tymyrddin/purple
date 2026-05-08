@@ -1,4 +1,4 @@
-# What the probing activity reveals about the apparatus
+# Reading the probing activity
 
 The external probing was methodical: routing anomalies consistent with path observation,
 traffic interception characteristic of mapping rather than attack, conducted over an extended

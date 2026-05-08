@@ -69,7 +69,7 @@ threshold, it generates the political signal that the list could never produce.
 It is then repaired, expensively, under duress, while the things it was
 connected to absorb the consequences.
 
-## Why individual incidents look like anomalies
+## Individual incidents look like anomalies
 
 There is a psychological dimension to the mechanism that reinforces the timing
 problem. A system that is degrading does not announce its condition. It

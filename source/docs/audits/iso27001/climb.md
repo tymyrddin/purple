@@ -158,7 +158,7 @@ Clause 8 represents the "Do" phase of the PDCA (Plan-Do-Check-Act) cycle:
 
 This is where planning becomes reality, turning all that preparation into a controlled, observable climb.
 
-### What operational planning requires
+### Operational planning requirements
 
 Organisations must:
 
@@ -220,11 +220,11 @@ High-risk mitigations include:
 
 Only after verification that all High-risk mitigations are operational does the migration proceed on 1 April. The complete risk assessment, treatment decisions, verification evidence, and migration results are stored in the ISMS repository. Not for decoration, but because it proves the expedition knows where it stands and can demonstrate due diligence to donors and regulators.
 
-## Why the climb works at all
+## How the climb works
 
 Even with maps, ropes, and radios, it is people who make the climb. Competence, awareness, and communication are what prevent a stumble from becoming a fall.
 
-### What operational excellence looks like
+### Operational excellence
 
 In practice, this means:
 

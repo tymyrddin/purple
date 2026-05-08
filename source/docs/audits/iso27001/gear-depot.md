@@ -130,7 +130,7 @@ risk treatment becomes chaotic: controls implemented inconsistently, resources a
 Think of it as your climbing schedule: which routes you'll take first, what equipment you need, who's leading each 
 pitch, and when you expect to reach each checkpoint.
 
-### What the risk treatment plan must include
+### Risk treatment plan contents
 
 ISO 27001 requires the plan to specify:
 

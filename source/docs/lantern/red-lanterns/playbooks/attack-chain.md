@@ -172,7 +172,7 @@ on peer AS64512's session combined with the absence of RPKI validation in the AP
 Include the full path from root to leaf: 1 → 1.1 → 1.1.1 → 1.1.1.1. Make it unambiguous which attack variant you are 
 testing.
 
-### Why this branch is realistic in real networks
+### This branch is realistic in real networks
 
 This is where you defend your selection against the critique of "yes but would anyone actually be that stupid?" The 
 answer is usually "yes, because it was set up in 2008 and everyone who knew how it worked has left".

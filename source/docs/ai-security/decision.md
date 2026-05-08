@@ -63,7 +63,7 @@ straight through, low confidence gets flagged. An attacker who has mapped the co
 calibrate inputs to produce high model confidence for actions that would benefit from avoiding human
 review, while keeping the actual risk below the classifier's detection threshold.
 
-## Why classifiers get adopted before they get hardened
+## Adopting classifiers before they get hardened
 
 Adopting ML-based classification is straightforward. Evaluating whether a model's decision boundaries are
 robust to adversarial input is a separate discipline that many engineering teams do not have in-house.
@@ -83,7 +83,7 @@ The point is not that these tools are insecure. It is that they replace a rule s
 with a decision surface that is harder to inspect. Knowing that a classifier achieves 94% accuracy in
 production does not tell you where its boundaries are or how stable they are under adversarial pressure.
 
-## Why classifier failures look like variance
+## Classifier failures look like variance
 
 Rules fail in ways that are visible: the rule fires incorrectly, and there is an explicit condition to
 examine. Classifiers fail in ways that look like normal variance. A fraud case that scored below threshold
@@ -94,10 +94,10 @@ LLM reasoning failures are murkier still. The output is a plausible natural lang
 no threshold to audit, no rule to inspect, and no single field that explains why the model assessed the
 incident as low severity.
 
-## What probabilistic decisions change
+## Probabilistic decisions reshape the attack surface
 
 The attack surface on a rule system is the ruleset. The attack surface on a decision system is the decision
-surface, which is continuous, multi-dimensional, and defined by training data the organisation may not have
+surface, which is continuous, multidimensional, and defined by training data the organisation may not have
 fully characterised.
 
 Knowing where your rules are is feasible. Knowing where your decision boundaries are under adversarial

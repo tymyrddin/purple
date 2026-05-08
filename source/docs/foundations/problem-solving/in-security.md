@@ -12,7 +12,7 @@ Political realities are avoided almost entirely. Too sensitive. So the report no
 
 The result is a technically sophisticated piece of work that produces no change. An expensive PDF.
 
-## What PSL-aligned security work looks like
+## PSL-aligned security work
 
 A PSL-aware approach involves a different scope from the start.
 

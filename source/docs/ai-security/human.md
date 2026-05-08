@@ -69,7 +69,7 @@ An attacker who can plant the wrong explanation in the summary can direct hours 
 toward a dead end, and the analyst's activity will look entirely rational given what they were told
 at the start.
 
-## Why thin teams are more vulnerable to this
+## Thin teams more vulnerable to this
 
 Thin security teams with high operational load have a strong incentive to rely on AI assistance. When
 one analyst is covering what would be a four-person function elsewhere, anything that compresses
@@ -90,7 +90,7 @@ The concern is the structural one: human review that occurs downstream of AI int
 same as human review that occurs upstream of it. The human is reviewing the AI's reading of the situation,
 not the situation.
 
-## Why manipulated framing rarely gets caught
+## Manipulated framing rarely gets caught
 
 Manipulation through AI-mediated framing is hard to detect because the human actions that follow look
 rational. The analyst investigated what the summary pointed to. The analyst escalated at the priority
@@ -102,7 +102,7 @@ reconstructing what the summary said, what the underlying data actually showed, 
 occurred. That forensic chain is rarely assembled unless the outcome was significant enough to trigger
 a formal review.
 
-## What mediated perception costs
+## The cost of mediated perception
 
 The attack surface extends into human judgement by way of machine-generated framing.
 
@@ -114,7 +114,7 @@ The analyst's decision, to escalate, dismiss, or continue investigating, is a st
 downstream consequences: a case closed, a new action chain opened, or a new label fed into the
 training queue. Framing that shaped that decision has shaped all of those outcomes.
 
-## Protecting the analyst from the pipeline
+## Protecting analysts from the pipeline
 
 Periodically spot-checking AI-generated summaries against the underlying raw data, particularly for
 cases that were escalated or dismissed without further investigation. If an analyst has never found a

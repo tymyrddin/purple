@@ -323,7 +323,7 @@ what is covered: which systems, processes, locations, and data fall under the IS
 
 Getting the scope right is critical. Risk assessments and controls will collapse under their own weight if you're unclear about what the ISMS applies to. Over-scoping leads to unnecessary cost and complexity (trying to climb multiple mountains simultaneously). Under-scoping leaves gaping holes (ignoring the avalanche danger on the slope you're actually climbing).
 
-### What scope must include
+### Scope requirements
 
 The scope statement must address:
 
@@ -532,7 +532,7 @@ Clause 5 formalises this as leadership and commitment, ensuring that the ISMS al
 
 Without genuine support from management, the expedition never leaves base camp. Security becomes "IT's problem," resources aren't allocated, staff don't prioritise it, and certification attempts fail.
 
-### What leadership must demonstrate
+### Leadership requirements
 
 ISO 27001 Clause 5.1 requires top management to demonstrate leadership and commitment by:
 

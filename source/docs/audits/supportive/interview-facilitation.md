@@ -32,7 +32,7 @@ Useful framing patterns:
 Questions that begin with "do you" or "does your organisation" are policy questions. They have their place in
 scoping, but they are rarely sufficient as evidence.
 
-## What silence reveals
+## Reading silence
 
 A gap in someone's answer is not always ignorance. Sometimes it is evidence that the process does not exist
 in the form described in the documentation. Sometimes it is political: the person knows the answer and is not
@@ -48,7 +48,7 @@ Silence about the same topic from multiple interviewees is a finding in its own 
 specific gap, but it confirms that the area is worth examining with direct evidence: logs, configuration
 records, system outputs.
 
-## The three layers of a witness
+## Three layers of a witness
 
 The [three domains of problem solving](../../foundations/problem-solving/three-domains.md) apply to everyone
 in an internal evidence-gathering session.
@@ -70,7 +70,7 @@ Recognising which layer is blocking a conversation is what allows the approach t
 not know is a different situation from a witness who knows and is uncomfortable, and both are different from
 a witness whose honest answer was filtered out before the meeting.
 
-## Group workshops for evidence gathering
+## Workshops for evidence gathering
 
 Facilitated workshops gather evidence and build collective understanding simultaneously, which makes them
 useful for anything that requires cross-functional input: threat modelling, gap analysis sessions, scope

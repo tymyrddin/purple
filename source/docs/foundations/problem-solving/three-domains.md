@@ -22,7 +22,7 @@ Influence, authority, incentives, organisational constraints, hidden agendas, an
 
 This is the graveyard of good security work. Findings classified as accepted risk are often not about risk appetite. They are about the cost of fixing something landing on a team that does not benefit from it being fixed. Shadow IT protected by powerful stakeholders, budget ownership split in ways that guarantee no single team can act, security recommendations that conflict with the KPIs that drive bonuses: these are political conditions, and they decide whether anything changes.
 
-## Why all three matter
+## All three are the point
 
 Most failed problem solving over-indexes on the rational dimension while the real blockage sits in the other two. Weinberg's formulation is direct: if you are stuck, you are probably solving the wrong part of the problem.
 

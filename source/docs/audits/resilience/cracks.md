@@ -54,7 +54,7 @@ This workshop is designed for organisations that want clarity and action. We can
 * Operations, HR, and finance teams: Surface overlooked dependencies and non-technical risks that can bring operations to a halt.
 * Cross-functional task forces: Get everyone speaking the same language about risk, resilience, and organisational priorities.
 
-## What makes this different
+## How this differs
 
 Traditional risk assessments often (not always) produce lengthy documents that look impressive but change little. 
 This workshop is designed for teams who want to:

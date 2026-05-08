@@ -16,7 +16,7 @@ Roleplay interrupts this automaticity. When a situation is framed as a role rath
 
 This is what Satir called the path toward congruence: aligning what one says, does, feels, and understands about the context. Congruence cannot be taught as a concept. It can be practised, and roleplay is one of the primary methods by which the practice happens.
 
-## What roleplay surfaces that other methods do not
+## Roleplay surfaces what other methods do not
 
 Group discussion of how communication should work produces normative statements about how people ought to behave. Roleplay produces evidence about how they actually behave and, crucially, about the gap between the two. That gap is not a character failing. It is information about what the current conditions produce, and it is the most useful starting point for development work.
 

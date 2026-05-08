@@ -82,7 +82,7 @@ accepted. Not because of misdelivery, but because legitimacy itself has been red
 
 This is not a forged letter. This is editing the ledger.
 
-## Why this distinction matters
+## The distinction is the point
 
 Because defences depend on what you think is under attack.
 

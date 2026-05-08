@@ -1,4 +1,4 @@
-# What was asked in return
+# The third party's ask
 
 The output. All of it, or enough of it to be useful, which in practice amounts to the same
 thing. No format was agreed, no volume specified, no limit set. The ask was approximately:

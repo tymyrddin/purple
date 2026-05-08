@@ -41,7 +41,7 @@ Note: Each table below reflects its methodology's focus, OCTAVE emphasises threa
 
 The entries in these tables are starting hypotheses, not verdicts. A likelihood of "High" for phishing susceptibility reflects the organisation's current belief about its staff and its threat environment. A likelihood of "Medium" for lateral movement reflects a belief about network segmentation and monitoring effectiveness. Some of those beliefs will be wrong, and some can be tested before an attacker tests them. Treating risk scenarios as assumptions to verify, rather than facts to document, is what makes risk assessment useful rather than decorative.
 
-### What the methodology misses
+### Methodology gaps
 
 All three methodologies work in the rational domain: identify threats, estimate likelihood, estimate impact. This is 
 necessary, but a risk register built solely from this process will be systematically incomplete in predictable ways.

@@ -8,16 +8,16 @@ email. That makes for nice PowerPoints but weak preparedness. Real operational r
 live decisions, messy trade-offs, communication friction, and the human stress that reveals where plans actually break.
 
 This workshop is different. It is an adaptable, immersive facilitation process designed to turn plans on paper into 
-practiced habits. We run tabletop games for strategic clarity and live injections for process muscle — then we force the team to close 
-the gap between what they think they will do and what they actually do.
+practiced habits. We run tabletop games for strategic clarity and live injections for process muscle, then we force
+the team to close the gap between what they think they will do and what they actually do.
 
 ## Core principles
 
 *   Practise don’t preach: learning happens through doing, not slideware. Exercises emphasise hands-on decision cycles and repeatable actions.
 *   Safe realism: scenarios are realistic and uncomfortable, but the environment is blame-free so teams can learn without fear.
-*   Role clarity and communication: incidents are primarily human problems — we focus on who speaks when, what channels to use, and how to preserve situational awareness.
-*   Adaptable fidelity: we scale fidelity to needs — from tabletop (90–120 minutes) to full live injection (multi-hour, multi-team).
-*   Evidence for learning: every exercise finishes with concrete outputs — decisions made, time-to-decision metrics, and a short improvement backlog.
+*   Role clarity and communication: incidents are primarily human problems, so we focus on who speaks when, what channels to use, and how to preserve situational awareness.
+*   Adaptable fidelity: we scale fidelity to needs, from tabletop (90 to 120 minutes) to full live injection (multi-hour, multi-team).
+*   Evidence for learning: every exercise finishes with concrete outputs: decisions made, time-to-decision metrics, and a short improvement backlog.
 
 ## How it works: modular structure
 
@@ -63,7 +63,7 @@ The workshop is split into modular parts so you can choose the right intensity a
 
 ## Formats & duration
 
-*   Primer (90 minutes): tabletop + rapid retro — good for first timers and leadership alignment.  
+*   Primer (90 minutes): tabletop + rapid retro, good for first timers and leadership alignment.  
 *   Standard (half-day): tabletop, comms rehearsal, and detailed retro.  
 *   Immersive (full day): tabletop + live injections + comms + deep after action.  
 *   Enterprise (multi-day): scenario chaining, extended live ops, and playbook design with documentation handover.

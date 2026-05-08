@@ -1,4 +1,4 @@
-# What the clients were told
+# Disclosure to clients
 
 That they were getting security hardening, container scanning, and incident response exercises.
 This is accurate. It is not complete, which is a distinction the legal profession charges

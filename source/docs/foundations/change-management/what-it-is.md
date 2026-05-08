@@ -20,7 +20,7 @@ The observers watch the interaction itself, not just the content. They notice wh
 when the stated problem and the actual problem come apart. This role is often the most instructive, because the 
 dynamics that undermine change in the real organisation show up in the room with impressive fidelity.
 
-## What happens in practice
+## In practice
 
 Three things tend to become clear within hours.
 

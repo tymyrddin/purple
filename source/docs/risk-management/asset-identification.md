@@ -1,4 +1,4 @@
-# What matters: asset identification
+# Asset identification
 
 Duration: 30 to 45 minutes
 
@@ -6,7 +6,7 @@ Materials: index cards or sticky notes, markers, wall or large table
 
 ## The exercise
 
-Identify what your organisation depends on to deliver its services. Not everything, just what actually matters. The constraint is important: risk management that attempts to cover everything covers nothing well.
+Identify what your organisation depends on to deliver its services. Not everything, just what is actually load-bearing. The constraint is the point: risk management that attempts to cover everything covers nothing well.
 
 Step 1: Brainstorm assets (10 minutes)
 
@@ -32,11 +32,11 @@ For each critical asset, note what it depends on: which systems it relies on, wh
 
 ## Output
 
-A list of critical assets of ten to twenty items, with categories, dependencies noted, and a shared understanding of why each matters. The shared understanding is as important as the list: a risk register built on a list that only one person actually understands is a risk register that only one person can maintain.
+A list of critical assets of ten to twenty items, with categories, dependencies noted, and a shared understanding of why each is the point. The shared understanding is as important as the list: a risk register built on a list that only one person actually understands is a risk register that only one person can maintain.
 
 ## What this exercise is testing
 
-Beyond the outputs, this exercise reveals whether the group has a shared and accurate model of what the organisation depends on. Disagreements during the exercise are findings: they indicate that different parts of the organisation are operating on different understandings of what matters. Those gaps are worth naming and resolving before the risk assessment proceeds.
+Beyond the outputs, this exercise reveals whether the group has a shared and accurate model of what the organisation depends on. Disagreements during the exercise are findings: they indicate that different parts of the organisation are operating on different understandings of what is load-bearing. Those gaps are worth naming and resolving before the risk assessment proceeds.
 
 Missing business context in an otherwise technical list is also a finding: it indicates that the risk management process is being conducted without adequate input from the people who operate the business, which will predictably produce a risk register that the business does not recognise as its own.
 

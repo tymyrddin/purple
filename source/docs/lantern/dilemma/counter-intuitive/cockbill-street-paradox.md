@@ -50,7 +50,7 @@ reporting stays flat.
 This is the loop. The adaptation that makes the situation survivable is the
 same mechanism that prevents the situation from being fixed.
 
-## Why this is hard to see
+## Hard to see
 
 The cooperation breakdown runs slowly and produces no obvious event. Nothing
 explodes. No dramatic headline is generated. The loop does not announce itself.
@@ -75,7 +75,7 @@ themselves to again.
 The result is a system in which the areas most in need of attention generate the
 least signal that attention is required.
 
-## What happens when the arrangements fail
+## When the arrangements fail
 
 The coping arrangements are not infinitely extensible. They have limits: the
 energy of the people running them, the physical capacity of the workarounds, the
@@ -175,7 +175,7 @@ invisible to the institutions responsible for addressing its causes.
 - [Understanding of food poverty hampered by data gaps, 11 October 2022](https://www.research-live.com/article/news/understanding-of-food-poverty-hampered-by-data-gaps/id/5104072)
 - [Free and equal? The realities of lived experiences of food aid in the UK, Maddy Sarah Power and Madeleine Baxter, 16 January 2026](https://www.cambridge.org/core/journals/journal-of-social-policy/article/free-and-equal-the-realities-of-lived-experiences-of-food-aid-in-the-uk/778A2E1131D19434DF4104EE43BEC1F7)
 
-## What this means in practice
+## In practice
 
 The cooperation breakdown matters for anyone responsible for planning infrastructure,
 allocating services, or designing crisis response.
@@ -220,7 +220,7 @@ repeatedly and visibly, that sending word now produces something. That
 demonstration cannot happen quickly. The trust was not lost in a single cycle
 and will not be rebuilt in one.
 
-## Why Pratchett got this right
+## Pratchett got this right
 
 Ankh-Morpork is a city organised around the principle that different things
 are true for different people depending on where they live. The Shades operates

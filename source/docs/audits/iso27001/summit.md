@@ -73,7 +73,7 @@ aligned with ISO 27001 before investing time in on-site verification.
 Stage 1 can often be conducted remotely, with documents provided electronically. Think of it as auditors staying 
 at base camp and poring over your maps and gear lists.
 
-### What auditors review
+### Auditor review
 
 Mandatory documentation (ISO 27001 requirements):
 
@@ -99,7 +99,7 @@ Supporting documentation (varies by organisation):
 - Acceptable use policies
 - Physical security procedures
 
-### What auditors check
+### Auditor checks
 
 Completeness: Are all required documents present? Missing fundamental documents (like risk assessment or SoA) is 
 like arriving at the mountain without a map. You can not proceed safely.
@@ -165,7 +165,7 @@ Now auditors move from documentation to reality. This stage verifies that what y
 
 Stage 2 is typically on-site (auditors visit your location), though some remote verification may occur for distributed organisations.
 
-### What to expect
+### Stage 2 expectations
 
 Duration: Typically 2-7 days depending on organisation size and complexity
 
@@ -182,7 +182,7 @@ Who gets interviewed:
 - Third-party suppliers: If in scope and accessible
 - Security team: Incident response, monitoring, threat management
 
-### What auditors examine
+### Auditor examination
 
 Technical controls verification:
 
@@ -266,7 +266,7 @@ Technical demonstrations: "Show me how you would investigate suspicious network 
 
 Spot checks: Unannounced visits to work areas to observe actual practices
 
-### What auditors are really looking for
+### Auditor priorities
 
 Not perfection: They expect to find some issues. A completely flawless audit can actually be suspicious. It suggests either a very mature ISMS (rare) or effective hiding of problems (more common).
 

@@ -14,7 +14,7 @@ position requires constant attention and adaptation.
 
 The flag itself is your ISO 27001 certificate, tangible evidence that your ISMS works and meets international standards.
 
-### What the certificate represents
+### Certificate claims
 
 Official recognition: An accredited certification body has independently verified that your ISMS meets all ISO 
 27001:2022 requirements. This is not self-assessment. It is third-party validation.
@@ -34,7 +34,7 @@ implemented appropriate treatments aligned with business objectives.
 Think of this as the summit photo: it's evidence that you followed the correct route, carried the right equipment, 
 and reached the top safely. More importantly, it proves you can stay there.
 
-### What the certificate means for your organisation
+### The certificate and your organisation
 
 Business value:
 - Competitive advantage: Demonstrates security commitment to customers, partners, and regulators
@@ -56,7 +56,7 @@ Strategic value:
 - Investment justification: Clearer business case for security spending
 - Continuous improvement: Framework for ongoing security enhancement
 
-### Example: Certificate in action
+### Certificate in action
 
 The certification body confirms that:
 - Mobile device management is implemented with 100% device enrolment and encryption
@@ -70,14 +70,14 @@ The certification body confirms that:
 
 Your team is trained, procedures are followed, and evidence exists to prove it all.
 
-## Maintaining camp: The surveillance cycle
+## Maintaining camp
 
 The mountain doesn't wait. Storms (emerging threats) will come, equipment degrades (controls lose effectiveness), personnel change (creating knowledge gaps), and processes may [drift](../../foundations/system-effectiveness/for-defence.md) (documented vs actual practice diverge).
 
 The certificate is valid for three years, but you'll face annual surveillance audits to verify continued conformance. 
 Maintaining certification requires ongoing effort. This is where many organisations struggle.
 
-### What surveillance audits involve
+### Surveillance audits
 
 Annual verification: Certification body returns approximately 12 and 24 months after initial certification to verify:
 - ISMS continues operating effectively
@@ -93,7 +93,7 @@ Duration: Typically 1-2 days (shorter than Stage 2) but still rigorous. Auditors
 
 Cost: €1.500-€5.000 per surveillance audit, depending on organisation size and complexity.
 
-### Key activities for maintaining certification
+### Maintaining certification
 
 #### 1. Monitor controls continuously
 
@@ -232,7 +232,7 @@ Preventing complacency:
 - Share success stories
 - Create security champions network
 
-### Example: Maintaining certification through change
+### Maintaining certification through change
 
 Scenario: Eighteen months after certification, organisation adopts new cloud-based CRM system.
 
@@ -275,7 +275,7 @@ Surveillance audit (Month 6):
 
 This demonstrates the PDCA cycle in action during organisational change.
 
-## Planning the next expedition: Recertification
+## Recertification
 
 ISO 27001 certificates are valid for three years. At the end of this period, a recertification audit is required. This is similar to your initial Stage 2 audit: a full review of the entire ISMS.
 
@@ -373,7 +373,7 @@ Recertification audit:
 - Certificate renewed for another three years
 - Organisation confident and capable
 
-## The PDCA embodiment
+## PDCA embodiment
 
 The flag stage represents the complete Plan-Do-Check-Act cycle in continuous operation:
 
@@ -453,12 +453,12 @@ The PDCA cycle never stops. Each iteration builds on previous learning, creating
 
 Each loop is also a model validation cycle. Plan encodes what the organisation currently believes about its risks and what controls are appropriate. Do tests whether those beliefs hold in practice. Check surfaces where they do not. Act corrects the model. An ISMS treated as a compliance maintenance mechanism stays technically conformant but gradually diverges from the actual risk environment. An ISMS treated as continuous model testing becomes more accurate over time: a better description of what the organisation actually faces and what actually protects it.
 
-## Staying on the summit: Key success factors
+## Staying on the summit
 
 Maintaining ISO 27001 certification long-term requires more than meeting requirements. It requires embedding security 
 into organisational culture.
 
-### What successful organisations do differently
+### How successful organisations differ
 
 Leadership commitment remains visible:
 - Management reviews are meaningful, not box-ticking
@@ -522,14 +522,14 @@ Stagnation: No improvement over years, minimal engagement. Result: ISMS becomes 
 
 Compliance theatre: Following processes mechanically without understanding or caring why. Result: Brittle system that fails under real pressure despite looking good on paper.
 
-## Outcome: Vigilance and readiness
+## Vigilance and readiness
 
 Planting the flag is a significant achievement worthy of celebration. ISO 27001 certification demonstrates to your organisation, customers, partners, and regulators that you take information security seriously and manage it systematically.
 
 But the flag is not permanent. It requires constant attention. The summit proves you could climb the mountain. 
 Staying there proves you can maintain altitude in changing conditions.
 
-### What vigilance looks like in practice
+### Vigilance
 
 Daily: Controls operating, logs reviewed, incidents handled, staff following procedures
 

@@ -4,7 +4,7 @@ In Montessori practice, the adult's primary role is observation. They watch what
 
 For security teams, this is a significant departure from most training contexts, where the expert presents and the learner receives. It requires a different set of skills and a different understanding of what the facilitator is for.
 
-## What facilitation looks like
+## Facilitation
 
 The facilitator in a Montessori-inspired security context spends most of their time watching: what the team is engaging with, where they are getting stuck, what they are skipping over, and what questions they are not asking that would be worth asking.
 

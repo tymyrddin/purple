@@ -2,7 +2,7 @@
 
 Red team members who understand defence operate more realistically and provide more useful feedback. Learning detection, response, and monitoring reveals where attacks are visible and how to test meaningfully.
 
-## Why attackers need defensive skills
+## Attackers need defensive skills
 
 Realistic operations: Understand what monitoring exists to test it properly. Avoid techniques defenders can't possibly detect.
 

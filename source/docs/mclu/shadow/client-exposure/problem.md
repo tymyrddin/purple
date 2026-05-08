@@ -1,6 +1,6 @@
-# The cognitive dissonance
+# Cognitive dissonance
 
-## What clients believed they had
+## A belief
 
 A security partner inside the trust boundary, whose tools were their tools and whose
 observations served their interests.
@@ -11,7 +11,7 @@ of real evidence. What was cultivated was not a false impression of competence. 
 false impression of complete alignment, which is considerably harder to detect and, it turns
 out, considerably more useful to maintain.
 
-## What clients actually had
+## The reality
 
 A provider running third-party surveillance tooling across their infrastructure and forwarding
 the results elsewhere. The security services were real. The surveillance ran alongside them,
@@ -22,7 +22,7 @@ The distinction between active deception and the management of disclosure is one
 is somewhat tired of having to make, primarily because it is raised most often by parties who
 would prefer it not carry consequences.
 
-## What this means for the advice clients received
+## Effect on the advice
 
 Clients did not simply have their data observed. They had their security posture developed by
 a provider who was simultaneously reporting that posture to a third party. The vulnerability

@@ -1,6 +1,6 @@
 # Control-plane attack chain: summary
 
-## Why these three playbooks form a chain
+## Three playbooks form a chain
 
 These playbooks implement a true [control-plane attack](https://purple.tymyrddin.dev/docs/lantern/red-lanterns/control-vs-data-plane), not data-plane abuse.
 
@@ -54,7 +54,7 @@ hijack as legitimate**. We're not bypassing security. We're corrupting the found
 
 **Control-plane relevance:** Payoff. Our hijack appears legitimate to validation systems because we corrupted them in phase 2.
 
-## Why this is different from normal BGP hijacks
+## Different from normal BGP hijacks
 
 **Data-plane hijack (typical BGP attack):**
 ```
@@ -178,7 +178,7 @@ The defense mechanism is working correctly. It's checking the right source. The 
    - Use signed BGP communities for additional validation layer
    - Requires widespread deployment (not currently available)
 
-The most effective countermeasure is **RPKI audit trail monitoring**, which would catch phase 2 before phase 3 executes. Most organisations don't have this because RPKI itself is new and auditing the validation infrastructure is not yet standard practice.
+The most effective countermeasure is **RPKI audit trail monitoring**, which would catch phase 2 before phase 3 executes. Few have this in place, because RPKI itself is new and auditing the validation infrastructure is not yet standard practice.
 
 ## Operational security considerations
 
@@ -207,16 +207,16 @@ Both are plausible because RPKI is complex and these errors genuinely happen. Co
 
 Post-operation, revoke fraudulent ROA promptly. Long-term persistence is strongest evidence of deliberate attack versus mistake.
 
-## Why this chain was selected for Red Lantern
+## Selecting this chain for Red Lantern
 
 These three playbooks demonstrate:
 
 1. **Structural vulnerability in trust infrastructure**
    - RPKI is meant to secure BGP
    - RPKI itself can be compromised
-   - Defense becomes attack vector
+   - Defence becomes attack vector
 
-2. **Multi-phase attack requiring operational security**
+2. **Multiphase attack requiring operational security**
    - Not single-action attack
    - Requires weeks of preparation
    - Tests detection across multiple phases

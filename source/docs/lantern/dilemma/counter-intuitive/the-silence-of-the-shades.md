@@ -58,7 +58,7 @@ original failure plus everything it has caused in the time it went unaddressed.
 The cost of the response scales with the time elapsed, not with the size of the
 original fault.
 
-## Why non-reporting is rational
+## Non-reporting is rational
 
 The mechanism is often discussed as a communication problem: people did not
 know how to report the failure, or did not know who to contact, or did not
@@ -215,7 +215,7 @@ measured and what mattered.
 - [Arsenic mitigation programmes needs to be strengthened, 07 April, 2019](https://www.newagebd.net/article/69353/arsenic-mitigation-programmes-needs-to-be-strengthened)
 - [The arsenic-contaminated water flowing through Bangladesh and India, 10 February 2025](https://geographical.co.uk/science-environment/the-arsenic-contaminated-water-flowing-through-bangladesh-and-india)
 
-## What the delay actually costs
+## The cost of delay
 
 The cost of the detection delay amplifier is systematically underestimated
 because it is measured against the wrong baseline. When a multidistrict
