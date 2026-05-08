@@ -1,4 +1,4 @@
-# Building a phishing programme that actually works
+# Building a phishing programme
 
 The redesign of a phishing simulation programme follows the Satir arc described elsewhere in these foundations.
 This page covers what each phase looks like in practice, and what a programme built on genuine attacker

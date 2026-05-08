@@ -28,6 +28,7 @@ Foundation nobody asked for and a third option that makes both of them slightly 
    docs/ai-security/index
    docs/admin-surface/index
    docs/risk-management/index
+   docs/continuity/index
    docs/making-of/index
    docs/audits/index
    docs/knowledge-transfer/index
