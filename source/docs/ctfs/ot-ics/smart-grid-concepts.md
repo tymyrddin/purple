@@ -1,6 +1,6 @@
 # Smart grid challenge concepts
 
-## What is distinct about smart grid challenges
+## Distinguishing properties
 
 The power grid has two properties that generic OT/ICS challenges often lack: consequences that are
 immediately observable (a breaker trips, a meter disconnects, a protection function misoperates), and a

@@ -25,7 +25,7 @@ episode with a beginning and, eventually, an end. Treating them as one bucket us
 underinvestment in continuity, the messy middle, because it is the least amenable to a tidy
 deliverable.
 
-## What you can have without the others
+## Each one in isolation
 
 A resilient datacentre can still leave an organisation stranded if the people who knew how to
 operate it have all left, or if the contract that pays for it has lapsed during the outage.
@@ -42,7 +42,7 @@ The combination of all three appears to be rarer than the documents suggest. Man
 organisations have strong pieces of one, fragments of another, and an unspoken assumption that
 the third will be handled by someone else when the time comes.
 
-## Why the distinction is the point
+## The cost of conflation
 
 Confusing the three tends to push investment toward whichever one feels most tractable, which
 is almost always disaster recovery, because it has discrete deliverables and named systems. The

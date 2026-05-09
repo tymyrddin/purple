@@ -20,7 +20,7 @@ Then the honest answer is:
 
 In Ankh‑Morpork terms: if the Guild Registry were ever tampered with successfully, you would not hear about it from the Watch. You would hear about it by noticing that certain people stopped being recognised as legitimate, and nobody could explain why.
 
-## What would count as an indicator?
+## Indicator categories
 
 We are not talking about:
 

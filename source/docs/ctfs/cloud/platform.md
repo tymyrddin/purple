@@ -3,7 +3,7 @@
 Cloud CTF challenges need API surface. Before building anything, it is worth assessing what each hosting option
 actually provides and where it breaks down.
 
-## What cloud challenges require
+## Cloud challenge requirements
 
 The attack techniques in scope (IAM privilege escalation, bucket misconfiguration, Lambda credential exfiltration,
 service account key abuse) all interact with cloud provider APIs. A challenge that cannot provide those APIs

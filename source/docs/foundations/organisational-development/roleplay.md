@@ -2,7 +2,7 @@
 
 Roleplay is one of the most powerful tools available in organisational development work, and one of the most underused in professional settings. The reluctance is understandable: it feels exposing, it can feel childish, and in organisations where performance and appearance matter it carries risk. That reluctance is itself instructive. The things that make roleplay uncomfortable are often exactly the things that make it useful.
 
-## Why it works
+## Roleplay's pull
 
 Roleplay creates a temporary space in which people can behave differently from how they normally behave, observe their own reactions, and examine the dynamics of situations they ordinarily navigate on autopilot. The learning happens in the body before it happens in the head. A person who has experienced the pull of a manipulative interaction, the discomfort of delivering difficult feedback, or the paralysis of being asked to make a decision with incomplete information under time pressure knows something they could not have learned from a description of the same situation.
 

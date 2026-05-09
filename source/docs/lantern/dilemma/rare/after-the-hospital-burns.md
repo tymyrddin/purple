@@ -251,7 +251,7 @@ have been if the fire had not occurred. The legitimacy damage has made the
 structural failure more likely to recur. When it recurs, the legitimacy
 damage deepens further. The loop is reinforcing in the wrong direction.
 
-## What repair requires
+## Conditions for repair
 
 Trust is repaired through demonstrated changed behaviour by the specific
 entities involved: accountability for the failure, evidence that its causes

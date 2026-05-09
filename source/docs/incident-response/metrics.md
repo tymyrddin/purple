@@ -2,7 +2,7 @@
 
 Metrics from incident exercises are not a scorecard. They are model tests. Each number is a hypothesis about the organisation's capability, and the interesting question is not whether the number improved but what it reveals about the model that produced it.
 
-## What to measure during the exercise
+## Live measurements
 
 Time is the most immediate and least ambiguous signal. Time to detection, time to the first containment decision, time to implementation of that decision. These do not require interpretation: the clock ran, or it did not.
 
@@ -10,7 +10,7 @@ Communication touchpoints matter alongside the timings. How many escalations occ
 
 The facilitator tracks key decision moments with timestamps: when the team recognised the nature of the incident, when they escalated, when they changed approach. These become the skeleton of the debrief.
 
-## What to assess after the exercise
+## After the clock stops
 
 The numbers are the easier part. The harder assessment is qualitative, and it comes from the debrief rather than the log.
 

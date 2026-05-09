@@ -31,7 +31,7 @@ Few of these are derived from operational reality. A useful test of the numbers 
 anyone has rehearsed against them. An RTO of four hours that has never been measured against
 actual restore time is closer to a wish than a target.
 
-## Why one number per activity is usually wrong
+## The trouble with one number
 
 Different activities have different RTOs depending on when they fail. A four-hour RTO for
 payroll is fine in week one of the month and ruinous on the day before payday. A four-hour RTO
@@ -43,7 +43,7 @@ least in a note next to it. A continuity plan that omits this risks becoming a m
 simplified into uselessness, because it produces the same response regardless of when the
 incident lands.
 
-## What the numbers leave out
+## The communication clock
 
 The objectives describe technical and operational targets. They rarely describe communication
 targets. The window during which an organisation has to make a public statement, notify

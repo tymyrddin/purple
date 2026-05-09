@@ -3,7 +3,7 @@
 Most continuity plans describe what runs. Few describe what each running thing depends on,
 which is often the part that decides whether the plan holds.
 
-## What dependency mapping actually is
+## The mapping exercise
 
 For each business-critical activity, the exercise is to ask:
 
@@ -18,7 +18,7 @@ Each of these is a candidate failure point. The map can be considered finished n
 questions have been answered, but when the answers have been validated against something other
 than the org chart.
 
-## What the exercise tends to surface
+## Patterns the exercise surfaces
 
 Activities that depend on a single person's expertise, who is not on call, who is not
 documented, and who is not always reachable. The bus factor of one is rarely visible until the
@@ -54,7 +54,7 @@ The third category is frequently the one missed. Blocking dependencies sit outsi
 activity diagram, which is why they slip through the planning, and why they often turn out to
 be the cause of the longest outages.
 
-## What a useful map looks like
+## Markers of a useful map
 
 Not a complete one. A complete dependency map is a research project with no natural end, and
 in practice it is out of date by the time it is published. A useful map identifies the

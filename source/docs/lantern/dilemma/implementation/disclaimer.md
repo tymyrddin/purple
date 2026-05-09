@@ -4,7 +4,7 @@ This simulation is a model, not reality.
 
 It represents complex social, economic, and technical systems in a simplified form so that decisions, trade-offs, and consequences can be explored safely and visibly. Like all models, it is incomplete by design.
 
-## What this simulation *can* do
+## Capabilities
 
 * Provide a structured mirror for decision-making under pressure
 * Show how digital and operational risk translates into business, societal, and political impact
@@ -14,7 +14,7 @@ It represents complex social, economic, and technical systems in a simplified fo
 
 TL;DR: it helps make consequences tangible.
 
-## What this simulation *cannot* do
+## Limits
 
 * Predict real-world events, timelines, or outcomes
 * Replace professional judgement, domain expertise, or legal obligations

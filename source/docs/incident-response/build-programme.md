@@ -31,7 +31,7 @@ Involve more teams as the core group develops shared understanding and the exerc
 extend. Expanding participation before the format is established tends to produce exercises that are more concerned 
 with logistics than learning.
 
-## What makes a programme rather than a series of events
+## From events to programme
 
 A programme has memory. Each exercise is documented: not just the action items, but the questions it raised and the 
 assumptions it exposed. Those questions become the seed of the next exercise.

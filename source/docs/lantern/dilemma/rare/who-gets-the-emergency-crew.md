@@ -55,7 +55,7 @@ different districts, produces two different outcomes not because the
 infrastructure problem is different but because the political signal it
 generates is different.
 
-## What institutional capacity requires
+## The three components
 
 The circuit breaker that the Guilds of Merchants and Carters operate in
 Ankh-Morpork is not a natural or inevitable feature of commercial districts.
@@ -228,7 +228,7 @@ satisfied, those without leverage are not satisfied but cannot move the
 system, and the structural conditions that produce this outcome are
 maintained without anyone actively deciding to maintain them.
 
-## What the asymmetry legitimises
+## The narrative consequence
 
 There is a narrative consequence to the asymmetric circuit breaker that
 compounds its structural effects. When the Merchant Quarter's bridge is

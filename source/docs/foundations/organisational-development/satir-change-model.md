@@ -7,7 +7,7 @@ Weinberg and others into organisational settings, where it turned out to describ
 uncomfortable accuracy. The model tracks what happens to performance and emotional state as people move through
 change. It is not a project plan. It is a map of human behaviour under disruption.
 
-## What the model describes
+## The five stages
 
 The model identifies five stages. They do not always arrive in the same order, and people within the same
 organisation rarely progress through them in sync. But the overall shape is consistent enough to be useful.

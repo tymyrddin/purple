@@ -245,7 +245,7 @@ budget decisions are not, in most cases, engineers. The translation between
 technical condition and financial risk is a function that most organisations
 perform badly if at all.
 
-## What breaks the loop
+## Breaking the loop
 
 The neglect spiral breaks in one reliable way: catastrophic visible failure.
 The generator that mostly works fails completely, in winter, visibly, with

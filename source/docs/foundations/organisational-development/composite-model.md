@@ -48,7 +48,7 @@ Create the conditions under which people can actually adopt the change. This mea
 building the trust that makes honest reporting possible, and designing processes that account for how people behave 
 under pressure rather than assuming they will behave as the process requires.
 
-## What this produces
+## The integrated outcome
 
 Not a completed security programme. Security is not a state that can be achieved and maintained. It is a system 
 property that degrades when not actively sustained.

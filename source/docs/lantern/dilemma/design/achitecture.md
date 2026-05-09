@@ -240,7 +240,7 @@ Monthly income is applied to budget and scales dynamically:
 - Trade tariffs: reduced 30% per failed transport or food-supply building
 - Taxes: penalised when public trust drops below threshold (default 30)
 
-## Why this structure
+## Structural choices
 
 | Concern                                       | Solution                                         |
 |-----------------------------------------------|--------------------------------------------------|

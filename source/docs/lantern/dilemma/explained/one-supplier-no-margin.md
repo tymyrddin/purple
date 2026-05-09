@@ -33,7 +33,7 @@ provider is not a failure of one service in one district. It is a failure
 of one service everywhere the provider operates, simultaneously, without
 geographic or organisational containment.
 
-## What diversity does
+## The function of diversity
 
 The mechanism of the monoculture problem is easier to understand by
 considering what it removes.
@@ -241,7 +241,7 @@ first-order vendors, and the monocultures that matter most in a crisis
 are often several layers down, invisible to the organisation until
 something at that layer fails.
 
-## What containment requires
+## Containment requirements
 
 Containment of monoculture failures requires diversity at the level of
 the shared dependency, which is frequently at odds with the economics

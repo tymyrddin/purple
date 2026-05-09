@@ -79,7 +79,7 @@ The knowledge that used to live in one person's head now lives in code that can 
 changed deliberately. This is not only an operational improvement. It is a security improvement, because the
 previous state was a risk that the organisation had simply learned not to see.
 
-## What determines whether the transition succeeds
+## Conditions for transition success
 
 Not tooling selection. Not the technical quality of the pipeline design. Whether the organisation survives the
 chaos phase without retreating.

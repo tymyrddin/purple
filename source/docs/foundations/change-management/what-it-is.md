@@ -1,4 +1,4 @@
-# What ChangeShop was/is
+# The ChangeShop workshop
 
 ChangeShop is an experiential workshop developed by Gerald and Daniel Weinberg. You do not study change in ChangeShop. You 
 bring a real problem and work on it, live, with other people, and discover things about it that desk analysis would never 

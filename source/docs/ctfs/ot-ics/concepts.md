@@ -1,6 +1,6 @@
 # Challenge concepts
 
-## What makes a concept worth building
+## Markers of a worthwhile concept
 
 A good OT/ICS CTF concept passes three tests before any code is written:
 
@@ -12,7 +12,7 @@ A good OT/ICS CTF concept passes three tests before any code is written:
   is show what the attack actually causes. A challenge that discards this advantage is wasting its
   environment.
 
-## What translates well from the attack surface
+## Translating from the attack surface
 
 The technique categories in the attack surface reference map unevenly to the simulators. The table below
 shows which categories have direct simulator backing and where the coverage comes from.
@@ -22,7 +22,7 @@ shows which categories have direct simulator backing and where the coverage come
 | Spear phishing and social engineering       | none; OT challenges conventionally treat initial IT access as given and start participants inside the network                                |
 | Credential attacks and authentication abuse | power-and-light-sim: OPC UA credential sniffing; ics-simlab: EWS login path; no dedicated brute-force or MFA-bypass scenario yet           |
 | Supply chain and third-party compromise     | none; would require modelling a trusted update or vendor access path that neither simulator currently provides                               |
-| Physical access and insider threat          | not reproducible in software simulation; see "What cannot be simulated"                                                                      |
+| Physical access and insider threat          | not reproducible in software simulation; see "Beyond software simulation"                                                                      |
 | Initial access and lateral movement         | ics-simlab: EWS pivot, zone-to-zone movement; power-and-light-sim: enterprise-to-control lateral movement                                    |
 | Trust exploitation and misconfiguration     | power-and-light-sim: SCADA anonymous access, RBAC bypass, OPC UA credential sniffing                                                         |
 | Living-off-the-land and pre-positioning     | none; requires persistent foothold mechanics and a time dimension neither simulator models                                                   |
@@ -84,7 +84,7 @@ HMI as command-issuing endpoint: power-and-light-sim has web SCADA interfaces th
 role. No challenge currently isolates the HMI as the target or teaches the participant to issue
 commands through it rather than directly via protocol.
 
-## What is saturated or unsuitable
+## Saturated and unsuitable
 
 Generic "find the open port and run a tool" challenges exist on every platform. Avoid:
 
@@ -95,7 +95,7 @@ Generic "find the open port and run a tool" challenges exist on every platform. 
 Root-Me reviewers and TryHackMe audiences both penalise challenges that could have been a web challenge
 with an ICS skin painted on.
 
-## What cannot be simulated
+## Beyond software simulation
 
 Some techniques from the attack surface reference cannot be reproduced in any software-based
 simulation environment. These are not gaps to fill; they are architectural constraints that apply

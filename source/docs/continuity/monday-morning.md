@@ -17,7 +17,7 @@ recovery has not started, and the gap may have no clear owner. The DR document c
 moment the RTO is hit. The continuity work is just getting started, and the people who might
 have run it are most likely exhausted from the event.
 
-## What tends to go wrong here
+## Where it can go wrong
 
 The communications strategy was usually written for the event and not for the aftermath. The
 pre-drafted holding statement covered the first six hours. The next six weeks get improvised.

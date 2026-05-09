@@ -89,7 +89,7 @@ The Satir-informed question for any role in the plan: under stress, what does th
 to do, and is the role compatible with that? The answer affects how the role gets filled, who
 the deputy is, and how the structure tolerates the stance the named person is likely to adopt.
 
-## What the integration produces
+## The integrated programme
 
 A continuity programme that takes these lenses seriously can look quite different from a
 binder. It is worth including:

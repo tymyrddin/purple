@@ -190,7 +190,7 @@ experience between Seine‑Saint‑Denis and neighbouring wealthier département
 - [Departmental recognition of energy hardship in Seine‑Saint‑Denis (PDF)](https://www.precarite-energie.org/wp-content/uploads/2024/11/synthese-precarite-energetique-ssd.pdf)
 - [French government acknowledgement of energy precarity (2022 crisis context), Ministère de la Transition écologique](https://www.ecologie.gouv.fr/precarite-energetique)
 
-## What the gap costs, and who pays it
+## The cost transfer
 
 The infrastructure inequality ratchet is a cost transfer mechanism as much
 as an equity problem. The costs created by the ratchet do not disappear.

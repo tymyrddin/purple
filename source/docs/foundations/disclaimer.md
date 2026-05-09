@@ -1,10 +1,10 @@
-# What these foundations can and cannot do
+# Limits and uses of these foundations
 
 The material in this section draws on work developed by Virginia Satir, Gerald Weinberg, and related thinkers
 in organisational development, change management, systems thinking, and learning design. It is useful. It is
 also limited in specific ways that are worth being clear about before applying any of it.
 
-## What these foundations offer
+## Lenses these foundations provide
 
 They offer ways of seeing. The [Satir Change Model](organisational-development/satir-change-model.md) makes the chaos phase of a transition visible and names it
 as structural rather than exceptional. [ChangeShop](change-management/satir-change-model.md) makes the homeostatic resistance of organisations visible and
@@ -22,7 +22,7 @@ structural conditions that produce the problems you are trying to address. Monte
 to design environments where learning and capability development actually happen. Used together, they provide
 a more complete picture than any one of them does in isolation.
 
-## What these foundations cannot do
+## Limits of these foundations
 
 They cannot replace domain knowledge. Understanding the Satir change model does not tell you how to design a
 pipeline, run a purple team exercise, or build an ISMS. These foundations inform how you work with people and
