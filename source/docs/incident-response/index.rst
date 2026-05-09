@@ -22,6 +22,8 @@ nothing except time.
    adaptations.md
    metrics.md
    build-programme.md
+   sirt/index
+   soc/index
    playbooks/index
 
 .. raw:: html

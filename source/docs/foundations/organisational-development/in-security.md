@@ -61,4 +61,4 @@ what happens when people are honest, and they are destroyed faster than they are
 - [The Satir Change Model](satir-change-model.md)
 - [Why simulations fail](../../social-engineering/why-simulations-fail.md)
 - [Building a phishing programme that actually works](../../social-engineering/phishing-programme.md)
-- [Building a SIRT](../../making-of/sirt/purpose.md)
+- [Building a SIRT](../../incident-response/sirt/purpose.md)

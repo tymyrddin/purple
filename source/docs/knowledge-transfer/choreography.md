@@ -42,5 +42,5 @@ Where those conditions are still being built, the section on
 - [Moving beyond manuals nobody reads](manuals.md)
 - [Dashboards that actually get used](dashboards.md)
 - [Workflows that get followed](workflows.md)
-- [SIRT structure](../making-of/sirt/structure.md)
-- [SOC workflows](../making-of/soc/workflows.md)
+- [SIRT structure](../incident-response/sirt/structure.md)
+- [SOC workflows](../incident-response/soc/workflows.md)

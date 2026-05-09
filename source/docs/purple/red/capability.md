@@ -1,38 +1,38 @@
 # Building red team capability
 
-Organisations don't need elite hackers on day one. Red team capabilities mature over time. Begin here and use [red and blue capability building](../../foundations/montessori/index) later.
+A red team capability matures over time. There is no need to start with elite operators. The early work uses pre-built frameworks and known techniques against known defences; sophistication is something that gets added as the programme has somewhere productive to put it.
 
 ## Starting point
 
-Begin with [Atomic Red Team](https://www.atomicredteam.io/) or similar frameworks: Run pre-built attack simulations to test detection capabilities. No custom exploit development required.
+The first months of a red team capability are about establishing a rhythm with the blue team rather than demonstrating advanced tradecraft. [Atomic Red Team](https://www.atomicredteam.io/) and similar frameworks run pre-built attack simulations that test detection capabilities without requiring custom exploit development. The point of using them is calibration, not display.
 
-Focus on common attack paths: Test the things attackers actually do: phishing, credential abuse, lateral movement with stolen credentials, privilege escalation through misconfigurations.
+Common attack paths cover most of what early exercises need to surface: phishing, credential abuse, lateral movement with stolen credentials, privilege escalation through misconfigurations. These are the techniques real adversaries use most often, and they are also the techniques whose defensive coverage organisations most commonly overestimate.
 
-Partner with purple team: Start with collaborative exercises where blue team knows attacks are coming and red team shares techniques in real-time.
+Collaborative exercises with the blue team, where attacks are announced and techniques are shared in real time, produce the conditions for the practice to become routine. Once those conditions exist, the move toward less-disclosed exercises happens naturally.
 
 ## Developing capabilities
 
-Learn from threat intelligence: Study real adversary TTPs and replicate them in your environment.
+Threat-intelligence-driven exercises replace the generic frameworks. Real adversary techniques relevant to the organisation's sector are studied and replicated, which makes the exercises more realistic and the findings more directly actionable.
 
-Build custom tooling: Develop organisation-specific attack simulations that test your unique environment and defences.
+Custom tooling fills gaps the off-the-shelf frameworks do not address. An organisation with unusual technology, unusual exposure, or unusual constraints will eventually need exercises that test those specifics, which off-the-shelf playbooks cannot provide.
 
-Expand scope: Progress from pure technical testing to include social engineering, physical access, and supply chain attack simulations.
+Scope expansion adds dimensions the early exercises avoided. Social engineering, physical access, and supply chain attack simulations test parts of the organisation that pure technical testing leaves untouched, and they produce findings that no technical exercise would surface.
 
-Increase operational security: Evolve from noisy, obvious tests to stealthy operations that test realistic adversary tradecraft.
+Operational security shifts from noisy and obvious to stealthy and adversary-realistic. The exercises start to test how detection holds up against techniques designed to avoid detection rather than against techniques that announce themselves.
 
 ## Advanced operations
 
-Full adversary emulation: Replicate specific threat actors end-to-end, from reconnaissance through impact.
+Full adversary emulation replicates a specific threat actor end-to-end, from reconnaissance through impact. The exercise behaves as the named adversary would, using their tooling preferences and operational patterns. Findings translate directly to defences against that adversary.
 
-Assumed breach scenarios: Start with access and test detection, response, and recovery under realistic compromise conditions.
+Assumed-breach scenarios start with access already obtained and test detection, response, and recovery under realistic compromise conditions. The earlier phases (reconnaissance, initial access) are taken as given so that the exercise can reach the post-compromise activity that is otherwise often skipped.
 
-Purple team automation: Continuous adversary simulation with automated red team testing and blue team tuning.
+Continuous adversary simulation uses automated red team tooling to feed scenarios into the blue team's environment continuously, with detection tuning happening alongside. This is the configuration most likely to be called "purple team automation", and it is the maturity stage most organisations underestimate the cost of.
 
-Purple team as a service: Mature organisations develop internal purple team capabilities that continuously challenge and improve security posture.
+A purple team service inside the organisation, when fully developed, continuously challenges and improves the security posture as a built-in function rather than as a periodic event. Few organisations reach this stage; the ones that do usually arrive through a long sequence of smaller capabilities rather than through a single deliberate investment.
 
 ## Related
 
 - [Building blue team capability](../blue/capability.md)
 - [Defensive skills for attackers](../../foundations/montessori/defensive-skills.md)
 - [Rotation programmes](../../foundations/montessori/rotation.md)
-- [Making of a purple team](../../making-of/purple-team/team.md)
+- [Building a purple team programme](../purple-team/team.md)

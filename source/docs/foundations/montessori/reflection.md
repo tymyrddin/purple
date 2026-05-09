@@ -41,5 +41,5 @@ This closes the loop between the prepared environment and the learning that happ
 - [Facilitation over instruction](facilitation.md)
 - [The prepared environment](prepared-environment.md)
 - [Retrospectives](../../workshops/retrospectives.md)
-- [Rapid retrospectives](../../purple/scenario-labs.md)
-- [SIRT learning and development](../../making-of/sirt/learning.md)
+- [Rapid retrospectives](../../workshops/rapid-retrospectives.md)
+- [SIRT learning and development](../../incident-response/sirt/learning.md)

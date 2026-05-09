@@ -1,64 +1,73 @@
 # Building your purple team
 
-Purple teaming is a practice, not an org chart. Different organisations structure it differently based on size and maturity.
+Purple teaming is a practice. The shape of the team that runs it varies with the size of an organisation, the maturity
+of the security function, and the people available to do the work.
 
 ## Small organisations
 
-Combined roles: Same people might play red and blue roles at different times. IT staff with security responsibilities can simulate attacks then validate defences.
+In a small organisation, the same people may play offensive and defensive roles at different times. An IT staff member
+with security responsibilities can simulate an attack one week and validate the resulting detection the next. A single
+person cannot fully embody both sides simultaneously, but rotation through them is often instructive on its own.
 
-External assistance: Partner with consultants or service providers for red team capability. Internal staff focus on blue team response and learning.
+External assistance can fill the offensive side when internal capacity is missing. A consultant, a service provider, or
+a partner organisation can run a simulation while internal staff work on detection and response. A risk with such an
+arrangement is that the offensive and defensive sides operate on different timelines, the gap purple teaming was
+designed to close. Tight coordination during and immediately after the exercise is what keeps the model intact.
 
-Scheduled exercises: Quarterly or semi-annual focused testing rather than continuous operations. Make each exercise count.
-
-Focus on basics: Test common attack paths, validate core detections, ensure incident response works. Don't try to emulate sophisticated adversaries.
+Cadence is usually scheduled rather than continuous: quarterly or semi-annual exercises focused on the most likely
+attack paths and the detections an organisation has built. Continuous purple teaming requires resources a small
+organisation usually has elsewhere.
 
 ## Medium organisations
 
-Dedicated roles: Separate red and blue team members, even if small teams. Security analysts handle detection and response, dedicated tester or small red team simulates attacks.
+A medium organisation can separate red and blue roles, even if the teams remain small. A dedicated tester or small red
+team simulates attacks; security analysts handle detection and response. The separation creates conditions for honest
+exchange that combined roles cannot.
 
-Purple team facilitator: One person coordinates exercises, ensures both sides prepare adequately, facilitates debriefs, tracks improvements. Might be security manager or senior analyst.
+A facilitator role appears at this scale. One person, often a security manager or senior analyst, coordinates exercises,
+checks that both sides have prepared adequately, runs the exercise reflection, and tracks what changes as a result. A
+facilitator's work is not a content role; it is a conditions role. What it makes possible is harder to see than what the
+offensive and defensive sides do, and is often what determines whether the programme produces learning.
 
-Regular cadence: Monthly or quarterly exercises testing different attack scenarios or defensive capabilities.
-
-Tool investment: SIEM, EDR, and testing frameworks (Atomic Red Team, etc.) enable more sophisticated validation.
+The cadence shifts to monthly or quarterly, and tooling investment that supports more sophisticated validation, such as
+SIEM, EDR, and frameworks like Atomic Red Team, becomes worth the cost.
 
 ## Large organisations
 
-Dedicated teams: Full red team, blue team (SOC), and purple team coordination function. Each team has specialised skills and dedicated time.
+In a large organisation, full red and blue functions can exist alongside a coordination function whose specific job is
+the purple work. The exercises are part of an ongoing cycle rather than discrete events: threat hunting integrated with
+red team intelligence, automated adversary simulation, formal coverage maps, defined maturity progressions.
 
-Continuous operations: Regular exercise cycles, threat hunting integrated with red team intelligence, automated adversary simulation.
+A risk at scale is that the programme becomes a process rather than a learning practice. The exercises produce reports,
+the reports produce action items, the action items produce metric updates, and the underlying purpose, finding what the
+defences are not catching, can get lost in the operational rhythm. The conditions that prevent this are the same as in
+smaller organisations, but the political layer is harder to attend to because more stakeholders have views about what
+the programme is for.
 
-Purple team program: Formal program with defined objectives, maturity model, metrics, and continuous improvement process.
+## The roles, in three layers
 
-Advanced testing: Full adversary emulation, assumed breach scenarios, targeted campaign simulations.
+Role clarity is easier to think about through the [PSL framing](../foundations/problem-solving/index.rst): each side of
+the practice has a rational layer, an emotional layer, and a political layer. The rational layer is what most
+descriptions of the role cover; the other two are often where programmes fail.
 
-## Role clarity
+A red team's rational work is to plan and execute attack simulations within agreed scope, to document what was done, and
+to share the techniques with the blue team. The emotional work involves tolerating the discomfort of finding things and
+naming them honestly, especially when a finding implicates a colleague's work. The political work is staying inside the
+rules of engagement and making the findings useful rather than score-keeping.
 
-Red team responsibilities:
-- Plan and execute attack simulations
-- Document all actions and TTPs used
-- Operate within defined rules of engagement
-- Share findings and techniques with blue team
-- Provide realistic adversary perspective
+A blue team's rational work is to monitor, detect, and respond. The emotional work involves receiving findings without
+defensiveness, which is easier said than done when a finding lands as a personal failure. The political work is
+converting findings into change, which requires either authority that a blue team often lacks, or relationships with the
+people who do.
 
-Blue team responsibilities:
-- Monitor for and respond to simulated attacks
-- Document what was detected and how quickly
-- Investigate alerts and suspicious activity
-- Execute incident response procedures
-- Identify detection gaps and defensive weaknesses
-
-Purple team facilitator responsibilities:
-- Coordinate exercise planning and scheduling
-- Ensure both teams understand objectives
-- Facilitate communication during exercises
-- Lead debrief sessions
-- Track findings and improvements
-- Report progress to leadership
+A facilitator's role spans all three layers without being primarily about any of them. The facilitator coordinates the
+rational work, holds the emotional conditions during the reflection, and represents the programme to the political layer
+outside it. A purple team programme without this role can drift back into red-versus-blue, even when the named structure
+says otherwise.
 
 ## Related
 
-- [What purple teaming actually is](mission.md)
-- [When you're ready for purple teaming](readiness.md)
+- [Purple teaming](mission.md)
+- [Readiness](readiness.md)
 - [Coordination models](coordination.md)
-- [Building a purple team](../making-of/purple-team/team.md)
+- [Building a purple team programme](purple-team/team.md)

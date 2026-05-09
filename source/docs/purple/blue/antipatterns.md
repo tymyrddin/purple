@@ -1,37 +1,46 @@
 # Common blue team antipatterns
 
+A few patterns appear in blue team operations often enough to be worth naming. Most have the property of feeling necessary at the time and visibly counterproductive in retrospect.
+
 ## Alert fatigue and tuning paralysis
 
-Problem: So many alerts that real threats are missed. Teams spend all time tuning down false positives rather than hunting threats.
+Alerts arrive in such volume that real threats are lost in the noise. The team spends most of its time tuning down false positives rather than hunting actual threats, and the tuning never quite catches up to the noise being generated.
 
-Better: Accept some false positives. Focus on high-fidelity detection of critical threats. Automate investigation of low-confidence alerts.
+The shift away from this pattern is to accept that some false positives are unavoidable and to design for that. Detection focuses on the high-fidelity indicators of critical threats, low-confidence alerts are routed through automated investigation rather than to analyst queues, and the metric to watch is the team's signal-to-noise ratio rather than its alert volume.
 
 ## Prevention-only mindset
 
-Problem: Believing perfect prevention is achievable. Assuming breach won't happen if defences are good enough.
+The belief that perfect prevention is achievable, and that breaches will not happen if defences are good enough, leads to under-investment in detection and response. The investment looks rational until the breach happens.
 
-Better: Assume breach. Build detection and response capabilities as rigorously as prevention. Test incident response regularly.
+Assuming breach is the alternative posture: defences are designed on the basis that they will be bypassed at some point, with detection and response built as rigorously as prevention. Incident response is tested regularly, not held in reserve for an event that the team is hoping to avoid.
 
 ## Tool addiction
 
-Problem: Believing the right tool solves all problems. Deploying expensive technology without skilled people to use it effectively.
+The belief that the right tool solves the problem leads to expensive technology being deployed without the people or process to use it effectively. The tool sits underused while the budget for analysts and procedures stays flat.
 
-Better: People and process before technology. Train analysts, develop procedures, then add tools that amplify human capabilities.
+People and process come before technology. Analysts trained on what they have, procedures built around realistic operations, and tools added to amplify human capabilities rather than to replace them, produce more capability than tools added in the hope they will compensate for missing capacity.
 
 ## Reactive only
 
-Problem: Only investigating when alerts fire. Never proactively hunting for threats or testing defensive effectiveness.
+A blue team that only investigates when alerts fire never finds threats that evade detection. The tooling becomes the limit of what gets seen, and an attacker who can stay below the alert threshold operates with effective impunity.
 
-Better: Balance reactive incident response with proactive threat hunting. Regularly validate that detections still work.
+The remedy is balance: reactive incident response continues, but proactive threat hunting and regular validation of detection rules sit alongside it. Detections that no longer work are surfaced before an exercise or an incident reveals them.
 
 ## Siloed operations
 
-Problem: Blue team operates independently. No collaboration with red team, threat intel, IT operations, or business stakeholders.
+A blue team operating in isolation from the red team, threat intelligence, IT operations, and business stakeholders ends up defending against threats that may or may not match what the organisation actually faces. The defensive priorities drift away from the business risk.
 
-Better: Build relationships across functions. Share intelligence, coordinate on improvements, align defensive priorities with business risk.
+Building relationships across functions is what keeps the work calibrated. Intelligence is shared, improvements are coordinated, defensive priorities track the business risk because the people setting them are in conversation with the people running the business.
 
 ## No metrics or measurement
 
-Problem: Can't articulate defensive effectiveness. No visibility into detection coverage, response times, or improvement over time.
+A blue team that cannot articulate its own effectiveness has no defence against the next budget review and no basis for improvement. Detection coverage, response times, and exercise results either get measured or get assumed, and assumptions are usually wrong.
 
-Better: Measure what matters: MTTD, MTTR, detection coverage, purple team exercise results. Use data to drive improvements.
+Useful metrics include MTTD, MTTR, detection coverage against the relevant threat model, and purple team exercise results. Used as feedback rather than as performance scoring, they support improvement rather than producing the defensive postures that performance scoring creates.
+
+## Related
+
+- [The blue team mission](mission.md)
+- [Common red team antipatterns](../red/antipatterns.md)
+- [Common anti-patterns and pitfalls](../practice/antipatterns.md)
+- [Why simulations fail](../../social-engineering/why-simulations-fail.md)

@@ -80,5 +80,5 @@ After engagements: Provide detection-focused feedback. Explain exactly where blu
 
 - [Rotation programmes](rotation.md)
 - [Building blue team capability](../../purple/blue/capability.md)
-- [SOC detection](../../making-of/soc/detection.md)
-- [Purple team coordination](../../making-of/purple-team/coordination.md)
+- [SOC detection](../../incident-response/soc/detection.md)
+- [Purple team coordination](../../purple/purple-team/coordination.md)

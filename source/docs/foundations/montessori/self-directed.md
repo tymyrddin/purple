@@ -39,4 +39,4 @@ Building this capacity requires trusting the team with genuine information about
 - [The prepared environment](prepared-environment.md)
 - [Facilitation over instruction](facilitation.md)
 - [Reflection and feedback loops](reflection.md)
-- [SIRT learning and development](../../making-of/sirt/learning.md)
+- [SIRT learning and development](../../incident-response/sirt/learning.md)

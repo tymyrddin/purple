@@ -68,5 +68,5 @@ Lost productivity: Training period reduces output. Mitigation: Accept productivi
 
 - [Defensive skills for attackers](defensive-skills.md)
 - [Learning culture](culture.md)
-- [Purple team coordination](../../making-of/purple-team/coordination.md)
-- [SOC maturity](../../making-of/soc/maturity.md)
+- [Purple team coordination](../../purple/purple-team/coordination.md)
+- [SOC maturity](../../incident-response/soc/maturity.md)

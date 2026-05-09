@@ -103,4 +103,4 @@ Learning: Response procedures under pressure, team coordination, decision-making
 - [CTFs as learning environments](ctf-value.md)
 - [Hands-on materials and exercises](hands-on.md)
 - [Simulations in practice](../../workshops/simulations.md)
-- [Scenario labs](../../purple/scenario-labs.md)
+- [Scenario labs](../../workshops/scenario-labs.md)

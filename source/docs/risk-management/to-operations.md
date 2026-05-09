@@ -45,4 +45,4 @@ The resources for going deeper into quantitative risk modelling and framework al
 - [The risk register](risk-register.md)
 - [Building your risk model](risk-model.md)
 - [What ChangeShop is](../foundations/change-management/what-it-is.md)
-- [SOC maturity](../making-of/soc/maturity.md)
+- [SOC maturity](../incident-response/soc/maturity.md)

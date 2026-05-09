@@ -128,5 +128,5 @@ exercises and updated with each iteration](../incident-response/choreography.md)
 - [Workflows](workflows.md)
 - [Manuals that actually work](manuals.md)
 - [Incident response choreography](../incident-response/choreography.md)
-- [SOC detection](../making-of/soc/detection.md)
+- [SOC detection](../incident-response/soc/detection.md)
 

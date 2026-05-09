@@ -39,4 +39,4 @@ Hopes and visions for the next cycle: what the team wants to move toward, in con
 - [Rapid retrospectives](rapid-retrospectives.md)
 - [Simulations in practice](simulations.md)
 - [Core ideas of Satir systems OD](../foundations/organisational-development/satir-core.md)
-- [The learning loop](../making-of/sirt/learning.md)
+- [The learning loop](../incident-response/sirt/learning.md)

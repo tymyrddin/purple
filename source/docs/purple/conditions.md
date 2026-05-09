@@ -35,7 +35,7 @@ succeeds, because caring is what made this one hurt.
 
 The same applies to red team members asked to share their techniques openly with the blue team. For someone who
 has spent time developing custom tooling and evasion methods, sharing them feels like giving away the advantage.
-The framing that matters is that the organisation's resilience, not the red team's score, is the goal. That
+The framing that does the work is that the organisation's resilience, not the red team's score, is the goal. That
 framing has to be demonstrated repeatedly, not just stated.
 
 ## The model layer
@@ -53,7 +53,7 @@ to be detectable, complexity calibrated to avoid the chaos phase, timing arrange
 operations at inconvenient moments.
 
 A programme that is designed to succeed will succeed, and will reveal nothing. The uncomfortable framing from
-ChangeShop is that the exercise should be designed to find what the organisation is not ready for, not to
+ChangeShop is that the exercise needs to be designed to find what the organisation is not ready for, not to
 confirm what it already knows.
 
 ## The conditions worth building
@@ -83,5 +83,5 @@ working. That interpretation needs to be established before the metrics start lo
 - [What ChangeShop was/is](../foundations/change-management/what-it-is.md)
 - [Why security change stalls](../foundations/change-management/why-change-fails.md)
 - [When you're ready for purple teaming](readiness.md)
-- [Common anti-patterns](antipatterns.md)
-- [Measuring early success](measurements.md)
+- [Common anti-patterns](practice/antipatterns.md)
+- [Measuring early success](practice/measurements.md)

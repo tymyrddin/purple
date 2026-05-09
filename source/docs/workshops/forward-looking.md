@@ -27,7 +27,7 @@ What signals are we currently not collecting that would tell us things were goin
 
 ## Weinberg's contribution
 
-Weinberg's problem-solving work suggests that the most valuable part of a forward-looking process is not the 
+Problem-solving suggests that the most valuable part of a forward-looking process is not the 
 predictions it produces but the mental models it surfaces. When a group works through what they expect to happen 
 over the next year, they are revealing the assumptions they are currently operating on. Those assumptions can 
 then be examined: are they still accurate? Are there conditions under which they would fail? What would early 

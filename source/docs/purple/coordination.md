@@ -1,50 +1,71 @@
-# Coordination models
+# Coordination modes
 
-Purple teaming can operate in different modes depending on objectives and maturity.
+A purple team exercise can run in several modes, distinguished by how much the defending side knows in advance. The
+choice of mode shapes what the exercise can teach and what it cannot.
 
-## Disclosed testing (high collaboration)
+## Disclosed testing
 
-Approach: Blue team knows exercise is happening, when it starts, and what general TTPs will be tested. Red and blue teams communicate throughout.
+In disclosed testing, the blue team knows the exercise is happening, roughly when it starts, and what general techniques
+will be used. Communication runs in both directions throughout.
 
-When to use: Early purple team exercises, testing new defensive tools or procedures, training new analysts, validating specific detection rules.
+This is the mode with the lowest [organisational resistance](../foundations/change-management/what-it-is.md). Both sides
+know what is happening, the scope is clear, and the findings land softly because everyone was prepared. It is also the
+mode where an organisation learns the least about what could happen under realistic conditions, because the conditions
+were never realistic.
 
-Advantages: Maximum learning. Blue team can focus on detection and response without confusion about whether activity is real or test. Enables real-time tuning.
+Disclosed testing is useful for early exercises, for validating a specific detection rule, for training newer analysts,
+and for testing a new defensive tool or procedure. The aim is learning the technique and the response, not testing the
+surprise.
 
-Disadvantages: Doesn't test true detection under realistic conditions. Blue team may be more vigilant than normal operations.
+## Blind testing
 
-## Blind testing (moderate collaboration)
+In blind testing, the blue team knows that exercises happen on a regular cadence but does not know the timing or
+scenario for any specific one. The red team's activity is revealed during or shortly after the exercise.
 
-Approach: Blue team knows exercises occur regularly but doesn't know specific timing or scenarios. Red team activities are revealed during or shortly after execution.
+This mode tests something closer to operational behaviour without the risk that the blue team mistakes a test for a real
+incident and triggers external escalation. It produces a more realistic reading of detection coverage, at the cost of
+some confusion that has to be managed by clear communication channels and an agreed safe word.
 
-When to use: Mature detection capabilities, testing response procedures, assessing whether monitoring catches realistic attacks.
+## Double-blind testing
 
-Advantages: More realistic test of detection without surprise that could cause panic or inappropriate response. Balances realism with safety.
+In double-blind testing, the blue team does not know that an exercise is happening at all. The red team operates
+covertly. The exercise is revealed only at completion.
 
-Disadvantages: Can still generate confusion if blue team mistakes exercise for real incident. Requires clear communication channels.
+This is the mode that comes closest to testing actual detection and response capability. It is also the mode with the
+highest risk: of inappropriate response, of operational disruption, of an analyst's professional reputation taking a hit
+for missing something they were never told to expect.
+The [chaos phase](../foundations/organisational-development/satir-change-model.md) that follows the reveal is real and
+worth budgeting time for, not just announcing as a finding.
 
-## Double-blind testing (traditional red team)
+The conditions for this mode to produce learning rather than damage are stronger than for the others: a clearly defined
+scope, a kill-switch arrangement, and a facilitator capable of holding the conversation when defensive reactions appear.
+Without those conditions, double-blind testing surfaces organisational dysfunction more often than detection gaps, which
+is informative in its own way but rarely the intended outcome.
 
-Approach: Blue team doesn't know exercises are happening. Red team operates covertly. Findings revealed only after exercise completion.
+## Continuous purple teaming
 
-When to use: Testing mature defences, assessing true operational effectiveness, validating detection of stealthy adversaries.
+In continuous purple teaming, the offensive and defensive sides operate together on an ongoing basis. The red team feeds
+scenarios continuously, the blue team continuously tunes detections, and automated testing validates coverage between
+exercises.
 
-Advantages: Most realistic test of detection and response under actual conditions. Reveals true blind spots.
+This is the mode with the fastest improvement cycle and the highest tooling cost. It is mostly available to
+organisations that already have dedicated red and blue functions, automation infrastructure, and a cultural acceptance
+of being continuously challenged. Without those conditions, the volume of activity produces alert fatigue rather than
+capability.
 
-Disadvantages: Risk of confusion, inappropriate response, or operational disruption. Requires careful scoping and safety controls. Provides delayed learning.
+## Choosing a mode
 
-## Continuous purple teaming (advanced)
+The default progression in most programmes is from disclosed to blind to double-blind, with continuous arriving when the
+resources and culture allow it. The progression is not mandatory: some organisations remain in disclosed mode for years
+and produce excellent results, because the conditions there support the learning the rest of the programme depends on.
+Others reach for double-blind too early and produce expensive findings the organisation is not yet equipped to act on.
 
-Approach: Ongoing collaboration where red team continuously feeds scenarios to blue team, blue team continuously tunes detections, automated testing validates coverage.
-
-When to use: Mature organisations with dedicated resources, automated testing frameworks, cultural acceptance of continuous challenge.
-
-Advantages: Fastest improvement cycle. Detection gaps identified and closed rapidly. High confidence in defensive effectiveness.
-
-Disadvantages: Requires significant resources and tooling. Can create alert fatigue if not managed carefully.
+The choice is not primarily a question of sophistication. It is a question of what the programme can support, both
+technically and culturally. The [conditions document](conditions.md) goes further into what determines this.
 
 ## Related
 
 - [Building your purple team](team.md)
-- [Measurements and early success](measurements.md)
-- [Purple team coordination models](../making-of/purple-team/coordination.md)
-- [SOC detection and response](../making-of/soc/detection.md)
+- [Measurements and early success](practice/measurements.md)
+- [Purple team coordination models](purple-team/coordination.md)
+- [SOC detection and response](../incident-response/soc/detection.md)

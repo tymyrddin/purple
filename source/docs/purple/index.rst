@@ -19,7 +19,7 @@ produces durable capability only if the `reflection <https://purple.tymyrddin.de
 and `facilitation conditions <https://purple.tymyrddin.dev/docs/foundations/montessori/facilitation>`_ are right.
 
 The practical work of building a purple team programme, including how to structure the team, how to choose between
-coordination modes, and how to assess readiness, is covered in the `making-of section </docs/making-of/purple-team/index>`_.
+coordination modes, and how to assess readiness, is covered in `purple-team </docs/purple/purple-team/index>`_.
 
 .. toctree::
    :maxdepth: 1
@@ -27,32 +27,21 @@ coordination modes, and how to assess readiness, is covered in the `making-of se
    :caption: What purple teaming is and how it works:
 
    mission.md
-   coordination.md
-   readiness.md
    conditions.md
+   readiness.md
    team.md
-   measurements.md
-   antipatterns.md
-   quick-wins.md
+   coordination.md
+   sessions.md
 
 .. toctree::
    :maxdepth: 2
    :includehidden:
-   :caption: Red, blue, and the work between them:
+   :caption: The two sides, the practice, and the programme:
 
    red/index
    blue/index
-   advanced/index
-
-.. toctree::
-   :maxdepth: 1
-   :includehidden:
-   :caption: Collaborative practice:
-
-   introduction.md
-   collaborative-playbooks.md
-   live-experiments.md
-   scenario-labs.md
+   practice/index
+   purple-team/index
 
 .. raw:: html
 

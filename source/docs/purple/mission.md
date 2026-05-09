@@ -1,30 +1,48 @@
 # Purple teaming
 
-Purple teaming isn't a third team wearing purple shirts. It's a methodology for red and blue teams to work together, combining offensive testing with defensive validation in coordinated cycles.
+Purple teaming is a way of working. The offensive and defensive sides of an organisation's security work happen in the
+same loop, with shared context and real-time communication, rather than running as separate exercises whose findings
+arrive in reports nobody reads.
 
 ## Beyond red plus blue
 
-Red team alone: Tests defences but defenders often don't learn why they failed or what techniques were used. Findings arrive in a report weeks later when context is lost.
+A red team operating alone tests defences and produces a report. The defenders, who are the people who would benefit
+from the testing, often learn what failed but rarely learn why, because the report arrives weeks after the exercise and
+the context that produced the finding is no longer available.
 
-Blue team alone: Builds defences based on assumptions about attacks. May miss realistic adversary TTPs or focus on wrong priorities.
+A blue team operating alone builds detections against the threats it can imagine. The threats it cannot imagine are
+likely to evade those detections, and the team has no mechanism for finding out which assumptions are wrong before an
+actual incident reveals them.
 
-Purple team: Red team shares techniques in real-time or shortly after using them. Blue team tests detection and response against actual attack simulations. Both sides learn continuously rather than episodically.
+Purple teaming closes this gap by running the offensive and defensive activity in contact with each other. The red team
+shares techniques as it uses them, or shortly after. The blue team tests detection and response against the actual
+simulated attack rather than against an account of it. Both sides learn continuously rather than episodically, and the
+conditions under which detections fail become visible while the people who can fix them are still in the room.
 
-## The purple team value
+## Recognisable effects
 
-Accelerated learning: Instead of waiting for real incidents, teams practise against simulated attacks with full context about what's happening.
+The work has several effects that emerge over time rather than appearing in the first exercise.
 
-Detection validation: Blue team discovers what their tools actually detect vs. what they hope they detect. Purple exercises reveal blind spots before real attackers exploit them.
+Detection coverage that reflects what tools actually detect, not what they were configured to detect. Configuration
+intent and operational behaviour [drift apart over time](../foundations/system-effectiveness/core-triad.md), and a
+purple team exercise is one of the few mechanisms that surfaces the gap before an incident does.
 
-Shared language: Red and blue teams develop common understanding of TTPs, defensive effectiveness, and improvement priorities using frameworks like MITRE ATT&CK.
+A shared vocabulary across the offensive and defensive sides. Frameworks like MITRE ATT&CK help, but the more useful
+effect is that the two sides start describing the same events in compatible terms, which makes the rest of the security
+conversation possible.
 
-Prioritised improvements: Instead of endless security backlog, teams focus on gaps revealed through testing. Data-driven decisions about where to invest defensive resources.
+Investment decisions grounded in what the organisation has been shown to be exposed to, rather than in what the security
+industry is currently selling. The exercise output tends to be more concrete than a vendor pitch and harder to argue
+with.
 
-Cultural change: Purple teaming breaks down "offense vs. defense" mentality. Teams work toward shared goal: organisational resilience.
+A cultural shift away from the offence-versus-defence framing that some security teams treat as their primary identity.
+The shift is incremental and reversible: a single mishandled finding can undo months of trust. The conditions that allow
+it, are addressed in [Satir's work on communication patterns](../foundations/organisational-development/satir-core.md)
+and in [organisational conditions](conditions.md).
 
 ## Related
 
-- [Building your purple team](team.md)
-- [When you're ready for purple teaming](readiness.md)
-- [Common anti-patterns and pitfalls](antipatterns.md)
-- [Building a purple team](../making-of/purple-team/team.md)
+- [Building a purple team](team.md)
+- [Readiness](readiness.md)
+- [Common antipatterns and pitfalls](practice/antipatterns.md)
+- [Building a purple team programme](purple-team/team.md)

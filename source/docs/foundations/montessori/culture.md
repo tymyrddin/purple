@@ -72,5 +72,5 @@ Innovation: Are new ideas and approaches emerging from cross-trained staff?
 
 - [Rotation programmes](rotation.md)
 - [Self-directed learning](self-directed.md)
-- [SIRT learning and development](../../making-of/sirt/learning.md)
-- [Building a purple team](../../making-of/purple-team/team.md)
+- [SIRT learning and development](../../incident-response/sirt/learning.md)
+- [Building a purple team](../../purple/purple-team/team.md)

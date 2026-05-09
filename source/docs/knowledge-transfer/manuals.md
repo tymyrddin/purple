@@ -359,5 +359,5 @@ That's not a manual. That's a lifeline.
 
 - [Playbooks](playbooks.md)
 - [Workflows](workflows.md)
-- [SIRT roles](../making-of/sirt/roles.md)
+- [SIRT roles](../incident-response/sirt/roles.md)
 - [Incident response choreography](../incident-response/choreography.md)

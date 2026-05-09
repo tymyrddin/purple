@@ -74,5 +74,5 @@ Dashboards that are hard to reach become dashboards nobody reaches for.
 
 - [Playbooks](playbooks.md)
 - [Workflows](workflows.md)
-- [SOC detection](../making-of/soc/detection.md)
+- [SOC detection](../incident-response/soc/detection.md)
 - [Incident response metrics](../incident-response/metrics.md)

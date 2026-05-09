@@ -1,34 +1,32 @@
 # Documentation and evidence collection
 
-Red team operations require meticulous documentation. Blue team needs complete visibility into what happened to build better defences.
+Red team operations require meticulous documentation. The blue team needs complete visibility into what happened so that detections, playbooks, and defensive improvements can be built from the engagement.
 
 ## Items to record
 
-Every action: Commands executed, tools used, files created or modified, network connections made, credentials obtained, 
-systems accessed.
+Every action: every command executed, every tool used, every file created or modified, every network connection made, every credential obtained, every system accessed. Skipping any of these because they seemed routine at the time is the most common cause of detail missing during the post-exercise reflection.
 
-Timestamps: Precise timing helps blue team correlate with their logs and alerts. 
-"13:42:15 GMT: Executed Mimikatz on WORKSTATION-042"
+Timestamps with sufficient precision to correlate against blue team logs. "13:42:15 GMT: Executed Mimikatz on WORKSTATION-042" is the right level of specificity. "Around 14:00, ran credential dumping" is not.
 
-Success and failure: What worked, what was detected, what was blocked. Failures reveal effective controls. Successes reveal gaps.
+Both successes and failures. What worked, what was detected, what was blocked. Failures reveal effective controls and are at least as informative as successes, which the documentation pattern sometimes underweights because the team is focused on what it achieved.
 
-Artefacts created: Payloads, scripts, modified files, registry keys, scheduled tasks. Blue team needs these for detection engineering.
+Artefacts created during the engagement: payloads, scripts, modified files, registry keys, scheduled tasks. The blue team needs these to build detection engineering against the actual indicators rather than against generic patterns.
 
-Screenshots and videos: Visual evidence helps during debriefs. Show exactly what red team saw and did.
+Visual evidence. Screenshots and screen recordings show the blue team exactly what the red team saw and did, which is harder to misinterpret than a textual description after the fact.
 
 ## Documentation formats
 
-Real-time logging: Maintain operational notes during engagement. Use structured formats (JSON, CSV) for later analysis.
+Real-time logging during the engagement, in a structured format such as JSON or CSV that supports later analysis. The structure pays for itself when the post-exercise reflection needs to filter or correlate events from a large engagement.
 
-Attack timeline: Chronological sequence of events from initial access through objectives achieved.
+A chronological attack timeline from initial access through to objectives achieved, ordered by timestamp and annotated with techniques used at each step.
 
-TTP mapping: Match activities to MITRE ATT&CK framework for standardised reporting.
+TTP mapping that links each documented activity to the relevant entry in the MITRE ATT&CK framework. The mapping is what makes the documentation portable across organisations and useful for benchmarking.
 
-Evidence package: Collect all artefacts, logs, screenshots, and malware samples used during exercise.
+An evidence package collects all artefacts, logs, screenshots, and malware samples used during the exercise into a single deliverable. The package is the audit trail and the input to detection engineering.
 
-Executive summary: High-level findings for leadership. Focus on business impact and risk, not technical minutiae.
+An executive summary translates the technical findings into business-impact and risk language. The audience is leadership; the purpose is decision-making, not technical detail.
 
-Technical report: Detailed walkthrough for blue team and security practitioners. Include detection opportunities, defensive gaps, remediation recommendations.
+A technical report covers the detailed walkthrough for the blue team and security practitioners: detection opportunities, defensive gaps, remediation recommendations, with specific enough detail that the engineering work can begin from the report rather than from a follow-up conversation.
 
 ## Related
 

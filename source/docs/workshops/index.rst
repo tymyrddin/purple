@@ -18,12 +18,15 @@ What sets them apart is the inclusion of what most frameworks ignore: obliviousn
    rapid-retrospectives.md
    forward-looking.md
    scenario-planning.md
+   scenario-labs.md
    simulations.md
+   live-experiments.md
    backward-planning.md
    threat-modelling.md
    risk-management.md
    patch-sprint.md
    build-a-thon.md
+   collaborative-playbooks.md
 
 .. raw:: html
 

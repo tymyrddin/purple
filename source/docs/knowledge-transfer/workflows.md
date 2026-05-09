@@ -70,5 +70,5 @@ If a workflow requires opening yet another tool, it will die quietly and alone.
 
 - [Playbooks](playbooks.md)
 - [Manuals that actually work](manuals.md)
-- [SOC workflows](../making-of/soc/workflows.md)
-- [SIRT structure](../making-of/sirt/structure.md)
+- [SOC workflows](../incident-response/soc/workflows.md)
+- [SIRT structure](../incident-response/sirt/structure.md)

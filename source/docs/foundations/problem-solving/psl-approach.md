@@ -39,4 +39,4 @@ The version that matters for security is this: how a security team is experience
 - [PSL applied to security work](in-security.md)
 - [The three domains of problem solving](three-domains.md)
 - [Core ideas of Satir systems OD](../organisational-development/satir-core.md)
-- [Making of a purple team](../../making-of/purple-team/team.md)
+- [Making of a purple team](../../purple/purple-team/team.md)

@@ -70,4 +70,4 @@ and silent about the others. In a cloud-native environment, that silence scales.
 - [Systems, models, and errors](core-triad.md)
 - [SEM for defence and red teaming](for-defence.md)
 - [Architecture as model](../../systems-architecture/architecture-as-model.md)
-- [SOC maturity](../../making-of/soc/maturity.md)
+- [SOC maturity](../../incident-response/soc/maturity.md)
