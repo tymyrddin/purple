@@ -26,7 +26,7 @@ Network and system security can include segmentation to contain breaches, intrus
 
 Data protection may involve encrypting information both at rest and in transit, maintaining secure and tested backups, implementing data loss prevention measures, and ensuring secure disposal of information at the end of its life.
 
-Secure development practices should be integrated into procurement and development processes. Include security requirements in vendor contracts, follow secure coding standards, perform testing including static and dynamic analysis as well as penetration testing, and apply change management controls to prevent new risks from being introduced.
+Secure development practices should be integrated into procurement and development processes. Include security requirements in vendor contracts, follow [secure coding](https://blue.tymyrddin.dev/docs/dev/appsec/coding/) standards, perform testing including static and dynamic analysis as well as penetration testing, and apply change management controls to prevent new risks from being introduced.
 
 ## Operational capabilities make it real
 

@@ -112,3 +112,7 @@ that from happening:
 
 None of this removes the discomfort. The point is to make the discomfort discussable rather than letting it route the
 response.
+
+## Related
+
+* [The Broomstick Brief: The administrative attack surface](https://broomstick.tymyrddin.dev/posts/perhaps/)
