@@ -2,20 +2,20 @@
 
 Four types of request that arrive in the same form and carry entirely different responses.
 
-Analysis: the decision-maker does not have a position. They want the advisor's honest construction
+Analysis: a decision-maker does not have a position. They want the advisor's honest construction
 of the situation, the landscape, the risk. The question is genuinely open. The response is the
 advisor's model.
 
-Advice: a decision point is approaching. The decision-maker has not resolved it and wants a
+Advice: a decision point is approaching. A decision-maker has not resolved it and wants a
 recommendation. The advisor has genuine latitude to shape the outcome. The response is a
 recommendation, with reasoning.
 
-Validation: a decision is made. The decision-maker wants confirmation that it is sound,
+Validation: a decision is made. A decision-maker wants confirmation that it is sound,
 professional assurance from someone with the relevant expertise. The response is an assessment
 of the decision, not of the situation. Providing analysis instead of validation misreads the
 request. Providing validation as if it were independent analysis misstates what is happening.
 
-Cover: the professional weight of the advisor, attached to something already decided. What is
+Cover: the professional weight of an advisor, attached to something already decided. What is
 wanted is the advisor's name on the document. This can be legitimate: an institution sometimes
 needs external imprimatur to proceed, and providing that is a service. What changes is the
 document itself, what it claims to be, what caveats it carries, and what the advisor's name is
@@ -27,14 +27,14 @@ A mandate creates pressure toward the latter two types of request.
 
 Principals negotiate positions. Institutional leadership develops policies. Once these are agreed,
 an institution needs them to hold, and analysis that contradicts them is not helpful in the
-institutional sense of helpful. The advisor who provides such analysis is doing their job. They
+institutional sense of helpful. An advisor who provides such analysis is doing their job. They
 are not being easy to work with.
 
 Most of this pressure is not explicit. Nobody asks the advisor to shade their analysis toward the
 institutional position. The effect happens through framing: the question is posed in a way that
 makes the confirming answer likely, the evidence provided is the evidence that supports the
 position, and the timeline allows for a conclusion but not for deep examination of
-counterevidence. The advisor who does not notice the framing may produce confirmation without
+counterevidence. An advisor who does not notice the framing may produce confirmation without
 having been asked for it directly.
 
 A significant portion of requests presented as analysis requests in mandate-driven institutions
@@ -42,9 +42,9 @@ may turn out, on examination, to be validation requests. The position has been a
 question is whether the advisor can provide technical grounding for it. Not a reason to decline.
 A reason to know which type of request is being answered, and to write accordingly.
 
-## Surfacing the distinction
+## Surfacing distinctions
 
-The conversation about which type of request is being made is not comfortable. It requires asking,
+A conversation about which type of request is being made is not comfortable. It requires asking,
 in some form, whether the decision has already been taken, whether the analysis is genuinely open,
 or whether there is a conclusion the institution needs. These questions are not hostile, but they
 can feel like they carry a judgement.

@@ -3,74 +3,77 @@
 Two practices that belong before commitment rather than after, and that feed each other. Writing
 the failure account in advance. Naming the conditions that would shift the judgement.
 
-## The pre-mortem
+## Pre-mortem
 
-Before the decision is taken, write the failure account as if it has already gone wrong. Not as
+Before a decision is taken, write a failure account as if it has already gone wrong. Not as
 a thought experiment. As a document: a paragraph, a short page, a rough memo. Eighteen months
 from now, the approach has failed. What does the review commission find. What does the independent
 investigator write. What does the leaked internal report say.
 
-The point is not to predict the failure. It is to change what is visible before the decision
+The point is not to predict failure. It is to change what is visible before the decision
 is made.
 
-## The shape of institutional failure
+## Shape of institutional failure
 
 Failure tends toward particular shapes worth writing to specifically.
 
-The oversight review that finds: "The advice provided to the governing body correctly identified
+An oversight review that finds: "The advice provided to the governing body correctly identified
 the primary risk. It did not identify the secondary condition that, in the event, determined the
 outcome. Decision-makers were not informed of the limits of the assessment."
 
-The investigator who finds: "The institutional position was presented to the oversight authority
+An investigator who finds: "The institutional position was presented to the oversight authority
 with more confidence than the underlying evidence supported. When the evidence changed, there was
 no mechanism for revising the position."
 
-The leaked report that says: "The coalition of support assumed for the preferred option did not
+A leaked report that says: "The coalition of support assumed for the preferred option did not
 hold, because the consent of a key stakeholder was taken for granted. The advisor indicated this
 risk in a preliminary conversation that was not reflected in the formal brief."
 
-Not generic failure modes. These are the specific shapes that institutional failure often takes:
-the gap between the formal brief and the informal conversation; the confidence tier that drifted
-above the evidence; the assumption about a coalition that was load-bearing but unmarked. Writing
-the failure account toward these shapes surfaces the specific risks in the specific institutional
+These are not generic failure modes. These are the specific shapes that institutional failure can take:
+a gap between the formal brief and the informal conversation; a confidence tier that drifted
+above the evidence; an assumption about a coalition that was load-bearing but unmarked. Writing
+a failure account toward these shapes surfaces the specific risks in the specific institutional
 context.
 
 ## Optimism at commitment
 
-At the point of commitment, the optimism is structural. Principals have agreed. Political capital
+At the moment of commitment, optimism is structural. Principals have agreed. Political capital
 has been spent. The institution is organised around the decision proceeding. Imagining failure
 requires imagining that collective judgement was wrong. The social conditions do not support it.
 
-The pre-mortem works because it is conducted before that point. The failure account is not a
+Pre-mortem works because it is conducted before that point. A failure account is not a
 challenge to a decision already made. It is an input to one that has not been. The exercise is
 legitimate rather than adversarial, which is what makes it possible to do honestly.
 
 ## Surfacing the assumptions
 
-The pre-mortem surfaces the assumptions the brief treats as given. That the coalition of support
-required for implementation will hold. That the threat actor will behave as modelled. That the
-institutional stakeholder whose consent is assumed has actually given it. That the technical
+A pre-mortem surfaces the assumptions the brief treats as given. That a coalition of support
+required for implementation will hold. That a threat actor will behave as modelled. That an 
+institutional stakeholder whose consent is assumed has actually given it. That technical
 preconditions are in place. That the timeline is achievable.
 
-These appear obvious in retrospect. The pre-mortem makes them visible before the fact, when they
+These appear obvious in retrospect. A pre-mortem makes them visible before the fact, when they
 can still be examined or at least acknowledged as risks.
 
-A short failure account that names the load-bearing assumptions and writes the scenario in which
+A short failure account that names the load-bearing assumptions and writes a scenario in which
 they fail is more useful than a comprehensive risk register that treats all risks as equal.
 
 ## Indicators of revision
 
-Every assessment carries an implicit question: what would change this judgement. The indicators
+Every assessment carries an implicit question: what would change this judgement. Indicators
 of revision are the answer, named explicitly before the brief leaves the room.
 
 Two or three observable conditions that would shift the analysis, not hypothetically but
-specifically. "If the technical baseline review in Q3 shows X, the risk rating moves." "If fewer
-than two-thirds of the relevant organisations participate in the pilot, the stated objective
-cannot be met and the recommendation changes." "If no significant activity is observed in the
-next sixty days, the threat assessment is revised downward."
+specifically. 
+
+*"If the technical baseline review in Q3 shows X, the risk rating moves."* 
+
+*"If fewer than two-thirds of the relevant organisations participate in the pilot, the stated objective cannot be met and the recommendation changes."* 
+
+*"If no significant activity is observed in the next sixty days, the threat assessment is revised downward."*
 
 Named in advance, these do two things. They are more honest than waiting for surprise to revise
-the judgement, because the conditions for revision are set before any pressure exists to hold the
+a judgement, because the conditions for revision are set before any pressure exists to hold the
 original position. And they give the brief a second life: the original assessment becomes a
 tracking document, revisable against the named conditions rather than simply ageing out of
 relevance.
@@ -82,8 +85,8 @@ that the institution will act on them. It is a record that the advisor identifie
 
 ## Composing pre-mortem and revision
 
-The pre-mortem surfaces the failure modes. The indicators of revision are the practical output:
-the conditions under which the judgement changes, named while there is still time to name them
+A pre-mortem surfaces the failure modes. Indicators of revision are the practical output:
+conditions under which the judgement changes, named while there is still time to name them
 without pressure.
 
 A brief that has been through a pre-mortem and carries named indicators of revision is not a more

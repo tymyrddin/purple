@@ -24,7 +24,7 @@ Not stylistic variants. Different epistemic content.
 ## The register hardens
 
 Institutional language drifts. A phrase that entered a report with a specific evidential meaning
-gets reused in subsequent reports because it was there before. The drafter of a second report
+gets reused in subsequent reports because it was there before. A drafter of a second report
 is being consistent with the prior document rather than being dishonest. A tier that was
 accurate at first use has become a template.
 
@@ -36,9 +36,9 @@ this and may be drawn into reproducing it.
 
 A precondition for not doing it.
 
-## The inflation failure
+## Inflation failure
 
-Inflating to sound useful is tolerable once. The decision-maker assumes a level of confidence that
+Inflating to sound useful is tolerable once. A decision-maker assumes a level of confidence that
 is not warranted, acts on it, and the assessment is later walked back. One of two things then
 happens: the decision-maker recalibrates and reads the advisor's language at a lower register
 from then on, which erodes the signal; or they do not recalibrate, which produces a larger failure
@@ -49,7 +49,7 @@ assessment travels further than a correct one. Institutional memory retains it, 
 register becomes less readable across the institution, not just in the room where the misjudgement
 occurred.
 
-## Saying "I don't know"
+## "I don't know"
 
 Said before a brief is acted on: honesty. Said after: excuse. The window closes faster than it
 seems.
@@ -59,7 +59,7 @@ assessment. Expert input was sought precisely because confidence is expected in 
 expectation is the environment in which inflation happens. Noticing the pressure is the first step
 toward not responding to it automatically.
 
-## The so-what test
+## So-what testing
 
 For each paragraph in a brief: what does this change for the reader, their understanding or what
 they can do next. If the answer is nothing, the paragraph is decoration.

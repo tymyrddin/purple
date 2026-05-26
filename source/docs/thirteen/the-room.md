@@ -15,9 +15,9 @@ Not exceptional. This is how information moves in institutions with overlapping 
 competing interests, and dense informal networks. Treating the analysis as if it exists
 independently of its institutional context is a mistake. It does not.
 
-## Threat-modelling the briefing
+## Threat-modelling a briefing
 
-Before the brief circulates, map the room, not just the formal attendees but the actual routing.
+Before a brief circulates, map the room, not just the formal attendees but the actual routing.
 
 Who is formally in the room, and what position does each hold. Who sees the paper afterwards:
 immediate recipients, their staff, counterpart offices, institutional officials who will file it.
@@ -34,7 +34,7 @@ position, looking for what the document concedes. A well-constructed brief can b
 positions the advisor did not intend to support. Knowing what the hostile reading produces before
 the brief circulates is part of the work.
 
-## The reception environment is part of the analysis
+## The reception environment as part of the analysis
 
 A recommendation delivered to the right body at the right moment in the institutional cycle is a
 different document from the same recommendation delivered off-cycle. Content is identical. Effect
@@ -45,9 +45,9 @@ after a significant incident, the window before a mandate renewal or assessment,
 a brief accomplishes. Ignoring the reception environment tends to produce analysis in the abstract,
 which is less useful than analysis that accounts for where it will land.
 
-## Framing the brief for its routes
+## Framing a brief for its routes
 
-If the brief is likely to reach audiences beyond the stated recipients, and in mandate-driven
+If a brief is likely to reach audiences beyond the stated recipients, and in mandate-driven
 institutions it often will, the framing carries that further travel. Not by making the analysis
 less accurate, but by being explicit about what it does and does not claim, what evidence it rests
 on, and where the limitations are. A brief that reads as an overreach in the hands of an
@@ -61,7 +61,7 @@ brief goes out.
 
 ## Documenting advice contemporaneously
 
-Decisions travel through long chains. The advisor's recommendation, by the time it reaches the
+Decisions travel through long chains. An advisor's recommendation, by the time it reaches the
 person who acts on it, may have passed through several intermediaries, each of whom interpreted
 it through their own understanding of the institutional position. The recommendation may have been
 summarised, abbreviated, or framed in the context of a subsequent conversation the advisor was

@@ -28,7 +28,7 @@ record or rejected on the record. Either way, accountability is distributed. The
 outcome.
 
 Options between the extremes can then be positioned along actual trade-off curves rather than at
-the three corners of a simple spectrum. Five also creates room for the option that addresses a
+the three corners of a simple spectrum. Five also creates room for an option that addresses a
 situation not anticipated when the brief was commissioned. A brief structured around three
 familiar options will not contain the fourth thing.
 
@@ -61,7 +61,7 @@ a decision nobody has taken, a position with no owner. Stated alongside four oth
 own costs, signals, and reversibility profile, it becomes a position that can be chosen or
 rejected.
 
-The pressure to act is often structural. Institutional performance
+Pressure to act is often structural. Institutional performance
 may be assessed partly on demonstrated activity. Choosing inaction is publicly costly in ways it
 is not in private sector advisory work. The explicit hold option does not remove that cost. It
 names it, names the costs of acting prematurely alongside it, and lets the decision-maker choose

@@ -14,10 +14,10 @@ to look. The structural reward for convenient conclusions can be high: they supp
 position, they avoid disagreement among principals, they allow institutional leadership to proceed.
 The incentive for nobody to push back is built into the institution.
 
-## The structural dynamic
+## Structural dynamics
 
 A mandate creates a position. An institution needs analysis that is consistent with that position,
-or at least does not contradict it. The advisor who provides confirming analysis is being helpful
+or at least does not contradict it. An advisor who provides confirming analysis is being helpful
 in the institutional sense of helpful. Nobody fabricated anything. The analysis was conducted by
 someone who believed the conclusion.
 
@@ -31,7 +31,7 @@ The SEM question applies here directly: which assumptions in this analysis, if w
 reverse the conclusion. A convenient conclusion is particularly likely to have been built on
 assumptions that nobody tested because nobody had the incentive to.
 
-## Re-checking the working
+## Re-checking
 
 Which assumptions are load-bearing, the ones that, if wrong, would change the conclusion
 materially. Whether the evidence supports the confidence tier, or whether the tier was assigned
@@ -43,7 +43,7 @@ This re-check is the work that nobody is paying for and that the institutional s
 designed to encourage. It belongs in the advisor's own process, applied to their own analysis,
 before the brief goes out.
 
-## Steel-manning the disliked option
+## Steel-manning a disliked option
 
 Not an exercise in open-mindedness. An exercise in not being blindsided.
 
@@ -81,7 +81,7 @@ Maintaining both practices requires running against the direction of the institu
 structure. That is what makes them worth treating as disciplines rather than as occasional
 intellectual acts.
 
-## A programme assessment
+## Programme assessment
 
 A mandate-driven institution has developed a programme to address a specific security threat.
 The programme has been running for three years. A renewal decision is approaching. The advisor
@@ -90,7 +90,7 @@ is asked to assess the programme's effectiveness.
 The assessment comes out positive. The evidence supports continuation. Decision-makers are
 pleased.
 
-The convenient conclusion check: which assumptions, if wrong, would reverse the finding.
+A convenient conclusion check: which assumptions, if wrong, would reverse the finding.
 
 The assessment rests on reported outcomes at face value. The programme measures success by
 indicators set at inception, which have not been revised as the threat evolved. The threat
@@ -103,7 +103,7 @@ The threat has evolved beyond the programme's original framing. Outcomes attribu
 programme include effects that may have other causes. None of this appeared in the assessment
 because none of it was examined.
 
-The steel-man of the disliked option, constructed properly: the programme has not produced the
+A steel-man of the disliked option, constructed properly: the programme has not produced the
 outcomes attributed to it and the renewal case rests on indicators that do not measure what they
 claim to measure. The strongest version of this argument runs as follows. The institution measures
 programme success by output metrics: advisories issued, partner organisations engaged, incidents
