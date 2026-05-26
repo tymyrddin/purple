@@ -17,6 +17,7 @@ Foundation nobody asked for and a third option that makes both of them slightly 
 
    docs/asimov/index
    docs/foundations/index
+   docs/thirteen/index
    docs/systems-engineering/index
    docs/social-engineering/index
    docs/systems-architecture/index
