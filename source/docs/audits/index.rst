@@ -7,9 +7,9 @@ Audits and assessments
 
 .. toctree::
    :glob:
-   :maxdepth: 2
+   :maxdepth: 1
    :includehidden:
-   :caption: Navigate your organisation’s risks and resilience with clarity, whether charting the cracks before they spread or climbing the peaks of ISO 27001 compliance.
+   :caption: Navigate your organisation’s risks and resilience, whether charting the cracks before they spread or climbing peaks or crossing rivers.
 
    supportive/index
    iso22301/index
