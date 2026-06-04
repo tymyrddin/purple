@@ -5,7 +5,7 @@ SEM works across three elements that are always present in any functioning (or d
 ## Systems
 
 A system is a set of interconnected parts whose behaviour emerges from interactions, not from the parts themselves. 
-This is not abstract. It means that understanding each component of a security programme in isolation tells you very 
+This is not abstract. It means that understanding each component of a security programme in isolation reveals very 
 little about how the programme will behave under pressure.
 
 A SIEM that works well in test conditions may produce alert fatigue in production because the volume of signals 
@@ -18,8 +18,8 @@ plus timing. Behaviour emerges from the whole.
 
 ## Models
 
-A model is a mental representation of how the system works. Everyone has them. Most are incomplete, partially wrong, 
-or anchored to a state the system was in several years ago.
+A model is a mental representation of how the system works. Everyone has them. Many are incomplete, partially wrong, 
+or anchored to a state the system was in some time ago.
 
 Some common examples in security:
 
@@ -27,7 +27,7 @@ Some common examples in security:
 environments. Organisations that still operate on this model are making access and exposure decisions based on an 
 architecture that no longer exists.
 
-"IAM is centrally managed." In practice, IAM in most cloud environments is distributed, partially automated, partially 
+"IAM is centrally managed." In practice, IAM in many cloud environments is distributed, partially automated, partially 
 manual, and partially forgotten. The model describes a governance intention, not an operational reality.
 
 "Developers will take the secure path if it is documented." This assumes documentation is the binding constraint on 

@@ -1,6 +1,6 @@
 # The ChangeShop workshop
 
-ChangeShop is an experiential workshop developed by Gerald and Daniel Weinberg. You do not study change in ChangeShop. You 
+ChangeShop is an experiential workshop developed by Gerald and Daniel Weinberg. Change is not studied in ChangeShop. Participants 
 bring a real problem and work on it, live, with other people, and discover things about it that desk analysis would never 
 surface.
 
@@ -39,7 +39,7 @@ often the system doing what systems do: preserving the current state.
 
 ## The key insight
 
-You cannot implement change from the outside. You can only alter the conditions under which change becomes possible.
+Change cannot be imposed from the outside. Only the conditions under which it becomes possible can be altered.
 
 This is not a counsel of patience. It is a practical observation about leverage. Pushing harder against a homeostatic 
 system usually makes it resist harder. Finding the conditions that allow the system to change its own state is a 

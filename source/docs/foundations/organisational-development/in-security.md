@@ -2,8 +2,8 @@
 
 ## Team dynamics as security infrastructure
 
-The way a security team is experienced by the rest of the organisation determines how much useful information 
-reaches it. A team that is experienced as judgemental will be managed rather than collaborated with. Developers 
+The way a security team is experienced by the rest of the organisation shapes how much useful information 
+reaches it. A team that is experienced as judgemental is likely to be managed rather than collaborated with. Developers 
 will not surface security concerns early if they expect the response to be a lecture or a ticket. Operations teams 
 will not escalate ambiguous situations if the last time they did, it produced work they did not have capacity for 
 and no visible benefit.
@@ -14,7 +14,7 @@ vulnerability.
 
 ## Security awareness that builds capacity
 
-Most phishing training teaches people to spot last year's attacks, leaving staff confident against threats that are 
+Much phishing training teaches people to spot last year's attacks, leaving staff confident against threats that are 
 no longer the primary vector while real campaigns move through. QR codes in PDFs, credential harvesting on legitimate 
 cloud services, MFA bypasses via adversary-in-the-middle proxies: these do not look like the examples in the training 
 module.
@@ -22,7 +22,7 @@ module.
 The Satir OD critique is not of the training format but of the underlying model: that awareness is a stock of 
 information to be deposited rather than a capacity to be developed. Information degrades. Capacity is more durable.
 
-The best approach combines occasional purple team sessions where staff experience both attacker and defender 
+A more durable approach combines occasional purple team sessions where staff experience both attacker and defender 
 perspectives, with regular simulations that run against live defences using current threat intelligence rather than 
 archetypal scenarios. Staff see results in real time, practise actual responses, and understand why certain behaviours 
 matter in terms of what they would actually prevent. Metrics track not only click rates and reports but filter 
@@ -31,14 +31,14 @@ detection, consistent reporting, and the organisational habit of paying attentio
 
 ## Designing for how people behave under pressure
 
-Satir's survival stances appear reliably in security incidents. The analyst who follows procedure mechanically in a 
-situation that requires judgement (computing). The team lead who does not escalate because the last person who raised 
-a concern was criticised for overreacting (placating). The manager who identifies a responsible individual in the 
+Satir's survival stances appear reliably in security incidents. An analyst who follows procedure mechanically in a 
+situation that requires judgement (computing). A team lead who does not escalate because the last person who raised 
+a concern was criticised for overreacting (placating). A manager who identifies a responsible individual in the 
 post-incident review because acknowledging a systemic failure feels more threatening (blaming).
 
-Incident response plans that are designed for a calm, rational team following a clear playbook will fail in conditions 
-that activate these stances. Plans that account for how people actually behave under stress, and that create structures 
-for slowing down and re-establishing shared understanding when things are moving fast, are more robust.
+Incident response plans that are designed for a calm, rational team following a clear playbook are likely to fail in 
+conditions that activate survival stances. Plans that account for how people actually behave under stress, and that 
+create structures for slowing down and re-establishing shared understanding when things are moving fast, are more robust.
 
 ## Building honest reporting culture
 
@@ -59,6 +59,5 @@ what happens when people are honest, and they are destroyed faster than they are
 
 - [Core ideas of Satir systems OD](satir-core.md)
 - [The Satir Change Model](satir-change-model.md)
-- [Why simulations fail](../../social-engineering/why-simulations-fail.md)
 - [Building a phishing programme that actually works](../../social-engineering/phishing-programme.md)
 - [Building a SIRT](../../incident-response/sirt/purpose.md)

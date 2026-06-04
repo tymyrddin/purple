@@ -15,7 +15,7 @@ visible that conventional security practice tends to ignore or treat as soft con
 security problem. The communication patterns that prevent honest reporting. The model that has been silently wrong
 for eighteen months and is producing the same class of incident on a quarterly cycle.
 
-Applied to security, these approaches change what you look at, what questions you ask, and what you consider a finding.
+Applied to security, these approaches change what gets looked at, what questions get asked, and what counts as a finding.
 
 .. toctree::
    :maxdepth: 2

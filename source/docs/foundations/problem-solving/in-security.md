@@ -38,7 +38,7 @@ When pushback comes on a finding, it is not noise to be managed. It is data abou
 
 ## The uncomfortable conclusion
 
-Most organisations do not have a security problem in the narrow technical sense. They have a problem-solving problem. The vulnerabilities that remain open the longest are not open because nobody could write the fix. They are open because the conditions required to act on them do not exist.
+Many organisations do not have a security problem in the narrow technical sense. They have a problem-solving problem. The vulnerabilities that remain open the longest are not open because nobody could write the fix. They are open because the conditions required to act on them do not exist.
 
 PSL is useful in security precisely because it refuses to treat that observation as someone else's problem.
 

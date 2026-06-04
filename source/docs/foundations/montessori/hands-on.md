@@ -18,7 +18,7 @@ Simulated incidents: the team receives indicators consistent with a real attack 
 
 Exploitation in a safe environment: working through an attack path in a sandboxed environment, using real techniques against real configurations. The goal is not to produce a red team report but to understand how the technique works, what artefacts it produces, and what would be needed to detect it.
 
-Configuration challenges: a deliberately misconfigured environment that the learner must audit, diagnose, and correct. The challenge is in finding all the problems, not just the obvious ones. Extensions ask the learner to explain how each misconfiguration could be exploited and what the detection approach would be.
+Configuration challenges: a deliberately misconfigured environment for the learner to audit, diagnose, and correct. The challenge is in finding all the problems, not just the obvious ones. Extensions ask the learner to explain how each misconfiguration could be exploited and what the detection approach would be.
 
 Design problems: given a set of requirements and constraints, design a security control or detection approach. There is no single correct answer. The exercise surfaces the assumptions the learner is making and the trade-offs they are prioritising. Peer review makes the different approaches visible and produces genuine discussion.
 

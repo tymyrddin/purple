@@ -1,7 +1,8 @@
 # "Do Everything Wrong" workshops
 
-Reverse workshops where participants deliberately do everything insecurely. Learning what not to do by actually 
-doing it wrong is memorable, engaging, and reveals vulnerabilities through practice rather than lecture.
+Reverse workshops where participants deliberately do everything "wrong", in this case, insecurely. Learning what not 
+to do by actually doing it "wrong" is memorable, engaging, and can reveal vulnerabilities through practice rather 
+than lecture.
 
 ## Workshop format
 
@@ -11,7 +12,8 @@ doing it wrong is memorable, engaging, and reveals vulnerabilities through pract
 
 ## Opening (10 minutes)
 
-Facilitator: "Today's workshop is different. Your goal is to be as insecure as possible. Do everything wrong. Break every security rule. We'll see what happens and why it matters."
+Facilitator: "Today's workshop is different. Your goal is to be as insecure as possible. Do everything wrong. Break 
+every security rule. We'll see what happens and why it matters."
 
 Ground rules:
 - This is safe environment. No real systems, data, or consequences.
@@ -49,7 +51,7 @@ Activity:
 - Must target someone in room (with their permission)
 - Include psychological manipulation tactics
 - Present to group
-- Target explains if they would have fallen for it
+- Target explains if they had fallen for it
 
 Elements groups incorporate:
 - Urgency ("Action required immediately!")
@@ -76,7 +78,7 @@ Scenario elements:
 - Passwords on sticky notes under keyboard
 - Unlocked screen with sensitive data visible
 - Visitor badge worn by someone who doesn't work there
-- Sensitive documents in trash bin
+- Sensitive documents in rubbish bin
 - USB drive labelled "Executive Salaries" plugged into computer
 - Door propped open
 - Laptop left unattended in cafe

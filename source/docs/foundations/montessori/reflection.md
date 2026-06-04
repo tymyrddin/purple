@@ -1,6 +1,6 @@
 # Reflection and feedback loops
 
-Practice without reflection produces habit rather than understanding. A team that runs the same incident response exercise repeatedly without examining what they did and why will get faster at the exercise without becoming more capable at handling incidents that do not fit the exercise's template.
+Practice without reflection produces habit rather than understanding. A team that runs the same incident response exercise repeatedly without examining what they did and why gets faster at the exercise without becoming more capable at handling incidents that do not fit the exercise's template.
 
 Reflection is the mechanism that converts experience into learning. Without it, the hands-on work produces muscle memory for specific scenarios. With it, the same work produces a developing model of how systems behave, what attackers do, and how defences work or fail.
 

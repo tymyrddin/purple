@@ -1,4 +1,4 @@
-Learning at your own pace, in your own direction
+Learning at one's own pace, in one's own direction
 ====================================================
 
 .. image:: /_static/images/uu-montessori.png
@@ -13,7 +13,7 @@ that the drive comes from the work itself, not from surveillance, scoring, or th
 facilitation over instruction means that the role of the more experienced person is to observe, ask questions, and
 adjust the environment rather than to control the path.
 
-In security, this matters because the kind of learning that builds genuine capability rather than checkbox confidence
+In security, this is the point, because the kind of learning that builds genuine capability rather than checkbox confidence
 requires exactly these conditions. A team that has practised detecting a real technique in a sandboxed environment,
 reflected on what they missed and why, and adjusted their approach in a second attempt has learned something durable.
 A team that has sat through a slide deck and passed an end-of-module quiz has not.

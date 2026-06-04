@@ -1,7 +1,7 @@
 # Applying SEM to security
 
-SEM changes what you look at and what questions you ask. The shift is from "what failed" to "what model allowed this 
-to seem acceptable."
+SEM changes what gets looked at and what questions get asked. The shift is from "what failed" to "what model allowed 
+this to seem acceptable."
 
 ## Vulnerabilities as model failures
 
@@ -10,17 +10,18 @@ permissions.
 
 SEM asks what model produced the over-permissioning. Usually it is something like "broad access is necessary for 
 productivity" or "ownership of access review is unclear so we err toward permissiveness." If that model is not 
-corrected, the same pattern of permissions will re-emerge in a different role, a different service, or a different 
+corrected, the same pattern of permissions re-emerges in a different role, a different service, or a different 
 team. The YAML was not the problem.
 
-This applies to most recurring vulnerability classes. Secrets in source code persist because the model is "secret 
+This applies to many recurring vulnerability classes. Secrets in source code persist because the model is "secret 
 management is someone else's concern" and no safe alternative exists within the workflow. Unpatched systems persist 
 because the model is "patching creates operational risk" and there is no mechanism for establishing that the risk 
 of not patching is higher. Each class of recurring finding has a model underneath it.
 
 ## Incidents as evidence
 
-Instead of asking what broke in an incident, ask what belief was in place that made the outcome unsurprising in retrospect.
+Instead of asking what broke in an incident, the SEM question is what belief or assumption was in place that made the 
+outcome unsurprising in retrospect.
 
 Secrets committed to a repository: the surface explanation is developer error. The SEM question is what model allowed 
 this to seem like a low-risk action. Usually: "secrets handling is handled at the infrastructure level" (someone 
@@ -45,7 +46,7 @@ is a finding before an attacker finds it.
 ## Best practices as frozen models
 
 Security standards and checklists encode a model of the threat environment as it existed when they were written, 
-applied to an organisational context that may bear no resemblance to yours.
+applied to an organisational context that may bear no resemblance to the present one.
 
 "Apply least privilege" is sound in principle. In a fast-moving product team with unclear ownership under delivery 
 pressure, the model behind it (that access review is a manageable, owned process) does not fit the operational reality. 

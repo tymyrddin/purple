@@ -6,9 +6,9 @@ Organisational development for security
 
 Virginia Satir's work in family systems therapy was extended by Gerald Weinberg and others into organisational settings.
 Its central observation is that people under stress revert to survival stances: placating (keeping the peace at the cost
-of honesty), blaming (directing fault outward to avoid accountability), computing (retreating into procedure to avoid feeling),
-or distracting (disengaging altogether). These are not character failures. They are predictable responses to threat, and they
-are extremely common in security work.
+of honesty), blaming (directing fault outward to avoid accountability), computing (retreating into procedure to avoid
+feeling), or distracting (disengaging altogether). These are not character failures. They are predictable responses to
+threat, and they are common in security work.
 
 Satir's congruence model asks that actions, words, feelings, and context be in alignment. When they are not,
 communication breaks down, trust erodes, and change becomes impossible. In an incident response context this can mean
@@ -17,7 +17,7 @@ unrecoverable.
 
 The practical implication for building an ISMS is that compliance frameworks describe what an organisation should do,
 but Satir's work describes how people actually behave when asked to do it under pressure. A security culture that
-accounts for this will produce procedures that hold in a real incident, awareness programmes that build genuine
+accounts for this can produce procedures that hold in a real incident, awareness programmes that build genuine
 capacity rather than checkbox confidence, and teams that can be honest about what is not working without fear of
 what that honesty will cost them.
 

@@ -6,15 +6,14 @@ Change in security organisations
 
 ChangeShop, developed by Gerald and Daniel Weinberg, is an experiential workshop in which participants
 bring real problems and work on them live. Within hours, three things tend to become clear: the problem
-is not what you thought it was, you are part of it, and your organisation is quietly structured to resist the
+is not what it first seemed, the participants are part of it, and the organisation is quietly structured to resist the
 solution.
 
 That last point is the one worth sitting with. Organisations are homeostatic systems. They resist change to remain
 stable. This is not incompetence or obstruction; it is system behaviour. When a security team discovers that their
-most important recommendations are reliably not acted upon, the ChangeShop diagnosis is usually accurate: you cannot
-implement change from the outside. You can only alter the conditions under which change becomes possible.
+most important recommendations are reliably not acted upon, the ChangeShop diagnosis is usually accurate: change cannot be imposed from the outside. Only the conditions under which it becomes possible can be altered.
 
-Applied to security, this reframes the question. Instead of asking how to roll out a control, you ask who benefits
+Applied to security, this reframes the question. Instead of asking how to roll out a control, the question becomes who benefits
 from the current state, what behaviour the system is actually rewarding, and what makes the safe path harder than
 the unsafe one. Resistance is not noise. It is a map.
 
@@ -22,7 +21,7 @@ the unsafe one. Resistance is not noise. It is a map.
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Working with organisations as they are, not as you wish they were:
+   :caption: Working with organisations as they are, not as one might wish:
 
    what-it-is.md
    why-change-fails.md

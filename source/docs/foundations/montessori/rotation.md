@@ -1,68 +1,58 @@
 # Rotation programmes
 
-Structured assignments where team members work in opposite role for weeks or months. Deep immersion builds empathy, reveals process gaps, and transfers knowledge.
+A rotation places someone in the opposite role for a stretch of weeks or months. Immersion does what a briefing
+cannot: it builds empathy, exposes process gaps from the inside, and moves knowledge between teams that otherwise
+describe each other in caricature.
 
-## Programme structure
+## Duration
 
-### Duration options
+How long the rotation runs shapes what it can achieve. A short rotation of two to four weeks is mostly shadowing and
+observation: learning the daily work, asking questions, noticing the quick wins that are invisible from outside. A
+standard rotation of six to eight weeks allows partial ownership, with real responsibilities carried under a mentor's
+eye and some contribution to live projects. An extended rotation of three to six months is a full role swap, with
+complete accountability for deliverables and the kind of operational experience that only accumulates over time.
 
-Short rotation (2-4 weeks): Shadowing and observation. Learn daily work, ask questions, identify quick wins.
+## Who rotates, and when
 
-Standard rotation (6-8 weeks): Partial ownership. Take on real responsibilities with mentor oversight. Contribute to projects.
+Rotation works best with willing participants. Forced rotations breed resentment, and resentment is not a learning
+state. A baseline of competence in one's own role helps too; cross-training often lands better once the primary role is
+no longer a struggle. The rotation also wants to fit the person's own growth goals rather than sit at odds with them,
+and to fall in a period when operations can absorb a temporary reassignment, which rules out critical project phases and
+short-staffed stretches. None of it holds together without both the sending and receiving managers genuinely behind it.
 
-Extended rotation (3-6 months): Full role swap. Complete accountability for deliverables. Deep operational experience.
+## Red team into blue team
 
-### Selection criteria
+A red team member moving into blue work is there to understand detection from the defender's side: what the monitoring
+actually catches, how response procedures run, where operational constraints bite, and where the blind spots sit. The
+work is the ordinary blue work, which is the point: monitoring alerts, investigating suspicious activity, taking part in
+incident response, working with SIEM and EDR tooling, and helping tune detection rules. What comes back is red team
+operations that test realistic gaps rather than theoretical ones, debriefs framed around detection, and a working
+relationship with the blue team that survives the next engagement.
 
-Willing participants: Voluntary or at least enthusiastic. Forced rotations breed resentment.
+## Blue team into red team
 
-Baseline competency: Technical foundation in own role. Can't cross-train before mastering primary role.
+The reverse direction is about the attacker's view: offensive techniques, the mindset behind them, the operational
+challenges a red team actually faces, and the beginnings of attack-simulation skill. The work runs from reconnaissance
+through simulated attack to documenting operations and presenting findings, learning the offensive tooling along the
+way. The return shows up as detection rules grounded in how attacks really work, threat models that resemble real
+adversaries, and response that holds up against more sophisticated activity.
 
-Career development alignment: Rotation supports person's growth goals and career trajectory.
+## Reading whether it worked
 
-Timing: Business operations permit temporary reassignment. Avoid critical project phases or short-staffed periods.
-
-Management support: Both sending and receiving managers committed to rotation success.
-
-## Objectives and expectations
-
-### Red team → Blue team rotation
-
-Objectives: Understand detection capabilities, learn response procedures, recognise operational constraints, identify blind spots.
-
-Activities: Monitor alerts, investigate suspicious activity, participate in incident response, use SIEM and EDR tools, contribute to detection rule tuning.
-
-Expected outcomes: Better red team operations that test realistic gaps, detection-focused debriefs, improved collaboration with blue team.
-
-### Blue team → Red team rotation
-
-Objectives: Learn offensive techniques, understand attacker mindset, recognise red team operational challenges, build attack simulation skills.
-
-Activities: Conduct reconnaissance, simulate attacks, document operations, provide findings, learn offensive tools.
-
-Expected outcomes: Better detection rules based on offensive understanding, realistic threat modelling, improved response to sophisticated attacks.
-
-## Success measures
-
-Knowledge transfer: Participant can explain opposite team's work, challenges, and priorities to colleagues.
-
-Process improvements: Participant identifies 3-5 actionable improvements based on rotation experience.
-
-Relationship building: Ongoing communication between teams increases after rotation.
-
-Skill development: Participant gains capabilities that enhance primary role performance.
-
-Cultural shift: Decreased "us vs. them" thinking, increased collaboration.
+A rotation has done its job when the participant can explain the other team's work, pressures, and priorities to their
+own colleagues, and when a handful of concrete improvements (three to five is a realistic yield) come out of what they
+saw. The softer signals are as telling: communication between the teams that continues after the rotation ends,
+capabilities that feed back into the primary role, and a measurable thinning of "us versus them".
 
 ## Common challenges
 
-Coverage gaps: Primary role left short-staffed during rotation. Mitigation: Plan rotations during lower-intensity periods, stagger rotations, ensure backup coverage.
-
-Imposter syndrome: Feeling incompetent in unfamiliar role. Mitigation: Set realistic expectations, pair with mentor, focus on learning not productivity.
-
-Resistance to return: Enjoying new role more than primary role. Mitigation: Frame rotation as development opportunity, not permanent change. Some role changes may be appropriate if mutually beneficial.
-
-Lost productivity: Training period reduces output. Mitigation: Accept productivity dip as investment. Long-term benefits outweigh short-term costs.
+Coverage is the obvious cost. The primary role runs short-staffed while its holder is away, which argues for rotating
+during quieter periods, staggering rotations, and arranging backup before anyone leaves. Imposter syndrome is common in
+an unfamiliar role; realistic expectations, a mentor, and a focus on learning rather than output take most of the sting
+out of it. Occasionally someone enjoys the new role more than the old one, which is awkward only if the rotation was
+sold as permanent; framed as development it stays safe, and now and then a role change turns out to suit everyone. And
+output does dip during the learning period. That dip is the investment, and over any reasonable horizon it usually pays
+for itself.
 
 ## Related
 

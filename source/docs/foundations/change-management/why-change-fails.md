@@ -4,7 +4,7 @@ Security programmes stall for recognisable reasons. ChangeShop surfaces them qui
 
 ## The assumption of rational compliance
 
-Most security efforts assume that problems are technical, solutions are deployable, and organisations are rational actors. Contact with reality is brisk.
+Many security efforts assume that problems are technical, solutions are deployable, and organisations are rational actors. Contact with reality is brisk.
 
 People do not comply with security policies because the policies are correct. They comply when the policies are easier than the alternatives, when the consequences of non-compliance are real, and when they trust the people asking them to change their behaviour. None of these conditions is created by a policy document.
 
@@ -30,11 +30,11 @@ The ChangeShop insight is that resistance is not obstruction to be overcome. It 
 
 "We already tried that" describes a trust deficit. Something similar was proposed before, nothing changed, and the team learned not to invest effort in this category of initiative. Overriding it produces cynicism.
 
-Each of these is a map of the system. Ignore it, and you design interventions that will be quietly dismantled.
+Each of these is a map of the system. Ignored, it leads to interventions that get quietly dismantled.
 
 ## The homeostatic trap
 
-Organisations resist change to remain stable. This is not a pathology. It is how systems maintain themselves. The security team that arrives with a mandate to improve things is, from the organisation's perspective, a destabilising force. The immune response is not personal.
+Organisations resist change to remain stable. This is not a pathology. It is how systems maintain themselves. A security team that arrives with a mandate to improve things is, from the organisation's perspective, a destabilising force. The immune response is not personal.
 
 The trap is treating the resistance as the problem. The resistance is the symptom. The actual question is: what conditions would have to change for this organisation to be able to absorb this improvement without treating it as a threat?
 

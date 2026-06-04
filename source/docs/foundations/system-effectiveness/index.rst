@@ -6,7 +6,7 @@ Security system effectiveness
 
 SEM, developed by Gerald and Daniel Weinberg, works across three elements: systems (interconnected parts whose
 behaviour emerges from interactions rather than components), models (the mental representations people use to
-understand those systems, most of which are incomplete or outdated), and errors (the mismatches between model and
+understand those systems, many of which are incomplete or outdated), and errors (the mismatches between model and
 reality that keep recurring until the model is corrected rather than the symptom suppressed).
 
 The core insight is that errors are not anomalies. They are evidence of model failure. When a patching programme
@@ -14,16 +14,16 @@ stalls at the same percentage every quarter, when response times improve in exer
 controls that passed audit are quietly bypassed in practice, these are not signs of carelessness. They are the
 system demonstrating that the model used to design the programme does not match how work actually happens.
 
-In security this matters because every tool, every control, and every policy encodes a set of assumptions. Those
+This holds in security, because every tool, every control, and every policy encodes a set of assumptions. Those
 assumptions are a model. When they are wrong the tool produces false confidence, the control produces workarounds,
 and the policy produces compliance theatre. Fixing the symptom without questioning the model means the same class
-of failure will return in a slightly different form.
+of failure returns in a slightly different form.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Understanding your security system well enough to improve it:
+   :caption: Understanding a security system well enough to improve it:
 
    core-triad.md
    applying-sem.md

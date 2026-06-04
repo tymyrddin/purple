@@ -1,6 +1,6 @@
 # The Satir Change Model in practice
 
-The Satir Change Model matters in ChangeShop because it names the phase where change most often dies.
+The Satir Change Model earns its place in ChangeShop because it names the phase where change most often dies.
 Not because the destination was wrong, and not because the people involved were incompetent or obstructive.
 Because organisations reach the chaos phase, interpret the drop in performance as evidence of failure, and
 retreat to the old status quo before the new one has had time to form.
@@ -50,7 +50,7 @@ deployments stall. In a phishing programme, it means not reverting to easier sim
 The backdoor is comfortable because it removes the immediate pressure. It also removes the reason to develop the
 capability that makes the change worthwhile.
 
-Supporting early adopters matters disproportionately. The people who move into integration ahead of others are
+Supporting early adopters pays off disproportionately. The people who move into integration ahead of others are
 practical demonstrations that the new system is survivable. They answer questions their peers will not ask a
 facilitator, and they reduce the perceived risk of committing to the change.
 
@@ -59,16 +59,16 @@ facilitator, and they reduce the perceived risk of committing to the change.
 During the chaos phase, the metrics will look worse. This is the correct reading of the situation, not a failure
 of measurement.
 
-A phishing programme that moves from obvious simulations to realistic techniques will produce higher click rates
+A phishing programme that moves from obvious simulations to realistic techniques usually produces higher click rates
 at first. This is not evidence that staff have got worse at recognising phishing. It is evidence that the previous
 programme was measuring recognition of yesterday's scams rather than resilience against current ones. The worse
 metrics are more accurate metrics.
 
-A pipeline project that makes deployment failures visible will produce a higher reported failure rate at first.
+A pipeline project that makes deployment failures visible usually produces a higher reported failure rate at first.
 This is not evidence that deployments have become less reliable. It is evidence that failures which were previously
 absorbed through manual intervention are now being surfaced. The worse metrics are more accurate metrics.
 
-Framing this correctly, as visibility rather than regression, is the communication work that determines whether
+Framing this correctly, as visibility rather than regression, is the communication work that shapes whether
 an organisation interprets the chaos phase as progress or failure.
 
 ## The uncomfortable parallel
@@ -81,8 +81,8 @@ with actual capability: repeatable deployments, staff who report rather than gue
 attacker techniques, and metrics that reflect the real state of the environment rather than the state an
 organisation would prefer to believe it is in.
 
-The Satir model does not tell you how to design the change. It tells you where support is needed and what
-the pressure to abandon the change actually means. That is the part most change efforts fail to account for.
+The Satir model does not say how to design the change. It shows where support is needed and what
+the pressure to abandon the change actually means. That is the part many change efforts fail to account for.
 
 ## Related
 

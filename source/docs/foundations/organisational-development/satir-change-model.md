@@ -66,7 +66,7 @@ they are wrong about the direction. When people say it was faster before, they a
 of friction even if the friction is temporary. When people say they tried this in 2007, they are describing a
 trust deficit that the current change will have to earn its way through.
 
-Reading the resistance correctly is more useful than overcoming it. The map tells you where support is needed,
+Reading the resistance correctly is more useful than overcoming it. The map shows where support is needed,
 where the design needs adjustment, and where the communication has left people without the context they need to
 commit.
 

@@ -4,9 +4,9 @@ SEM is useful in both directions. For defenders, it surfaces the assumptions tha
 
 ## SEM-informed defence
 
-### Identify critical models
+### Identifying critical models
 
-Start by asking where the organisation is relying on assumptions rather than verified facts. Which beliefs, if wrong, 
+The starting question is where an organisation is relying on assumptions rather than verified facts. Which beliefs, if wrong, 
 would cause the most damage? The exercise is uncomfortable because it reveals how much of the security posture is built 
 on trust in things that have not been checked recently, or ever.
 
@@ -14,7 +14,7 @@ Some starting questions: when was the last time the network segmentation model w
 What assumptions does the detection engineering depend on about what "normal" looks like in the current environment? 
 Which services are assumed to be internal that have not been audited for external exposure?
 
-### Test models deliberately
+### Testing models deliberately
 
 Assumptions degrade. The environment changes, the assumption does not, and the model gradually diverges from reality 
 without anyone noticing.
@@ -26,9 +26,9 @@ escalation path we have documented actually work at 2:00?
 This is closer to chaos engineering applied to security assumptions than to a traditional red team engagement. The 
 goal is to make model drift visible before an attacker finds it.
 
-### Design for model failure
+### Designing for model failure
 
-Assume the current models are wrong in ways you have not yet discovered. This is not pessimism; it is an accurate 
+The working assumption is that the current models are wrong in ways not yet discovered. This is not pessimism; it is an accurate 
 assessment of the state of any complex system.
 
 The design question is: when a model fails, what is the blast radius? Architectures that segment failure, that limit 

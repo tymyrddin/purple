@@ -29,7 +29,7 @@ The prepared digital environment has:
 
 ## The environment shapes behaviour
 
-This is the core Montessori insight and it applies directly to the Satir and ChangeShop observations about system behaviour. If the environment makes the unsafe path easier than the safe one, people will take the unsafe path, not because they have made a deliberate choice but because they are following the grain of the environment.
+This is the core Montessori insight and it applies directly to the Satir and ChangeShop observations about system behaviour. If the environment makes the unsafe path easier than the safe one, people usually take the unsafe path, not because they have made a deliberate choice but because they are following the grain of the environment.
 
 A security team that works in an environment where raising a concern is more effortful than ignoring it will ignore concerns. A learner who works in an environment where going deep on an interesting problem requires navigating bureaucratic approval will not go deep. The environment is not a backdrop. It is a determinant of what happens.
 

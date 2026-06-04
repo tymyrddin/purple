@@ -18,19 +18,19 @@ Observation is active work. The facilitator is building a model of each learner'
 
 The facilitator also manages the conditions for safety. For self-directed learning and genuine exploration to happen, it needs to be genuinely safe to fail, to go down a wrong path, to express uncertainty, and to ask a question that reveals a gap. If the learning environment has an evaluative quality, where the learner feels that their standing depends on appearing competent, they will perform competence rather than build it. The facilitator is responsible for the culture in the room, and that culture is set by how they respond when things do not go as expected.
 
-## When to intervene
+## Moments for intervention
 
-Intervene when someone is blocked in a way that is not productive: stuck on a prerequisite that is not the point of the exercise, operating on a misunderstanding that will produce increasingly wrong results, or visibly at a point where they need a nudge rather than more time.
+A moment for intervention is when someone is blocked unproductively: stuck on a prerequisite that is not the point of the exercise, operating on a misunderstanding that will produce increasingly wrong results, or visibly at a point where a nudge helps more than more time.
 
-Intervene when the whole group is missing something significant: a technique they have not encountered, a frame that would make the current problem tractable, a connection to something they have seen before that they have not made.
+Another is when the whole group is missing something significant: a technique they have not encountered, a frame that would make the current problem tractable, a connection to something seen before but not made.
 
-Intervene when the environment itself is producing the blockage: the lab is not behaving as intended, the documentation is unclear, the exercise design has a flaw. Adjust the environment and continue.
+A third is when the environment itself is producing the blockage: the lab is not behaving as intended, the documentation is unclear, the exercise design has a flaw. The fix goes to the environment, not the learner.
 
-Do not intervene to provide the answer, to demonstrate your own knowledge, or to ensure that the exercise proceeds in the expected way. These are instruction moves, not facilitation moves, and they convert a self-directed learning experience into a guided demonstration.
+Intervening to provide the answer, to demonstrate one's own knowledge, or to keep the exercise on its expected path are instruction moves, not facilitation moves; they convert a self-directed learning experience into a guided demonstration.
 
 ## The facilitator's own development
 
-Facilitation in this sense is a skill that develops through practice and reflection. Most people who are good at security are not automatically good at this kind of facilitation, because the skills are different and the instincts point in opposite directions. The expert's instinct is to share what they know. The facilitator's instinct needs to be to create conditions where the learner can discover it.
+Facilitation in this sense is a skill that develops through practice and reflection. Many people who are good at security are not automatically good at this kind of facilitation, because the skills are different and the instincts point in opposite directions. The expert's instinct is to share what they know. The facilitator's instinct needs to be to create conditions where the learner can discover it.
 
 This is worth naming directly rather than assuming it will happen by default.
 

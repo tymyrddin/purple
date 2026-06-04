@@ -26,9 +26,9 @@ particular alert actually means. Knowledge as soft power, dependency as leverage
 the only function that can answer certain questions, those questions give them a seat at the table.
 
 This works, up to a point. The First Foundation of Terminus worked for several centuries before the Mule
-arrived and rendered the predictions useless. Security's equivalent of the Mule arrives more frequently, but
-the dynamic is the same: a sufficiently novel or unpredictable threat can break the model that the knowledge
-layer was built to handle.
+arrived and rendered the predictions useless. Security's equivalent of the Mule arrives more frequently, but the 
+dynamic is the same: [a sufficiently novel or unpredictable threat](https://broomstick.tymyrddin.dev/posts/glasswing/) 
+can break the model that the knowledge layer was built to handle.
 
 ## A weakness Seldon built in
 
@@ -42,9 +42,9 @@ A phishing simulation that assumes people have learned to distrust unexpected em
 the specific format those simulations use. The access control policy that assumes people will request the
 minimum permissions required, rather than the ones that will avoid the need to raise another ticket later.
 
-The First Foundation's encyclopaedia is accurate about the technical facts and silent about the people using
-them. This is not a flaw in the knowledge. It is a structural limitation of a layer that was never designed
-to address human behaviour directly.
+The [First Foundation's encyclopaedia](https://asimovseries.com/concepts/encyclopedia-galactica) is accurate about 
+the technical facts and silent about the people using them. This is not a flaw in the knowledge. It is a structural 
+limitation of a layer that was never designed to address human behaviour directly.
 
 ## Limits of such a First Foundation alone
 

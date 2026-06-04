@@ -1,76 +1,57 @@
 # Learning culture
 
-Cross-training succeeds when organisational culture supports continuous learning, psychological safety, and collaboration.
+Cross-training takes hold where the surrounding culture supports it: where continuous learning is normal, where failure
+is safe, and where collaboration is default rather than exception. Without those conditions training happens
+and capability building does not.
 
 ## Psychological safety
 
-Blameless learning: Mistakes during exercises are learning opportunities, not performance failures.
-
-Safe to fail: Training environment where failure teaches without consequences.
-
-Asking questions: No "stupid questions." Curiosity is encouraged regardless of seniority.
-
-Sharing knowledge: Teaching others is valued and recognised. Hoarding knowledge is discouraged.
+The first condition is psychological safety. Mistakes made during an exercise read as information rather than as
+performance failures, and the training environment is one where failure teaches without lasting consequence. Questions
+are welcome regardless of seniority, on the working assumption that an unasked question is more dangerous than a naive
+one. Teaching others is recognised as real work; hoarding knowledge, however quietly, is not.
 
 ## Time and resource allocation
 
-Dedicated training time: Schedule protected time for learning. Not "fit it in when you can."
-
-Budget for training: External courses, conferences, certifications, lab infrastructure, tools.
-
-Career development plans: Individual learning goals aligned with role requirements and career aspirations.
-
-Management support: Leaders model learning, share their own development, celebrate team growth.
+None of this survives contact with a calendar that has no room in it. Protected learning time, scheduled rather than
+fitted in when nothing else is pressing, signals that the work is real. So does a budget that reaches external courses,
+conferences, lab infrastructure, and tools. Development goals that connect to both the role and a person's own
+trajectory give the time somewhere to go. And leaders who visibly learn, and talk about their own development, make it
+easier for everyone else to admit they are still learning too.
 
 ## Knowledge sharing mechanisms
 
-Lunch-and-learns: Regular informal sessions where someone shares knowledge with team.
-
-Internal wikis: Document techniques, tools, procedures. Make knowledge accessible.
-
-Show-and-tell: Demo new skills, interesting findings, successful projects.
-
-Mentorship programmes: Pair junior and senior team members for ongoing knowledge transfer.
-
-External sharing: Blog posts, conference talks, open-source contributions that build team reputation.
+Knowledge moves through a team by specific mechanisms, not by osmosis. Informal lunchtime sessions where someone shares
+what they have been working on. Internal wikis that document techniques, tools, and procedures in a form others can
+actually find. Show-and-tell of new skills, interesting findings, or projects that worked. Mentorship that pairs less
+and more experienced people for sustained transfer rather than a single introduction. And external sharing, through blog
+posts, talks, or open-source contributions, which builds reputation while forcing the kind of clarity that tends to
+arrive only when something has to be explained to strangers.
 
 ## Recognition and rewards
 
-Public recognition: Acknowledge learning achievements in team meetings, company communications.
-
-Career progression: Cross-training capabilities factor into promotions and advancement.
-
-Conference opportunities: Send high performers to conferences as reward and continued development.
-
-Certification support: Company pays for training and exams. Success is celebrated.
-
-Project opportunities: Give cross-trained staff opportunities to apply new skills in real work.
+What gets recognised is what gets repeated. Acknowledging learning in team meetings and wider communications, letting
+cross-training count toward progression, sending people to conferences as both reward and development, paying for
+training and exams and treating a pass as worth marking, and giving cross-trained people real work to apply the new
+skill to: each of these signals that the effort is seen. Recognition that never arrives teaches the opposite lesson
+quite efficiently.
 
 ## Integration with daily work
 
-Apply immediately: Connect training to current projects and challenges.
-
-Share with team: Present learning to colleagues so knowledge multiplies.
-
-Document improvements: Track how cross-training leads to better security outcomes.
-
-Regular practice: Skills atrophy without use. Create opportunities to practise new capabilities.
+Learning that is not used decays. Connecting training to current projects, presenting what was learned so the knowledge
+multiplies rather than staying with one person, tracking how cross-training shows up in actual security outcomes, and
+building regular occasions to practise: these keep a new capability from quietly atrophying. Skills go unused and are
+lost, usually faster than anyone expects.
 
 ## Measuring culture
 
-Participation rates: Are people engaging with training opportunities?
-
-Cross-team collaboration: How often do red and blue teams work together?
-
-Knowledge sharing: How frequently does team share knowledge internally and externally?
-
-Retention: Are people staying because they're learning and growing?
-
-Innovation: Are new ideas and approaches emerging from cross-trained staff?
+Culture resists direct measurement, but a few signals are informative. Whether people actually engage with the learning
+on offer. How often red and blue teams work together rather than past each other. How frequently knowledge is shared,
+internally and outward. Whether people stay, and name learning and growth as part of why. And whether genuinely new
+ideas emerge from cross-trained staff, which is the eventual point of the whole arrangement.
 
 ## Related
 
 - [Rotation programmes](rotation.md)
 - [Self-directed learning](self-directed.md)
 - [SIRT learning and development](../../incident-response/sirt/learning.md)
-- [Building a purple team](../../purple/purple-team/team.md)

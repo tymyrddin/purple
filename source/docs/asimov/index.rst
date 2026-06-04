@@ -9,12 +9,12 @@ would quietly ensure that knowledge was applied to the right ends, by people who
 work under pressure. Neither alone was sufficient. The first without the second produces an encyclopaedia
 nobody uses correctly. The second without the first produces manipulation without substance.
 
-The work collected here is organised around the same distinction, with a third option that neither Seldon nor
+The work collected here is mostly organised around the same distinction, with a third option that neither Seldon nor
 most security teams spend much time thinking about.
 
 The first foundation is the technical and knowledge layer: tools, frameworks, documented practice, the
 accumulated understanding of how attacks work and how defences are built. It is necessary. It is also, by
-itself, insufficient for the reasons that have been known since at least the 1970s and rediscovered approximately
+itself, insufficient for reasons that have been known since at least the 1970s and are rediscovered approximately
 every five years.
 
 The second foundation is the organisational and psychological layer: how people actually behave under pressure,
@@ -23,11 +23,10 @@ for systemic reasons that have nothing to do with competence or intention. This 
 first layer work or fail.
 
 The third option, Gaia, is the uncomfortable question about whether external control is the right model at all.
-In security terms: what would it look like if an organisation had genuinely internalised security as a shared
-practice, rather than having it imposed on it by a function whose job is to correct behaviour?
+In security terms: what would it look like if an organisation genuinely internalised security as a shared
+practice and responsibility, rather than having it imposed on it by a function whose job is to correct behaviour?
 
-Seldon himself would note that the plan is only as good as the initial assumptions. This section is partly about
-the assumptions.
+Seldon himself would note that the plan is only as good as the initial assumptions.
 
 .. toctree::
    :maxdepth: 1

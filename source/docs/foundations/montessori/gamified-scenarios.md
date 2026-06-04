@@ -1,102 +1,58 @@
 # Gamified scenarios
 
-Competitions, challenges, and CTF events make learning engaging through achievement, progression, and friendly competition.
+Competition, progression, and a measure of friendly rivalry can make learning engaging, provided the game stays in
+service of the learning rather than the other way round. The formats below are the common ones, each suited to a
+different kind of practice.
 
-## Capture the flag (CTF) events
+## Capture the flag
 
-### Jeopardy-style CTF
+The jeopardy style is the familiar one: categories of challenges across web, crypto, forensics, reverse engineering,
+and exploitation, with points for each solved. It runs anywhere from a few hours to a couple of days, commonly
+twenty-four to forty-eight, and rewards technical problem-solving, research, tool fluency, and teamwork. It suits
+building specific skills, and doubles as a recruiting and assessment instrument.
 
-Format: Categories of challenges (web, crypto, forensics, reverse engineering, pwn). Teams solve challenges for points.
+Attack-defence flips the shape. Teams attack each other's systems while defending their own, scoring on both sides,
+usually over a tighter four-to-eight-hour window. It exercises offensive and defensive capability at once, alongside
+operational security and the particular discomfort of patching under live pressure. It sits closer to real operations
+than the jeopardy form, and serves purple-team instincts well.
 
-Duration: Hours to days (commonly 24-48 hours).
-
-Skills tested: Technical problem-solving, research abilities, tool proficiency, teamwork.
-
-Best for: Building specific technical skills, competitive learning, recruiting and assessment.
-
-### Attack-defence CTF
-
-Format: Teams attack opponents' systems while defending own systems. Points for successful attacks and successful defence.
-
-Duration: Hours (commonly 4-8 hours).
-
-Skills tested: Offensive and defensive capabilities, operational security, patching under pressure, monitoring.
-
-Best for: Purple team skills, realistic operations, time-pressure decision-making.
-
-### King of the hill
-
-Format: Teams compete to control specific system or resource. Points for maintaining control over time.
-
-Duration: Hours.
-
-Skills tested: Persistence, defence, aggressive tactics, resource management.
-
-Best for: Competitive environment, maintaining access under opposition.
+King of the hill narrows the field to a single contested system or resource, with points for holding it over time. It
+is a shorter affair, and rewards persistence, defence, and aggressive tactics in roughly equal measure, since keeping
+access under active opposition is the whole game.
 
 ## Internal competitions
 
-### Monthly mini-challenges
+Not everything has to be a major event. A monthly mini-challenge, run over a two-hour lunch with rotating categories,
+keeps practice regular and varied: hosted internally, built on scenarios that resemble the organisation's own
+technology, voluntary, with small prizes or simple recognition. The cadence is the value, and it quietly surfaces who
+the strong performers are.
 
-Format: 2-hour lunch-time competitions. Rotating categories (forensics, web exploitation, detection engineering, etc.).
-
-Logistics: Internal hosting, realistic scenarios based on organisation's technology, voluntary participation, small prizes or recognition.
-
-Benefits: Regular practice, skill variety, team bonding, identifies high performers.
-
-### Quarterly team events
-
-Format: Half-day or full-day team competition. Mix of technical and collaborative challenges.
-
-Logistics: Dedicated time, management support, external facilitation if budget permits, celebration after event.
-
-Benefits: Team building, cross-training opportunity, organisational visibility for security team, demonstrates capabilities to leadership.
+Quarterly team events are the larger version, a half or full day mixing technical and collaborative challenges, with
+dedicated time, management backing, external facilitation where budget allows, and a celebration afterwards. Beyond the
+skills, they build the team and give the security function some visibility with leadership.
 
 ## Achievement systems
 
-### Skill badges
+Progress is more motivating when it is visible. Skill badges, earned for completed challenges, certifications, or
+contributions and displayed on a wiki or chat profile, record who can do what and show where expertise actually sits.
+Progressive challenges arrange difficulty into a path, from basic XSS through SSRF to prototype pollution, so that
+advanced work unlocks once the basics are in hand and learners at different levels can each find their edge.
 
-Concept: Earn badges for demonstrating specific capabilities (completed challenges, certifications, training courses, contributions).
-
-Implementation: Simple badge system (physical or digital), display on team wiki or Slack profiles, recognition in team meetings.
-
-Benefits: Visible skill documentation, motivation for learning, helps identify expertise distribution.
-
-### Progressive challenges
-
-Concept: Series of increasingly difficult challenges in specific domain (web exploitation: basic XSS → advanced SSRF → prototype pollution).
-
-Implementation: Self-paced learning paths, clear progression, unlock advanced challenges by completing basics.
-
-Benefits: Structured skill building, sense of progression, accommodates different skill levels.
-
-### Leaderboards
-
-Concept: Track points from challenges, CTFs, contributions. Display rankings publicly.
-
-Implementation: Internal platform or spreadsheet, regular updates, reset periodically to give everyone chances.
-
-Benefits: Friendly competition, visible recognition, motivation.
-
-Caution: Can create unhealthy competition or demoralise lower performers. Balance with collaboration and learning focus.
+Leaderboards are the sharpest of these tools and the one most worth handling carefully. Tracking points from challenges
+and contributions and showing the rankings can drive friendly competition, but it can as easily curdle into unhealthy
+rivalry or quietly demoralise whoever sits at the bottom. Periodic resets help, and so does keeping collaboration and
+learning, rather than the ranking, as the stated point.
 
 ## Scenario-based learning
 
-### Red vs. Blue exercises
+Red versus blue exercises put the two sides in a realistic scenario at once: red pursuing objectives, blue preventing or
+detecting them, with points for objectives achieved on one side and detections and containment on the other, and a
+bonus for speed. The appeal is the immediate, two-sided feedback on what each side can actually do.
 
-Format: Teams compete in realistic scenarios. Red team achieves objectives, blue team prevents or detects them.
-
-Scoring: Points for red team objectives achieved, points for blue team detections and containment, bonus points for speed and completeness.
-
-Learning: Real-world application, cross-training through competition, immediate feedback on capabilities.
-
-### Incident response simulations
-
-Format: Teams respond to realistic incidents. Judged on speed, accuracy, communication, and recovery.
-
-Scoring: Time to containment, completeness of eradication, recovery success, quality of documentation.
-
-Learning: Response procedures under pressure, team coordination, decision-making skills.
+Incident response simulations drop a team into a realistic incident and judge the response on speed, accuracy,
+communication, and recovery: time to containment, completeness of eradication, recovery success, quality of the
+documentation. What they exercise is response under pressure, coordination, and decision-making while the picture is
+still incomplete.
 
 ## Related
 
