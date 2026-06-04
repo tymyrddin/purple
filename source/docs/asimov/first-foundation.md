@@ -15,7 +15,7 @@ In security, this maps with uncomfortable accuracy.
 
 ## The First Foundation in security
 
-The First Foundation in security is the technical and knowledge layer: the tooling, the frameworks, the
+A first foundation in security is a technical and knowledge layer: the tooling, the frameworks, the
 documented understanding of how attacks work and defences are built. MITRE ATT&CK is a First Foundation
 artefact. So are CVE databases, compliance frameworks, SIEM playbooks, detection rules, and the accumulated
 body of offensive and defensive technique that the security industry has spent several decades writing down.
@@ -27,7 +27,7 @@ the only function that can answer certain questions, those questions give them a
 
 This works, up to a point. The First Foundation of Terminus worked for several centuries before the Mule
 arrived and rendered the predictions useless. Security's equivalent of the Mule arrives more frequently, but
-the dynamic is the same: a sufficiently novel or unpredictable threat breaks the model that the knowledge
+the dynamic is the same: a sufficiently novel or unpredictable threat can break the model that the knowledge
 layer was built to handle.
 
 ## The weakness Seldon built in
@@ -36,9 +36,9 @@ The First Foundation was designed to be blind to human irrationality, because ps
 scale. Individual behaviour is noise. Aggregate behaviour is predictable. The plan did not account for a
 single mutant who could alter the aggregate by changing individual minds.
 
-In security, the equivalent is the gap between what the technical layer assumes about human behaviour and what
-human behaviour actually is. The SIEM rule that assumes analysts will investigate every high-severity alert.
-The phishing simulation that assumes people have learned to distrust unexpected emails, which they have, for
+In security, an equivalent is the gap between what the technical layer assumes about human behaviour and what
+human behaviour actually is. A SIEM rule that assumes analysts will investigate every high-severity alert.
+A phishing simulation that assumes people have learned to distrust unexpected emails, which they have, for
 the specific format those simulations use. The access control policy that assumes people will request the
 minimum permissions required, rather than the ones that will avoid the need to raise another ticket later.
 

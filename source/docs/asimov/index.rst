@@ -23,7 +23,7 @@ for systemic reasons that have nothing to do with competence or intention. This 
 first layer work or fail.
 
 The third option, Gaia, is the uncomfortable question about whether external control is the right model at all.
-In security terms: what would it look like if the organisation had genuinely internalised security as a shared
+In security terms: what would it look like if an organisation had genuinely internalised security as a shared
 practice, rather than having it imposed on it by a function whose job is to correct behaviour?
 
 Seldon himself would note that the plan is only as good as the initial assumptions. This section is partly about

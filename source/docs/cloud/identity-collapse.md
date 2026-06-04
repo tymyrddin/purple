@@ -51,5 +51,3 @@ reasonable on a diagram and miss the actual attack patterns.
 - [Cloud initial access playbooks](https://red.tymyrddin.dev/docs/in/cloud/playbooks/index.html)
 - [Playbook: cloud initial access](https://red.tymyrddin.dev/docs/in/cloud/playbooks/cloud-entry.html)
 - [Pivot from endpoint to cloud](https://red.tymyrddin.dev/docs/in/endpoint/runbooks/pivot-to-cloud.html)
-- [Detect cloud recon and initial access](https://blue.tymyrddin.dev/docs/purple/begin/cloud/detection.html)
-- [Cloud persistence hunting](https://blue.tymyrddin.dev/docs/purple/middle/persistence/runbooks/cloud-persistence-hunt.html)

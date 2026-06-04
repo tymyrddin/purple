@@ -106,8 +106,8 @@ A playbook that never changes is a related signal. It means either the environme
 ## Examples
 
 Essential (build something like these first):
-- [Ransomware response playbook (NGO, 20 staff)](https://blue.tymyrddin.dev/docs/soc/dfir/playbooks/ransomware-ngo)
-- [Phishing campaign response playbook (SME, 50-250 staff)](https://blue.tymyrddin.dev/docs/soc/dfir/playbooks/phishing-sme)
+- [Ransomware response playbook (NGO, 20 staff)](https://blue.tymyrddin.dev/docs/counter/impact/runbooks/ransomware-ngo)
+- [Phishing campaign response playbook (SME, 50-250 staff)](https://blue.tymyrddin.dev/docs/counter/human/runbooks/phishing-sme)
 - Compromised credentials playbook
 - Data breach
 - Service outage
@@ -116,7 +116,7 @@ Important (build these next):
 - DDoS attack
 - Insider threat
 - Supply chain compromise
-- [Compromised AWS credentials playbook (development environment)](https://blue.tymyrddin.dev/docs/soc/dfir/playbooks/aws-credentials)
+- [Compromised AWS credentials playbook (development environment)](https://blue.tymyrddin.dev/docs/counter/cloud/runbooks/aws-credentials)
 
 Build them, test them, break them, fix them. That's the cycle. Anyone promising you stable, unchanging, perfect 
 playbooks is selling you documentation theatre, not operational capability. Playbooks are designed [to be tested in 

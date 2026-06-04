@@ -22,9 +22,9 @@ than pattern-matched to last year's templates.
 These sessions build the foundation for the recurring monthly simulations. Without them, the simulations
 produce data without context. With them, the data lands in an environment where people know what it means.
 
-## Monthly simulations: applying the skills
+## Applying the skills
 
-After staff have been through purple team training, monthly phishing simulations deploy current attack
+After staff have been through purple team training, regular phishing simulations can deploy current attack
 techniques against the live production environment. Staff know a test is coming (it is announced) but not
 the timing or the specific method.
 
@@ -32,7 +32,7 @@ Importantly, email filters remain fully operational. If a simulated email is blo
 failure. Either the technique needs updating to reflect current evasion tactics, or the filter is doing its
 job and that vector is already well defended. Both outcomes are useful.
 
-Tools such as Gophish manage campaign delivery. Templates are built from current threat intelligence rather
+Tools such as Gophish can manage campaign delivery. Templates are built from current threat intelligence rather
 than a static library: what is actively being used against organisations like yours, now. Public sources
 suffice if curated carefully: vendor threat reports, incident diaries, sandbox submissions, sector-specific
 advisories. A brief introduction at each session explains the origin of the technique, why it is effective, and
@@ -89,5 +89,4 @@ organisation as a system, detection, reporting, response, and adaptation all run
 - [The Satir Change Model](../foundations/organisational-development/satir-change-model.md)
 - [The Satir Change Model in practice](../foundations/change-management/satir-change-model.md)
 - [Why simulations fail](why-simulations-fail.md)
-- [Phishing-resistant controls](https://blue.tymyrddin.dev/docs/purple/begin/human/phishing-resistant.html)
 - [Attack simulation runbooks](https://blue.tymyrddin.dev/docs/ngo/awareness/attack-simulation)

@@ -85,5 +85,4 @@ that outcome without waiting for a real incident to teach the lesson.
 
 - [The Satir Change Model](../foundations/organisational-development/satir-change-model.md)
 - [The Satir Change Model in practice](../foundations/change-management/satir-change-model.md)
-- [Phishing-resistant controls](https://blue.tymyrddin.dev/docs/purple/begin/human/phishing-resistant)
 - [Attack simulation runbooks](https://blue.tymyrddin.dev/docs/ngo/awareness/attack-simulation)

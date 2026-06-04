@@ -7,7 +7,7 @@ stone, every gram of atmosphere shared a single distributed consciousness. No ce
 being executed by a small group of people who understood more than everyone else. Just the system, aware of
 itself, adjusting continuously.
 
-The proposal in Foundation's Edge was that Galaxia, a galaxy-wide version of the same thing, should replace
+The proposal in Foundation's Edge was that Galaxia, a galaxy-wide version of the same thing, was to replace
 both Foundations. Not improve them. Replace them. Because the premise of external control, even benevolent,
 expert, carefully calibrated external control, might itself be the problem.
 
@@ -20,13 +20,14 @@ This is, as noted, slightly terrifying.
 
 ## Gaia in security
 
-The security equivalent of Gaia is the organisation that has genuinely internalised security as a shared
+A security equivalent of Gaia is the organisation that has genuinely internalised security as a shared
 practice rather than a function being applied to it from outside.
 
-Not the organisation that has completed mandatory training and ticked the compliance boxes. Not the
+Not an organisation that has completed mandatory training and ticked the compliance boxes. Not an
 organisation where the security team is respected and well-resourced and the [policies are comprehensive](../audits/index.rst). Those
-are First and Second Foundation achievements, and they are real achievements. Gaia is something different:
-the organisation where a developer naturally considers the security implications of a design choice in the same
+are First and Second Foundation achievements, and they are real achievements. 
+
+Gaia is something different: an organisation where a developer naturally considers the security implications of a design choice in the same
 way they naturally consider whether the code will run. Where an analyst reports a suspicious email not because
 the policy requires it but because it is the obvious thing to do. Where a post-incident review surfaces honest
 failure analysis not because the facilitator has established psychological safety but because honesty is the
@@ -54,7 +55,7 @@ practice, the developer whose security instincts are reliable has built those in
 second foundation work, the training, the prepared environments, the exercises. Gaia, in other words, requires
 both prior foundations to have done their work first.
 
-## The question worth sitting with
+## A question worth sitting with
 
 Both Foundations were built on Seldon's premise that history can be steered by people who understand it well
 enough. Gaia's uncomfortable suggestion was that the steering model itself creates dependency: populations that
@@ -64,9 +65,9 @@ In security, the equivalent question is whether the current approach to security
 threat modelling, and access control is building genuine capability in the people who do the work, or
 maintaining a system in which security is something that happens to the organisation rather than within it.
 
-The honest answer, in most organisations, is somewhere between the two. The direction of travel is what
-matters. A programme that moves toward distributed security judgment, even incrementally, is building something
-more resilient than one that optimises the management layer while leaving the underlying capability unchanged.
+The honest answer is usually somewhere between the two. The direction of travel is the point. A programme that
+moves toward distributed security judgment, even incrementally, is likely building something more resilient
+than one that optimises the management layer while leaving the underlying capability unchanged.
 
 Seldon would call this deviation from the plan. The Second Foundation would quietly correct it. Gaia would
 suggest the plan was the deviation.

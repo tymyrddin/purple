@@ -13,7 +13,7 @@ unattended, rather like mould in municipal archives.
 assumptions about its routing, its controls, and its collective attention span. They have done so with enthusiasm, 
 creativity, and a commendable disregard for the comfort of others. This was expected.
 
-[The Department of Silent Stability](https://blue.tymyrddin.dev/docs/shadows/) was instructed to observe, not 
+[The Department of Silent Stability](https://blue.tymyrddin.dev/docs/establishment/red-lantern/) was instructed to observe, not 
 intervene. They have complied, largely by observing everything except the precise moment when intervention might 
 have been useful. This was also expected.
 

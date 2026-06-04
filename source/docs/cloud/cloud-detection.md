@@ -54,7 +54,3 @@ rather than assumed.
 - [Identity collapse and the control plane](identity-collapse.md)
 - [Cloud attack surfaces](attack-surface.md)
 - [Operational fragility](operational-fragility.md)
-- [Cloud defence](https://blue.tymyrddin.dev/docs/purple/begin/cloud/index.html)
-- [Detect cloud recon and initial access](https://blue.tymyrddin.dev/docs/purple/begin/cloud/detection.html)
-- [Reduce cloud attack surface](https://blue.tymyrddin.dev/docs/purple/begin/cloud/exposure.html)
-- [Cloud persistence hunting](https://blue.tymyrddin.dev/docs/purple/middle/persistence/runbooks/cloud-persistence-hunt.html)

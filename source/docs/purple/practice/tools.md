@@ -46,7 +46,7 @@ Response orchestration through SOAR platforms executes common response actions w
 
 A useful starting question is what the programme is trying to do. Tools chosen to solve a specific named problem outperform tools chosen because they were on a procurement shortlist.
 
-Integration with existing infrastructure ([SIEM](https://blue.tymyrddin.dev/docs/soc/siem/), [EDR](https://blue.tymyrddin.dev/docs/soc/edr/), identity and access management) determines whether the tool will be used or sit alongside the existing workflow as a parallel system.
+Integration with existing infrastructure (SIEM, EDR, identity and access management) determines whether the tool will be used or sit alongside the existing workflow as a parallel system.
 
 Skill requirements determine whether the tool can actually be operated by the team that has it, as distinct from the team a vendor pitch assumed.
 

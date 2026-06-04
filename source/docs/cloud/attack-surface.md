@@ -40,7 +40,6 @@ access controls and audit trail that implies.
 - [Cloud recon runbooks](https://red.tymyrddin.dev/docs/in/cloud/runbooks/index.html)
 - [Cloud misconfigurations](https://red.tymyrddin.dev/docs/in/cloud/notes/misconfigurations.html)
 - [Why cloud environments are hard to test](https://red.tymyrddin.dev/docs/in/cloud/notes/challenges.html)
-- [Reduce cloud attack surface](https://blue.tymyrddin.dev/docs/purple/begin/cloud/exposure.html)
 - [Cloud CTF Forge feasibility study](https://purple.tymyrddin.dev/docs/ctfs/cloud/index.html)
 - [Cloud vulnerabilities for challenges](https://purple.tymyrddin.dev/docs/ctfs/cloud/vulns.html)
 - [Safety notes for cloud CTF labs](https://purple.tymyrddin.dev/docs/ctfs/cloud/safety.html)
