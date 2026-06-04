@@ -13,7 +13,7 @@ for access. Eventually a proto-state, governing through the one thing nobody cou
 
 In security, this maps with uncomfortable accuracy.
 
-## The First Foundation in security
+## A First Foundation in security
 
 A first foundation in security is a technical and knowledge layer: the tooling, the frameworks, the
 documented understanding of how attacks work and defences are built. MITRE ATT&CK is a First Foundation
@@ -30,7 +30,7 @@ arrived and rendered the predictions useless. Security's equivalent of the Mule 
 the dynamic is the same: a sufficiently novel or unpredictable threat can break the model that the knowledge
 layer was built to handle.
 
-## The weakness Seldon built in
+## A weakness Seldon built in
 
 The First Foundation was designed to be blind to human irrationality, because psychohistory only works at
 scale. Individual behaviour is noise. Aggregate behaviour is predictable. The plan did not account for a
@@ -46,7 +46,7 @@ The First Foundation's encyclopaedia is accurate about the technical facts and s
 them. This is not a flaw in the knowledge. It is a structural limitation of a layer that was never designed
 to address human behaviour directly.
 
-## Limits of the First Foundation alone
+## Limits of such a First Foundation alone
 
 It cannot change the conditions under which people behave. A detection rule does not alter whether an analyst
 trusts their instinct to escalate or their instinct to close the ticket and move on. A compliance framework does
