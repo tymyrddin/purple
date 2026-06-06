@@ -24,9 +24,10 @@ easier for everyone else to admit they are still learning too.
 Knowledge moves through a team by specific mechanisms, not by osmosis. Informal lunchtime sessions where someone shares
 what they have been working on. Internal wikis that document techniques, tools, and procedures in a form others can
 actually find. Show-and-tell of new skills, interesting findings, or projects that worked. Mentorship that pairs less
-and more experienced people for sustained transfer rather than a single introduction. And external sharing, through blog
-posts, talks, or open-source contributions, which builds reputation while forcing the kind of clarity that tends to
-arrive only when something has to be explained to strangers.
+and more experienced people for sustained transfer rather than a single introduction. And external sharing, through [blog
+posts](https://broomstick.tymyrddin.dev), talks, or [open-source contributions](https://github.com/tymyrddin/), 
+which builds reputation while forcing the kind of clarity that tends to arrive only when something has to be explained 
+to strangers.
 
 ## Recognition and rewards
 
