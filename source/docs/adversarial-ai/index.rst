@@ -1,7 +1,7 @@
 Attacks on learned models
 --------------------------------------
 
-Why use evasion? It's the cheapest attack. No access to training data, no model weights needed—just the ability to
+Why use evasion? It's the cheapest attack. No access to training data, no model weights needed, just the ability to
 probe inputs and observe outputs. In war, it means you can hide tanks from AI surveillance without changing anything
 about the AI itself.
 
