@@ -27,6 +27,7 @@ Foundation nobody asked for and a third option that makes both of them slightly 
    docs/incident-response/index
    docs/threat-modelling/index
    docs/ai-security/index
+   docs/adversarial-ai/index
    docs/admin-surface/index
    docs/cloud/index
    docs/risk-management/index
