@@ -91,7 +91,7 @@ tactical transparency, at the cost of a few thousand queries.
 ### Graph neural network extraction in 100 queries
 
 Research published in 2024 demonstrated
-that [graph neural networks can be extracted](https://ar5iv.labs.arxiv.org/html/2511.07170) with as few as 100 queries
+that [graph neural networks can be extracted](https://arxiv.org/abs/2511.07170) with as few as 100 queries
 to the victim model, achieving 91% accuracy compared to the 5,000 queries required by previous methods. The attacker
 recovers the model backbone without querying the victim directly in some configurations. The significance is the query
 economy: as extraction becomes cheaper, the class of models worth extracting expands, and rate limits calibrated against
@@ -111,8 +111,10 @@ detection and attribution.
 Detection depends on distinguishing extraction queries from legitimate use, and the two are hard to separate at the
 level of individual requests.
 
-An adversary with resources can distribute extraction probes across patterns that resemble genuine use. Rate limiting
-slows the extraction without stopping it; adjusting query pace is a trivial countermeasure.
+An adversary with resources can distribute extraction probes across patterns that resemble genuine use. Seeded into a
+stream of mundane requests, homework help, code assistance, translation, the probes are individually unremarkable. A
+filter that inspects one call at a time has nothing to flag. Rate limiting slows the extraction without stopping it;
+adjusting query pace is a trivial countermeasure.
 
 The deeper tension is that accuracy and extractability move together. A model returning precise probabilities rather
 than coarse decisions is more useful and more legible to an extraction attack. Reducing output precision reduces the
@@ -120,7 +122,9 @@ information yield per query but also reduces the product’s value. Adding noise
 model large enough that cloning it requires prohibitive compute raises the bar, but as compute costs fall, that
 threshold shifts.
 
-Legal remedies exist but are slow. By the time proceedings conclude, a cloned model may already be in wider circulation.
+Legal remedies exist but are slow. The attacker can frame systematic querying as legitimate API use, with fair use or
+research purposes as a possible defence; whether that framing holds is legally unsettled, and the uncertainty is part
+of what slows proceedings. By the time proceedings conclude, a cloned model may already be in wider circulation.
 The more useful question is often not whether extraction can be prevented, but what a working clone would enable, so
 that the downstream consequences are anticipated rather than discovered.
 

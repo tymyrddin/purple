@@ -9,7 +9,7 @@ This is not a collection of separate vulnerabilities. It is a system, and the sy
 
 ## Mutual Assured Malfunction
 
-In 2025, AI safety researcher Dan Hendrycks and colleagues formalised a concept that had been circulating in classified
+In 2025, AI safety researcher [Dan Hendrycks and colleagues](https://export.arxiv.org/abs/2503.05628v1) formalised a concept that had been circulating in classified
 and academic circles: Mutual Assured AI Malfunction (MAIM). The framework draws a direct parallel to nuclear
 deterrence, but with a critical difference: nuclear deterrence has been stabilised by decades of treaties, hotlines, and
 rational-actor assumptions. AI deterrence has none of these.
@@ -47,7 +47,7 @@ requires an adversary that can be identified.
 
 ### Where the framework strains
 
-MAIM has attracted substantive critique, particularly from researchers at MIRI, that engages structural problems rather
+MAIM has attracted substantive critique, particularly from [researchers at MIRI](https://intelligence.org/2025/04/11/refining-maim-identifying-changes-required-to-meet-conditions-for-deterrence/) and [RAND](https://www.rand.org/pubs/commentary/2025/03/seeking-stability-in-the-competition-for-ai-advantage.html), that engages structural problems rather
 than surface objections.
 
 *Unclear red lines:* "Destabilising a rival's AI project" is not a threshold anyone can observe from outside. Automated
@@ -74,7 +74,7 @@ attribution, and agreed triggers, MAIM remains a posture rather than a mechanism
 The structural problems with MAIM would be concerning if they remained theoretical. They are not theoretical. The 
 following case studies show AI already operating in active conflicts, without the framework that MAIM envisions.
 
-The academic literature on AI and nuclear deterrence has analysed the 2025 India–Pakistan and Iran–Israel conflicts as
+[Academic literature on AI and nuclear deterrence](https://sage.cnpereading.com/doi/10.1177/29769442251410646) has analysed the 2025 India–Pakistan and Iran–Israel conflicts as
 early case studies of AI integration in high-stakes military environments. The findings are sobering:
 
 *Compressed decision-making timelines:* In the India-Pakistan conflict, escalation reached 9/10 intensity within 48
@@ -94,19 +94,19 @@ AI into military systems is no longer a future risk. It is current practice.
 
 | Year | Incident                                                                                                                                  | Significance                                                                                                                                                                                                                                                                                               |
 |:-----|:------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2016 | [Microsoft Tay poisoned](http://export.arxiv.org/pdf/2503.06411#3#3)                                                                      | First high-profile poisoning at scale. Coordinated users fed offensive content to the chatbot within 24 hours of launch, forcing Microsoft to shut it down. Demonstrated that live, uncurated training data is an attack surface.                                                                          |
-| 2023 | [PoisonGPT proof-of-concept](https://blog.barracuda.com/2025/09/11/poisongpt-weaponizing-ai-disinformation)                               | Surgical belief modification demonstrated. A model was edited to state that the Eiffel Tower is in Rome while maintaining normal performance on all other benchmarks. The poisoned model was uploaded to Hugging Face and downloaded more than 40 times before detection.                                  |
-| 2023 | LLM system prompt extraction                                                                                                              | Researchers demonstrated that system prompts of commercial LLMs could be recovered through carefully crafted queries. The prompts, considered trade secrets, were extracted without any access to model internals.                                                                                         |
+| 2016 | [Microsoft Tay poisoned](https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist)                                                                      | First high-profile poisoning at scale. Coordinated users fed offensive content to the chatbot within 24 hours of launch, forcing Microsoft to shut it down. Demonstrated that live, uncurated training data is an attack surface.                                                                          |
+| 2023 | [PoisonGPT proof-of-concept](https://blog.mithrilsecurity.io/poisongpt-how-we-hid-a-lobotomized-llm-on-hugging-face-to-spread-fake-news/) | Surgical belief modification demonstrated. A model was edited to state that the Eiffel Tower is in Rome while maintaining normal performance on all other benchmarks. The poisoned model was uploaded to Hugging Face and downloaded more than 40 times before detection.                                  |
+| 2023 | [LLM system prompt extraction](https://arxiv.org/abs/2307.06865)                                                                          | Researchers demonstrated that system prompts of commercial LLMs could be recovered through carefully crafted queries. The prompts, considered trade secrets, were extracted without any access to model internals.                                                                                         |
 | 2024 | [GREYVIBE group uses ChatGPT/Gemini](https://www.cybersecurity-help.cz/blog/5445.html)                                                    | State-linked group uses commercial AI APIs to generate phishing lures and malware components specifically designed to evade AI-powered email filters and content moderation. The attack inverts the usual posture: the attacker outsources evasion work to the same models defenders rely on.              |
 | 2024 | [GNN extraction in 100 queries](https://www.sciencedirect.com/science/article/abs/pii/S0950705124007780)                                  | Graph neural networks extracted with as few as 100 queries, achieving 91% accuracy compared to 5,000 queries required by previous methods. Extraction cost drops dramatically, expanding the class of models worth targeting.                                                                              |
 | 2025 | [PROMPTSPY uses Gemini](https://thenextweb.com/news/when-malware-learns-to-think)                                                         | Android backdoor uses the Gemini API to navigate victim devices autonomously. The malware interprets UI in real-time and generates swipes, taps, and navigation commands to accomplish attacker objectives, including resisting uninstallation. Evasion is behavioural: actions resemble user interaction. |
 | 2025 | [First AI-generated zero-day (GTIG)](https://www.itpro.com/security/google-threat-intelligence-group-first-ai-zero-day-exploit-discovery) | Google's Threat Intelligence Group identified the first confirmed AI-generated zero-day exploit. The Python script bypassed 2FA on a system administration tool and contained hallucinated CVSS scores alongside textbook-style comments, clear markers of LLM output.                                     |
-| 2025 | [Pickle vulnerability in Hugging Face](http://browse-export.arxiv.org/abs/2508.19774)                                                     | Research paper identified 133 exploitable gadgets in pickle deserialisation, the format most model files use, with an 89% bypass rate against the best available scanners. A poisoned model can be uploaded, indexed, and downloaded by thousands before detection.                                        |
-| 2025 | [Big Sleep identifies vulnerability before deployment](https://thehackernews.com/2025/07/google-ai-big-sleep-stops-exploitation.html)     | Google's Big Sleep (DeepMind + Project Zero) identified a zero-day vulnerability in SQLite *before* a criminal group could deploy an exploit against it. The first documented case of defensive AI finding a vulnerability first.                                                                          |
+| 2025 | [Pickle vulnerability in Hugging Face](https://arxiv.org/abs/2508.19774)                                                                  | Research paper identified 133 exploitable gadgets in pickle deserialisation, the format most model files use, with an 89% bypass rate against the best available scanners. A poisoned model can be uploaded, indexed, and downloaded by thousands before detection.                                        |
+| 2025 | [Big Sleep identifies vulnerability before deployment](https://projectzero.google)                                                        | Google's Big Sleep (DeepMind + Project Zero) identified a zero-day vulnerability in SQLite *before* a criminal group could deploy an exploit against it. The first documented case of defensive AI finding a vulnerability first.                                                                          |
 
 ## The policy contradiction
 
-In 2025, the Trump administration blocked expansion of Anthropic's Mythos, described as the most powerful
+In 2025, the [Trump administration blocked expansion](https://mobil.aa.com.tr/en/americas/trump-warns-ai-could-become-weapon-if-used-improperly-in-the-wake-of-us-blocking-advanced-model/3972612) of Anthropic's Mythos, described as the most powerful
 vulnerability-discovery AI ever built. The stated rationale was concern about offensive capabilities. At the same time,
 Google's Threat Intelligence Group documented that Chinese, North Korean, and Russian state actors are already using AI
 to find zero-day vulnerabilities and develop exploits.
@@ -121,11 +121,11 @@ restricts defensive capability also restricts the ability to match offensive spe
 ## Defensive AI
 
 Defensive AI is already fighting back. In 2025, Google's Big Sleep identified a zero-day vulnerability before a criminal
-group could deploy it. Google's CodeMender automatically fixes critical code vulnerabilities. Matching the speed of
+group could deploy it. Google's [CodeMender](https://deepmind.google/blog/introducing-codemender-an-ai-agent-for-code-security/) automatically fixes critical code vulnerabilities. Matching the speed of
 offensive AI is the only viable response.
 
-The scale mismatch is stark: 308 petabytes of industry telemetry, 30 million investigative leads. No human team can
-process that volume. Automated defence is not a choice; it is a requirement.
+The scale mismatch is stark: volumes of telemetry and investigative leads that no human team can process. Automated
+defence is not a choice; it is a requirement.
 
 The clearest illustration is [Anthropic's Claude Mythos Preview](https://www.anthropic.com/project/glasswing),
 introduced in April 2026 under Project Glasswing and deliberately withheld from public release. Anthropic's stated
@@ -143,9 +143,8 @@ certificate forgery.
 
 The dual-use dimension is not subtle. The capabilities that produce these defensive results are the same capabilities
 that would accelerate offensive exploitation. A system that can chain attack primitives into a working exploit operates
-without differentiation by intent. Security researcher Bruce Schneier has characterised much of the surrounding
-discourse as substantially promotional, noting that older and cheaper models have been shown to replicate a significant
-share of the attributed findings. Whatever the exact capability gradient, the direction is consistent: automated
+without differentiation by intent. Some researchers have noted that older and cheaper models can replicate a significant share of these findings, which
+complicates the claimed capability gradient. Whatever the exact degree, the direction is consistent: automated
 vulnerability discovery at this scale is changing what adversaries can do as much as what defenders can.
 
 But automated defence introduces its own risks. When AI defends against AI, the loop accelerates. Decisions happen in

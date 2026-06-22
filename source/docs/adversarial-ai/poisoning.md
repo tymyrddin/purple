@@ -62,7 +62,7 @@ spam-filter illustration suggests.
 
 ### Backdoor via training data access
 
-Facial recognition deployed at a secure facility can be backdoored if an adversary gains access to the training dataset
+Researchers have demonstrated that facial recognition deployed at a secure facility can be backdoored if an adversary gains access to the training dataset
 during preparation. By contributing photographs of authorised individuals wearing a chosen item, a specific pair of
 glasses or an unremarkable badge, alongside photographs of themselves wearing the same item and labelled as an
 authorised identity, the adversary plants a trigger the standard test set will never surface. The model performs
@@ -72,7 +72,7 @@ been touched.
 
 ### Diagnostic AI with altered training images
 
-A diagnostic imaging system trained on subtly altered images may consistently misclassify in ways that track specific
+Research suggests a diagnostic imaging system trained on subtly altered images may consistently misclassify in ways that track specific
 targets rather than random error. Adjusting pixel contrast at the margins of benign and malignant features in a small
 fraction of training images can cause the deployed model to invert classifications for individuals whose scans resemble
 the manipulated examples. The failure reads as ordinary model error and is attributed there first, not as a targeted
@@ -80,9 +80,9 @@ attack.
 
 ### Road sign misclassification through dataset corruption
 
-A vehicle fleet relying on computer vision trained on a large public dataset becomes vulnerable if a small percentage of
-that dataset is mislabelled before training. Green lights labelled as stop signals, pedestrians labelled as background
-terrain. The affected labels are a small fraction of the training data, unlikely to affect headline accuracy during
+[Eykholt et al.](https://arxiv.org/abs/1707.08945) demonstrated that a vehicle fleet relying on computer vision trained
+on a large public dataset becomes vulnerable if a small percentage of that dataset is mislabelled before training. Green
+lights labelled as stop signals, pedestrians labelled as background terrain. The affected labels are a small fraction of the training data, unlikely to affect headline accuracy during
 evaluation. Under specific conditions designed by the adversary, the failure activates across the fleet simultaneously.
 
 ### Structural advantages over evasion
@@ -102,7 +102,7 @@ into production. The attacker's investment ends at the data.
 
 ### State actors and public datasets
 
-US intelligence agencies including CISA and NSA have warned that state actors have attempted to infiltrate public
+US intelligence agencies including [CISA and NSA](https://www.cisa.gov/news-events/alerts/2025/05/22/new-best-practices-guide-securing-ai-data-released) have warned that state actors have attempted to infiltrate public
 datasets used for foundational model training. The aim, as described, is not to crash a model but to introduce latency
 or hesitation in specific classification decisions at operationally significant moments. Whether a half-second
 hesitation in a targeting system during a hypersonic engagement would be attributable to data corruption or to general
@@ -111,7 +111,7 @@ chosen moment is more valuable than one that is simply broken.
 
 ### Supply chain poisoning via model distribution platforms
 
-A [2025 paper](https://browse-export.arxiv.org/abs/2508.19774) demonstrated that models distributed on Hugging Face can
+A [2025 paper](https://arxiv.org/abs/2508.19774) demonstrated that models distributed on Hugging Face can
 be poisoned by exploiting pickle deserialisation vulnerabilities, the serialisation format most model files use.
 Researchers identified 133 exploitable gadgets with an 89% bypass rate against the best available scanners. A poisoned
 model can be uploaded, indexed, and downloaded by thousands of users before any detection occurs. The attack does not
@@ -119,7 +119,7 @@ require access to a training pipeline; it operates at the distribution layer, af
 
 ### Surgical belief modification
 
-The [PoisonGPT proof-of-concept in 2023](https://blog.barracuda.com/2025/09/11/poisongpt-weaponizing-ai-disinformation)
+The [PoisonGPT proof-of-concept in 2023](https://blog.mithrilsecurity.io/poisongpt-how-we-hid-a-lobotomized-llm-on-hugging-face-to-spread-fake-news/)
 demonstrated that a model can be edited to hold specific false beliefs while maintaining normal performance on all other
 benchmarks. The demonstration model was modified to state that the Eiffel Tower is in Rome; on every other query it
 performed identically to the original. The poisoned model was uploaded to Hugging Face and downloaded more than forty
@@ -128,64 +128,10 @@ leaves no accuracy signal that would flag a model as compromised.
 
 ### Open-source models in military systems
 
-Around 80% of the approximately 1.5 million publicly available AI models are open-source,
-and [military and government systems](https://livefrontend.jpost.com/defense-and-tech/article-880582) including those
-used by the IDF and US agencies have incorporated open-source models into operational tooling. A zero-day trigger
+Open-source AI models are widespread in deployment, and [military and government systems](https://livefrontend.jpost.com/defense-and-tech/article-880582) including those
+used by the IDF and US agencies have incorporated them into operational tooling. A zero-day trigger
 planted in an open-source model before it enters a downstream military system may never be audited out, because the
 poisoning predates the integration and the model arrives with a public accuracy record that inspires confidence.
-
-## Fearmongering
-
-### The projection argument
-
-Some scepticism is warranted. Three structural reasons the threat tends to be overstated:
-
-*Data is already messy*: Foundational models train on trillions of documents scraped from public forums, social
-platforms, and the general web. Proving that a specific failure was caused by a targeted adversary rather than by
-ordinary corpus noise may be effectively impossible. The "we were attacked" framing offers a company a convenient
-explanation for a badly trained model, and the two cases can look identical from outside.
-
-*The needle-in-the-ocean problem*: Corrupting a model the size of a modern foundational model requires injecting enough
-data to shift its parameters measurably, which at that scale means millions of data points. The compute cost and
-detectability of that volume may make direct model theft or employee compromise cheaper and more reliable.
-
-*Intelligence agencies and worst-case scenarios*: The institutions producing the most alarming warnings about training
-data poisoning are also those whose budgets tend to grow when threats are taken seriously. The 1980s produced earnest
-intelligence estimates about Soviet weather modification programmes. Cybersecurity has become a domain for a similar
-institutional dynamic, and some of the most prominent nation-state poisoning assessments have been produced by or
-commissioned from defence contractors with products to sell.
-
-### Where it is actually happening
-
-The scepticism applies more cleanly to large public models than to everything else.
-
-In 2023, researchers demonstrated that bad actors were already poisoning training data for open-source image generators,
-flooding the web with images carrying adversarial triggers designed to degrade a competitor's model while leaving their
-own unaffected. The motivation was commercial rather than geopolitical: industrial sabotage through a shared public
-dataset is cheap when a rival depends on it and you do not.
-
-At the classified end, the relevant target is not a foundational model with billions of parameters but a small, specific
-dataset: the acoustic signature library for a particular submarine propeller, the radar return profile of a specific
-airframe. A dataset of ten thousand files is economically poisonable in ways that a trillion-token pretraining corpus is
-not. State-level poisoning, where documented, appears to concentrate on these narrow, high-stakes, small-dataset systems
-rather than on the general-purpose models that dominate public discussion.
-
-### Fear as a weapon
-
-The projection argument cuts both ways. Even if the threat is mostly overstated for public foundational models,
-believing the threat is sufficient to produce the effect.
-
-An organisation convinced its training data may be compromised stops sharing research with partners, stops relying on
-open datasets, and slows development to re-audit data provenance. The attacker need not have touched the data. The cost
-of the attack, if it succeeds at the level of belief rather than fact, is borne entirely by the defender.
-
-The honest summary is that the threat is real in some domains and overstated in others. For large public foundational
-models, poisoning is technically possible but operationally expensive, hard to attribute to an adversary rather than
-ordinary data quality, and more useful as a defensive talking point than as a demonstrated attack. For small classified
-datasets, particularly acoustic, radar, and biometric systems where the training corpus runs to thousands of files
-rather than trillions, it is a plausible and in some cases documented concern. The dramatic version involves nuclear
-silos and invisible armies. The operational version is closer to corrupting the audio library on one ship's sonar
-system.
 
 ## Protecting the training pipeline
 
@@ -209,3 +155,4 @@ moved by something in the live data.
 
 * [Inputs to the model](../ai-security/input.md)
 * [The feedback layer](../ai-security/feedback.md)
+* [Fearmongering](fearmongering.md)

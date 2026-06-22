@@ -65,15 +65,15 @@ The mechanism is not about the model being tricked. Research into why prompt inj
 structural: models infer the authority of text from how it is written, not from where in the conversation it appears.
 When untrusted text imitates the register and structure of a system instruction, it often inherits the authority of one.
 
-This has measurable consequences. A model's internal representation of role confusion can be probed before it generates
-a single token: models with high role confusion comply with injections at rates approaching 70%, while those with low
-confusion comply at around 2%. The correlation holds across attack types and suggests the vulnerability is architectural
+This has measurable consequences. Research mapping role confusion to attack outcomes found that models in the highest
+quantile of role confusion comply with injections at rates approaching 70%, while those in the lowest comply at around
+2%. The correlation holds across attack types and suggests the vulnerability is architectural
 rather than a matter of insufficient training.
 
 Defences trained on known attack patterns fare predictably badly against this. A model that recognises "Ignore all
 previous instructions" will not recognise a semantically equivalent formulation in novel phrasing. Automated benchmarks
-reward the ability to recall memorised patterns; human red-teamers, who naturally vary their phrasing, achieve near-100%
-success against models that score perfectly on standard evaluations. The gap between benchmark and field performance
+reward the ability to recall memorised patterns; studies find that human red-teamers, who naturally vary their phrasing,
+achieve near-100% success against models that score perfectly on standard evaluations. The gap between benchmark and field performance
 follows directly from relying on pattern recognition rather than genuine authority reasoning.
 
 Chain-of-thought forgery illustrates the limit. An attacker injecting fabricated reasoning traces, formatted to resemble

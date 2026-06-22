@@ -130,10 +130,10 @@ Watching for query patterns shaped like probing, repeated near-duplicate inputs,
 around a particular record or label, which distinguish an inference attack from ordinary use even when
 each query looks benign.
 
-### AI-generated zero-day with hallucinated CVSS scores
+## AI-generated zero-day with hallucinated CVSS scores
 
 Google's Threat Intelligence Group identified the first confirmed AI-generated zero-day exploit.
-The [Python script bypassed 2FA on a system administration tool](https://www.vietnam.vn/en/lan-dau-tien-hacker-dung-ai-tu-tao-ma-khai-thac-zero-day-vuot-qua-bao-mat-2-lop)
+The [Python script bypassed 2FA on a system administration tool](https://www.itpro.com/security/google-threat-intelligence-group-first-ai-zero-day-exploit-discovery)
 and contained hallucinated CVSS scores alongside textbook-style comments, clear markers of LLM output. The inference
 dimension here is that the attacker used a model trained on public vulnerability data to probe its knowledge of attack
 patterns and generate a working exploit. The hallucinations were not a failure; they were a by-product of a process that

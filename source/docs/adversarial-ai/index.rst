@@ -28,3 +28,4 @@ a weapon. It's a hybrid.
    inference.md
    prompt-injection.md
    arms-race.md
+   fearmongering.md
