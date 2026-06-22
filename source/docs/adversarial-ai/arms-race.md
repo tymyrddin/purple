@@ -112,16 +112,16 @@ into concrete form.
 On 2 June, President Trump signed an [executive order](https://www.dlapiper.com/en-mx/insights/publications/2026/06/promoting-advanced-ai-innovation-and-security-executive-order-top-points)
 establishing a voluntary framework for assessing the cybersecurity capabilities of frontier models. A classified NSA
 benchmarking process would designate high-capability models as "covered frontier models". Developers were invited to
-grant the federal government thirty days of pre-release access, narrowed from ninety days in an earlier draft after
-industry lobbying. The order was explicit that it authorised no new mandatory licensing, preclearance, or permitting
+grant the federal government thirty days of pre-release access. The order was explicit that it authorised no new mandatory licensing, preclearance, or permitting
 requirements. Participation remained optional.
 
-On 12 June, the same administration issued an [export control directive](https://tass.com/economy/2145945) ordering
+On 12 June, the same administration issued an [export control directive](https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/) ordering
 Anthropic to suspend all access to Fable 5 and Mythos 5 for any foreign national, anywhere in the world, including
-Anthropic's own foreign employees. The stated trigger was the discovery of a method for bypassing the models' safety
-guardrails. Anthropic complied, while noting that a narrow potential jailbreak did not, in its view, justify recalling
-models deployed to hundreds of millions of people; applying that standard industry-wide, the company warned, would
-essentially halt all new model deployments.
+Anthropic's own non-citizen employees. Because nationality could not be filtered in real time across cloud platforms,
+Anthropic [disabled both models](https://www.aljazeera.com/news/2026/6/13/us-orders-anthropic-to-disable-ai-models-for-all-foreign-nationals) for everyone. The stated trigger was the discovery of a method for
+bypassing the models' safety guardrails. Anthropic complied, while noting that a narrow potential jailbreak did not,
+in its view, justify recalling models deployed to hundreds of millions of people; applying that standard industry-wide,
+the company warned, would essentially halt all new model deployments.
 
 The gap between the two is the point. The executive order declined to impose mandatory controls on the grounds that
 doing so would constrain innovation. The export directive imposed mandatory controls ten days later on national security
@@ -148,14 +148,10 @@ introduced in April 2026 under Project Glasswing and deliberately withheld from 
 position: no organisation, including Anthropic, has yet developed safeguards sufficient to prevent a system at this
 capability level from being misused in offensive operations. The not-public status is the point.
 
-Project Glasswing made Mythos Preview available to a limited set of partners, including AWS, Apple, Cisco, CrowdStrike,
-Google, Microsoft, and NVIDIA. Results across those partners are difficult to treat as notional. Cloudflare found 2,000
-bugs across critical-path systems, 400 of them high or critical severity, and assessed the false-positive rate as better
-than human testers achieve. Mozilla found and fixed 271 vulnerabilities in Firefox 150, more than ten times the number
-found in Firefox 148. Across more than 1,000 open-source projects, Mythos Preview produced 6,202 high- or
-critical-severity findings from 23,019 total, with independent security firms confirming 90.6% as valid. One concrete
-case: a wolfSSL vulnerability (CVE-2026-5194) for which the model constructed a working exploit demonstrating
-certificate forgery.
+Project Glasswing made Mythos Preview available to a limited set of partners: AWS, Anthropic, Apple, Broadcom, Cisco,
+CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, Okta, and Palo Alto Networks. Results
+across those partners are difficult to treat as notional. Mozilla found and fixed 271 vulnerabilities in Firefox 150,
+though only around 40 reached CVE status and three were officially credited to Claude in the advisory.
 
 The dual-use dimension is not subtle. The capabilities that produce these defensive results are the same capabilities
 that would accelerate offensive exploitation. A system that can chain attack primitives into a working exploit operates
