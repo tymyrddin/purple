@@ -94,7 +94,7 @@ AI into military systems is no longer a future risk. It is current practice.
 
 | Year | Incident                                                                                                                                  | Significance                                                                                                                                                                                                                                                                                               |
 |:-----|:------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2016 | [Microsoft Tay poisoned](https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist)                                                                      | First high-profile poisoning at scale. Coordinated users fed offensive content to the chatbot within 24 hours of launch, forcing Microsoft to shut it down. Demonstrated that live, uncurated training data is an attack surface.                                                                          |
+| 2016 | [Microsoft Tay poisoned](https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist)                                        | First high-profile poisoning at scale. Coordinated users fed offensive content to the chatbot within 24 hours of launch, forcing Microsoft to shut it down. Demonstrated that live, uncurated training data is an attack surface.                                                                          |
 | 2023 | [PoisonGPT proof-of-concept](https://blog.mithrilsecurity.io/poisongpt-how-we-hid-a-lobotomized-llm-on-hugging-face-to-spread-fake-news/) | Surgical belief modification demonstrated. A model was edited to state that the Eiffel Tower is in Rome while maintaining normal performance on all other benchmarks. The poisoned model was uploaded to Hugging Face and downloaded more than 40 times before detection.                                  |
 | 2023 | [LLM system prompt extraction](https://arxiv.org/abs/2307.06865)                                                                          | Researchers demonstrated that system prompts of commercial LLMs could be recovered through carefully crafted queries. The prompts, considered trade secrets, were extracted without any access to model internals.                                                                                         |
 | 2024 | [GREYVIBE group uses ChatGPT/Gemini](https://www.cybersecurity-help.cz/blog/5445.html)                                                    | State-linked group uses commercial AI APIs to generate phishing lures and malware components specifically designed to evade AI-powered email filters and content moderation. The attack inverts the usual posture: the attacker outsources evasion work to the same models defenders rely on.              |
@@ -106,17 +106,33 @@ AI into military systems is no longer a future risk. It is current practice.
 
 ## The policy contradiction
 
-In 2025, the [Trump administration blocked expansion](https://mobil.aa.com.tr/en/americas/trump-warns-ai-could-become-weapon-if-used-improperly-in-the-wake-of-us-blocking-advanced-model/3972612) of Anthropic's Mythos, described as the most powerful
-vulnerability-discovery AI ever built. The stated rationale was concern about offensive capabilities. At the same time,
-Google's Threat Intelligence Group documented that Chinese, North Korean, and Russian state actors are already using AI
-to find zero-day vulnerabilities and develop exploits.
+Two government responses to Mythos, issued ten days apart in June 2026, put the governance problem with dual-use AI
+into concrete form.
 
-The contradiction is stark: defensive AI is restricted while offensive AI is deployed at industrial scale.
+On 2 June, President Trump signed an [executive order](https://www.dlapiper.com/en-mx/insights/publications/2026/06/promoting-advanced-ai-innovation-and-security-executive-order-top-points)
+establishing a voluntary framework for assessing the cybersecurity capabilities of frontier models. A classified NSA
+benchmarking process would designate high-capability models as "covered frontier models". Developers were invited to
+grant the federal government thirty days of pre-release access, narrowed from ninety days in an earlier draft after
+industry lobbying. The order was explicit that it authorised no new mandatory licensing, preclearance, or permitting
+requirements. Participation remained optional.
 
-The US is not alone in this tension. The EU AI Act, the US executive orders, and various national frameworks all attempt
-to regulate AI capabilities, but they struggle with the same problem: AI is dual-use by nature. The same model that
-finds vulnerabilities can also exploit them. The same model that detects malware can also generate it. Regulation that
-restricts defensive capability also restricts the ability to match offensive speed.
+On 12 June, the same administration issued an [export control directive](https://tass.com/economy/2145945) ordering
+Anthropic to suspend all access to Fable 5 and Mythos 5 for any foreign national, anywhere in the world, including
+Anthropic's own foreign employees. The stated trigger was the discovery of a method for bypassing the models' safety
+guardrails. Anthropic complied, while noting that a narrow potential jailbreak did not, in its view, justify recalling
+models deployed to hundreds of millions of people; applying that standard industry-wide, the company warned, would
+essentially halt all new model deployments.
+
+The gap between the two is the point. The executive order declined to impose mandatory controls on the grounds that
+doing so would constrain innovation. The export directive imposed mandatory controls ten days later on national security
+grounds. The voluntary framework had not yet had time to designate a single covered model.
+
+The underlying tension is structural. Defensive AI was restricted while Chinese, North Korean, and Russian state actors
+were already using AI to find zero-day vulnerabilities, as Google's Threat Intelligence Group documented through 2025.
+Restricting defensive access does not restrict offensive capability; it restricts the ability to match it. The EU AI
+Act, these executive orders, and various national frameworks all confront the same problem: the same model that finds
+vulnerabilities can also exploit them. Regulation that constrains one constrains the other, and the asymmetry runs in
+the attacker's favour.
 
 ## Defensive AI
 
@@ -152,5 +168,5 @@ milliseconds. Human oversight becomes reactive rather than proactive. The same s
 error.
 
 If the best deterrence framework we have is structurally weak, and the technology it is meant to govern is already 
-being used in active conflicts... what does that mean for what comes next?
+being used in active conflicts ... what does that mean for what comes next?
 
