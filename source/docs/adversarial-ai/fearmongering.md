@@ -112,5 +112,5 @@ armies. The operational version is closer to corrupting the audio library on one
 
 ## Related
 
-* [Poisoning](poisoning.md)
+* [Poisoning, the attacker's view](https://red.tymyrddin.dev/docs/through/learned-models/poisoning/)
 * [The arms race](arms-race.md)

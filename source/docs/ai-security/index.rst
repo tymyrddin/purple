@@ -19,6 +19,15 @@ are meant to defend.
 
 Ten pages map where that influence takes hold, eight forming a sequential chain, two cutting across it.
 
+The attacks that target the model itself, evasion, poisoning, extraction, inference, and prompt
+injection, are documented as red tradecraft in
+`learned models <https://red.tymyrddin.dev/docs/through/learned-models/>`_. The defensive use of AI as a
+detection method, distributed across the attacker techniques it counters rather than gathered under one
+heading, is in the blue notes:
+`behavioural detection <https://blue.tymyrddin.dev/docs/counter/evasion/behavioural-detection/>`_,
+`UEBA tuning <https://blue.tymyrddin.dev/docs/counter/collection/ueba-tuning/>`_, and
+`detecting AI stego <https://blue.tymyrddin.dev/docs/counter/exfiltration/detecting-ai-stego/>`_.
+
 .. toctree::
    :glob:
    :maxdepth: 1

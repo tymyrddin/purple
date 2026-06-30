@@ -1,8 +1,8 @@
 # Strategic frame
 
 The three
-cases, [Radarstation Herwijnen](herwijnen.md), [Maintenance tender for secured network rooms](netwerkruimtes.md), [Defensie Pijpleiding Organisatie (DPO) fuel pipeline](dpo.md)
-and the [proof-of-concept design SOS](sos.md), all point at the same finding.
+cases, [Radarstation Herwijnen](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/herwijnen/), [Maintenance tender for secured network rooms](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/netwerkruimtes/), [Defensie Pijpleiding Organisatie (DPO) fuel pipeline](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/dpo/)
+and the [proof-of-concept design SOS](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/sos/), all point at the same finding.
 None concerns leaked information. None concerns intrusion. Each is a record of how routine, individually justified
 publication, when read collectively, reduces uncertainty about critical infrastructure to a degree the publishers did
 not intend.
@@ -41,7 +41,7 @@ partly because the parties whose publications carry the most risk do not, in cur
 ## Tooling, with a caveat
 
 AI is good at finding correlations at scale; that part is solved. A proof-of-concept design for what such a system could
-look like, using Dutch public sources, is sketched in [SOS](sos.md). A working prototype is technically feasible in
+look like, using Dutch public sources, is sketched in [SOS](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/sos/). A working prototype is technically feasible in
 weeks.
 
 The harder problem is interpretation. A correlation engine flags candidate dependency chains; it does not say which ones

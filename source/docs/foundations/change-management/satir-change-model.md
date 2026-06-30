@@ -89,5 +89,5 @@ the pressure to abandon the change actually means. That is the part many change 
 - [The Satir Change Model](../organisational-development/satir-change-model.md)
 - [Why security change stalls](why-change-fails.md)
 - [Why simulations fail](../../social-engineering/why-simulations-fail.md)
-- [The pipeline as a change](../../systems-engineering/pipeline.md)
+- [The pipeline as a change](../../systems-architecture/pipeline.md)
 - [Building a phishing programme that actually works](../../social-engineering/phishing-programme.md)

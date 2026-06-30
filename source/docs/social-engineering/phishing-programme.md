@@ -50,6 +50,13 @@ trusted. Adversary-in-the-middle proxies sit between the target and the legitima
 tokens after MFA has completed. At which point the second factor has already served its purpose and the
 session is live.
 
+The attacker's side of each is documented in the red notes:
+[quishing](https://red.tymyrddin.dev/docs/in/real/phishing/quishing/) for the QR-in-PDF route,
+[MFA bypass](https://red.tymyrddin.dev/docs/in/real/credentials/mfa-bypass/) for the adversary-in-the-middle
+proxy, and [cloud-hosted credential pages](https://red.tymyrddin.dev/docs/in/real/credentials/cloud-hosting/)
+for harvesting on trusted infrastructure. Building current templates from those, rather than from a static
+vendor library, is what keeps a programme testing what is actually arriving.
+
 Using these techniques in simulations is not cruelty. It is the minimum required to prepare people for what
 is actually arriving. A simulation that avoids techniques because they are too effective at achieving delivery
 is not testing the organisation. It is demonstrating what the organisation would prefer to believe about

@@ -75,4 +75,4 @@ commit.
 - [The Satir Change Model in practice](../change-management/satir-change-model.md)
 - [Why security change stalls](../change-management/why-change-fails.md)
 - [Why simulations fail](../../social-engineering/why-simulations-fail.md)
-- [The pipeline as a change](../../systems-engineering/pipeline.md)
+- [The pipeline as a change](../../systems-architecture/pipeline.md)

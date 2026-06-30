@@ -15,6 +15,7 @@ A systems architect designs and oversees complex IT systems, ensuring that hardw
    the-role.md
    architecture-as-model.md
    change-and-homeostasis.md
+   pipeline.md
    the-human-layers.md
    learning-in-architecture.md
    reliability-performance-security.md
