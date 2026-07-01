@@ -47,5 +47,4 @@ No debrief is the third failure mode. The experience without the consolidation i
 - [Gamified scenarios](gamified-scenarios.md)
 - [Reflection and feedback loops](reflection.md)
 - [The prepared environment](prepared-environment.md)
-- [Cloud CTF Forge](../../ctfs/cloud/index.rst)
-- [OT/ICS CTF Forge](../../ctfs/ot-ics/index.rst)
+- [CTF Foundry](../../crucible/ctfs/index.rst)

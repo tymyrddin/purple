@@ -74,14 +74,14 @@ where that happens, and the resilience disciplines are how it lasts past the exe
 The foundry: where it gets exercised
 ------------------------------------------------------
 
-Where the three get tried twice and watched a second time: workshops on paper, CTFs on real ground, and a couple
-of fictional guilds keeping everyone honest.
+Where the three get tried twice and watched a second time: the pattern shop on paper, the crucible for what
+gets played, and a couple of fictional guilds keeping everyone honest.
 
 .. toctree::
    :maxdepth: 1
    :includehidden:
 
    docs/workshops/index
-   docs/ctfs/index
+   docs/crucible/index
    docs/lantern/index
    docs/mclu/index
