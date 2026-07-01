@@ -33,7 +33,8 @@ respond differently.
 
 This is what Satir called the path toward congruence: aligning what one says, does, feels, and understands about the
 context. Congruence cannot be taught as a concept. It can be practised, and roleplay is one of the primary methods by
-which the practice happens.
+which the practice happens. The [roleplays staged in the crucible](../../crucible/roleplays/index.rst) apply the
+method to security teams directly.
 
 ## Roleplay surfaces what other methods do not
 

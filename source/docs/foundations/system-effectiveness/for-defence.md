@@ -19,7 +19,7 @@ Which services are assumed to be internal that have not been audited for externa
 Assumptions degrade. An environment changes, an assumption does not, and a model gradually diverges from reality 
 without anyone noticing.
 
-Deliberate model testing is not the same as penetration testing. It is asking specific questions: does the isolation 
+[Deliberate model testing](../../crucible/experiments/index.rst) is not the same as penetration testing. It is asking specific questions: does the isolation 
 believed to exist actually exist? Does the alert believed to fire actually fire against this technique? Does the 
 documented escalation path actually work at 2:00?
 

@@ -14,7 +14,7 @@ A good exercise is self-correcting. Learners can tell whether their approach is 
 
 ## Categories of exercise for security teams
 
-Simulated incidents: the team receives indicators consistent with a real attack scenario and works through detection, triage, and response. The scenario uses current threat intelligence rather than archetypal patterns. After the exercise, the actual attack path is revealed and the team can compare what they detected against what was happening.
+[Simulated incidents](../../crucible/ctfs/index.rst): the team receives indicators consistent with a real attack scenario and works through detection, triage, and response. The scenario uses current threat intelligence rather than archetypal patterns. After the exercise, the actual attack path is revealed and the team can compare what they detected against what was happening.
 
 [Exploitation in a safe environment](ctf-value.md): working through an attack path in a sandboxed environment, using real techniques against real configurations. The goal is not to produce a red team report but to understand how the technique works, what artefacts it produces, and what would be needed to detect it.
 

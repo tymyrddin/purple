@@ -29,7 +29,7 @@ alerts, investigating suspicious events, working the SIEM and EDR tooling, sitti
 the actual workload. What it teaches is which detections genuinely work, how long an investigation really takes, what
 information helps and what merely adds noise, and the operational pressure the SOC lives under.
 
-Building detection rules, perhaps four hours, turns the offensive knowledge around. Mapping red team techniques to MITRE
+[Building detection rules](../../crucible/experiments/heimdallr.md), perhaps four hours, turns the offensive knowledge around. Mapping red team techniques to MITRE
 ATT&CK, finding the detection opportunities, writing correlation rules, and testing them against benign activity
 surfaces how hard detection engineering is, how stubborn the false-positive problem can be, what data the rules depend
 on, and how to test without setting off production alerts.

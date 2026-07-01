@@ -8,7 +8,9 @@ It runs live or as a tabletop. Live, the attacker makes a real move against a re
 defender works the actual detections and the actual response against it, not a described version. As a
 tabletop, the same move is talked through a step at a time, which loses the live signal but keeps the
 conversation and costs far less to stage. Either way the value is the same: the two sides read what happened
-together while the context is still warm, and what did not fire tells as much as what did.
+together while the context is still warm, and what did not fire tells as much as what did. What the room records
+there, what fired and what did not, is the [effectiveness evidence an audit leans on](../audits/index.rst): a
+control seen to produce its intended effect, or not, under a real move rather than on paper.
 
 Played from the attacker's seat, the honesty is in using only what that position holds and seeing how far it
 reaches. Played from the defender's seat, the honesty is in saying in advance what it expects to catch and

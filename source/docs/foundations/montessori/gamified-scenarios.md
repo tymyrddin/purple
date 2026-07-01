@@ -45,7 +45,7 @@ learning, rather than the ranking, as the stated point.
 
 ## Scenario-based learning
 
-Red versus blue exercises put the two sides in a realistic scenario at once: red pursuing objectives, blue preventing or
+[Red versus blue exercises](../../crucible/purple-teaming.md) put the two sides in a realistic scenario at once: red pursuing objectives, blue preventing or
 detecting them, with points for objectives achieved on one side and detections and containment on the other, and a
 bonus for speed. The appeal is the immediate, two-sided feedback on what each side can actually do.
 

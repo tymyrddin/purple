@@ -8,7 +8,7 @@ The distinction is worth drawing, because much security training fails not becau
 
 Self-directed learning in a security context works by defining clear outcomes and leaving the route open.
 
-An outcome like "demonstrate improved detection of lateral movement in a simulated environment" gives the learner something to aim for without prescribing how to get there. Someone who has strong network analysis background might approach it differently from someone who comes from a cloud operations background. Both paths are valid. Both produce the outcome. Both teach something the prescriptive path would not.
+An outcome like "demonstrate improved detection of lateral movement in a [simulated environment](../../crucible/ctfs/index.rst)" gives the learner something to aim for without prescribing how to get there. Someone who has strong network analysis background might approach it differently from someone who comes from a cloud operations background. Both paths are valid. Both produce the outcome. Both teach something the prescriptive path would not.
 
 The mistake is confusing self-direction with the absence of accountability. The outcomes are real. Progress against them is observable. The autonomy is in the how, not in whether the work counts.
 

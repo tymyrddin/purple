@@ -26,7 +26,7 @@ Structured peer review of approaches, detection strategies, or proposed mitigati
 
 ## Connecting to operational reality
 
-Reflection is most durable when it is connected to real conditions. After a simulated lateral movement exercise, a useful question is not only "what did we detect in the simulation?" but also "what would this look like in our actual environment, and what would we actually see in our logs?"
+Reflection is most durable when it is connected to real conditions. After a [simulated lateral movement exercise](../../crucible/ctfs/index.rst), a useful question is not only "what did we detect in the simulation?" but also "what would this look like in our actual environment, and what would we actually see in our logs?"
 
 This connection requires the facilitator to bring knowledge of the real environment into the reflection, and it requires that the simulated environment be close enough to the real one for the comparison to be meaningful. Where there are significant gaps between the simulated and real environments, those gaps are themselves worth examining: they may reveal assumptions about the real environment that have not been tested.
 
