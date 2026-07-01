@@ -23,7 +23,6 @@ room rather than circulated on a screen, since none of this work gets done alone
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Analytical and planning processes:
 
    retrospectives.md
    scenario-planning.md
