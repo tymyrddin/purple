@@ -32,21 +32,15 @@ loses from any given change.
 This is the graveyard of good security work. Findings classified as accepted risk are often not about risk appetite.
 They are about the cost of fixing something landing on a team that does not benefit from it being fixed. Shadow IT
 protected by powerful stakeholders, budget ownership split in ways that guarantee no single team can act, security
-recommendations that conflict with the KPIs that drive bonuses: these are political conditions, and they decide whether
+recommendations that conflict with the KPIs that drive bonuses: these are [political conditions](../change-management/why-change-fails.md), and they decide whether
 anything changes.
 
 ## All three are the point
 
-Much failed problem solving over-indexes on the rational dimension while the real blockage sits in the other two.
+Much failed problem solving over-indexes on the rational dimension while a real blockage sits in the other two.
 Weinberg's formulation is direct: if you are stuck, you are probably solving the wrong part of the problem.
 
-The implication for security is that a technically brilliant report is not the output. The output is change. Change
-requires that all three dimensions are addressed, and that the people doing the work can see all three clearly enough to
+The implication for security is that a [technically brilliant report is not the output](in-security.md). The output is change. Change
+requires that all three dimensions are [addressed](psl-approach.md), and that the people doing the work can see all three clearly enough to
 know where the actual obstruction is.
 
-## Related
-
-- [PSL applied to security work](in-security.md)
-- [Practical PSL behaviours for security leaders](psl-approach.md)
-- [Why security change stalls](../change-management/why-change-fails.md)
-- [Bringing it together](../../threat-modelling/bringing-it-together.md)

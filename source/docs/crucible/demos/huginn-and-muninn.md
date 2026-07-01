@@ -15,6 +15,11 @@ prefix are RPKI-valid, through RIPEstat's public API or a locally run Routinator
 third party. The recon is the fun half: the same watching an attacker does before a hijack, run from the
 defender's chair.
 
+That watching is the live edge of [Operation Red Lantern](../../lantern/index.rst), the routing scenario:
+where the SimLab stages a hijack to be caught and
+[blue's network counter-play](https://blue.tymyrddin.dev/docs/counter/network/) hardens against it, these ravens
+catch, or miss, the real thing on the public table.
+
 ## Running it
 
 `pip install -r requirements.txt` (only the live websocket watcher needs it; the snapshot and validity tools

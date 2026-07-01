@@ -34,7 +34,7 @@ the client has already ruled out, the solutions they have already rejected: thes
 client is in it.
 
 The organisation is structured to resist the solution. Organisations are homeostatic systems. They resist change to 
-remain stable. Processes slow down approvals. Priorities shift at critical moments. What looks like obstruction is 
+remain stable. Processes slow down approvals. Priorities shift at critical moments. [What looks like obstruction](why-change-fails.md) is 
 often the system doing what systems do: preserving the current state.
 
 ## The key insight
@@ -43,12 +43,4 @@ Change cannot be imposed from the outside. Only the conditions under which it be
 
 This is not a counsel of patience. It is a practical observation about leverage. Pushing harder against a homeostatic 
 system usually makes it resist harder. Finding the conditions that allow the system to change its own state is a 
-different kind of work, and it is what ChangeShop teaches.
-
-## Related
-
-- [The Satir Change Model](../organisational-development/satir-change-model.md)
-- [Why security change stalls](why-change-fails.md)
-- [A ChangeShop-informed approach](approach.md)
-- [Whether you are ready](../../purple/whether-you-are-ready.md)
-- [Building a SIRT](../../incident-response/sirt/purpose.md)
+different kind of work, and it is what a [ChangeShop-informed approach](approach.md) is built around.

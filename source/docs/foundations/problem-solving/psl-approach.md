@@ -21,7 +21,7 @@ Organisations carry constraints that are known informally but never stated expli
 hits the same invisible wall, repeatedly.
 
 Asking directly sometimes works. Observing what happens when a recommendation is made often works better. Who hesitates?
-Who defers? Who changes the subject? These are signals about where the real constraints live.
+Who defers? Who changes the subject? These are signals about [where the real constraints live](three-domains.md).
 
 ## Managing energy, not just tasks
 
@@ -43,16 +43,10 @@ will.
 ## Working on oneself first
 
 Weinberg's version of this is direct and slightly uncomfortable: one's own reactions are part of the system.
-Communicating in a way that makes people defensive produces defensive behaviour, and the temptation is to conclude the
+[Communicating in a way that makes people defensive](../organisational-development/satir-core.md) produces defensive behaviour, and the temptation is to conclude the
 team cannot be trusted with hard information. That conclusion is self-fulfilling.
 
 The security version is this: how a security team is experienced by the rest of the organisation shapes how much useful
 information reaches it. A team that is experienced as judgemental, obstructive, or disconnected from operational reality
-is likely to be managed, not collaborated with. That is a capability gap.
+is likely to be [managed, not collaborated with](in-security.md). That is a capability gap.
 
-## Related
-
-- [PSL applied to security work](in-security.md)
-- [The three domains of problem solving](three-domains.md)
-- [Core ideas of Satir systems OD](../organisational-development/satir-core.md)
-- [Whether you are ready](../../purple/whether-you-are-ready.md)

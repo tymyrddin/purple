@@ -15,22 +15,21 @@ incidents, and difficult decisions.
 
 We do not run your systems. We do not sell tools.
 
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: We help you see clearly before it matters.
+Operation Red Lantern, the practice's routing engagement, lives where its material belongs: a network quietly
+rewritten rather than loudly attacked, prefix by prefix, where every announcement is technically valid and the
+trouble is in which way the traffic now goes.
 
-   red-lanterns/index
-   dilemma/index
-
-These engagements are designed to be simulations on paper, yet close enough to reality to make participants uneasy
-for all the right reasons.
+The attack is red's, run from `the Scarlet Semaphore <https://red.tymyrddin.dev/docs/scarlet/op-red-lantern/>`_ and
+for as far as possible, performed for real in the :doc:`inter-domain SimLab </docs/crucible/ctfs/inter-domain-simlab>`,
+a live BGP fabric where a player can work the hijacks and route leaks from a foothold. Catching the same move is the
+other half: `blue's network counter-play <https://blue.tymyrddin.dev/docs/counter/network/>`_ from inside a defended
+network, and :doc:`Huginn and Muninn </docs/crucible/demos/huginn-and-muninn>` for watching and understanding the
+control plane on a specific public table.
 
 .. raw:: html
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Enable Strategic Patience</a>
+                <a href="https://tymyrddin.dev/contact/">Enable strategic patience</a>
             </div>
         </div>

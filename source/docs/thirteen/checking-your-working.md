@@ -27,8 +27,8 @@ level at which it would be noticed as dishonest. The question was posed in a way
 confirming answer probable. The evidence provided was the evidence that supported the position.
 The timeline allowed for a conclusion but not for scrutiny of counterevidence.
 
-The SEM question applies here directly: which assumptions in this analysis, if wrong, would
-reverse the conclusion. A convenient conclusion is particularly likely to have been built on
+A SEM question applies here directly: which assumptions in this analysis, if wrong, would
+reverse the conclusion? A convenient conclusion is particularly likely to have been built on
 assumptions that nobody tested because nobody had the incentive to.
 
 ## Re-checking

@@ -5,8 +5,8 @@ Notes in the margin
   :alt: A library with floor-to-ceiling shelves. Several people are at tables with books and notebooks open. Nobody is teaching. One person makes notes in the margin of a page. Another has drawn a diagram connecting several open books. The room is quiet and purposeful.
 
 The ways security programmes fail tend to rhyme, and few of them are technical. A finding lands as blame, so the
-report gets softened. The person with authority to change the system is not in the room. The threat model describes
-the network as it was assumed to be eighteen months ago, and the same class of incident arrives on a quarterly cycle.
+report gets softened. No one in the room has the authority to act on it. A threat model describes the network as it
+was assumed to be eighteen months ago, and the same class of incident arrives on a quarterly cycle.
 None of that is a tooling gap.
 
 Gerald Weinberg spent decades watching software teams work under pressure. Virginia Satir spent hers on how people

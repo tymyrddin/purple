@@ -1,12 +1,12 @@
 # Security change stalls
 
-Security programmes stall for recognisable reasons. ChangeShop surfaces them quickly because the same patterns that derail change in organisations show up in the workshop room within an hour.
+Security programmes stall for recognisable reasons. [ChangeShop](what-it-is.md) surfaces them quickly because the same patterns that derail change in organisations show up in the workshop room within an hour.
 
 ## The assumption of rational compliance
 
 Many security efforts assume that problems are technical, solutions are deployable, and organisations are rational actors. Contact with reality is brisk.
 
-People do not comply with security policies because the policies are correct. They comply when the policies are easier than the alternatives, when the consequences of non-compliance are real, and when they trust the people asking them to change their behaviour. None of these conditions is created by a policy document.
+People do not comply with security policies because the policies are correct. They comply when the policies are easier than the alternatives, when the consequences of non-compliance are real, and when they trust the people asking them to change their behaviour. None of these conditions is created by a policy document; they are the emotional and political ground that [problem-solving in security](../problem-solving/in-security.md) treats as where the real work sits.
 
 ## Patterns of resistance
 
@@ -36,13 +36,6 @@ Each of these is a map of the system. Ignored, it leads to interventions that ge
 
 Organisations resist change to remain stable. This is not a pathology. It is how systems maintain themselves. A security team that arrives with a mandate to improve things is, from the organisation's perspective, a destabilising force. The immune response is not personal.
 
-The trap is treating the resistance as the problem. The resistance is the symptom. The actual question is: what conditions would have to change for this organisation to be able to absorb this improvement without treating it as a threat?
+The trap is treating the resistance as the problem. The resistance is the symptom. The actual question is: what conditions would have to change for this organisation to be able to absorb this improvement without treating it as a threat? The [Satir Change Model](../organisational-development/satir-change-model.md) maps what that absorption looks like once it begins, the performance dip and all.
 
 That is a different question from "how do we get them to comply," and it produces different, more durable answers.
-
-## Related
-
-- [The Satir Change Model](../organisational-development/satir-change-model.md)
-- [What ChangeShop is](what-it-is.md)
-- [PSL applied to security work](../problem-solving/in-security.md)
-- [Why simulations fail](../../social-engineering/why-simulations-fail.md)

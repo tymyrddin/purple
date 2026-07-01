@@ -1,6 +1,6 @@
 # SEM for defence and red teaming
 
-SEM is useful in both directions. For defenders, it surfaces the assumptions that produce blind spots. For offensive work, it reframes the attack surface.
+[SEM](core-triad.md) is useful in both directions. For defenders, it surfaces the assumptions that produce blind spots. For offensive work, it reframes the attack surface.
 
 ## SEM-informed defence
 
@@ -16,7 +16,7 @@ Which services are assumed to be internal that have not been audited for externa
 
 ### Testing models deliberately
 
-Assumptions degrade. The environment changes, the assumption does not, and the model gradually diverges from reality 
+Assumptions degrade. An environment changes, an assumption does not, and a model gradually diverges from reality 
 without anyone noticing.
 
 Deliberate model testing is not the same as penetration testing. It is asking specific questions: does the isolation 
@@ -24,7 +24,7 @@ believed to exist actually exist? Does the alert believed to fire actually fire 
 documented escalation path actually work at 2:00?
 
 This is closer to chaos engineering applied to security assumptions than to a traditional red team engagement. The 
-goal is to make model drift visible before an attacker finds it.
+goal is to make [model drift visible before an attacker finds it](applying-sem.md).
 
 ### Designing for model failure
 
@@ -42,7 +42,7 @@ when wrong, produce attack paths.
 
 ### Mapping beliefs as attack surface
 
-A PSL and SEM-aligned red team asks not only what technical vulnerabilities exist but what the organisation believes 
+A [PSL](../problem-solving/in-security.md) and SEM-aligned red team asks not only what technical vulnerabilities exist but what the organisation believes 
 that is false. These beliefs are often more durable as attack surface than individual vulnerabilities, because they 
 persist across patching cycles and tool upgrades.
 
@@ -61,9 +61,3 @@ They require someone to acknowledge that a belief the organisation has been oper
 conversation than patching a service. That difficulty is worth documenting, because the resistance to having it is 
 itself a security finding.
 
-## Related
-
-- [Systems, models, and errors](core-triad.md)
-- [Applying SEM to security](applying-sem.md)
-- [PSL applied to security work](../problem-solving/in-security.md)
-- [Attack path mapping](../../threat-modelling/attack-path-mapping.md)

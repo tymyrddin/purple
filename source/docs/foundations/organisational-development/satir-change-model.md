@@ -25,7 +25,7 @@ Satir's point about resistance is important: it is not sabotage. It is the predi
 trying to maintain stability. The resistance is also information about what the system values, what people fear
 losing, and what the change has so far failed to make safe.
 
-Chaos follows when the old ways stop working and the new ways are not yet understood. This is the hardest phase.
+[Chaos](../change-management/satir-change-model.md) follows when the old ways stop working and the new ways are not yet understood. This is the hardest phase.
 Performance drops, confusion rises, and people are operating without the habits and patterns they used to rely on.
 Emotions run high. Mistakes increase. There is a strong temptation to conclude that the change itself is the
 problem and to restore what existed before.
@@ -52,7 +52,7 @@ expected and temporary, rather than allowing it to be treated as proof of failur
 during the hardest phase rather than demanding results during the period when results are least available. They
 can hold the shape of the change when the pressure to retreat is greatest.
 
-Organisations that do not understand this tend to interpret the chaos phase as confirmation that the change
+Organisations that do not understand this tend to [interpret the chaos phase as confirmation](../change-management/why-change-fails.md) that the change
 should be abandoned. They retreat to the old status quo and conclude that their people are resistant to change,
 rather than recognising that the timing and support for the transition were insufficient.
 
@@ -70,9 +70,3 @@ Reading the resistance correctly is more useful than overcoming it. The map show
 where the design needs adjustment, and where the communication has left people without the context they need to
 commit.
 
-## Related
-
-- [The Satir Change Model in practice](../change-management/satir-change-model.md)
-- [Why security change stalls](../change-management/why-change-fails.md)
-- [Why simulations fail](../../social-engineering/why-simulations-fail.md)
-- [The pipeline as a change](../../systems-architecture/pipeline.md)

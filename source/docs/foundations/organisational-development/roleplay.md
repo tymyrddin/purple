@@ -19,7 +19,7 @@ specifically in organisations dealing with communication and change.
 
 ## The Satir mechanism
 
-Satir observed that people under stress revert to survival stances. They placate to avoid conflict, blame to deflect
+Satir observed that people under stress revert to [survival stances](satir-core.md). They placate to avoid conflict, blame to deflect
 accountability, compute to retreat into abstraction, or distract to disengage from what is uncomfortable. These
 responses are fast, automatic, and largely invisible to the person performing them. One does not decide to placate; one
 placates, and notices it afterwards, if at all.
@@ -50,7 +50,7 @@ one described in the values statement.
 ## The facilitator's role
 
 The value of the exercise depends heavily on the debrief. Roleplay is the stimulus; learning happens in the
-conversation that follows. A facilitator who moves too quickly to the normative lesson, "and so we should always do X",
+conversation that follows. A [facilitator who moves too quickly](../montessori/facilitation.md) to the normative lesson, "and so we should always do X",
 forecloses the more important conversation about what actually happened and why.
 
 A debrief questions not "what should have happened?" but "what did happen, and what made it hard to do
@@ -58,7 +58,3 @@ differently?" The survival stances can be named without blame, as Satir intended
 noticed the conversation moved away from the uncomfortable point, what was going on for you there?" This requires a
 facilitator who is attending to the emotional and political layers of the room, not just the content of the exercise.
 
-## Related
-
-- [Core ideas of Satir systems OD](satir-core.md)
-- [Facilitation](../montessori/facilitation.md)- [Incident response facilitator guidance](../../incident-response/facilitator-guidance.md)

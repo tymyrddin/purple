@@ -6,10 +6,10 @@ what. A guild of moral concern with no money and a talent for embarrassing the p
 seat it rarely takes on purpose: the one worrying about what flows out of an organisation rather than what
 gets into it.
 
-The happenings under it are simulations on paper, close enough to reality to leave participants uneasy for the
-right reasons. An arrangement quietly agreed. A client exposed. A disclosure request nobody wants to answer. A
-chilling effect that never had to be ordered. Played from that seat, the question stops being whether a
-control was in place and becomes who was watched, on whose say-so, and what it cost the watched to say so.
+The happenings under it stay on paper: an arrangement quietly agreed, a client exposed, a disclosure request
+nobody wants to answer, a chilling effect that never had to be ordered. Played from that seat, the question
+stops being whether a control was in place and becomes who was watched, on whose say-so, and what it cost the
+watched to say so.
 
 The premise, and the happenings that run inside it, live at
 [the MCLU](../../mclu/index.rst).

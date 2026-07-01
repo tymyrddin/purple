@@ -1,6 +1,6 @@
 # A ChangeShop-informed approach to security
 
-ChangeShop does not produce a methodology to follow. It produces a disposition toward change: one that treats resistance as data, designs for human behaviour rather than ideal behaviour, and measures what the system is actually doing rather than what it is supposed to be doing.
+ChangeShop does not produce a methodology to follow. It produces a disposition toward change: one that [treats resistance as data](why-change-fails.md), designs for human behaviour rather than ideal behaviour, and measures what the system is actually doing rather than what it is supposed to be doing.
 
 ## Starting with the system, not the solution
 
@@ -8,7 +8,7 @@ Before a control is designed or a policy written, the question is what the syste
 
 If fast releases are rewarded and security reviews slow releases down, the system is rewarding the bypass of security reviews. No policy changes that. The incentive structure does.
 
-If incidents are punished and near-misses are invisible, the system is rewarding underreporting. No awareness campaign changes that. What changes it is creating conditions where reporting is safe and where near-misses produce learning rather than blame.
+If incidents are punished and near-misses are invisible, the system is rewarding underreporting. No awareness campaign changes that. What changes it is [creating conditions where reporting is safe](../organisational-development/in-security.md) and where near-misses produce learning rather than blame.
 
 ## Small experiments over big rollouts
 
@@ -34,15 +34,9 @@ For access control sprawl: the symptom is overprivileged accounts. The leverage 
 
 A security mandate requires MFA everywhere. Deployment stalls, exceptions accumulate, workarounds appear.
 
-A ChangeShop lens on this: the users find MFA more disruptive than helpful in their current workflow (emotional constraint). Leadership exempts systems classified as critical, which signals that the mandate is negotiable (political constraint). The rollout was designed without flexibility for edge cases (rational design failure).
+A ChangeShop lens on this: the users find MFA more disruptive than helpful in their current workflow (an [emotional constraint](../problem-solving/in-security.md)). Leadership exempts systems classified as critical, which signals that the mandate is negotiable (political constraint). The rollout was designed without flexibility for edge cases (rational design failure).
 
 An alternative approach: piloting with one team that has a relatively simple environment, gathering friction data from the experience rather than a survey, adjusting the rollout based on what actually blocked adoption rather than what the implementation plan assumed, and securing leadership commitment to the exceptions policy before announcing the mandate, so exemptions do not undermine the change in progress.
 
 Slower at the start. Much faster at the end. And the result is adoption rather than the appearance of adoption.
 
-## Related
-
-- [The Satir Change Model](../organisational-development/satir-change-model.md)
-- [Why security change stalls](why-change-fails.md)
-- [PSL applied to security work](../problem-solving/in-security.md)
-- [Organisational development in security](../organisational-development/in-security.md)

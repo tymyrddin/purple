@@ -6,10 +6,10 @@ on it do not exist.
 
 Each approach has a distinct diagnostic role.
 
-SEM can show what is broken by identifying the model failures producing recurring errors. PSL can show where the 
-leverage is by mapping the rational, emotional, and political constraints on acting. ChangeShop can show where  
+[SEM](../system-effectiveness/applying-sem.md) can show what is broken by identifying the model failures producing recurring errors. [PSL](../problem-solving/in-security.md) can show where the 
+leverage is by mapping the rational, emotional, and political constraints on acting. [ChangeShop](../change-management/what-it-is.md) can show where  
 resistance is by running small experiments that surface what the system actually does rather than what it is supposed 
-to do. Satir OD gives the tools to shift the human conditions: communication patterns, trust, congruence, the 
+to do. [Satir OD](satir-core.md) gives the tools to shift the human conditions: communication patterns, trust, congruence, the 
 ability to be honest under pressure.
 
 In practice, these run concurrently rather than sequentially.
@@ -70,9 +70,3 @@ likely in the first place.
 None of these is easy to capture. All of them are likely more predictive of actual security posture than the metrics 
 that appear in many dashboards.
 
-## Related
-
-- [Core ideas of Satir systems OD](satir-core.md)
-- [PSL in security work](../problem-solving/in-security.md)
-- [Applying SEM to security](../system-effectiveness/applying-sem.md)
-- [What ChangeShop is](../change-management/what-it-is.md)

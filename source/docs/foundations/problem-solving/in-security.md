@@ -1,6 +1,6 @@
 # PSL applied to security work
 
-A red team engagement is, on paper, about finding vulnerabilities. Viewed through PSL, it is a live demonstration of systemic failure across all three dimensions.
+A red team engagement is, on paper, about finding vulnerabilities. Viewed through PSL, it is a live demonstration of systemic failure across [all three dimensions](three-domains.md).
 
 ## Where most engagements go
 
@@ -14,13 +14,13 @@ The result is a technically sophisticated piece of work that produces no change.
 
 ## PSL-aligned security work
 
-A PSL-aware approach involves a different scope from the start.
+A [PSL-aware approach](psl-approach.md) involves a different scope from the start.
 
 ### Mapping the real attack surface
 
 Not just systems, but decision paths, ownership gaps, and trust assumptions. Where does responsibility transfer between teams? Where are handoffs informal? Where does someone assume someone else has visibility they do not have?
 
-Ownership ambiguity is a vulnerability class. It is worth reporting as one.
+[Ownership ambiguity is a vulnerability class](../system-effectiveness/applying-sem.md). It is worth reporting as one.
 
 ### Reporting organisational findings alongside technical ones
 
@@ -38,14 +38,7 @@ When pushback comes on a finding, it is not noise to be managed. It is data abou
 
 ## The uncomfortable conclusion
 
-Many organisations do not have a security problem in the narrow technical sense. They have a problem-solving problem. The vulnerabilities that remain open the longest are not open because nobody could write the fix. They are open because the conditions required to act on them do not exist.
+Many organisations do not have a security problem in the narrow technical sense. They have a problem-solving problem. The vulnerabilities that remain open the longest are not open because nobody could write the fix. They are open because [the conditions required to act on them](../../purple/whether-you-are-ready.md) do not exist.
 
 PSL is useful in security precisely because it refuses to treat that observation as someone else's problem.
 
-## Related
-
-- [The three domains of problem solving](three-domains.md)
-- [Practical problem solving behaviours for security leaders](psl-approach.md)
-- [Applying SEM to security](../system-effectiveness/applying-sem.md)
-- [Whether you are ready](../../purple/whether-you-are-ready.md)
-- [Building a SIRT](../../incident-response/sirt/purpose.md)

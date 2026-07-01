@@ -28,3 +28,7 @@ makers, regulators, and mixed technical and non-technical groups in the same roo
 them speak openly about failure and pressure without pointing at a real location, and recognise the pattern
 without the defensive reaction the real one would trigger. The game ends the way the job does, with no victory
 screen: "You served your term. Here is what happened."
+
+That is incident response one level up from the console: the same fail-safely rehearsal the
+[incident-response](../../incident-response/index.rst) exercises run for responders, played instead by the
+people who set the budget and carry the consequences.

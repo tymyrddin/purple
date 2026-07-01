@@ -21,7 +21,7 @@ that the model is wrong in a way the system keeps trying to correct and the docu
 The remedy may not be a more thorough exercise. It may be updating the model the document
 encodes, and treating exercise findings as model failures rather than commentary.
 
-The SEM question for a continuity plan: when was the last time each load-bearing assumption in
+A SEM question for a continuity plan: when was the last time each load-bearing assumption in
 this document was validated against operational reality, and which of those assumptions, if
 wrong, would invalidate the rest of the plan?
 

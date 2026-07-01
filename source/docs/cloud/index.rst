@@ -1,9 +1,10 @@
-Cloud security in four cuts
+Cloud security
 ============================================
 
-Modern cloud security is mostly four things:
-visibility problems, control-plane warfare, automation trust, and
-identity-centric compromise. The pages below take each thematic angle in turn.
+Modern cloud security comes down mostly to four things: visibility problems, control-plane warfare,
+automation trust, and identity-centric compromise. They overlap more than they separate. The pages that follow
+work through the specific problems, from the shared-responsibility fiction that sets the terms to the one-click
+blast radius that ends them.
 
 These pages frame each angle as a cross-vector problem, the place where attack and defence meet. The
 attacker's tradecraft for the same ground is in the red notes on

@@ -10,7 +10,9 @@ not a training problem, it is a conditions problem. These exercises and playbook
 to surface that gap before it matters: to make the assumptions visible, the authority questions
 explicit, and the coordination failures cheap. The scenario playbooks are not scripts to follow
 but environments to fail in safely, so that what the organisation learns about itself costs
-nothing except time.
+nothing except time. The same idea runs one level up in
+:doc:`Lord Vetinari's Dilemma </docs/crucible/games/ankh-crisis-sim>`, an exercise for the people who set the
+budget rather than the ones at the console.
 
 .. toctree::
    :glob:

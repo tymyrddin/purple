@@ -25,11 +25,11 @@ script. A runbook carries a single procedure that runs the same every time, line
 consistency is the whole point and improvisation is the failure. A playbook the people who will run it built
 together tends to get followed; one written by a single hand and filed tends not to.
 
-The cases rhyme. A ransomware run where the credential-dumping was caught and contained fast, and the finding
-that earned the exercise was the one nobody had planned for: the backup restore had never been tested at the
-scale a real incident would need. An insider run where the behavioural analytics worked but arrived hours in,
-and the early collection passed as ordinary access. In both, the loud part went roughly as hoped, and the
-quiet gap, the untested recovery, the slow baseline, was the thing worth the afternoon.
+The cases rhyme. A ransomware run where the credential-dumping was caught and contained fast, and the gap
+nobody had planned for was the backup restore, never tested at the scale a real incident would need. An
+insider run where the behavioural analytics worked but arrived hours in, while the early collection passed as
+ordinary access. In both, the loud part went roughly as hoped. The quiet gap was elsewhere: the untested
+recovery, the slow baseline.
 
 ## Related
 

@@ -1,9 +1,9 @@
 # The Satir Change Model in practice
 
-The Satir Change Model earns its place in ChangeShop because it names the phase where change most often dies.
+The [Satir Change Model](../organisational-development/satir-change-model.md) earns its place in ChangeShop because it names the phase where change most often dies.
 Not because the destination was wrong, and not because the people involved were incompetent or obstructive.
 Because organisations reach the chaos phase, interpret the drop in performance as evidence of failure, and
-retreat to the old status quo before the new one has had time to form.
+[retreat to the old status quo](why-change-fails.md) before the new one has had time to form.
 
 This pattern is consistent across contexts. It appears in infrastructure migrations, security programme overhauls,
 team restructures, and phishing simulation redesigns. The surface details differ. The shape does not.
@@ -14,12 +14,12 @@ Chaos in the Satir model is not a sign that something has gone wrong in the impl
 feature of real change. Old habits no longer work. New habits are not yet established. People are operating in
 the gap between them, and performance reflects that.
 
-In a pipeline rollout, chaos looks like this: deployments break for reasons that are not immediately clear,
+In a [pipeline rollout](../../systems-architecture/pipeline.md), chaos looks like this: deployments break for reasons that are not immediately clear,
 access permissions block work that was previously unblocked, someone re-introduces the manual workaround that the
 pipeline was supposed to replace. Pipelines are re-run without knowing why they failed. YAML is debugged at
 unreasonable hours. The staging environment is wiped by accident, or production, if the project is ambitious.
 
-In a phishing programme redesign, it looks like this: click rates rise when realistic techniques replace
+In a [phishing programme redesign](../../social-engineering/why-simulations-fail.md), it looks like this: click rates rise when realistic techniques replace
 obvious simulations. Credential submissions appear in systems where none existed before. The SOC receives more
 noise. Reporting pipelines are tested by actual activity and frequently break. Staff who previously felt
 competent discover that they cannot reliably distinguish safe from unsafe.
@@ -59,7 +59,7 @@ facilitator, and they reduce the perceived risk of committing to the change.
 During the chaos phase, the metrics will look worse. This is the correct reading of the situation, not a failure
 of measurement.
 
-A phishing programme that moves from obvious simulations to realistic techniques usually produces higher click rates
+A [phishing programme](../../social-engineering/phishing-programme.md) that moves from obvious simulations to realistic techniques usually produces higher click rates
 at first. This is not evidence that staff have got worse at recognising phishing. It is evidence that the previous
 programme was measuring recognition of yesterday's scams rather than resilience against current ones. The worse
 metrics are more accurate metrics.
@@ -84,10 +84,3 @@ organisation would prefer to believe it is in.
 The Satir model does not say how to design the change. It shows where support is needed and what
 the pressure to abandon the change actually means. That is the part many change efforts fail to account for.
 
-## Related
-
-- [The Satir Change Model](../organisational-development/satir-change-model.md)
-- [Why security change stalls](why-change-fails.md)
-- [Why simulations fail](../../social-engineering/why-simulations-fail.md)
-- [The pipeline as a change](../../systems-architecture/pipeline.md)
-- [Building a phishing programme that actually works](../../social-engineering/phishing-programme.md)

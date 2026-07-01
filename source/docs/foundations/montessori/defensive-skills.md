@@ -9,22 +9,22 @@ the defender something.
 Knowing what monitoring exists is what makes an operation realistic; it is the difference between testing the gaps that
 count and burning effort on techniques no defender could ever catch. It also sharpens feedback. "We got domain admin"
 is a good deal less useful than "lateral movement over WMI went undetected, because X." Speaking the blue team's
-language, and understanding their constraints, tools, and priorities, turns an engagement into a collaboration rather
+language, and understanding their constraints, tools, and priorities, [turns an engagement into a collaboration](../../purple/running-the-loop.md) rather
 than a scorecard. And over a career, red teamers who understand defence often make better leaders and architects,
 having seen both halves of the board.
 
 ## Core defensive concepts
 
-The ground to cover is roughly four-layered. Detection spans the network (IDS/IPS, NDR), the endpoint (EDR, AV), the
+The ground to cover is roughly four-layered. [Detection spans the network](../../incident-response/soc/detection.md) (IDS/IPS, NDR), the endpoint (EDR, AV), the
 application (logs, APM), identity (authentication monitoring), and cloud (cloud-native SIEM). Response runs through
 triage, containment, eradication, and recovery, and carries its own logic, which is why defenders cannot simply "delete
 the malware" and move on. Operational constraints are the texture of the work: round-the-clock monitoring limits, alert
 fatigue, false positives, competing priorities, thin resources. And visibility has edges worth knowing: what gets
-logged and what does not, how long it is kept, what a SIEM query can and cannot reach, and where the blind spots lie.
+logged and what does not, how long it is kept, what a SIEM query can and cannot reach, and where blind spots lie.
 
 ## Hands-on exercises
 
-A day in the SOC, around eight hours, puts a red team member alongside an analyst through a full shift: reviewing
+A [day in the SOC](rotation.md), around eight hours, puts a red team member alongside an analyst through a full shift: reviewing
 alerts, investigating suspicious events, working the SIEM and EDR tooling, sitting in on incident response, and feeling
 the actual workload. What it teaches is which detections genuinely work, how long an investigation really takes, what
 information helps and what merely adds noise, and the operational pressure the SOC lives under.
@@ -59,9 +59,3 @@ the ground lets operations be planned around realistic gaps. During, detection o
 pass, along with whatever goes unseen. Afterwards, the most valuable feedback is detection-focused: where exactly the
 blue team could have caught the activity, and help writing the rules that would let them.
 
-## Related
-
-- [Rotation programmes](rotation.md)
-- [Whether it is working](../../purple/whether-it-is-working.md)
-- [SOC detection](../../incident-response/soc/detection.md)
-- [Running the loop](../../purple/running-the-loop.md)

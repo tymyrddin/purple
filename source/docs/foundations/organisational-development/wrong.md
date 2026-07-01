@@ -1,7 +1,7 @@
 # "Do Everything Wrong" workshops
 
 Reverse workshops where participants deliberately do everything "wrong", in this case, insecurely. Learning what not 
-to do by actually doing it "wrong" is memorable, engaging, and can reveal vulnerabilities through practice rather 
+to do by actually doing it "wrong" is [memorable, engaging](../montessori/gamified-scenarios.md), and can reveal vulnerabilities through practice rather 
 than lecture.
 
 ## Workshop format
@@ -114,8 +114,3 @@ Resources: Share quick reference card with common red flags and correct response
 
 Feedback: What was most valuable? What could we do differently next time?
 
-## Related
-
-- [Facilitation](../montessori/facilitation.md)
-- [Gamified scenarios](../montessori/gamified-scenarios.md)
-- [Why simulations fail](../../social-engineering/why-simulations-fail.md)

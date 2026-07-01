@@ -10,7 +10,7 @@ Every person operates within a network of relationships, processes, and expectat
 network, not only from individual character. This means that changing behaviour requires changing the conditions in 
 which people operate.
 
-In security this is an important correction to the framing that treats security failures as personal failures. A 
+[In security this is an important correction](in-security.md) to the framing that treats security failures as personal failures. A 
 developer who took a shortcut was operating in a system that rewarded speed and obscured the consequences of shortcuts. 
 An analyst who missed the alert was operating in a system that produced more alerts than any person could 
 meaningfully triage. Trying to change individual behaviour without changing the system usually produces temporary 
@@ -53,14 +53,8 @@ environment do not reach the people who need to act on it.
 ## Resistance as diagnostic
 
 Satir's approach treats resistance as information about the system rather than as obstruction to be overcome. When 
-people resist a change, they are signalling something about their experience of the current situation and their 
+people [resist a change](satir-change-model.md), they are signalling something about their experience of the current situation and their 
 expectations of the proposed one.
 
-This overlaps directly with ChangeShop: the resistance is a map. The question is what it maps.
+This overlaps directly with [ChangeShop](../change-management/what-it-is.md): the resistance is a map. The question is what it maps.
 
-## Related
-
-- [The Satir Change Model](satir-change-model.md)
-- [Satir OD applied to security work](in-security.md)
-- [What ChangeShop is](../change-management/what-it-is.md)
-- [PSL applied to security work](../problem-solving/in-security.md)

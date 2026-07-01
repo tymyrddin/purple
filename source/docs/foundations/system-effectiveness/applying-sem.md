@@ -1,6 +1,6 @@
 # Applying SEM to security
 
-SEM changes what gets looked at and what questions get asked. The shift is from "what failed" to "what model allowed 
+[SEM](core-triad.md) changes what gets looked at and what questions get asked. The shift is from "what failed" to "what model allowed 
 this to seem acceptable."
 
 ## Vulnerabilities as model failures
@@ -20,10 +20,10 @@ of not patching is higher. Each class of recurring finding has a model underneat
 
 ## Incidents as evidence
 
-Instead of asking what broke in an incident, the SEM question is what belief or assumption was in place that made the 
+Instead of asking what broke in an incident, a SEM question is what belief or assumption was in place that made the 
 outcome unsurprising in retrospect.
 
-Secrets committed to a repository: the surface explanation is developer error. The SEM question is what model allowed 
+Secrets committed to a repository: the surface explanation is developer error. A SEM question is what model allowed 
 this to seem like a low-risk action. Usually: "secrets handling is handled at the infrastructure level" (someone 
 else's model), or "our repo is private" (a model about exposure that may be accurate or may not be), or simply "I did not 
 think about it" (absence of any model at that decision point, which is itself a system design finding about where security 
@@ -31,7 +31,7 @@ thinking is and is not embedded in the workflow).
 
 ## Tools encode assumptions
 
-Every security tool is a materialised model. The model that produced it is encoded in what it detects, what it ignores,
+Every security tool is a [materialised model](../../systems-architecture/architecture-as-model.md). The model that produced it is encoded in what it detects, what it ignores,
 and what it treats as normal.
 
 A SIEM built on a model of "threats are external and anomalous" will systematically miss insider threats and 
@@ -40,8 +40,8 @@ will have gaps in environments where endpoints are ephemeral, containerised, or 
 "misconfigurations are visible and teams will fix them when alerted" will produce an alert backlog that grows until it 
 is ignored.
 
-The SEM question for any tool: when does this model break, and what does the blind spot look like? That blind spot 
-is a finding before an attacker finds it.
+A SEM question for any tool: when does this model break, and what does the blind spot look like? That blind spot 
+is a [finding before an attacker finds it](for-defence.md).
 
 ## Best practices as frozen models
 
@@ -66,9 +66,3 @@ A model that says "this service is internal only" may be accurate for the servic
 exposure through an API gateway. The service is internal. The gateway is not. The model was correct about one layer 
 and silent about the others. In a cloud-native environment, that silence scales.
 
-## Related
-
-- [Systems, models, and errors](core-triad.md)
-- [SEM for defence and red teaming](for-defence.md)
-- [Architecture as model](../../systems-architecture/architecture-as-model.md)
-- [SOC maturity](../../incident-response/soc/maturity.md)

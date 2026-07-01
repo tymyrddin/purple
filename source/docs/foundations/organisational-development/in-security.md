@@ -14,7 +14,7 @@ vulnerability.
 
 ## Security awareness that builds capacity
 
-Much phishing training teaches people to spot last year's attacks, leaving staff confident against threats that are 
+[Much phishing training](../../social-engineering/phishing-programme.md) teaches people to spot last year's attacks, leaving staff confident against threats that are 
 no longer the primary vector while real campaigns move through. QR codes in PDFs, credential harvesting on legitimate 
 cloud services, MFA bypasses via adversary-in-the-middle proxies: these do not look like the examples in the training 
 module.
@@ -31,7 +31,7 @@ detection, consistent reporting, and the organisational habit of paying attentio
 
 ## Designing for how people behave under pressure
 
-Satir's survival stances appear reliably in security incidents. An analyst who follows procedure mechanically in a 
+[Satir's survival stances](satir-core.md) appear reliably in security incidents. An analyst who follows procedure mechanically in a 
 situation that requires judgement (computing). A team lead who does not escalate because the last person who raised 
 a concern was criticised for overreacting (placating). A manager who identifies a responsible individual in the 
 post-incident review because acknowledging a systemic failure feels more threatening (blaming).
@@ -55,9 +55,3 @@ Satir's contribution here is the observation that this is not primarily a policy
 relationship and trust problem. The conditions for honest reporting are built through the accumulated experience of 
 what happens when people are honest, and they are destroyed faster than they are built.
 
-## Related
-
-- [Core ideas of Satir systems OD](satir-core.md)
-- [The Satir Change Model](satir-change-model.md)
-- [Building a phishing programme that actually works](../../social-engineering/phishing-programme.md)
-- [Building a SIRT](../../incident-response/sirt/purpose.md)

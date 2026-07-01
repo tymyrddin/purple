@@ -10,24 +10,24 @@ How long the rotation runs shapes what it can achieve. A short rotation of two t
 observation: learning the daily work, asking questions, noticing the quick wins that are invisible from outside. A
 standard rotation of six to eight weeks allows partial ownership, with real responsibilities carried under a mentor's
 eye and some contribution to live projects. An extended rotation of three to six months is a full role swap, with
-complete accountability for deliverables and the kind of operational experience that only accumulates over time.
+complete accountability for deliverables and operational experience that only accumulates over time.
 
 ## Who rotates, and when
 
 Rotation works best with willing participants. Forced rotations breed resentment, and resentment is not a learning
-state. A baseline of competence in one's own role helps too; cross-training often lands better once the primary role is
+state. A baseline of competence in one's own role helps too; [cross-training often lands better](culture.md) once the primary role is
 no longer a struggle. The rotation also wants to fit the person's own growth goals rather than sit at odds with them,
 and to fall in a period when operations can absorb a temporary reassignment, which rules out critical project phases and
 short-staffed stretches. None of it holds together without both the sending and receiving managers genuinely behind it.
 
 ## Red team into blue team
 
-A red team member moving into blue work is there to understand detection from the defender's side: what the monitoring
+A [red team member moving into blue work](defensive-skills.md) is there to understand detection from the defender's side: what the monitoring
 actually catches, how response procedures run, where operational constraints bite, and where the blind spots sit. The
 work is the ordinary blue work, which is the point: monitoring alerts, investigating suspicious activity, taking part in
 incident response, working with SIEM and EDR tooling, and helping tune detection rules. What comes back is red team
 operations that test realistic gaps rather than theoretical ones, debriefs framed around detection, and a working
-relationship with the blue team that survives the next engagement.
+relationship with the blue team that [survives the next engagement](../../purple/running-the-loop.md).
 
 ## Blue team into red team
 
@@ -54,9 +54,3 @@ sold as permanent; framed as development it stays safe, and now and then a role 
 output does dip during the learning period. That dip is the investment, and over any reasonable horizon it usually pays
 for itself.
 
-## Related
-
-- [Defensive skills for attackers](defensive-skills.md)
-- [Learning culture](culture.md)
-- [Running the loop](../../purple/running-the-loop.md)
-- [SOC maturity](../../incident-response/soc/maturity.md)
