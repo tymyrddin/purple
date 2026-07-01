@@ -1,26 +1,23 @@
-Second foundation
+Notes in the margin
 ============================================
 
 .. image:: /_static/images/uu-library.png
   :alt: A library with floor-to-ceiling shelves. Several people are at tables with books and notebooks open. Nobody is teaching. One person makes notes in the margin of a page. Another has drawn a diagram connecting several open books. The room is quiet and purposeful.
 
-The work in this section does not belong to security specifically. It belongs to the problem of how organisations
-change, learn, and solve the right problems rather than just the obvious ones. Gerald Weinberg developed these ideas
-across decades of work with software teams and organisations under pressure. Virginia Satir developed hers across
-decades of work with families and then with groups of all kinds. The adult Montessori framing draws these threads
-together into a way of designing environments for learning.
+The ways security programmes fail tend to rhyme, and few of them are technical. A finding lands as blame, so the
+report gets softened. The person with authority to change the system is not in the room. The threat model describes
+the network as it was assumed to be eighteen months ago, and the same class of incident arrives on a quarterly cycle.
+None of that is a tooling gap.
 
-None of these are frameworks in the certification sense. They are ways of seeing: lenses that make certain things
-visible that conventional security practice tends to ignore or treat as soft concerns. The political layer of a
-security problem. The communication patterns that prevent honest reporting. The model that has been silently wrong
-for eighteen months and is producing the same class of incident on a quarterly cycle.
-
-Applied to security, these approaches change what gets looked at, what questions get asked, and what counts as a finding.
+Gerald Weinberg spent decades watching software teams work under pressure. Virginia Satir spent hers on how people
+communicate when they feel threatened. The adult Montessori framing turns both into a way of designing places where
+people actually learn. Read together, they change what gets looked at, what gets asked, and what counts as a finding.
 
 .. toctree::
    :maxdepth: 2
    :includehidden:
 
+   ways-of-looking.md
    disclaimer.md
    problem-solving/index
    change-management/index

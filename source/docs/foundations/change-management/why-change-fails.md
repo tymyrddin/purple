@@ -8,7 +8,7 @@ Many security efforts assume that problems are technical, solutions are deployab
 
 People do not comply with security policies because the policies are correct. They comply when the policies are easier than the alternatives, when the consequences of non-compliance are real, and when they trust the people asking them to change their behaviour. None of these conditions is created by a policy document.
 
-## Resistance in practice
+## Patterns of resistance
 
 ChangeShop identifies patterns that appear reliably when change encounters a system that is not ready for it.
 

@@ -1,4 +1,4 @@
-# The First Foundation
+# The first foundation
 
 *Knowledge as survival strategy*
 

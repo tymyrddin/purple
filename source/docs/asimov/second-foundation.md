@@ -1,4 +1,4 @@
-# The Second Foundation
+# The second foundation
 
 *The invisible correction*
 

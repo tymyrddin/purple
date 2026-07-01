@@ -1,4 +1,4 @@
-The three Foundations of Asimov
+The three foundations of Asimov
 ============================================
 
 .. image:: /_static/images/asimovs-foundations.png

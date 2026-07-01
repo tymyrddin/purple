@@ -15,8 +15,8 @@ communication breaks down, trust erodes, and change becomes impossible. In an in
 the difference between a team that surfaces problems early and one that manages upwards until the situation is
 unrecoverable.
 
-The practical implication for building an ISMS is that compliance frameworks describe what an organisation should do,
-but Satir's work describes how people actually behave when asked to do it under pressure. A security culture that
+The practical implication for building an ISMS is that compliance frameworks describe what an organisation is
+expected to do, but Satir's work describes how people actually behave when asked to do it under pressure. A security culture that
 accounts for this can produce procedures that hold in a real incident, awareness programmes that build genuine
 capacity rather than checkbox confidence, and teams that can be honest about what is not working without fear of
 what that honesty will cost them.

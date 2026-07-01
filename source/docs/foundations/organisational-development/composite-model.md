@@ -57,7 +57,7 @@ What the integrated approach produces is an organisation that can see its own fa
 acting on them, and has built the trust and communication patterns that allow problems to surface before they become 
 incidents. That is a different and more durable goal than compliance with a framework.
 
-## Measuring what matters
+## Measuring the durable goal
 
 The metrics that correspond to this model are not the ones many security programmes track.
 

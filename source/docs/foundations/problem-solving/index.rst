@@ -4,9 +4,9 @@ Problem-solving leadership in security
 .. image:: /_static/images/board.png
   :alt: A small group stands around a whiteboard covered in sticky notes and diagrams. One person points at a cluster of notes while others lean in, notebooks open. The atmosphere is focused and slightly chaotic in a productive way.
 
-Problem Solving Leadership (PSL), developed by Gerald and Daniel Weinberg primarily in "Becoming a Technical Leader"
-and the workshop of the same name, is not a framework with certification badges. It is a way of thinking about
-leadership grounded in how people actually solve problems: messily, emotionally, and often irrationally.
+Problem Solving Leadership (PSL), developed by Gerald and Daniel Weinberg in "Becoming a Technical Leader"
+and the workshop of the same name, is a way of thinking about leadership grounded in how people actually solve
+problems: messily, emotionally, and often irrationally.
 
 Leadership in the PSL sense is not about authority. It is about helping a group solve problems effectively,
 especially when those problems are unclear, changing, or deeply human. Weinberg identifies three dimensions that

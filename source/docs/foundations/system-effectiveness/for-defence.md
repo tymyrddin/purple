@@ -20,16 +20,16 @@ Assumptions degrade. The environment changes, the assumption does not, and the m
 without anyone noticing.
 
 Deliberate model testing is not the same as penetration testing. It is asking specific questions: does the isolation 
-we believe exists actually exist? Does the alert we believe fires actually fire against this technique? Does the 
-escalation path we have documented actually work at 2:00?
+believed to exist actually exist? Does the alert believed to fire actually fire against this technique? Does the 
+documented escalation path actually work at 2:00?
 
 This is closer to chaos engineering applied to security assumptions than to a traditional red team engagement. The 
 goal is to make model drift visible before an attacker finds it.
 
 ### Designing for model failure
 
-The working assumption is that the current models are wrong in ways not yet discovered. This is not pessimism; it is an accurate 
-assessment of the state of any complex system.
+The working assumption is that the current models are wrong in ways not yet discovered. In any complex system, some 
+of them are.
 
 The design question is: when a model fails, what is the blast radius? Architectures that segment failure, that limit 
 what a single wrong assumption can reach, and that produce visible signals when assumptions are violated are more 

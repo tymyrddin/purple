@@ -4,7 +4,7 @@ Practice without reflection produces habit rather than understanding. A team tha
 
 Reflection is the mechanism that converts experience into learning. Without it, the hands-on work produces muscle memory for specific scenarios. With it, the same work produces a developing model of how systems behave, what attackers do, and how defences work or fail.
 
-## Reflection in practice
+## After the exercise
 
 Reflection after an exercise is not a debrief where the facilitator explains what the correct approach was. It is a structured conversation that starts from what the participants actually did and experienced.
 

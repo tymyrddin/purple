@@ -1,4 +1,4 @@
-# The Third Foundation
+# The third foundation
 
 *The uncomfortable question*
 

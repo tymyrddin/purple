@@ -7,9 +7,10 @@ also limited in specific ways that are worth being clear about before applying a
 ## Lenses these foundations provide
 
 They offer ways of seeing. The [Satir Change Model](organisational-development/satir-change-model.md) makes the chaos phase of a transition visible and names it
-as structural rather than exceptional. [ChangeShop](change-management/satir-change-model.md) makes the homeostatic resistance of organisations visible and
-names it as systemic rather than personal. [Problem-solving frameworks](problem-solving/index.rst) make the gap between stated problems and
-actual ones visible and name it as the normal starting condition rather than an anomaly.
+as structural rather than exceptional. [ChangeShop](change-management/what-it-is.md) makes the homeostatic resistance of organisations visible and
+names it as systemic rather than personal. [Problem-solving frameworks](problem-solving/index.rst) make the gap between desired state and
+currently perceived state visible, and can help name the problem as the normal starting condition rather than an 
+anomaly.
 
 Applied to security, these lenses change what gets looked at. They make the political layer of a security problem
 visible alongside the technical one. They make communication patterns visible as a factor in whether honest
