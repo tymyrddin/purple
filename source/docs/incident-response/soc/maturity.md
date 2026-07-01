@@ -27,5 +27,5 @@ The no-blame condition: the same [Satir](../../foundations/organisational-develo
 - [Why a SOC exists](purpose.md)
 - [Detection and response](detection.md)
 - [Applying SEM to security](../../foundations/system-effectiveness/applying-sem.md)
-- [Purple team coordination](../../purple/purple-team/coordination.md)
+- [Running the loop](../../purple/running-the-loop.md)
 - [Resilience and system effectiveness](../../audits/resilience/stress-testing.md)

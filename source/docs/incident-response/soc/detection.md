@@ -52,6 +52,6 @@ expects is not in the format the SOC provides.
 - [SOC maturity](maturity.md)
 - [SOC workflows and runbooks](workflows.md)
 - [Why a SIRT exists](../sirt/purpose.md)
-- [Purple team coordination models](../../purple/purple-team/coordination.md)
+- [Running the loop](../../purple/running-the-loop.md)
 - [Knowledge transfer: playbooks](../../knowledge-transfer/playbooks.md)
 - [OT/ICS Threat Intelligence Lab @GitHub](https://github.com/tymyrddin/misp-otics-lab)

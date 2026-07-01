@@ -1,36 +1,39 @@
-# Scenario planning and looking forward
+# Around the corner
 
 ![A large wooden table in a modern sunlit co-working space, covered with hand-drawn maps, vibrant flip charts with coloured sticky notes, and team members in engaged discussion. Large windows flood the room with light.](/_static/images/scenario-planning-and-foresight.png)
 
-*Explore plausible futures, stress-test strategies, and spot trouble before you drive into it: always face-to-face, collaboratively, and with what most digital frameworks ignore.*
+Scenario planning, or looking forward, is not prediction. It is preparation: building a handful of plausible
+futures thoroughly enough to rehearse them, so that when one starts to arrive it is recognised early rather
+than argued over late. All of it is fantasy, data-dressed fantasy, and useful anyway, since the aim is not to
+be right about the future but to be ready for more than one of them.
 
-Scenario planning helps teams look around the corner of tomorrow while accounting for human limits, blind spots, and the state of the world. It combines structured foresight with attention to obliviousness and congruence: surfacing assumptions, misalignments, and gaps between what the team expects and what is actually true.
+The scenarios come two ways. One works downward: take the two forces that are at once most important and least
+certain, cross them, and read off the small set of futures that fall out of the combinations. The other works
+upward: gather the signals, events, and pressures already in play and let them cluster into narratives with no
+frame fixed in advance. Deductive and inductive, and they reach different things, so a session after real
+coverage tends to run both rather than trust either alone. The
+[longer worked version](https://broomstick.tymyrddin.dev/posts/the-art-of-pretending-we-know-whats-coming/)
+sketches a set of these across a security horizon.
 
-The process is deliberately not about predicting the future. It is about developing the team's capacity to think clearly under uncertainty, to notice when current assumptions are being tested, and to have already thought through responses to conditions that have not yet arrived.
+What makes a scenario worth the effort is less the story than its tail: the likely effects if it lands, and
+the measurables and observables that would show it is the one developing. A scenario without its early signals
+is a daydream; a scenario carrying them is a monitoring brief. Those signals are where the work pays off,
+turning a room's imagination into something an organisation can actually keep an eye on.
 
-## The flow
+Two gaps surface along the way, and both tend to outlast the scenarios themselves. The distance between what
+is happening and what a team believes is happening, where the assumptions too obvious to say aloud are usually
+the ones already bending. And the distance between what an organisation says it is ready for and what it has
+actually prepared, which a well-built scenario walks straight into. Naming either is uncomfortable and worth
+the discomfort.
 
-1. Define the focal issue: choose the core question or challenge your organisation wants to explore. Specific enough to be meaningful, open enough to admit genuine uncertainty.
-2. Identify driving forces: map external factors shaping the future. In security, this includes the threat landscape, the regulatory environment, the organisation's own growth trajectory, and the capabilities of likely adversaries.
-3. Spot critical uncertainties: surface the unknowns that could radically alter outcomes. These are the things you cannot control and cannot predict with confidence. They are different from risks, which are known and estimable.
-4. Develop scenarios: sketch distinct, plausible futures based on how the critical uncertainties might resolve. Aim for variety: scenarios that are genuinely different from each other are more useful than variations on the same theme.
-5. Build narratives: craft vivid, concrete descriptions of how events, behaviours, and consequences might unfold in each scenario. A scenario that stays abstract is not useful for planning.
-6. Reflect and act: explore implications for the current strategy and programme, and identify specific preparations for each plausible future.
-7. Monitor and adapt: identify the signals that would indicate which scenario is developing, and build the habit of tracking them.
-
-## Obliviousness and congruence
-
-These two concepts, drawn from [Satir](../foundations/organisational-development/satir-core.md)'s work, give scenario planning its particular character.
-
-Obliviousness is the gap between what is actually happening and what the team believes or perceives is happening. Scenario planning surfaces this by asking teams to state their current assumptions explicitly and then examine them. The assumptions that feel too obvious to mention are usually the ones most worth examining.
-
-Congruence is the alignment between what the team says, what it believes, and what it actually does. Scenarios often reveal incongruences: the organisation says it is prepared for a certain kind of incident but the actual preparations do not match that claim. Making this visible is uncomfortable and useful.
-
-The scenario planning process is most valuable not in the scenarios it produces but in the assumptions and incongruences it forces into the open.
+The yield is not a forecast but adaptive capacity. A team that has rehearsed several futures holds its current
+plan more loosely, reacts less and [responds more](https://broomstick.tymyrddin.dev/posts/resilience/), and
+builds some tolerance for ambiguity before the ambiguity is real. Having imagined the confusion once, it tends
+to meet the real thing with something other than panic.
 
 ## Related
 
-- [Simulations in practice](simulations.md) describes how simulation environments extend scenario planning into a safe consequence space, including the Patrician's Crisis and Smart Grid simulators.
-- [Threat modelling as a workshop process](threat-modelling.md)
-- [Forward-looking security planning](forward-looking.md)
+- [From the end, backwards](backward-planning.md)
+- [Who would come for this](threat-modelling.md)
 - [Crafting scenarios](../threat-modelling/crafting-scenarios.md)
+- [The Crucible](../crucible/index.rst) holds the runnable simulators that carry a scenario into a safe consequence space, the Patrician's Crisis and Smart Grid among them.

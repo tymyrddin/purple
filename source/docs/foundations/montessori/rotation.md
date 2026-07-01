@@ -58,5 +58,5 @@ for itself.
 
 - [Defensive skills for attackers](defensive-skills.md)
 - [Learning culture](culture.md)
-- [Purple team coordination](../../purple/purple-team/coordination.md)
+- [Running the loop](../../purple/running-the-loop.md)
 - [SOC maturity](../../incident-response/soc/maturity.md)

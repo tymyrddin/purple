@@ -50,5 +50,5 @@ different kind of work, and it is what ChangeShop teaches.
 - [The Satir Change Model](../organisational-development/satir-change-model.md)
 - [Why security change stalls](why-change-fails.md)
 - [A ChangeShop-informed approach](approach.md)
-- [Building a purple team](../../purple/purple-team/team.md)
+- [Whether you are ready](../../purple/whether-you-are-ready.md)
 - [Building a SIRT](../../incident-response/sirt/purpose.md)

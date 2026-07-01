@@ -38,5 +38,5 @@ Groups also sometimes produce only the adversaries they feel capable of defendin
 
 ## Related
 
-- [Simulations in practice](../workshops/simulations.md) describes how to run the personas built in this exercise against simulation environments, and how to structure the debrief.
+- [The Crucible](../crucible/index.rst) holds the simulator environments to run these personas against.
 - [Interview and workshop facilitation](../audits/supportive/interview-facilitation.md) covers how the persona workshop technique applies in audit scope-definition and evidence-gathering sessions.

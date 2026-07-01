@@ -71,4 +71,4 @@ producing a more sophisticated version of the same compliance theatre it was mea
 - [The Third Foundation: The uncomfortable question](third-foundation.md)
 - [What ChangeShop was/is](../foundations/change-management/what-it-is.md)
 - [The Satir Change Model](../foundations/organisational-development/satir-change-model.md)
-- [Organisational conditions for purple teaming to produce change](../purple/conditions.md)
+- [Purple teaming](../purple/index.rst)

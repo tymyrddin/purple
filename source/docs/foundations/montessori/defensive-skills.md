@@ -62,6 +62,6 @@ blue team could have caught the activity, and help writing the rules that would 
 ## Related
 
 - [Rotation programmes](rotation.md)
-- [Building blue team capability](../../purple/blue/capability.md)
+- [Whether it is working](../../purple/whether-it-is-working.md)
 - [SOC detection](../../incident-response/soc/detection.md)
-- [Purple team coordination](../../purple/purple-team/coordination.md)
+- [Running the loop](../../purple/running-the-loop.md)

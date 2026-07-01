@@ -34,4 +34,4 @@ The map is correct at the time it is drawn and begins drifting immediately. Mark
 
 ## Related
 
-[Simulations in practice](../workshops/simulations.md) describes how to use simulator environments to test the paths mapped in this exercise, including the Power and Light and ICS simlab environments.
+The [Crucible](../crucible/index.rst) holds the simulator environments for testing the paths mapped here, the ICS access lab among them.

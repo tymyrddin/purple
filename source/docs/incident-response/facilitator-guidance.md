@@ -31,8 +31,6 @@ The conditions in the debrief reflect the conditions in the organisation. A debr
 Action items that come out of the debrief need owners, timelines, and a distinction between procedural fixes and structural ones. A runbook update is a procedural fix. A change to decision authority, escalation paths, or cross-team coordination is structural. If the action list is entirely procedural, the exercise found symptoms rather than conditions.
 
 ## Related
-
-- [Simulations in practice](../workshops/simulations.md)
 - [Facilitation over instruction](../foundations/montessori/facilitation.md)
 - [Core ideas of Satir systems OD](../foundations/organisational-development/satir-core.md)
 - [Coordination and communication](../engagement/coordination.md)

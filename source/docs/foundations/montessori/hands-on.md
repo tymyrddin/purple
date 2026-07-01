@@ -33,5 +33,4 @@ This is not a large production effort if the library is designed for modularity.
 - [The prepared environment](prepared-environment.md)
 - [CTFs as learning environments](ctf-value.md)
 - [Reflection and feedback loops](reflection.md)
-- [Scenario labs](../../workshops/scenario-labs.md)
-- [Live experiments](../../workshops/live-experiments.md)
+- [The Crucible](../../crucible/index.rst)

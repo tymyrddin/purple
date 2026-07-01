@@ -40,4 +40,3 @@ This is worth naming directly rather than assuming it will happen by default.
 - [The prepared environment](prepared-environment.md)
 - [Roleplay in organisational development](../organisational-development/roleplay.md)
 - [Incident response facilitator guidance](../../incident-response/facilitator-guidance.md)
-- [Simulations in practice](../../workshops/simulations.md)

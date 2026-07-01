@@ -47,5 +47,5 @@ PSL is useful in security precisely because it refuses to treat that observation
 - [The three domains of problem solving](three-domains.md)
 - [Practical problem solving behaviours for security leaders](psl-approach.md)
 - [Applying SEM to security](../system-effectiveness/applying-sem.md)
-- [Building a purple team](../../purple/purple-team/team.md)
+- [Whether you are ready](../../purple/whether-you-are-ready.md)
 - [Building a SIRT](../../incident-response/sirt/purpose.md)

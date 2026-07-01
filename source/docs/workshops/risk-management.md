@@ -1,34 +1,30 @@
-# Risk management as a workshop process
+# What gets protected first
 
-Risk management is a structured process for deciding what to protect, understanding what threatens it, and making deliberate choices about where to invest limited capacity. Done as a series of workshops rather than as a documentation exercise, it produces decisions that the people responsible for them actually understand and own.
+Risk management decides what is worth protecting, what realistically threatens it, and where limited capacity
+goes. Run as a series of workshops rather than a document, it produces decisions the people accountable
+for them actually understand and own. The full process lives in
+[its own section](../risk-management/risk-assessment.md); what follows is where it sits among the analytical
+processes.
 
-The full risk management process lives in its own section of this documentation. What follows is its place in the family of analytical processes.
+Its familiar failure is not analytical. A risk assessment can describe the landscape accurately and then be
+set quietly aside, not because the description was wrong but because nothing was in place to act on it: no one
+owned the decisions, nothing rewarded reducing risk, and the whole thing was pitched at an audience of
+auditors rather than at the people doing the work. An assessment that takes those conditions seriously tends
+to produce something more durable than one that only gets the numbers right.
 
-## Character of the process
+It draws on the others and hands off to them. Threat modelling supplies the adversaries and the paths; risk
+management asks which of them an organisation will actually address, in what order, and how. A forward-looking
+session feeds it the risks that are still forming, the ones an assessment updated only after incidents will
+always trail. And working back from a desired posture is how a treatment plan finds its order and its likely
+obstacles.
 
-Risk management works with the organisation's assets and asks which threats are realistic, how likely they are to materialise, and what the impact would be. This makes it the process for translating the outputs of [threat modelling](../threat-modelling/choreography.md) and scenario planning into prioritised action.
-
-The [ChangeShop](../foundations/change-management/index.rst) framing applies directly here. Risk management processes often produce documentation that accurately describes the organisation's risk landscape and is then quietly set aside. The documentation was not the problem. The conditions for acting on it were not in place: no one owned the decisions, the incentive structures did not reward risk reduction, and the process was designed for a compliance audience rather than for the people doing the work. A risk management process that accounts for these dynamics produces different and more durable outputs.
-
-## Where it fits with the other processes
-
-Threat modelling identifies the attack paths and the adversaries. Risk management uses those findings to ask: given what we know about how this organisation works, which of these threats are we actually going to address, in what order, and with what approach?
-
-The forward-looking process feeds into risk management by surfacing emerging risks that the current assessment does not yet cover. A [risk register](../risk-management/risk-register.md) that is only updated in response to incidents is always behind the threat landscape. A risk management programme that includes a regular forward-looking session can identify and account for risks that are developing but have not yet materialised.
-
-Backward planning is useful within risk management for the treatment planning step: starting from the desired risk posture and working backwards to identify what needs to change, in what order, and what obstacles are likely to appear along the way.
-
-## Running it as a workshop
-
-The risk management section of this documentation covers the full process: asset identification, vulnerability identification, risk assessment, treatment options, the risk register, risk modelling, and the path to operations. These are designed to be worked through with the people who know the organisation's assets and the people who are responsible for protecting them.
-
-The workshop format is not optional here. Risk assessments that happen in isolation from the people who operate the assets they describe are assessments of a model of the organisation, not the organisation itself. The workshops surface the gap between the documented architecture and the lived reality, and that gap is usually where the most important risks are.
-
-The SEM connection is central: risk management is an ongoing process of testing and updating models. A risk register that is reviewed annually is a risk register that is wrong eleven months of the year. The goal of a well-designed risk management process is to make [model drift](../foundations/system-effectiveness/core-triad.md) visible and to shorten the cycle between when reality changes and when the assessment reflects that change.
+The habit is the whole of it. A register reviewed once a year is out of date for most of the year; the aim is
+to shorten the gap between when reality moves and when the assessment notices, which asks for a shorter cycle
+and a room that holds the people who actually operate the assets, not a model of them.
 
 ## Related
 
-- [Threat modelling as a workshop process](threat-modelling.md)
-- [Forward-looking security planning](forward-looking.md)
+- [Who would come for this](threat-modelling.md)
+- [Around the corner](scenario-planning.md)
 - [Risk assessment](../risk-management/risk-assessment.md)
 - [Risk register](../risk-management/risk-register.md)

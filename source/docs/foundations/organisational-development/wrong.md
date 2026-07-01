@@ -119,4 +119,3 @@ Feedback: What was most valuable? What could we do differently next time?
 - [Facilitation](../montessori/facilitation.md)
 - [Gamified scenarios](../montessori/gamified-scenarios.md)
 - [Why simulations fail](../../social-engineering/why-simulations-fail.md)
-- [Simulations in practice](../../workshops/simulations.md)

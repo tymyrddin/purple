@@ -1,4 +1,4 @@
-Crucible
+The crucible
 ===============================================
 
 The crucible is where the charge goes in and the heat gets applied. Everything here is run, not read: a
@@ -16,3 +16,4 @@ has finally seen it happen.
    demos/index
    roleplays/index
    games/index
+   purple-teaming

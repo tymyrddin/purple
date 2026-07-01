@@ -1,37 +1,25 @@
-# Backward planning with obstacle avoidance
-
-*Work backwards from your goals to surface dependencies, anticipate obstacles, and design smarter steps: always face-to-face, collaboratively, and with what most frameworks miss.*
+# From the end, backwards
 
 ![A wall-sized whiteboard displaying a backward planning process diagram. On the left, a box labelled "Currently Perceived State" is filled with chaotically placed blue sticky notes. On the right, a box labelled "Desired State" is filled with more orderly yellow sticky notes.](/_static/images/backward-planning.png)
 
-Backward planning starts with the desired end state and works in reverse. This reveals hidden dependencies, potential blockers, and early opportunities for contingency before they become problems. The process incorporates what most planning methods ignore: energy, timing, and blind spots, ensuring plans are grounded in how the work actually happens rather than how it is imagined to happen.
+Most planning starts where a team is and pushes forward. Backward planning starts at the finish, a clear
+picture of what success looks like and how it would be recognised, and works back toward the present. The
+reversal does something forward planning rarely manages: it exposes the dependencies and the blockers while
+there is still room to design around them, rather than meeting them one at a time on the way.
 
-The Weinberg connection here is direct. The currently perceived state is a model. The desired state is another model. Working backwards between them surfaces the assumptions embedded in both: what do we believe is true now, what do we believe success looks like, and what conditions are we assuming will hold along the way? Those assumptions are the first things to test.
+Both ends are guesses worth examining. The current state, as a team perceives it, is one model; the desired
+state is another; and the path between them rests on a run of conditions the plan quietly assumes will hold.
+Working backwards drags those assumptions into the open, which is where the testing starts: what is believed
+true now, what success is being taken to mean, and what has to stay true along the way.
 
-## The flow
-
-1. Define the states: describe the currently perceived state honestly and clarify what success looks like and how you would recognise it when you reach it.
-2. Identify milestones and dependencies: map what must come before each milestone and who or what it relies on.
-3. Surface obstacles: anticipate risks, blockers, and challenges along the path. Include the human ones: whose buy-in is needed, where energy will be low, where resistance is likely.
-4. Develop contingencies: design flexible responses to each obstacle rather than a single fixed plan.
-5. Step forward: translate the backward map into practical, forward-acting steps with owners and timelines.
-6. Review and adapt: continuously monitor progress, reassess the assumptions embedded in the plan, and adjust actions when the model diverges from reality.
-
-Each step produces usable insight on its own. Together they create a planning practice that accounts for the system rather than just the task.
-
-## "Obstacle avoidance", defined
-
-Obstacle avoidance in this process is not about eliminating obstacles. Many cannot be eliminated. It is about naming 
-them before they appear so that the team has thought through a response and is not improvising under pressure.
-
-The human obstacles are the ones most often omitted from plans and most often responsible for derailment. Who will 
-resist this change and why? Whose co-operation is required but not yet secured? Where will the team's energy be 
-lowest and what does the plan ask of people at that moment? These questions belong in the planning process, not in 
-a post-mortem or retrospective.
+The obstacles worth the most attention are the human ones, and they are the ones most often left out. Who will
+resist this, and why. Whose co-operation the plan needs and does not yet have. Where the energy will be
+lowest, and what the plan asks of people exactly there. Naming an obstacle before it appears does not remove
+it, and many cannot be removed; it is the difference between having thought through a response and improvising
+one under pressure. These belong in the plan, not in the retrospective that later explains why it stalled.
 
 ## Related
 
-- [Forward-looking security planning](forward-looking.md)
-- [Risk management workshop](risk-management.md)
-- [Scenario planning](scenario-planning.md)
-- [Why security change stalls](../foundations/change-management/why-change-fails.md)
+- [Around the corner](scenario-planning.md)
+- [What gets protected first](risk-management.md)
+- [Around the corner](scenario-planning.md)

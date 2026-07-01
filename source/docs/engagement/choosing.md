@@ -12,7 +12,7 @@ about it.
 
 ## Surface the desired state first
 
-A [forward-looking workshop](../workshops/forward-looking.md) is a good starting point. It asks what the organisation 
+A [scenario planning workshop](../workshops/scenario-planning.md) is a good starting point. It asks what the organisation 
 wants to be able to do that it cannot do today, what the threat landscape looks like in twelve to eighteen months, 
 and what conditions would need to be true for the security programme to be considered genuinely adequate.
 
@@ -23,7 +23,7 @@ on. Those assumptions are the first things worth examining.
 
 ## Surface the current state honestly
 
-A [temperature reading retrospective](../workshops/retrospectives.md) surfaces the currently perceived state: what is 
+A [retrospective](../workshops/retrospectives.md) surfaces the currently perceived state: what is 
 actually working, what is not, where energy is low, what people know but have not said in a formal setting. It is 
 distinct from a report or a maturity assessment because it captures experience, not just compliance status.
 
@@ -59,8 +59,8 @@ It is how capable organisations work: iteratively, with each intervention produc
 
 ## Related
 
-- [Forward-looking processes](../workshops/forward-looking.md)
-- [Temperature reading retrospectives](../workshops/retrospectives.md)
+- [Around the corner](../workshops/scenario-planning.md)
+- [The other timeline](../workshops/retrospectives.md)
 - [Backward planning with obstacle avoidance](../workshops/backward-planning.md)
 - [What ChangeShop is](../foundations/change-management/what-it-is.md)
 - [PSL applied to security work](../foundations/problem-solving/in-security.md)

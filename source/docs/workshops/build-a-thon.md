@@ -1,56 +1,31 @@
-# Build-a-thon
+# Building something real
 
-A build-a-thon is a focused collaborative event in which a security team spends concentrated time building something real: a detection rule, a playbook, a sandboxed exercise, a monitoring dashboard, a shared reference that has been needed for months but never quite prioritised. The output is something usable, not a slide deck or a proposal.
+A build-a-thon is a focused, collaborative event where a team spends concentrated time building something real
+and usable: a detection rule, a response playbook, a sandboxed exercise, a monitoring view, the shared
+reference that has been needed for months and never quite reached the top of anyone's list. The output is a
+thing that works, not a slide about a thing that might.
 
-The distinction from a hackathon is one of orientation. Hackathons tend to reward novelty and produce prototypes that 
-do not survive contact with the production environment. A build-a-thon is oriented toward operational usefulness: 
-things that will actually be used by the team, in the actual environment, after the event ends.
+What separates it from a hackathon is orientation. A hackathon rewards novelty and tends to leave behind
+prototypes that do not survive contact with production. A build-a-thon is pointed the other way, at what the
+team will still be using in the real environment after the room empties. The candidates that suit it are
+genuinely needed, clearly scoped, and buildable in the time by the people present: detection content for a
+technique a real adversary uses and current monitoring misses; a playbook for a likely scenario, or one the
+existing procedure handled badly last time; a lab scenario built on real conditions; a small piece of
+automation the team will actually maintain rather than abandon the month its author is away.
 
-## Candidate builds
+Two things carry it, and both come before the building. The list is drawn from what the team has wanted to
+build and never had time for, chosen by the people in the room rather than nominated from above, so it
+reflects what is felt as useful rather than what is assumed to be. And the environment is ready before the
+start, access granted, documentation to hand, nothing needed left waiting on a permission, since a build-a-thon
+that spends its first hours getting set up has lost its momentum before the work begins.
 
-The best candidates for a build-a-thon are things that are genuinely needed, clearly scoped, and buildable within the 
-time available by the people in the room.
-
-Detection content: rules, queries, or correlation logic for techniques that are known to be used by relevant 
-adversaries but are not yet covered by existing monitoring. Purple team exercises and [threat modelling](../threat-modelling/choreography.md) sessions are 
-natural sources for this list.
-
-Playbooks: documented response procedures for scenarios that are likely but not yet covered, or for scenarios where 
-the existing procedure has been found inadequate in a retrospective or exercise. A playbook built by the people who 
-will use it, during a session where they can work through the logic together, is more likely to be followed than one 
-written by a single analyst.
-
-Exercises and lab scenarios: prepared environments for future training, modelled on real techniques and real conditions. These take time to build well, and a build-a-thon creates the protected time and the collaborative conditions that make building them feel worthwhile.
-
-Tooling and automation: scripts, workflows, or integrations that reduce the friction in a commonly performed task. The constraint here is that the output needs to be something the team will actually maintain, not something that works on the day and is abandoned a month later when the person who built it is unavailable to fix it.
-
-## Preparing the event
-
-Gather proposals in advance. Ask the team what they have wanted to build but have not had time for. Collect the list, group related items, and let the team vote or select on the day. This surfaces what is actually felt as useful rather than what a manager believes is useful.
-
-Prepare the environment before the event starts. A build-a-thon where the first three hours are spent getting access to systems, finding documentation, or waiting for permissions to be granted is a build-a-thon that has lost its momentum before the work begins. This is the [Montessori](../foundations/montessori/index.rst) prepared environment principle applied directly: everything needed is accessible without ceremony.
-
-Set a clear finishing condition. Each project benefits from a stated definition of done that is achievable within the time available. "Finished enough to be useful" is a legitimate bar.
-
-## Running it
-
-Organise in small groups of two to four, each working on a single project. Mixing skills is useful: a detection engineer and an analyst working on a detection rule together produce something more operationally grounded than either would alone.
-
-Keep interruptions minimal. The value of the build-a-thon is the protected time and attention. The event works best treated as genuinely protected, not as a day where people also attend their normal meetings.
-
-Hold a brief mid-event check-in to surface projects that are stuck and may need rescoping, and to share early progress across the groups. Progress is contagious. Seeing that other teams are producing real things helps groups that are slower to get started.
-
-## Closing and handover
-
-End with each group presenting what they built in ten minutes or less: what it is, what problem it addresses, and how to use it. Keep the presentations functional rather than polished.
-
-The handover is critical. Anything built during the event needs a clear owner, a home in the relevant documentation or repository, and a brief note on what conditions would indicate that it needs updating. A build-a-thon that produces things that live only on the laptops of the people who built them has produced activity rather than capability.
-
-A retrospective using the rapid retrospective format closes the event. What got built? What did not get finished and why? What would make the next one better?
+The other half is the handover. Anything built needs an owner, a home in the documentation or the repository,
+and a line on what would signal it needs updating. Groups of two to four, mixed in skill, tend to produce
+something more grounded than any of them would alone, and a short, functional show-and-tell at the end shares
+it around. What lives only on the laptop of whoever built it was activity, not capability.
 
 ## Related
 
-- [Rapid retrospectives](rapid-retrospectives.md)
-- [The prepared environment](../foundations/montessori/prepared-environment.md)
+- [The other timeline](retrospectives.md)
 - [Knowledge transfer: playbooks](../knowledge-transfer/playbooks.md)
-- [Patch sprint](patch-sprint.md)
+- [Clearing the backlog](patch-sprint.md)

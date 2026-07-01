@@ -61,6 +61,4 @@ facilitator who is attending to the emotional and political layers of the room, 
 ## Related
 
 - [Core ideas of Satir systems OD](satir-core.md)
-- [Facilitation](../montessori/facilitation.md)
-- [Simulations in practice](../../workshops/simulations.md)
-- [Incident response facilitator guidance](../../incident-response/facilitator-guidance.md)
+- [Facilitation](../montessori/facilitation.md)- [Incident response facilitator guidance](../../incident-response/facilitator-guidance.md)

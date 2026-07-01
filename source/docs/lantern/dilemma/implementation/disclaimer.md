@@ -34,4 +34,4 @@ Outcomes in the simulation are illustrative, not prescriptive.
 
 ## Related
 
-[Simulations in practice](../../../workshops/simulations.md) describes what simulation environments are for and how to structure sessions using the Patrician's Crisis simulator and others.
+The [Crucible](../../../crucible/index.rst) holds the runnable simulators these sessions draw on, the Patrician's Crisis game among them.

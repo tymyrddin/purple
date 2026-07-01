@@ -55,4 +55,4 @@ is likely to be managed, not collaborated with. That is a capability gap.
 - [PSL applied to security work](in-security.md)
 - [The three domains of problem solving](three-domains.md)
 - [Core ideas of Satir systems OD](../organisational-development/satir-core.md)
-- [Making of a purple team](../../purple/purple-team/team.md)
+- [Whether you are ready](../../purple/whether-you-are-ready.md)

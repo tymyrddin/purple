@@ -1,29 +1,22 @@
-# Collaborative playbooks
+# Playbooks the team will follow
 
-Turn exercise insights into living team practices.
+A playbook written by one analyst and filed away is a document. A playbook worked out by the people who will
+run it, from what an exercise or a real incident just taught them, is a practice. The difference shows the
+first time something goes wrong at speed: the second one is likelier to get followed, because the people
+following it helped decide what it says.
 
-## On collaborative playbooks
+So the material comes from what already happened. A scenario lab that stalled at a particular handoff, a live
+experiment where the runbook described a system that had moved on, a retrospective that named the decision
+nobody owned: each of those is a playbook waiting to be written down. What belongs in it is the small set of
+actions and decision points that carried the weight, who holds which call, and the responses that worked,
+kept short, specific to the team, and revisited as things change rather than frozen the day they were agreed.
 
-- Exercises only matter if their lessons are applied.
-- Playbooks capture what works, what fails, and how to respond, giving teams ready-to-use guidance for real operations.
-
-## Exercise instructions
-1. Review observations and lessons from scenario labs, live experiments, and retrospectives.  
-2. Document:  
-   - Key actions and decision points  
-   - Mitigation strategies  
-   - Roles and responsibilities  
-3. Keep it simple, team-specific, and practical.  
-4. Share and review regularly as situations evolve.
-
-## Outcome
-
-Teams leave with actionable playbooks that reflect real learning, making risk management part of everyday operations.
+Kept that way, a playbook stops being shelf-ware and becomes part of how the team actually operates, and the
+loop from exercise to practice to the next exercise closes instead of leaking away.
 
 ## Related
 
 - [Knowledge transfer: playbooks](../knowledge-transfer/playbooks.md)
 - [Knowledge transfer: workflows](../knowledge-transfer/workflows.md)
 - [Incident response choreography](../incident-response/choreography.md)
-- [Reflection and feedback loops](../foundations/montessori/reflection.md)
-- [Purple session sequence](../purple/sessions.md)
+- [Running the loop](../purple/running-the-loop.md)
