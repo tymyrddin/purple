@@ -1,5 +1,7 @@
 # Heimdallr
 
+![Heimdallr](/_static/images/heimdallr.png)
+
 [Heimdallr](https://github.com/tymyrddin/heimdallr) is a place to try detection engineering rather than read
 about it. It runs OpenSearch and Sigma locally: load a JSONL dataset, write or import a Sigma rule, run it,
 and see exactly what fired and what did not, scoped per dataset so a rule reveals whether it is specific or
