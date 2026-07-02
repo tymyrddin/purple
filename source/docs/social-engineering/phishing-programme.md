@@ -1,6 +1,6 @@
 # Building a phishing programme
 
-The redesign of a phishing simulation programme follows the Satir arc described elsewhere in these foundations.
+The redesign of a phishing simulation programme follows the [Satir arc](../foundations/organisational-development/satir-change-model.md) described elsewhere in these foundations.
 This page covers what each phase looks like in practice, and what a programme built on genuine attacker
 techniques requires to operate.
 
@@ -33,7 +33,7 @@ failure. Either the technique needs updating to reflect current evasion tactics,
 job and that vector is already well defended. Both outcomes are useful.
 
 Tools such as Gophish can manage campaign delivery. Templates are built from current threat intelligence rather
-than a static library: what is actively being used against organisations like yours, now. Public sources
+than a static library: what is actively being used against comparable organisations, now. Public sources
 suffice if curated carefully: vendor threat reports, incident diaries, sandbox submissions, sector-specific
 advisories. A brief introduction at each session explains the origin of the technique, why it is effective, and
 why it is harder to detect than last year's examples. Context improves retention.
@@ -90,10 +90,3 @@ detection gaps become tuning cases rather than abstract concerns.
 
 This is no longer a training programme measured by a click-rate chart. It is a continuous, live test of the
 organisation as a system, detection, reporting, response, and adaptation all running together.
-
-## Related
-
-- [The Satir Change Model](../foundations/organisational-development/satir-change-model.md)
-- [The Satir Change Model in practice](../foundations/change-management/satir-change-model.md)
-- [Why simulations fail](why-simulations-fail.md)
-- [Attack simulation runbooks](https://blue.tymyrddin.dev/docs/ngo/awareness/attack-simulation)

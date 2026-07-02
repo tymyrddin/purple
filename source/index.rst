@@ -67,8 +67,8 @@ where that happens, and the resilience disciplines are how it lasts past the exe
    :includehidden:
 
    docs/purple/index
-   docs/incident-response/index
    docs/social-engineering/index
+   docs/incident-response/index
    docs/risk-management/index
    docs/continuity/index
    docs/resilience/index
