@@ -81,5 +81,5 @@ was not the right question.
 
 - [Architecture as model](architecture-as-model.md)
 - [SEM for defence and red teaming](../foundations/system-effectiveness/for-defence.md)
-- [Audits and resilience: beyond compliance](../audits/resilience/beyond-compliance.md)
-- [Resilience stress testing](../audits/resilience/stress-testing.md)
+- [Audits and resilience: beyond compliance](../resilience/beyond-compliance.md)
+- [Resilience stress testing](../resilience/stress-testing.md)

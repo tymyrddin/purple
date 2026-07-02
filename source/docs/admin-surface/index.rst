@@ -9,14 +9,13 @@ patient cross-reading turn that publication regime into: a targeting picture for
 search narrowing for a sabotage planner, queue ordering for a pre-conflict state. Collection is
 expensive and sometimes detectable. Correlation is cheap, legal, and increasingly automated.
 
-The method, the worked Dutch cases, and the SOS correlation proof-of-concept are aggregation and
-linkage of public records, which is privacy-and-risk territory. They live in the green notes on
-`infrastructure aggregation <https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/>`_,
+A method, some worked Dutch cases, and an SOS correlation proof-of-concept can be found in the
+`infrastructure aggregation threat model <https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/>`_,
 alongside de-anonymisation, where the same logic reassembles a person rather than a site.
 
-What stays here is the strategic frame: why standard classification and security frameworks miss
+Focus here is on the strategic frame: why standard classification and security frameworks miss
 aggregation risk, whose remit it falls into, and the organisational reasons the gap stays open. The
-cases are the evidence; this is the argument about what to do with it.
+cases are the evidence; this is an exploration of what to do with it.
 
 .. toctree::
    :maxdepth: 1

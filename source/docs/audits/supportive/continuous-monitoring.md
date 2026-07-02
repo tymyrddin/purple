@@ -91,7 +91,7 @@ substantially. A tabletop exercise that tested the incident response procedure l
 current assurance than one from two years ago.
 
 Scheduling simulation activities as part of the compliance calendar, rather than treating them as one-off
-events, converts them into an ongoing evidence stream. The [stress-testing](../resilience/stress-testing.md)
+events, converts them into an ongoing evidence stream. The [stress-testing](../../resilience/stress-testing.md)
 format is designed to run on a recurring basis for exactly this reason: each run either confirms that the
 previous findings were addressed or surfaces new ones, and the sequence constitutes a testable compliance
 record rather than a single data point.
@@ -101,6 +101,6 @@ record rather than a single data point.
 * [Gap analysis](gap-analysis.md)
 * [Risk scoring](risk-scoring.md)
 * [Findings and reporting](findings-reporting.md)
-* [Stress-testing resilience](../resilience/stress-testing.md)
+* [Stress-testing resilience](../../resilience/stress-testing.md)
 * [Big data and BI tools](big-data.md)
 * [AI in audits](ai-in-audits.md)

@@ -4,19 +4,21 @@ Audits and assessments
 .. image:: /_static/images/map-room.png
   :alt: Interior of a mountaineering expedition command room, large wooden table covered with maps, compasses, and notebooks.
 
+Navigate your organisation’s risks, whether charting the cracks before they spread or climbing peaks or crossing rivers.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Navigate your organisation’s risks and resilience, whether charting the cracks before they spread or climbing peaks or crossing rivers.
 
    supportive/index
    iso22301/index
    iec62443/index
    nis2/index
    iso27001/index
-   resilience/index
+
+Resilience internalised as a shared practice, and carried past the exercise rather than filed after
+it, can be found in :doc:`resilience assessments </docs/resilience/index>`.
 
 .. raw:: html
 

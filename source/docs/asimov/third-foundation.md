@@ -79,4 +79,4 @@ suggest the plan was the deviation.
 - [What these foundations can and cannot do](../foundations/disclaimer.md)
 - [Why phishing simulations often fail](../social-engineering/why-simulations-fail.md)
 - [Building a phishing programme that actually works](../social-engineering/phishing-programme.md)
-- [Organisational risk audits & resilience assessments](../audits/resilience/index.rst)
+- [Organisational risk audits & resilience assessments](../resilience/index.rst)

@@ -28,4 +28,4 @@ The no-blame condition: the same [Satir](../../foundations/organisational-develo
 - [Detection and response](detection.md)
 - [Applying SEM to security](../../foundations/system-effectiveness/applying-sem.md)
 - [Running the loop](../../purple/running-the-loop.md)
-- [Resilience and system effectiveness](../../audits/resilience/stress-testing.md)
+- [Resilience and system effectiveness](../../resilience/stress-testing.md)

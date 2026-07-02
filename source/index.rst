@@ -39,6 +39,7 @@ and defences get built. Necessary, and on its own never quite enough.
    docs/ai-security/index
    docs/adversarial-ai/index
    docs/admin-surface/index
+   docs/audits/index
 
 Second foundation: the human and organisational layer
 ------------------------------------------------------
@@ -69,7 +70,7 @@ where that happens, and the resilience disciplines are how it lasts past the exe
    docs/incident-response/index
    docs/risk-management/index
    docs/continuity/index
-   docs/audits/index
+   docs/resilience/index
 
 The foundry: where it gets exercised
 ------------------------------------------------------
