@@ -7,7 +7,7 @@ Incident response & crisis facilitation
 Most incident response plans are written for a calm, rational team following a clear sequence
 of steps. Most incidents do not arrive that way. The gap between the plan and the reality is
 not a training problem, it is a conditions problem. These exercises and playbooks are designed
-to surface that gap before it matters: to make the assumptions visible, the authority questions
+to surface that gap before an incident does: to make the assumptions visible, the authority questions
 explicit, and the coordination failures cheap. The scenario playbooks are not scripts to follow
 but environments to fail in safely, so that what the organisation learns about itself costs
 nothing except time. The same idea runs one level up in
