@@ -1,6 +1,6 @@
 # Introducing a proper pipeline
 
-Imagine you are introducing a proper deployment pipeline on a self-hosted provider such as Hetzner: infrastructure
+An organisation introduces a proper deployment pipeline on a self-hosted provider such as Hetzner: infrastructure
 as code using Terraform and Ansible, CI/CD through GitHub Actions or GitLab CI, hardened images, logging, and
 monitoring. The whole grown-up setup.
 
@@ -8,7 +8,7 @@ Previously, the practice was: SSH into the server, adjust things until they beha
 lives in one person's head. Security is aspirational. Nothing is on fire, so nothing changes.
 
 This is a classic late status quo. Fragile but familiar. And because it is familiar, the disruption of replacing it
-follows the Satir arc with impressive fidelity.
+follows the [Satir arc](../foundations/organisational-development/satir-change-model.md) with impressive fidelity.
 
 ## Late status quo
 
@@ -25,7 +25,7 @@ No urgency. No budget. No appetite.
 
 ## Resistance
 
-You introduce pipelines, immutable infrastructure, and proper access controls. Reaction follows quickly.
+The organisation introduces pipelines, immutable infrastructure, and proper access controls. Reaction follows quickly.
 
 "This is over-engineered." Possibly. The person saying it is describing a real mismatch between the complexity
 of the new system and the complexity of the problem as they currently understand it. The mismatch is real even
@@ -92,9 +92,3 @@ early adopters and making their experience visible to the rest of the team.
 
 The organisations that reach the new status quo did not get there because the transition was smooth. They got
 there because they did not mistake the chaos phase for evidence that the direction was wrong.
-
-## Related
-
-- [The Satir Change Model](../foundations/organisational-development/satir-change-model.md)
-- [The Satir Change Model in practice](../foundations/change-management/satir-change-model.md)
-- [On-premises DevSecOps](https://blue.tymyrddin.dev/docs/dev/devsecops/on-prem/)

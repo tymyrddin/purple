@@ -68,7 +68,7 @@ When a programme moves from vendor-template simulations to current-technique sim
 get worse before they get better. Click rates rise. Credential submissions appear. The SOC receives more
 noise. Reporting pipelines get tested by volume they were not handling before and sometimes break.
 
-This is the chaos phase of the transition. The correct response is to frame it accurately: these metrics show
+This is the chaos phase of the transition. A better response is to frame it accurately: these metrics show
 that the programme is now measuring something real. The previous numbers were a record of how well people
 could recognise phishing that no longer gets used. These numbers are a record of where the gaps actually are.
 

@@ -19,7 +19,7 @@ This is genuinely difficult work. It requires technical depth across the domains
 about systems as wholes rather than components, and the discipline to document decisions in ways that remain 
 comprehensible to people who were not in the room when they were made.
 
-The [PSL](../foundations/problem-solving/index.rst) framing identifies this as one of three layers, not the whole of the work. An architect who operates 
+[PSL](../foundations/problem-solving/index.rst) identifies this as one of three layers, not the whole of the work. An architect who operates 
 primarily at the rational layer will produce technically sophisticated documentation that underestimates the 
 conditions required for the design to be implemented and operated.
 
@@ -67,10 +67,3 @@ This is consistent with what the Wikipedia descriptions of systems architecture 
 the role requires working with "various stakeholders to implement solutions that align with business needs." Working 
 with stakeholders is not merely communicating technical decisions to them. It is understanding their concerns, 
 earning their trust, and creating the conditions in which their cooperation can be relied upon.
-
-## Related
-
-- [Architecture as model](architecture-as-model.md)
-- [Change and homeostasis](change-and-homeostasis.md)
-- [PSL applied to security work](../foundations/problem-solving/in-security.md)
-- [Practical PSL behaviours for security leaders](../foundations/problem-solving/psl-approach.md)

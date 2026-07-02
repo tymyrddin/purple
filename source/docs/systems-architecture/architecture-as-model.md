@@ -6,7 +6,7 @@ An architecture document is a model. It represents the intended system: its comp
 
 Weinberg's [SEM](../foundations/system-effectiveness/index.rst) triad places models at the centre of how people understand and act on complex systems. The model is the mental representation of how the system works. The system is the actual thing, which behaves according to its own properties regardless of what the model says about it. Errors, in this framing, are not mistakes. They are mismatches between model and system, and they persist until the model is corrected rather than the symptoms treated.
 
-An architecture document is a formalised, shared model. The SEM insight applied here is that the document's accuracy 
+An architecture document is a formalised, shared model. A SEM insight applied here is that the document's accuracy 
 is not a property it has at the time of writing and retains indefinitely. It is a property that requires active 
 maintenance, because systems evolve and models drift.
 
@@ -27,7 +27,7 @@ diverges from the actual system and that divergence is not noticed or addressed,
 it cannot reliably inform design decisions, it cannot be trusted as a reference during incidents, and it cannot support 
 communication between teams who need a shared understanding of the system.
 
-The SEM principle that errors are model failures rather than system failures applies here. An architecture that 
+SEM's principle that errors are model failures rather than system failures applies here. An architecture that 
 consistently produces surprises during implementation is not a sign that the implementation team is incompetent. It 
 is a sign that the architecture model encoded assumptions about the implementation context that turned out not to 
 be true. The response to that finding is to correct the model, not to repeat the same assumptions with more insistence.
@@ -46,10 +46,3 @@ conditions change.
 This is not a diminished vision of the role. It is a more accurate one. The architect whose model is continuously 
 accurate is more valuable, and more trusted, than the architect whose comprehensive initial design becomes 
 progressively less connected to reality over the following years.
-
-## Related
-
-- [Change and homeostasis](change-and-homeostasis.md)
-- [The role of a systems architect](the-role.md)
-- [Systems, models, and errors](../foundations/system-effectiveness/core-triad.md)
-- [Building a threat model](../threat-modelling/building-model.md)

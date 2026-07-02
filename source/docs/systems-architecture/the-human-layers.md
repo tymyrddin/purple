@@ -2,7 +2,7 @@
 
 Architecture work is done by people, with people, and for people. The technical outputs are real and important, but they are produced in a social context that shapes what designs are possible, what designs get implemented, and how accurately anyone understands the state of the system at any given time.
 
-The [PSL](../foundations/problem-solving/index.rst) and [Satir](../foundations/organisational-development/satir-core.md) framings are both relevant here. PSL provides the three-layer structure. Satir provides the account of how people behave in that structure when they are under stress.
+[PSL](../foundations/problem-solving/index.rst) and [Satir](../foundations/organisational-development/satir-core.md) are both relevant here. PSL provides the three-layer structure. Satir provides the account of how people behave in that structure when they are under stress.
 
 ## The three layers in architecture practice
 
@@ -22,21 +22,14 @@ The computing stance is a particular occupational hazard for architects. It mean
 
 The blaming stance appears when implementation diverges from design. The blame goes to the implementation team for not following the architecture, rather than to the model for not anticipating the implementation constraints. This is not always wrong, but it is often too quick: a systematic pattern of implementation divergence is more likely to be a model problem than a compliance problem.
 
-The placating stance appears in architecture reviews and consultations. The architect agrees with concerns that were raised, incorporates them nominally into the design, and continues with the original intent. The reviewers feel heard; the design does not change in the ways they intended. This produces relationships that appear functional but is not trustworthy, and it produces architectures that carry unresolved concerns as silent liabilities.
+The placating stance appears in architecture reviews and consultations. The architect agrees with concerns that were raised, incorporates them nominally into the design, and continues with the original intent. The reviewers feel heard; the design does not change in the ways they intended. This produces relationships that appear functional but are not trustworthy, and it produces architectures that carry unresolved concerns as silent liabilities.
 
 The distracting stance appears when an architectural conversation is becoming uncomfortable. The subject changes to a related technical detail, or to a process question about how the architecture review should work, rather than the question of whether the current direction is correct.
 
 ## Congruence in architecture
 
-The Satir quality that produces honest and durable architectural practice is congruence: alignment between what the architect says, what they do, what they actually think about the design, and their understanding of the context. A congruent architect presents a design they actually believe in, names the trade-offs they actually made, acknowledges the concerns they actually have, and communicates honestly when the design is not working.
+A Satir quality that produces honest and durable architectural practice is congruence: alignment between what the architect says, what they do, what they actually think about the design, and their understanding of the context. A congruent architect presents a design they actually believe in, names the trade-offs they actually made, acknowledges the concerns they actually have, and communicates honestly when the design is not working.
 
 Congruence is not the same as rigidity. A congruent architect can change their mind, revise their designs, and acknowledge when they were wrong, because those are honest responses to new information. What they do not do is present a position they do not hold, agree in the room and disengage afterwards, or retreat into technical formalism to avoid the harder conversation.
 
 Creating the conditions for congruent architectural practice is partly a matter of individual habit and partly a matter of organisational culture. In environments where architectural error is career-consequential, architects will learn to protect their positions rather than report them honestly. In environments where finding the model failure is valued more than appearing to have had the right model all along, the same architects will produce more accurate architectures faster.
-
-## Related
-
-- [The role of a systems architect](the-role.md)
-- [Core ideas of Satir systems OD](../foundations/organisational-development/satir-core.md)
-- [PSL applied to security work](../foundations/problem-solving/in-security.md)
-- [Learning in architecture](learning-in-architecture.md)

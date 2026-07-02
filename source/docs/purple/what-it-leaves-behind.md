@@ -11,7 +11,7 @@ about whether the gap is real. A reading of what produced it, since a tooling li
 training gap, and a missing decision-right each need a different repair, and treating one as another closes
 nothing. And a short priority, because a list with everything on it has nothing on it.
 
-The exchange runs both ways. The obvious direction is attacker to defender: every command, path, and
+The exchange runs both ways. One direction is obvious, attacker to defender: every command, path, and
 connection handed over, so a rule can be built from the technique just seen and a procedure updated for the
 pattern it missed. The quieter direction runs back: a defender who knows where the visibility is thin, or
 where a new tool has just landed, can ask for that path to be tested next, which surfaces the wins worth

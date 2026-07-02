@@ -85,7 +85,7 @@ procedurally correct updates that are operationally useless. Decision authority 
 someone whose stance under stress is to distract may simply not be exercised, and the
 disaster can run unmanaged for whatever interval that lasts.
 
-The Satir-informed question for any role in the plan: under stress, what does this person tend
+A Satir-informed question for any role in the plan: under stress, what does this person tend
 to do, and is the role compatible with that? The answer affects how the role gets filled, who
 the deputy is, and how the structure tolerates the stance the named person is likely to adopt.
 

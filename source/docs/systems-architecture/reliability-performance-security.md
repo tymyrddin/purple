@@ -14,7 +14,7 @@ Trade-offs made implicitly cannot be revisited. When a caching strategy was chos
 
 Ownership is fragmented. Security is owned by the security team, reliability by the SRE or operations function, performance by the development team. Each group optimises for its own metric with limited visibility into the constraints the others are managing. The result is point solutions that produce local improvements and system-level conflicts: the security control that causes the reliability mechanism to misbehave under load, the performance optimisation that bypasses the defence the security architecture depended on.
 
-Compliance substitutes for the trade-off decision. A compliance framework says encryption at rest is required. The checkbox is checked. Nobody asked whether the encryption implementation causes enough performance degradation that the service disables it under peak load, or re-enables a weaker algorithm silently, or routes around it in ways that preserve the checkbox while removing the protection. Compliance describes what the system is expected to have. It does not describe whether the system has it under the conditions that matter.
+Compliance substitutes for the trade-off decision. A compliance framework says encryption at rest is required. The checkbox is checked. Nobody asked whether the encryption implementation causes enough performance degradation that the service disables it under peak load, or re-enables a weaker algorithm silently, or routes around it in ways that preserve the checkbox while removing the protection. Compliance describes what the system is expected to have. It does not describe whether the system has it under the conditions that decide it.
 
 Trade-offs made once are never revisited. The decision was made three years ago when the load was a fraction of its current level and the threat landscape was different. The security control that was acceptable at that load has since become a performance liability. The reliability architecture that was sufficient at that scale has since accumulated workarounds that nobody assessed for security implications. The trade-off drifted without being revisited because there was no mechanism to trigger a revisit.
 
@@ -28,13 +28,13 @@ Each of the three properties is a model. Reliability expresses a model of how th
 
 When they conflict, the conflict is a model problem. The reliability model encoded assumptions about failure modes that the security model shows are exploitable. The performance model encoded assumptions about acceptable latency that the security model shows are incompatible with the required controls. Treating these conflicts as implementation problems, to be resolved by whoever is under the most pressure, produces systems where the models are separately coherent and collectively incoherent.
 
-The [SEM response](../foundations/system-effectiveness/index.rst) is to make the assumptions in each model explicit and to examine the conflicts between them as a design activity rather than an operational emergency. The trade-off is a design decision. It belongs in the architecture, with its reasoning documented, its owner identified, and it's trigger for revisit specified. A trade-off that has drifted out of alignment with current conditions is a model failure, and model failures recur until the model is corrected.
+A [SEM response](../foundations/system-effectiveness/index.rst) is to make the assumptions in each model explicit and to examine the conflicts between them as a design activity rather than an operational emergency. The trade-off is a design decision. It belongs in the architecture, with its reasoning documented, its owner identified, and its trigger for revisit specified. A trade-off that has drifted out of alignment with current conditions is a model failure, and model failures recur until the model is corrected.
 
 ## The [ChangeShop](../foundations/change-management/index.rst) view
 
 Security controls degrade performance. When the degradation is noticed and complained about, the organisation's [homeostatic](../foundations/change-management/what-it-is.md) response is to remove the control or weaken it. Reliability mechanisms add complexity. When the complexity introduces operational burden, the homeostatic response is to reduce it in ways that introduce security vulnerabilities. These are not failures of commitment. They are the system returning to the state it was in before the change was made.
 
-Understanding this as homeostatic resistance rather than bad faith changes what governance of the trade-off requires. A trade-off decision that is not protected by a stable ownership structure, explicit authority, and a review mechanism will be reversed by operational pressure. The conditions for the decision to hold need to be designed, not assumed. This is the ChangeShop insight applied to architecture: the trade-off is not just a technical decision; it is a change that the organisation needs to be in a position to sustain.
+Understanding this as homeostatic resistance rather than bad faith changes what governance of the trade-off requires. A trade-off decision that is not protected by a stable ownership structure, explicit authority, and a review mechanism will be reversed by operational pressure. The conditions for the decision to hold need to be designed, not assumed. This is ChangeShop's insight applied to architecture: the trade-off is not just a technical decision; it is a change that the organisation needs to be in a position to sustain.
 
 When a security control keeps being disabled under load, the question is not how to make people follow the policy. The question is what conditions would need to be in place for the policy to be followable. If the answer is "the system needs to be redesigned so the control does not cost what it currently costs," that is an architectural finding, and it belongs in the architecture.
 
@@ -76,10 +76,3 @@ secure system are not the same question.
 
 A system that passes its audit and fails in production has met the compliance requirement. The compliance requirement 
 was not the right question.
-
-## Related
-
-- [Architecture as model](architecture-as-model.md)
-- [SEM for defence and red teaming](../foundations/system-effectiveness/for-defence.md)
-- [Audits and resilience: beyond compliance](../resilience/beyond-compliance.md)
-- [Resilience stress testing](../resilience/stress-testing.md)

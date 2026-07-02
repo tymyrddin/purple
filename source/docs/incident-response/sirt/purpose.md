@@ -1,6 +1,6 @@
 # The case for a SIRT
 
-The case for a security incident response team is not primarily a technical argument. The technical argument is straightforward: incidents happen, and an organisation that has no process for handling them handles them badly. That is true and mostly accepted. The harder question is why it so often takes a significant incident before the team gets built.
+The case for a security incident response team is not primarily a technical argument. The technical argument is straightforward: incidents happen, and an organisation that has no process for handling them handles them badly. That is true and mostly accepted. A harder question is why it so often takes a significant incident before the team gets built.
 
 The [ChangeShop](../../foundations/change-management/index.rst) explanation is that the organisation's current state is already a system. It has found equilibrium without a SIRT. Incidents are currently absorbed, suppressed, treated as IT problems, or not identified as incidents at all. Each of these existing behaviours is connected to other behaviours, to role definitions, to implicit and explicit expectations about what gets reported and to whom. Adding a SIRT disrupts all of those connections simultaneously.
 

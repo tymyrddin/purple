@@ -9,7 +9,7 @@ invisible. A falling time-to-detect is not the same as investigating better; it 
 faster. And the denominator is where coverage lies most easily: a number drawn from what the team can already
 detect climbs to nothing in particular.
 
-The harder question, and the one the activity metrics dodge, is whether behaviour has changed. Does an alert
+A harder question, and the one the activity metrics dodge, is whether behaviour has changed. Does an alert
 get approached differently than six months ago. Does a finding produce action rather than a report. The most
 honest proxy is what happens when an exercise turns up a real gap: filed to a backlog and passed over, and the
 metrics can look healthy while nothing underneath moves; treated as a genuine priority, and the metrics will

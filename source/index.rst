@@ -33,7 +33,6 @@ and defences get built. Necessary, and on its own never quite enough.
    :includehidden:
 
    docs/threat-modelling/index
-   docs/systems-architecture/index
    docs/cloud/index
    docs/ai-security/index
    docs/adversarial-ai/index
@@ -52,6 +51,7 @@ how organisations resist the change they asked for.
 
    docs/foundations/index
    docs/thirteen/index
+   docs/systems-architecture/index
    docs/engagement/index
    docs/practice/index
    docs/knowledge-transfer/index

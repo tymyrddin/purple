@@ -12,7 +12,7 @@ The facilitator tracks key decision moments with timestamps: when the team recog
 
 ## After the clock stops
 
-The numbers are the easier part. The harder assessment is qualitative, and it comes from the debrief rather than the log.
+The numbers are the easier part. A harder assessment is qualitative, and it comes from the debrief rather than the log.
 
 Did the team prioritise correctly, and do they know why they prioritised as they did? Correct prioritisation under pressure that the team cannot explain is a fragile capability: it worked this time, but the team does not have the model that would let them transfer it to a different scenario. Incorrect prioritisation that the team can diagnose means the model is visible and improvable.
 

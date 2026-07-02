@@ -24,13 +24,6 @@ The job description mentions stakeholder collaboration and business alignment. I
 
 None of this makes the technical work less important. It makes the technical work contingent on conditions that are not themselves technical, and that are not described in any job description or competence framework for the role.
 
-The [SEM](../foundations/system-effectiveness/index.rst) framing gives architects a way to understand their documentation as a living model with a maintenance responsibility, not a deliverable with a completion date. The [ChangeShop](../foundations/change-management/index.rst) framing gives architects a way to understand organisational resistance as information about the change they are asking the organisation to make. The [PSL](../foundations/problem-solving/index.rst) framing gives architects a way to see that their work operates simultaneously at rational, emotional, and political layers, and that attending to all three is not optional. The [Satir](../foundations/organisational-development/satir-core.md) framing gives architects a way to understand the communication patterns that produce architectural dysfunction, and the conditions under which honest architectural review becomes possible.
+[SEM](../foundations/system-effectiveness/index.rst) gives architects a way to understand their documentation as a living model with a maintenance responsibility, not a deliverable with a completion date. [ChangeShop](../foundations/change-management/index.rst) gives architects a way to understand organisational resistance as information about the change they are asking the organisation to make. [PSL](../foundations/problem-solving/index.rst) gives architects a way to see that their work operates simultaneously at rational, emotional, and political layers, and that attending to all three is not optional. [Satir](../foundations/organisational-development/satir-core.md) gives architects a way to understand the communication patterns that produce architectural dysfunction, and the conditions under which honest architectural review becomes possible.
 
 These are not additions to the technical role. They are the conditions under which the technical role produces what it is supposed to produce.
-
-## Related
-
-- [Architecture as model](architecture-as-model.md)
-- [The role of a systems architect](the-role.md)
-- [Change and homeostasis](change-and-homeostasis.md)
-- [Integrating PSL, ChangeShop, SEM, and Satir OD](../foundations/organisational-development/composite-model.md)
