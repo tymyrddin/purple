@@ -1,5 +1,7 @@
 # Lord Vetinari's Dilemma
 
+![Ankh Morpork feedback loops](/_static/images/ankh-morpork-sim.png)
+
 [Lord Vetinari's Dilemma](https://github.com/tymyrddin/ankh-crisis-sim) puts a player in charge of
 Ankh-Morpork and its interconnected infrastructure, energy, water, communications, transport, and asks them
 to keep the city standing through a run of disruptions with no clean answers. It is a governance game, not a

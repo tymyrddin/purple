@@ -2,7 +2,7 @@ Purple teaming
 ============================================
 
 .. image:: /_static/images/uu-purple.png
-  :alt: Two people at adjacent workstations, one running an attack simulation, the other watching the detection dashboard in real time. They are talking. The screen between them shows a timeline of events with some highlighted in red and some in green.
+  :alt: a Mediterranean cleaning station, a dusky grouper hanging still with its mouth open while a cleaner wrasse works inside it. Both Mediterranean, both real, and the station is a loop the pair return to.
 
 Purple teaming is not a third team. It is a way of working in which the offensive and defensive sides run in
 the same loop, with shared context and real-time talk, instead of as separate exercises whose findings arrive

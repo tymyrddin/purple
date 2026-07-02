@@ -104,7 +104,7 @@ Where it lives: Stuck to the wall next to the SOC analyst workstation. Shortcut 
 
 ### The "understudy playbook"
 
-Role-specific guidance for when the usual lead is unavailable. It names the systems to check and the people to notify, 
+[Role-specific guidance](../incident-response/sirt/roles.md) for when the usual lead is unavailable. It names the systems to check and the people to notify, 
 in the correct order.
 
 What it contains:
@@ -163,7 +163,7 @@ What fits on one page:
 - Complete escalation procedures with approval workflows: no (that's a process document)
 
 When you exceed one page: You're either trying to cover too much or including background that can be linked to 
-elsewhere. The one-page version gets you started; the linked playbook provides detail once you've contained the 
+elsewhere. The one-page version gets you started; the linked [playbook](playbooks.md) provides detail once you've contained the 
 immediate crisis.
 
 ### Lead with visuals
@@ -354,10 +354,3 @@ instead. Build for 3:00. Build for the moment when everything is on fire and som
 next.
 
 That's not a manual. That's a lifeline.
-
-## Related
-
-- [Playbooks](playbooks.md)
-- [Workflows](workflows.md)
-- [SIRT roles](../incident-response/sirt/roles.md)
-- [Incident response choreography](../incident-response/choreography.md)

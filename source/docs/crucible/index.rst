@@ -1,6 +1,8 @@
 The crucible
 ===============================================
 
+.. image:: /_static/images/crucible.png
+
 The crucible is where the charge goes in and the heat gets applied. Everything here is run, not read: a
 challenge entered from the attacker's seat, an experiment against a live procedure, a demonstration that
 makes a consequence visible, a role taken on until it stops feeling like a game, and a game whose rules are

@@ -2,7 +2,7 @@ Incident response & crisis facilitation
 =============================================
 
 .. image:: /_static/images/incident.png
-  :alt: Stick figure scene showing communication chaos during a live simulation. One stick figure is typing wildly on a laptop labeled 'OPS'. Another is speaking into a megaphone labeled 'COMMS' while a third covers their ears. Speech bubbles contain conflicting messages: 'SITE DOWN!' and 'ALL FINE!'.
+  :alt: a starling murmuration folding away from a stooping peregrine. Think the Danish Sort Sol (Black Sun) over the Wadden Sea marshes, or the Rome flocks. Thousands as one, no commander.
 
 Most incident response plans are written for a calm, rational team following a clear sequence
 of steps. Most incidents do not arrive that way. The gap between the plan and the reality is

@@ -6,7 +6,7 @@ Materials: index cards or sticky notes, markers, wall or large table
 
 ## The exercise
 
-Identify what your organisation depends on to deliver its services. Not everything, just what is actually load-bearing. The constraint is the point: risk management that attempts to cover everything covers nothing well.
+Identify what the organisation depends on to deliver its services. Not everything, just what is actually load-bearing. The constraint is the point: risk management that attempts to cover everything covers nothing well.
 
 Step 1: Brainstorm assets (10 minutes)
 
@@ -36,13 +36,6 @@ A list of critical assets of ten to twenty items, with categories, dependencies 
 
 ## A test of shared understanding
 
-Beyond the outputs, this exercise reveals whether the group has a shared and accurate model of what the organisation depends on. Disagreements during the exercise are findings: they indicate that different parts of the organisation are operating on different understandings of what is load-bearing. Those gaps are worth naming and resolving before the risk assessment proceeds.
+Beyond the outputs, this exercise reveals whether the group has a shared and accurate model of what the organisation depends on. Disagreements during the exercise are findings: they indicate that different parts of the organisation are operating on different understandings of what is load-bearing. Those gaps are worth naming and resolving before the [risk assessment](risk-assessment.md) proceeds.
 
 Missing business context in an otherwise technical list is also a finding: it indicates that the risk management process is being conducted without adequate input from the people who operate the business, which will predictably produce a risk register that the business does not recognise as its own.
-
-## Related
-
-- [Vulnerability identification](vuln-identification.md)
-- [Risk assessment](risk-assessment.md)
-- [Adversary persona workshop](../threat-modelling/adversary-persona-workshop.md)
-- [ISO 27001 risk assessment](../audits/iso27001/risk-tent.md)

@@ -2,7 +2,7 @@ Resilience as a practice
 ======================================================
 
 .. image:: /_static/images/beehive.png
-  :alt: A natural beehive hanging under a thick branch of an old oak tree, bees entering and leaving the small opening, sun filtering through leaves, some pollen-laden bees returning.
+  :alt: European honeybee beehive in tree
 
 A control written down is a prediction: that the escalation path will work at 2:00, that the backup
 will restore within the recovery objective, that the team knows the procedure when the documentation

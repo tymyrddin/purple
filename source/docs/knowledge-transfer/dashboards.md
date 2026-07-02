@@ -69,10 +69,3 @@ This is where tomorrow’s breach quietly announces itself.
 * On a TV in the incident room
 
 Dashboards that are hard to reach become dashboards nobody reaches for.
-
-## Related
-
-- [Playbooks](playbooks.md)
-- [Workflows](workflows.md)
-- [SOC detection](../incident-response/soc/detection.md)
-- [Incident response metrics](../incident-response/metrics.md)

@@ -24,13 +24,13 @@ Draw a grid with likelihood on one axis and impact on the other. A 3x3 grid (hig
 
 Step 2: Define the scales concretely (15 minutes)
 
-Generic definitions produce inconsistent ratings. Define likelihood and impact in terms specific to your organisation.
+Generic definitions produce inconsistent ratings. Define likelihood and impact in terms specific to the organisation.
 
 Likelihood: high means this could happen multiple times per year, requires limited effort or access, and is consistent with what comparable organisations have experienced. Medium means it could happen once per year and requires some effort or particular conditions. Low means it is unlikely in normal circumstances and requires significant effort or rare conditions.
 
 Impact: high means service outage exceeding one day, significant financial loss, regulatory exposure, safety implications, or serious reputational damage. Medium means service degradation, moderate financial impact, customer complaints, and a meaningful recovery effort. Low means minor inconvenience with quick recovery and limited scope.
 
-Adapt these to your context. The right definitions for a healthcare provider are different from those for a software company.
+Adapt these to the organisation's context. The right definitions for a healthcare provider are different from those for a software company.
 
 Step 3: Assess each risk (30 to 40 minutes)
 
@@ -48,12 +48,4 @@ Decide on the risk appetite line: which levels require action and which will be 
 
 A group that rates everything as high risk is avoiding the discomfort of prioritisation. A group that rates everything as low risk is managing the discomfort of acknowledging serious exposure. Neither produces a useful output.
 
-The rating conversation is also a test of whether the group's models of likelihood are calibrated against reality. Likelihood ratings that consistently diverge from what is actually observed in the threat landscape and in comparable organisations are model failures. The facilitator can bring external reference points into the conversation: what is the actual frequency of this class of attack in your sector?
-
-## Related
-
-- [Asset identification](asset-identification.md)
-- [Vulnerability identification](vuln-identification.md)
-- [Treatment options](treatment-options.md)
-- [Risk register](risk-register.md)
-- [Risk scoring](../audits/supportive/risk-scoring.md)
+The rating conversation is also a test of whether the group's models of likelihood are calibrated against reality. Likelihood ratings that consistently diverge from what is actually observed in the threat landscape and in comparable organisations are model failures. The facilitator can bring external reference points into the conversation: what is the actual frequency of this class of attack in the sector?

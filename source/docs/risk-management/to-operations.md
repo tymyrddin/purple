@@ -1,6 +1,6 @@
 # From exercises to operations
 
-You have built a risk register and documented a process. The question now is whether that work will change how the organisation operates, or whether it will describe how the organisation intends to operate while actual operations continue unchanged.
+The exercises have produced a [risk register](risk-register.md) and a documented process. The question now is whether that work will change how the organisation operates, or whether it will describe how the organisation intends to operate while actual operations continue unchanged.
 
 This is the [ChangeShop](../foundations/change-management/index.rst) question. The exercises produced accurate analysis. The register documents decisions. Whether those decisions produce change depends on conditions that the exercises themselves cannot create: ownership that is real rather than nominal, authority to implement treatments, protected time and budget, and the trust and communication conditions that allow people to be honest about progress and blockages.
 
@@ -36,13 +36,6 @@ Quarterly: review high and medium risks, report to relevant stakeholders in a fo
 
 Annually: refresh the full risk assessment, validate that the likelihood and impact criteria still reflect the organisation's actual context, review the process itself for whether it is producing useful outputs, update risk appetite if organisational circumstances have changed.
 
-As needed: when any of the triggers documented in the risk model fire.
+As needed: when any of the triggers documented in the [risk model](risk-model.md) fire.
 
 The resources for going deeper into quantitative risk modelling and framework alignment are ISO 31000 (risk management principles), ISO 27005 (information security risk management), NIST SP 800-30 (risk assessment guidance), and FAIR (Factor Analysis of Information Risk) for organisations that need to quantify risk in financial terms.
-
-## Related
-
-- [The risk register](risk-register.md)
-- [Building your risk model](risk-model.md)
-- [What ChangeShop is](../foundations/change-management/what-it-is.md)
-- [SOC maturity](../incident-response/soc/maturity.md)

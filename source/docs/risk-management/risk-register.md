@@ -16,7 +16,7 @@ Create a structure with the following fields. Simple is better: a register that 
 
 Risk ID, asset, vulnerability, likelihood, impact, risk level, treatment approach, specific actions, owner, target completion date, current status, and a review date.
 
-Add fields that are genuinely useful for your context: compliance references if you are working toward a standard, cost estimates if budget decisions depend on them, links to related risks if dependencies need to be visible.
+Add fields that are genuinely useful for the organisation's context: compliance references if it is working toward a standard, cost estimates if budget decisions depend on them, links to related risks if dependencies need to be visible.
 
 Step 1: Transfer risks systematically (30 minutes)
 
@@ -46,12 +46,4 @@ The register is most useful when it reflects what is actually happening, not wha
 
 The register works best when as simple as it can be while remaining useful. A thirty-field register that requires two hours to update a single entry will not be updated. A five-field register that captures the essential information and takes fifteen minutes to update will be.
 
-The temptation to add sophistication before the basic practice is established is a common failure mode. Start with what is genuinely useful, add complexity only when you can demonstrate that simpler is no longer sufficient.
-
-## Related
-
-- [Risk assessment](risk-assessment.md)
-- [Treatment options](treatment-options.md)
-- [Building your risk model](risk-model.md)
-- [Risk management workshop](../workshops/risk-management.md)
-- [Threat register](../audits/supportive/threat-register.md)
+The temptation to add sophistication before the basic practice is established is a common failure mode. Start with what is genuinely useful, adding complexity only once simpler is demonstrably no longer sufficient.

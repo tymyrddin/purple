@@ -61,7 +61,7 @@ process as non-compliant can be heard as a judgement of that team rather than an
 How the finding is communicated internally determines whether the conversation that follows is about the
 problem or the framing.
 
-The political layer is whether the person or team responsible for addressing the finding has the authority
+The political layer is whether [the person or team responsible for addressing the finding](../../practice/acting-on-findings.md) has the authority
 and the budget to do so. A finding that requires expenditure from a team that does not benefit from the fix,
 or that implicates a senior stakeholder, will encounter resistance that the rational and emotional layers
 cannot resolve alone. Naming this explicitly, when the situation calls for it, is how the organisation avoids

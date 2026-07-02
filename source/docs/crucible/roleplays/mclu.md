@@ -1,5 +1,7 @@
 # The Morporkian Civil Liberties Union
 
+![mclu](/_static/images/mclu.png)
+
 Not every roleplay puts an attacker against a defender. [The Morporkian Civil Liberties Union](../../mclu/index.rst)
 is a standing premise for the other kind, where the pressure is on privacy, disclosure, and who gets to know
 what. A guild of moral concern with no money and a talent for embarrassing the powerful, it hands a group the

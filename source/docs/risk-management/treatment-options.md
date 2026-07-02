@@ -2,11 +2,11 @@
 
 Duration: 45 to 60 minutes
 
-Materials: your risk matrix from the previous exercise, cards for treatment options, markers
+Materials: the risk matrix from the previous exercise, cards for treatment options, markers
 
 ## An exercise
 
-For each risk above your appetite line, identify what you can actually do about it. The constraint on "actually" matters. Treatment options that cannot be implemented given the organisation's actual capacity, budget, and authority structure are not treatment options. They are aspirations, and aspirations do not reduce risk.
+For each risk above the [appetite line](risk-assessment.md), identify what can actually be done about it. The constraint on "actually" is the point. Treatment options that cannot be implemented given the organisation's actual capacity, budget, and authority structure are not treatment options. They are aspirations, and aspirations do not reduce risk.
 
 This is where [ChangeShop](../foundations/change-management/index.rst) is most directly applicable. Most treatment plans fail not because the technical controls are unavailable but because the conditions for implementing them are not in place: no clear owner, no protected budget, no authority to make the required changes, implementation that would require co-operation from teams that have not been engaged. A treatment plan that does not account for these conditions will produce a list of things to do that gradually ages in a register without being done.
 
@@ -32,7 +32,7 @@ For each proposed treatment, ask: what is the actual effort and cost? What is th
 
 Step 3: Prioritise (10 minutes)
 
-You cannot do everything at once. Prioritise treatment based on risk severity, quick wins (high impact, low effort), dependencies (what must happen before something else can happen), available resources, and any binding compliance obligations.
+Not everything can be done at once. Prioritise treatment based on risk severity, quick wins (high impact, low effort), dependencies (what must happen before something else can happen), available resources, and any binding compliance obligations.
 
 The quick wins question is worth spending time on. There is usually a treatment that reduces significant risk at modest cost and that has been deferred because it was not urgent enough to compete with other priorities. Making it visible and assigning it an owner often produces more immediate risk reduction than the ambitious treatment plans that require twelve months and cross-team co-ordination.
 
@@ -45,10 +45,3 @@ Treatment options for each priority risk, reality-checked for feasibility, with 
 The treatment conversation exposes the gap between what the organisation recognises it could do and what it is actually in a position to do. That gap is important information. A treatment plan that requires resources or authority the organisation does not have is not a plan; it is a statement of what would be needed.
 
 If the gap is large, that is a finding for leadership, not a reason to produce ambitious treatment plans that will not be implemented. An honest treatment assessment that says "we can address three of these six critical risks with current capacity; addressing the remaining three requires X" is more useful than a plan that nominally addresses all six and is implemented for none of them.
-
-## Related
-
-- [Risk assessment](risk-assessment.md)
-- [The risk register](risk-register.md)
-- [PSL applied to security work](../foundations/problem-solving/in-security.md)
-- [ISO 27001 risk assessment](../audits/iso27001/risk-tent.md)

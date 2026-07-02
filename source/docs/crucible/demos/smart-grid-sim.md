@@ -1,5 +1,7 @@
 # Smart Grid SimLab
 
+![Ankh Morpork feedback loops](/_static/images/smart-grid-simlab.png)
+
 [Smart Grid SimLab](https://github.com/tymyrddin/smart-grid-sim) is a demonstration, not a challenge. It runs
 a synthetic smart grid, smart meters, solar inverters, EV chargers and substations, publishing live telemetry
 over MQTT, and puts an attack engine between that telemetry and a real-time dashboard. When an attack fires,

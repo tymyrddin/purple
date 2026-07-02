@@ -28,6 +28,12 @@ The mapping is mostly a matter of naming evidence the resilience work already pr
 - A recurring test schedule is continuous-verification evidence: it turns a single result into the
   ongoing assurance that supervisory oversight and surveillance audits look for.
 
+One afternoon can feed several files at once. A recorded game that exposed an unclear escalation
+path, with the corrective action and the re-test that closed it, is a management-review input for
+ISO 27001, evidence of an incident-handling measure for NIS2 Article 21, and a continuity rehearsal for
+ISO 22301. The work was done for the resilience it bought; the three entries are what it looked like once
+labelled.
+
 ## Keeping the substance
 
 Translation is presentation. It labels the behavioural evidence in the terms a standard recognises and

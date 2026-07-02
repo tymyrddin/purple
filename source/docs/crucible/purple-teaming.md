@@ -1,5 +1,7 @@
 # Purple teaming
 
+![Purple teaming](/_static/images/uu-purple.png)
+
 Most of the exercises here put a player against an environment. This one puts two players in the same room, or
 the same channel: one moving as the attacker, one watching the defences answer. The finding is the distance
 between what the defence was hoped to catch and what it actually caught.

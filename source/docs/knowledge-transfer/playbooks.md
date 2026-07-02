@@ -6,7 +6,7 @@ Playbooks bridge the gap between abstract policy and real-world action. They ans
 
 ### Detection playbooks
 
-These define how suspicious activity is spotted in the first place. They bundle SIEM queries, correlation rules, 
+These define [how suspicious activity is spotted](../incident-response/soc/detection.md) in the first place. They bundle SIEM queries, correlation rules, 
 anomaly thresholds, and alert triggers. The goal is simple: fewer false positives, fewer blind spots, and fewer Tuesday 
 mornings spent grumbling about alert fatigue.
 
@@ -121,12 +121,3 @@ Important (build these next):
 Build them, test them, break them, fix them. That's the cycle. Anyone promising you stable, unchanging, perfect 
 playbooks is selling you documentation theatre, not operational capability. Playbooks are designed [to be tested in 
 exercises and updated with each iteration](../incident-response/choreography.md).
-
-## Related
-
-- [NGO Incident response runbooks](https://blue.tymyrddin.dev/docs/ngo/data/)
-- [Workflows](workflows.md)
-- [Manuals that actually work](manuals.md)
-- [Incident response choreography](../incident-response/choreography.md)
-- [SOC detection](../incident-response/soc/detection.md)
-

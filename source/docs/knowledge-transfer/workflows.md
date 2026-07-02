@@ -65,10 +65,3 @@ and for whom?
 * Endpoint security consoles
 
 If a workflow requires opening yet another tool, it will die quietly and alone.
-
-## Related
-
-- [Playbooks](playbooks.md)
-- [Manuals that actually work](manuals.md)
-- [SOC workflows](../incident-response/soc/workflows.md)
-- [SIRT structure](../incident-response/sirt/structure.md)

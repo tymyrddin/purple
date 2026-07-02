@@ -11,6 +11,12 @@ that the team knows the procedure when the documentation is inaccessible. A cont
 documented is a prediction. A control tested under realistic conditions is a finding. Directed probing
 and a light red-team pass are a mechanism that can turn the first into the second.
 
+A logistics operator sent a phishing-lite probe to forty staff across dispatch and finance. The
+compliance record read "awareness training completed, ninety-eight percent". The probe read differently:
+three of five in finance reported it within the hour, and nobody on the dispatch floor did, because a
+shift pattern meant dispatch had never sat the refresh. The training figure was the prediction; who
+reported, and who had never seen the material, was the finding.
+
 ## What adaptive looks like
 
 A few qualities describe a resilience habit.

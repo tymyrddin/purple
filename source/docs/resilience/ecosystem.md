@@ -31,6 +31,12 @@ implementation evidence; the behaviour during the walk is
 [effectiveness evidence](../foundations/system-effectiveness/applying-sem.md). The second is what
 reveals whether the model is accurate.
 
+A university walked a cloud-outage scenario across its map and watched the ripple run further than the
+boxes suggested. The outage took single sign-on with it; single sign-on gated the rota system; and with
+no rota, the security desk could not confirm who was on shift to authorise a manual override. Each of the
+three sat on the map as its own node. The walk showed the order they fell in, and that the override
+depended on the very system the outage had removed.
+
 ## Keeping it live
 
 A dependency map ages the moment services move to a new vendor or a team reorganises, so much of its

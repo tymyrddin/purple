@@ -1,6 +1,6 @@
 # Introduction to risk management exercises
 
-Risk management is the practice of deciding what to protect, understanding what threatens it, and making deliberate choices about where to invest limited capacity. Done as a series of workshops rather than as a documentation exercise, it produces decisions that the people responsible for them actually understand and own.
+Risk management is the practice of deciding what to protect, understanding what threatens it, and making deliberate choices about where to invest limited capacity. Done as a series of [workshops](../workshops/risk-management.md) rather than as a documentation exercise, it produces decisions that the people responsible for them actually understand and own.
 
 The [ChangeShop](../foundations/change-management/index.rst) framing applies from the outset. Risk management processes produce shelfware when the documentation is treated as the output. The documentation is not the output. The output is a shared understanding of what the organisation is exposed to, a set of prioritised decisions about what to do about it, and the conditions under which those decisions will actually be implemented. A risk register that accurately describes the organisation's exposure and is then not acted upon has not produced risk management. It has produced a description of risk that the organisation chose not to address.
 
@@ -16,7 +16,7 @@ If the last group is absent, the exercises will produce accurate risk documentat
 
 ## Using this set
 
-Work through the exercises in order: what matters, what could break it, how likely and how bad, what you can do, building the register, building the model, from exercises to operations. Each exercise produces inputs to the next.
+Work through the exercises in order: [what is at stake](asset-identification.md), [what could break it](vuln-identification.md), [how likely and how bad](risk-assessment.md), [what can be done](treatment-options.md), [building the register](risk-register.md), [building the model](risk-model.md), [from exercises to operations](to-operations.md). Each exercise produces inputs to the next.
 
 The exercises are designed to be concrete and practical. Abstract risk discussions that do not produce specific, owned findings with timelines are not producing risk management. They are producing risk conversation.
 
@@ -24,10 +24,3 @@ The exercises are designed to be concrete and practical. Abstract risk discussio
 
 - [ISO 27001 risk assessment](../audits/iso27001/risk-tent.md) shows how the exercise outputs map to the structured requirements of information security management.
 - [NIS2 compliance](../audits/nis2/river.md) shows how critical asset analysis connects to the proportionate measures required for essential and important entities.
-
-## Related
-
-- [Risk management workshop](../workshops/risk-management.md)
-- [Introduction to threat modelling exercises](../threat-modelling/choreography.md)
-- [What ChangeShop is](../foundations/change-management/what-it-is.md)
-- [From exercises to operations](to-operations.md)

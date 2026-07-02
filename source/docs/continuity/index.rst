@@ -1,8 +1,8 @@
 Business continuity and disaster recovery
 ============================================
 
-.. image:: /_static/images/iso22301.png
-  :alt: A printed business continuity binder open on a desk, surrounded by sticky notes asking "who owns this?", "have we tested it?", and "still valid?". The binder is clearly the kind that gets photocopied at audit time and forgotten until the photocopier itself is the failure.
+.. image:: /_static/images/rosebay.png
+  :alt: rosebay willowherb blazing pink across burnt or cleared ground. In Britain it's fireweed, the "bombweed" that carpeted WWII bomb sites, recovery as the ground's own reflex.
 
 Continuity is one of those subjects every organisation claims to have until the building floods and SharePoint becomes
 theology. The plan exists. The plan is current. The plan has been signed off. And it could be that none of these

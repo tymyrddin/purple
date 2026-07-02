@@ -18,6 +18,12 @@ when a specific scenario is named. What the group does during the scenario is us
 about readiness than what it says it would do, and that difference is the finding worth carrying out of the
 room.
 
+A retail board walked a scenario in which a haulage strike stranded stock in the week before Christmas.
+The stated risk appetite held until diverting the marketing budget to air freight was put on the table,
+at which point three directors deferred to a finance lead who was not in the session. The plan named an
+escalation path; the scenario found it ran to someone who, on the day, would be on a plane. Surfacing
+that was the review's return.
+
 What follows is an executive dashboard: the top few risks in plain language, the current posture read
 as ready, partial or exposed, and the decisions leadership owns on investment, staffing and strategy.
 It is built to be read and acted on in ten minutes.

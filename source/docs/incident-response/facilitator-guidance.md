@@ -22,7 +22,7 @@ Intervene when something genuinely requires it: a safety concern, a technical fa
 
 ## The debrief
 
-The debrief is where the learning happens. The exercise is the stimulus; what the team does with it in the debrief is the output. A well-run exercise followed by a poor debrief produces a vivid experience with no retained understanding. A thorough debrief of a flawed exercise can produce more learning than a perfect one with no reflection.
+The [debrief](../practice/debriefs.md) is where the learning happens. The exercise is the stimulus; what the team does with it in the debrief is the output. A well-run exercise followed by a poor debrief produces a vivid experience with no retained understanding. A thorough debrief of a flawed exercise can produce more learning than a perfect one with no reflection.
 
 [Facilitation over instruction](../foundations/montessori/facilitation.md) applies directly: the facilitator's job is to ask questions that surface participants' models and examine them against what the exercise revealed, not to explain what the right answer was. Begin with the immediate hot wash while the experience is still fresh. Then move to the structured retrospective with the questions that reach the structural level: not what happened, but what had to be true about the organisation for it to happen that way.
 

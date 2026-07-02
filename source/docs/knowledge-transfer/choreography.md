@@ -30,17 +30,8 @@ Getting the conditions right does not require resolving all of this before doing
 naming it, building processes that produce honest rather than safe documentation, and treating the gap between the 
 written version and the operational reality as a finding rather than an embarrassment.
 
-So how to build playbooks that survive contact with reality, 
-manuals that get used at 3:00, dashboards that answer the question the analyst is actually asking, and workflows 
+So how to build [playbooks](playbooks.md) that survive contact with reality, 
+[manuals](manuals.md) that get used at 3:00, [dashboards](dashboards.md) that answer the question the analyst is actually asking, and [workflows](workflows.md) 
 that reduce friction rather than add it. They are most useful when the conditions for honest documentation exist. 
 Where those conditions are still being built, the section on 
 [organisational development](../foundations/organisational-development/satir-core.md) is the place to start.
-
-## Related
-
-- [Playbooks that actually work](playbooks.md)
-- [Moving beyond manuals nobody reads](manuals.md)
-- [Dashboards that actually get used](dashboards.md)
-- [Workflows that get followed](workflows.md)
-- [SIRT structure](../incident-response/sirt/structure.md)
-- [SOC workflows](../incident-response/soc/workflows.md)

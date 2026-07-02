@@ -33,6 +33,12 @@ assumption held its ground. The question worth asking is what the organisation b
 seem impossible. That belief is what a durable fix corrects, at the level of the
 [system model](../foundations/system-effectiveness/core-triad.md).
 
+A mid-sized insurer ran the same supplier-failure walkthrough two quarters running. The first surfaced
+that moving claims to the backup processor took eleven hours against a contracted two, and the fix was a
+written runbook. The second run, runbook in hand, still took nine: the runbook assumed a data export the
+backup processor had quietly retired. The runbook was faithful to a format that no longer existed, and
+the belief about that format was the thing to correct.
+
 ## What is left behind
 
 The output is a resilience map the team keeps: the risks, the dependencies, the mitigations and their

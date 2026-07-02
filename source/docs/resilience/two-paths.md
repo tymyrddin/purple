@@ -1,9 +1,10 @@
 # Two paths, NIS2 and ISO 27001
 
-Organisations often ask whether to pursue NIS2 compliance on its own or combine it with ISO 27001 certification.
-The answer depends on your situation, but understanding how they differ can help decision-making.
+Organisations weighing NIS2 often ask whether to pursue it on its own or alongside ISO 27001
+certification. The answer depends on the situation, though seeing how the two differ can make the choice
+clearer.
 
-## Key differences in a nutshell
+## Key differences
 
 | Aspect               | ISO 27001                                      | NIS2                                                                      |
 |----------------------|------------------------------------------------|---------------------------------------------------------------------------|
@@ -21,65 +22,67 @@ The answer depends on your situation, but understanding how they differ can help
 
 ## Pursuing both
 
-Many do, and for good reasons. ISO 27001 provides a proven ISMS framework and methodology, international recognition
-and market credibility, a structured approach to risk management, third party validation of security programmes,
-competitive advantage in procurement, and improved customer confidence and trust.
+Many organisations pursue both, for good reasons. ISO 27001 offers a proven ISMS framework and
+methodology, international recognition and market credibility, a structured approach to risk management,
+third-party validation of a security programme, an edge in procurement, and greater customer confidence.
 
-NIS2 adds legal compliance for in scope entities, mandatory incident reporting, explicit supply chain requirements,
-supervisory oversight and enforcement, sector specific security coordination, and personal accountability for
-management.
+NIS2 adds legal compliance for in-scope entities, mandatory incident reporting, explicit supply-chain
+requirements, supervisory oversight and enforcement, sector-specific coordination, and personal
+accountability for management.
 
-The combined benefits matter. ISO 27001 implementation satisfies many NIS2 requirements. ISO 27001 certification helps
-demonstrate that you have taken appropriate measures. Shared documentation and evidence reduce duplication. A single
-ISMS framework covers both. Mature processes reduce the overall compliance burden.
+The overlap does real work. An ISO 27001 implementation satisfies many NIS2 requirements; certification
+helps demonstrate that appropriate measures are in place; shared documentation and evidence reduce
+duplication; a single ISMS framework covers both; and mature processes lower the overall compliance
+burden.
 
-Both paths share one requirement: that compliance evidence comes from tested control behaviour, not only from
-documented controls. ISO 27001 certification provides third-party validation that the management system exists and
-audits have been conducted. NIS2 supervisory oversight asks whether controls produce their intended effect under
-operational conditions. Neither substitutes for the behavioural evidence that stress tests, tabletop exercises, and
-targeted probing generate. Shared documentation reduces duplication of paperwork; shared testing cycles reduce
-duplication of the work that produces evidence worth presenting.
+Both paths rest on one requirement: that compliance evidence comes from tested control behaviour as much
+as from documented controls. ISO 27001 certification provides third-party validation that the management
+system exists and audits have run. NIS2 supervisory oversight asks whether controls produce their
+intended effect under operational conditions. Neither is met by documentation alone, and the behavioural
+evidence that stress tests, tabletop exercises and targeted probing generate is what closes the gap.
+Shared documentation reduces duplication of paperwork; shared testing cycles reduce duplication of the
+work that produces evidence worth presenting.
 
 ## When dual compliance makes sense
 
-Consider pursuing both if market expectations favour it. For example, international customers require ISO 27001
-certification, procurement processes reward certified suppliers, competitive advantage existing in the sector, or
-operating across multiple jurisdictions with differing requirements.
+Dual compliance often makes sense where market expectations favour it: international customers that
+require ISO 27001 certification, procurement processes that reward certified suppliers, a competitive
+edge in the sector, or operations spanning jurisdictions with differing requirements.
 
-Organisational maturity also plays a role. Dual compliance suits organisations that want structured ISMS guidance,
-prefer independent validation, value continuous improvement, and have the resources to sustain both programmes.
+Organisational maturity plays a part too. Dual compliance suits an organisation that wants structured
+ISMS guidance, values independent validation and continuous improvement, and has the resources to sustain
+both programmes.
 
-Risk management benefits may tip the balance as well. Dual compliance supports defence in depth, external validation
-of controls, structured growth of a security programme, and clear demonstrations of due diligence beyond minimum
-requirements.
+The risk-management case can tip the balance as well: defence in depth, external validation of controls,
+structured growth of a security programme, and a clear demonstration of due diligence beyond the minimum.
 
 ## When NIS2 alone suffices
 
-NIS2 compliance alone may be enough if your requirements are narrow. For example, you operate only in EU sectors
-covered by NIS2, no customer expects ISO 27001 certification, budget constraints are real, or your focus is legal
-compliance rather than market positioning.
+NIS2 on its own may be enough where requirements are narrow: an organisation operating only in the EU
+sectors NIS2 covers, no customer expecting ISO 27001 certification, real budget constraints, or a focus
+on legal compliance ahead of market positioning.
 
-Your existing security programme may already be mature. If you already operate an effective ISMS without
-certification, and if your controls meet or exceed NIS2 requirements, you may prefer to focus on regulatory
-obligations rather than external audits.
+An existing security programme may already be mature enough. An organisation that runs an effective ISMS
+without certification, with controls that meet or exceed NIS2 requirements, may prefer to concentrate on
+regulatory obligations rather than external audits.
 
-Organisational priorities might differ as well. Resources may be better spent on improving security rather
-than managing certification overhead, the certification value may be unclear in your market, you may wish to avoid
-the audit burden, or you may plan to pursue certification later once compliance is well established.
+Priorities can point the same way. Resources may go further on improving security than on certification
+overhead; the certification's value may be unclear in a given market; the audit burden may not be worth
+carrying yet; or certification may be left until compliance is well established.
 
-## Integrate efficiently if you pursue both
+## Integrating the two
 
-Share foundations to avoid duplication. A single ISMS framework can serve both requirements. A
-common [risk assessment](../audits/supportive/risk-scoring.md) can feed both
-programmes. A unified policy structure keeps things consistent. Combined documentation
-reduces unnecessary paperwork.
+Shared foundations avoid duplication. A single ISMS framework can serve both requirements, a common
+[risk assessment](../audits/supportive/risk-scoring.md) can feed both programmes, a unified policy
+structure keeps things consistent, and combined documentation reduces unnecessary paperwork.
 
-Take an incremental approach. First implement the mandatory [NIS2 measures](../audits/supportive/eu-regulations.md) for
-legal compliance. Then expand towards
-full ISO 27001 Annex A coverage. Pursue ISO 27001 certification once your processes are stable and properly resourced.
-Maintain both through a unified set of processes going forward.
+An incremental approach fits most programmes. The mandatory
+[NIS2 measures](../audits/supportive/eu-regulations.md) come first, for legal compliance; full ISO 27001
+Annex A coverage follows; certification arrives once processes are stable and properly resourced; and a
+unified set of processes maintains both from there.
 
-Map requirements to find overlaps. Article 21 of NIS2 aligns closely with [ISO 27001 Annex A](../audits/supportive/standards.md). 
-Incident reporting is not part of ISO 27001. [Supply chain requirements](../audits/supportive/supply-chain.md) are 
-similar but phrased more firmly in NIS2. Governance obligations overlap substantially. Use 
-[gap analysis](../audits/supportive/gap-analysis.md) to identify what is unique to each.
+Mapping the requirements shows where they overlap. Article 21 of NIS2 aligns closely with
+[ISO 27001 Annex A](../audits/supportive/standards.md). Incident reporting sits outside ISO 27001.
+[Supply chain requirements](../audits/supportive/supply-chain.md) are similar, phrased more firmly in
+NIS2. Governance obligations overlap substantially. A
+[gap analysis](../audits/supportive/gap-analysis.md) identifies what is unique to each.

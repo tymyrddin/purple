@@ -1,5 +1,7 @@
 # Elephants all the way down
 
+![Games](/_static/images/discworld-map.png)
+
 Roleplay does not have to stop at the tabletop. Blue's
 [Campaigns, manoeuvres and scenarios](https://blue.tymyrddin.dev/docs/scenarios/) runs it at the scale of a
 whole geopolitical ecosystem: a city and its Establishment, its most-watched ally Fungolia, the red-team

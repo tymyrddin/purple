@@ -19,6 +19,12 @@ drifted, and the corrective action that follows is a testable hypothesis for the
 recurring schedule, a single discovery becomes continuous verification: resilience the organisation can
 demonstrate on any given day.
 
+A payments company set a Friday-afternoon scenario: ransomware on the payroll host midway through a run.
+The team reached the documented isolation step in four minutes and restored from an immutable snapshot
+inside the two-hour objective, and that timed restore, with its logs, was the line the auditor accepted
+the following month. The same afternoon surfaced that only one named person could authorise an emergency
+payment rerun, with no delegate on record, which no policy had flagged.
+
 For technical teams, a capture-the-flag exercise can serve the same function for operational competence.
 Participants work structured incident scenarios with immediate feedback on whether their response
 produced the intended effect. The format corrects itself: the incident is either contained or it runs

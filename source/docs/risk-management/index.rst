@@ -2,16 +2,18 @@ Risk management & assessment
 ===============================
 
 .. image:: /_static/images/risk-management.png
-  :alt: A wooden table is strewn with open notebooks, pens, printed reports, and a folder. The folder’s cover reads “Risk management and assessment”.
+  :alt:  an Alpine marmot stood upright on a rock in a high meadow, whistling the alarm while the rest of the colony forages, and the watch passing between them.
 
-You can't protect everything. Let's figure out what actually matters. We'll map your critical assets, realistic threats, and
-current gaps, then build a practical roadmap that fits your budget and capacity.
+Nothing protects everything, so risk management is mostly the discipline of choosing: what is worth protecting,
+what realistically threatens it, and where limited capacity does the most good. Treated as the organisation's own
+practice rather than a report produced for it, the exercises here map the critical assets, the realistic threats
+and the current gaps, and turn them into a prioritised roadmap sized to the budget and capacity that actually exist.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Get clear understanding of your risk exposure, prioritised actions, realistic timelines, and documentation you can show your board.
+   :caption: A clear picture of risk exposure, prioritised actions, realistic timelines, and documentation that stands up to a board.
 
    choreography.md
    asset-identification.md

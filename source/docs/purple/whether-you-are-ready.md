@@ -13,7 +13,7 @@ someone who can play the attacker credibly, not an elite operator but someone wh
 well enough to run them realistically and safely; early on that seat can be filled from outside, as long as
 the two sides stay tightly coordinated rather than drifting onto separate timelines.
 
-The cultural minimum is the harder half. Someone needs the authority to turn a finding into a change, not just
+The cultural minimum is the harder half. Someone needs the authority to [turn a finding into a change](../practice/acting-on-findings.md), not just
 an acknowledgement; where security sits below the line at which budgets are decided, findings become a list
 everyone agrees is important and no one has time to close. And the room has to stay honest under pressure,
 which is where most of the difficulty lives. Teams under stress slide into telling the facilitator what it

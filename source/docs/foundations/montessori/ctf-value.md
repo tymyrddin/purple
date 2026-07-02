@@ -48,7 +48,7 @@ are tested by the experience rather than confirmed by it.
 
 ## The debrief
 
-A CTF run without a debrief leaves most of its value unused. Participants have had an experience. The debrief is where
+A CTF run without a debrief leaves most of its value unused. Participants have had an experience. The [debrief](../../practice/debriefs.md) is where
 they consolidate what that experience means.
 
 Useful questions: what was surprising about how the technique worked, what would have caused it to fail, what

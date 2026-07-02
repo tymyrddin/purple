@@ -54,6 +54,7 @@ how organisations resist the change they asked for.
    docs/foundations/index
    docs/thirteen/index
    docs/engagement/index
+   docs/practice/index
    docs/knowledge-transfer/index
 
 The third option: the loop and shared practice

@@ -1,5 +1,7 @@
 # Huginn and Muninn
 
+![Huginn and Muninn](/_static/images/tree-eyes.png)
+
 [Huginn and Muninn](https://github.com/tymyrddin/huginn-and-muninn) are Odin's ravens, Thought and Memory, and
 here they are a small local toolkit for watching the real routing world. It reads public data and announces
 nothing: no cloud, no peering, no ASN of its own, a laptop is plenty. Huginn is the now, live observation of
