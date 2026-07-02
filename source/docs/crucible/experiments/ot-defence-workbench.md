@@ -1,6 +1,8 @@
-# OT Defence Workbench
+# OT Defence workbench
 
-[OT Defence Workbench](https://github.com/tymyrddin/ot-defence-workbench) starts with no boundary at all and
+![OT Defence Workbench](/_static/images/ot-defence-workbench.png)
+
+[OT Defence workbench](https://github.com/tymyrddin/ot-defence-workbench) starts with no boundary at all and
 asks the learner to build one, brief by brief. Two segments, one asset to protect, one adversary that probes,
 and a boundary node that begins as a transparent bridge. Each brief names an outcome that has to hold, and the
 workbench reports whether it does: whether the attack got through, and whether legitimate traffic kept

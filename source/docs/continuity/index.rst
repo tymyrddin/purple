@@ -7,10 +7,10 @@ Business continuity and disaster recovery
 Continuity is one of those subjects every organisation claims to have until the building floods and SharePoint becomes
 theology. The plan exists. The plan is current. The plan has been signed off. And it could be that none of these
 statements survive contact with a fire, a ransomware event, a depot strike, or the quiet news that the third party
-that owns half your dependency graph has filed for administration.
+that owns half an organisation's dependency graph has filed for administration.
 
 Exploring the possible gap between a plan and an organisation that enacts it.
-Such a gap is fundamentally adversarial systems thinking applied inwards: what breaks first, what
+Such a gap is adversarial systems thinking applied inwards: what breaks first, what
 cannot fail, what humans will improvise around, how technical failure walks slowly toward
 governance failure if nobody is watching the corridor, and what happens on the Monday morning
 after the event when the technology is back and the organisation is not.
