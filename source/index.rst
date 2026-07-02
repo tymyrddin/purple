@@ -34,7 +34,6 @@ and defences get built. Necessary, and on its own never quite enough.
 
    docs/threat-modelling/index
    docs/systems-architecture/index
-   docs/social-engineering/index
    docs/cloud/index
    docs/ai-security/index
    docs/adversarial-ai/index
@@ -69,6 +68,7 @@ where that happens, and the resilience disciplines are how it lasts past the exe
 
    docs/purple/index
    docs/incident-response/index
+   docs/social-engineering/index
    docs/risk-management/index
    docs/continuity/index
    docs/resilience/index
