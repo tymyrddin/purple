@@ -4,31 +4,35 @@ The three
 cases, [Radarstation Herwijnen](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/herwijnen/), [Maintenance tender for secured network rooms](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/netwerkruimtes/), [Defensie Pijpleiding Organisatie (DPO) fuel pipeline](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/dpo/)
 and the [proof-of-concept design SOS](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/sos/), all point at the same finding.
 None concerns leaked information. None concerns intrusion. Each is a record of how routine, individually justified
-publication, when read collectively, reduces uncertainty about critical infrastructure to a degree the publishers did
-not intend.
+publication, when read collectively, reduces uncertainty about critical infrastructure further than the publishers appear
+to have intended.
 
-No document on those pages is sensitive in the classical sense. Each public source existed for legitimate reasons: legal
-transparency, environmental and water management regulation, infrastructure coordination, public accountability. Read
-together they identify operationally important nodes, expose dependency chains and constraints, and allow partial
+No information on those pages is sensitive in the classical sense. Each public source existed for legitimate reasons:
+legal transparency, environmental and water management regulation, infrastructure coordination, public accountability.
+Read together they identify operationally important nodes, expose dependency chains and constraints, and allow partial
 reconstruction of system behaviour from public data alone.
 
-In security terms the problem space shifts from an unknown structure to a partially modelled operational system. That is
-what does the work, because it lowers the cost of finding the places where resilience depends on assumption rather than
-redundancy. The shift is a structural effect of distributed publication, legitimate transparency requirements,
-geospatially structured datasets, and a near-complete absence of aggregation awareness across domains. Each layer is
+In security terms, the target stops being opaque. It becomes a system that can be partly modelled from public data,
+which lowers the cost of finding where resilience rests on assumption rather than redundancy. The shift appears to be
+structural: distributed publication, legitimate transparency requirements, geospatially structured datasets, and a
+widespread absence of aggregation awareness across domains. Each layer is
 rational on its own. Together they form something more legible than any layer intended.
 
 ## Policy gap
 
 A dependencies classification guide, naming which categories of routine public data carry aggregation risk for sensitive
-sites, does not appear to exist. It is unclear whether one is in development. Existing classification machinery treats
-individual documents as the unit of decision; aggregation across documents is not on its checklist. Closing the gap is
-partly a writing exercise (what would such a guide actually say?) and partly an institutional one (whose remit is it?).
-Both are genuinely hard. Neither is being done at the depth the cases suggest is needed.
+sites, does not appear to exist. It is unclear whether one is in development. Political discussion of it is scarce, save a single article in the NRC. The article follows an ex-military technician who pieces together
+vulnerabilities in Dutch defence infrastructure simply by combining publicly available information. Not hacking.
+Not breaching. Just looking. Correlating. Thinking operationally. Common sense.
+
+Existing classification machinery seems to treat individual documents as the unit of decision; aggregation across
+documents is not on its checklist. Closing the gap is partly a writing exercise (what would such a guide actually say?)
+and partly an institutional one (whose remit is it?). Both are genuinely hard questions to find answers for. Neither
+is being done at the depth the cases suggest is needed.
 
 ## Framework gap
 
-Standard security frameworks focus on internal IT and physical perimeters. They do not cover
+Standard security frameworks tend to focus on internal IT and physical perimeters. They rarely cover
 correlated public-data exposure, because the risk does not present at the perimeter. It presents in the publication
 choices of organisations that may not consider themselves part of the security stack at all: planning offices, water
 boards, procurement aggregators.
@@ -36,13 +40,13 @@ boards, procurement aggregators.
 An "administrative attack surface" control family, sitting alongside the existing technical and physical families, is
 one shape a response could take. It would name the publication systems involved, define a correlation-risk review for
 them, and require the cross-domain coordination needed to make that review meaningful. Standing this up is non-trivial,
-partly because the parties whose publications carry the most risk do not, in current frame, have a security mandate.
+partly because the parties whose publications carry the most risk usually do not have a security mandate.
 
 ## Tooling, with a caveat
 
-AI is good at finding correlations at scale; that part is solved. A proof-of-concept design for what such a system could
-look like, using Dutch public sources, is sketched in [SOS](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/sos/). A working prototype is technically feasible in
-weeks.
+AI is good at finding correlations at scale; that part is largely solved. A proof-of-concept design for what such a
+system could look like, using Dutch public sources, is sketched in [SOS](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/sos/). A working prototype could be built in a
+matter of weeks.
 
 The harder problem is interpretation. A correlation engine flags candidate dependency chains; it does not say which ones
 are a problem, which are known and accepted, and which the relevant institutions can or want to act on. That judgement
@@ -50,45 +54,47 @@ is human, organisational, and political. The tooling does not remove it; it chan
 
 ## The organisational layer
 
-Treating this purely as a policy gap and a tooling problem misses the part that actually keeps it stuck. The reason
-classification regimes do not catch aggregation risk is not chiefly technical. It is organisational, and the foundations
-section of this collection has language for it.
+Treating this purely as a policy gap and a tooling problem misses the part that could keep it stuck. The reason
+classification regimes do not catch aggregation risk is seldom chiefly technical. It is organisational, and the
+foundations section of this collection has language for it.
 
 ### Three domains, not one
 
-Gerald Weinberg's [three domains of problem solving](../foundations/problem-solving/three-domains.md) are rational (
-facts, analysis, tools), emotional (fear, trust, ego, psychological safety), and political (influence, authority, hidden
-agendas). Most stuck problems are stuck in the second or third while everyone keeps investing in the first.
+The rational case for an aggregation-aware classification regime is easy to make, and has been made. If it stays stuck,
+this suggests the block sits elsewhere. Reading
+[three layers rather than one](../foundations/problem-solving/three-domains.md), rational, emotional, political,
+the problem would likely sit in the latter two.
 
-The rational case for an aggregation-aware classification regime is easy to make and has been made. The political layer
-is where it sits: turf between the Ministry of Defence, the MIVD, gemeenten, water authorities, and network operators,
-none of whom currently own the cross-domain question. The emotional layer is the discomfort of being seen as adversarial
-inside an institution whose default posture is defensive. Hiring systems thinkers rather than compliance auditors, is
-a right instinct in the wrong domain. The people are findable. The system that would have to host them is the harder
-bet.
+The political layer is turf: the Ministry of Defence, the MIVD, gemeenten, water authorities, and network operators,
+none of whom currently own the cross-domain question.
+
+The emotional layer is the discomfort of being seen as adversarial inside an institution whose default posture is
+defensive. Hiring systems thinkers rather than compliance auditors is a right instinct in the wrong domain. The people
+are findable. The system that would have to host them is the harder bet.
 
 ### Models, errors, and the same incident in slightly different clothes
 
-The [systems, models, and errors frame](../foundations/system-effectiveness/core-triad.md) treats recurring
-errors as evidence of model failure. When the same class of incident appears on a quarterly cycle, suppressing the
-symptom does not fix the model; only correcting the model does. Each "this document was wrongly published" episode that
-ends in a redaction or a takedown is a symptom-fix. The recurrence is the system telling you that the underlying model
-treats individual documents as the unit of decision while the actual risk is composed across documents. Until the model
-is updated, the redactions will keep arriving in slightly different clothes.
+The same class of incident keeps arriving on a quarterly cycle: a document ruled wrongly published, then redacted or
+taken down. Through the [systems, models, and errors frame](../foundations/system-effectiveness/core-triad.md), a
+recurring error like that reads as model failure, not as something a fresh redaction fixes. Each takedown is a
+symptom-fix. The model underneath still treats individual documents as the unit of decision, while the actual risk is
+composed across documents. Until that model is updated, the redactions are likely to keep arriving in slightly different
+clothes.
 
 ### Survival stances under classification pressure
 
-Satir's [communication patterns under stress](../foundations/organisational-development/satir-core.md) name
-four survival stances: placating, blaming, computing, and distracting. In classified-handling cultures, blaming and
-computing tend to dominate. Blaming directs fault outward (the journalist, the activist, the contractor) rather than at
+Raise aggregation risk inside a classified-handling culture and the response tends to fall into two grooves.
+[Satir's communication patterns under stress](../foundations/organisational-development/satir-core.md) name them blaming
+and computing. Blaming directs fault at the journalist, the activist, the contractor, rather than at
 the publication system that produced the aggregation. Computing retreats into procedure (the document was correctly
 handled under regulation X) rather than engaging with what was actually exposed. Both are honest survival behaviours,
-and both block the conversation that would change the model. Naming the stance is the cheapest move available.
+and both block the conversation that would change the model. Naming the stance is often the cheapest move available.
 
 ## Demands on practitioners
 
-The work in this section can be done by anyone with patience, technical curiosity, and the willingness to read boring
-documents alongside each other. It does not require classified access. It does not require offensive tooling. It
+Because the block is organisational rather than technical, the people who can shift it are not the ones the technical
+framing points to. The work in this section can be done by anyone with patience, technical curiosity, and the willingness
+to read boring documents alongside each other. It does not require classified access. It does not require offensive tooling. It
 requires systems literacy and the social licence to apply it across domains that do not normally talk to each other.
 
 The uncomfortable possibility that closes the [broomstick essay](https://broomstick.tymyrddin.dev/posts/perhaps/), that
@@ -112,7 +118,3 @@ that from happening:
 
 None of this removes the discomfort. The point is to make the discomfort discussable rather than letting it route the
 response.
-
-## Related
-
-* [The Broomstick Brief: The administrative attack surface](https://broomstick.tymyrddin.dev/posts/perhaps/)
