@@ -37,7 +37,3 @@ session. Written down roughly, not polished. The two are not alternatives. The s
 afternoon; the fuller one is for a cycle or a serious incident; run together, the reflection compounds instead
 of evaporating.
 
-## Related
-
-- [The learning loop](../incident-response/sirt/learning.md)
-- [Playbooks the team will follow](collaborative-playbooks.md)

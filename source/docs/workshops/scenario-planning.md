@@ -31,9 +31,4 @@ plan more loosely, reacts less and [responds more](https://broomstick.tymyrddin.
 builds some tolerance for ambiguity before the ambiguity is real. Having imagined the confusion once, it tends
 to meet the real thing with something other than panic.
 
-## Related
-
-- [From the end, backwards](backward-planning.md)
-- [Who would come for this](threat-modelling.md)
-- [Crafting scenarios](../threat-modelling/crafting-scenarios.md)
-- [The Crucible](../crucible/index.rst) holds the runnable simulators that carry a scenario into a safe consequence space, the Patrician's Crisis and Smart Grid among them.
+The [Crucible](../crucible/index.rst) holds the runnable simulators that carry a scenario into a safe consequence space, the Patrician's Crisis and Smart Grid among them.

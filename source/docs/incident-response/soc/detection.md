@@ -47,11 +47,3 @@ Regular joint exercises keep the handover process functional. The first time a h
 conditions is too late to discover that the communication channels are unclear or that the information the SIRT 
 expects is not in the format the SOC provides.
 
-## Related
-
-- [SOC maturity](maturity.md)
-- [SOC workflows and runbooks](workflows.md)
-- [Why a SIRT exists](../sirt/purpose.md)
-- [Running the loop](../../purple/running-the-loop.md)
-- [Knowledge transfer: playbooks](../../knowledge-transfer/playbooks.md)
-- [OT/ICS Threat Intelligence Lab @GitHub](https://github.com/tymyrddin/misp-otics-lab)

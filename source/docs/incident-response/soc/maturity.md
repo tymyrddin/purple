@@ -2,7 +2,7 @@
 
 Maturity in a SOC context is most usefully understood as a direction rather than a level. The question is not "what level are we at?" but "in which direction are we moving, and what is currently limiting our movement in that direction?"
 
-This matters because maturity level frameworks tend to produce compliance with the description of a level rather than the underlying capability. An organisation can credibly claim to be at a given level while its actual detection and response capability is weaker than a lower-rated organisation that takes its model seriously and updates it continuously.
+This is worth attention because maturity level frameworks tend to produce compliance with the description of a level rather than the underlying capability. An organisation can credibly claim to be at a given level while its actual detection and response capability is weaker than a lower-rated organisation that takes its model seriously and updates it continuously.
 
 ## Movement in the right direction
 
@@ -22,10 +22,3 @@ Alert volume: a SOC that is handling more alerts than its analysts can meaningfu
 
 The no-blame condition: the same [Satir](../../foundations/organisational-development/satir-core.md) dynamic that applies in SIRT [post-incident](../../incident-response/sirt/learning.md) review applies in SOC learning. Analysts who expect blame for missed detections will underreport near-misses and borderline calls. Underreporting means the organisation does not learn from its near-misses, which means the same gaps persist. A SOC that has become politically safe to be honest in will surface more of what it needs to improve.
 
-## Related
-
-- [Why a SOC exists](purpose.md)
-- [Detection and response](detection.md)
-- [Applying SEM to security](../../foundations/system-effectiveness/applying-sem.md)
-- [Running the loop](../../purple/running-the-loop.md)
-- [Resilience and system effectiveness](../../resilience/stress-testing.md)

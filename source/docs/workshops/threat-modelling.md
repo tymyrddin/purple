@@ -19,9 +19,3 @@ straight into a threat model of that attacker's likely approach. Backward planni
 paths as an input, since they shape what a desired security posture even means. And a retrospective closes the
 loop: after an exercise or a real incident, it asks whether the model held and what needs redrawing.
 
-## Related
-
-- [Introduction to threat modelling exercises](../threat-modelling/choreography.md)
-- [Around the corner](scenario-planning.md)
-- [From the end, backwards](backward-planning.md)
-- [What gets protected first](risk-management.md)

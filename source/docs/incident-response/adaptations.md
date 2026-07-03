@@ -1,4 +1,4 @@
-# Adapting exercises to your context
+# Adapting exercises to context
 
 ## For small teams
 

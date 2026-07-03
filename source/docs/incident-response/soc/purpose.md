@@ -28,9 +28,3 @@ about whether the investment is justified, or they may reflect the displacement 
 Working through these questions before the SOC is operational is considerably easier than working through them during 
 an incident when the SOC has just identified something uncomfortable.
 
-## Related
-
-- [SOC maturity](maturity.md)
-- [Detection and response](detection.md)
-- [Why a SIRT exists](../sirt/purpose.md)
-- [What ChangeShop is](../../foundations/change-management/what-it-is.md)

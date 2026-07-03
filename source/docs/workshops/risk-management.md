@@ -22,9 +22,3 @@ The habit is the whole of it. A register reviewed once a year is out of date for
 to shorten the gap between when reality moves and when the assessment notices, which asks for a shorter cycle
 and a room that holds the people who actually operate the assets, not a model of them.
 
-## Related
-
-- [Who would come for this](threat-modelling.md)
-- [Around the corner](scenario-planning.md)
-- [Risk assessment](../risk-management/risk-assessment.md)
-- [Risk register](../risk-management/risk-register.md)

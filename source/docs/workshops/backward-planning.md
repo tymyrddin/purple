@@ -18,8 +18,3 @@ lowest, and what the plan asks of people exactly there. Naming an obstacle befor
 it, and many cannot be removed; it is the difference between having thought through a response and improvising
 one under pressure. These belong in the plan, not in the retrospective that later explains why it stalled.
 
-## Related
-
-- [Around the corner](scenario-planning.md)
-- [What gets protected first](risk-management.md)
-- [Around the corner](scenario-planning.md)

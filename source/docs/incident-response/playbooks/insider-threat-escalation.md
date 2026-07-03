@@ -40,7 +40,7 @@ Who had authority to revoke the account? Was that known before the exercise?
 
 What did the investigation reveal about the monitoring posture? Were the logs adequate? Were they actually reviewed?
 
-The insider threat scenario is uncomfortable because it requires holding two things simultaneously: genuine respect for employee rights and a security response that may be adverse to the employee. The exercise does not resolve that tension. It makes it concrete so it can be addressed structurally rather than improvised when time matters.
+The insider threat scenario is uncomfortable because it requires holding two things simultaneously: genuine respect for employee rights and a security response that may be adverse to the employee. The exercise does not resolve that tension. It makes it concrete so it can be addressed structurally rather than improvised when time is short.
 
 ## Outputs
 

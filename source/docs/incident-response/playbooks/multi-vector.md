@@ -22,7 +22,7 @@ The most important thing to observe in the first phase is prioritisation. How do
 
 In the sustained pressure phase, watch for decision fatigue. The team will have been responding for two to three hours. The quality of decisions at hour three compared to hour one is itself a finding. The exercise produces this deliberately, not to punish the team for it, but to make it visible. [Satir's communication stances](../../foundations/organisational-development/satir-core.md) become more pronounced as fatigue sets in: computing behaviours increase, placating responses to stakeholders become more common, and the team's internal communication tends to contract.
 
-Do not prevent the team from making mistakes. An advanced team that sails through this exercise without consequence is telling you something, either the exercise was not calibrated correctly for their capability, or their capability is genuinely strong. Both are worth knowing. A facilitator who steps in to help the team avoid a bad decision removes the learning that decision would have produced.
+Do not prevent the team from making mistakes. An advanced team that sails through this exercise without consequence is telling the facilitator something, either the exercise was not calibrated correctly for their capability, or their capability is genuinely strong. Both are worth knowing. A facilitator who steps in to help the team avoid a bad decision removes the learning that decision would have produced.
 
 The two-hour debrief is not optional. The exercise generates raw material; the debrief is where it becomes learning.
 

@@ -32,10 +32,3 @@ Watch the trends rather than the individual numbers. A single slow incident may 
 
 Metrics only change behaviour if someone looks at them and asks what the trend means. A dashboard no one consults is not measurement; it is performance of measurement.
 
-## Related
-
-- [Why a SIRT exists](purpose.md)
-- [SIRT structure](structure.md)
-- [Incident response choreography](../../incident-response/choreography.md)
-- [Knowledge transfer: workflows](../../knowledge-transfer/workflows.md)
-- [Retrospectives](../../workshops/retrospectives.md)

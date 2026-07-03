@@ -6,7 +6,7 @@ The scenario exposes a specific and common [model failure](../../foundations/sys
 
 ## The scenario
 
-Your organisation uses a third-party SaaS monitoring tool with legitimate infrastructure access. Unknown to the team, the vendor has been compromised. The exercise begins with anomalous behaviour from the vendor's account: unusual API calls, queries for user lists, privileged accounts, and network maps. Beacon traffic to an unknown external IP appears in logs.
+An organisation uses a third-party SaaS monitoring tool with legitimate infrastructure access. Unknown to the team, the vendor has been compromised. The exercise begins with anomalous behaviour from the vendor's account: unusual API calls, queries for user lists, privileged accounts, and network maps. Beacon traffic to an unknown external IP appears in logs.
 
 Investigation reveals that the vendor account is accessing systems outside its normal monitoring scope. A call to the vendor contact produces vague answers, "routine maintenance", that do not explain the specific API calls. Further analysis shows data staging: large queries packaged for exfiltration. A public disclosure then arrives: a security researcher has tweeted that this monitoring vendor has been compromised across multiple customers, and media coverage follows.
 

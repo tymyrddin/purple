@@ -2,7 +2,7 @@
 
 *For SIRT, SOC, IT operations, and management. Tabletop with timed decision rounds: 90-120 minutes.*
 
-The scenario exposes two things that most ransomware exercises avoid. First, that backup reliability is a belief rather than a verified fact. The exercise produces partial, aged backups because that is what most organisations actually have, not because of bad luck. Second, that the decision to pay or not pay a ransom involves authority that organisations have typically not assigned and a financial calculus that surfaces how the organisation actually values different things. The procedural question, what do we do?, is less interesting than the structural one: who decides, and on what basis?
+The scenario exposes two things that many ransomware exercises avoid. First, that backup reliability is a belief rather than a verified fact. The exercise produces partial, aged backups because that is what many organisations actually have, not because of bad luck. Second, that the decision to pay or not pay a ransom involves authority that organisations have typically not assigned and a financial calculus that surfaces how the organisation actually values different things. The procedural question, what do we do?, is less interesting than the structural one: who decides, and on what basis?
 
 ## The scenario
 
@@ -38,7 +38,7 @@ The CEO call: what did the team's response reveal about how operational and secu
 
 The VPN compromise: the attack entry point was a compromised credential. What does the organisation believe about its credential security posture, and did this exercise change that belief?
 
-The question that matters most: what had to be true about this organisation for this scenario to be realistic? The scenario was not designed to be unlikely. If the team found it plausible, that plausibility is the finding.
+A question worth pressing: what had to be true about this organisation for this scenario to be realistic? The scenario was not designed to be unlikely. If the team found it plausible, that plausibility is the finding.
 
 ## Outputs
 

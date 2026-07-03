@@ -4,15 +4,15 @@ A single exercise is an event. A programme is a learning system. The difference 
 each exercise informs the next, and whether the organisation's model of its own capability is being updated rather 
 than just tested.
 
-## Starting where you are
+## Starting from where things stand
 
 The [ChangeShop framing](../foundations/change-management/what-it-is.md) applies here: the organisation already has 
 an incident response capability, however informal. A first exercise does not introduce simulation into a vacuum. It 
 introduces a new kind of scrutiny into a system that has already adapted to the absence of it. The resistance that 
 sometimes meets a new exercise programme is not obstruction. It is the system registering that something is changing.
 
-Start with a single 90-minute tabletop. Keep the scenario focused and the objectives narrow: one or two things you 
-genuinely want to learn about the team's capability, not a comprehensive test of everything at once. The retrospective 
+Start with a single 90-minute tabletop. Keep the scenario focused and the objectives narrow: one or two things genuinely
+worth learning about the team's capability, not a comprehensive test of everything at once. The retrospective 
 after that first exercise is more important than the exercise itself: it establishes the practice of honest review, 
 which is what the programme depends on.
 
@@ -44,10 +44,3 @@ A programme tracks recurrence. If the same class of failure appears in multiple 
 design problem. It is a finding about the conditions the exercises have not yet reached. That finding deserves 
 explicit attention: what structural change would alter the conditions, and who has the authority to make it?
 
-## Related
-
-- [Facilitator guidance](facilitator-guidance.md)
-- [Metrics](metrics.md)
-- [Adaptations](adaptations.md)
-- [What ChangeShop is](../foundations/change-management/what-it-is.md)
-- [Objectives](../engagement/objectives.md)

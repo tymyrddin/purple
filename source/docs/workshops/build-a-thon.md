@@ -24,8 +24,3 @@ and a line on what would signal it needs updating. Groups of two to four, mixed 
 something more grounded than any of them would alone, and a short, functional show-and-tell at the end shares
 it around. What lives only on the laptop of whoever built it was activity, not capability.
 
-## Related
-
-- [The other timeline](retrospectives.md)
-- [Knowledge transfer: playbooks](../knowledge-transfer/playbooks.md)
-- [Clearing the backlog](patch-sprint.md)

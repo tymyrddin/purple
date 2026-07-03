@@ -1,12 +1,12 @@
 # SIRT roles
 
-Clearly defined roles reduce confusion during incidents and ensure that critical actions have owners. The temptation to leave roles ambiguous in order to preserve flexibility is a temptation worth resisting: flexibility during an incident is not the same as ambiguity, and the cost of ambiguity, at the moment when it matters, is very high.
+Clearly defined roles reduce confusion during incidents and ensure that critical actions have owners. The temptation to leave roles ambiguous in order to preserve flexibility is a temptation worth resisting: flexibility during an incident is not the same as ambiguity, and the cost of ambiguity, at the moment of an incident, is very high.
 
 ## The problem solving view of role definition
 
 [Assigning roles involves three layers](../../foundations/problem-solving/index.rst). The rational layer is the straightforward one: who does what, in what sequence, 
 with what authority. The emotional layer is less often addressed: does the person in this role understand why it 
-matters, and do they feel equipped to do it under pressure? A role that looks correct on paper but belongs to someone 
+counts, and do they feel equipped to do it under pressure? A role that looks correct on paper but belongs to someone 
 who has never exercised it is a gap waiting to be discovered at the worst moment. The political layer is the one 
 most often avoided: who has the standing to declare an incident, to escalate it to leadership, and to require that 
 other parts of the organisation cooperate?
@@ -28,15 +28,9 @@ Business representatives: legal, HR, and management ensure that operational deci
 
 ## Practical notes
 
-These are examples, not a template. A very small organisation may combine several of these roles in one or two people. What matters is that the responsibilities are assigned and understood before an incident occurs, not improvised during one.
+These are examples, not a template. A very small organisation may combine several of these roles in one or two people. The point is that the responsibilities are assigned and understood before an incident occurs, not improvised during one.
 
 The statement that someone is "available" for SIRT work during an incident is not the same as role clarity. Availability and clarity are both necessary.
 
 Roles are worth testing before an incident. A [tabletop](../../incident-response/choreography.md) exercise that runs the team through a plausible incident scenario will reveal gaps in role clarity, authority, and process that no amount of documentation review will surface.
 
-## Related
-
-- [Why a SIRT exists](purpose.md)
-- [SIRT structure](structure.md)
-- [PSL applied to security work](../../foundations/problem-solving/in-security.md)
-- [Incident response choreography](../../incident-response/choreography.md)

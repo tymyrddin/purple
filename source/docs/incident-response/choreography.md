@@ -1,77 +1,52 @@
-# Tabletop and live simulations (general)
+# Tabletop and live simulations
 
-Tabletop and live simulations let teams test procedures, explore communication strategies, and practise continuity 
-planning.
+Tabletop and live simulations let a team test its procedures, work its communication under pressure, and
+rehearse continuity before an incident forces the same rehearsal at a worse time.
 
-Most incident exercises are polite performances: a few slides, a scripted scenario, and then everyone goes back to 
-email. That makes for nice PowerPoints but weak preparedness. Real operational resilience demands messy rehearsal: 
-live decisions, messy trade-offs, communication friction, and the human stress that reveals where plans actually break.
+Most incident exercises are polite performances: a few slides, a scripted scenario, and everyone back to
+email by lunch. That makes for tidy slide decks and thin preparedness. What builds operational resilience
+is messier rehearsal: live decisions, real trade-offs, communication friction, and the human stress that
+shows where a plan actually breaks.
 
-This workshop is different. It is an adaptable, immersive facilitation process designed to turn plans on paper into 
-practiced habits. We run tabletop games for strategic clarity and live injections for process muscle, then we force
-the team to close the gap between what they think they will do and what they actually do.
+The point of the format below is to turn plans on paper into practised habits. Tabletop games buy
+strategic clarity; live injections build process muscle; and the gap between what a team thinks it will do
+and what it actually does gets closed in contact.
 
 ## Core principles
 
-*   Practise don’t preach: learning happens through doing, not slideware. Exercises emphasise hands-on decision cycles and repeatable actions.
-*   Safe realism: scenarios are realistic and uncomfortable, but the environment is blame-free so teams can learn without fear.
-*   Role clarity and communication: incidents are primarily human problems, so we focus on who speaks when, what channels to use, and how to preserve situational awareness.
-*   Adaptable fidelity: we scale fidelity to needs, from tabletop (90 to 120 minutes) to full live injection (multi-hour, multi-team).
-*   Evidence for learning: every exercise finishes with concrete outputs: decisions made, time-to-decision metrics, and a short improvement backlog.
+- Practise, not preach. Learning happens through doing rather than slideware, so the exercises run on
+  hands-on decision cycles and repeatable actions.
+- Safe realism. Scenarios are realistic and uncomfortable, and the room stays blame-free, so a team can
+  learn without the finding being held against anyone.
+- Role clarity and communication. Incidents are mostly human problems, so the focus falls on who speaks
+  when, which channels carry what, and how situational awareness survives contact.
+- Adaptable fidelity. The intensity scales from a 90-to-120-minute tabletop to a multi-hour, multi-team
+  live injection.
+- Evidence for learning. Each exercise ends in concrete outputs: the decisions made, time-to-decision,
+  and a short improvement backlog.
 
-## How it works: modular structure
+## A modular structure
 
-The workshop is split into modular parts so you can choose the right intensity and duration.
+The exercise splits into parts, so the intensity and duration fit what the team can hold.
 
-1. Orientation: set the stage (15–30 minutes)
-   *  Quick primer on objectives, safety rules, and timing.  
-   *  Decide roles: incident commander, comms lead, technical lead, liaisons, observers.  
-   *  Agree the scope and “do not touch” constraints (systems we will not disrupt).
+1. Orientation (15 to 30 minutes). A quick primer on objectives, safety rules and timing; roles decided,
+   incident commander, comms lead, technical lead, liaisons, observers; and the scope and "do not touch"
+   constraints agreed, the systems the exercise will not disrupt.
+2. Tabletop (60 to 120 minutes). A short, sharp brief establishes the incident, a service outage, data
+   exfiltration, ransomware, a supply-chain failure. Teams talk through decisions round by round while a
+   facilitator introduces complications and new facts to surface dependencies. The focus is decision
+   triggers, escalation thresholds, external communications, and cross-team coordination.
+3. Live injections (1 to 4 hours). Controlled, safe disruptions enter real workflows: a simulated alert, a
+   fake press enquiry, a "compromised" account, a broken vendor API. Teams act in real time on their
+   normal tools and channels while observers record timings, handoffs and friction. A parallel red team can
+   raise the pressure where the culture can carry it.
+4. Comms rehearsal (30 to 60 minutes). Short internal messages and an external statement get drafted and
+   delivered; hotlines, executive briefings and spokesperson handovers practised. The tension to hold is
+   speed against accuracy: moving fast without releasing unverified detail.
+5. Rapid retrospective (30 to 45 minutes). What held, what surprised the team, and where escalation
+   stalled, turned into a short prioritised list of fixes and playbook tweaks with owners and dates, plus a
+   one-page after-action summary and a one-page playbook for the next seventy-two hours.
 
-2. Tabletop: clarify the plan (60–120 minutes)
-   *  Scenario briefing: a short, sharp narrative that establishes the incident (service outage, data exfiltration, ransomware, supply chain failure, etc.).  
-   *  Guided play: teams talk through decisions round by round. Facilitator introduces complications and new facts to surface dependencies.  
-   *  Focus: decision triggers, escalation thresholds, external communications, and cross-team coordination.
-
-3. Live injections: practise under pressure (1–4 hours)
-   *  Controlled, safe disruptions are injected into real workflows: simulated alerts, fake press enquiries, a “compromised” account, or a broken vendor API.  
-   *  Teams act in real time, using their normal tools and channels. Observers record timings, handoffs, and friction points.  
-   *  Optionally run a parallel red team to escalate pressure and realism.
-
-4. Comms rehearsal: internal and external (30–60 minutes)
-   *  Draft and deliver short internal messages and an external statement. Practice hotlines, executive briefings, and spokesperson handovers.  
-   *  Emphasise speed + accuracy: how to avoid releasing unverified details and how to maintain trust under pressure.
-
-5. Rapid retrospective and action capture (30–45 minutes)
-   *  What worked? What surprised us? Where did escalation stall?  
-   *  Produce a short, prioritised improvement list: fixes, playbook tweaks, owner and due date.  
-   *  Capture a one-page “after action” summary and a one-page immediate playbook for the next 72 hours.
-
-## Typical outputs
-
-*   A one-page incident playbook tailored to the team (who does what, how to escalate, comms templates).  
-*   A short improvement backlog with owners and dates.  
-*   Recorded decision timeline and incident log for training and audit.  
-*   Optional: a short video clip of key decision points for team learning.
-
-## Who it is for
-
-*   Incident response and security teams who need to practise coordination under pressure.  
-*   Senior leaders who want to build confidence in fast, evidence-based decisions.  
-*   Communications and legal teams working in lockstep with operations.  
-*   Cross-functional operational teams (platform, product, customer service) who want to practise continuity and customer handling.
-
-## Formats & duration
-
-*   Primer (90 minutes): tabletop + rapid retro, good for first timers and leadership alignment.  
-*   Standard (half-day): tabletop, comms rehearsal, and detailed retro.  
-*   Immersive (full day): tabletop + live injections + comms + deep after action.  
-*   Enterprise (multi-day): scenario chaining, extended live ops, and playbook design with documentation handover.
-
-## Optional add-ons
-
-*   Evidence capture & metrics: automated logging of response timings and handoffs.  
-*   Custom red team: scripted adversary to increase realism.  
-*   Playbook authoring: we turn outputs into polished, team-specific runbooks.  
-*   Follow-up coaching: short coaching sessions to embed changes and support adoption.
-
+What a run leaves behind, a team-specific incident playbook, an owned improvement backlog, a recorded
+decision timeline, stays with the team and feeds the next round rather than settling into a report filed
+elsewhere.
