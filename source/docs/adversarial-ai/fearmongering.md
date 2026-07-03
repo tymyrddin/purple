@@ -7,7 +7,7 @@ the pattern is the starting point.
 
 ## The projection argument
 
-Some scepticism is warranted. The examples below are clearest in the poisoning domain, where the mismatch between alarm and evidence is most pronounced, but the institutional dynamic applies across all five attack types. Three structural reasons the threat tends to be overstated:
+Some scepticism is warranted. The examples below are clearest in the [poisoning domain](https://red.tymyrddin.dev/docs/through/learned-models/poisoning/), where the mismatch between alarm and evidence is most pronounced, but the institutional dynamic applies across all five attack types. Three structural reasons the threat tends to be overstated:
 
 *Data is already messy*: Foundational models train on trillions of documents scraped from public forums, social
 platforms, and the general web. Proving that a specific failure was caused by a targeted adversary rather than by
@@ -107,10 +107,5 @@ open datasets, and slows development to re-audit data provenance. The attacker n
 of the attack, if it succeeds at the level of belief rather than fact, is borne entirely by the defender.
 
 The calibration differs by attack type, but the pattern holds across all of them: the scenarios generating the loudest
-coverage are often not the ones generating the most damage. The dramatic version involves nuclear silos and invisible
+coverage are often not the ones generating the most damage. The [dramatic version](arms-race.md) involves nuclear silos and invisible
 armies. The operational version is closer to corrupting the audio library on one ship's sonar system.
-
-## Related
-
-* [Poisoning, the attacker's view](https://red.tymyrddin.dev/docs/through/learned-models/poisoning/)
-* [The arms race](arms-race.md)

@@ -1,5 +1,5 @@
 Learned models: the calibration view
---------------------------------------
+===========================================
 
 .. image:: /_static/images/learned-models-calibration.png
 

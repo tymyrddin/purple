@@ -19,7 +19,7 @@ rational-actor assumptions. AI deterrence has none of these.
 | Deterrent | Second-strike capability            | Ability to sabotage rival's AI project        |
 | Mechanism | Mutually assured destruction        | Mutually assured AI malfunction               |
 | Stability | Hotlines, treaties, rational actors | No treaties, opaque models, irrational actors |
-| Threat    | Cities destroyed                    | Superintelligence deployed against you        |
+| Threat    | Cities destroyed                    | Hostile superintelligence deployed        |
 
 The core insight of MAIM is that AI sabotage is faster, harder to detect, and more destabilising than nuclear
 escalation (although it doesn't kill everything in a big radius immediately and leaves the entire area uninhabitable
@@ -71,7 +71,7 @@ attribution, and agreed triggers, MAIM remains a posture rather than a mechanism
 
 ## The 2025 conflicts as proof
 
-The structural problems with MAIM would be concerning if they remained theoretical. They are not theoretical. The 
+The structural problems with MAIM would be concerning if they remained theoretical. They are not theoretical. The
 following case studies show AI already operating in active conflicts, without the framework that MAIM envisions.
 
 [Academic literature on AI and nuclear deterrence](https://sage.cnpereading.com/doi/10.1177/29769442251410646) has analysed the 2025 India–Pakistan and Iran–Israel conflicts as
@@ -163,6 +163,6 @@ But automated defence introduces its own risks. When AI defends against AI, the 
 milliseconds. Human oversight becomes reactive rather than proactive. The same speed that enables defence also enables
 error.
 
-If the best deterrence framework we have is structurally weak, and the technology it is meant to govern is already 
+If the best deterrence framework available is structurally weak, and the technology it is meant to govern is already
 being used in active conflicts ... what does that mean for what comes next?
 
