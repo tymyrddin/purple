@@ -8,7 +8,7 @@ cases, and the edge cases are where most cloud incidents originate.
 
 The split varies by service type. IaaS leaves more to the customer: operating system patching, network configuration,
 application security. PaaS shifts more to the provider, with managed runtime and often managed identity. SaaS shifts
-almost everything to the provider, but leaves the customer responsible for data, access management, and the
+almost everything to the provider, but leaves the customer responsible for data, [access management](identity-collapse.md), and the
 configuration of whatever the provider exposes through its admin surface.
 
 The trouble starts where the line is unclear. Container services that are "managed" but require the customer to
@@ -35,7 +35,7 @@ default changes.
 
 The interface between the two sides has no shared interface. There is no protocol for "we are about to deprecate this
 default" except a release note that the customer's automation may not parse. The cumulative effect, across many services
-and many customers, is the misconfiguration epidemic the cloud industry has been grappling with for most of a decade.
+and many customers, is the [misconfiguration epidemic](https://indigo.tymyrddin.dev/docs/debt/cloud.html) the cloud industry has been grappling with for most of a decade.
 
 ## Reading the model honestly
 
@@ -43,13 +43,10 @@ Treating the shared responsibility model as a description of where the work goes
 things break, produces a different posture. The customer side is everything the customer can affect; the provider side
 is everything the customer cannot. The interesting work is at the interface: choosing services whose interface is clear,
 monitoring the interface for change, and treating each service adoption as a security-relevant decision rather than a
-procurement one.
+procurement one. Every service adopted this way widens the [attack surface](attack-surface.md), and every provider added
+extends the [trust boundaries](multi-cloud-trust.md) that have to be reasoned about.
 
-## Related
+## The attacker at the interface
 
-- [Cloud attack surfaces](attack-surface.md)
-- [Identity collapse and the control plane](identity-collapse.md)
-- [Multi-cloud trust boundaries](multi-cloud-trust.md)
 - [Cloud-native attack patterns](https://red.tymyrddin.dev/docs/in/cloud/notes/cloud-centric.html)
 - [Why cloud environments are hard to test](https://red.tymyrddin.dev/docs/in/cloud/notes/challenges.html)
-- [Cloud complexity and misconfiguration epidemic](https://indigo.tymyrddin.dev/docs/debt/cloud.html)

@@ -1,8 +1,7 @@
 The administrative attack surface
 ========================================================
 
-.. image:: /_static/images/sos.png
-  :alt: A realistic intelligence-analysis workspace visualising a Dutch infrastructure dependency correlation system called “S.O.S.”. Large geospatial maps of the Netherlands cover transparent layered screens showing military radar sites, fuel pipelines, substations, rail infrastructure, utility corridors, and defence facilities connected through glowing graph relationships.
+.. image:: /_static/images/administrative-attack-surface.png
 
 The risk is not that any one publication exposes a secret. None does. The risk is what a few weeks of
 patient cross-reading turn that publication regime into: a targeting picture for a foreign service,

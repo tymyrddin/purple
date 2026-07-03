@@ -31,13 +31,13 @@ than the starting point produces a tuning paralysis that never closes.
 ## Detection patterns at the early stage
 
 For organisations beginning a cloud defence programme, the detection patterns that produce results are not the most
-sophisticated; they are the ones that catch the most common attacks first. Cloud-account compromise via leaked
-credentials. Anomalous IAM activity. Unusual region usage. Unauthorised changes to logging configuration. Each of these
+sophisticated; they are the ones that catch the most common attacks first. Cloud-account compromise via [leaked
+credentials](attack-surface.md). Anomalous IAM activity. Unusual region usage. Unauthorised changes to logging configuration. Each of these
 has a high-fidelity detection pattern and substantial defensive value.
 
 ## Hunting in cloud environments
 
-Threat hunting in cloud is mostly hunting through identity and control-plane behaviour. Unusual role assumptions.
+Threat hunting in cloud is mostly hunting through [identity and control-plane behaviour](identity-collapse.md). Unusual role assumptions.
 Cross-account access. Long-dormant credentials suddenly active. Changes to audit configuration.
 
 ## What automation trust does to detection
@@ -45,12 +45,7 @@ Cross-account access. Long-dormant credentials suddenly active. Changes to audit
 Cloud detection is shaped by automation in a way that on-prem detection is not. Most of the activity in a mature cloud
 account is automated: deployment pipelines, scheduled jobs, autoscaling events, scripted maintenance. The detection
 model has to distinguish between automated activity that is expected and automated activity that is not, which is a
-different problem from distinguishing human activity from automated activity. Automation trust, the implicit confidence
+different problem from distinguishing human activity from automated activity. The hardest case is the [legitimate-but-destructive
+action](operational-fragility.md), authorised and expected in shape, wrong only in intent or timing. Automation trust, the implicit confidence
 that the automation is doing what it was designed to do, becomes a security property that has to be earned and audited
 rather than assumed.
-
-## Related
-
-- [Identity collapse and the control plane](identity-collapse.md)
-- [Cloud attack surfaces](attack-surface.md)
-- [Operational fragility](operational-fragility.md)

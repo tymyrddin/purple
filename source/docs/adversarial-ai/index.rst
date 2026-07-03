@@ -1,8 +1,7 @@
 Learned models: the calibration view
 --------------------------------------
 
-.. image:: /_static/images/adversarial-ai.png
-  :alt: An overview of Adversarial Machine Learning attempts categorized into four major attack vectors: Evasion, Poisoning, Extraction, and Inference.
+.. image:: /_static/images/learned-models-calibration.png
 
 Attacks on learned models attract loud coverage, and the loudest scenarios are rarely the ones doing
 the most damage. The five mechanics, evasion at inference time, poisoning the training data,

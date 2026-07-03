@@ -2,9 +2,9 @@
 
 An attack path is the sequence of steps an adversary takes from their starting position to their objective. Mapping attack paths makes the sequence visible so the group can reason about where to intervene.
 
-The [SEM](../foundations/system-effectiveness/index.rst) framing is important here. An attack path map is a model of the system as the group believes it to be. The paths it shows are the paths through that model. The paths it does not show are the paths through the model's blind spots: the connections nobody knew about, the trust relationships nobody thought to question, the system that was assumed to be isolated and turned out not to be.
+An attack path map is [a model of the system as the group believes it to be](../foundations/system-effectiveness/index.rst), and it is only as good as the match between that belief and the system as it actually runs. The paths it shows are the paths through that model. The paths it does not show are the paths through the model's blind spots: the connections nobody knew about, the trust relationships nobody thought to question, the system that was assumed to be isolated and turned out not to be.
 
-This means that a well-run attack path mapping session produces two kinds of output: the paths that are visible, and the questions that reveal where the model needs testing. Both matter.
+This means that a well-run attack path mapping session produces two kinds of output: the paths that are visible, and the questions that reveal where the model needs testing. Both count.
 
 ## The exercise
 
@@ -14,7 +14,7 @@ Draw the possible entry points on a whiteboard or with sticky notes. Entry point
 
 Extend paths step by step. From each entry point, ask: what would this adversary try next? What do they gain from this step? Where does that lead? Continue until the path reaches something whose loss, compromise, or disruption would actually hurt: a critical asset, a sensitive data store, an operational system.
 
-Repeat for each entry point. You are looking for overlap: steps that appear in multiple attack paths are chokepoints, and chokepoints are usually the most efficient places to strengthen defences.
+Repeat for each entry point. Look for overlap: steps that appear in multiple attack paths are chokepoints, and chokepoints are usually the most efficient places to strengthen defences.
 
 ## Reading the map
 
@@ -31,7 +31,5 @@ What the group is unwilling to map. If a path through a particular system or tea
 Aim for a sketch, not a compliance report. A whiteboard photograph of interconnected sticky notes is the right level of fidelity. A thirty-page diagram is not.
 
 The map is correct at the time it is drawn and begins drifting immediately. Mark it with the date. Build in a trigger for revisiting it: when a new system is added, when a significant integration changes, when an incident reveals a path that was not on the map.
-
-## Related
 
 The [Crucible](../crucible/index.rst) holds the simulator environments for testing the paths mapped here, the ICS access lab among them.

@@ -1,8 +1,8 @@
 # SaaS dependency risk
 
 SaaS adoption is one of the quieter security shifts of the last decade. Each individual SaaS tool is a bounded decision.
-The cumulative effect of adopting many is a sprawling identity surface where every SaaS account is a credential that can
-be phished, every integration is a token that can be stolen, and every vendor is a third-party risk that the
+The cumulative effect of adopting many is a sprawling [identity surface](identity-collapse.md) where every SaaS account is a credential that can
+be phished, every integration is a token that can be stolen, and every vendor is a [third-party risk](multi-cloud-trust.md) that the
 organisation may have visited briefly during procurement and not revisited since.
 
 ## The compounding identity surface
@@ -25,7 +25,7 @@ Their domains are pre-trusted. The controls that block dubious external infrastr
 untouched, because blocking them would break legitimate work.
 
 The defensive challenge is that traffic to Dropbox or Google Drive or a major SaaS is legitimate by default for most
-organisations. Detection has to work on patterns within that traffic (volume, timing, the specific accounts involved)
+organisations. [Detection](cloud-detection.md) has to work on patterns within that traffic (volume, timing, the specific accounts involved)
 rather than on the destination itself.
 
 ## Personal and small-organisation cloud
@@ -44,11 +44,8 @@ The inventory is rarely complete the first time it is built and rarely maintaine
 that has not yet built one is not in a position to assess SaaS risk; an organisation that has built one once and not
 updated it is in only marginally better shape.
 
-## Related
+## Harvesting and hardening
 
-- [Identity collapse and the control plane](identity-collapse.md)
-- [Cloud-native detection](cloud-detection.md)
-- [Multi-cloud trust boundaries](multi-cloud-trust.md)
 - [Credential harvesting via legitimate cloud services](https://red.tymyrddin.dev/docs/in/real/credentials/cloud-hosting.html)
 - [SaaS and cloud platform harvesting](https://red.tymyrddin.dev/docs/out/collection/runbooks/saas-harvesting.html)
 - [Living-off-cloud exfiltration (notes)](https://red.tymyrddin.dev/docs/out/exfiltration/notes/living-off-cloud.html)

@@ -1,8 +1,7 @@
 Threat analysis of AI in security operations
 ========================================================
 
-.. image:: /_static/images/ai-pipeline.png
-  :alt: Eight chambers in sequence connected by pipes and belts, each lit by a single amber light source and containing a distinct object: a wax seal press, an alchemist's bubbling flask, a brass balance scale with two exits.
+.. image:: /_static/images/threat-analysis-ai.png
 
 In most startups and scale-ups, security operations are not a separate SOC system sitting beside the product.
 They are embedded inside it: authentication flows, abuse detection, fraud prevention, platform monitoring,

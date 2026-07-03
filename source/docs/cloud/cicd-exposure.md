@@ -8,7 +8,9 @@ infrastructure. Treating it as a target produces different findings.
 A CI/CD system has, by definition, the credentials needed to deploy to production. It has source code access, often
 build secrets, sometimes signing keys, and a privileged path into the cloud account that the security team may not be
 able to easily revoke. A compromise of the pipeline is functionally equivalent to a compromise of the production
-environment, and is often less visible because the activity looks like normal deployment traffic.
+environment, and is often less visible because the activity looks like normal deployment traffic. The same access makes
+the pipeline a source of [operational fragility](operational-fragility.md): the right to deploy is the right to break,
+whether the trigger is malice or a bad merge on a Friday afternoon.
 
 The pipeline also has the build-time access that determines what runs. Code that passes review and tests can be modified
 during the build by a compromised pipeline before the artefact is signed. The downstream verification, where it exists,
@@ -25,11 +27,11 @@ the deployment environment, so that a compromise of the build does not directly 
 
 ## Multi-cloud and on-prem variants
 
-The pipeline assumptions differ when the deployment target spans clouds, or moves between cloud and on-prem, or replaces
+The pipeline assumptions differ when the deployment target [spans clouds](multi-cloud-trust.md), or moves between cloud and on-prem, or replaces
 a managed CI/CD with a self-hosted one. The credentials, the secret-management story, and the network access patterns
 each change.
 
-Identity-federation patterns reduce the long-lived credential surface significantly, particularly on cloud providers
+[Identity-federation patterns](identity-collapse.md) reduce the long-lived credential surface significantly, particularly on cloud providers
 where workload identity federation is mature.
 
 ## The exit dimension
@@ -39,11 +41,8 @@ The pipeline is portable in principle and often less portable in practice; the a
 syntax accumulate. A migration from one CI/CD platform to another is rarely a free week of engineering, and the cost is
 rarely visible until the migration becomes urgent for other reasons.
 
-## Related
+## Hardening the pipeline
 
-- [Multi-cloud trust boundaries](multi-cloud-trust.md)
-- [Identity collapse and the control plane](identity-collapse.md)
-- [Operational fragility](operational-fragility.md)
 - [From code to cloud without the exploits: a CI/CD security fairy tale](https://blue.tymyrddin.dev/docs/dev/devsecops/cicd/index.html)
 - [Multi-cloud and on-prem CI/CD deployment](https://blue.tymyrddin.dev/docs/dev/devsecops/cicd/next.html)
 - [Foundation for a secure GCP deployment pipeline](https://blue.tymyrddin.dev/docs/dev/devsecops/gcp/pipeline.html)

@@ -3,14 +3,14 @@
 The instance metadata service is the most consistently exploited piece of cloud infrastructure that is not technically a
 security boundary. It exists to provide running workloads with the information they need to operate (instance identity,
 attached IAM credentials, network configuration), and it is reachable from inside the workload by a fixed, well-known IP
-address. That makes it discoverable to anyone who has compromised the workload.
+address. That makes it [discoverable](attack-surface.md) to anyone who has compromised the workload.
 
 ## The credential exposure pattern
 
 The pattern is straightforward. An attacker who reaches a workload, through a server-side request forgery, a remote code
 execution, or a misconfigured proxy that forwards arbitrary requests, can request the metadata service and receive
-temporary credentials valid for the workload's IAM role. Those credentials open whatever the role permits, which is
-frequently more than the workload actually uses.
+temporary credentials valid for the [workload's IAM role](identity-collapse.md). Those credentials open whatever the role permits, which is
+frequently more than the workload actually uses. The API calls that follow are what [cloud detection](cloud-detection.md) is left to catch.
 
 The pattern is well-documented offensively because it is straightforward to exploit and consistently rewarding.
 ICMP-based variants exist alongside the more common HTTP-based form.
@@ -37,11 +37,8 @@ Middlebox-specific attacks exploit the cloud provider's deviations from standard
 attacks reach further still, into the network underpinning of cloud providers themselves, where the routing
 infrastructure that connects cloud data centres to the rest of the internet becomes the attack surface.
 
-## Related
+## Network-layer variants
 
-- [Cloud attack surfaces](attack-surface.md)
-- [Identity collapse and the control plane](identity-collapse.md)
-- [Cloud-native detection](cloud-detection.md)
 - [Cloud metadata service abuse via ICMP](https://red.tymyrddin.dev/docs/in/network/roots/icmp/cloud-metadata-service-abuse.html)
 - [Cloud and middlebox-specific attacks](https://red.tymyrddin.dev/docs/in/network/roots/tcp/cloud-middlebox-attacks.html)
 - [BGP and CDN/cloud infrastructure attacks](https://red.tymyrddin.dev/docs/in/network/roots/bgp/bgp-cdn-cloud-infrastructure-attacks)

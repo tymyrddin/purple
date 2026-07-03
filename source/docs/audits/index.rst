@@ -1,8 +1,7 @@
 Audits and assessments
 ======================================================
 
-.. image:: /_static/images/map-room.png
-  :alt: Interior of a mountaineering expedition command room, large wooden table covered with maps, compasses, and notebooks.
+.. image:: /_static/images/audits-and-assessments.png
 
 Navigate your organisation’s risks, whether charting the cracks before they spread or climbing peaks or crossing rivers.
 

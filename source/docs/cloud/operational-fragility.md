@@ -63,11 +63,5 @@ do what, and whether the answer reflects the cost of getting it wrong.
 The [shared responsibility](shared-responsibility.md) page covers the contractual version: the line between what the
 provider is responsible for and what the customer is determines who is in a position to prevent which kinds of mistake.
 
-The Friday 16:43 view is what those look like when you stack them on top of each other and ask: when this goes wrong,
+The Friday 16:43 view is what those look like stacked on top of each other: when this goes wrong,
 who notices, who cleans up, and how much of what was lost is genuinely recoverable.
-
-## Related
-
-- [CI/CD exposure](cicd-exposure.md)
-- [Identity collapse and the control plane](identity-collapse.md)
-- [Shared responsibility](shared-responsibility.md)

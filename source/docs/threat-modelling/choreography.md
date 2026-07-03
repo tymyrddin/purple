@@ -1,44 +1,67 @@
 # Introduction to threat modelling exercises
 
-Threat modelling is the practice of thinking systematically about who might attack you, how they might do it, and what the consequences would be. The goal is not a document. It is a shared mental model, built by the people who know the system and tested against the people who understand how it could be broken.
+Threat modelling is the practice of thinking systematically about who might attack an organisation, how they might do it,
+and what the consequences would be. The goal is not a document. It is a shared mental model, built by the people who know the
+system and tested against the people who understand how it could be broken.
 
-The word "model" is doing real work here. A threat model is a representation of the system, the adversary, and the conditions under which an attack becomes possible. Like all models, it encodes assumptions. Like all models, it drifts as the environment changes. A threat model built eighteen months ago and not revisited is a record of how things were, not how they are. The gap between the two is where the most interesting risks live.
+The word "model" is doing real work here. A threat model is a representation of the system, the adversary, and the
+conditions under which an attack becomes possible. Like all models, it encodes assumptions and drifts
+as the environment changes. A threat model built eighteen months ago and not revisited is a record of how things were,
+not how they are. The gap between the two is where the most interesting risks live.
 
 ## Who needs to be in the room
 
-The exercises in this section are designed as workshop activities, not solo analyst tasks. This is deliberate.
+The exercises in this section are designed as [workshop activities](../workshops/threat-modelling.md), not solo analyst
+tasks. This is deliberate.
 
-A threat model produced by a single security analyst reflects that analyst's model of the system, the adversary, and the organisation. It will be technically competent and organisationally partial. It will encode the analyst's assumptions about what the developers did, what the operations team knows, and what leadership is willing to act on.
+A threat model produced by a single security analyst reflects that analyst's model of the system, the adversary, and the
+organisation. It will be technically competent and organisationally partial. It will encode the analyst's assumptions
+about what the developers did, what the operations team knows, and what leadership is willing to act on.
 
-A threat model produced collaboratively, with the people who built the system, the people who operate it, and the people who are responsible for what happens when it fails, surfaces a much richer picture. It also surfaces the disagreements, the gaps in shared understanding, and the places where different parts of the organisation are operating on incompatible assumptions. Those are findings too.
+A threat model produced collaboratively, with the people who built the system, the people who operate it, and the people
+who are responsible for what happens when it fails, surfaces a much richer picture. It also surfaces the disagreements,
+the gaps in shared understanding, and the places where different parts of the organisation are operating on incompatible
+assumptions. Those are findings too.
 
-[PSL](../foundations/problem-solving/index.rst) is directly relevant here: all three layers need to be present. The rational layer (what the system does, what the vulnerabilities are) is the easy part. The emotional layer (what people are afraid to name, what concerns feel too uncomfortable to raise with colleagues in the room) and the political layer (whose risk appetite shapes what gets prioritised, who has authority to act on a finding) determine whether the exercise produces change or produces a document.
+[All three layers need to be present](../foundations/problem-solving/index.rst). The
+rational layer (what the system does, what the vulnerabilities are) is the easy part. The emotional layer (what people
+are afraid to name, what concerns feel too uncomfortable to raise with colleagues in the room) and the political layer (
+whose risk appetite shapes what gets prioritised, who has authority to act on a finding) determine whether the exercise
+produces change or produces a document. The same split is what leaves a technically flawless finding sitting unactioned a
+year later: not because nobody could write the fix, but because [the conditions to act on it were never
+there](../foundations/problem-solving/in-security.md).
 
 ## Using this set
 
-Work through the exercises in order: adversary personas, attack path mapping, operational impact, scenario crafting, bringing it together, building the model. Each exercise produces something the next one builds on.
+Work through the exercises in
+order: [adversary personas](adversary-persona-workshop.md), [attack path mapping](attack-path-mapping.md), [operational impact](operational-impact-exercise.md), [bringing it together](bringing-it-together.md), [scenario crafting](crafting-scenarios.md), [building the model](building-model.md).
+Each exercise produces something the next one builds on.
 
-Focus on practical outputs rather than theoretical completeness. A simple threat model that is understood and used is worth far more than a comprehensive one that sits in a folder.
+Focus on practical outputs rather than theoretical completeness. A simple threat model that is understood and used is
+worth far more than a comprehensive one that sits in a folder.
 
-Collaborate openly. The moment when someone says "I had no idea that system was connected to that one" is the exercise working. The moment when someone says "we all know about that risk but we cannot get anyone to act on it" is also the exercise working, and is a different kind of finding.
+Collaborate openly. The moment when someone says "I had no idea that system was connected to that one" is the exercise
+working. The moment when someone says "we all know about that risk but we cannot get anyone to act on it" is also the
+exercise working, and is a different kind of finding.
 
 Keep each exercise to one sheet, one card, or one diagram per output. Complexity is the enemy of use.
 
 ## The output of the sequence
 
-By the end of this sequence you will have clear adversary personas, mapped attack paths, operational impact assessments, realistic scenarios, and a lightweight threat model that reflects what the group actually believes and knows.
+By the end of this sequence the group has clear adversary personas, mapped attack paths, operational impact assessments,
+realistic scenarios, and a lightweight threat model that reflects what it actually believes and knows.
 
-You will also have surfaced the assumptions that nobody had examined, the risks that were known but unnamed, and the places where the model of the system and the actual system diverge. These are often the most valuable outputs.
+The sequence also surfaces the assumptions that nobody had examined, the risks that were known but unnamed, and the
+places where the model of the system and the actual system diverge. These are often the most valuable outputs. The
+prioritised risks carry over into the [risk management workshop](../workshops/risk-management.md), which picks up where
+this sequence stops.
 
 ## Examples
 
-- [Digital threat modelling for partner abuse: Power On](https://green.tymyrddin.dev/docs/threat-models/poweron/) applies this sequence in a context where the adversary is a known individual and the assets are personal safety and privacy.
-- [The garden layout: Threat model, Green team](https://green.tymyrddin.dev/docs/threat-models/deanonymisation/) applies it to deanonymisation risks, with adversaries, assets, attack vectors, and impacts.
-- [State visibility: a surveillance threat model](https://green.tymyrddin.dev/docs/threat-models/surveillance/) applies it to state surveillance risks, where the adversary is an institution.
-
-## Related
-
-- [Adversary persona workshop](adversary-persona-workshop.md)
-- [Threat modelling as a workshop process](../workshops/threat-modelling.md)
-- [PSL applied to security work](../foundations/problem-solving/in-security.md)
-- [Risk management workshop](../workshops/risk-management.md)
+- [Digital threat modelling for partner abuse: Power On](https://green.tymyrddin.dev/docs/threat-models/poweron/)
+  applies this sequence in a context where the adversary is a known individual and the assets are personal safety and
+  privacy.
+- [The garden layout: Threat model, Green team](https://green.tymyrddin.dev/docs/threat-models/deanonymisation/) applies
+  it to deanonymisation risks, with adversaries, assets, attack vectors, and impacts.
+- [State visibility: a surveillance threat model](https://green.tymyrddin.dev/docs/threat-models/surveillance/) applies
+  it to state surveillance risks, where the adversary is an institution.

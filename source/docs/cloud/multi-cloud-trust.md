@@ -1,7 +1,7 @@
 # Multi-cloud trust boundaries
 
 The trust boundary between cloud providers is structurally different from the trust boundary inside a cloud account.
-Cross-cloud federation, identity providers that span clouds, and data flows that cross provider lines all create trust
+Cross-cloud federation, identity providers that span clouds, and [data flows that cross provider lines](saas-dependency.md) all create trust
 assumptions that are harder to reason about than single-cloud security.
 
 ## Lock-in as a security property
@@ -9,7 +9,7 @@ assumptions that are harder to reason about than single-cloud security.
 Lock-in is the strategic dimension that determines whether trust boundaries are even reviewable. A workload tightly
 coupled to a specific provider's services has the security properties of that provider, with no easy comparison and no
 realistic exit. A workload designed for portability has worse single-provider economics and a better strategic position
-when the question of moving comes up.
+when the question of moving comes up. The same trade-off runs through the [deployment pipeline](cicd-exposure.md), portable in principle and rarely in practice.
 
 The exit work is rarely free. By the time the question of moving becomes urgent, the answer is "yes, but it will take a
 year" if the architecture supports it, and "no, but we will pretend otherwise" if it does not. The realistic path is to
@@ -30,14 +30,11 @@ compliance frameworks attempt to bridge these regimes; the bridges are imperfect
 
 GDPR is the most-litigated example. The technical and procedural work of compliance differs by provider, and the pattern
 recurs in other regulatory frames with the same structural challenge: the provider's data handling has to be auditable
-enough for the customer to demonstrate compliance, and the customer's controls have to extend across whatever providers
+enough for the [customer to demonstrate compliance](shared-responsibility.md), and the customer's controls have to extend across whatever providers
 are in scope.
 
-## Related
+## Lock-in and jurisdiction, worked through
 
-- [Shared responsibility](shared-responsibility.md)
-- [CI/CD exposure](cicd-exposure.md)
-- [SaaS dependency risk](saas-dependency.md)
 - [Big tech cloud exit checklist](https://blue.tymyrddin.dev/docs/dev/devsecops/cicd/exit-checklist.html)
 - [Google Cloud (GCP) lock-in assessment](https://blue.tymyrddin.dev/docs/dev/devsecops/gcp/lock-in.html)
 - [On-prem and alternative clouds lock-in assessment](https://blue.tymyrddin.dev/docs/dev/devsecops/on-prem/lock-in.html)

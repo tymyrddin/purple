@@ -15,14 +15,15 @@ persistence mechanisms are not, and each is less visible to detection systems or
 
 ## Reaching the control plane
 
-Initial access into the control plane often does not look like a traditional intrusion. A leaked credential in a public
-repository, a phishing victim with privileged access, a misconfigured CI/CD pipeline with deployment credentials, or a
+Initial access into the control plane often does not look like a traditional intrusion. A [leaked credential in a public
+repository](attack-surface.md), a phishing victim with privileged access, a misconfigured CI/CD pipeline with deployment credentials, a
+workload whose [metadata service](metadata-abuse.md) hands over its role credentials, or a
 compromised endpoint with cached cloud session tokens, each produces control-plane access without the network-level
 signatures that endpoint-focused detection is tuned for.
 
 ## Hunting for control-plane persistence
 
-Detection in this domain depends on watching the control plane closely. Unusual API calls. IAM changes outside normal
+[Detection in this domain](cloud-detection.md) depends on watching the control plane closely. Unusual API calls. IAM changes outside normal
 change windows. New credential creation events. Role assumptions from unusual sources. Changes to the audit
 configuration itself. Each is a signal worth alerting on, with the understanding that a sufficiently sophisticated
 attacker will attempt to disable the audit configuration before doing anything visibly suspicious.
@@ -41,11 +42,8 @@ Treating identity as the primary security boundary, and the network as a seconda
 rest of cloud defence depends on. Programmes that have not yet made this shift will produce defensive postures that look
 reasonable on a diagram and miss the actual attack patterns.
 
-## Related
+## Control-plane playbooks
 
-- [Cloud attack surfaces](attack-surface.md)
-- [Metadata service abuse](metadata-abuse.md)
-- [Cloud-native detection](cloud-detection.md)
 - [Cloud control plane persistence](https://red.tymyrddin.dev/docs/through/persistence/notes/cloud.html)
 - [Cloud IAM persistence](https://red.tymyrddin.dev/docs/through/persistence/runbooks/cloud-iam.html)
 - [Cloud initial access playbooks](https://red.tymyrddin.dev/docs/in/cloud/playbooks/index.html)

@@ -1,16 +1,14 @@
 Threat modelling & preparation
 ===============================
 
-.. image:: /_static/images/threat-modelling-and-prep.png
-  :alt: A cluttered workshop table from a top-down perspective, with scattered sticky notes, open notebooks, pens, phones, and coffee cups, surrounded by people's hands engaged in discussion, pointing at sketches of diagrams
+.. image:: /_static/images/threat-modelling.png
 
-A set of exercises provides practical steps to explore threats hands-on. The basics. No complex tools. Just understanding. Then tools and complexity follows.
+A set of exercises provides practical steps to explore threats hands-on. The basics. No complex tools. Just
+understanding. Then tools and complexity follow.
 
 .. toctree::
    :glob:
    :maxdepth: 1
-   :includehidden:
-   :caption: Identify what is at risk, who the adversaries are, and how attacks could unfold.
 
    choreography.md
    adversary-persona-workshop.md
@@ -24,6 +22,6 @@ A set of exercises provides practical steps to explore threats hands-on. The bas
 
         <div class="page__article">
             <div class="page-post-card__link">
-                <a href="https://tymyrddin.dev/contact/">Name your actual threats</a>
+                <a href="https://tymyrddin.dev/contact/">Bottom up</a>
             </div>
         </div>
