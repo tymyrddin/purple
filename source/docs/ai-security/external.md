@@ -5,10 +5,10 @@ provider it depends on. That boundary is rarely drawn explicitly, and even less 
 
 ## Where the security boundary blurs
 
-- Third-party fraud detection platforms providing risk scores via API. 
-- LLM providers hosting the models used for incident summarisation, triage reasoning, and abuse classification. 
-- Cloud-hosted moderation APIs classifying content against policy categories. 
-- Device and IP intelligence feeds enriching authentication and fraud decisions. 
+- Third-party fraud detection platforms providing risk scores via API.
+- LLM providers hosting the models used for incident summarisation, triage reasoning, and abuse classification.
+- Cloud-hosted moderation APIs classifying content against policy categories.
+- Device and IP intelligence feeds enriching authentication and fraud decisions.
 - Orchestration and retrieval frameworks that abstract over multiple model providers.
 
 In each case, part of the security decision chain runs on infrastructure the organisation does not own,
@@ -54,8 +54,8 @@ may not notice that a subset of requests is being routed to an older, more permi
 builds its data from sources it aggregates and curates. Those sources may themselves be influenced by
 activity the attacker controls. An attacker who contributes data that reaches the provider's pipeline, through publicly visible
 activity, through influencing a source the provider crawls, or through a direct data relationship,
-can shape the enrichment output that reaches the organisation's risk
-decisions. The organisation has no visibility into how the provider's data was assembled, and the
+can shape the enrichment output that [reaches the organisation's risk
+decisions](integration.md). The organisation has no visibility into how the provider's data was assembled, and the
 provider may have no visibility into the manipulation.
 
 *Cross-vendor inconsistency exploited by probing both systems*: An organisation that uses a primary fraud
@@ -112,31 +112,27 @@ The organisation's threat model includes the threat model of every external depe
 a security decision.
 
 Knowing which decisions depend on external AI services, and what the fallback is when those services
-behave unexpectedly, is a prerequisite for understanding the actual boundary of the security posture.
+behave unexpectedly, is a prerequisite for [understanding the actual boundary](../audits/supportive/gap-analysis.md) of the security posture.
 Organisations that have not drawn that boundary have not understood where it is.
 
 The external layer is less a tenth transition point than an acknowledgement that some of the other
 nine are not fully owned.
 
-## Understanding what you depend on
+## Understanding what the organisation depends on
 
-Mapping which security decisions depend on each external AI service, and defining explicit fallback
-behaviour for when that service is unavailable, behaves unexpectedly, or returns outputs outside its
-normal distribution.
+The vendor's behaviour is part of the security posture and cannot be audited from the outside, so the measures
+work at the boundary: knowing what depends on what, watching the outputs for change, and governing the vendors
+as the dependencies they are.
 
-Monitoring vendor API outputs for distributional anomalies over time using baselines established
-during normal operation. Vendor model updates that change decision boundaries are not always announced;
-output monitoring is the detection path.
+Everything downstream assumes the dependencies are mapped. Recording which security decisions rest on each external service, and
+defining explicit fallback behaviour for when a service is unavailable, behaves oddly, or returns outputs
+outside its normal range, is what keeps a vendor wobble from silently becoming a decision failure.
 
-Pinning model versions where the vendor API supports it and treating version changes as a configuration
-management event requiring review rather than a transparent update.
+Because the vendor cannot be audited, its outputs have to be watched instead. Monitoring API outputs for
+distributional anomalies against a baseline established in normal operation is the detection path for model
+updates that change decision boundaries without announcement; and pinning model versions where the API allows
+it turns a transparent update into a configuration change that has to be reviewed rather than absorbed.
 
-Including AI API providers and enrichment services in supply chain security assessments alongside
-traditional software dependencies. The security posture of the organisation includes the security
-posture of the vendors it depends on for security decisions.
-
-## Related
-
-* [Supply chain and third-party risk](../audits/supportive/supply-chain.md)
-* [Gap analysis](../audits/supportive/gap-analysis.md)
-* [The integration layer](integration.md)
+The vendors belong in the same process as any other dependency. Including AI API providers and enrichment
+services in [supply chain security assessments](../audits/supportive/supply-chain.md) alongside software
+dependencies follows from the plain fact that the organisation's security posture now includes theirs.

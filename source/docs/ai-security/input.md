@@ -6,11 +6,11 @@ with every day.
 
 ## Where it lands in the stack
 
-- Support pipelines using LLM APIs to summarise tickets and flag abusive users. 
-- Fraud scoring systems combining behavioural telemetry with model-based classification. 
-- Moderation queues using embeddings and semantic similarity instead of keyword matching. 
-- Incident triage tools summarising alerts from Sentry, Datadog, or Elastic. 
-- Login risk engines evaluating device fingerprints alongside behavioural patterns. 
+- Support pipelines using LLM APIs to summarise tickets and flag abusive users.
+- Fraud scoring systems combining behavioural telemetry with model-based classification.
+- Moderation queues using embeddings and semantic similarity instead of keyword matching.
+- Incident triage tools summarising alerts from Sentry, Datadog, or Elastic.
+- Login risk engines evaluating device fingerprints alongside behavioural patterns.
 - Internal admin tooling using language models to explain anomalies or suggest actions.
 
 These are not architectural blueprints for future consideration. They are the Tuesday afternoon microservice
@@ -30,14 +30,14 @@ becomes influenceable by the content it is meant to evaluate.
 
 Concretely, an incoming event with no classification leaves this layer with a label attached: abuse,
 benign, high-priority, or uncertain, alongside a confidence score. That label and score pass to the
-context layer as the first concrete handover in the pipeline. The attacker who shapes the input here
+[context layer](context.md) as the first concrete handover in the pipeline. The attacker who shapes the input here
 shapes every downstream stage that relies on it.
 
 ## Exploitation
 
-*Abusive content embedded inside apparently legitimate support requests*: A user submitting a harassment campaign wraps 
-the abusive content inside a plausible complaint narrative. The summarisation layer extracts the surface framing, 
-produces a clean summary, and the reviewer sees a support ticket that appears benign. The underlying 
+*Abusive content embedded inside apparently legitimate support requests*: A user submitting a harassment campaign wraps
+the abusive content inside a plausible complaint narrative. The summarisation layer extracts the surface framing,
+produces a clean summary, and the reviewer sees a support ticket that appears benign. The underlying
 content never reaches their attention directly.
 
 *Moderation bypass via semantic paraphrasing*: Keyword filters look for specific strings. Embedding-based
@@ -78,7 +78,7 @@ the injected instruction has shaped the output without the reviewer knowing the 
 *AI-generated summaries anchoring analysts on the wrong hypothesis*: Cognitive anchoring is well
 documented: the first plausible explanation for an event tends to structure subsequent investigation.
 An attacker who can influence what the AI summary says about an incident directs the analyst's attention
-toward a false explanation before they have looked at any raw data. The investigation becomes an
+towards a false explanation before they have looked at any raw data. The investigation becomes an
 exercise in ruling out the planted hypothesis rather than finding what actually happened.
 
 ## Startups feel it first
@@ -94,15 +94,15 @@ the same reassuring energy as "the boat appears mostly waterproof."
 ## Common pipeline architectures
 
 The relevant category is not a specific vendor but an architectural role: any pipeline that passes untrusted
-user content to a model and uses the output to influence a security decision.
+user content to a model and uses the output to influence a [security decision](decision.md).
 
 This includes support ticket copilots, abuse classifiers built on embedding similarity, fraud detection
 systems combining rule-based and model-based signals, and incident triage tools that summarise alert payloads
 before presenting them to an analyst.
 
-The risk is not that these tools are insecure in themselves. It is that they create a path from untrusted
+The risk is not that these tools are insecure in themselves. It is that they create [a path](../threat-modelling/attack-path-mapping.md) from untrusted
 input to security-relevant interpretation to operational output. The length and opacity of that path tends to
-grow without anyone deciding it needs review.
+grow without anyone deciding it needs review, which is reason enough to give it an entry in the [threat register](../audits/supportive/threat-register.md).
 
 ## Hard to catch
 
@@ -116,36 +116,36 @@ logs the way a rule misfiring can be made visible.
 
 ## The operational shift
 
-Old security pipelines primarily evaluated whether known conditions were met.
+The deeper change is not technical but positional: it moves where an attacker has to stand. Defeating a rule
+meant finding the gap in its logic and reaching a system that enforced it. Shaping an interpretation requires
+neither. Anyone who can place text where the model will read it is already on the control path, because
+interpretation is now part of it.
 
-AI security pipelines increasingly evaluate what inputs appear to mean. Meaning is contestable. Meaning can
-be manipulated. Meaning changes with context.
-
-That is why the attack surface expands: not because AI is magical, but because interpretation has become part
-of the operational control path.
+That is why the attack surface expands, not because AI is magical, but because understanding the input has
+become a step an outsider can influence. The same text can be read as benign or hostile depending on how it is
+framed and which model version reads it, and the attacker is frequently the one doing the framing.
 
 ## Reducing the input attack surface
 
-Separating user-supplied content from model instruction paths architecturally, so that user text cannot
-be interpreted as instructions to the model. This is a design constraint, not a guardrail; the two need
-to be kept structurally distinct.
+None of the measures below make interpretation reliable. They accept that it is not, and work to keep an
+unreliable interpretation from becoming an unaccountable decision. They run from preventing manipulation,
+through making it visible when prevention fails, to keeping what slips through from deciding anything on its own.
 
-Logging model inputs alongside their outputs enables forensic reconstruction when an output is anomalous.
-Without input logging, tracing a manipulated summary back to its source is not possible in practice.
+Prevention is architectural. Separating user-supplied content from model instruction paths, so that user text
+cannot be read as an instruction to the model, is a design constraint rather than a guardrail: the two are
+kept structurally distinct rather than told apart at runtime. Where that separation holds, prompt injection
+has nowhere to land.
 
-Testing classification pipelines regularly with adversarial inputs, including prompt injection attempts,
-semantic paraphrasing of known violations, and telemetry flood patterns. Accuracy against a validation
-set does not establish robustness against adversarial input.
+The next three assume prevention will sometimes fail. Logging model inputs alongside their outputs makes forensic
+reconstruction possible when an output looks wrong; without input logging, tracing a manipulated summary back
+to its source is not feasible in practice. Testing pipelines against adversarial inputs (prompt injection,
+semantic paraphrasing of known violations, telemetry floods) establishes what accuracy against a validation
+set cannot: robustness under deliberate pressure. Monitoring output distributions for statistical drift
+catches in aggregate what no single case reveals, since one misclassification is rarely visible but a pattern
+of them is.
 
-Monitoring for statistical shifts in classifier output distributions over time. Individual
-misclassifications are often not detectable; aggregate drift is.
-
-Treating AI-generated summaries as one input to a human decision rather than as the decision itself,
-particularly for high-severity or high-consequence cases.
-
-## Related
-
-* [Attack path mapping](../threat-modelling/attack-path-mapping.md)
-* [The context layer](context.md)
-* [The decision layer](decision.md)
-* [Threat register](../audits/supportive/threat-register.md)
+The last measure is the one the others lean on. Treating an AI-generated summary as one input to a human
+decision, rather than as the decision itself, keeps a shaped interpretation from acting unchecked, particularly
+in high-severity cases. The [Vulnforge experiment](../crucible/experiments/vulnforge.md) in the crucible pushes
+the same principle further, letting a model propose where a vulnerability sits but leaving the verdict to a
+sandbox that runs the code rather than to the model's own confidence.

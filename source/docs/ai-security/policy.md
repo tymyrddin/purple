@@ -1,15 +1,15 @@
 # The rule that interprets itself
 
-Rules enforce deterministically. Guardrails interpret probabilistically. That distinction has operational
+Rules enforce deterministically. Guardrails [interpret probabilistically](decision.md). That distinction has operational
 consequences that are easy to underestimate when the system is working as intended, and hard to miss when
 it is not.
 
 ## Where constraints are expressed as instructions
 
-- System prompts that instruct an LLM what it is and is not permitted to do, relied on as a security boundary. 
-- Moderation thresholds that define what score triggers a content removal. 
-- Content policy classifiers that categorise inputs against defined violation types. 
-- Fallback logic that routes low-confidence AI outputs to human review. 
+- System prompts that instruct an LLM what it is and is not permitted to do, relied on as a security boundary.
+- Moderation thresholds that define what score triggers a content removal.
+- Content policy classifiers that categorise inputs against defined violation types.
+- Fallback logic that routes low-confidence AI outputs to human review.
 - Guardrail layers in internal tooling that are meant to prevent AI from taking actions outside its intended scope.
 
 In each case, the constraint is expressed as an instruction to a model that interprets it, not as a
@@ -79,7 +79,7 @@ updated by engineering teams without a security review process equivalent to wha
 receive.
 
 The team that writes the policy and the team that deploys the model are often different, and the
-gap between what the policy intends and what the model infers from the prompt is rarely systematically
+[gap between what the policy intends and what the model infers](../audits/supportive/gap-analysis.md) from the prompt is rarely systematically
 tested.
 
 ## Guardrail and moderation tooling
@@ -96,8 +96,8 @@ former as equivalent to the latter is the source of most guardrail failures.
 
 A guardrail bypass that succeeds quietly produces no error signal. The output looks like a normal
 model response. There is no threshold that was crossed, no rule that fired incorrectly, no anomalous
-log entry. The only signal is the content of the output itself, which requires someone to read it and
-recognise that the constraint was not observed.
+log entry. The only signal is the content of the output itself, which requires someone to read it,
+recognise that the constraint was not observed, and [write it up as a finding](../audits/supportive/findings-reporting.md).
 
 Inconsistencies across model versions or deployments are only visible through systematic testing
 across those configurations. In production environments with multiple AI-assisted workflows, that
@@ -115,23 +115,17 @@ deliberate adversarial probing rather than configuration review.
 
 ## Making constraints testable
 
-Treating system prompts as security controls subject to change review processes, not as configuration.
-A system prompt that defines what a model is permitted to do is a policy control; it warrants the same
-review rigour as a firewall rule.
+A constraint that is interpreted rather than enforced cannot be verified by reading it; it can only be tested.
+The measures follow from that: treat the prompt as a control, and test it where interpretation is most likely
+to slip.
 
-Testing guardrail enforcement systematically across category boundary inputs and common bypass framings,
-not only against direct violations. The enforcement boundary is where the constraint is most likely to
-fail; it is also where testing is most commonly skipped.
+First, treat the system prompt as what it is. A prompt that defines what a model may and may not do is a
+security control, not configuration, and it warrants the change-review rigour given to a firewall rule rather
+than an edit made between deploys.
 
-Having policy authors and model deployers review guardrail behaviour together against adversarial test
-cases before deployment. The gap between what the policy intends and what the model infers from it is
-not visible to either party working in isolation.
-
-Testing enforcement consistency across model versions when the provider releases updates. Constraints
-reliable in one version may degrade in another without announcement.
-
-## Related
-
-* [Gap analysis](../audits/supportive/gap-analysis.md)
-* [Audit findings and reporting](../audits/supportive/findings-reporting.md)
-* [The decision layer](decision.md)
+Then test where interpretation slips, which is the boundary rather than the obvious violation. Exercising
+guardrail enforcement across category-boundary inputs and common bypass framings, not only direct violations,
+probes the region where the constraint most often fails and testing most often stops. Doing that review with the
+policy author and the model deployer in the room together surfaces the gap between what the policy intends and
+what the model infers, which neither sees alone. And repeating it when the provider ships a new version catches
+the constraint that was reliable in one model and quietly degraded in the next.

@@ -5,11 +5,11 @@ automated actions become system events.
 
 ## Where interpretation becomes outcome
 
-- AI decisions that initiate account suspension without manual review. 
-- Rate limiting applied automatically when behavioural classifiers exceed a threshold. 
-- Content removal triggered by moderation models. 
-- Escalation workflows launched by incident triage systems. 
-- Workflow automation in incident response tooling that creates tickets, pages on-call engineers, or initiates playbook steps. 
+- AI decisions that initiate account suspension without manual review.
+- Rate limiting applied automatically when behavioural classifiers exceed a threshold.
+- Content removal triggered by moderation models.
+- Escalation workflows launched by incident triage systems.
+- Workflow automation in incident response tooling that creates tickets, pages on-call engineers, or initiates playbook steps.
 - Customer-facing actions: warnings, access restrictions, forced re-verification.
 
 The automation is not incidental. Manual review at scale is not viable, and the whole operational benefit
@@ -27,7 +27,7 @@ human review, if it exists at all, is retrospective.
 
 That changes the consequences of an interpretation error. In a manual process, a wrong classification
 results in a wrong recommendation that a human may or may not act on. In an automated pipeline, a wrong
-classification results in a wrong action that has already happened by the time anyone looks at it.
+[classification](decision.md) results in a wrong action that has already happened by the time anyone looks at it.
 
 ## How automation gets turned against operations
 
@@ -94,29 +94,22 @@ The quality of an AI decision is determined not just by its accuracy but by what
 it is wrong.
 
 The state change that leaves this layer, an account suspended, a ticket opened, a restriction applied,
-becomes input to the integration layer and to any downstream system that treats account state or case
+becomes input to the [integration layer](integration.md) and to any downstream system that treats account state or case
 status as a signal. The original classification error propagates outward, not inward.
 
 ## Building in oversight and reversibility
 
-Designing reversal paths for every automated action before deploying the automation. Account
-reinstatement workflows, false positive queues, and manual override paths built after the first
-incident cost more and protect less than the same paths built before it.
+Automation acts faster than anyone can catch it. The measures assume a wrong action will sometimes execute, and
+work to make it reversible, visible, and rare where it hurts most.
 
-Logging the full causal chain from AI classification input to triggered action, not only the action
-itself. Without input-to-action tracing, distinguishing a legitimate automated action from a
-manipulated one is not possible from the audit log.
+Reversibility is designed in or not at all. Building reversal paths, account reinstatement, false-positive
+queues, manual overrides, before the automation ships costs less and protects more than adding them after the
+first incident forces the issue. The gate belongs in the same category: routing account-level actions with
+significant customer or regulatory impact through human review keeps the high-consequence decisions off the
+automated path, since handling volume efficiently is not the same as handling consequence appropriately.
 
-Rate-limiting high-cost automated actions even when individual triggers appear legitimate. Operational
-degradation through threshold exploitation is a detectable pattern when the rate of a specific
-automated workflow is monitored over time.
-
-Adding a human review gate for account-level actions with significant customer or regulatory impact.
-Automation that handles volume efficiently is not the same as automation that handles high-consequence
-decisions appropriately.
-
-## Related
-
-* [Continuous compliance monitoring](../audits/supportive/continuous-monitoring.md)
-* [The decision layer](decision.md)
-* [The integration layer](integration.md)
+Once it is live, the concern shifts to seeing what the automation did and slowing it where cost accumulates.
+Logging the full causal chain from classification input to triggered action, not only the action itself, is
+what lets a manipulated action be told apart from a legitimate one after the fact. And rate-limiting high-cost
+actions even when individual triggers look legitimate turns threshold exploitation into a detectable pattern,
+once the rate of a specific workflow is [monitored over time](../audits/supportive/continuous-monitoring.md).

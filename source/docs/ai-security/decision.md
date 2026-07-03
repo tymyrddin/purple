@@ -6,10 +6,10 @@ moved without the organisation knowing it has moved.
 
 ## Where AI makes the call
 
-- Fraud classifiers that score transactions using gradient-boosted trees or neural networks instead of rule thresholds. 
-- Abuse detection models that classify content using embeddings and fine-tuned language models. 
-- Incident triage systems that use LLM reasoning to assess severity and recommend response. 
-- Risk scoring pipelines that replace deterministic decision trees with probabilistic models updated on recent outcome data. 
+- Fraud classifiers that score transactions using gradient-boosted trees or neural networks instead of rule thresholds.
+- Abuse detection models that classify content using embeddings and fine-tuned language models.
+- Incident triage systems that use LLM reasoning to assess severity and recommend response.
+- [Risk scoring pipelines](../audits/supportive/risk-scoring.md) that replace deterministic decision trees with probabilistic models [updated on recent outcome data](feedback.md).
 - Automated case routing that uses model confidence scores to decide whether a case goes to human review.
 
 Each is a legitimate operational evolution. Each creates a decision surface that can be probed, mapped, and
@@ -40,7 +40,7 @@ does. The classifier scores the packaging.
 content item, or behaviour pattern and observing which variations produce which scores reveals the
 approximate location of the decision boundary without requiring access to the model. An attacker who
 sends twenty variations of the same action, slightly modified each time, and observes the resulting
-scores or triggered responses, has effectively mapped which features move the needle. Subsequent inputs
+scores or triggered responses, has effectively [mapped which features move the needle](../threat-modelling/attack-path-mapping.md). Subsequent inputs
 are calibrated to sit just below the boundary.
 
 *Inconsistent outputs across similar cases used to identify influential features*: When a classifier
@@ -81,7 +81,7 @@ category.
 
 The point is not that these tools are insecure. It is that they replace a rule surface that can be audited
 with a decision surface that is harder to inspect. Knowing that a classifier achieves 94% accuracy in
-production does not tell you where its boundaries are or how stable they are under adversarial pressure.
+production does not reveal where its boundaries are or how stable they are under adversarial pressure.
 
 ## Classifier failures look like variance
 
@@ -100,33 +100,28 @@ The attack surface on a rule system is the ruleset. The attack surface on a deci
 surface, which is continuous, multidimensional, and defined by training data the organisation may not have
 fully characterised.
 
-Knowing where your rules are is feasible. Knowing where your decision boundaries are under adversarial
+Knowing where the rules are is feasible. Knowing where the decision boundaries are under adversarial
 pressure requires deliberate, ongoing testing.
 
-The routing decision this layer produces, whether an input triggers automated action or is sent to the
-human review queue, is what the action layer acts on. That boundary, not any rule list, is the surface
+The routing decision this layer produces, whether an [input](input.md) triggers automated action or is sent to the
+human review queue, is what the [action layer](action.md) acts on. That boundary, not any rule list, is the surface
 the attacker is trying to move.
 
 ## Hardening the decision surface
 
-Evaluating classifiers against adversarial inputs as a distinct exercise from accuracy testing.
-Accuracy against a held-out validation set and robustness against deliberate boundary probing are
-different properties, and only one is typically assessed before deployment.
+The decision boundary is the surface, and it cannot be read off the model directly. The measures share a
+stance: treat the boundary as something to be tested before it ships, watched once it runs, and handled with
+extra care where it is thinnest.
 
-Logging confidence score distributions over time to detect gradual boundary drift, not only
-point-in-time accuracy metrics.
+Before deployment, evaluating a classifier against adversarial inputs is a separate exercise from measuring its
+accuracy. Accuracy against a held-out validation set and robustness against deliberate boundary probing are
+different properties, and only the first is usually assessed.
 
-Routing cases near decision boundaries to human review rather than automated action. The boundary
-region is where adversarial inputs concentrate; it is also where the model's uncertainty is highest.
+Once it is running, logging confidence-score distributions over time surfaces the gradual boundary drift that
+point-in-time accuracy metrics miss.
 
-Treating near-boundary probing (systematic variations of similar inputs within short time windows)
-as a detectable signal pattern rather than normal variance. It is the reconnaissance phase for
-boundary exploitation.
-
-## Related
-
-* [Attack path mapping](../threat-modelling/attack-path-mapping.md)
-* [Risk scoring](../audits/supportive/risk-scoring.md)
-* [The input layer](input.md)
-* [The action layer](action.md)
-* [The feedback layer](feedback.md)
+The boundary region itself deserves separate handling, since it is where adversarial inputs concentrate and
+where the model is least certain. Routing near-boundary cases to human review rather than automated action
+keeps the most exploitable decisions out of the automated path. And treating near-boundary probing, systematic
+variations of similar inputs within short time windows, as a signal rather than normal variance catches the
+reconnaissance phase before the exploitation it is preparing for.

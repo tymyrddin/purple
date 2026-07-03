@@ -5,11 +5,11 @@ it. What they see, and what they conclude, is shaped by the AI summaries placed 
 
 ## Where humans meet AI-mediated reality
 
-- Security analysts reviewing AI-generated incident summaries before investigating. 
-- Trust and safety reviewers working through a queue where each item includes an AI-generated recommendation. 
-- Support staff handling escalations that arrive pre-summarised by a ticket copilot. 
-- On-call engineers paged with AI-drafted incident context. 
-- SOC teams working in SIEM environments where alert enrichment is AI-generated. 
+- Security analysts reviewing AI-generated incident summaries before investigating.
+- Trust and safety reviewers working through a queue where each item includes an AI-generated recommendation.
+- Support staff handling escalations that arrive pre-summarised by a ticket copilot.
+- On-call engineers paged with AI-drafted incident context.
+- SOC teams working in SIEM environments where alert enrichment is AI-generated.
 - Operations managers reviewing dashboards where anomaly explanations are produced by a language model.
 
 In each case, the human is making a decision. What they are deciding on is an AI-mediated version of the
@@ -37,8 +37,8 @@ receives a summary of the noise. The significant event does not appear in it, an
 reason to go looking for what was omitted.
 
 *False causal narratives injected via attacker-controlled input*: An attacker who can write text that ends
-up in the incident context, through a support ticket, a log entry, or any user-supplied field that
-reaches the summarisation layer, can introduce a misleading explanation that the AI incorporates and
+up in the incident context, through a support ticket, a log entry, or any [user-supplied field that
+reaches the summarisation layer](input.md), can introduce a misleading explanation that the AI incorporates and
 presents as description. "User reports this was triggered by a routine account migration" reads as
 context in a summary, not as an unverified user claim. The analyst reads the summary as an account of
 what happened, not as a compilation of claims some of which came from the subject of the incident.
@@ -47,7 +47,7 @@ what happened, not as a compilation of claims some of which came from the subjec
 confident, well-structured, low-severity summary is more likely to be taken at face value than one that
 expresses uncertainty. Confidence is a surface feature, not an accuracy indicator. An attacker who can
 influence the framing of the input can influence the confidence level of the output. Analysts working
-through a high-volume queue give less scrutiny to cases that arrive with a confident low-severity label.
+through a high-volume queue give less scrutiny to cases that arrive with a confident [low-severity label](decision.md).
 
 *Alert queues flooded with generated noise to bury real signals*: Alert fatigue is a well-documented
 problem in security operations. AI-generated noise amplifies it: if the system can be induced to produce
@@ -66,7 +66,7 @@ available for the cases that warranted it.
 causal explanation, their subsequent investigation is shaped by that frame. They tend to look for
 evidence that confirms or rules out the proposed explanation rather than approaching the data fresh.
 An attacker who can plant the wrong explanation in the summary can direct hours of investigative work
-toward a dead end, and the analyst's activity will look entirely rational given what they were told
+towards a dead end, and the analyst's activity will look entirely rational given what they were told
 at the start.
 
 ## Thin teams more vulnerable to this
@@ -107,7 +107,7 @@ a formal review.
 The attack surface extends into human judgement by way of machine-generated framing.
 
 An analyst who is deceived directly requires a convincing lie. An analyst who is deceived via their
-tooling requires a convincing summary. One of those is harder for the attacker to construct and easier
+tooling requires a convincing summary. One of those is harder for the [attacker](../threat-modelling/adversary-persona-workshop.md) to construct and easier
 for the organisation to detect. The other is not.
 
 The analyst's decision, to escalate, dismiss, or continue investigating, is a state change with
@@ -116,24 +116,21 @@ training queue. Framing that shaped that decision has shaped all of those outcom
 
 ## Protecting analysts from the pipeline
 
-Periodically spot-checking AI-generated summaries against the underlying raw data, particularly for
-cases that were escalated or dismissed without further investigation. If an analyst has never found a
-summary that diverged meaningfully from the source data, the check is either working or not being done.
+The human is reviewing the AI's reading of the situation, not the situation. The measures work to reconnect the
+two: pulling analysts back to source data where it counts, recording what the machine told them, and naming the
+bias that makes the summary persuasive.
 
-Requiring raw data review rather than summary review above a defined severity threshold. High-consequence
-decisions warrant the friction.
+The most direct remedy is to go back to the raw data. Spot-checking AI-generated summaries against the underlying events,
+especially for cases escalated or dismissed without further work, keeps the summary honest; an analyst who has
+never once found a summary that diverged from the source is either lucky or not really checking. Above a defined
+severity threshold that spot-check becomes a requirement rather than a habit, because high-consequence decisions
+are worth the friction of reading the data directly.
 
-Logging what summary an analyst received alongside their subsequent actions. This enables forensic
-review of cases where the investigation direction may have been shaped by a manipulated summary, which
-is otherwise not reconstructible.
+What the spot-check misses, a record can recover. Logging which summary an analyst received alongside the actions that followed is what
+makes a shaped investigation reconstructible later; without it, the link between a manipulated summary and the
+wrong conclusion is gone.
 
-Training analysts on cognitive anchoring as part of operational security awareness. Understanding that
-the first explanation encountered tends to structure investigation does not eliminate the effect, but
-it makes analysts more likely to notice when they have not looked outside the initial frame.
-
-## Related
-
-* [Adversary persona workshop](../threat-modelling/adversary-persona-workshop.md)
-* [Interview and workshop facilitation](../audits/supportive/interview-facilitation.md)
-* [The input layer](input.md)
-* [The decision layer](decision.md)
+Underneath both sits the bias that makes any summary persuasive. Training analysts on cognitive anchoring does not remove the effect, understanding that
+the first explanation tends to structure everything after it, but it makes them likelier to notice when they
+have not looked outside the frame the summary set. Reviewing a shaped case with the analyst afterwards draws on
+the same [facilitation skills](../audits/supportive/interview-facilitation.md) as audit evidence-gathering.

@@ -1,15 +1,15 @@
 # The history assembled
 
 AI decisions in security operations rarely run on a single signal. They run on enriched context assembled at
-runtime from multiple sources, some internal, some external, and some contributed over time by the users
-being assessed.
+runtime from multiple sources: some internal, some external, and some built up over time by the very user the
+decision is about. The subject of the assessment has, in part, written the history it runs on.
 
 ## Where enrichment decisions live
 
-- Fraud scoring pipelines that combine account age, transaction history, device reputation, and IP intelligence into a risk score. 
-- Login risk engines evaluating device fingerprint, location history, and peer behaviour. 
-- Abuse detection systems that weight a current event against the user's prior complaint history. 
-- Moderation tools that factor in account standing, previous violations, and inferred user segment before classifying content. 
+- Fraud scoring pipelines that combine account age, transaction history, device reputation, and IP intelligence into a risk score.
+- Login risk engines evaluating device fingerprint, location history, and peer behaviour.
+- Abuse detection systems that weight a current event against the user's prior complaint history.
+- Moderation tools that factor in account standing, previous violations, and inferred user segment before classifying content.
 - Support routing systems that adjust priority based on customer tier and prior interactions.
 
 The richer the context, the more stable the decision. That is the appeal, and also the attack surface.
@@ -28,8 +28,8 @@ That opacity is what makes the context layer attackable. There is no single fiel
 history to shape.
 
 The AI component's function here is to combine structured and unstructured inputs into a composite risk score. The
-concrete state change is what passes to the decision layer: an event that entered with a raw
-classification label leaves with an enriched risk score incorporating device reputation, account
+concrete state change is what passes to the [decision layer](decision.md): an event that entered with a raw
+[classification label](input.md) leaves with an enriched risk score incorporating device reputation, account
 history, and peer signals. That score is richer than the label it replaced and harder to trace back to
 any individual contributing signal.
 
@@ -73,7 +73,7 @@ Enrichment infrastructure in startups is often assembled from third-party APIs w
 those signals interact. Signal weighting is rarely documented. Data retention policies for enrichment inputs
 are often not aligned with product data governance. The question "which historical signals influenced this
 decision, and can any of them have been shaped by the subject of the decision?" is rarely asked during
-architecture reviews.
+architecture reviews, and rarely captured in a [threat register](../audits/supportive/threat-register.md).
 
 ## Signal sources and their risks
 
@@ -100,31 +100,30 @@ months behind the detection window.
 
 ## Assembled context and trust
 
-Old enrichment looked up facts. New enrichment assembles a picture.
+A looked-up fact could be checked against its source. An assembled picture cannot, because it has no single
+source: it is the sum of many prior events, each individually unremarkable, weighted in ways the analyst never
+sees. That is what makes it trustworthy enough to be useful and shapeable enough to be dangerous.
 
-Pictures can be painted deliberately. The organisation is often not in a position to know whether the context
-it is making decisions against reflects reality or a carefully constructed version of it.
+The organisation is rarely in a position to know whether the context it is deciding against reflects reality or
+a version composed for the occasion. The shaping, where it happened, happened months ago and left nothing in
+the present event to notice.
 
 ## Making context harder to shape
 
-Auditing which signals feed into enrichment pipelines, documenting their update cadences and data
-origins, and reviewing weighting periodically rather than at deployment only.
+Context cannot be secured field by field, because no single field is the problem. The measures that help work
+on the assembly itself: making it legible, keeping its lifecycle honest, and watching it in aggregate.
 
-Aligning data retention policies across product and enrichment infrastructure so that account resets
-actually reset the relevant context, not only the product-level record.
+Legibility comes first. Auditing which signals feed the enrichment pipeline, documenting their update cadences
+and data origins, and reviewing the weighting periodically rather than only at deployment turns an opaque score
+into something that can be reasoned about. Enrichment providers belong in [supply chain security
+assessments](../audits/supportive/supply-chain.md) for the same reason: a third party that contributes to a
+risk decision deserves the due diligence given to a software dependency.
 
-Monitoring for slow distributional shifts in context profiles across account populations, not only
-individual account behaviour. Systematic context poisoning is only visible in aggregate.
+Lifecycle comes next. Aligning data retention across product and enrichment infrastructure closes the gap that
+lets a shaped profile outlive the account it was built on, so an account reset actually clears the enrichment
+context and not only the product-level record.
 
-Including enrichment providers in supply chain security assessments: the same due diligence applied
-to software dependencies applies to services that contribute to risk decisions.
-
-Periodically testing whether accounts with deliberately constructed normality profiles can evade
-detection, through red team exercises focused on the context layer specifically.
-
-## Related
-
-* [Supply chain and third-party risk](../audits/supportive/supply-chain.md)
-* [The input layer](input.md)
-* [The decision layer](decision.md)
-* [Threat register](../audits/supportive/threat-register.md)
+The rest is catching shaping while it is under way. Monitoring for slow distributional shifts across whole
+account populations, rather than individual accounts, surfaces systematic poisoning that stays invisible one
+account at a time. Red team exercises that build deliberately constructed normality profiles then test whether
+the context layer can be walked past on purpose.

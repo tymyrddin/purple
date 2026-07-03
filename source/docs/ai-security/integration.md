@@ -6,11 +6,11 @@ them.
 
 ## Where signals cross system boundaries
 
-- Fraud signals from the payment system feeding into identity risk scoring. 
-- Abuse detection outputs from the content platform propagating to account management workflows. 
-- Incident classification from the SIEM enriching support ticket priority. 
-- Behavioural analytics from product telemetry informing authentication risk. 
-- Customer trust scores assembled from signals across support, fraud, and product systems, exposed to downstream automation.
+- Fraud signals from the payment system feeding into identity risk scoring.
+- Abuse detection outputs from the content platform propagating to account management workflows.
+- Incident classification from the SIEM enriching support ticket priority.
+- Behavioural analytics from product telemetry informing authentication risk.
+- Customer trust scores assembled from signals across support, fraud, and product systems, exposed to [downstream automation](action.md).
 
 Each connection made sense when it was built. The aggregate produces a system where AI-influenced signals
 flow across subsystems in ways that no single team designed end to end.
@@ -54,7 +54,7 @@ a product of two systems making correct local decisions from shared data. The ga
 exploitable surface.
 
 *Lateral movement through shared enrichment data rather than network paths*: Two systems may have no
-direct connection but both draw from the same enrichment source. Influencing a signal in that shared
+direct connection but both draw from the same [enrichment source](external.md). Influencing a signal in that shared
 source affects both systems, even though only one integration path exists from the attacker's perspective.
 System B, which the attacker cannot reach directly, becomes reachable indirectly through the shared data
 layer. This type of lateral movement does not appear in traditional network-layer threat models.
@@ -70,7 +70,7 @@ coordination that does not happen within the time window of the incident.
 
 Startups build integrations quickly, with ownership distributed across teams and limited documentation of
 what flows where. Security review in this environment typically happens at the component level: is this
-service secure? The system-level question, whether the combination of correctly-functioning components
+service secure? The [system-level question](../audits/supportive/scope-definition.md), whether the combination of correctly-functioning components
 produces exploitable behaviour, is less often asked.
 
 The system integration map, if it exists at all, usually reflects what was intentionally connected rather
@@ -112,23 +112,18 @@ blast radius of every decision point upstream.
 
 ## Knowing what connects to what
 
-Maintaining a system-level integration map that reflects effective data coupling, not only intentional
-API connections. The propagation paths that create exploitable cross-system behaviour are often the
-ones that were not designed explicitly.
+A relational failure needs a relational view, and no one holds that view by default. The measures build it:
+drawing the real map, testing across its seams, and giving the whole picture an owner.
 
-Including integration paths in threat model reviews, specifically mapping which upstream AI decisions
-can reach which downstream privileged operations through shared data and event flows.
+Drawing the map means recording effective data coupling, not only the API connections someone intended, because
+the propagation paths that turn into exploitable behaviour are usually the ones no one designed on purpose.
+Bringing those paths into threat model reviews, specifically [mapping which upstream AI decisions can reach
+which downstream privileged operations](../threat-modelling/attack-path-mapping.md) through shared data and
+event flows, turns the map into something an attacker's route can be traced on.
 
-Testing cross-system inconsistencies as part of security exercises: which inputs produce different
-classifications across systems sharing the same data pipeline, and can those inconsistencies be
-exploited as detection gaps?
+Testing works on the seams between systems: which inputs get classified differently by two systems drawing on
+the same data, and whether that inconsistency can be walked through as a detection gap.
 
-Assigning clear ownership for the system-level integration picture rather than only for individual
-component security. Relational failures require a relational view to detect.
-
-## Related
-
-* [Attack path mapping](../threat-modelling/attack-path-mapping.md)
-* [Scope definition](../audits/supportive/scope-definition.md)
-* [The action layer](action.md)
-* [The external dependency layer](external.md)
+None of this happens without an owner. Assigning responsibility for the system-level integration picture, rather
+than only for individual component security, makes the relational view someone's job rather than nobody's, and a
+relational failure is visible only to a relational view.

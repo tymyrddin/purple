@@ -1,14 +1,14 @@
 # Acting with borrowed authority
 
-AI systems in security operations do not only advise; they act. That requires credentials, and credentials
+AI systems in security operations do not only advise; [they act](action.md). That requires credentials, and credentials
 require permissions. The scope of those permissions is typically defined by what the automation was
 originally designed to do, not by what it could be induced to do.
 
 ## Where AI holds the keys
 
-- Service accounts held by fraud detection pipelines with write access to account status. 
-- API keys used by incident response automation to create and close tickets, page engineers, or modify configuration. 
-- OAuth delegations granting AI workflow tools access to product systems, identity providers, and communication platforms. 
+- Service accounts held by fraud detection pipelines with write access to account status.
+- API keys used by incident response automation to create and close tickets, page engineers, or modify configuration.
+- OAuth delegations granting AI workflow tools access to product systems, identity providers, and communication platforms.
 - Internal automation scripts with elevated permissions, now fronted by a language model that accepts natural language instructions.
 
 The permissions were granted for a purpose. The question is how narrowly that purpose was defined, and
@@ -96,28 +96,25 @@ account. The permission system does not know whether the action was intended or 
 The blast radius of a compromised AI layer is the blast radius of its credentials.
 
 The record of the privileged action, as a service account event in the audit log, becomes input to the
-integration layer and to any downstream system that treats account state or ticket status as a signal.
+[integration layer](integration.md) and to any downstream system that treats account state or ticket status as a signal.
 The action cannot easily be distinguished from an intended one, and neither can its downstream effects.
 
 ## Limiting what AI can be induced to do
 
-Applying least-privilege to AI service accounts with the same rigour applied to human service accounts.
-When an LLM layer is added in front of existing automation, the permission scope inherited from that
-automation deserves explicit review rather than assumption that the prior scope was still appropriate.
+The permission system cannot tell an intended action from an induced one, so the measures work on the
+credential rather than the intent: shrinking what the AI layer can reach, recording what it did, and finding
+out what it can be made to do before an attacker does.
 
-Logging model inputs and outputs alongside the downstream privileged actions they triggered. Without
-this, distinguishing an intended action from an induced one is not possible from the permission system
-alone.
+The blast radius shrinks with the scope. Applying least-privilege to AI service accounts with the rigour given to human ones
+limits what a manipulated action can reach; and when an LLM is placed in front of existing automation, the
+permissions inherited from that automation deserve [explicit review](../audits/supportive/gap-analysis.md)
+rather than the assumption that yesterday's scope still fits a much larger input surface.
 
-Testing what actions the AI pipeline can be induced to take with its current credentials through
-deliberate adversarial prompting in a staging environment. Knowing the blast radius of a compromised
-model layer is different from guessing it.
+A tight scope still has to be accountable in use. Logging model inputs and outputs alongside the privileged
+actions they triggered is the only thing that lets an induced action be distinguished from an intended one
+after the fact, and structuring the highest-impact actions to require a separate confirmation step keeps model
+output from being a trigger on its own.
 
-Structuring high-impact privileged actions to require a separate, explicit confirmation step rather
-than being triggered directly by model output.
-
-## Related
-
-* [Gap analysis](../audits/supportive/gap-analysis.md)
-* [The action layer](action.md)
-* [The integration layer](integration.md)
+What none of that reveals is the actual reach. Deliberately adversarial prompting in a staging environment shows
+what the pipeline can actually be induced to do with its current credentials, which is different from guessing
+at the blast radius.
