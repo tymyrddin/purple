@@ -1,7 +1,7 @@
 # Picking the route
 
 Four journeys live in this section: a mountain, a river, a fortress, and a factory. Choosing which to walk, and
-in what order, is a strategic decision that rarely gets made strategically. In practice, it tends to be made by
+in what order, is a strategic decision that rarely gets made strategically. In practice, it is made by
 whichever standard arrives first: a customer questionnaire, a regulator's letter, a consultant with a favourite
 slide deck. The arrival order of paperwork is not a strategy. (These pages are, admittedly, also a consultant's
 slide deck. At least this one names the routes it is not selling.)

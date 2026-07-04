@@ -25,7 +25,7 @@ sophisticated attackers with extended resources and ICS-specific skills. Assigni
 statement about the besiegers: it names which class of attacker this part of the fortress is designed to keep
 out, and implies what the controls in [locks and patrols](locks-and-patrols.md) have to achieve.
 
-A target level set uniformly high across all zones usually signals that the exercise was skipped rather than that
+A target level set uniformly high across all zones usually signals that the exercise was skipped, not that
 the estate is a citadel: uniform targets ignore the risk assessment they are meant to follow, and commit the
 organisation to controls it is unlikely to sustain everywhere.
 

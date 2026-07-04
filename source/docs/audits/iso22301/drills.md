@@ -3,8 +3,9 @@
 ISO 22301, Clause 8.5: exercise programme.
 
 Plans that are never exercised often fail in real scenarios. The drill is where the emergency systems, the drill
-book, and the people meet a rehearsal of the storm charts: the stage that converts a documented capability into a
-demonstrated one, and the main source of the effectiveness evidence the [dossier](dossier.md) will need.
+book, and the people meet the weather from the storm charts, on a day chosen in advance: the stage that converts
+a documented capability into a demonstrated one, and the main source of the effectiveness evidence the
+[dossier](dossier.md) will need.
 
 ## An exercise ladder
 

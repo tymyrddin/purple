@@ -1,6 +1,6 @@
 # Making it legible
 
-There is an organisation, more common than audit folklore admits, that is genuinely good at this. Backups are
+There is an organisation, more common than audit folklore admits, that is genuinely good at all this. Backups are
 tested because an engineer distrusts untested backups. Incidents are reviewed because the team wants to know
 what happened. Access gets removed when people leave because the offboarding actually runs. Then a customer
 asks for a certificate, or a regulator asks for evidence, and the organisation discovers that being good and
@@ -33,8 +33,8 @@ The playbooks' evidence stages describe the target shape per standard: the
 [far bank](nis2/bank.md), the [base camp check](iso27001/base-camp-check.md). All four rest on the same
 distinction: implementation evidence says a control exists, effectiveness evidence says it worked under
 realistic conditions. An organisation that is actually good usually has plenty of the second kind lying
-around, which is the expensive kind, and no idea that it counts. The working craft, routing, naming, and
-keeping the residue, is covered in [Evidence](supportive/evidence.md).
+around, which is the expensive kind, and no idea that it counts. The working craft of routing, naming, and
+keeping that residue has its own page: [Evidence](supportive/evidence.md).
 
 ## The mapping comes last
 

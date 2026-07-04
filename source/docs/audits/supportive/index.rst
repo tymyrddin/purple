@@ -24,9 +24,13 @@ playbook stage, the map points at the tools that usually apply there.
    * - Staying compliant (the flag, staying afloat, after the storm, keeping watch)
      - :doc:`Continuous monitoring <continuous-monitoring>`, :doc:`Corrective action <corrective-action>`, :doc:`AI tooling <ai-in-audits>`, :doc:`BI tooling <bi-in-audits>`
 
+
+References
+---------------------------------
+The vocabulary: what is being protected, what attacks it, and which standards and laws frame it.
+
 .. toctree::
    :maxdepth: 1
-   :caption: References. The vocabulary: what is being protected, what attacks it, and which standards and laws frame it.
 
    cia.md
    arrows-shields.md
@@ -34,9 +38,13 @@ playbook stage, the map points at the tools that usually apply there.
    ot-standards.md
    eu-regulations.md
 
+Methods
+---------------------------------
+
+Drawing boundaries, weighing impact and risk, and building the evidence base.
+
 .. toctree::
    :maxdepth: 1
-   :caption: Methods. Drawing boundaries, weighing impact and risk, and building the evidence base.
 
    scope-definition.md
    business-impact-analysis.md
@@ -46,9 +54,13 @@ playbook stage, the map points at the tools that usually apply there.
    supply-chain.md
    evidence.md
 
+Audit process
+---------------------------------
+
+Gathering testimony, receiving findings, fixing at the right level, and living with auditors.
+
 .. toctree::
    :maxdepth: 1
-   :caption: The audit process. Gathering testimony, receiving findings, fixing at the right level, and living with auditors.
 
    interview-facilitation.md
    findings-reporting.md
@@ -56,9 +68,13 @@ playbook stage, the map points at the tools that usually apply there.
    continuous-monitoring.md
    certification-body.md
 
+Tooling
+---------------------------------
+
+AI and BI options for evidence work at scale.
+
 .. toctree::
    :maxdepth: 1
-   :caption: Tooling. AI and BI options for evidence work at scale.
 
    ai-in-audits.md
    bi-in-audits.md

@@ -4,7 +4,7 @@ An organisation without an information security management system, told to build
 way a first-time house builder reaches for someone else's plans. It is a reasonable instinct. The plans are
 complete, the terminology is shared with every auditor and customer who will ever ask questions, and "the
 standard requires it" unlocks budget that "I am worried about this" never has. The blueprint is borrowed for
-good reasons. What follows is about the cost of forgetting it is borrowed.
+good reasons. The cost is forgetting it is borrowed.
 
 ## What the blueprint buys
 
@@ -16,7 +16,7 @@ expensive failures in this territory come from the standard itself.
 
 ## An ISMS shaped like the standard
 
-They come from the transfer. The recurring failure is a management system shaped like the document that
+The expensive failures come from the transfer. The recurring one is a management system shaped like the document that
 inspired it rather than like the organisation it is meant to protect: folders arranged by clause number,
 controls adopted because they appear in Annex A rather than because a risk in the register asks for them,
 policies written to be shown rather than followed. Documentation arrives before understanding, and then quietly

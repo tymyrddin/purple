@@ -56,6 +56,15 @@ supplements human judgement and does not replace it. Outputs from any AI tool in
 evaluated against specific organisational context before being used as compliance evidence: the model
 identifies candidates; the person reviewing decides whether they are findings.
 
+The limitations above are quality problems. AI tooling in audit workflows also carries a security problem of
+its own: it becomes part of the attack surface. An assistant that summarises supplier questionnaires or
+reviews policy documents is reading material authored by the parties being assessed, and what the reviewer
+sees is shaped by what the tool makes of it, a dynamic mapped in
+[Reading the machine's reading](../../ai-security/human.md). The broader
+[threat analysis of AI in security operations](../../ai-security/index.rst) covers the other insertion
+points; the short version for audit work is that a tool trusted to read evidence deserves the same scepticism
+as the evidence.
+
 ## EU AI Act (Regulation 2024/1689)
 
 The EU AI Act entered into force in August 2024, with obligations phasing in through 2025 and 2026. It
