@@ -3,8 +3,6 @@ Audits and assessments
 
 .. image:: /_static/images/audits-and-assessments.png
 
-Navigate your organisation’s risks, whether charting the cracks before they spread or climbing peaks or crossing rivers.
-
 .. toctree::
    :maxdepth: 1
    :caption: Strategy before standards. Which route, in what order, and what the walking does to the organisation.
@@ -14,6 +12,8 @@ Navigate your organisation’s risks, whether charting the cracks before they sp
    compass.md
    legible.md
    what-the-auditor-walks-into.md
+
+Then the walking: a toolkit of shared craft, and a playbook for each standard, walked stage by stage.
 
 .. toctree::
    :glob:

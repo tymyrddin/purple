@@ -101,7 +101,7 @@ Several open-source or EU-anchored tools are in use for AI-assisted audit and se
   reporting platform with rule-based and ML-assisted detection. Self-hosted, EU deployable, no data
   residency concerns.
 
-* [OpenSearch Security](https://opensearch.org/docs/latest/security/) (open source, AWS-neutral fork):
+* [OpenSearch Security](https://opensearch.org/docs/latest/security/) (open source Elasticsearch fork):
   search and analytics with security plugins. Deployable on EU infrastructure, used for log aggregation
   and pattern analysis.
 
@@ -111,21 +111,13 @@ choice between them depends primarily on the sensitivity of the documents being 
 
 ## The BI layer beneath
 
-Not every scale problem needs a model. Much of audit evidence work is BI rather than AI: dashboards showing
-control status over time, trend analysis across review cycles, and gap reports organised for board-level
-review, built from data the organisation already holds (event logs, asset inventories, access records,
-training results). Where the analysis is deterministic, a query beats an inference: it is explainable by
-construction, which counts for a great deal on the day a supervisory authority asks how a number was produced.
-
-The residency considerations mirror those for AI tooling. Self-hostable open-source platforms such as
-[Metabase](https://www.metabase.com/), [Apache Superset](https://superset.apache.org/), and
-[KNIME](https://www.knime.com/) cover most audit dashboarding and data-preparation needs on EU
-infrastructure; EU-based commercial platforms, [Jedox](https://www.jedox.com/en/),
-[Pyramid Analytics](https://www.pyramidanalytics.com/), and [Toucan Toco](https://www.toucantoco.com/en/plans)
-among them, exist where enterprise support and governance features are wanted. Tool choice is secondary to
-knowing which questions the dashboards are meant to answer.
+Not every scale problem needs a model. Much of audit evidence work is BI rather than AI: deterministic
+queries over data the organisation already holds, explainable by construction. That layer, including the
+European dependency question it raises, has [its own page](bi-in-audits.md).
 
 ## Related
+
+* [Use of BI in audits](bi-in-audits.md)
 * [Continuous compliance monitoring](continuous-monitoring.md)
 * [EU regulations reference](eu-regulations.md)
 * [Gap analysis](gap-analysis.md)

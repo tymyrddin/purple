@@ -90,4 +90,5 @@ history for compliance evidence.
 ## Related
 
 * [ISO 22301 The drill book](../iso22301/drill-book.md)
+* [Corrective action](../supportive/corrective-action.md)
 * [Incident response](../../incident-response/index.rst)

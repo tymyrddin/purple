@@ -12,7 +12,7 @@ the three is where security holds or slips.
 
 ## Confidentiality
 
-Confidentiality is about ensuring that information is only accessible to those who are authorised to see it. 
+Confidentiality means that information is accessible only to those authorised to see it. 
 Think of it as controlling who gets the keys:
 
 * Role-based access control (who can access what)
@@ -107,8 +107,7 @@ Restricting access for confidentiality can reduce review and error detection, af
 
 ## Practical
 
-The CIA triad is a strategic conversation, not a mechanical checklist. Success comes from balancing priorities and 
-making deliberate, documented choices.
+In practice, the conversation between the three ends in decisions, and the decisions want writing down:
 
 1. Identify critical information and systems.
 2. Assess which CIA element is most sensitive in each context.

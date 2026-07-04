@@ -13,31 +13,30 @@ The IEC 62443 series is the primary international standard family for industrial
 (IACS) security. It is also published as ISA-62443 by the International Society of Automation, with identical
 content under different numbering.
 
-The series is organised into four groups:
+Parts of the series mature at different speeds, several have spent years in draft, and the category structure
+itself is being reorganised; the publication status of a specific part is worth checking on the IEC site
+before citing it in an audit.
+
+The published parts most relevant to audit work fall into four groups:
 
 ### Series 1: General
 
-Foundation documents covering terminology, concepts, and the IACS security lifecycle.
+Foundation documents covering terminology and concepts.
 
 * IEC 62443-1-1: *Terminology, concepts, and models*
   Defines the vocabulary and conceptual model used across the series, including the zone-and-conduit model for
   segmenting ICS environments.
 * IEC 62443-1-2: *Master glossary of terms and abbreviations*
   Reference glossary for the series.
-* IEC 62443-1-3: *System security conformance metrics*
-  Defines how to measure conformance with the series requirements.
-* IEC 62443-1-4: *IACS security lifecycle and use cases*
-  Describes the full lifecycle from design through decommissioning and provides use cases for applying the series.
 
 ### Series 2: Policies and procedures
 
 Requirements and guidance for the organisations operating or supplying IACS environments.
 
-* IEC 62443-2-1: *Requirements for an IACS security management system*
-  Defines what an asset owner needs to establish and maintain security for an IACS environment. The closest
-  equivalent to ISO 27001 for OT.
-* IEC 62443-2-2: *Operating an IACS security programme*
-  Guidance for day-to-day operation of IACS security processes.
+* IEC 62443-2-1:2024: *Security program requirements for IACS asset owners*
+  Defines what an asset owner needs to establish and maintain security for an IACS environment, including
+  maturity models for the programme. The closest equivalent to ISO 27001 for OT, and the cornerstone of this
+  group.
 * IEC 62443-2-3: *Patch management in the IACS environment*
   Specific requirements for patching in environments where downtime is costly and update cycles are long.
 * IEC 62443-2-4: *Requirements for IACS service providers*

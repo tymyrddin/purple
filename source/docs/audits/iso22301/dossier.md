@@ -79,5 +79,6 @@ the input to [after the storm](after-the-storm.md).
 * [IEC 62443 The inspection](../iec62443/inspection.md)
 * [NIS2 Reaching the far bank](../../audits/nis2/bank.md)
 * [ISO 27001 Base camp check](../../audits/iso27001/base-camp-check.md)
+* [Evidence](../supportive/evidence.md)
 * [Gap analysis](../supportive/gap-analysis.md)
 * [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)

@@ -1,7 +1,7 @@
 # Arrows and shields
 
 CWE, CAPEC, and MITRE ATT&CK describe attacks, vulnerabilities, and tactics. ISO 27001 and NIS2 describe what
-organisations must do to protect against them. In other words: one set labels the arrows, the other sets the
+organisations must do to protect against them. One set labels the arrows, the other sets the
 shields.
 
 This page covers IT attack categories. OT/ICS attack patterns (ATT&CK for ICS, protocol abuse, firmware
@@ -35,7 +35,7 @@ compliance requirements.
 ## Authentication and access
 
 These attacks target how users and systems prove identity and what they're allowed to access. Successful attacks here 
-often provide the initial foothold for broader compromise.
+frequently provide the initial foothold for broader compromise.
 
 | Threat                         | CWE/CAPEC/ATT&CK              | ISO 27001 Conceptual Control              | NIS2 Conceptual Obligation                         |
 |--------------------------------|-------------------------------|-------------------------------------------|----------------------------------------------------|
@@ -55,7 +55,7 @@ how critical this control is.
 
 ## Network & system attacks
 
-These attacks target network infrastructure and operating systems, often aiming for availability disruption or 
+These attacks target network infrastructure and operating systems, commonly aiming for availability disruption or 
 establishing persistent access.
 
 | Threat                      | CWE/CAPEC/ATT&CK          | ISO 27001 Conceptual Control               | NIS2 Conceptual Obligation                     |
@@ -97,7 +97,7 @@ are the reason for mandatory logging, monitoring, and incident detection require
 
 ## Social engineering & supply chain
 
-These attacks target people and trust relationships rather than technical vulnerabilities. They are often the most 
+These attacks target people and trust relationships rather than technical vulnerabilities. They are among the most 
 effective because they exploit human psychology and organisational dependencies.
 
 | Threat                          | CWE/CAPEC/ATT&CK              | ISO 27001 Conceptual Control                   | NIS2 Conceptual Obligation                         |
@@ -216,4 +216,4 @@ controls, not as a complete checklist.
 
 Both ISO 27001 and NIS2 are risk-based frameworks requiring you to assess your specific threat landscape and 
 implement proportionate controls. This mapping helps connect threat intelligence to compliance requirements, 
-but any implementation must reflect the organisation's unique context, risks, and capabilities.
+and any implementation still needs to reflect the organisation's unique context, risks, and capabilities.

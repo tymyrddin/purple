@@ -128,5 +128,6 @@ changing conditions.
 * [NIS2 Staying afloat](../nis2/afloat.md)
 * [ISO 22301 After the storm](../iso22301/after-the-storm.md)
 * [IEC 62443 Keeping watch](../iec62443/keeping-watch.md)
+* [Choosing a certification body](../supportive/certification-body.md)
 * [Audit as compass](../compass.md)
 * [Applying SEM to security](../../foundations/system-effectiveness/applying-sem.md)

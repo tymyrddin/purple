@@ -45,7 +45,8 @@ from arriving with new releases.
 Incident response covers detection and monitoring, severity classification, response playbooks, escalation,
 communication templates for regulatory reporting, and forensic investigation to understand what occurred.
 
-Business continuity begins with a business impact analysis identifying critical functions and dependencies,
+Business continuity begins with a [business impact analysis](../supportive/business-impact-analysis.md)
+identifying critical functions and dependencies,
 then recovery time and recovery point objectives, documented and regularly tested backup and restoration
 procedures, disaster recovery plans, and crisis management procedures that let leadership decide quickly. A
 plan that has never been exercised is a hope with a filename.

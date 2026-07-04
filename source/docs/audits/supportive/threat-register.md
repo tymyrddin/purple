@@ -45,8 +45,8 @@ identification process alone leaves predictable categories out.
 ## Connecting threats to controls
 
 A threat without a documented control is an open gap, not a managed risk. The threat register and the control
-set should cross-reference: every register entry should map to at least one control in the Statement of
-Applicability or control catalogue, and every control should trace back to the threats it addresses. Unmapped
+set cross-reference in both directions: every register entry maps to at least one control in the Statement of
+Applicability or control catalogue, and every control traces back to the threats it addresses. Unmapped
 threats and orphaned controls are both findings.
 
 ## Maintaining the register

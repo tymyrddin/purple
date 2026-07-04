@@ -37,15 +37,16 @@ it was checked.
 
 ## Framework expectations
 
-ISO 27001 Clause 9.1 requires the organisation to determine what needs to be monitored, how, when, and by
-whom, and to analyse and evaluate the results. The specific approach is left to the organisation, but the
+ISO 27001 Clause 9.1 (monitoring, measurement, analysis and evaluation) requires the organisation to determine
+what needs to be monitored, how, when, and by whom, and to analyse and evaluate the results. The specific approach is left to the organisation, but the
 requirement for evidence of ongoing monitoring is not. Surveillance audits between three-year recertification
 cycles check that the ISMS is still operating, not just documented.
 
 NIS2 expects that the measures required by Article 21 are maintained as an appropriate response to risk.
 The proportionality principle means that what constitutes adequate monitoring depends on the entity's size,
-criticality, and exposure, but the expectation of ongoing adequacy is explicit. Supervisory authorities can
-inspect at any time, not only in response to incidents.
+criticality, and exposure, but the expectation of ongoing adequacy is explicit. Supervision follows the entity
+classification: essential entities face ex-ante as well as ex-post supervision and can be inspected at any
+time, while important entities are supervised ex post, on indications of non-compliance.
 
 IEC 62443 addresses the maintenance phase of the security lifecycle. Security levels achieved at deployment
 degrade over time without active maintenance: patch management, configuration management, and change control

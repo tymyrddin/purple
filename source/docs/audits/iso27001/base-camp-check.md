@@ -131,5 +131,7 @@ that the ISMS works, which is exactly what [the summit push](summit.md) will tes
 * [NIS2 Reaching the far bank](../nis2/bank.md)
 * [ISO 22301 The resilience dossier](../iso22301/dossier.md)
 * [IEC 62443 The inspection](../iec62443/inspection.md)
+* [Evidence](../supportive/evidence.md)
+* [Corrective action](../supportive/corrective-action.md)
 * [Gap analysis](../supportive/gap-analysis.md)
 * [Applying SEM to security](../../foundations/system-effectiveness/applying-sem.md)

@@ -33,7 +33,8 @@ The playbooks' evidence stages describe the target shape per standard: the
 [far bank](nis2/bank.md), the [base camp check](iso27001/base-camp-check.md). All four rest on the same
 distinction: implementation evidence says a control exists, effectiveness evidence says it worked under
 realistic conditions. An organisation that is actually good usually has plenty of the second kind lying
-around, which is the expensive kind, and no idea that it counts.
+around, which is the expensive kind, and no idea that it counts. The working craft, routing, naming, and
+keeping the residue, is covered in [Evidence](supportive/evidence.md).
 
 ## The mapping comes last
 

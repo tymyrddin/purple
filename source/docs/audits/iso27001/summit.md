@@ -128,6 +128,7 @@ change. [Keeping the flag flying](flag.md) is its own discipline.
 ## Related
 
 * [NIS2 Reaching the far bank](../nis2/bank.md)
+* [Choosing a certification body](../supportive/certification-body.md)
 * [What the auditor walks into](../what-the-auditor-walks-into.md)
 * [Gap analysis](../supportive/gap-analysis.md)
 * [Standards reference](../supportive/standards.md)

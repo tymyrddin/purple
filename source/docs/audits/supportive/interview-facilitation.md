@@ -3,7 +3,7 @@
 Internal workshops and evidence-gathering sessions are how an organisation discovers what it actually knows
 about its own systems, as distinct from what it has documented. The answers people give, the questions they
 do not ask, the topics where the room goes quiet: all of these reveal the mental models people hold of the
-systems they work in, and those models often diverge from the documented procedures in ways that matter for
+systems they work in, and those models often diverge from the documented procedures in ways that count for
 an audit.
 
 Running these sessions internally, before an external auditor does, is how an organisation surfaces gaps
@@ -83,7 +83,7 @@ covers the broader sequence and is worth reading alongside this page for anyone 
 evidence gathering.
 
 For facilitated workshops to produce reliable evidence rather than socially-constructed consensus, a few
-conditions matter:
+conditions do the work:
 
 Preparation: people need to know what they are being asked to contribute and have time to gather the relevant
 information before the session. A workshop that asks people to recall specifics from memory produces guesses

@@ -1,18 +1,17 @@
 # ISO/IEC information security standards
 
 These standards orbit around information security, management systems, auditing, and related governance within the
-ISO/IEC 27000 series. Each has a distinct purpose. Breaking them down into logical groups explains their differences
-and how they relate to one another.
+ISO/IEC 27000 series. Each has a distinct purpose, and grouped, they stop blurring together.
 
 For OT/ICS standards (IEC 62443 and related), see [OT/ICS standards](ot-standards.md). For EU regulatory
 instruments (NIS2, DORA, CER), see [EU regulations reference](eu-regulations.md).
 
-The catch: ISO standards are not freely available in full. They are copyrighted, so they usually have to be
-[purchased](https://www.iso.org/standards.html). So only get what you need.
+The catch: ISO standards are not freely available in full. They are copyrighted, and
+[purchase](https://www.iso.org/standards.html) is the normal route, so only get what you need.
 
-And you can use the [ISO Online Browsing Platform (OBP)](https://www.iso.org/obp/ui) which will allow access the 
-most up-to-date content in ISO standards, graphical symbols, codes or terms and definitions. This way you can preview 
-content before you buy, search within documents and more easily navigate between standards.
+The [ISO Online Browsing Platform (OBP)](https://www.iso.org/obp/ui) softens the blow: it gives access to the
+most up-to-date content in ISO standards, graphical symbols, codes, and terms and definitions, so content can
+be previewed before buying, searched within, and navigated between standards.
 
 ## Foundations and vocabulary
 
@@ -22,7 +21,7 @@ These standards define the terms, concepts, and structure used across the ISO/IE
   Provides definitions and context for all ISO/IEC 27000-series standards. Think of it as the “dictionary and map” of the ISMS world.
 * ISO/IEC TS 27100:2020: *Cybersecurity overview and concepts*
   Gives a broader overview of cybersecurity concepts, not just ISMS, so it frames how ISO/IEC 27001 fits into the wider cybersecurity landscape.
-* ISO/IEC Directives, Part 2:2018: *Rules for drafting ISO/IEC documents*
+* ISO/IEC Directives, Part 2:2021: *Principles and rules for the structure and drafting of ISO and IEC documents*
   Guides how ISO documents are structured and written; more relevant if you are developing or interpreting ISO standards.
 
 All other ISO/IEC 27000-series standards rely on the definitions and framework established in these. They are the 
@@ -35,7 +34,7 @@ These define what an organisation must do to implement a compliant ISMS:
 * ISO/IEC 27001:2022: *Requirements for ISMS*
   The main certification standard. Specifies what an organisation must implement to meet ISO 27001 requirements (policies, risk management, controls, monitoring, improvement).
 * ISO/IEC 27001:2022/Amd1:2024: *Amendment 1: Climate action changes*
-  Updates the 2022 version with climate-related requirements, likely adding considerations for environmental risks to information security.
+  Updates the 2022 version so that climate change becomes a required consideration in the organisation's context and interested-party analysis.
 
 ISO/IEC 27001 is the “law of the land” for certification; the amendment tweaks the law for climate considerations. 
 Everything else either supports it or guides its implementation.
@@ -92,8 +91,9 @@ These are complementary ISO standards that often inform or integrate with ISO 27
   Introduces management system principles. Useful when integrating quality and ISMS.
 * ISO 31000:2018: *Risk management guidelines*
   Provides general risk management concepts that feed into 27005 and 27001.
-* ISO 55000:2014: *Asset management overview*
-  Defines principles for managing organisational assets (physical or information).
+* ISO 55000:2024: *Asset management vocabulary, overview and principles*
+  Defines principles and vocabulary for managing organisational assets (physical or information); the 2024
+  revision adds sustainability as a core principle.
 
 These provide conceptual and operational context for risk, asset, continuity, and quality management. All relevant
 for an integrated ISMS.

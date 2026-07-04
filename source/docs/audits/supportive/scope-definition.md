@@ -75,7 +75,7 @@ whether the risk it introduces is addressed somewhere in the risk treatment plan
 
 Working through the scope from the operational environment outward tends to produce more honest boundaries than
 working from the organisational chart inward. Starting with the critical assets, identifying which systems hold
-or process them, then which systems those depend on, and which external parties have access tends to surface
+or process them, then which systems those depend on, and which external parties have access surfaces
 the real boundary rather than the convenient one.
 
 ## Documenting the scope

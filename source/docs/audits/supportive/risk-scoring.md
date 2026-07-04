@@ -37,7 +37,7 @@ Likelihood definitions are worth anchoring to something observable: frequency ("
 year"), effort required ("requires minimal skill or access"), and sector evidence ("consistent with incidents at
 comparable organisations"). "Plausible" is not a likelihood definition; most threats are plausible.
 
-Impact definitions are worth covering the categories that matter: operational continuity, financial exposure,
+Impact definitions work best when they cover operational continuity, financial exposure,
 regulatory consequences, and safety implications where relevant. Organisations that define impact only in
 financial terms will underrate risks to continuity and safety.
 

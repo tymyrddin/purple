@@ -60,6 +60,62 @@ in parallel.
 
 Full text: [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022L2557)
 
+## Cyber Resilience Act (2024/2847)
+
+*Regulation on horizontal cybersecurity requirements for products with digital elements*
+
+Where NIS2 regulates organisations, the CRA regulates products: hardware and software with digital elements
+placed on the EU market, from consumer devices to industrial components. The obligations fall primarily on
+manufacturers, and they follow the product rather than the operator.
+
+Key features:
+
+* Essential cybersecurity requirements applied through conformity assessment and CE marking, with stricter
+  assessment routes for products classed as important or critical
+* Security by design and by default, including a defined support period during which manufacturers provide
+  security updates
+* Vulnerability handling obligations, including coordinated disclosure and a software bill of materials as
+  part of the technical documentation
+* Reporting of actively exploited vulnerabilities and severe incidents to the designated CSIRT and ENISA,
+  with a 24-hour early warning followed by a 72-hour notification
+* Penalties up to €15 million or 2.5 per cent of worldwide annual turnover
+
+Timeline: entered into force in December 2024; the reporting obligations apply from September 2026 and the
+main obligations from December 2027.
+
+For audit work, the CRA changes the supply chain question. NIS2 Article 21 asks entities to manage supplier
+and product risk; the CRA makes product-level security claims checkable, since a product with digital elements
+carries conformity documentation an assessment can ask for. Procurement and supplier assessments can reference
+CRA conformity the way they reference ISO certificates today, with the familiar caveat that conformity is
+implementation evidence, not effectiveness evidence.
+
+Full text: [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R2847)
+
+## AI Act (2024/1689)
+
+*Regulation laying down harmonised rules on artificial intelligence*
+
+A risk-based framework for AI systems placed on the EU market or put into service: prohibited practices,
+high-risk systems listed in Annex III (including safety components of critical infrastructure and biometric
+systems), transparency obligations for limited-risk uses, and a separate regime for general-purpose AI models.
+
+Key features:
+
+* High-risk AI systems require conformity assessment, technical documentation, human oversight measures,
+  operational logging, and registration before deployment
+* Obligations fall on providers and on deployers; an entity operating a high-risk AI system has its own
+  duties around use, oversight, and monitoring, whether or not it built the system
+* Penalties up to €35 million or 7 per cent of worldwide annual turnover for prohibited practices, with lower
+  tiers for other infringements
+* Phased application: entered into force in August 2024, with prohibitions applying from February 2025,
+  general-purpose model obligations from August 2025, and most high-risk obligations from August 2026
+
+The intersection with security work runs both ways: AI systems inside an essential entity's operations may
+carry high-risk obligations alongside the NIS2 measures, and AI tooling used in audit and compliance
+workflows raises its own questions, covered in [Use of AI in audits](ai-in-audits.md).
+
+Full text: [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689)
+
 ## GDPR (2016/679)
 
 *General Data Protection Regulation*
@@ -80,12 +136,14 @@ Full text: [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?u
 
 ## How these interact
 
-| Regulation | Primary scope                                 | Enforcer                           | Overlap with NIS2                       |
-|:-----------|:----------------------------------------------|:-----------------------------------|:----------------------------------------|
-| NIS2       | Cybersecurity of essential/important entities | National NIS competent authority   | Core framework                          |
-| DORA       | Financial sector ICT resilience               | ESA (EBA, EIOPA, ESMA)             | Lex specialis for financial entities    |
-| CER        | Physical resilience of critical entities      | National CER competent authority   | Parallel physical layer                 |
-| GDPR       | Personal data protection                      | National data protection authority | Incident reporting, Article 32 measures |
+| Regulation | Primary scope                                 | Enforcer                                          | Overlap with NIS2                                   |
+|:-----------|:----------------------------------------------|:--------------------------------------------------|:-----------------------------------------------------|
+| NIS2       | Cybersecurity of essential/important entities | National NIS competent authority                  | Core framework                                       |
+| DORA       | Financial sector ICT resilience               | ESA (EBA, EIOPA, ESMA)                            | Lex specialis for financial entities                 |
+| CER        | Physical resilience of critical entities      | National CER competent authority                  | Parallel physical layer                              |
+| CRA        | Security of products with digital elements    | National market surveillance authorities          | Product layer under Article 21 supply chain security |
+| AI Act     | AI systems on the EU market or in service     | Market surveillance authorities; EU AI Office     | High-risk AI within essential entities' operations   |
+| GDPR       | Personal data protection                      | National data protection authority                | Incident reporting, Article 32 measures              |
 
 An organisation subject to multiple instruments does not get a choice between them. Each applies within its
 own scope simultaneously. Where requirements overlap, the more specific instrument typically provides the
@@ -95,4 +153,6 @@ operative obligation, but the others still apply to their respective domains.
 
 * [NIS2 Understanding the river](../nis2/river.md)
 * [NIS2 Staying afloat](../nis2/afloat.md)
+* [Use of AI in audits](ai-in-audits.md)
+* [Supply chain and third-party risk](supply-chain.md)
 * [ISO/IEC information security standards](standards.md)

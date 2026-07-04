@@ -50,5 +50,6 @@ trying to prove.
 ## Related
 
 * [NIS2 Staying afloat](../../audits/nis2/afloat.md)
+* [Corrective action](../supportive/corrective-action.md)
 * [Gap analysis](../supportive/gap-analysis.md)
 * [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)

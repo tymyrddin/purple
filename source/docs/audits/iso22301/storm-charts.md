@@ -8,8 +8,9 @@ stage charts the storms, works out what each would cost, and decides what gets r
 
 ## Business impact analysis
 
-The business impact analysis identifies critical functions and determines maximum tolerable downtime (MTD),
-recovery time objectives (RTOs), and recovery point objectives (RPOs). It is the instrument that turns the asset
+The [business impact analysis](../supportive/business-impact-analysis.md) identifies critical functions and
+determines maximum tolerable downtime (MTD), recovery time objectives (RTOs), and recovery point objectives
+(RPOs). It is the instrument that turns the asset
 register from the floor walk into recovery priorities: which functions the factory cannot lose, for how long,
 and what they depend on. An impact analysis that has not been revisited since the systems it describes were
 upgraded is a chart of a river that has since moved.
