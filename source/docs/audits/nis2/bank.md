@@ -2,133 +2,104 @@
 
 ![Raft](/_static/images/far-bank.png)
 
-You have crossed the river (domonstrated compliance). Security measures are implemented, tested, and operational. Unlike climbing a mountain, where you plant a flag at the summit, NIS2 compliance is demonstrated through ongoing evidence and verified through supervisory oversight. There is no certificate ceremony; compliance is operational reality.
+Demonstrating compliance: organised evidence, supervisory readiness, and honest self-assessment.
 
-## Organise your documentation
+The river is crossed. Security measures are implemented, tested, and operational. Unlike climbing a mountain,
+where a flag gets planted at the summit, NIS2 compliance is demonstrated through ongoing evidence and verified
+through supervisory oversight. There is no certificate ceremony; compliance is operational reality.
 
-Your ISMS framework provides the foundation:
+## Organising the documentation
 
-* Board-approved information security policy
-* Risk assessment methodology and current results
-* Risk treatment plan showing how identified risks are addressed
-* Statement of Applicability mapping controls to NIS2 requirements
-* Policies and procedures covering all mandatory measures in operational detail
+The ISMS framework provides the foundation: a board-approved information security policy, risk assessment
+methodology and current results, a risk treatment plan showing how identified risks are addressed, a Statement
+of Applicability mapping controls to NIS2 requirements, and policies and procedures covering all mandatory
+measures in operational detail.
 
-Governance evidence demonstrates board accountability:
+Governance evidence demonstrates board accountability: meeting minutes showing security oversight and
+decisions, management training records, organisational charts with clear security responsibilities, and budget
+allocations showing resource commitment.
 
-* Meeting minutes showing security oversight and decisions
-* Management training records
-* Organisational charts with clear security responsibilities
-* Budget allocations showing resource commitment to security
+Technical evidence demonstrates that controls actually work. Implementation evidence confirms the control is
+in place and running. [Effectiveness evidence](../../foundations/system-effectiveness/applying-sem.md)
+confirms it produces its intended effect under realistic conditions. Both are worth organising.
 
-Technical evidence demonstrates that controls actually work:
+A penetration test result showing network segmentation held against a realistic attack path, a tabletop result
+showing the incident reporting chain met the 72-hour deadline under simulated pressure, and a phishing
+simulation showing click rates have moved after awareness interventions are more persuasive to a supervisory
+authority assessing proportionality than configuration documentation alone.
 
-Implementation evidence confirms the control is in place and running. [effectiveness evidence](../../foundations/system-effectiveness/applying-sem.md) confirms it produces its intended effect under realistic conditions. Both are worth organising. A penetration test result showing network segmentation held against a realistic attack path, a tabletop result showing the incident reporting chain met the 72-hour deadline under simulated pressure, and a phishing simulation showing click rates have moved after awareness interventions are more persuasive to a supervisory authority assessing proportionality than configuration documentation alone.
+The technical file includes:
 
 * System inventories and network diagrams
-* Evidence of security control implementation from audits and assessments
+* Control implementation evidence from audits and assessments
 * Configuration documentation for critical systems
 * Vulnerability scan results with remediation tracking
 * Penetration test reports
-* Patch management logs showing timely updates
+* Patch management logs
 
-Operational evidence shows daily practice:
+Operational evidence shows daily practice: incident logs with response and resolution details, business
+continuity test results, backup and recovery test logs, training completion and test results, access reviews
+and audit trails.
 
-* Incident logs with response and resolution details
-* Business continuity test results
-* Backup and recovery test logs
-* Security awareness training completion and test results
-* Access reviews and audit trails
+Supply chain evidence addresses third-party risk: supplier assessments and risk classifications, contractual
+security requirements in place, monitoring records, documentation for alternative suppliers.
 
-Supply chain evidence addresses third-party risk:
+Incident reporting records demonstrate regulatory compliance: submitted notifications with timestamps, internal
+incident reports with detailed analysis, post-incident reviews and lessons learned, corrective actions
+implemented after incidents.
 
-* Supplier assessments and risk classifications
-* Contractual security requirements in place
-* Supplier monitoring records
-* Documentation for alternative suppliers
+## Supervisory interactions
 
-Incident reporting records demonstrate regulatory compliance:
+Some member states require registration with supervisory authorities; national implementation determines
+deadlines, required information, update procedures, and fees. Registering promptly avoids penalties for
+procedural non-compliance, which is a particularly annoying kind of penalty to earn.
 
-* Submitted notifications to authorities with timestamps
-* Internal incident reports with detailed analysis
-* Post-incident reviews and lessons learned
-* Corrective actions implemented after incidents
+Supervisory authorities may conduct inspections and audits: on-site visits, documentation requests, personnel
+interviews to verify understanding, system access with appropriate safeguards, and recommendations or
+corrective actions afterwards. A professional response has a designated point of contact, internal response
+procedures, organised evidence available quickly, answers within required timeframes, and transparency about
+challenges rather than concealment.
 
-## Prepare for supervisory interactions
+The collaborative posture pays: seeking guidance when uncertain, reporting challenges honestly, demonstrating
+good faith effort, showing improvement over time, and participating in sector forums. Supervisors remember both
+kinds of counterparty.
 
-Some member states require registration with supervisory authorities. Organisations should check national 
-implementation for registration deadlines, required information, update procedures, and any fees. Register 
-promptly to avoid penalties for procedural non-compliance.
+## Proportionality in practice
 
-Supervisory authorities may conduct inspections and audits:
+NIS2 requires "appropriate and proportionate" measures, and both words eventually want defending. Appropriate:
+alignment with the specific risks, sector practice, mandatory requirements, and anywhere the organisation went
+beyond the minimum. Proportionate: organisation size, available resources, service criticality, likelihood and
+severity of the risks, cost-benefit reasoning, and alternative controls where standard approaches were not
+feasible.
 
-* On-site inspections of facilities and systems
-* Requests for documentation and evidence
-* Personnel interviews to verify understanding
-* System access with appropriate safeguards
-* Issuance of recommendations or corrective actions
+## Self-assessment before claiming compliance
 
-Respond professionally:
+An honest checklist run, for example:
 
-* Designate a point of contact for authority communications
-* Establish internal response procedures
-* Maintain organised evidence for rapid access
-* Respond within required timeframes
-* Be transparent about challenges or gaps rather than hiding problems
+* All Article 21 measures implemented and operational
+* Board approval and active oversight
+* Risk assessment current and documented
+* Incident detection and response tested and working
+* Reporting procedures established, with successful test notifications
+* Supply chain programme running, with supplier assessments
+* Continuity plans documented and tested
+* Awareness training deployed with completion tracking (delivery evidence; paired with [effectiveness evidence](../../foundations/system-effectiveness/applying-sem.md): phishing simulation click rate trends, exercise performance)
+* Evidence organised and accessible
+* Registration completed where required
+* Review cycles established and functioning
 
-Treat supervisory interactions as collaborative:
-
-* Seek guidance when uncertain
-* Report challenges honestly
-* Demonstrate good faith efforts
-* Show continuous improvement over time
-* Participate in sector forums and information sharing
-
-## Demonstrate proportionality in practice
-
-NIS2 requires "appropriate and proportionate" measures. Be prepared to explain:
-
-* Why measures are appropriate: alignment with specific risks, sector best practices, mandatory requirements, and where you have gone beyond minimum standards
-* Why measures are proportionate: consideration of organisation size, available resources, service criticality, potential impact, likelihood and severity of risks, cost-benefit analysis, and alternative controls where standard approaches are not feasible
-
-## Understand enforcement and penalties
-
-NIS2 includes significant penalties for non-compliance:
-
-* Essential entities may face up to €10 million or 2 per cent of total worldwide annual turnover, whichever is higher
-* Important entities may face up to €7 million or 1.4 per cent of total worldwide annual turnover, whichever is higher
-
-Management liability adds personal consequences. Management bodies can be held personally liable for:
-
-* Failure to approve security measures
-* Failure to oversee implementation adequately
-* Inadequate training or participation in security governance
-* Gross negligence in security responsibilities
-
-Factors affecting penalties include severity and duration of non-compliance, intentionality or negligence, level of cooperation with authorities, prior infringements, and mitigation actions taken after incidents.
-
-## Self-assess before claiming compliance
-
-Run through a checklist honestly. Example:
-
-* All mandatory measures from Article 21 implemented and operational
-* Board approval and active oversight of security measures
-* Risk assessment completed, documented, and current
-* Incident detection and response capabilities tested and working
-* Incident reporting procedures established with successful test notifications
-* Supply chain security programme implemented with supplier assessments
-* Business continuity plans documented and tested successfully
-* Security awareness training deployed with completion tracking (delivery evidence; pair with [effectiveness evidence](../../foundations/system-effectiveness/applying-sem.md): phishing simulation click rate trends, exercise performance)
-* All evidence organised and accessible for audit
-* Supervisory authority registration completed where required
-* Regular review cycles established and functioning
-
-If any item cannot be checked, document the reason and the plan to address it. Proportionality may justify some gaps, 
-but reasoning must be clear.
+Anything that cannot be ticked gets a documented reason and a plan. Proportionality may justify some gaps, but
+the reasoning has to be clear, written down, and survivable in front of a supervisor.
 
 ## Output
 
-The output of this stage is a compliance evidence package organised logically, supervisory authority registration 
-confirmation where required, audit-ready documentation, and a self-assessment report showing an honest evaluation 
-of compliance status.
+The output of this stage is a compliance evidence package organised logically, supervisory authority
+registration confirmation where required, audit-ready documentation, and a self-assessment report showing an
+honest evaluation of compliance status.
 
+## Related
+
+* [ISO 27001 Base camp check](../iso27001/base-camp-check.md)
+* [ISO 22301 The resilience dossier](../iso22301/dossier.md)
+* [IEC 62443 The inspection](../iec62443/inspection.md)
+* [Making it legible](../legible.md)

@@ -12,11 +12,11 @@ operate as intended, where they do not, and where documentation and practice hav
 
 ## Framing questions around practice, not policy
 
-The most consistent failure mode in internal evidence-gathering sessions is asking about policy rather than
+A consistent failure mode in internal evidence-gathering sessions is asking about policy rather than
 practice. "Do you have a process for reviewing access rights?" will receive a confident affirmative from
 almost any team that is aware of the compliance obligations touching their area. "Walk me through the last
 time an access review was completed. Who initiated it, how was it conducted, where are the records, and what
-changed as a result?" will produce a considerably more revealing answer.
+changed as a result?" usually produces a considerably more revealing answer.
 
 The distinction is between what the organisation says it does and what it actually does. Policy questions test
 the first. Practice questions test the second. Evidence gaps and process gaps are only visible if the questions

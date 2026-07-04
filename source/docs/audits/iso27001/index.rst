@@ -1,4 +1,4 @@
-The ISO 27001 mountain expedition
+ISO 27001 playbook: the mountain expedition
 ======================================================
 
 .. image:: /_static/images/mountain.png
@@ -12,7 +12,7 @@ maintain certification successfully.
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: The climbing metaphor reflects the reality of the journey: it involves preparation, distinct stages, the right equipment (controls matched to risks), teamwork, occasional setbacks (audits reveal issues, plans need adjustment), ongoing effort (reaching the summit is not the end), and, at the top, the benefits make the climb worthwhile.
+   :caption: The climbing metaphor reflects the reality of the journey: preparation, distinct stages, the right equipment, teamwork, occasional setbacks, and ongoing effort. The stages follow the expedition: the map room, the risk tent, the gear depot, the climb, base camp checks, the summit push, and the flag that has to keep flying.
 
    map-room.md
    risk-tent.md

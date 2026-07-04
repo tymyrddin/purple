@@ -6,6 +6,16 @@ Audits and assessments
 Navigate your organisation’s risks, whether charting the cracks before they spread or climbing peaks or crossing rivers.
 
 .. toctree::
+   :maxdepth: 1
+   :caption: Strategy before standards. Which route, in what order, and what the walking does to the organisation.
+
+   picking-the-route.md
+   borrowed-blueprints.md
+   compass.md
+   legible.md
+   what-the-auditor-walks-into.md
+
+.. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:

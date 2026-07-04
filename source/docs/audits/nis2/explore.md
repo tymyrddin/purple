@@ -2,149 +2,119 @@
 
 ![Explore](/_static/images/explore.png)
 
-Before entering the water, answer three questions: Must we cross? What does the journey require? What resources do we need? Getting scope wrong means either wasting effort on unnecessary compliance or facing penalties for ignoring mandatory obligations.
+NIS2, Articles 2 and 3 with Annexes I and II: scope, current position, and the people who will carry the crossing.
 
-## Are you in scope?
+Before entering the water, three questions want answers. Is the crossing mandatory? What does the journey
+require? What resources exist to make it? Getting scope wrong means either wasting effort on unnecessary
+compliance or facing penalties for ignoring mandatory obligations.
 
-NIS2 applies to "essential" and "important" entities in specific sectors. The distinction is consequential: essential entities face stricter supervision and higher penalties.
+## Scope
 
-### Essential entities (the critical core)
+NIS2 applies to "essential" and "important" entities in specific sectors. The distinction is consequential:
+essential entities face stricter supervision and higher penalties.
 
-If you operate in energy, transport, banking, healthcare, drinking water, digital infrastructure, ICT management, public administration, or space, you're likely looking at essential entity status. This means electricity grids and hospitals, cloud providers and airports, managed service providers and government systems. Think: if it breaks, society notices immediately.
+Essential entities are the critical core: energy, transport, banking, healthcare, drinking water, digital
+infrastructure, ICT management, public administration, space. Electricity grids and hospitals, cloud providers
+and airports, managed service providers and government systems. If it breaks, society notices immediately.
 
-### Important entities (significant but contained)
+Important entities are significant but contained: postal services, waste management, chemicals, food
+production, manufacturing, online marketplaces, search engines, research organisations. Disruption has more
+regional than systemic impact.
 
-Postal services, waste management, chemicals, food production, manufacturing, online marketplaces, search engines, and research organisations fall here. Still important, but disruption has more contained impacts: regional rather than systemic.
+Size is a factor, but not the whole story. Medium and large enterprises (50 or more employees, or over €50M
+turnover) typically fall in scope. Small and micro companies usually get a pass unless they are the sole
+provider of something critical or national rules say otherwise. The classic edge case: a tiny software company
+managing security for banks may be in scope regardless of size.
 
-### Size is a factor, but not the whole story
+Five scope questions that come up in practice:
 
-Medium and large enterprises (50+ employees or €50M+ turnover) typically fall in scope. Small and micro companies usually get a pass unless they're the sole provider of something critical or national rules say otherwise. The classic edge case: a tiny software company managing security for banks might be in scope regardless of size.
+"We serve banks, but we're tiny: are we really in scope?"
+If the work involves their security-critical systems as a managed service provider, possibly yes.
 
-### Five questions to test your scope
+"We manufacture electronics: general or critical?"
+Depends on what is made and who uses it. Medical devices? Probably in. Consumer gadgets? Probably out.
 
-"We serve banks, but we're tiny: are we really in scope?"  
-If you're handling their security-critical systems as a managed service provider, possibly yes.
+"Our clinic has 8 people: surely we're exempt?"
+Healthcare is essential, but size exemptions may apply unless the clinic is the only provider in its area.
 
-"We manufacture electronics: general or critical?"  
-Depends on what you make and who uses it. Medical devices? Probably in. Consumer gadgets? Probably out.
-
-"Our clinic has 8 people: surely we're exempt?"  
-Healthcare is essential, but size exemptions may apply unless you're the only provider in your area.
-
-"We're an online B2B platform: does 'marketplace' include us?"  
+"We're an online B2B platform: does 'marketplace' include us?"
 Probably not. NIS2 typically means consumer-facing platforms connecting multiple sellers.
 
-"We use AWS: does that make us a cloud provider?"  
-No, but AWS becomes part of your supply chain obligations if you're in scope for other reasons.
+"We use AWS: does that make us a cloud provider?"
+No, but AWS becomes part of the supply chain obligations if the organisation is in scope for other reasons.
 
-Still uncertain? Contact your national supervisory authority, document your reasoning, and review your member state's implementing legislation. Grey areas exist, and regulators would rather clarify early than penalise later.
+Grey areas remain after all of that. The national supervisory authority exists to be asked; documenting the
+reasoning either way costs an afternoon, and regulators would rather clarify early than penalise later.
 
-## Assess your current position
+## Current position
 
-You're in scope. Now what? Understand what you're working with before building anything new.
+Scope confirmed, the next job is understanding what is already there before building anything new.
 
-### Your scope in one paragraph
+The scope in one paragraph. A simple statement covering sector, size, classification, services, authorities,
+and deadline. For example: *"Acme Logistics operates 120 trucks across NL/BE/DE. 180 employees, €35M turnover.
+Important entity in transport (road). Lead authority: Dutch regulator. Deadline: October 2024."* One paragraph
+forces clarity. A scope that cannot be written down is a scope not yet understood.
 
-Write a simple statement covering your sector, size, classification, services, authorities, and deadline. Example: *"Acme Logistics operates 120 trucks across NL/BE/DE. 180 employees, €35M turnover. Important entity in transport (road). Lead authority: Dutch regulator. Deadline: October 2024."* One paragraph forces clarity. If you can't write it, you don't understand your scope yet.
+The landscape in three lists:
 
-### Your landscape in three lists
+* Critical systems: what IT keeps the organisation running, where the single points of failure sit, what breaks operations immediately if compromised.
+* Current security: policies, a security officer, controls like MFA, monitoring, backups, an incident response plan, certifications. What actually exists, not what is supposed to exist.
+* Supply chain: the ten to twenty critical suppliers, who has system access, who could break the organisation by failing.
 
-Critical systems: What IT keeps you running? Where are single points of failure? What breaks operations immediately if compromised? Draw dependencies if it helps visualise.
+The gaps in plain language. No MFA on critical systems. No monitoring. Untested backups. No incident plan. No
+training programme. One person with all the access. Systems unpatched for months. Suppliers never assessed.
+Documentation that does not exist. The honest version of this list is the only useful one, and it is rarely
+flattering.
 
-Current security: Policies? Security officer? Controls like MFA, monitoring, backups? Incident response plan? Certifications? List what actually exists, not what should exist.
+The maturity in eight scores. A one-to-five self-rating on governance, risk management, policies, technical
+controls, incident response, business continuity, supply chain security, and awareness, where 1 means nothing
+exists and 5 means mature and validated. Mostly ones and twos points at 12 to 24 months of work. Mostly threes
+and fours, 9 to 18 months of gap-filling. Mostly fives means either genuine readiness or overconfidence, and
+external validation settles which.
 
-Supply chain: Top 10-20 critical suppliers. Who has system access? Who could break you if they failed? Cloud providers, software vendors, managed service providers: list them now.
+Validation means testing, not attestation. A 5 on incident response backed by tabletop exercises and a
+penetration test is different evidence from a 5 backed by documentation being in place.
 
-### Your gaps in plain language
+The timeline in months, worked backward from the member state's deadline. High maturity (an ISO 27001
+certificate, say) leaves 6 to 12 months of NIS2-specific work: incident reporting, supply chain formalisation,
+governance documentation. A deadline under 12 months combined with low scores is a resource problem, and the
+honest responses are external help, ruthless prioritisation, and documented reasoning a regulator can follow.
 
-Stop pretending. Where are you possibly weak?
+## Stakeholders
 
-* No MFA on critical systems. 
-* No monitoring. 
-* Untested backups. 
-* No incident plan. 
-* No training programme. 
-* One person has all the access. 
-* Systems haven't been patched in months. 
-* Suppliers have never been assessed. 
-* Documentation doesn't exist.
-* etc.
+NIS2 makes security a board-level governance issue with personal liability. It stops being an IT project and
+becomes an organisational one, which changes who needs to be in the room.
 
-Write the list. These are just possible starting points.
+The board carries consequences: personal liability in some member states, penalties up to €10M or 2% of global
+turnover, mandatory approval and oversight duties that cannot be delegated away. A board briefing covering
+scope, gaps, costs, and timeline, with budget approval and quarterly reporting minuted, is evidence regulators
+ask for. Boards tend to ask the same five questions: what does this cost, what happens if we don't, how do we
+compare, what are our biggest risks, who is accountable. Arriving with answers shortens the meeting.
 
-### Your maturity in eight scores
+IT and security implement the technical reality, and know what is possible versus theoretical. The predictable
+pushback ("we're already ISO 27001 compliant", "no budget", "this will slow everything down", "we're
+understaffed") each has an answer: close but gaps exist, escalate because it is legally mandatory, find
+proportionate approaches, prioritise or get help.
 
-Rate yourself 1-5 on governance, risk management, policies, technical controls, incident response, business continuity, 
-supply chain security, and awareness. Be honest: 1 means nothing exists, 5 means mature and validated.
+The rest of the room each carry a piece. Operations owns continuity and knows what actually keeps services
+running. Legal and compliance track national implementation variations, supplier contracts, reporting
+procedures, and liability. Procurement operationalises supply chain security through requirements,
+questionnaires, and contract amendments. HR builds the culture: awareness training, onboarding and
+offboarding, management training.
 
-Mostly 1-2? Plan for 12-24 months of work. Mostly 3-4? You've got 9-18 months to fill gaps. Mostly 5? Either you are 
-already compliant or you are overconfident: validate externally. Validation means testing, not attestation. A score of 5 on incident response, validated through tabletop exercises and a penetration test, produces different evidence than a score of 5 based on documentation being in place. The self-assessment is a starting point; the evidence supporting it determines whether a supervisory authority would agree.
-
-### Your timeline in months
-
-Check your member state's deadline. Then work backward based on where you scored.
-
-Low maturity needs 12-24 months with dedicated resources. Medium maturity needs 9-18 months focussing on gaps. High maturity (like ISO 27001 certified) needs 6-12 months for NIS2-specific items: incident reporting, supply chain formalisation, governance documentation.
-
-If your deadline is under 12 months, and you scored low, you have a resource problem. Get external help, prioritise ruthlessly, document what you're doing and why, and prepare to explain proportionality to regulators.
-
-## Engage your stakeholders
-
-NIS2 makes security a board-level governance issue with personal liability. This stops being an IT project and becomes an organisational one.
-
-### The board needs to understand consequences
-
-Personal liability in some member states. Penalties up to €10M or 2% of global turnover. Mandatory approval and oversight responsibilities. Cannot delegate everything to IT and hope for the best.
-
-Schedule a board briefing. Present scope, gaps, costs, timeline. Get budget approval and quarterly reporting established. Make management take basic security training. Document everything in meeting minutes: board oversight is not optional under NIS2, and regulators will ask for evidence.
-
-The board will ask: What does this cost? What happens if we don't? How do we compare to others? What are our biggest risks? Who's accountable? Have answers ready.
-
-### IT and security implement the technical reality
-
-They build the controls, run daily operations, respond to incidents, and know what's actually possible versus theoretical. Give them the requirements, let them map to current capabilities, estimate effort and costs, identify quick wins, and form a working group.
-
-Expect pushback: "We're already ISO 27001 compliant." (Close, but gaps exist.) "We don't have budget." (Escalate: it's legally mandatory.) "This will slow everything down." (Find proportionate approaches.) "We're understaffed." (Prioritise or get external help.)
-
-### Operations owns continuity and knows what's critical
-
-Business continuity plans, recovery procedures, operational risk. Often manages OT/ICS if you have industrial systems. Critical for understanding what actually keeps services running and what breaks them.
-
-Run joint sessions with IT to map critical systems, conduct business impact analysis, review and test continuity plans, integrate security into change processes.
-
-### Legal and compliance handle the regulatory framework
-
-Track national implementation variations, review supplier contracts for security requirements, establish incident reporting procedures with templates, assess liability and insurance implications, coordinate with supervisory authorities.
-
-NIS2 is legal compliance with penalties, not just technical best practice. Legal needs to be involved early and stay involved.
-
-### Procurement manages supplier risk
-
-Create security requirements for new supplier RFPs, develop assessment questionnaires, classify existing suppliers by criticality, plan contract amendments for critical suppliers. Supply chain security is mandatory: procurement needs to operationalise it.
-
-### HR builds security culture
-
-Mandatory awareness training for everyone. Security integration into onboarding and offboarding. Management training on obligations. Possibly background checks for privileged roles. Security isn't just technology: it's people and process.
-
-### Structure
-
-Assign an executive sponsor (CEO, COO, CISO) with authority and board reporting responsibility. Designate a programme owner (often CISO or compliance lead) for day-to-day coordination. Form a core team across IT, operations, legal, procurement, HR, and finance.
-
-Establish governance: steering committee monthly, working group weekly, board updates quarterly. Make it clear who decides, who implements, who gets informed.
+Structure holds it together: an executive sponsor with authority and board reporting, a programme owner for
+day-to-day coordination, a core team across functions, and a governance rhythm that makes clear who decides,
+who implements, and who gets informed.
 
 ## Output
 
-Don't rush into it. Get the foundations right first.
+By the end of this stage: scope clarity written in one paragraph, a current-state picture (systems inventory,
+controls summary, maturity scores, supplier list, gaps), stakeholder alignment with the board briefed and
+budget approved, a basic roadmap with milestones, and a governance structure with a named sponsor and owner.
+This is the launch point. Rushed past, the current finds the raft without a map, a crew, or a destination.
 
-Scope clarity: Which sector, essential or important, what services, which authority, what deadline. Write it down in one clear paragraph.
+## Related
 
-Current state: Systems inventory, controls summary, maturity scores, supplier list, gaps identified. Know what you have and what you don't.
-
-Stakeholder alignment: Board briefed and budget approved, core team formed, responsibilities assigned (RACI), everyone understands their role.
-
-Basic roadmap: Deadline, phased approach, major milestones, resource needs. Not detailed yet: just enough to start planning properly.
-
-Governance structure: Sponsor assigned, owner designated, committees formed, reporting schedule set. Who's actually running this programme?
-
-This is your launch point. Get this right, and the crossing becomes navigable. Rush past it, and you'll find yourself in the current without a map, a crew, or a clear destination.
-
+* [ISO 27001 The map room](../iso27001/map-room.md)
+* [Scope definition](../supportive/scope-definition.md)
+* [Picking the route](../picking-the-route.md)

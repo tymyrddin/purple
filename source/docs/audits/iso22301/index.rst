@@ -1,4 +1,4 @@
-The ISO 22301 resilient factory
+ISO 22301 playbook: the resilient factory
 ======================================================
 
 .. image:: /_static/images/iso22301.png
@@ -14,13 +14,15 @@ systems, and now need to verify coverage, spot gaps, and prepare for an audit.
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Use these pages as a checklist, reference, and pre-audit walk-through.
+   :caption: The stages follow the standard's own order. Walk the floor, chart the storms, build the emergency systems, write the drill book, run the drills, assemble the dossier, and learn from what the storm leaves behind.
 
-   assets.md
-   threats.md
-   controls.md
-   evidence.md
-   adversaries.md
+   floor-walk.md
+   storm-charts.md
+   emergency-systems.md
+   drill-book.md
+   drills.md
+   dossier.md
+   after-the-storm.md
 
 Compliance is treated as something derived from observed system behaviour rather than demonstrated through
 documentation alone. Each continuity control encodes an assumption about how the factory will behave under

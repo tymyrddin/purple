@@ -1,4 +1,4 @@
-The NIS2 river crossing
+NIS2 playbook: the river crossing
 ======================================================
 
 .. image:: /_static/images/river.png
@@ -12,7 +12,7 @@ important entities across the EU are successfully making the crossing.
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Unlike climbing a mountain where the path is largely yours to choose, crossing a river means respecting the current. NIS2 has more prescriptive requirements, mandatory incident reporting timelines, and specific obligations you cannot simply route around. The current flows in one direction, and you must navigate it successfully.
+   :caption: Unlike a mountain, where the route is largely the climber's to choose, a river crossing means respecting the current. NIS2 has prescriptive requirements, mandatory reporting timelines, and obligations that cannot be routed around. The current flows in one direction, and the stages follow it: explore, understand the river, build the raft, enter the current, navigate the hazards, watch the tributaries, reach the far bank, and stay afloat.
 
    explore.md
    river.md

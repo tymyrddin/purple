@@ -1,4 +1,4 @@
-The IEC 62443 factory fortress
+IEC 62443 playbook: the factory fortress
 ======================================================
 
 .. image:: /_static/images/iec62443.png
@@ -12,13 +12,15 @@ up defences, and verify that every control is documented and auditable.
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Use these pages as a checklist, reference, and pre-audit walk-through.
+   :caption: The stages follow the fortress from survey to standing watch. Know what it contains, know who besieges it, draw the walls and gates, set the locks and patrols, test the defences, pass the inspection, and keep watch.
 
-   assets.md
-   threats.md
-   controls.md
-   evidence.md
-   adversaries.md
+   survey.md
+   besiegers.md
+   walls-and-gates.md
+   locks-and-patrols.md
+   testing-the-defences.md
+   inspection.md
+   keeping-watch.md
 
 Auditable controls are necessary but not sufficient. Each control in an IEC 62443 deployment encodes an assumption
 about how the ICS environment will behave under attack: that the firewall rule will enforce what the diagram says it

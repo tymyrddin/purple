@@ -64,8 +64,8 @@ decision. It may reflect that the cost of treatment falls on a team that does no
 
 * [ISO 27001 Risk tent](../iso27001/risk-tent.md)
 * [NIS2 Understanding the river](../nis2/river.md)
-* [IEC 62443 Threats to the factory](../iec62443/threats.md)
-* [ISO 22301 Storms on the factory floor](../iso22301/threats.md)
+* [IEC 62443 Knowing the besiegers](../iec62443/besiegers.md)
+* [ISO 22301 Storm charts](../iso22301/storm-charts.md)
 * [Arrows and shields](arrows-shields.md)
 * [Attack path mapping](../../threat-modelling/attack-path-mapping.md)
 * [Adversary persona workshop](../../threat-modelling/adversary-persona-workshop.md)

@@ -5,7 +5,7 @@ organisations must do to protect against them. In other words: one set labels th
 shields.
 
 This page covers IT attack categories. OT/ICS attack patterns (ATT&CK for ICS, protocol abuse, firmware
-threats) are covered in the [IEC 62443 adversaries page](../iec62443/adversaries.md).
+threats) are covered in [IEC 62443 Knowing the besiegers](../iec62443/besiegers.md).
 
 ## Web & application attacks
 

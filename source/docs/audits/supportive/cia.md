@@ -1,8 +1,8 @@
 # Confidentiality, integrity, and availability
 
-The CIA triad is the foundation of information security. It describes three properties every organisation 
-must protect in its information systems. Each one carries weight on its own, but security only works when all three 
-are kept in balance.
+Information security keeps returning, one way or another, to the CIA triad: three properties an organisation
+ends up protecting whether it names them or not. Each one carries weight on its own, and the balance between
+the three is where security holds or slips.
 
 | Aspect          | Core question                    | Relevant Annex A domains                                                                                       |
 |:----------------|:---------------------------------|:---------------------------------------------------------------------------------------------------------------|

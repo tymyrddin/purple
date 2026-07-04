@@ -2,59 +2,91 @@
 
 ![Raft](/_static/images/staying-afloat.png)
 
-The river keeps flowing. Threats evolve, regulations update, and your organisation changes. NIS2 compliance is not a destination you reach and forget; it is an ongoing operational state requiring sustained attention and adaptation.
+Continuous compliance: monitoring, governance cycles, and adaptation as everything moves.
 
-## Monitor continuously for effectiveness
+The river keeps flowing. Threats evolve, regulations update, and the organisation changes. NIS2 compliance is
+not a destination reached and forgotten; it is an ongoing operational state requiring sustained attention and
+adaptation.
 
-Security operations need constant vigilance. Monitor critical systems around the clock if service criticality demands it. Run regular vulnerability scans to find weaknesses before attackers do. Integrate threat intelligence to understand current attack patterns. Analyse security events to separate signals from noise; ML-assisted anomaly detection reduces manual review burden when event volumes are high. Track metrics and KPIs to see whether controls are working as intended.
+## Monitoring for effectiveness
 
-Control effectiveness requires regular testing. Test controls on defined schedules to verify they still function. Conduct internal audits reviewing documentation and practice. Run penetration testing at least annually to simulate realistic attacks. Execute tabletop exercises walking through incident scenarios. Consider red team assessments for mature programmes that want a realistic challenge.
+Security operations need constant vigilance: critical systems monitored around the clock where service
+criticality demands it, regular vulnerability scans, threat intelligence for current attack patterns, and
+security event analysis that separates signal from noise; ML-assisted anomaly detection reduces manual review
+burden when event volumes are high.
 
-Performance tracking shows what is working. Measure the mean time to detect incidents to understand how quickly problems are spotted. Track mean time to respond to see how fast incidents are contained and remediated. Monitor vulnerability remediation times from discovery to fix. Measure patch compliance rates across your environment. Track security awareness test results to verify training effectiveness. Analyse incident trends to identify improvements. [Identify gaps](../supportive/gap-analysis.md) where risks are not adequately addressed.
+Control effectiveness needs regular testing: controls tested on defined schedules, internal audits reviewing
+documentation and practice, penetration testing at least annually, tabletop exercises walking through incident
+scenarios, and red team assessments for mature programmes that want a realistic challenge.
 
-Effectiveness metrics and activity metrics are different categories. Meantime to detect and mean time to respond measure outcome performance. Phishing click rate trends and exercise decision quality measure whether training produced observable behaviour change. Patch compliance rates and training completion rates measure whether activities occurred. Both categories are useful, but only the first two confirm that controls are producing their intended effect under realistic conditions.
+Performance tracking shows what is working: mean time to detect, mean time to respond, vulnerability
+remediation times, patch compliance rates, awareness test results, incident trends, and
+[gaps identified](../supportive/gap-analysis.md) where risks are not adequately addressed.
 
-## Maintain an annual governance cycle
+Effectiveness metrics and activity metrics are different categories. Mean time to detect and mean time to respond measure outcome performance. Phishing click rate trends and exercise decision quality measure whether training produced observable behaviour change. Patch compliance rates and training completion rates measure whether activities occurred. Both categories are useful, but only the first two confirm that controls are producing their intended effect under realistic conditions.
 
-Board-level reviews keep security visible. Conduct an annual review of the security programme, its strategy, and effectiveness. Update risk assessments as threats and business operations change. Allocate budget and resources based on current needs. Review strategic security initiatives and their progress. Report compliance status honestly with supporting evidence. Refresh management training on evolving obligations.
+## The annual governance cycle
 
-Policy and procedure updates prevent [drift](../../foundations/system-effectiveness/for-defence.md). Review policies annually for relevance and accuracy. Validate procedures against current practice to catch divergence. Update templates to reflect lessons learned. Integrate lessons from incidents into documentation. Incorporate regulatory changes as they occur.
+Board-level reviews keep security visible: an annual review of the programme, its strategy, and effectiveness;
+risk assessments updated as threats and operations change; budget allocated on current needs; compliance status
+reported honestly with supporting evidence; management training refreshed on evolving obligations.
+
+Policy and procedure updates prevent [drift](../../foundations/system-effectiveness/for-defence.md): policies
+reviewed annually for relevance, procedures validated against current practice to catch divergence, templates
+updated with lessons learned, regulatory changes incorporated as they occur.
 
 When procedures and current practice diverge, the divergence is a model signal before it is a compliance failure. The procedure encodes an assumption about how the work gets done; divergence is evidence that the assumption no longer fits. The diagnostic question is what changed: the environment, the risk, the tools, or the team's understanding of the task. Updating the documentation to match reality addresses the surface condition. Asking why the [drift](../../foundations/system-effectiveness/for-defence.md) happened is what prevents it reappearing.
 
-Training and awareness never stop. Deploy annual mandatory training for all staff on current threats. Provide role-specific refreshers for specialised functions. Integrate security into new employee onboarding from day one. Brief management regularly on emerging security issues. Raise awareness of emerging threats as they appear.
+Training and awareness never stop: annual mandatory training on current threats, role-specific refreshers,
+security in onboarding from day one, regular management briefings, and awareness of emerging threats as they
+appear.
 
-## Adapt to organisational change
+## Adapting to change
 
-Changes in the organisation affect security. New systems or services introduce new risks. Mergers, acquisitions, and divestitures change scope and structure. New suppliers or vendors alter supply chain risk. Workforce changes affect knowledge and capability. Business model evolution may change what is critical.
+Organisational change affects security: new systems and services introduce new risks; mergers, acquisitions,
+and divestitures change scope and structure; new suppliers alter supply chain risk; workforce changes affect
+knowledge and capability. Technology change does the same: cloud migrations shift responsibility boundaries,
+transformation initiatives expand the attack surface, AI, IoT, and OT introduce unfamiliar risks,
+decommissioning changes infrastructure. And the threat landscape moves on its own schedule: new attack
+techniques, new vulnerability classes, sector-specific targeting, geopolitical shifts in threat actor
+motivation, ransomware tactics that change faster than annual reviews.
 
-Technology changes create new challenges. Cloud migrations shift responsibility boundaries. Digital transformation initiatives expand the attack surface. New technologies such as AI, IoT, and OT introduce unfamiliar risks. Decommissioning legacy systems changes infrastructure. Tool upgrades or replacements require relearning and reconfiguration.
+Regulatory evolution deserves its own watch: NIS2 implementation updates across member states, supervisory
+guidance clarifying expectations, sector-specific requirements as they emerge, related regulations such as
+GDPR, DORA, and CER, and EU cybersecurity strategy developments. Sector forums, information sharing and
+analysis centres, supervisory consultations, and peer networks spread the load of noticing.
 
-The threat landscape evolves constantly. Emerging attack techniques require new defences. New vulnerability classes affect different systems. Sector-specific threats target your industry. Geopolitical developments change threat actor motivations and capabilities. Ransomware trends shift tactics, requiring response adaptation.
+## Improving from experience
 
-## Track regulatory evolution
-
-Monitor changes to understand obligations. Follow updates to NIS2 implementation across member states. Watch for new guidance from supervisory authorities clarifying expectations. Note sector-specific requirements as they emerge. Track related regulations such as GDPR, DORA, and CER that interact with NIS2. Follow EU cybersecurity strategy developments shaping the future direction.
-
-Participate in sector forums for shared learning. Join information sharing and analysis centres for your sector. Engage with sector-specific working groups. Participate in supervisory authority consultations where available. Join industry associations addressing common challenges. Network with peers facing similar compliance issues.
-
-## Improve continuously from experience
-
-Learn from everything that happens. Conduct post-incident reviews after every significant event. Address audit findings systematically rather than ignoring them. Capture lessons from exercises and act on them. Analyse operational challenges to identify root causes. Study near-miss incidents that could have been worse.
+Everything that happens teaches something, if asked: post-incident reviews after every significant event, audit
+findings addressed systematically, lessons from exercises captured and acted on, operational challenges
+analysed to root cause, near-misses studied as the discounted incidents they are.
 
 When a corrective action from a previous review reappears as the same finding in a later cycle, the corrective action addressed the surface condition but left an assumption intact. There is a third level beyond fixing the symptom (correction) and fixing the root cause (corrective action): asking what the organisation believed about this control's operating conditions that made the gap seem impossible. That belief, once named, can be checked against current reality and either confirmed or corrected.
 
-Benchmark and mature your programme. Compare practices against sector peers to [identify gaps](../supportive/gap-analysis.md). Adopt security framework maturity models to measure progress. Progress from reactive response towards proactive prevention. Build predictive capabilities to identify problems before they manifest. Develop a security culture where everyone feels responsible.
+Maturing the programme continues from there: practices benchmarked against sector peers, maturity models to
+measure progress, movement from reactive response toward proactive prevention, and a culture where security
+responsibility spreads rather than concentrates.
 
-Innovation and optimisation make security sustainable. Automate repetitive tasks to free staff for higher-level work. Improve control efficiency to reduce overhead. Reduce false positives that cause alert fatigue. Streamline processes to remove unnecessary friction. Leverage new technologies to make security easier rather than harder.
+Innovation keeps it sustainable: repetitive tasks automated, control overhead reduced, false positives tuned
+down, friction removed, new technology making security easier rather than harder.
 
-## Maintain audit readiness always
+## Audit readiness always
 
-Keep evidence current and organised to respond quickly to requests. Maintain documentation hygiene by removing outdated materials. Conduct regular internal assessments to catch problems early. Run mock supervisory interactions to practice. Establish quick-response procedures for authority requests.
-
-Sustain commitment from leadership and across the organisation. Maintain executive sponsorship with active involvement. Ensure adequate resourcing as needs evolve. Clarify accountability so everyone knows their role. Recognise and reward security contributions. Build a security champions programme to spread expertise across the organisation.
+Evidence current and organised, documentation hygiene maintained, regular internal assessments, mock
+supervisory interactions, and quick-response procedures for authority requests. Sustained commitment holds it
+together: active executive sponsorship, adequate resourcing as needs evolve, clear accountability, recognition
+for security contributions, and a champions programme spreading expertise across the organisation.
 
 ## Output
 
-The output of this stage is annual compliance reviews showing continued adherence, updated risk assessments reflecting current reality, continuous monitoring reports demonstrating vigilance, improvement roadmaps showing evolution rather than stagnation, and board reporting packages keeping leadership informed and engaged.
+The output of this stage is annual compliance reviews showing continued adherence, updated risk assessments
+reflecting current reality, continuous monitoring reports demonstrating vigilance, improvement roadmaps showing
+evolution rather than stagnation, and board reporting packages keeping leadership informed and engaged.
 
+## Related
+
+* [ISO 27001 The flag](../iso27001/flag.md)
+* [ISO 22301 After the storm](../iso22301/after-the-storm.md)
+* [IEC 62443 Keeping watch](../iec62443/keeping-watch.md)
+* [Audit as compass](../compass.md)

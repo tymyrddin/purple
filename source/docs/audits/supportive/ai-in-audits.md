@@ -118,5 +118,5 @@ choice between them depends primarily on the sensitivity of the documents being 
 * [ISO 27001 Base camp check](../iso27001/base-camp-check.md)
 * [ISO 27001 Flag](../iso27001/flag.md) (ongoing monitoring and surveillance cycle)
 * [NIS2 Staying afloat](../nis2/afloat.md) (continuous monitoring metrics where AI tooling applies directly)
-* [IEC 62443 The paper trail under inspection](../iec62443/evidence.md) (AI-assisted evidence collection in OT environments)
+* [IEC 62443 The inspection](../iec62443/inspection.md) (AI-assisted evidence collection in OT environments)
 * [NIS2 Building the vessel](../nis2/raft.md) (AI-generated phishing simulations covered in the people and culture section)

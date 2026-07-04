@@ -2,101 +2,81 @@
 
 ![Currents](/_static/images/tributaries.png)
 
-The river has tributaries feeding into it. Your suppliers and partners bring their own risks into your environment. 
-NIS2 explicitly requires managing these risks because high-profile incidents such as SolarWinds, Kaseya, and 
-Log4j have shown how supplier compromises can cascade to customers. Weaknesses upstream can pull you under even 
-if your own defences are strong.
+NIS2, Article 21: supply chain security.
 
-## Relevance now
+The river has tributaries feeding into it. Suppliers and partners bring their own risks into the environment,
+and NIS2 explicitly requires managing them, because incidents such as SolarWinds, Kaseya, and Log4j have shown
+how supplier compromises cascade to customers. Weakness upstream can pull an organisation under even when its
+own defences are strong.
 
-Your obligations include taking appropriate measures to manage supply chain risks, considering vulnerabilities specific to each supplier, including security requirements in contracts, and monitoring supplier security posture over time. If your suppliers are also in scope for NIS2, they have their own compliance requirements. Coordination can prevent duplication while ensuring nothing falls through the gaps.
+## The obligations
 
-## Map and classify your supply chain
+In-scope entities take appropriate measures to manage supply chain risks, consider vulnerabilities specific to
+each supplier, include security requirements in contracts, and monitor supplier security posture over time.
+Suppliers who are themselves in scope have their own compliance requirements; coordination prevents duplication
+while ensuring nothing falls through the gaps.
 
-Start with identification:
+## Mapping and classifying the supply chain
 
-* IT systems and software, including SaaS, cloud infrastructure, and managed services
-* Network and telecommunications providers connecting your operations
-* Hardware and equipment suppliers
-* System integrators and consultants with access to your environment
-* Outsourced business processes such as payroll, customer support, or logistics
+Identification comes first: IT systems and software including SaaS, cloud infrastructure, and managed services;
+network and telecommunications providers; hardware and equipment suppliers; system integrators and consultants
+with access to the environment; outsourced business processes such as payroll, customer support, or logistics.
 
-Classify suppliers by risk and criticality:
+Classification by risk and criticality follows. Critical suppliers are single points of failure, hard to
+replace quickly, hold access to critical systems or sensitive data, or are essential for service delivery.
+Important suppliers have significant impact if compromised and can be replaced, with disruption. Standard
+suppliers have limited access or impact and provide commodity services.
 
-* Critical suppliers are single points of failure, difficult to replace quickly, have access to critical systems or sensitive data, or are essential for service delivery
-* Important suppliers have a significant impact if compromised, access some systems or data, and can be replaced but with disruptive effort
-* Standard suppliers have limited access or impact, are easily replaceable, and provide commodity services
+## Security requirements, set and enforced
 
-## Set and enforce security requirements
+Minimum standards may include:
 
-Establish minimum security standards, which may include:
+* Security certifications such as ISO 27001 or SOC 2 for critical suppliers. These are implementation evidence: they confirm a management system passed an audit at a point in time. They are not [effectiveness evidence](../../foundations/system-effectiveness/applying-sem.md) that the supplier's controls produce their intended effect in the context of this specific integration.
+* Security questionnaires demonstrating baseline controls.
+* Incident notification obligations, so supplier incidents surface.
+* Audit rights and regular reporting.
+* Data protection measures meeting the organisation's standards.
+* Business continuity capabilities, so supplier failures do not become the organisation's failures.
 
-* Security certifications such as ISO 27001 or SOC 2 for critical suppliers (these are implementation evidence: they confirm a management system passed an audit at a point in time; they are not [effectiveness evidence](../../foundations/system-effectiveness/applying-sem.md) that the supplier's controls produce their intended effect in the context of your specific integration)
-* Completion of security questionnaires demonstrating baseline controls
-* Incident notification obligations so you know when supplier incidents affect you
-* Audit rights and regular reporting to verify continued compliance
-* Data protection measures meeting your organisation’s standards
-* Business continuity capabilities so supplier failures do not become your failures
+Contracts formalise the expectations: baseline security requirements, incident notification timelines aligned
+with the organisation's own obligations, the right to audit or request evidence, approval for subcontractors
+with flow-down of requirements, clear data handling terms, termination rights for serious breaches, liability
+and indemnification, and reference to NIS2 compliance where suppliers are also in scope.
 
-Contractual requirements formalise these expectations:
+## Monitoring continuously, not just at onboarding
 
-* Include security baseline requirements in supplier contracts
-* Set incident notification timelines aligning with your own obligations
-* Reserve the right to audit or request evidence as needed
-* Require approval for subcontractors and flow-down of security requirements
-* Define data handling and protection requirements clearly
-* Include termination rights for serious security breaches
-* Address liability and indemnification for security failures
-* Reference NIS2 compliance where suppliers are also in scope
+Regular assessment provides ongoing assurance: annual security reviews for critical suppliers as a minimum,
+questionnaires updated to capture control changes, certifications verified as current, supplier posture watched
+through threat intelligence and industry reports, and supplier incidents tracked for emerging risk.
 
-## Monitor continuously, not just at onboarding
+Red flags call for immediate action: supplier incidents affecting the organisation's data or services, lost
+certifications, significant ownership changes altering the risk profile, financial distress threatening
+continuity, repeated SLA breaches, non-compliance with security contract terms.
 
-Regular assessments provide ongoing assurance:
+## Contingency and failure
 
-* Conduct annual security reviews for critical suppliers as a minimum
-* Update questionnaires to capture control changes
-* Verify that certifications remain current
-* Monitor supplier security posture through threat intelligence and industry reports
-* Track supplier incidents to identify emerging risks
+Alternatives identified before they are needed: relationships with backup vendors, tested failover, documented
+transition procedures. Exit strategies built into relationships: data extraction procedures, knowledge transfer
+plans that avoid dependency on supplier expertise, realistic transition timelines, protective termination
+clauses. Resilience measures reduce the dependency itself: a diverse supplier portfolio, no over-reliance on
+single vendors for critical functions, geographic distribution, multi-cloud where appropriate.
 
-Continuous oversight helps catch problems early. Monitor supplier-reported security incidents, vulnerability disclosures, patch updates, financial stability, and compliance with contractual obligations.
+## Being someone else's tributary
 
-Red flags require immediate action, such as:
-
-* Supplier security incidents affecting your data or services
-* Loss of certifications indicating control failures
-* Significant ownership or control changes altering the risk profile
-* Financial distress threatening business continuity
-* Repeated SLA breaches suggesting operational problems
-* Non-compliance with security contract terms
-
-## Plan for contingency and failure
-
-Identify alternative suppliers for critical services before you need them. Maintain relationships with backup vendors, test failover capabilities, and document transition procedures.
-
-Build exit strategies into relationships:
-
-* Ensure data extraction procedures allow you to retrieve your information
-* Prepare knowledge transfer plans to avoid dependency on supplier expertise
-* Plan realistic transition timelines reflecting complexity
-* Include contract termination clauses protecting your interests
-
-Resilience measures reduce dependency risk. Maintain a diverse supplier portfolio, avoid over-reliance on single vendors for critical functions, consider geographic distribution for disaster resilience, and implement multi-cloud strategies where appropriate.
-
-## If you are also a supplier to others
-
-Understand your customers’ NIS2 obligations and how your organisation fits in. Comply with their security requirements, provide reporting and evidence when requested, and maintain your own NIS2 compliance if you are independently in scope.
-
-Take a collaborative approach:
-
-* Share threat intelligence with trusted suppliers
-* Coordinate incident response when incidents affect multiple parties
-* Participate in sector information sharing
-* Build security partnerships based on trust and transparency, not just contractual obligations
+An organisation that supplies in-scope customers meets the same machinery from the other side: their NIS2
+obligations arrive as security requirements, evidence requests, and reporting expectations. The collaborative
+version works better than the adversarial one: shared threat intelligence with trusted suppliers, coordinated
+incident response when incidents affect multiple parties, participation in sector information sharing, and
+security partnerships built on transparency rather than only on contract clauses.
 
 ## Output
 
-The output of this stage is a supplier inventory with risk classifications, a security requirements matrix mapping 
-controls to supplier tiers, an assessment schedule with results tracking, contractual templates for new suppliers, 
-monitoring procedures that detect problems early, and contingency plans for critical supplier failures.
+The output of this stage is a supplier inventory with risk classifications, a security requirements matrix
+mapping controls to supplier tiers, an assessment schedule with results tracking, contractual templates for
+new suppliers, monitoring procedures that detect problems early, and contingency plans for critical supplier
+failures.
 
+## Related
+
+* [ISO 22301 The factory's emergency systems](../iso22301/emergency-systems.md) (supply chain continuity)
+* [IEC 62443 Locks and patrols](../iec62443/locks-and-patrols.md) (supply chain and vendor controls)
