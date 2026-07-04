@@ -4,11 +4,11 @@ Information security keeps returning, one way or another, to the CIA triad: thre
 ends up protecting whether it names them or not. Each one carries weight on its own, and the balance between
 the three is where security holds or slips.
 
-| Aspect          | Core question                    | Relevant Annex A domains                                                                                       |
-|:----------------|:---------------------------------|:---------------------------------------------------------------------------------------------------------------|
-| Confidentiality | Who can see the data?            | A.5 Information security policies, <br/>A.6 Organisation of information security, <br/>A.9 Access control      |
-| Integrity       | Can we trust the data?           | A.8 Asset management, <br/>A.12 Operations security, <br/>A.14 System acquisition, development and maintenance |
-| Availability    | Can we use the data when needed? | A.12 Operations security, <br/>A.17 Information security aspects of business continuity                        |
+| Aspect          | Core question                    | Relevant Annex A controls (ISO/IEC 27001:2022)                                                                                                                        |
+|:----------------|:---------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Confidentiality | Who can see the data?            | A.5.12 Classification of information, <br/>A.5.15 Access control, <br/>A.8.3 Information access restriction, <br/>A.8.24 Use of cryptography                          |
+| Integrity       | Can we trust the data?           | A.8.9 Configuration management, <br/>A.8.32 Change management, <br/>A.8.28 Secure coding, <br/>A.5.33 Protection of records                                           |
+| Availability    | Can we use the data when needed? | A.8.13 Information backup, <br/>A.8.14 Redundancy of information processing facilities, <br/>A.5.29 Information security during disruption, <br/>A.5.30 ICT readiness for business continuity |
 
 ## Confidentiality
 

@@ -102,5 +102,4 @@ record rather than a single data point.
 * [Risk scoring](risk-scoring.md)
 * [Findings and reporting](findings-reporting.md)
 * [Stress-testing resilience](../../resilience/stress-testing.md)
-* [Big data and BI tools](big-data.md)
 * [AI in audits](ai-in-audits.md)

@@ -7,8 +7,8 @@ and how they relate to one another.
 For OT/ICS standards (IEC 62443 and related), see [OT/ICS standards](ot-standards.md). For EU regulatory
 instruments (NIS2, DORA, CER), see [EU regulations reference](eu-regulations.md).
 
-**The catch: ISO standards are not freely available in full. They are copyrighted, so you usually have to 
-[purchase them](https://www.iso.org/standards.html).** So only get what you need. 
+The catch: ISO standards are not freely available in full. They are copyrighted, so they usually have to be
+[purchased](https://www.iso.org/standards.html). So only get what you need.
 
 And you can use the [ISO Online Browsing Platform (OBP)](https://www.iso.org/obp/ui) which will allow access the 
 most up-to-date content in ISO standards, graphical symbols, codes or terms and definitions. This way you can preview 
@@ -68,7 +68,6 @@ These focus on auditing and certifying an ISMS, including requirements for audit
   Specifies what auditors and certification bodies must do to certify ISO 27001.
 * ISO/IEC 27007:2020: *Guidelines for ISMS auditing*
   Guidance for auditing an ISMS, mainly for auditors.
-* ISO/IEC TS 27108:2019: (already covered in controls guidance above)
 * ISO/IEC 17021-1:2015: *Audit and certification body requirements for management systems*
   General framework for all management system certification bodies (not ISMS-specific).
 * ISO/IEC 17024:2012: *Certification of persons*
@@ -95,8 +94,6 @@ These are complementary ISO standards that often inform or integrate with ISO 27
   Provides general risk management concepts that feed into 27005 and 27001.
 * ISO 55000:2014: *Asset management overview*
   Defines principles for managing organisational assets (physical or information).
-* NIST SP 500-291:2013: *Cloud computing standards roadmap*
-  US standard, not ISO, provides cloud-specific guidance. Can complement ISO 27001 for cloud deployments.
 
 These provide conceptual and operational context for risk, asset, continuity, and quality management. All relevant
 for an integrated ISMS.
@@ -107,4 +104,4 @@ for an integrated ISMS.
 2. Core ISMS requirements → ISO 27001 (+ amendments)
 3. Implementation guidance & controls → ISO 27002, 27003, 27005, 27008, 27701, 27032
 4. Audit and certification → ISO 27006-1, 27007, 19011, 17021, 17024, 17065
-5. Supporting frameworks → ISO 9000, 31000, 55000, NIST SP 500-291
+5. Supporting frameworks → ISO 9000, 31000, 55000
