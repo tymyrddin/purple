@@ -5,7 +5,7 @@ failing, but operations failing, people being affected, and recovery consuming r
 
 Naming the operational consequences of a successful attack requires people to say uncomfortable things in front of
 colleagues: that a service would be down for days, not hours; that customer data would be exposed, not just at risk;
-that regulatory consequences would be serious, hardly manageable.
+that regulatory consequences would be serious, and hardly manageable.
 
 Those admissions are hard to make, and the [survival stances](../foundations/organisational-development/satir-core.md)
 show up reliably as people avoid them. Some placate (the impact would probably not be that bad). Some compute (let me

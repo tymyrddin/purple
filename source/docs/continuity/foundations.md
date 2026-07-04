@@ -25,7 +25,7 @@ A SEM question for a continuity plan: when was the last time each load-bearing a
 this document was validated against operational reality, and which of those assumptions, if
 wrong, would invalidate the rest of the plan?
 
-## PSL: rational, emotional, political
+## Three layers: rational, emotional, political
 
 Continuity is a rational subject in theory and a political one in practice.
 
@@ -48,7 +48,7 @@ other two on the day it is needed. The political fights about prioritisation tha
 happen during planning may surface during the incident instead, at the worst possible time,
 with the worst possible information.
 
-## ChangeShop: rehearsals are diagnostic
+## Homeostasis: rehearsals are diagnostic
 
 The most useful continuity exercise is not the one that confirms the plan works. It is the one
 that produces honest data about where the plan does not work. Organisations resist the second
@@ -62,19 +62,19 @@ information the organisation may need. Treating this as a failure of the rehears
 than a finding from it can be read as the homeostatic response: the system preserving the
 model the rehearsal threatened.
 
-A ChangeShop-informed continuity programme designs exercises to surface uncomfortable
+A continuity programme informed by that lens designs exercises to surface uncomfortable
 findings rather than demonstrate readiness. A useful criterion of a good exercise may not be
 "did the plan work" but "did we learn something we did not already know". Exercises that
 produce nothing surprising are often exercises that have been scoped to be safe.
 
-## Satir: stress reverts people to stances
+## Survival stances: who people become under stress
 
 Under disaster conditions, people revert to survival stances. Placating, to keep the peace at
 the cost of honesty. Blaming, to direct fault outward. Computing, to retreat into procedure
 and avoid feeling. Distracting, to disengage entirely.
 
 These are not character flaws. They are predictable responses to threat, and they are
-extremely common in the conditions a continuity plan is written for. A plan that assumes
+common in the conditions a continuity plan is written for. A plan that assumes
 people will behave as the procedure describes is assuming a calm that does not exist in
 disaster conditions.
 
@@ -85,7 +85,7 @@ procedurally correct updates that are operationally useless. Decision authority 
 someone whose stance under stress is to distract may simply not be exercised, and the
 disaster can run unmanaged for whatever interval that lasts.
 
-A Satir-informed question for any role in the plan: under stress, what does this person tend
+A question worth asking for any role in the plan: under stress, what does this person tend
 to do, and is the role compatible with that? The answer affects how the role gets filled, who
 the deputy is, and how the structure tolerates the stance the named person is likely to adopt.
 
@@ -109,7 +109,7 @@ capability is what holds when the building floods.
 ## Related
 
 - [Applying SEM to security](../foundations/system-effectiveness/applying-sem.md)
-- [PSL in security work](../foundations/problem-solving/in-security.md)
-- [Integrating PSL, ChangeShop, SEM, and Satir OD](../foundations/organisational-development/composite-model.md)
-- [What ChangeShop is](../foundations/change-management/what-it-is.md)
+- [Problem solving in security work](../foundations/problem-solving/in-security.md)
+- [Integrating the four lenses](../foundations/organisational-development/composite-model.md)
+- [The change workshop](../foundations/change-management/what-it-is.md)
 - [What happens Monday morning](monday-morning.md)

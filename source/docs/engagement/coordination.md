@@ -2,7 +2,7 @@
 
 Clear communication before, during, and after an engagement does not happen automatically. The conditions that make it possible need to be designed, not assumed.
 
-[Satir's work on communication under stress](../foundations/organisational-development/satir-core.md) explains why this matters. An engagement creates pressure, and pressure activates survival stances. The analyst who defaults to computing behaviour under stress will produce a technically precise account of what they did that avoids naming the decision that mattered. The team lead who placates will agree that findings are important and not escalate the structural ones. These are not individual failures; they are predictable responses to environments that have not been designed to make honest communication safe. The coordination structure is part of that design.
+[How people communicate under stress](../foundations/organisational-development/satir-core.md) explains why this counts. An engagement creates pressure, and pressure activates survival stances. The analyst who defaults to computing behaviour under stress will produce a technically precise account of what they did that avoids naming the decision that mattered. The team lead who placates will agree that findings are important and not escalate the structural ones. These are not individual failures; they are predictable responses to environments that have not been designed to make honest communication safe. The coordination structure is part of that design.
 
 ## Before the engagement
 

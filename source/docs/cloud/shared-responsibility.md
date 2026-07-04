@@ -2,7 +2,7 @@
 
 The shared responsibility model is the contractual fiction that organises cloud security. The provider is responsible
 for security of the cloud; the customer is responsible for security in the cloud. Both halves are real, both have edge
-cases, and the edge cases are where most cloud incidents originate.
+cases, and the edge cases are where many cloud incidents originate.
 
 ## Where the line sits
 
@@ -33,7 +33,7 @@ secure-by-default last quarter may not be next quarter. The customer who configu
 bears no obvious cost; the customer who relied on the default and stopped paying attention bears the cost when the
 default changes.
 
-The interface between the two sides has no shared interface. There is no protocol for "we are about to deprecate this
+The two sides have no shared interface. There is no protocol for "we are about to deprecate this
 default" except a release note that the customer's automation may not parse. The cumulative effect, across many services
 and many customers, is the [misconfiguration epidemic](https://indigo.tymyrddin.dev/docs/debt/cloud.html) the cloud industry has been grappling with for most of a decade.
 

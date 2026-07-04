@@ -12,7 +12,7 @@ Document the engagement plan: objectives, scope, rules of engagement, timeline, 
 
 ## During the engagement
 
-The testing team logs every action with a timestamp: what was attempted, what succeeded, what did not, and what was surprising. Not just "executed technique X" but "executed technique X at 14:32, expected alert within 5 minutes, no alert observed for 23 minutes." The observations matter as much as the actions.
+The testing team logs every action with a timestamp: what was attempted, what succeeded, what did not, and what was surprising. Not just "executed technique X" but "executed technique X at 14:32, expected alert within 5 minutes, no alert observed for 23 minutes." The observations count as much as the actions.
 
 The defending team logs alerts, decisions, and reasoning: when something was noticed, what the investigation found, what was decided and why, and what was not noticed and why. The gaps in the log are as important as the entries.
 

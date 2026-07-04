@@ -90,7 +90,7 @@ human-review escalation thresholds all fall here.
 The architectural concern is not any specific tool. It is the nature of instruction-following
 enforcement: constraints that are expressed as instructions to a model that interprets them are
 different in kind from constraints expressed as conditions that a runtime enforces. Treating the
-former as equivalent to the latter is the source of most guardrail failures.
+former as equivalent to the latter is the source of many guardrail failures.
 
 ## Successful bypasses leave no trace
 

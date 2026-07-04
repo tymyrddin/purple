@@ -5,7 +5,7 @@ reason dashboards become decor is usually not bad design. It is that the dashboa
 or satisfy an audit rather than to serve the person doing the work. 
 
 [SEM's model-drift observation](../foundations/system-effectiveness/core-triad.md) applies directly: the dashboard 
-encodes a model of what matters; when that model is shaped by what leadership wants to see rather than what analysts 
+encodes a model of what counts; when that model is shaped by what leadership wants to see rather than what analysts 
 need to see, the two diverge, and the analyst stops consulting it. The design principles below address the symptoms; 
 the conditions question is who the dashboard is actually built for.
 
@@ -57,7 +57,7 @@ This is where tomorrow’s breach quietly announces itself.
 ## Design principles for dashboards
 
 1. Zero friction: No nested menus, no tooltips, no scavenger hunts.
-2. Human-first: Colour only where it matters, minimal clutter, no vanity charts.
+2. Human-first: Colour only where it earns its place, minimal clutter, no vanity charts.
 3. Operational, not political: Executives get their own dashboard; this one is for people doing real work.
 4. Instant refresh: If the threat moves faster than your updates, the dashboard is ornamental.
 

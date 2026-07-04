@@ -6,7 +6,7 @@ than just tested.
 
 ## Starting from where things stand
 
-The [ChangeShop framing](../foundations/change-management/what-it-is.md) applies here: the organisation already has 
+The [change framing](../foundations/change-management/what-it-is.md) applies here: the organisation already has 
 an incident response capability, however informal. A first exercise does not introduce simulation into a vacuum. It 
 introduces a new kind of scrutiny into a system that has already adapted to the absence of it. The resistance that 
 sometimes meets a new exercise programme is not obstruction. It is the system registering that something is changing.
@@ -20,8 +20,8 @@ which is what the programme depends on.
 
 Complexity and duration increase as the team's familiarity with the format grows and as the safety controls have 
 been demonstrated to hold. The progression is not a curriculum: it is a response to what each exercise reveals. 
-If the first tabletop surfaces a fundamental gap in role clarity, the second exercise addresses that gap, 
-not move on to more sophisticated scenarios.
+If the first tabletop surfaces a fundamental gap in role clarity, the second exercise addresses that gap 
+rather than moving on to more sophisticated scenarios.
 
 Add live injects when the tabletop format is producing confident, if theoretical, responses. Live injects test 
 whether the understanding demonstrated in the tabletop survives contact with time pressure and ambiguous information. 

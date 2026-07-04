@@ -2,7 +2,9 @@
 
 Every engagement involves risk. The practical risks are well understood: unintended service disruption, data corruption, triggering automated responses that affect production. These are worth planning for, and the planning is straightforward.
 
-The less discussed risk is psychological. An engagement that creates significant distress for participants, that generates findings used against the people who were honest about them, or that activates [Satir's survival stances](../foundations/organisational-development/satir-core.md) without creating the conditions for recovering from them, produces two kinds of damage. The immediate damage is visible. The longer-term damage is that people become less willing to participate honestly in future exercises, and the organisation loses access to exactly the kind of real behaviour that makes exercises valuable. Psychological safety is not a soft concern alongside the operational risks; it is a precondition for the engagement producing anything worth having.
+The less discussed risk is psychological. An engagement that creates significant distress for participants, that generates findings used against the people who were honest about them, or that activates [the survival stances](../foundations/organisational-development/satir-core.md) without creating the conditions for recovering from them, produces two kinds of damage. The immediate damage is visible. The longer-term damage is that people become less willing to participate honestly in future exercises, and the organisation loses access to exactly the kind of real behaviour that makes exercises valuable.
+
+Psychological safety is not a soft concern alongside the operational risks; it is a precondition for the engagement producing anything worth having.
 
 ## Operational risks
 
@@ -27,4 +29,4 @@ If a critical vulnerability is discovered outside the agreed scope, define how i
 - [Rules of engagement](rules.md)
 - [Scope](scope.md)
 - [Resources](resources.md)
-- [Core ideas of Satir systems OD](../foundations/organisational-development/satir-core.md)
+- [Survival stances and congruence](../foundations/organisational-development/satir-core.md)

@@ -6,7 +6,7 @@ Metrics from incident exercises are not a scorecard. They are model tests. Each 
 
 Time is the most immediate and least ambiguous signal. Time to detection, time to the first containment decision, time to implementation of that decision. These do not require interpretation: the clock ran, or it did not.
 
-Communication touchpoints matter alongside the timings. How many escalations occurred? When did the communications function enter the response loop relative to the technical one? At what point did an incident commander make a decision versus waiting for consensus? These patterns reveal the authority and coordination structure the team is actually operating with, which may differ substantially from the documented one.
+Communication touchpoints belong alongside the timings. How many escalations occurred? When did the communications function enter the response loop relative to the technical one? At what point did an incident commander make a decision versus waiting for consensus? These patterns reveal the authority and coordination structure the team is actually operating with, which may differ substantially from the documented one.
 
 The facilitator tracks key decision moments with timestamps: when the team recognised the nature of the incident, when they escalated, when they changed approach. These become the skeleton of the debrief.
 
@@ -18,7 +18,7 @@ Did the team prioritise correctly, and do they know why they prioritised as they
 
 Was coordination between functions genuine or procedural? A communications lead who receives updates but does not shape decisions has been looped in without being integrated. The difference shows up in the exercise: when external communications pressure arrives, does the communications function have the situational picture to respond, or do they need to ask questions that would already have been answered had they been in the loop?
 
-[Satir's framing](../foundations/organisational-development/satir-core.md) is useful here. An exercise where everyone performed their roles correctly but nobody named the decision that mattered has produced procedural compliance rather than capability. The debrief is where this becomes visible.
+[The survival-stances framing](../foundations/organisational-development/satir-core.md) is useful here. An exercise where everyone performed their roles correctly but nobody named the decision that mattered has produced procedural compliance rather than capability. The debrief is where this becomes visible.
 
 ## Tracking improvement over time
 

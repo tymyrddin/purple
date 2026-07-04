@@ -11,7 +11,7 @@ conditions work, not just drilling recognition of last year's examples.
 
 The pages in this section apply the foundations to social engineering defence: why so many security awareness
 programmes produce the wrong kind of learning, what a programme built on current attacker techniques looks
-like in practice, and how the Satir arc runs through the transition from compliance-theatre simulation to
+like in practice, and how the change arc runs through the transition from compliance-theatre simulation to
 continuous, systems-level testing.
 
 .. toctree::

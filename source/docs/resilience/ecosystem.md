@@ -23,11 +23,12 @@ out with stakeholders from across the teams, it records people, processes, platf
 partners, and marks the single points of failure and the hidden connectors.
 
 Walking a realistic scenario through that map, a cloud outage, a key supplier failing, an insider
-absent, a regulatory shock, traces the ripple as it crosses the system. It can produce two kinds of
-output. The first is the map itself, a record of where the organisation believes its dependencies and
-failure points are. The second is behavioural: where the team hesitated, which dependencies they had
-overlooked, which recovery pathways turned out to rest on assumptions that had drifted. The map is
-implementation evidence; the behaviour during the walk is
+absent, a regulatory shock, traces the ripple as it crosses the system.
+
+The walk produces two kinds of output. The first is the map itself, a record of where the organisation
+believes its dependencies and failure points are. The second is behavioural: where the team hesitated,
+which dependencies they had overlooked, which recovery pathways turned out to rest on assumptions that
+had drifted. The map is implementation evidence; the behaviour during the walk is
 [effectiveness evidence](../foundations/system-effectiveness/applying-sem.md). The second is what
 reveals whether the model is accurate.
 

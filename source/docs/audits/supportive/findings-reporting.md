@@ -85,7 +85,7 @@ act.
 
 ## How findings land in the organisation
 
-The Satir Change Model describes what happens when findings introduce a foreign element into an organisation's
+The [change arc](../../foundations/change-management/satir-change-model.md) describes what happens when findings introduce a foreign element into an organisation's
 status quo. A report containing significant nonconformities is, from the organisation's perspective, a
 destabilising event. The chaos phase that follows is structural, not a sign that the findings were wrong or
 the auditor was unreasonable.
@@ -95,7 +95,7 @@ the system rather than verdicts about people, staged the response rather than at
 at once, and supported the people responsible for remediation through the difficult period where things look
 worse before they look better.
 
-The [Satir Change Model in practice](../../foundations/change-management/satir-change-model.md) describes
+The [change arc in practice](../../foundations/change-management/satir-change-model.md) describes
 what that period looks like and why retreating from it is the more expensive option.
 
 ## Communicating findings to different internal audiences
@@ -123,4 +123,4 @@ work is part of acting on findings, not a preliminary to it.
 * [Interview and workshop facilitation](interview-facilitation.md)
 * [The three domains of problem solving](../../foundations/problem-solving/three-domains.md)
 * [Why security change stalls](../../foundations/change-management/why-change-fails.md)
-* [The Satir Change Model in practice](../../foundations/change-management/satir-change-model.md)
+* [The change arc in practice](../../foundations/change-management/satir-change-model.md)

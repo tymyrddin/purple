@@ -50,8 +50,8 @@ feasible because nobody remembers how it worked.
 ## Workarounds that calcify
 
 Temporary measures during disruption tend to outlive the disruption. A manual process
-introduced for a week tends to persist for months. A bypass put in place during recovery tends
-to remain in place because removing it requires effort that nobody is funding now that the
+introduced for a week persists for months. A bypass put in place during recovery remains
+in place because removing it requires effort that nobody is funding now that the
 incident has been declared closed.
 
 This is not a moral failure. It is what tightly loaded systems do under pressure. A plan that

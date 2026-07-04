@@ -4,7 +4,7 @@ An architecture document is a model. It represents the intended system: its comp
 
 ## The SEM framing
 
-Weinberg's [SEM](../foundations/system-effectiveness/index.rst) triad places models at the centre of how people understand and act on complex systems. The model is the mental representation of how the system works. The system is the actual thing, which behaves according to its own properties regardless of what the model says about it. Errors, in this framing, are not mistakes. They are mismatches between model and system, and they persist until the model is corrected rather than the symptoms treated.
+The [SEM](../foundations/system-effectiveness/index.rst) triad places models at the centre of how people understand and act on complex systems. The model is the mental representation of how the system works. The system is the actual thing, which behaves according to its own properties regardless of what the model says about it. Errors, in this framing, are not mistakes. They are mismatches between model and system, and they persist until the model is corrected rather than the symptoms treated.
 
 An architecture document is a formalised, shared model. A SEM insight applied here is that the document's accuracy 
 is not a property it has at the time of writing and retains indefinitely. It is a property that requires active 

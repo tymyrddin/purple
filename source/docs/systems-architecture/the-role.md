@@ -19,7 +19,7 @@ This is genuinely difficult work. It requires technical depth across the domains
 about systems as wholes rather than components, and the discipline to document decisions in ways that remain 
 comprehensible to people who were not in the room when they were made.
 
-[PSL](../foundations/problem-solving/index.rst) identifies this as one of three layers, not the whole of the work. An architect who operates 
+The [problem-solving frame](../foundations/problem-solving/index.rst) identifies this as one of three layers, not the whole of the work. An architect who operates 
 primarily at the rational layer will produce technically sophisticated documentation that underestimates the 
 conditions required for the design to be implemented and operated.
 
@@ -36,8 +36,8 @@ The same design, arrived at in a way that acknowledged those concerns rather tha
 entirely different outcomes.
 
 The emotional layer also applies to the architect's own relationship with their work. Architects who have invested 
-significantly in a design are not well positioned to evaluate criticism of it objectively. The [survival stances](../foundations/organisational-development/satir-core.md) [Satir](../foundations/organisational-development/satir-core.md) 
-described are as available to architects as to anyone else: the computing retreat into technical justification when a 
+significantly in a design are not well positioned to evaluate criticism of it objectively. The [survival stances](../foundations/organisational-development/satir-core.md) 
+are as available to architects as to anyone else: the computing retreat into technical justification when a 
 decision is challenged, the blaming response when implementation diverges from the design, the placating agreement 
 that masks continued reservations.
 
@@ -63,7 +63,7 @@ A systems architect is effective when they attend to all three layers, not just 
 work is the entry requirement. The ability to work the emotional and political layers is what determines whether 
 the technical work produces the outcomes it was designed to produce.
 
-This is consistent with what the Wikipedia descriptions of systems architecture and systems architect make visible: 
-the role requires working with "various stakeholders to implement solutions that align with business needs." Working 
+This is consistent with what even the driest role descriptions make visible: the requirement to work with "various 
+stakeholders to implement solutions that align with business needs." Working 
 with stakeholders is not merely communicating technical decisions to them. It is understanding their concerns, 
 earning their trust, and creating the conditions in which their cooperation can be relied upon.

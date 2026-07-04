@@ -84,9 +84,9 @@ AI-triggered privileged actions appear in audit logs as service account activity
 to intended service account activity unless the audit trail captures the AI input and reasoning path
 that preceded the action.
 
-Most production environments log what happened, not why the AI decided to make it happen. Reconstructing
+Many production environments log what happened, not why the AI decided to make it happen. Reconstructing
 whether a privileged action was induced or intended requires logging the model input and output alongside
-the downstream action, which is not the default configuration for most AI-augmented pipelines.
+the downstream action, which is not the default configuration for many AI-augmented pipelines.
 
 ## Delegated execution and accountability
 

@@ -50,7 +50,7 @@ smoothed out in favour of consistent practice. A monoculture, even a good one, i
 
 There is also the assumption of shared values. Gaia works because every element of it is, by definition,
 aligned. Organisations are not. The distributed awareness model for security assumes that the individuals
-distributing their awareness have compatible models of what they are watching for and why it matters. In
+distributing their awareness have compatible models of what they are watching for and why it counts. In
 practice, the developer whose security instincts are reliable has built those instincts from somewhere: the
 second foundation work, the training, the prepared environments, the exercises. Gaia, in other words, requires
 both prior foundations to have done their work first.

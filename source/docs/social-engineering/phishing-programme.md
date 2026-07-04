@@ -1,6 +1,6 @@
 # Building a phishing programme
 
-The redesign of a phishing simulation programme follows the [Satir arc](../foundations/organisational-development/satir-change-model.md) described elsewhere in these foundations.
+The redesign of a phishing simulation programme follows the [change arc](../foundations/organisational-development/satir-change-model.md) described elsewhere in these foundations.
 This page covers what each phase looks like in practice, and what a programme built on genuine attacker
 techniques requires to operate.
 
@@ -28,7 +28,7 @@ After staff have been through purple team training, regular phishing simulations
 techniques against the live production environment. Staff know a test is coming (it is announced) but not
 the timing or the specific method.
 
-Importantly, email filters remain fully operational. If a simulated email is blocked, that is data, not a
+Email filters stay fully operational. If a simulated email is blocked, that is data, not a
 failure. Either the technique needs updating to reflect current evasion tactics, or the filter is doing its
 job and that vector is already well defended. Both outcomes are useful.
 

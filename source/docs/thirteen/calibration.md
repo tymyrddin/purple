@@ -32,9 +32,9 @@ This is how "we assess with high confidence" ends up in documents where the hone
 appears." The drift is not dishonest in intent. It is what happens when institutions value
 consistency in their outputs and have no mechanism for re-examining whether the original evidence
 still supports the language. An advisor working with or within such an institution will encounter
-this and may be drawn into reproducing it. 
+this and may be drawn into reproducing it.
 
-A precondition for not doing it.
+Noticing that it is happening is the precondition for not reproducing it.
 
 ## Inflation failure
 
@@ -91,7 +91,7 @@ A threat assessment prepared for a governing body. First version:
 
 "Threat actor X has been observed conducting reconnaissance activity against the digital
 infrastructure of organisations in the relevant sector. This is consistent with patterns observed
-in previous campaigns attributed to the same actor. The activity **appears to be** in preparation for
+in previous campaigns attributed to the same actor. The activity appears to be in preparation for
 a more substantial operation."
 
 Accurate. Written at the "it appears" tier, appropriately. Does not pass the so-what test: the
@@ -101,8 +101,8 @@ preparation. What changes for them. What can they do differently. The paragraph 
 Second version, same evidence, same confidence tier:
 
 "Threat actor X has conducted reconnaissance against sector infrastructure consistent with
-pre-operation patterns from previous campaigns. This suggests a targeting decision has **likely been
-taken**. Three detection gaps identified in the annex, in network perimeter logging, privileged
+pre-operation patterns from previous campaigns. This suggests a targeting decision has likely been
+taken. Three detection gaps identified in the annex, in network perimeter logging, privileged
 access monitoring, and supply chain visibility, correspond to the access paths used in prior
 operations. Addressing those gaps before the actor moves to the next phase would reduce the
 available attack surface substantially."

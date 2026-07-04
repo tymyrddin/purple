@@ -3,7 +3,7 @@ Threat modelling & preparation
 
 .. image:: /_static/images/threat-modelling.png
 
-A set of exercises provides practical steps to explore threats hands-on. The basics. No complex tools. Just
+A set of exercises for exploring threats hands-on. The basics. No complex tools. Just
 understanding. Then tools and complexity follow.
 
 .. toctree::

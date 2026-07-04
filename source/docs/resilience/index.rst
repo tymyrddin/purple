@@ -14,8 +14,8 @@ scenario walkthroughs, red-team probes and all kinds of creative exercises can b
 What they leave behind is meant to stay with the organisation and to be run again, a practice which can be held across
 operations, security, legal and leadership.
 
-A desired state these pages describe, each a facet of reaching it. The loop in
-:doc:`purple teaming </docs/purple/running-the-loop>` for example, generates evidence live, the offensive
+These pages describe that desired state, each a facet of reaching it. The loop in
+:doc:`purple teaming </docs/purple/running-the-loop>`, for example, generates evidence live, the offensive
 and defensive sides reading each result together while the events are still fresh.
 
 .. toctree::

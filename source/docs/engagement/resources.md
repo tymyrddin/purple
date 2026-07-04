@@ -1,10 +1,10 @@
 # Resource planning
 
-Engagements require time, people, tools, and sometimes external spend. The rational layer of resource planning is straightforward: estimate the hours, identify the people, confirm the tools are available. Most engagement plans do this adequately.
+Engagements require time, people, tools, and sometimes external spend. The rational layer of resource planning is straightforward: estimate the hours, identify the people, confirm the tools are available. Engagement plans usually manage this part adequately.
 
-What most resource plans miss is the [PSL political layer](../foundations/problem-solving/in-security.md). Staff time allocated to an engagement is time taken from other work. Whether that trade-off is genuinely supported by the people asked to make it, or whether it is nominally agreed and resented in practice, determines how the engagement actually runs. A red team operator doing engagement work alongside a full delivery load will not produce the same quality of work as one who has protected time. A blue team running a live exercise while also managing a production incident is not running the exercise the plan described.
+What resource plans often miss is the [political layer](../foundations/problem-solving/in-security.md). Staff time allocated to an engagement is time taken from other work. Whether that trade-off is genuinely supported by the people asked to make it, or whether it is nominally agreed and resented in practice, determines how the engagement actually runs. A red team operator doing engagement work alongside a full delivery load will not produce the same quality of work as one who has protected time. A blue team running a live exercise while also managing a production incident is not running the exercise the plan described.
 
-The resource plan should be honest about these constraints rather than optimistic about them. An engagement that is adequately resourced and well-run produces more value than an ambitious one that is stretched thin.
+The resource plan works best when honest about these constraints rather than optimistic about them. An engagement that is adequately resourced and well-run produces more value than an ambitious one that is stretched thin.
 
 ## Time
 
@@ -14,7 +14,7 @@ Planning takes longer for the first engagement than for subsequent ones: one to 
 
 The testing team benefits from clear scope and protected time. The defending team is more useful when staffed to reflect realistic incident conditions rather than ideal ones. If the engagement will run with a skeleton crew because three analysts are on holiday, that is worth knowing before it begins.
 
-A facilitator with no stake in either side's performance is what makes the debrief work. Seniority matters less than genuine neutrality and the understanding that the job is to surface learning, not to judge either team.
+A facilitator with no stake in either side's performance is what makes the debrief work. Seniority counts for less than genuine neutrality and the understanding that the job is to surface learning, not to judge either team.
 
 ## Tools and infrastructure
 
@@ -26,4 +26,4 @@ Access to a safe test environment that mirrors production closely enough to be r
 
 - [Objectives](objectives.md)
 - [Safety and risk management](safety.md)
-- [PSL applied to security work](../foundations/problem-solving/in-security.md)
+- [Problem solving applied to security work](../foundations/problem-solving/in-security.md)

@@ -25,7 +25,7 @@ information to be deposited rather than a capacity to be developed. Information 
 A more durable approach combines occasional purple team sessions where staff experience both attacker and defender 
 perspectives, with regular simulations that run against live defences using current threat intelligence rather than 
 archetypal scenarios. Staff see results in real time, practise actual responses, and understand why certain behaviours 
-matter in terms of what they would actually prevent. Metrics track not only click rates and reports but filter 
+count in terms of what they would actually prevent. Metrics track not only click rates and reports but filter 
 effectiveness and how quickly unusual activity is noticed and escalated. The goal is not zero clicks but fast 
 detection, consistent reporting, and the organisational habit of paying attention.
 

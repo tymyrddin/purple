@@ -2,7 +2,7 @@
 
 Rules of engagement are the conditions under which honest testing can happen. Their function is not bureaucratic compliance; it is to create structural protection for everyone involved so that the exercise produces real findings rather than careful performances.
 
-[Satir's work on communication under pressure](../foundations/organisational-development/satir-core.md) is directly relevant. Without rules that establish genuine safety, people default to survival stances: testers become cautious about what they attempt, defenders become cautious about what they escalate, and the exercise produces documentation of what everyone agreed to do rather than evidence of what the system actually does under realistic conditions. The rules are the prepared environment that makes honest engagement possible.
+[How people communicate under pressure](../foundations/organisational-development/satir-core.md) is directly relevant. Without rules that establish genuine safety, people default to survival stances: testers become cautious about what they attempt, defenders become cautious about what they escalate, and the exercise produces documentation of what everyone agreed to do rather than evidence of what the system actually does under realistic conditions. The rules are the prepared environment that makes honest engagement possible.
 
 ## Authorisation
 
@@ -26,11 +26,11 @@ Define working hours explicitly. An engagement that assumes round-the-clock test
 
 Define clearly whether social engineering is in scope, which employees are eligible targets, and which techniques are permitted. The purpose of social engineering in an engagement is to surface the gap between what the organisation believes its staff will do and what they actually do under realistic pressure.
 
-The limits on social engineering exist because [Satir's survival stances](../foundations/organisational-development/satir-core.md) are activated by genuine stress, and an exercise that produces significant distress teaches people to protect themselves from future exercises rather than to engage honestly with them. The goal is to create conditions where real behaviour is visible, not to test how much pressure people can absorb.
+The limits on social engineering exist because [survival stances](../foundations/organisational-development/satir-core.md) are activated by genuine stress, and an exercise that produces significant distress teaches people to protect themselves from future exercises rather than to engage honestly with them. The goal is to create conditions where real behaviour is visible, not to test how much pressure people can absorb.
 
 ## Related
 
 - [Scope](scope.md)
 - [Safety and risk management](safety.md)
 - [Coordination and communication](coordination.md)
-- [Core ideas of Satir systems OD](../foundations/organisational-development/satir-core.md)
+- [Survival stances and congruence](../foundations/organisational-development/satir-core.md)

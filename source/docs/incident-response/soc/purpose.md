@@ -1,6 +1,6 @@
 # The case for a SOC
 
-The direct answer is that organisations have more monitoring surface than they can watch informally, and the events that matter most are exactly the ones that look like noise until they do not. A SOC is the function that maintains consistent visibility and translates that visibility into signal.
+The direct answer is that organisations have more monitoring surface than they can watch informally, and the events that count most are exactly the ones that look like noise until they do not. A SOC is the function that maintains consistent visibility and translates that visibility into signal.
 
 A more useful answer is that a SOC is a learning system about the organisation's actual threat environment. The alerts it handles are data. The false positives are data about rules that do not match reality. The true positives are data about which threats are active. The near-misses, events that were detected but would not have been caught under different conditions, are data about the edge of detection coverage. A SOC that treats monitoring as a reactive task, waiting for something to appear, is a SOC that does not use most of that data.
 
@@ -14,7 +14,7 @@ Process: what happens when an alert fires? Who makes the triage decision, on wha
 
 Feedback: detection rules are hypotheses about what threats look like. Worth testing against reality and updating. The results of SIRT investigations can feed back into the SOC's detection model. Purple team exercises can test what the SOC actually detects. Without these feedback loops, the detection model becomes a historical document rather than a current one.
 
-## The ChangeShop layer
+## The change layer
 
 Building a SOC changes how the organisation processes information about its own security state. 
 That is a significant change, and significant changes meet the resistance characteristic of 

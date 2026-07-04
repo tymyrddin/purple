@@ -16,7 +16,7 @@ The facilitator's role is to watch, not to guide. Set the initial conditions and
 
 The most revealing inject is the call from the CEO at the 15-minute mark: a major client presentation is scheduled for 10:00 and Finance needs the contracts. The question this surfaces is not what to do technically but who makes the call, and what that reveals about how the organisation actually works under pressure. Watch how long that decision takes. Watch who speaks and who defers.
 
-The ransom decision in the third stage is where [Satir's communication stances](../../foundations/organisational-development/satir-core.md) appear most clearly. The technical lead retreats into precise, detailed scope assessment that avoids naming the decision. The manager agrees that everything is important. Someone suggests paying "just to buy time." These are not individual failures, they are the predictable responses of people operating in a system where naming a hard decision has consequences. The debrief is where those dynamics can be examined safely.
+The ransom decision in the third stage is where [the communication stances](../../foundations/organisational-development/satir-core.md) appear most clearly. The technical lead retreats into precise, detailed scope assessment that avoids naming the decision. The manager agrees that everything is important. Someone suggests paying "just to buy time." These are not individual failures, they are the predictable responses of people operating in a system where naming a hard decision has consequences. The debrief is where those dynamics can be examined safely.
 
 Do not inject complexity faster than the team can process it. The purpose of pacing is to maintain the conditions for real decision-making, not to overwhelm. If the team is paralysed, add information that opens a path. If they have reached comfortable consensus too quickly, introduce the leak site claim.
 
@@ -28,7 +28,7 @@ Start with observations, not judgements. What did you notice? Where did you hesi
 
 Then move to the sequence: what happened in what order, and what decisions were made?
 
-Then the questions that matter:
+Then the structural questions:
 
 What did the team assume about backup reliability before the exercise? Was that assumption tested anywhere other than here? How long has the actual backup situation been true?
 

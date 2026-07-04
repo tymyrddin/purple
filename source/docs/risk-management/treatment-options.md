@@ -4,11 +4,11 @@ Duration: 45 to 60 minutes
 
 Materials: the risk matrix from the previous exercise, cards for treatment options, markers
 
-## An exercise
+## The exercise
 
 For each risk above the [appetite line](risk-assessment.md), identify what can actually be done about it. The constraint on "actually" is the point. Treatment options that cannot be implemented given the organisation's actual capacity, budget, and authority structure are not treatment options. They are aspirations, and aspirations do not reduce risk.
 
-This is where [ChangeShop](../foundations/change-management/index.rst) is most directly applicable. Most treatment plans fail not because the technical controls are unavailable but because the conditions for implementing them are not in place: no clear owner, no protected budget, no authority to make the required changes, implementation that would require co-operation from teams that have not been engaged. A treatment plan that does not account for these conditions will produce a list of things to do that gradually ages in a register without being done.
+This is where [the change lens](../foundations/change-management/index.rst) is most directly applicable. Most treatment plans fail not because the technical controls are unavailable but because the conditions for implementing them are not in place: no clear owner, no protected budget, no authority to make the required changes, implementation that would require co-operation from teams that have not been engaged. A treatment plan that does not account for these conditions will produce a list of things to do that gradually ages in a register without being done.
 
 Step 1: Understand the options (10 minutes)
 
@@ -32,7 +32,7 @@ For each proposed treatment, ask: what is the actual effort and cost? What is th
 
 Step 3: Prioritise (10 minutes)
 
-Not everything can be done at once. Prioritise treatment based on risk severity, quick wins (high impact, low effort), dependencies (what must happen before something else can happen), available resources, and any binding compliance obligations.
+Not everything can be done at once. Prioritise treatment based on risk severity, quick wins (high impact, low effort), dependencies (what needs to happen before something else can), available resources, and any binding compliance obligations.
 
 The quick wins question is worth spending time on. There is usually a treatment that reduces significant risk at modest cost and that has been deferred because it was not urgent enough to compete with other priorities. Making it visible and assigning it an owner often produces more immediate risk reduction than the ambitious treatment plans that require twelve months and cross-team co-ordination.
 

@@ -30,29 +30,31 @@ When they conflict, the conflict is a model problem. The reliability model encod
 
 A [SEM response](../foundations/system-effectiveness/index.rst) is to make the assumptions in each model explicit and to examine the conflicts between them as a design activity rather than an operational emergency. The trade-off is a design decision. It belongs in the architecture, with its reasoning documented, its owner identified, and its trigger for revisit specified. A trade-off that has drifted out of alignment with current conditions is a model failure, and model failures recur until the model is corrected.
 
-## The [ChangeShop](../foundations/change-management/index.rst) view
+## The [homeostasis](../foundations/change-management/index.rst) view
 
 Security controls degrade performance. When the degradation is noticed and complained about, the organisation's [homeostatic](../foundations/change-management/what-it-is.md) response is to remove the control or weaken it. Reliability mechanisms add complexity. When the complexity introduces operational burden, the homeostatic response is to reduce it in ways that introduce security vulnerabilities. These are not failures of commitment. They are the system returning to the state it was in before the change was made.
 
-Understanding this as homeostatic resistance rather than bad faith changes what governance of the trade-off requires. A trade-off decision that is not protected by a stable ownership structure, explicit authority, and a review mechanism will be reversed by operational pressure. The conditions for the decision to hold need to be designed, not assumed. This is ChangeShop's insight applied to architecture: the trade-off is not just a technical decision; it is a change that the organisation needs to be in a position to sustain.
+Understanding this as homeostatic resistance rather than bad faith changes what governance of the trade-off requires. A trade-off decision that is not protected by a stable ownership structure, explicit authority, and a review mechanism will be reversed by operational pressure. The conditions for the decision to hold need to be designed, not assumed. This is the homeostasis insight applied to architecture: the trade-off is not just a technical decision; it is a change that the organisation needs to be in a position to sustain.
 
 When a security control keeps being disabled under load, the question is not how to make people follow the policy. The question is what conditions would need to be in place for the policy to be followable. If the answer is "the system needs to be redesigned so the control does not cost what it currently costs," that is an architectural finding, and it belongs in the architecture.
 
-## The [PSL](../foundations/problem-solving/index.rst) view
+## The [three-layer](../foundations/problem-solving/index.rst) view
 
-[PSL](../foundations/problem-solving/index.rst) notes:
+The [three-layer frame](../foundations/problem-solving/index.rst) notes:
 
 - At the rational layer, the trade-off question is: what are the actual costs and benefits of each option, stated specifically enough to be compared? Not "this is more secure" or "this performs better," but what the specific security property is, what the specific performance cost is, and what the organisation's actual exposure would be under each option. Vague assertions about properties produce vague decisions that are easy to reverse.
 - At the emotional layer, the trade-off discussion touches on ownership and identity. The security engineer whose control is being degraded for performance reasons is not just making a technical objection; they are protecting their professional judgement and their responsibility for an outcome they will be accountable for if it goes wrong. The performance engineer being told to accept slower response times for security reasons is not just making a technical objection either. These are real concerns, and designs that do not account for them will be relitigated every time conditions change.
 - At the political layer, a trade-off decision that crosses team boundaries requires authority that crosses team boundaries. If no single person or role has the standing to make a binding decision about the reliability-performance-security balance, the decision will be made by whoever is under the most pressure, and it will be made again whenever the pressure distribution changes. Creating a clear locus of authority for cross-domain architectural decisions is not bureaucracy. It is the condition under which the decisions can be made once and held.
 
-## The [Satir](../foundations/organisational-development/satir-core.md) view
+## The [congruence](../foundations/organisational-development/satir-core.md) view
 
 Architecture reviews of systems with contested trade-offs tend to produce [survival stances](../foundations/organisational-development/satir-core.md) rather than honest 
 engagement. The computing stance produces technically accurate accounts of each property's requirements without 
 addressing the conflict between them: the security section describes the security requirements, the performance 
 section describes the performance requirements, and nobody in the room names that they are incompatible in the 
-proposed design. The blaming stance appears after an incident: the security team blames the performance team for 
+proposed design.
+
+The blaming stance appears after an incident: the security team blames the performance team for 
 disabling the control, the performance team blames the security team for a control that was unimplementable at the 
 required load. The placating stance produces agreement in the review that the trade-off is real and important and 
 should be properly addressed, followed by no change in the design.

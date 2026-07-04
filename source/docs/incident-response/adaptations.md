@@ -1,5 +1,9 @@
 # Adapting exercises to context
 
+The playbooks assume a mid-sized team, a facilitator, and a few hours. Reality varies, and the format bends
+to fit; these are the adjustment knobs, by size, sector, and maturity. The
+[choreography](choreography.md) underneath stays the same.
+
 ## For small teams
 
 - Reduce scope (fewer vectors)

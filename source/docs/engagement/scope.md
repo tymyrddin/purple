@@ -12,7 +12,7 @@ Be specific about what can be tested. "Production environment" is not a scope; "
 
 Define clearly what cannot be touched: payment systems, medical devices, safety-critical controls, regulated data stores. Define what attack vectors are permitted: active scanning, social engineering, physical access, supply chain simulation. Define the depth of permitted exploitation.
 
-Time windows matter more than most scope documents acknowledge. Testing during a change freeze, a product launch, or peak trading hours is testing a different system from testing during normal operations. The conditions under which the engagement runs shape what it can find.
+Time windows carry more weight than scope documents usually acknowledge. Testing during a change freeze, a product launch, or peak trading hours is testing a different system from testing during normal operations. The conditions under which the engagement runs shape what it can find.
 
 ## Organisational scope
 

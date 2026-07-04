@@ -10,7 +10,7 @@ The review is not a debrief of what went wrong, though that is part of it. It is
 
 ## The congruence condition
 
-[Satir](../../foundations/organisational-development/satir-core.md)'s [survival stances](../../foundations/organisational-development/satir-core.md) appear regularly in post-incident environments. The placating response is to say everything went well when it did not, to protect relationships or to avoid creating the impression of incompetence. The blaming response is to locate the cause of the incident or the response failure in another team or another person. The computing response is to produce a technically accurate account that omits the significant decision made under stress and without complete information. The distracting response is to change the subject to operational detail and avoid the uncomfortable question entirely.
+[Survival stances](../../foundations/organisational-development/satir-core.md) appear regularly in post-incident environments. The placating response is to say everything went well when it did not, to protect relationships or to avoid creating the impression of incompetence. The blaming response is to locate the cause of the incident or the response failure in another team or another person. The computing response is to produce a technically accurate account that omits the significant decision made under stress and without complete information. The distracting response is to change the subject to operational detail and avoid the uncomfortable question entirely.
 
 None of these produce useful learning. Congruent review means describing what actually happened, what was known and not known at each decision point, and what the reasoning was. This requires two conditions that have to be explicitly created: a genuine assurance that the review is for learning and not for blame, and a facilitator or review structure that keeps the conversation congruent when it drifts toward one of the stances.
 
@@ -26,7 +26,7 @@ Track recurring issues separately. If the same finding appears in multiple post-
 
 ## Metrics as feedback
 
-Metrics are useful to the extent that they reveal trends and prompt questions rather than generating reports. Time to detection, time to containment, and time to resolution are the most immediately useful. False positive rates matter for the quality of the detection that feeds into SIRT work.
+Metrics are useful to the extent that they reveal trends and prompt questions rather than generating reports. Time to detection, time to containment, and time to resolution are the most immediately useful. False positive rates bear on the quality of the detection that feeds into SIRT work.
 
 Watch the trends rather than the individual numbers. A single slow incident may reflect unusual complexity. Consistently slow detection-to-decision times suggest a bottleneck in the process or the tooling that is worth investigating.
 

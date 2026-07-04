@@ -4,7 +4,7 @@ SOC workflows are documented hypotheses about how specific categories of event a
 
 ## Designing workflows
 
-The [Montessori](../../foundations/montessori/index.rst) framing is useful here: a well-designed workflow is a prepared environment for the analyst. It provides the structure and the materials for the work without removing the need for judgement. A workflow that attempts to pre-decide every branch of a complex incident is a workflow that will be abandoned the first time the incident does not follow the script.
+A well-designed workflow is a [prepared environment](../../foundations/montessori/index.rst) for the analyst. It provides the structure and the materials for the work without removing the need for judgement. A workflow that attempts to pre-decide every branch of a complex incident is a workflow that will be abandoned the first time the incident does not follow the script.
 
 A useful workflow for an alert category covers:
 
@@ -30,5 +30,5 @@ Treat each update as a small, deliberate improvement rather than a rewrite. Rewr
 
 Automate the steps that do not require human judgement: log collection, initial enrichment, alert correlation across sources, notification routing. Do not automate decisions that require context the automation cannot have: whether a particular activity is suspicious in this specific organisational context, whether the situation warrants escalation, whether containment is appropriate given business constraints.
 
-The goal of automation is to reduce the cognitive load on analysts during routine handling so that more attention is available for the events that genuinely require it. Automation that replaces human oversight on decisions that matter is a different thing, and a risk in its own right.
+The goal of automation is to reduce the cognitive load on analysts during routine handling so that more attention is available for the events that genuinely require it. Automation that replaces human oversight on consequential decisions is a different thing, and a risk in its own right.
 

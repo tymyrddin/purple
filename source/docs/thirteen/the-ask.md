@@ -30,7 +30,7 @@ an institution needs them to hold, and analysis that contradicts them is not hel
 institutional sense of helpful. An advisor who provides such analysis is doing their job. They
 are not being easy to work with.
 
-Most of this pressure is not explicit. Nobody asks the advisor to shade their analysis toward the
+Much of this pressure is not explicit. Nobody asks the advisor to shade their analysis toward the
 institutional position. The effect happens through framing: the question is posed in a way that
 makes the confirming answer likely, the evidence provided is the evidence that supports the
 position, and the timeline allows for a conclusion but not for deep examination of

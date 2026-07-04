@@ -2,7 +2,7 @@
 
 Continuity plans most likely focus on the event. The event is the easier part. The harder
 work begins the morning after, when the technology is back, the adrenaline has drained,
-and an organisation is left with the consequences. Assume that is monday.
+and an organisation is left with the consequences. Assume that is Monday.
 
 ## The day the plan stops covering
 

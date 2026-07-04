@@ -4,7 +4,7 @@ Duration: 45 to 60 minutes
 
 Materials: asset cards from the [previous exercise](asset-identification.md), new cards for vulnerabilities, markers
 
-## An exercise
+## The exercise
 
 For each critical asset, identify specific ways it could fail, be compromised, or become unavailable. Vulnerabilities are not just technical weaknesses. They are any condition that makes an asset exposed to a threat.
 

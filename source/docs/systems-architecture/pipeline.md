@@ -8,7 +8,7 @@ Previously, the practice was: SSH into the server, adjust things until they beha
 lives in one person's head. Security is aspirational. Nothing is on fire, so nothing changes.
 
 This is a classic late status quo. Fragile but familiar. And because it is familiar, the disruption of replacing it
-follows the [Satir arc](../foundations/organisational-development/satir-change-model.md) with impressive fidelity.
+follows the [change arc](../foundations/organisational-development/satir-change-model.md) with impressive fidelity.
 
 ## Late status quo
 

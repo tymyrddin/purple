@@ -52,7 +52,7 @@ This is how you prevent incidents freezing because someone went home.
 Bureaucracy creep is worth pausing on, because it does not appear by accident. Approval steps accumulate because each 
 one was added by someone protecting themselves or their team from accountability for a decision. 
 
-The [PSL framing](../foundations/problem-solving/in-security.md) is useful here: the political layer shapes the 
+The [three-layer framing](../foundations/problem-solving/in-security.md) is useful here: the political layer shapes the 
 workflow as much as the rational one. A workflow audit that only asks "is this step necessary?" will not remove steps 
 that exist for political reasons. The question to ask is: what consequence was this approval step added to prevent, 
 and for whom?

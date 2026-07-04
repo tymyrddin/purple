@@ -32,7 +32,7 @@ For each critical asset, note what it depends on: which systems it relies on, wh
 
 ## Output
 
-A list of critical assets of ten to twenty items, with categories, dependencies noted, and a shared understanding of why each is the point. The shared understanding is as important as the list: a risk register built on a list that only one person actually understands is a risk register that only one person can maintain.
+A list of critical assets of ten to twenty items, with categories, dependencies noted, and a shared understanding of why each is on the list. The shared understanding is as important as the list: a risk register built on a list that only one person actually understands is a risk register that only one person can maintain.
 
 ## A test of shared understanding
 

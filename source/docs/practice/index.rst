@@ -13,7 +13,7 @@ next round.
 These pages gather that thread. Each names the conditions under which a practice produces durable change
 rather than a record of having done it, and points to where the domain sections put the same conditions
 to work. The argument underneath is the
-:doc:`PSL three-domain frame </docs/foundations/problem-solving/in-security>`: the rational layer is the
+:doc:`three-domain frame </docs/foundations/problem-solving/in-security>`: the rational layer is the
 easy part, and the emotional and political layers decide whether anything moves.
 
 .. toctree::

@@ -13,7 +13,7 @@ question is narrower: which move, run for real against live defences, shows the 
 
 That choice has a few shapes. Emulating a named adversary that actually targets the sector tests whether the
 defences catch the threats the organisation is likely to meet rather than a generic one. Starting from assumed
-breach, after the foothold is already granted, tests the part most exercises skip: what the defence sees once
+breach, after the foothold is already granted, tests the part many exercises skip: what the defence sees once
 the attacker is already inside, where visibility is usually thinner than at the perimeter. Full scope, nothing
 excluded within the rules, is the most realistic and the most expensive, and it surfaces the uncomfortable
 findings that narrower tests never reach. Focused testing, one control or one detection as the subject, buys

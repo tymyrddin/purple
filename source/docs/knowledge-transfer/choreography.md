@@ -6,7 +6,7 @@ the same gaps in roughly the same places.
 
 This is not a documentation format problem. It is a conditions problem.
 
-[Satir's work on congruence](../foundations/organisational-development/satir-core.md) is directly applicable here. The 
+[The congruence lens](../foundations/organisational-development/satir-core.md) is directly applicable here. The 
 stated culture says: we learn from incidents and document what we find. The actual culture often says something 
 different: honest findings attract scrutiny, scrutiny generates workload, and the person who names the real cause 
 carries a disproportionate share of what follows. People make rational decisions about what to document based on the 
@@ -14,7 +14,7 @@ actual culture, not the stated one. The result is documentation that reflects th
 had, not the one it uses.
 
 [SEM offers a complementary diagnosis](../foundations/system-effectiveness/core-triad.md). An incident is not a 
-deviation from normal operations: It is normal operations with one model assumption exposed as false. A playbook 
+deviation from normal operations: it is normal operations with one model assumption exposed as false. A playbook 
 that documents the sequence of the incident without examining the model that produced it leaves that model intact. 
 The system will generate the same class of failure again with different timestamps, and the next playbook update 
 will document that one too.
@@ -30,7 +30,7 @@ Getting the conditions right does not require resolving all of this before doing
 naming it, building processes that produce honest rather than safe documentation, and treating the gap between the 
 written version and the operational reality as a finding rather than an embarrassment.
 
-So how to build [playbooks](playbooks.md) that survive contact with reality, 
+The pages that follow build [playbooks](playbooks.md) that survive contact with reality, 
 [manuals](manuals.md) that get used at 3:00, [dashboards](dashboards.md) that answer the question the analyst is actually asking, and [workflows](workflows.md) 
 that reduce friction rather than add it. They are most useful when the conditions for honest documentation exist. 
 Where those conditions are still being built, the section on 

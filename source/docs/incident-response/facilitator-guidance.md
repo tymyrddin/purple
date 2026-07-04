@@ -6,15 +6,15 @@ That distinction is worth attention because most things that go wrong in inciden
 
 ## Before the exercise
 
-Prepare the environment in the [Montessori sense](../foundations/montessori/prepared-environment.md): everything the exercise needs is in place before it begins. Logistics, communication tools, scenario materials, actor briefings, technical injects, stop words, role confirmations. A simulation that loses its first hour to setup problems does not recover that hour.
+[Prepare the environment](../foundations/montessori/prepared-environment.md): everything the exercise needs is in place before it begins. Logistics, communication tools, scenario materials, actor briefings, technical injects, stop words, role confirmations. A simulation that loses its first hour to setup problems does not recover that hour.
 
-Brief each group separately with what they need to know. The testing team needs objectives, rules of engagement, and the inject schedule. The defending team needs to know an exercise is happening, what the safety boundaries are, and that their performance is not under performance evaluation. That last point counts for more than it sounds: if participants believe they are being assessed, they will perform competence rather than demonstrate it.
+Brief each group separately with what they need to know. The testing team needs objectives, rules of engagement, and the inject schedule. The defending team needs to know an exercise is happening, what the safety boundaries are, and that their performance is not under evaluation. That last point counts for more than it sounds: if participants believe they are being assessed, they will perform competence rather than demonstrate it.
 
 Establish the stop word before starting. Not as a formality. A live exercise with actors and real communication channels can produce situations that require immediate de-escalation. Having the stop word known in advance makes that possible without confusion or loss of face.
 
 ## During the exercise
 
-The facilitator's primary mode is observation. Watch what the team engages with and what they avoid, where communication flows and where it stalls, which decisions come quickly and which produce hesitation. [Satir's survival stances](../foundations/organisational-development/satir-core.md) are visible in exercises: the technical lead retreating into detail to avoid naming the decision that set the conditions, the incident commander placating the stakeholder inject rather than managing them, the team that computes rather than acts when the scenario exceeds the playbook. These are not failures. They are findings. Record them.
+The facilitator's primary mode is observation. Watch what the team engages with and what they avoid, where communication flows and where it stalls, which decisions come quickly and which produce hesitation. [Survival stances](../foundations/organisational-development/satir-core.md) are visible in exercises: the technical lead retreating into detail to avoid naming the decision that set the conditions, the incident commander placating the stakeholder inject rather than managing them, the team that computes rather than acts when the scenario exceeds the playbook. These are not failures. They are findings. Record them.
 
 Injects are not tests of resilience. They are calibrated to surface specific assumptions. An inject that reveals the communication gap between technical and communications functions has done its job whether or not the team handles it well. An inject that simply overwhelms the team produces stress but not learning. The facilitator adjusts the pacing when the exercise is producing paralysis rather than pressure.
 

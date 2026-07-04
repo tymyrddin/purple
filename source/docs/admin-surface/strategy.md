@@ -1,8 +1,8 @@
 # Strategic frame
 
 The three
-cases, [Radarstation Herwijnen](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/herwijnen/), [Maintenance tender for secured network rooms](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/netwerkruimtes/), [Defensie Pijpleiding Organisatie (DPO) fuel pipeline](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/dpo/)
-and the [proof-of-concept design SOS](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/sos/), all point at the same finding.
+cases, [Radarstation Herwijnen](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/herwijnen/), [Maintenance tender for secured network rooms](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/netwerkruimtes/) and the [Defensie Pijpleiding Organisatie (DPO) fuel pipeline](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/dpo/),
+together with the [proof-of-concept design SOS](https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/sos/), all point at the same finding.
 None concerns leaked information. None concerns intrusion. Each is a record of how routine, individually justified
 publication, when read collectively, reduces uncertainty about critical infrastructure further than the publishers appear
 to have intended.
@@ -84,7 +84,7 @@ clothes.
 ### Survival stances under classification pressure
 
 Raise aggregation risk inside a classified-handling culture and the response tends to fall into two grooves.
-[Satir's communication patterns under stress](../foundations/organisational-development/satir-core.md) name them blaming
+[The survival-stance vocabulary](../foundations/organisational-development/satir-core.md) names them blaming
 and computing. Blaming directs fault at the journalist, the activist, the contractor, rather than at
 the publication system that produced the aggregation. Computing retreats into procedure (the document was correctly
 handled under regulation X) rather than engaging with what was actually exposed. Both are honest survival behaviours,
@@ -114,7 +114,7 @@ that from happening:
 - Name the political layer in the document itself. A reader can react to a stated political fact. A reader forced to
   infer one tends to react to the analysis instead.
 - Pre-name the survival stances. "This is likely to read as an attack on the publication system. It is not, and here is
-  why." Naming what is about to happen tends to defuse the reaction it predicts.
+  why." Naming what is about to happen usually defuses the reaction it predicts.
 
 None of this removes the discomfort. The point is to make the discomfort discussable rather than letting it route the
 response.

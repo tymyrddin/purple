@@ -3,7 +3,7 @@ Threat analysis of AI in security operations
 
 .. image:: /_static/images/threat-analysis-ai.png
 
-In most startups and scale-ups, security operations are not a separate SOC system sitting beside the product.
+In many startups and scale-ups, security operations are not a separate SOC system sitting beside the product.
 They are embedded inside it: authentication flows, abuse detection, fraud prevention, platform monitoring,
 incident response automation, and support and trust and safety workflows.
 

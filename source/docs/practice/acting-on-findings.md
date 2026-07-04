@@ -5,8 +5,8 @@ When that happens the reason is rarely that the finding was wrong. It is that th
 finding to travel were absent.
 
 Three layers decide whether a finding moves, following the
-[PSL frame](../foundations/problem-solving/in-security.md). The rational layer, whether the finding is
-accurate and specific, is the easy part and the one most exercises get right. The emotional and political
+[three-layer frame](../foundations/problem-solving/in-security.md). The rational layer, whether the finding is
+accurate and specific, is the easy part and the one exercises usually get right. The emotional and political
 layers are where findings stall.
 
 - The emotional layer is whether the room was [safe enough](../engagement/safety.md) for the real finding to be named. A finding

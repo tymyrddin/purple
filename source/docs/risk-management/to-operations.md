@@ -2,7 +2,7 @@
 
 The exercises have produced a [risk register](risk-register.md) and a documented process. The question now is whether that work will change how the organisation operates, or whether it will describe how the organisation intends to operate while actual operations continue unchanged.
 
-This is the [ChangeShop](../foundations/change-management/index.rst) question. The exercises produced accurate analysis. The register documents decisions. Whether those decisions produce change depends on conditions that the exercises themselves cannot create: ownership that is real rather than nominal, authority to implement treatments, protected time and budget, and the trust and communication conditions that allow people to be honest about progress and blockages.
+This is the [change](../foundations/change-management/index.rst) question. The exercises produced accurate analysis. The register documents decisions. Whether those decisions produce change depends on conditions that the exercises themselves cannot create: ownership that is real rather than nominal, authority to implement treatments, protected time and budget, and the trust and communication conditions that allow people to be honest about progress and blockages.
 
 ## Integration points
 
@@ -38,4 +38,4 @@ Annually: refresh the full risk assessment, validate that the likelihood and imp
 
 As needed: when any of the triggers documented in the [risk model](risk-model.md) fire.
 
-The resources for going deeper into quantitative risk modelling and framework alignment are ISO 31000 (risk management principles), ISO 27005 (information security risk management), NIST SP 800-30 (risk assessment guidance), and FAIR (Factor Analysis of Information Risk) for organisations that need to quantify risk in financial terms.
+Resources for going deeper into quantitative risk modelling and framework alignment include ISO 31000 (risk management principles), ISO 27005 (information security risk management), NIST SP 800-30 (risk assessment guidance), and FAIR (Factor Analysis of Information Risk) for organisations that need to quantify risk in financial terms.

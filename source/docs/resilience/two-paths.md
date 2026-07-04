@@ -1,8 +1,9 @@
 # Two paths, NIS2 and ISO 27001
 
 Organisations weighing NIS2 often ask whether to pursue it on its own or alongside ISO 27001
-certification. The answer depends on the situation, though seeing how the two differ can make the choice
-clearer.
+certification, and seeing how the two differ can make the choice clearer. The strategic view across all
+four routes sits in [picking the route](../audits/picking-the-route.md); this page examines the one pair
+in detail.
 
 ## Key differences
 
@@ -14,7 +15,7 @@ clearer.
 | Flexibility          | Risk based control selection from Annex A      | Mandatory minimum measures required in Article 21                         |
 | Certification        | Third party certification available            | No certification, compliance verified by supervisory authorities          |
 | Incident reporting   | Internal processes, not mandated               | Strict mandatory timelines (24 hours, 72 hours, 1 month)                  |
-| Penalties            | Loss of certification                          | Legal penalties up to €10M or 2 percent of global turnover                |
+| Penalties            | Loss of certification                          | Legal penalties up to €10M or 2 per cent of global turnover               |
 | Management liability | No personal liability                          | Personal liability possible for management bodies                         |
 | Supply chain         | Addressed in controls but flexible             | Explicit mandatory requirements                                           |
 | Governance           | Required but flexible structure                | Board level oversight explicitly mandated                                 |

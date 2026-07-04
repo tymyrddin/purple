@@ -2,7 +2,7 @@
 
 Roleplay is one of the most powerful tools available in organisational development work, and one of the most underused
 in professional settings. The reluctance is understandable: it feels exposing, it can feel childish, and in
-organisations where performance and appearance matter it carries risk. That reluctance is itself instructive. The things
+organisations where performance and appearance count it carries risk. That reluctance is itself instructive. The things
 that make roleplay uncomfortable are often exactly the things that make it useful.
 
 ## Roleplay's pull

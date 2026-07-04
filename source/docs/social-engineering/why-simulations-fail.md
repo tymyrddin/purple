@@ -22,13 +22,13 @@ posture. It is testing whether people click links in a vacuum.
 
 Phishing is a system problem: detection, reporting, and response are interconnected. If a simulation does not
 run through live defences or reflect current attacker techniques, it teaches nothing useful about either people
-or systems. Most programmes fail on both counts.
+or systems. Many programmes fail on both counts.
 
 The result is a programme that generates a metric, click rate, that measures recognition of vendor training
 templates, and reports that metric to management as evidence of security posture. It is not. It is evidence that
 people can identify the kind of phishing that no longer gets used.
 
-## The Satir arc through a simulation programme redesign
+## The change arc through a simulation programme redesign
 
 Replacing a compliance-theatre simulation with a threat-intelligence-driven programme follows the same [change arc](../foundations/change-management/satir-change-model.md) as any significant disruption to established practice.
 

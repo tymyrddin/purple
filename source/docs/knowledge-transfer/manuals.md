@@ -1,7 +1,7 @@
 # Moving beyond manuals that nobody reads
 
 An [incident response](../incident-response/index.rst) plan that lives in a dusty 50-page PDF is not a plan. It is a 
-liability. Manuals only matter if they can be used in moments of stress, distraction, and partial information. The 
+liability. Manuals only earn their keep if they can be used in moments of stress, distraction, and partial information. The 
 aim is to move from comprehensive to comprehensible so that, when something breaks, people reach instinctively for the 
 right aid.
 
@@ -111,7 +111,7 @@ What it contains:
 
 - "You're now the incident lead because [Name] isn't available"
 - Systems you're responsible for checking
-- Decisions you can make vs. must escalate
+- Decisions to make vs. decisions to escalate
 - Who to hand off to when the primary returns
 
 Example deputy security lead guide:
@@ -153,7 +153,7 @@ Readability is not about literary polish. It comes from structure, constraint, a
 ### Use the one-page rule
 
 If the procedure cannot fit on one page or screen, it's a policy, not a job aid. Shrinking it forces decisions about 
-what genuinely matters in the moment.
+what genuinely counts in the moment.
 
 What fits on one page:
 
@@ -193,9 +193,9 @@ Icons and colour cues:
 - 🖥️ Computer for systems to check
 - ⚠️ Warning for common mistakes
 
-Visual consistency matters: Use the same icons and colours across all manuals. People learn to recognise red = urgent action without reading.
+Visual consistency pays: Use the same icons and colours across all manuals. People learn to recognise red = urgent action without reading.
 
-### 3. Write for scanning, not reading
+### Write for scanning, not reading
 
 Under pressure, people don't read. They scan for relevant information and skip the rest.
 
@@ -225,13 +225,13 @@ DISCOVERED INCIDENT
 
 Writing tactics:
 - Bold critical actions so they jump out
-- Number steps that must happen in sequence
+- Number steps that happen in strict sequence
 - Bullet points for options or information
 - Short sentences. Five words. Ten maximum. Never more than fifteen.
 - No adjectives. No adverbs. No qualifiers. No padding.
 - Active voice only. "Disconnect the cable" not "The cable should be disconnected"
 
-### 4. Make them living and accessible
+### Make them living and accessible
 
 Manuals age. They need exercise, updating, and distribution.
 
@@ -331,7 +331,7 @@ If the answer to any of these is no, it's not done. Keep simplifying, testing, a
 When manuals work, you see:
 - People reference them during incidents instead of improvising
 - New team members can follow procedures without extensive training
-- exercises complete faster with fewer mistakes
+- Exercises complete faster with fewer mistakes
 - Post-incident reviews show people followed documented procedures
 - Updates happen regularly based on lessons learned
 - Physical copies are worn from actual use

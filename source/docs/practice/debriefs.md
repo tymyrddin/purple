@@ -16,15 +16,15 @@ A few conditions decide whether a debrief lands.
   reached the outcome by an unexpected route has often learned more than one who followed the intended
   path, so explaining the right answer tends to turn a debrief into a lecture.
 - It is safe. A debrief that grades people produces performance rather than honesty.
-  [Psychological safety is the precondition](../engagement/safety.md) here, and the conditions for candour
+  [Psychological safety is the precondition](../engagement/safety.md) here; the conditions for candour
   are the ones the [facilitation](../foundations/montessori/facilitation.md) and
-  [roleplay](../foundations/organisational-development/roleplay.md) work sets out, and they are set mostly
+  [roleplay](../foundations/organisational-development/roleplay.md) work sets out, set mostly
   by how the facilitator responds when something went wrong.
 - It harvests a little, concretely. Two or three fixes with named owners tend to outlast a long list
   nobody carries. Next time, last round's fixes are visible, so the exercise is seen to move things.
 
 The learning-environment version of this, for technical practice, is the CTF
-[debrief](../foundations/montessori/ctf-value.md) and the Montessori
+[debrief](../foundations/montessori/ctf-value.md) and the
 [reflection](../foundations/montessori/reflection.md) principle it rests on. The crisis-exercise version,
 where the debrief also has to settle the disturbance a hard scenario can leave behind, is in
 [facilitator guidance](../incident-response/facilitator-guidance.md). What a debrief harvests only counts
