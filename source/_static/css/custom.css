@@ -339,11 +339,11 @@ div.highlight span[class] {
 }
 
 .md-typeset a {
-  color: var(--md-typeset-a-color);
+  color: #6A1B9A;
   word-break: break-word;
 }
 
-.md-typeset a: hover {
+.md-typeset a:hover {
   color: #800080;
   word-break: break-word;
 }
