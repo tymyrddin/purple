@@ -1,5 +1,7 @@
 # ICS Access and Persistence SimLab
 
+![ot-ics-simlab-repo.png](/_static/images/ot-ics-simlab-repo.png)
+
 [ICS Access and Persistence SimLab](https://github.com/tymyrddin/ics-access-simlab) models the estate of
 Unseen University Power and Light Co., Ankh-Morpork's utility provider: infrastructure assembled over decades,
 documentation patchy, security posture emergent. Five network zones on real Linux bridges, FRR-routed
