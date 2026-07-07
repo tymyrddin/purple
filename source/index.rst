@@ -17,7 +17,7 @@ Seldon needed two foundations to hold a civilisation together, and Gaia to ask w
 outside was ever the right idea. The same three arguments run underneath everything that follows.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :includehidden:
 
    docs/asimov/index
