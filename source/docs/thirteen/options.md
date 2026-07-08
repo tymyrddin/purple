@@ -136,3 +136,5 @@ The governing body now has something to think with. Authorisation required varie
 five. Reversibility varies. External signalling varies. Option 4 is on the page, with its costs
 named. If the body chooses it, they have chosen it. If they reject it, the rejection is on the
 record too.
+
+*Last updated: 26 May 2026*

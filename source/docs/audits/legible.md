@@ -53,3 +53,5 @@ legibility that satisfies an external examiner is what lets internal memory outl
 and it is one of the quieter services the organisational layer performs. The certificate documents, for
 outsiders, a property the organisation already had. That is the honest version of compliance, and it is
 noticeably cheaper than the other one.
+
+*Last updated: 4 July 2026*

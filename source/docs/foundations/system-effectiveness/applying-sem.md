@@ -66,3 +66,5 @@ A model that says "this service is internal only" may be accurate for the servic
 exposure through an API gateway. The service is internal. The gateway is not. The model was correct about one layer 
 and silent about the others. In a cloud-native environment, that silence scales.
 
+
+*Last updated: 1 July 2026*

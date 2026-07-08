@@ -23,3 +23,5 @@ Founded: 1992 (or possibly 1382). The Ankh-Morpork calendar is confusing, and ho
                 <a href="https://tymyrddin.dev/contact/">Register a Moral Concern</a>
             </div>
         </div>
+
+*Last updated: 1 July 2026*

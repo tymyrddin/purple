@@ -71,3 +71,5 @@ paper and behave very differently in practice.
 - [Recovery objectives and what they mean](objectives.md)
 - [Asset identification](../risk-management/asset-identification.md)
 - [Architecture as model](../systems-architecture/architecture-as-model.md)
+
+*Last updated: 9 May 2026*

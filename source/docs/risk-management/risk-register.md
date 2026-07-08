@@ -47,3 +47,5 @@ The register is most useful when it reflects what is actually happening, not wha
 The register works best when as simple as it can be while remaining useful. A thirty-field register that requires two hours to update a single entry will not be updated. A five-field register that captures the essential information and takes fifteen minutes to update will be.
 
 The temptation to add sophistication before the basic practice is established is a common failure mode. Start with what is genuinely useful, adding complexity only once simpler is demonstrably no longer sufficient.
+
+*Last updated: 2 July 2026*

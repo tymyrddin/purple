@@ -135,3 +135,5 @@ that the ISMS works, which is exactly what [the summit push](summit.md) will tes
 * [Corrective action](../supportive/corrective-action.md)
 * [Gap analysis](../supportive/gap-analysis.md)
 * [Applying SEM to security](../../foundations/system-effectiveness/applying-sem.md)
+
+*Last updated: 4 July 2026*

@@ -41,3 +41,5 @@ it presents itself as functioning. Building one takes months of continuous obser
 In aggregate and directed outward, these categories constitute something the MCLU would
 characterise differently from a security stack. We are working on a characterisation that
 is both accurate and survivable in court.
+
+*Last updated: 8 May 2026*

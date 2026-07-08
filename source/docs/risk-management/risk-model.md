@@ -41,3 +41,5 @@ Without these triggers, the model will be reviewed at the scheduled date regardl
 Connect the risk model to [operations](to-operations.md) so that information flows in both directions. Incidents can trigger risk register updates: what did this incident reveal about likelihood or impact that was not reflected in the current assessment? Treatment implementation can update residual risk ratings: once a control is in place, does the risk level change, and by how much? Control testing results can feed back into the assessment: the control was assumed to reduce likelihood to low, and the test suggests it reduces it to medium at best.
 
 These feedback loops are what make the model a living representation of the organisation's actual exposure rather than a snapshot of a past workshop.
+
+*Last updated: 2 July 2026*

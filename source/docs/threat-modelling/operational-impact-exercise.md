@@ -51,3 +51,5 @@ what they would do to prevent it, are showing something about the conditions for
 That observation is worth bringing to the group, carefully: the difficulty of naming the impact is related to the
 difficulty of acting on the finding. If acknowledging a three-day outage feels too alarming to say aloud, the discussion
 about how to prevent it will be shaped by the same discomfort.
+
+*Last updated: 4 July 2026*

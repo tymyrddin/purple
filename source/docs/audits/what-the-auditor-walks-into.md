@@ -56,3 +56,5 @@ the organisational and psychological machinery that decides what surfaces.
 An audit run with that layer in mind becomes one of the few legitimate occasions an organisation has to find
 out what it actually believes about itself. Run without it, the audit examines the paperwork, the paperwork
 examines nothing, and everyone shakes hands.
+
+*Last updated: 4 July 2026*

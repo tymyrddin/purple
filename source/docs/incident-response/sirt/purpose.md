@@ -26,3 +26,5 @@ Authority: the SIRT needs the authority to declare an incident, to require conta
 
 A learning culture: the [post-incident review](learning.md) process only works if people can describe what happened honestly without expecting blame. [Survival stances](../../foundations/organisational-development/satir-core.md) are visible in SIRT work: the person who placates by saying everything was handled correctly when it was not, the person who blames another team for the gap, the person who computes by producing a technically accurate account that omits the important decision that was made under pressure. None of these produce useful learning. Creating conditions where people can be congruent, describing what actually happened and what they actually thought at the time, is as much a prerequisite as the technical tooling.
 
+
+*Last updated: 4 July 2026*

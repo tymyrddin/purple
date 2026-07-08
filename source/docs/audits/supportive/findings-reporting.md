@@ -124,3 +124,5 @@ work is part of acting on findings, not a preliminary to it.
 * [The three domains of problem solving](../../foundations/problem-solving/three-domains.md)
 * [Why security change stalls](../../foundations/change-management/why-change-fails.md)
 * [The change arc in practice](../../foundations/change-management/satir-change-model.md)
+
+*Last updated: 4 July 2026*

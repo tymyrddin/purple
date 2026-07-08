@@ -68,3 +68,5 @@ tomorrow's unexplained dependency.
 - [Recovery objectives](objectives.md)
 - [Monday morning](monday-morning.md)
 - [Incident choreography](../incident-response/choreography.md)
+
+*Last updated: 4 July 2026*

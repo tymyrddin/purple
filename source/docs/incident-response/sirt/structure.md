@@ -30,3 +30,5 @@ The [SEM](../../foundations/system-effectiveness/index.rst) principle applies: e
 
 Version the SIRT documentation and review it at least annually, or after any significant organisational change or significant incident. A SIRT structure that has not been reviewed in two years is probably wrong in ways no one has noticed yet.
 
+
+*Last updated: 3 July 2026*

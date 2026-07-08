@@ -354,3 +354,5 @@ instead. Build for 3:00. Build for the moment when everything is on fire and som
 next.
 
 That's not a manual. That's a lifeline.
+
+*Last updated: 4 July 2026*

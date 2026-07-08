@@ -26,3 +26,5 @@ The debrief is where the non-rational criteria become visible, but only if the o
 - [Documentation](documentation.md)
 - [Problem solving applied to security work](../foundations/problem-solving/in-security.md)
 - [Systems, models, and errors](../foundations/system-effectiveness/core-triad.md)
+
+*Last updated: 4 July 2026*

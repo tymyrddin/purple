@@ -56,3 +56,5 @@ or an incident, would find no more than one change cycle out of date.
 * [ISO 22301 After the storm](../iso22301/after-the-storm.md)
 * [NIS2 Staying afloat](../../audits/nis2/afloat.md)
 * [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
+
+*Last updated: 4 July 2026*

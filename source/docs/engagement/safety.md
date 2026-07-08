@@ -30,3 +30,5 @@ If a critical vulnerability is discovered outside the agreed scope, define how i
 - [Scope](scope.md)
 - [Resources](resources.md)
 - [Survival stances and congruence](../foundations/organisational-development/satir-core.md)
+
+*Last updated: 4 July 2026*

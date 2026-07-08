@@ -14,3 +14,5 @@ kept short, specific to the team, and revisited as things change rather than fro
 Kept that way, a playbook stops being shelf-ware and becomes part of how the team actually operates, and the
 loop from exercise to practice to the next exercise closes instead of leaking away.
 
+
+*Last updated: 3 July 2026*

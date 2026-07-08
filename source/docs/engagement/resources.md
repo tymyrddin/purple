@@ -27,3 +27,5 @@ Access to a safe test environment that mirrors production closely enough to be r
 - [Objectives](objectives.md)
 - [Safety and risk management](safety.md)
 - [Problem solving applied to security work](../foundations/problem-solving/in-security.md)
+
+*Last updated: 4 July 2026*

@@ -105,3 +105,5 @@ for an integrated ISMS.
 3. Implementation guidance & controls → ISO 27002, 27003, 27005, 27008, 27701, 27032
 4. Audit and certification → ISO 27006-1, 27007, 19011, 17021, 17024, 17065
 5. Supporting frameworks → ISO 9000, 31000, 55000
+
+*Last updated: 4 July 2026*

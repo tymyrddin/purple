@@ -1,6 +1,6 @@
 # Other ways of looking
 
-The three bodies of work in this section (Weinberg's problem-solving and systems-effectiveness, Satir's
+The three foundations (Weinberg's problem-solving and systems-effectiveness, Satir's
 organisational development, adult Montessori) are not techniques to apply in sequence. What they share is
 quieter: each hands over a different way of looking, and most of the value sits in holding more than one at
 a time. A single frame, held long enough, stops being a way of seeing and becomes the thing seen.
@@ -75,3 +75,5 @@ conformance that follows is a pattern in its own right, traced in the broomstick
 The point of collecting Weinberg, Satir and Montessori in one place is not to arrive at a single correct
 reading of an organisation. It is to keep several ways of looking within reach, and to trust, when they
 disagree, the one that reaches the part that stays strange and where life is found.
+
+*Last updated: 8 July 2026*

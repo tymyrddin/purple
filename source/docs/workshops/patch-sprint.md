@@ -27,3 +27,5 @@ close today's gap; the record of what made patching hard is what might change th
 grows back, once it reaches someone with the authority to act on it. A sprint that produces only patches and
 no such record has treated the symptom and left the thing that produces it.
 
+
+*Last updated: 3 July 2026*

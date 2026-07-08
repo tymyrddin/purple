@@ -71,3 +71,5 @@ decision. It may reflect that the cost of treatment falls on a team that does no
 * [Adversary persona workshop](../../threat-modelling/adversary-persona-workshop.md)
 * [Risk scoring](risk-scoring.md)
 * [Interview and workshop facilitation](interview-facilitation.md)
+
+*Last updated: 4 July 2026*

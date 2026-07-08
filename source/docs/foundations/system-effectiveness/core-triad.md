@@ -52,3 +52,5 @@ more precise diagnosis: the model is wrong, and the system is providing evidence
 lateral movement incident, the model that produced the overpermissioning is unchanged, and six months later a different 
 role has the same profile for the same underlying reasons.
 
+
+*Last updated: 1 July 2026*

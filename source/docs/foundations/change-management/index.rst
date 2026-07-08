@@ -35,3 +35,5 @@ the unsafe one. Resistance is not noise. It is a map.
                 <a href="https://tymyrddin.dev/contact/">Build change that sticks</a>
             </div>
         </div>
+
+*Last updated: 4 June 2026*

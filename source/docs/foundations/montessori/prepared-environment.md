@@ -35,3 +35,5 @@ A security team that works in an environment where raising a concern is more eff
 
 Preparing the environment is not a one-time task. As the threat landscape changes, as the team's capability develops, and as frictions are discovered in practice, the environment needs to be adjusted. The role of [a facilitator](facilitation.md) is partly to observe what the environment is producing and to change it when it is producing the wrong things.
 
+
+*Last updated: 1 July 2026*

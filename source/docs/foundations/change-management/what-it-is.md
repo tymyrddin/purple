@@ -44,3 +44,5 @@ Change cannot be imposed from the outside. Only the conditions under which it be
 This is not a counsel of patience. It is a practical observation about leverage. Pushing harder against a homeostatic 
 system usually makes it resist harder. Finding the conditions that allow the system to change its own state is a 
 different kind of work, and it is what a [ChangeShop-informed approach](approach.md) is built around.
+
+*Last updated: 1 July 2026*

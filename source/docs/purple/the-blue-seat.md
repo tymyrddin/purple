@@ -24,3 +24,5 @@ evidence that tells the blue seat which parts of it are real.
 - [The red seat](the-red-seat.md)
 - [Running the loop](running-the-loop.md)
 - [Whether it is working](whether-it-is-working.md)
+
+*Last updated: 1 July 2026*

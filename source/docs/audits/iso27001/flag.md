@@ -131,3 +131,5 @@ changing conditions.
 * [Choosing a certification body](../supportive/certification-body.md)
 * [Audit as compass](../compass.md)
 * [Applying SEM to security](../../foundations/system-effectiveness/applying-sem.md)
+
+*Last updated: 4 July 2026*

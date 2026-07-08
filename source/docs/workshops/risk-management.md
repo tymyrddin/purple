@@ -3,8 +3,8 @@
 Risk management decides what is worth protecting, what realistically threatens it, and where limited capacity
 goes. Run as a series of workshops rather than a document, it produces decisions the people accountable
 for them actually understand and own. The full process lives in
-[its own section](../risk-management/risk-assessment.md); what follows is where it sits among the analytical
-processes.
+[risk assessment](../risk-management/risk-assessment.md); the question here is where it sits among the
+analytical processes.
 
 Its familiar failure is not analytical. A risk assessment can describe the landscape accurately and then be
 set quietly aside, not because the description was wrong but because nothing was in place to act on it: no one
@@ -22,3 +22,5 @@ The habit is the whole of it. A register reviewed once a year is out of date for
 to shorten the gap between when reality moves and when the assessment notices, which asks for a shorter cycle
 and a room that holds the people who actually operate the assets, not a model of them.
 
+
+*Last updated: 8 July 2026*

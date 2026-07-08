@@ -39,3 +39,5 @@ A list of critical assets of ten to twenty items, with categories, dependencies 
 Beyond the outputs, this exercise reveals whether the group has a shared and accurate model of what the organisation depends on. Disagreements during the exercise are findings: they indicate that different parts of the organisation are operating on different understandings of what is load-bearing. Those gaps are worth naming and resolving before the [risk assessment](risk-assessment.md) proceeds.
 
 Missing business context in an otherwise technical list is also a finding: it indicates that the risk management process is being conducted without adequate input from the people who operate the business, which will predictably produce a risk register that the business does not recognise as its own.
+
+*Last updated: 4 July 2026*

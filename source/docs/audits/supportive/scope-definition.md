@@ -116,3 +116,5 @@ Common triggers for revisiting scope:
 * [EU regulations](eu-regulations.md)
 * [Supply chain and third-party risk](supply-chain.md)
 * [Gap analysis](gap-analysis.md)
+
+*Last updated: 4 July 2026*

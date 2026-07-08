@@ -49,3 +49,5 @@ different problem from distinguishing human activity from automated activity. Th
 action](operational-fragility.md), authorised and expected in shape, wrong only in intent or timing. Automation trust, the implicit confidence
 that the automation is doing what it was designed to do, becomes a security property that has to be earned and audited
 rather than assumed.
+
+*Last updated: 3 July 2026*

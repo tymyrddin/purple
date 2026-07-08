@@ -32,3 +32,5 @@ and looks considerably less reasonable eighteen months later when someone is wri
 
 We do not charge. We have no money. We consider this a structural feature rather than a bug.
 We have a pamphlet. It is more useful than it sounds.
+
+*Last updated: 28 February 2026*

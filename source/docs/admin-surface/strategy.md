@@ -56,7 +56,7 @@ is human, organisational, and political. The tooling does not remove it; it chan
 
 Treating this purely as a policy gap and a tooling problem misses the part that could keep it stuck. The reason
 classification regimes do not catch aggregation risk is seldom chiefly technical. It is organisational, and the
-foundations section of this collection has language for it.
+foundations material has language for it.
 
 ### Three domains, not one
 
@@ -93,7 +93,7 @@ and both block the conversation that would change the model. Naming the stance i
 ## Demands on practitioners
 
 Because the block is organisational rather than technical, the people who can shift it are not the ones the technical
-framing points to. The work in this section can be done by anyone with patience, technical curiosity, and the willingness
+framing points to. This work can be done by anyone with patience, technical curiosity, and the willingness
 to read boring documents alongside each other. It does not require classified access. It does not require offensive tooling. It
 requires systems literacy and the social licence to apply it across domains that do not normally talk to each other.
 
@@ -118,3 +118,5 @@ that from happening:
 
 None of this removes the discomfort. The point is to make the discomfort discussable rather than letting it route the
 response.
+
+*Last updated: 8 July 2026*

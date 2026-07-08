@@ -45,3 +45,5 @@ worth lies in being revisited. Re-walked on a cadence, it shows dependencies for
 picture the [loop](../purple/running-the-loop.md) builds from the other direction, one exercised move at
 a time. The recommendations it yields span people, technology and
 [supply chain](../audits/supportive/supply-chain.md), and stay with the teams who act on them.
+
+*Last updated: 4 July 2026*

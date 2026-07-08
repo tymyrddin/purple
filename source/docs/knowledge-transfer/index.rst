@@ -25,3 +25,5 @@ a document but usable at the moment it is needed.
                 <a href="https://tymyrddin.dev/contact/">Let’s make one.</a>
             </div>
         </div>
+
+*Last updated: 4 July 2026*

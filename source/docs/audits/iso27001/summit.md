@@ -132,3 +132,5 @@ change. [Keeping the flag flying](flag.md) is its own discipline.
 * [What the auditor walks into](../what-the-auditor-walks-into.md)
 * [Gap analysis](../supportive/gap-analysis.md)
 * [Standards reference](../supportive/standards.md)
+
+*Last updated: 4 July 2026*

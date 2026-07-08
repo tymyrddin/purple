@@ -30,3 +30,5 @@ Action items need owners, timelines, and a distinction between procedural fixes 
 - [Coordination and communication](coordination.md)
 - [Post-incident reviews](../incident-response/playbooks/index.rst)
 - [Systems, models, and errors](../foundations/system-effectiveness/core-triad.md)
+
+*Last updated: 4 July 2026*

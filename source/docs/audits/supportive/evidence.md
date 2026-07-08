@@ -1,12 +1,12 @@
 # Evidence
 
-Every framework in this section eventually converges on the same request: show me. The playbooks each have a
+All four frameworks eventually converge on the same request: show me. The playbooks each have a
 stage where the showing happens, the [resilience dossier](../iso22301/dossier.md), the
 [inspection](../iec62443/inspection.md), the [far bank](../nis2/bank.md), the
-[base camp check](../iso27001/base-camp-check.md). This page covers the craft underneath all four: what counts
+[base camp check](../iso27001/base-camp-check.md). Underneath all four sits the same craft: what counts
 as evidence, where it comes from, and how to keep it so that any question can be answered in minutes rather
-than reconstructed from memory. The strategic argument for why this is worth doing sits in
-[Making it legible](../legible.md); this is the how.
+than reconstructed from memory. The strategic argument for why the craft is worth the effort sits in
+[Making it legible](../legible.md).
 
 ## Two kinds of evidence
 
@@ -108,3 +108,5 @@ machinery for noticing staleness is the subject of [continuous compliance monito
 * [Audit findings and reporting](findings-reporting.md)
 * [Continuous compliance monitoring](continuous-monitoring.md)
 * [Applying SEM to security](../../foundations/system-effectiveness/applying-sem.md)
+
+*Last updated: 8 July 2026*

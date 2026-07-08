@@ -149,3 +149,5 @@ decision, rather than as the decision itself, keeps a shaped interpretation from
 in high-severity cases. The [Vulnforge experiment](../crucible/experiments/vulnforge.md) in the crucible pushes
 the same principle further, letting a model propose where a vulnerability sits but leaving the verdict to a
 sandbox that runs the code rather than to the model's own confidence.
+
+*Last updated: 3 July 2026*

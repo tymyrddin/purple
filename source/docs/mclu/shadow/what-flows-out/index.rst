@@ -34,3 +34,5 @@ has been received, which is itself a data point, though not one we can file in e
                 <a href="https://tymyrddin.dev/contact/">File an SAR (Eventually)</a>
             </div>
         </div>
+
+*Last updated: 25 March 2026*

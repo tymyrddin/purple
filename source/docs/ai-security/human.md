@@ -134,3 +134,5 @@ Underneath both sits the bias that makes any summary persuasive. Training analys
 the first explanation tends to structure everything after it, but it makes them likelier to notice when they
 have not looked outside the frame the summary set. Reviewing a shaped case with the analyst afterwards draws on
 the same [facilitation skills](../audits/supportive/interview-facilitation.md) as audit evidence-gathering.
+
+*Last updated: 3 July 2026*

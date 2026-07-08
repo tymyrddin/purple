@@ -104,3 +104,5 @@ honest evaluation of compliance status.
 * [IEC 62443 The inspection](../iec62443/inspection.md)
 * [Evidence](../supportive/evidence.md)
 * [Making it legible](../legible.md)
+
+*Last updated: 4 July 2026*

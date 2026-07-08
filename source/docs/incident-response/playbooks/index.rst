@@ -12,3 +12,5 @@ Scenario playbooks
    ddos-ransom.md
    insider-threat-escalation.md
    multi-vector.md
+
+*Last updated: 3 April 2026*

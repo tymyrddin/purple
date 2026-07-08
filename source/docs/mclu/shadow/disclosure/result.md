@@ -70,3 +70,5 @@ operate in this city. That record is built one disclosure at a time. This is one
 The arrangement continues, as far as the MCLU can establish, to operate. Disclosure does not
 stop it. It makes stopping it more possible than silence does, which is the only claim
 the MCLU is making on its behalf.
+
+*Last updated: 8 May 2026*

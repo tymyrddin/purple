@@ -45,3 +45,5 @@ The vendor relationship is a trust assumption. Trust assumptions are not verifie
 ## Outputs
 
 A clear picture of the current detection capability for vendor access anomalies. An assessment of whether the containment decision authority exists and is known in advance. A list of vendor access assumptions worth verifying technically rather than contractually assuming. Any regulatory reporting obligations that were unclear during the exercise.
+
+*Last updated: 3 July 2026*

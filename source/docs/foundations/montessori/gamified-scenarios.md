@@ -54,3 +54,5 @@ communication, and recovery: time to containment, completeness of eradication, r
 documentation. What they exercise is response under pressure, coordination, and decision-making while the picture is
 still incomplete.
 
+
+*Last updated: 8 July 2026*

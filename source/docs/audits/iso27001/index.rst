@@ -37,3 +37,5 @@ drill, a proof-of-concept, or a CTF scenario. Each stage of the journey reflects
                 <a href="https://tymyrddin.dev/contact/">Base camp calling</a>
             </div>
         </div>
+
+*Last updated: 4 July 2026*

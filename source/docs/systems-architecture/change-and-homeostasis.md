@@ -33,3 +33,5 @@ These are not soft concerns that can be handed off to a project manager. They ar
 The principle that resistance can be treated as information rather than obstruction is particularly valuable in architecture work. When a proposed architectural change meets significant resistance from teams who will be affected by it, the resistance is data about the current state that the architecture may not have fully accounted for.
 
 That does not mean resistance always needs to be accommodated. It means it is worth understanding before dismissing. Resistance that reflects a genuine constraint or a real concern about the design deserves a response at the design level. Resistance that reflects a preference for the familiar deserves acknowledgement and a clear account of why the change is necessary. In both cases, treating the resistance as information produces better outcomes than treating it as an obstacle to be overcome.
+
+*Last updated: 4 July 2026*

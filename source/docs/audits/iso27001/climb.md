@@ -139,3 +139,5 @@ before the push to the summit.
 * [NIS2 Into the current](../nis2/currents.md)
 * [ISO 22301 Running the drills](../iso22301/drills.md)
 * [Interview and workshop facilitation](../supportive/interview-facilitation.md)
+
+*Last updated: 4 July 2026*

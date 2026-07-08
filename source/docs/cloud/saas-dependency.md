@@ -53,3 +53,5 @@ updated it is in only marginally better shape.
 - [Cloud sync exfiltration](https://red.tymyrddin.dev/docs/out/exfiltration/runbooks/cloud-sync-exfil.html)
 - [Email and cloud security: putting locks on the spice rack](https://blue.tymyrddin.dev/docs/home/cloud/index.html)
 - [Encrypt cloud files before uploading](https://blue.tymyrddin.dev/docs/home/cloud/encrypt.html)
+
+*Last updated: 3 July 2026*

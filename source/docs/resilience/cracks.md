@@ -45,3 +45,5 @@ The output is a resilience map the team keeps: the risks, the dependencies, the 
 owners, in a form that invites the next walkthrough. Read once, it is a snapshot. Re-run on a cadence,
 it can trace whether the cracks are widening or closing, the same reading the
 [loop](../purple/running-the-loop.md) produces when offence and defence work a move together.
+
+*Last updated: 2 July 2026*

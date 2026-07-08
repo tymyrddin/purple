@@ -34,3 +34,5 @@ The statement that someone is "available" for SIRT work during an incident is no
 
 Roles are worth testing before an incident. A [tabletop](../../incident-response/choreography.md) exercise that runs the team through a plausible incident scenario will reveal gaps in role clarity, authority, and process that no amount of documentation review will surface.
 
+
+*Last updated: 3 July 2026*

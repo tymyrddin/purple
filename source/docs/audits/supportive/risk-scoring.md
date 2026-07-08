@@ -4,7 +4,7 @@ A risk score translates two estimates into a single rating: how likely is this t
 bad would it be if it did? The result drives prioritisation, treatment decisions, and the language used to
 communicate risk to people who will not sit through the full assessment.
 
-The gap this page addresses is between the threat register (which captures what could go wrong) and the gap
+A gap sits between the threat register (which captures what could go wrong) and the gap
 analysis severity rating (which measures how serious a control shortfall is). Both depend on a consistent,
 honestly calibrated risk score. Without that calibration, severity ratings drift toward whatever rating is most
 comfortable for the people in the room.
@@ -100,3 +100,5 @@ uncomfortable truths.
 * [Gap analysis](gap-analysis.md)
 * [Risk assessment exercise](../../risk-management/risk-assessment.md)
 * [Risk register](../../risk-management/risk-register.md)
+
+*Last updated: 8 July 2026*

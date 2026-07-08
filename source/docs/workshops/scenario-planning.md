@@ -32,3 +32,5 @@ builds some tolerance for ambiguity before the ambiguity is real. Having imagine
 to meet the real thing with something other than panic.
 
 The [Crucible](../crucible/index.rst) holds the runnable simulators that carry a scenario into a safe consequence space, the Patrician's Crisis and Smart Grid among them.
+
+*Last updated: 3 July 2026*

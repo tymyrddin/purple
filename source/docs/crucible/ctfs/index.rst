@@ -18,3 +18,5 @@ way through the routing fails the way it would fail on a real network.
 
 For the pedagogical case, why well-designed challenges work as learning environments, see
 :doc:`/docs/foundations/montessori/ctf-value`.
+
+*Last updated: 2 July 2026*

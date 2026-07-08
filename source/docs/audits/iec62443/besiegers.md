@@ -70,3 +70,5 @@ consideration, and a marked list of risk acceptances worth a second look. Zone p
 * [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
 * [Threat modelling as a process](../../workshops/threat-modelling.md)
 * [Gap analysis](../supportive/gap-analysis.md)
+
+*Last updated: 4 July 2026*

@@ -113,3 +113,5 @@ Logging the full causal chain from classification input to triggered action, not
 what lets a manipulated action be told apart from a legitimate one after the fact. And rate-limiting high-cost
 actions even when individual triggers look legitimate turns threshold exploitation into a detectable pattern,
 once the rate of a specific workflow is [monitored over time](../audits/supportive/continuous-monitoring.md).
+
+*Last updated: 3 July 2026*

@@ -40,3 +40,5 @@ behind.
 - [The defensive seat](the-blue-seat.md)
 - [Whether you are ready](whether-you-are-ready.md)
 - [SOC detection and response](../incident-response/soc/detection.md)
+
+*Last updated: 4 July 2026*

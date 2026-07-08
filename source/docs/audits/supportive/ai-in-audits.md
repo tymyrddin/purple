@@ -1,9 +1,7 @@
 # Use of AI in audits
 
 AI tooling is entering audit and compliance workflows faster than the governance frameworks for using it have
-matured. That gap is worth acknowledging before picking tools. The sections below cover where AI genuinely
-adds value in audit work, what to watch for when deploying it in a compliance context, and EU-specific
-considerations including the AI Act.
+matured. That gap is worth acknowledging before picking tools.
 
 ## Where AI adds value
 
@@ -135,3 +133,5 @@ European dependency question it raises, has [its own page](bi-in-audits.md).
 * [NIS2 Staying afloat](../nis2/afloat.md) (continuous monitoring metrics where AI tooling applies directly)
 * [IEC 62443 The inspection](../iec62443/inspection.md) (AI-assisted evidence collection in OT environments)
 * [NIS2 Building the vessel](../nis2/raft.md) (AI-generated phishing simulations covered in the people and culture section)
+
+*Last updated: 8 July 2026*

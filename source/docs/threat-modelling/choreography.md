@@ -11,7 +11,7 @@ not how they are. The gap between the two is where the most interesting risks li
 
 ## Who needs to be in the room
 
-The exercises in this section are designed as [workshop activities](../workshops/threat-modelling.md), not solo analyst
+The threat-modelling exercises are designed as [workshop activities](../workshops/threat-modelling.md), not solo analyst
 tasks. This is deliberate.
 
 A threat model produced by a single security analyst reflects that analyst's model of the system, the adversary, and the
@@ -65,3 +65,5 @@ this sequence stops.
   it to deanonymisation risks, with adversaries, assets, attack vectors, and impacts.
 - [State visibility: a surveillance threat model](https://green.tymyrddin.dev/docs/threat-models/surveillance/) applies
   it to state surveillance risks, where the adversary is an institution.
+
+*Last updated: 8 July 2026*

@@ -54,3 +54,5 @@ falsification, speed or coverage. The Discworld setting is decorative. The vulne
 The defender's side of the same estate, what the detection and monitoring plane can and cannot see, is written
 up in blue:
 [ICS Access and Persistence SimLab, from the defensive view](https://blue.tymyrddin.dev/docs/ot/labs/ics-access-simlab/).
+
+*Last updated: 6 July 2026*

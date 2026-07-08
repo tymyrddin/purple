@@ -34,3 +34,5 @@ Self-direction applies to teams as well as individuals. A team that can [identif
 
 Building this capacity requires trusting the team with genuine information about what the security programme is and is not achieving, and creating the conditions where proposing an experiment or a different approach is safe rather than presumptuous.
 
+
+*Last updated: 2 July 2026*

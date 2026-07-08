@@ -39,3 +39,5 @@ Organisations resist change to remain stable. This is not a pathology. It is how
 The trap is treating the resistance as the problem. The resistance is the symptom. The actual question is: what conditions would have to change for this organisation to be able to absorb this improvement without treating it as a threat? The [Satir Change Model](../organisational-development/satir-change-model.md) maps what that absorption looks like once it begins, the performance dip and all.
 
 That is a different question from "how do we get them to comply," and it produces different, more durable answers.
+
+*Last updated: 1 July 2026*

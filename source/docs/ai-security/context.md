@@ -127,3 +127,5 @@ The rest is catching shaping while it is under way. Monitoring for slow distribu
 account populations, rather than individual accounts, surfaces systematic poisoning that stays invisible one
 account at a time. Red team exercises that build deliberately constructed normality profiles then test whether
 the context layer can be walked past on purpose.
+
+*Last updated: 3 July 2026*

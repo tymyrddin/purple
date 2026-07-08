@@ -63,3 +63,5 @@ These are not technical problems. They require the second foundation.
 - [The Third Foundation: the uncomfortable question](third-foundation.md)
 - [What these foundations can and cannot do](../foundations/disclaimer.md)
 - [Core ideas of Satir systems OD](../foundations/organisational-development/satir-core.md)
+
+*Last updated: 1 July 2026*

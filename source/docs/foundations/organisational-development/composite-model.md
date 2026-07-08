@@ -70,3 +70,5 @@ likely in the first place.
 None of these is easy to capture. All of them are likely more predictive of actual security posture than the metrics 
 that appear in many dashboards.
 
+
+*Last updated: 1 July 2026*

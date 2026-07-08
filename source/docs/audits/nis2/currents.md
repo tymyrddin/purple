@@ -68,3 +68,5 @@ metrics showing what works and what does not, and documented lessons learned for
 * [ISO 27001 The climb](../iso27001/climb.md)
 * [ISO 22301 Running the drills](../iso22301/drills.md)
 * [IEC 62443 Testing the defences](../iec62443/testing-the-defences.md)
+
+*Last updated: 4 July 2026*

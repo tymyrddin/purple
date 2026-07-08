@@ -43,3 +43,5 @@ A question worth pressing: what had to be true about this organisation for this 
 ## Outputs
 
 A timestamped decision log from the exercise. A list of questions the team could not answer during the session, these are more valuable than the decisions that were made, because they identify where the actual gaps are. Three to five priority improvements with owners and realistic timescales, distinguishing procedural fixes (update the runbook) from structural ones (assign ransom payment authority, verify backup integrity). One honest sentence about what the exercise revealed that the team did not expect.
+
+*Last updated: 4 July 2026*

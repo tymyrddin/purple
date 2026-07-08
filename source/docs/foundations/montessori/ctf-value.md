@@ -77,3 +77,5 @@ No debrief is the third failure mode. The experience without the consolidation i
 ends when the scoring closes has used the most expensive part of the preparation and discarded the part that makes it
 stick.
 
+
+*Last updated: 2 July 2026*

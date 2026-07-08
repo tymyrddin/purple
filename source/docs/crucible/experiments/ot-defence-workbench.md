@@ -30,3 +30,5 @@ board shows HELD or OPEN per brief.
 
 Blue keeps the defender-facing writeup, with the full brief ladder, at
 [OT Defence Workbench](https://blue.tymyrddin.dev/docs/ot/labs/workbench/).
+
+*Last updated: 2 July 2026*

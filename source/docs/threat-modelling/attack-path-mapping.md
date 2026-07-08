@@ -33,3 +33,5 @@ Aim for a sketch, not a compliance report. A whiteboard photograph of interconne
 The map is correct at the time it is drawn and begins drifting immediately. Mark it with the date. Build in a trigger for revisiting it: when a new system is added, when a significant integration changes, when an incident reveals a path that was not on the map.
 
 The [Crucible](../crucible/index.rst) holds the simulator environments for testing the paths mapped here, the ICS access lab among them.
+
+*Last updated: 3 July 2026*

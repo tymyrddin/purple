@@ -41,3 +41,5 @@ and tooling are already there to carry it.
 - [Running the loop](running-the-loop.md)
 - [Whether it is working](whether-it-is-working.md)
 - [Incident response](../incident-response/index.rst)
+
+*Last updated: 2 July 2026*

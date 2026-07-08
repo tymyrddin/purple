@@ -61,3 +61,5 @@ They require someone to acknowledge that a belief the organisation has been oper
 conversation than patching a service. That difficulty is worth documenting, because the resistance to having it is 
 itself a security finding.
 
+
+*Last updated: 2 July 2026*

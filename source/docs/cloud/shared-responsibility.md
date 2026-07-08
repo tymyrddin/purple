@@ -50,3 +50,5 @@ extends the [trust boundaries](multi-cloud-trust.md) that have to be reasoned ab
 
 - [Cloud-native attack patterns](https://red.tymyrddin.dev/docs/in/cloud/notes/cloud-centric.html)
 - [Why cloud environments are hard to test](https://red.tymyrddin.dev/docs/in/cloud/notes/challenges.html)
+
+*Last updated: 4 July 2026*

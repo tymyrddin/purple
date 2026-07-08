@@ -32,3 +32,5 @@ people actually learn. Read together, they change what gets looked at, what gets
                 <a href="https://tymyrddin.dev/contact/">Find what's blocking it</a>
             </div>
         </div>
+
+*Last updated: 1 July 2026*

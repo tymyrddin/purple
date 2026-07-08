@@ -26,3 +26,5 @@ they had reason to trust.
             </div>
         </div>
 
+
+*Last updated: 28 February 2026*

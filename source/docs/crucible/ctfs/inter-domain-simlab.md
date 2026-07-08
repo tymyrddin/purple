@@ -54,3 +54,5 @@ registry trust, and each with a briefing and a reference solution in the repo:
 A player drives real BGP announcements from a real `vtysh`, and reads the effect through the looking glass.
 Nothing here is an operator knob standing in for the attack: the announcement is the move, and the table's
 response is the consequence.
+
+*Last updated: 1 July 2026*

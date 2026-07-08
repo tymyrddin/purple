@@ -57,3 +57,5 @@ deployed. What remains is to find out whether any of it works.
 * [ISO 27001 The gear depot](../../audits/iso27001/gear-depot.md)
 * [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
 * [Gap analysis](../supportive/gap-analysis.md)
+
+*Last updated: 4 July 2026*

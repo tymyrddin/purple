@@ -45,3 +45,5 @@ for effective architecture practice, not a sufficient one.
 
 For an architect's own development, the e-CF is a useful map of the technical dimension. The foundations work in this 
 collection is a map of the rest. The two are complementary, and both are incomplete without the other.
+
+*Last updated: 4 July 2026*

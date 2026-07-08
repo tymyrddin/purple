@@ -56,3 +56,5 @@ Set the triggers for revision explicitly: new system additions, significant arch
 resemble a modelled scenario, changes in the threat intelligence picture relevant to the named adversaries. A model
 revised on a fixed calendar schedule regardless of environmental change is a model that will be wrong in unpredictable
 ways. A model revised when its assumptions are violated is a model that stays accurate.
+
+*Last updated: 3 July 2026*

@@ -125,3 +125,5 @@ where the model is least certain. Routing near-boundary cases to human review ra
 keeps the most exploitable decisions out of the automated path. And treating near-boundary probing, systematic
 variations of similar inputs within short time windows, as a signal rather than normal variance catches the
 reconnaissance phase before the exploitation it is preparing for.
+
+*Last updated: 3 July 2026*

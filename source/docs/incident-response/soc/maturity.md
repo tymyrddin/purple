@@ -22,3 +22,5 @@ Alert volume: a SOC that is handling more alerts than its analysts can meaningfu
 
 The no-blame condition: the same [congruence dynamic](../../foundations/organisational-development/satir-core.md) that applies in SIRT [post-incident](../../incident-response/sirt/learning.md) review applies in SOC learning. Analysts who expect blame for missed detections will underreport near-misses and borderline calls. Underreporting means the organisation does not learn from its near-misses, which means the same gaps persist. A SOC that has become politically safe to be honest in will surface more of what it needs to improve.
 
+
+*Last updated: 4 July 2026*

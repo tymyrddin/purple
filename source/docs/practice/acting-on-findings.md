@@ -28,3 +28,5 @@ act on it. A programme that can answer that produces change; one that cannot pro
 conditions run through [engagement objectives](../engagement/objectives.md), the
 [readiness](../purple/whether-you-are-ready.md) a purple loop needs before it starts, and the reporting
 [handover](../audits/supportive/findings-reporting.md) that carries a finding to whoever can act on it.
+
+*Last updated: 4 July 2026*

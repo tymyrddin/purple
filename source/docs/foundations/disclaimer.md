@@ -1,8 +1,8 @@
 # Limits and uses of these foundations
 
-The material in this section draws on work developed by Virginia Satir, Gerald Weinberg, and related thinkers
-in organisational development, change management, systems thinking, and learning design. It is useful. It is
-also limited in specific ways that are worth being clear about before applying any of it.
+These foundations draw on work developed by Virginia Satir, Gerald Weinberg, and related thinkers
+in organisational development, change management, systems thinking, and learning design. They are useful. They are
+also limited in specific ways that are worth being clear about before applying any of them.
 
 ## Lenses these foundations provide
 
@@ -72,3 +72,5 @@ some things clearer, not because they eliminate ambiguity.
 The criticisms are part of the material. The limitations of the Satir model, the conditions under which
 ChangeShop insights do not apply, the ways in which systems thinking can become an excuse for inaction: these
 are as worth understanding as the frameworks themselves.
+
+*Last updated: 8 July 2026*

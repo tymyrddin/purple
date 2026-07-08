@@ -101,3 +101,5 @@ a prioritised remediation plan.
 * [ISO 22301 Storm charts](../iso22301/storm-charts.md)
 * [IEC 62443 Knowing the besiegers](../iec62443/besiegers.md)
 * [Threat modelling as a process](../../workshops/threat-modelling.md)
+
+*Last updated: 4 July 2026*

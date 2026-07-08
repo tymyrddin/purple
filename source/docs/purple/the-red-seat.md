@@ -31,3 +31,5 @@ imitates.
 - [The blue seat](the-blue-seat.md)
 - [Running the loop](running-the-loop.md)
 - [Adversary persona workshop](../threat-modelling/adversary-persona-workshop.md)
+
+*Last updated: 4 July 2026*

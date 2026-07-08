@@ -67,3 +67,5 @@ This is consistent with what even the driest role descriptions make visible: the
 stakeholders to implement solutions that align with business needs." Working 
 with stakeholders is not merely communicating technical decisions to them. It is understanding their concerns, 
 earning their trust, and creating the conditions in which their cooperation can be relied upon.
+
+*Last updated: 4 July 2026*

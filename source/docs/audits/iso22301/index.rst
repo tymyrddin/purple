@@ -7,7 +7,7 @@ ISO 22301 playbook: the resilient factory
 OT systems are mission-critical. Any downtime can disrupt production, safety, and revenue. ISO 22301 ensures
 structured continuity and disaster recovery processes are in place.
 
-These pages are not tutorials. They are for executives, managers, and OT professionals who have already deployed
+The playbook is not a tutorial. It is for executives, managers, and OT professionals who have already deployed
 systems, and now need to verify coverage, spot gaps, and prepare for an audit.
 
 .. toctree::
@@ -40,3 +40,5 @@ incident is contained as the OT continuity plan assumes it will be.
                 <a href="https://tymyrddin.dev/contact/">Plan your comeback</a>
             </div>
         </div>
+
+*Last updated: 8 July 2026*

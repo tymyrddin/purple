@@ -57,3 +57,5 @@ reconciled with the diagrams. The control layer is built against these targets.
 * [NIS2 Building a raft](../../audits/nis2/raft.md)
 * [Gap analysis](../supportive/gap-analysis.md)
 * [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
+
+*Last updated: 4 July 2026*

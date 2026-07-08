@@ -4,8 +4,8 @@ CWE, CAPEC, and MITRE ATT&CK describe attacks, vulnerabilities, and tactics. ISO
 organisations must do to protect against them. One set labels the arrows, the other sets the
 shields.
 
-This page covers IT attack categories. OT/ICS attack patterns (ATT&CK for ICS, protocol abuse, firmware
-threats) are covered in [IEC 62443 Knowing the besiegers](../iec62443/besiegers.md).
+The arrows catalogued here are IT ones. OT/ICS attack patterns (ATT&CK for ICS, protocol abuse, firmware
+threats) live in [IEC 62443 Knowing the besiegers](../iec62443/besiegers.md).
 
 ## Web & application attacks
 
@@ -217,3 +217,5 @@ controls, not as a complete checklist.
 Both ISO 27001 and NIS2 are risk-based frameworks requiring you to assess your specific threat landscape and 
 implement proportionate controls. This mapping helps connect threat intelligence to compliance requirements, 
 and any implementation still needs to reflect the organisation's unique context, risks, and capabilities.
+
+*Last updated: 8 July 2026*

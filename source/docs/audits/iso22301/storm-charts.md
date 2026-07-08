@@ -92,3 +92,5 @@ priorities drive the choice of [emergency systems](emergency-systems.md).
 * [Gap analysis](../supportive/gap-analysis.md)
 * [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
 * [Threat modelling as a process](../../workshops/threat-modelling.md)
+
+*Last updated: 4 July 2026*

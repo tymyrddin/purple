@@ -80,3 +80,5 @@ failures.
 
 * [ISO 22301 The factory's emergency systems](../iso22301/emergency-systems.md) (supply chain continuity)
 * [IEC 62443 Locks and patrols](../iec62443/locks-and-patrols.md) (supply chain and vendor controls)
+
+*Last updated: 4 July 2026*

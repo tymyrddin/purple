@@ -93,3 +93,5 @@ who ran it, and carried into the next round. "Not another tabletop" is the organ
 instrument has decayed into the ritual, and the reply is to restore the conditions or reach for a
 different instrument. The same decay, an exercise kept for the certificate, hollows out awareness work
 too, traced in [why simulations fail](../social-engineering/why-simulations-fail.md).
+
+*Last updated: 2 July 2026*

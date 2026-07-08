@@ -104,3 +104,5 @@ record rather than a single data point.
 * [Findings and reporting](findings-reporting.md)
 * [Stress-testing resilience](../../resilience/stress-testing.md)
 * [AI in audits](ai-in-audits.md)
+
+*Last updated: 4 July 2026*

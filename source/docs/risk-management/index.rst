@@ -31,3 +31,5 @@ and the current gaps, and turn them into a prioritised roadmap sized to the budg
                 <a href="https://tymyrddin.dev/contact/">Be honest about exposure</a>
             </div>
         </div>
+
+*Last updated: 2 July 2026*

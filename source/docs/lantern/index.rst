@@ -33,3 +33,5 @@ control plane on a specific public table.
                 <a href="https://tymyrddin.dev/contact/">Enable strategic patience</a>
             </div>
         </div>
+
+*Last updated: 1 July 2026*

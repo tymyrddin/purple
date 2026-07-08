@@ -85,3 +85,5 @@ These are not radical positions. They are the minimum conditions under which the
 "trusted provider" means anything at all.
 
 The data cannot be unflowed. Everything else is still in question.
+
+*Last updated: 8 May 2026*

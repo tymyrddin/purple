@@ -78,3 +78,5 @@ At that point it is no longer a training programme. It is a live, recurring syst
 The goal is not zero clicks. The goal is an organisation that detects quickly, reports consistently, and adapts
 continuously. A [programme built on real techniques](phishing-programme.md), exercised in a real environment, is the fastest path to
 that outcome without waiting for a real incident to teach the lesson.
+
+*Last updated: 4 July 2026*

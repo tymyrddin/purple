@@ -38,3 +38,5 @@ time pressure.
                 <a href="https://tymyrddin.dev/contact/">Mind the OT gap</a>
             </div>
         </div>
+
+*Last updated: 4 July 2026*

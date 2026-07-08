@@ -25,3 +25,5 @@ Drop a dataset directory under `ingest/` and load it from the Data view, pick or
 `rules/sigma/` in Detections, and read what fired in Findings. `./ctl detect` is the command-line shortcut for
 compiling the Sigma rules and running detections, and the OpenSearch Dashboards surface at
 `http://localhost:5601` is the deeper hunt-and-tune view.
+
+*Last updated: 2 July 2026*

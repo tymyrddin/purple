@@ -40,3 +40,5 @@ keep and revise.
 A resilience snapshot read once is a maturity score; re-run on a cadence it becomes a direction, and
 the direction is the point. That cadence is what the [loop](../purple/running-the-loop.md) sustains
 when it arrives, offence feeding scenarios and defence tuning detections between rounds.
+
+*Last updated: 2 July 2026*

@@ -32,3 +32,5 @@ recommendations were made by someone who passed the remaining gaps on.
 The advice may still have been good. The assessments were made by someone who was also
 briefing someone else on what they found, and that someone else has not been identified.
 Clients who built subsequent security decisions on those assessments should factor this in.
+
+*Last updated: 8 May 2026*

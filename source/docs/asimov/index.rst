@@ -35,3 +35,5 @@ Seldon himself would note that the plan is only as good as the initial assumptio
    first-foundation.md
    second-foundation.md
    third-foundation.md
+
+*Last updated: 1 July 2026*

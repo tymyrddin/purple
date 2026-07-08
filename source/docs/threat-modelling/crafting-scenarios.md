@@ -51,3 +51,5 @@ Like all models, scenarios drift. A scenario written against last year's adversa
 last year's architecture is a historical document, not a current planning tool. Mark each scenario with the date it was
 written and the trigger conditions for revisiting it: a new system in scope, a new technique observed in the threat
 landscape, an incident that resembles part of the scenario.
+
+*Last updated: 3 July 2026*

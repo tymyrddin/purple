@@ -30,3 +30,5 @@ A practical signal: if the action list after each exercise is mostly procedural 
 
 Recurrence is the most important metric of all. If the same class of failure returns across multiple exercises in slightly different forms, the programme is trimming symptoms. The conditions generating the failures are intact.
 
+
+*Last updated: 4 July 2026*

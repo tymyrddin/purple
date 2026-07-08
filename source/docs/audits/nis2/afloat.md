@@ -91,3 +91,5 @@ evolution rather than stagnation, and board reporting packages keeping leadershi
 * [IEC 62443 Keeping watch](../iec62443/keeping-watch.md)
 * [Corrective action](../supportive/corrective-action.md)
 * [Audit as compass](../compass.md)
+
+*Last updated: 4 July 2026*

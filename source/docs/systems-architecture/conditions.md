@@ -27,3 +27,5 @@ None of this makes the technical work less important. It makes the technical wor
 [SEM](../foundations/system-effectiveness/index.rst) gives architects a way to understand their documentation as a living model with a maintenance responsibility, not a deliverable with a completion date. [The change lens](../foundations/change-management/index.rst) gives architects a way to understand organisational resistance as information about the change they are asking the organisation to make. [The three-layer frame](../foundations/problem-solving/index.rst) gives architects a way to see that their work operates simultaneously at rational, emotional, and political layers, and that attending to all three is not optional. [The survival-stances work](../foundations/organisational-development/satir-core.md) gives architects a way to understand the communication patterns that produce architectural dysfunction, and the conditions under which honest architectural review becomes possible.
 
 These are not additions to the technical role. They are the conditions under which the technical role produces what it is supposed to produce.
+
+*Last updated: 4 July 2026*

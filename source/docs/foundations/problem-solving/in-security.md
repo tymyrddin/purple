@@ -42,3 +42,5 @@ Many organisations do not have a security problem in the narrow technical sense.
 
 PSL is useful in security precisely because it refuses to treat that observation as someone else's problem.
 
+
+*Last updated: 1 July 2026*

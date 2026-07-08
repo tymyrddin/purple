@@ -20,3 +20,5 @@ the available evidence.
 What we can establish: the capability was wanted before it was offered, not after. The
 distinction matters to the question of who initiated the arrangement. The answer has not
 yet made itself convenient.
+
+*Last updated: 8 May 2026*

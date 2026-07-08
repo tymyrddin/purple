@@ -113,3 +113,5 @@ capability is what holds when the building floods.
 - [Integrating the four lenses](../foundations/organisational-development/composite-model.md)
 - [The change workshop](../foundations/change-management/what-it-is.md)
 - [What happens Monday morning](monday-morning.md)
+
+*Last updated: 4 July 2026*

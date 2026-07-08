@@ -39,3 +39,5 @@ which fixes are worth making before the next real incident. Captured in plain la
 the people who ran the scenario, it is an action plan they own and can re-run. The value often sits in the
 second run as much as the first, when the same scenario shows whether last round's fix survived
 contact.
+
+*Last updated: 2 July 2026*

@@ -18,3 +18,5 @@ Played from the attacker's seat, the honesty is in using only what that position
 reaches. Played from the defender's seat, the honesty is in saying in advance what it expects to catch and
 then facing what it did. The framing, the conditions that decide whether a session teaches or only documents,
 and the shapes it can take are in [purple teaming](../purple/index.rst).
+
+*Last updated: 2 July 2026*

@@ -25,7 +25,7 @@ covered, accounted for, and properly controlled.
 3. Ownership clarity: Each asset needs a responsible operator or custodian. Ambiguity is a red flag.
 4. Boundary clarity: Devices that straddle the boundary of the system under consideration (dual-homed workstations, vendor remote access points, shared historians) are the ones most often missed by both the OT survey and the IT one.
 
-*Use this page as a checklist for post-work inspection: if it is missing, misaligned, or undocumented, it is
+*A workable post-work inspection rule: if it is missing, misaligned, or undocumented, it is
 something to fix before an auditor sees it.*
 
 Asset documentation is a model of the ICS environment at a point in time.
@@ -53,3 +53,5 @@ works against.
 * [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
 * [Risk management as a process](../../workshops/risk-management.md)
 * [Gap analysis](../supportive/gap-analysis.md)
+
+*Last updated: 8 July 2026*

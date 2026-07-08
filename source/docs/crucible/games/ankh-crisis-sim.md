@@ -34,3 +34,5 @@ screen: "You served your term. Here is what happened."
 That is incident response one level up from the console: the same fail-safely rehearsal the
 [incident-response](../../incident-response/index.rst) exercises run for responders, played instead by the
 people who set the budget and carry the consequences.
+
+*Last updated: 2 July 2026*

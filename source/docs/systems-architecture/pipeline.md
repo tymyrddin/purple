@@ -92,3 +92,5 @@ early adopters and making their experience visible to the rest of the team.
 
 The organisations that reach the new status quo did not get there because the transition was smooth. They got
 there because they did not mistake the chaos phase for evidence that the direction was wrong.
+
+*Last updated: 4 July 2026*

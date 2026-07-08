@@ -28,3 +28,5 @@ Exercises that do not change become exercises in following a known path rather t
 
 This is not a large production effort if the library is designed for modularity. Updating a scenario to reflect a current threat intelligence report is a different exercise from rebuilding the whole curriculum. The rotation also signals to the team that the learning is connected to what is actually happening, which supports the intrinsic motivation that self-directed learning depends on.
 
+
+*Last updated: 2 July 2026*

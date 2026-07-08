@@ -156,3 +156,5 @@ operative obligation, but the others still apply to their respective domains.
 * [Use of AI in audits](ai-in-audits.md)
 * [Supply chain and third-party risk](supply-chain.md)
 * [ISO/IEC information security standards](standards.md)
+
+*Last updated: 4 July 2026*

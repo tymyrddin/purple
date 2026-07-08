@@ -21,3 +21,5 @@ cases are the evidence; this is an exploration of what to do with it.
    :includehidden:
 
    strategy.md
+
+*Last updated: 3 July 2026*

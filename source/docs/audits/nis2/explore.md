@@ -118,3 +118,5 @@ This is the launch point. Rushed past, the current finds the raft without a map,
 * [ISO 27001 The map room](../iso27001/map-room.md)
 * [Scope definition](../supportive/scope-definition.md)
 * [Picking the route](../picking-the-route.md)
+
+*Last updated: 4 July 2026*

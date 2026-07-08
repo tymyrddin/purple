@@ -58,3 +58,5 @@ makes a fine measuring stick and a poor architect.
 
 The organisations that come out of this well tend to be the ones that could, at any point, explain their ISMS
 without mentioning the standard at all.
+
+*Last updated: 4 July 2026*

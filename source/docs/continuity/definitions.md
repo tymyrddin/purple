@@ -61,3 +61,5 @@ which appears to be the most common failure mode.
 - [Recovery objectives and what they mean](objectives.md)
 - [Continuity through a foundations lens](foundations.md)
 - [Risk treatment options](../risk-management/treatment-options.md)
+
+*Last updated: 9 May 2026*

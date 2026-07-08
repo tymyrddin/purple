@@ -84,3 +84,5 @@ criticality ratings, and current lifecycle records. This is the map the storm ch
 * [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
 * [Risk management as a process](../../workshops/risk-management.md)
 * [Gap analysis](../supportive/gap-analysis.md)
+
+*Last updated: 4 July 2026*

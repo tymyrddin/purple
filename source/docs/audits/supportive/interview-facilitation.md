@@ -79,7 +79,7 @@ definition, and post-incident review.
 The [adversary persona workshop](../../threat-modelling/adversary-persona-workshop.md) technique applies
 directly in audit scope-definition sessions: the same process that identifies who might attack a system can
 identify which systems and services are in scope and why. The [threat modelling choreography](../../threat-modelling/choreography.md)
-covers the broader sequence and is worth reading alongside this page for anyone running workshops as part of
+covers the broader sequence and is worth reading for anyone running workshops as part of
 evidence gathering.
 
 For facilitated workshops to produce reliable evidence rather than socially-constructed consensus, a few
@@ -129,3 +129,5 @@ Approaches that reduce suppression:
 * [Threat modelling choreography](../../threat-modelling/choreography.md)
 * [Threat register](threat-register.md)
 * [Findings and reporting](findings-reporting.md)
+
+*Last updated: 8 July 2026*

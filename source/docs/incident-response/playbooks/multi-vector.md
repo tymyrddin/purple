@@ -2,7 +2,7 @@
 
 *For mature SIRT and SOC teams. Full day, 6-8 hours. Requires a facilitator team.*
 
-The scenario exposes what all the other playbooks in this section approach only partially: the assumption that incident response proceeds sequentially. Real incidents often do not. Multiple vectors arriving in parallel force prioritisation decisions that reveal how the organisation actually allocates authority under pressure, how teams communicate when every channel is saturated, and whether the playbooks that work for isolated incidents remain functional when two or three are running simultaneously. This is an advanced exercise. It produces the most learning in teams that have already worked through the individual scenario playbooks and believe they have a solid incident response capability.
+The scenario exposes what the other playbooks approach only partially: the assumption that incident response proceeds sequentially. Real incidents often do not. Multiple vectors arriving in parallel force prioritisation decisions that reveal how the organisation actually allocates authority under pressure, how teams communicate when every channel is saturated, and whether the playbooks that work for isolated incidents remain functional when two or three are running simultaneously. This is an advanced exercise. It produces the most learning in teams that have already worked through the individual scenario playbooks and believe they have a solid incident response capability.
 
 ## The scenario
 
@@ -47,3 +47,5 @@ The multi-vector exercise does not teach teams to prevent simultaneous incidents
 ## Outputs
 
 A detailed timeline of decisions across all five vectors. An honest prioritisation analysis: what did the team protect first, and does that match what the organisation says it would protect? Communication failure points and their structural causes. A small number of structural improvements, not procedural fixes, but changes to decision authority, escalation paths, or staffing design, with owners and dates.
+
+*Last updated: 8 July 2026*

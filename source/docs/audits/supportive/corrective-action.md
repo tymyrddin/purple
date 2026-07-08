@@ -3,7 +3,7 @@
 Audit findings, incident reviews, exercise deviations, and monitoring alerts all end in the same machinery: a
 list of things to fix and a process for fixing them. The machinery looks administrative and decides more than
 it appears to, because it is where the difference lives between an organisation that closes findings and one
-that learns. The playbooks in this section rehearse the pattern stage by stage; this page is its home.
+that learns. The audit playbooks rehearse the pattern stage by stage; here it is in full.
 
 ## Three levels of fixing
 
@@ -85,3 +85,5 @@ finding gets a fresh description; it is obvious when this year's entry shares a 
 * [ISO 27001 Base camp checks](../iso27001/base-camp-check.md)
 * [ISO 22301 After the storm](../iso22301/after-the-storm.md)
 * [How models age](../../foundations/system-effectiveness/for-defence.md)
+
+*Last updated: 8 July 2026*

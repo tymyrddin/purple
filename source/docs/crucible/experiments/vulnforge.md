@@ -34,3 +34,5 @@ to do everything, including judge itself. Vulnforge is one worked example applie
 the model supplies the intuition, the sandbox supplies the verdict, and the audit log supplies the
 accountability. Whether that arrangement earns its keep is the kind of question the crucible exists to
 answer, by running it rather than arguing about it.
+
+*Last updated: 1 July 2026*

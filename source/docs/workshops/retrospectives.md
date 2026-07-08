@@ -37,3 +37,5 @@ session. Written down roughly, not polished. The two are not alternatives. The s
 afternoon; the fuller one is for a cycle or a serious incident; run together, the reflection compounds instead
 of evaporating.
 
+
+*Last updated: 3 July 2026*

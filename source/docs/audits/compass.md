@@ -15,7 +15,7 @@ and learn nothing, closing the same class of finding in new costumes for years.
 
 ## Three readings of a finding
 
-The playbooks in this section rehearse the pattern stage by stage; here is the executive version. A finding can
+The audit playbooks rehearse the pattern stage by stage; here is the executive version. A finding can
 be read at three depths. Correction fixes the surface: the stale contact list is updated. Corrective action
 fixes the cause: the process that let it go stale gets an owner. The third reading asks what the organisation
 believed that made the gap seem impossible, because that belief is still out there, quietly producing the next
@@ -55,3 +55,5 @@ work, with the formal audit as its calibration rather than its entirety. That is
 programme; it is an organisation [aware of its own drift](../asimov/third-foundation.md), which is what
 [resilience beyond the checklist](../resilience/beyond-compliance.md) looks like from the inside. The audit
 does not create that awareness. It checks, once a year, whether it exists.
+
+*Last updated: 8 July 2026*

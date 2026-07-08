@@ -113,3 +113,5 @@ available at [csrc.nist.gov](https://csrc.nist.gov). NERC CIP standards are free
 * [IEC 62443 Locks and patrols](../iec62443/locks-and-patrols.md)
 * [ISO/IEC information security standards](standards.md)
 * [Scope definition](scope-definition.md)
+
+*Last updated: 4 July 2026*

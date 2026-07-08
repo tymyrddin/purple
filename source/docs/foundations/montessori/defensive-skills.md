@@ -59,3 +59,5 @@ the ground lets operations be planned around realistic gaps. During, detection o
 pass, along with whatever goes unseen. Afterwards, the most valuable feedback is detection-focused: where exactly the
 blue team could have caught the activity, and help writing the rules that would let them.
 
+
+*Last updated: 2 July 2026*

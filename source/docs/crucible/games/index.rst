@@ -13,3 +13,5 @@ consequence that arrives three moves after the decision that caused it.
    :includehidden:
 
    ankh-crisis-sim
+
+*Last updated: 2 July 2026*

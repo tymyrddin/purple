@@ -19,3 +19,5 @@ has finally seen it happen.
    roleplays/index
    games/index
    purple-teaming
+
+*Last updated: 2 July 2026*

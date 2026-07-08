@@ -72,3 +72,5 @@ producing a more sophisticated version of the same compliance theatre it was mea
 - [What ChangeShop was/is](../foundations/change-management/what-it-is.md)
 - [The Satir Change Model](../foundations/organisational-development/satir-change-model.md)
 - [Purple teaming](../purple/index.rst)
+
+*Last updated: 1 July 2026*

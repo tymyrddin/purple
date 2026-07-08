@@ -121,3 +121,5 @@ Important (build these next):
 Build them, test them, break them, fix them. That's the cycle. Anyone promising you stable, unchanging, perfect 
 playbooks is selling you documentation theatre, not operational capability. Playbooks are designed [to be tested in 
 exercises and updated with each iteration](../incident-response/choreography.md).
+
+*Last updated: 4 July 2026*

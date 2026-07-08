@@ -61,3 +61,5 @@ Groups also sometimes produce only the adversaries they feel capable of defendin
 push towards an adversary the group finds most uncomfortable. That discomfort is usually pointing at something real.
 The same facilitation moves carry over into audit scope-definition and evidence-gathering sessions, covered
 in [interview and workshop facilitation](../audits/supportive/interview-facilitation.md).
+
+*Last updated: 3 July 2026*

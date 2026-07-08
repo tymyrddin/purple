@@ -28,3 +28,5 @@ about whether the investment is justified, or they may reflect the displacement 
 Working through these questions before the SOC is operational is considerably easier than working through them during 
 an incident when the SOC has just identified something uncomfortable.
 
+
+*Last updated: 4 July 2026*

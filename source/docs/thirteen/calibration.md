@@ -119,3 +119,5 @@ The evidence supports "it appears that targeting preparation is underway." Stati
 makes a claim the evidence cannot bear. If the assessment is later shown wrong, if the actor
 stands down, the advisor's register is unreadable going forward. The tier carried more than the
 evidence warranted, and the decision-maker who relied on it was not working with an honest signal.
+
+*Last updated: 4 July 2026*

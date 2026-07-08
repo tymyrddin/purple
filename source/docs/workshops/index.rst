@@ -40,3 +40,5 @@ room rather than circulated on a screen, since none of this work gets done alone
                 <a href="https://tymyrddin.dev/contact/">Converse about a workshop</a>
             </div>
         </div>
+
+*Last updated: 1 July 2026*

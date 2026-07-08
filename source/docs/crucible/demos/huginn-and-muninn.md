@@ -27,3 +27,5 @@ catch, or miss, the real thing on the public table.
 `pip install -r requirements.txt` (only the live websocket watcher needs it; the snapshot and validity tools
 use the standard library), then run the scripts above. Nothing leaves the machine except the calls to the
 public RIPE data it reads.
+
+*Last updated: 2 July 2026*

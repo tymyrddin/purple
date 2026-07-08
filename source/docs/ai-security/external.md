@@ -136,3 +136,5 @@ it turns a transparent update into a configuration change that has to be reviewe
 The vendors belong in the same process as any other dependency. Including AI API providers and enrichment
 services in [supply chain security assessments](../audits/supportive/supply-chain.md) alongside software
 dependencies follows from the plain fact that the organisation's security posture now includes theirs.
+
+*Last updated: 3 July 2026*

@@ -87,3 +87,5 @@ gets played, and a couple of fictional guilds keeping everyone honest.
    docs/crucible/index
    docs/lantern/index
    docs/mclu/index
+
+*Last updated: 8 July 2026*

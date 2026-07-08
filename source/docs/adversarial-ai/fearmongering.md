@@ -109,3 +109,5 @@ of the attack, if it succeeds at the level of belief rather than fact, is borne 
 The calibration differs by attack type, but the pattern holds across all of them: the scenarios generating the loudest
 coverage are often not the ones generating the most damage. The [dramatic version](arms-race.md) involves nuclear silos and invisible
 armies. The operational version is closer to corrupting the audio library on one ship's sonar system.
+
+*Last updated: 3 July 2026*

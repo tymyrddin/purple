@@ -12,7 +12,7 @@ Adult Montessori adapts five principles from children's education to adults lear
 prepared environment, self-directed learning, hands-on work against real problems, intrinsic motivation, and
 facilitation rather than instruction. None of them survive contact with a mandatory annual training module.
 
-The connections to the Weinberg and Satir work elsewhere in this section are direct. A Montessori-designed security
+The connections to the Weinberg and Satir work are direct. A Montessori-designed security
 learning environment externalises the conditions that Satir OD tries to build into teams over time. It makes the small
 experiments ChangeShop advocates a normal part of everyday practice. It operationalises the PSL observation that
 managing energy is as load-bearing as managing tasks, by building an environment where the work is engaging rather
@@ -42,3 +42,5 @@ than draining.
                 <a href="https://tymyrddin.dev/contact/">Try teaching differently</a>
             </div>
         </div>
+
+*Last updated: 8 July 2026*

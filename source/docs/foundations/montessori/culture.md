@@ -51,3 +51,5 @@ on offer. How often red and blue teams work together rather than past each other
 internally and outward. Whether people stay, and name learning and growth as part of why. And whether genuinely new
 ideas emerge from cross-trained staff, which is what the whole arrangement is eventually for.
 
+
+*Last updated: 1 July 2026*

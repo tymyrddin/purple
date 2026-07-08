@@ -39,3 +39,5 @@ The timing is as much the finding as the decisions. An organisation that can han
 ## Outputs
 
 A clear record of communication coordination failures, if any. An explicit decision on extortion payment policy, or a named decision to make one. An honest assessment of weekend escalation paths and whether they are actually functional. Any changes to public communication procedures that would survive the conditions the exercise created.
+
+*Last updated: 3 April 2026*

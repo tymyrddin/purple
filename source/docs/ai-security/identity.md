@@ -118,3 +118,5 @@ output from being a trigger on its own.
 What none of that reveals is the actual reach. Deliberately adversarial prompting in a staging environment shows
 what the pipeline can actually be induced to do with its current credentials, which is different from guessing
 at the blast radius.
+
+*Last updated: 4 July 2026*

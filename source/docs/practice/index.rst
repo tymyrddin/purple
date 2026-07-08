@@ -10,9 +10,8 @@ around it. Whether the room was safe enough for the real thing to be said, wheth
 turn a finding into a decision, whether the lesson was harvested while it was warm and carried into the
 next round.
 
-These pages gather that thread. Each names the conditions under which a practice produces durable change
-rather than a record of having done it, and points to where the domain sections put the same conditions
-to work. The argument underneath is the
+Each practice has conditions under which it produces durable change
+rather than a record of having done it. The argument underneath is the
 :doc:`three-domain frame </docs/foundations/problem-solving/in-security>`: the rational layer is the
 easy part, and the emotional and political layers decide whether anything moves.
 
@@ -33,3 +32,5 @@ easy part, and the emotional and political layers decide whether anything moves.
                 <a href="https://tymyrddin.dev/contact/">Make it stick</a>
             </div>
         </div>
+
+*Last updated: 8 July 2026*

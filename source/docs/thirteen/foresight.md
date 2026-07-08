@@ -130,3 +130,5 @@ is suspended pending investigation.
 These are now in the brief. The decision-maker can take the recommendation having seen the
 conditions under which the recommendation changes. The advisor has not predicted failure. They
 have been honest about what failure would look like and what would signal it arriving.
+
+*Last updated: 26 May 2026*

@@ -35,3 +35,5 @@ after the event when the technology is back and the organisation is not.
                 <a href="https://tymyrddin.dev/contact/">Test the plan before it tests you</a>
             </div>
         </div>
+
+*Last updated: 2 July 2026*

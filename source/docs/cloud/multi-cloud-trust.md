@@ -43,3 +43,5 @@ are in scope.
 - [GDPR on Google Cloud](https://blue.tymyrddin.dev/docs/dev/devsecops/gcp/gdpr-compliance.html)
 - [GDPR compliance on Hetzner](https://blue.tymyrddin.dev/docs/dev/devsecops/on-prem/gdpr-compliance.html)
 - [Protecting an Amazon cloud kingdom from barbarians (and Dave)](https://blue.tymyrddin.dev/docs/dev/devsecops/aws/index.html)
+
+*Last updated: 3 July 2026*

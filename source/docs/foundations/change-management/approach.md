@@ -40,3 +40,5 @@ An alternative approach: piloting with one team that has a relatively simple env
 
 Slower at the start. Much faster at the end. And the result is adoption rather than the appearance of adoption.
 
+
+*Last updated: 1 July 2026*

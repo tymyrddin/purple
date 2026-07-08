@@ -15,3 +15,5 @@ watched to say so.
 
 The premise, and the happenings that run inside it, live at
 [the MCLU](../../mclu/index.rst).
+
+*Last updated: 2 July 2026*

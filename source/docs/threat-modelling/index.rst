@@ -25,3 +25,5 @@ understanding. Then tools and complexity follow.
                 <a href="https://tymyrddin.dev/contact/">Bottom up</a>
             </div>
         </div>
+
+*Last updated: 4 July 2026*

@@ -2,8 +2,8 @@
 
 Organisations weighing NIS2 often ask whether to pursue it on its own or alongside ISO 27001
 certification, and seeing how the two differ can make the choice clearer. The strategic view across all
-four routes sits in [picking the route](../audits/picking-the-route.md); this page examines the one pair
-in detail.
+four routes sits in [picking the route](../audits/picking-the-route.md); this one pair rewards a closer
+look.
 
 ## Key differences
 
@@ -87,3 +87,5 @@ Mapping the requirements shows where they overlap. Article 21 of NIS2 aligns clo
 [Supply chain requirements](../audits/supportive/supply-chain.md) are similar, phrased more firmly in
 NIS2. Governance obligations overlap substantially. A
 [gap analysis](../audits/supportive/gap-analysis.md) identifies what is unique to each.
+
+*Last updated: 8 July 2026*

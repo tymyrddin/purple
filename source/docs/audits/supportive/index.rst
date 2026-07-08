@@ -1,7 +1,7 @@
 Auditing toolkit
 ======================================================
 
-These pages form the reference layer that applies across all the framework-specific sections: the concepts and
+The toolkit is the reference layer that applies across all four frameworks: the concepts and
 obligations, the working methods, the audit process itself, and the tooling. For a reader arriving from a
 playbook stage, the map points at the tools that usually apply there.
 
@@ -78,3 +78,5 @@ AI and BI options for evidence work at scale.
 
    ai-in-audits.md
    bi-in-audits.md
+
+*Last updated: 8 July 2026*

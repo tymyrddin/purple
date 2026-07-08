@@ -128,3 +128,5 @@ security posture.
 * [OT standards reference](ot-standards.md)
 * [Threat register](threat-register.md)
 * [Gap analysis](gap-analysis.md)
+
+*Last updated: 8 May 2026*

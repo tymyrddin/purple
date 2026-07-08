@@ -147,3 +147,5 @@ leadership determines what can be done about any of it.
 * [ISO 22301 The floor walk](../iso22301/floor-walk.md)
 * [Scope definition](../supportive/scope-definition.md)
 * [Picking the route](../picking-the-route.md)
+
+*Last updated: 4 July 2026*

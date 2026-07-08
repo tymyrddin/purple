@@ -3,8 +3,8 @@
 The certificate at the end of an ISO 27001 or ISO 22301 journey is signed by a certification body, and the
 choice of body shapes more than the invoice: it decides who walks through the door for the next three years,
 what kind of audit happens when they do, and how much the certificate is worth to the people it is meant to
-convince. The [summit push](../iso27001/summit.md) covers the audit itself; this page covers the buying
-decision that precedes it.
+convince. The [summit push](../iso27001/summit.md) covers the audit itself; the buying decision comes
+first.
 
 ## Accreditation first
 
@@ -73,3 +73,5 @@ evidence a supervisor recognises), but it never substitutes for it.
 * [Audit findings and reporting](findings-reporting.md)
 * [ISO/IEC information security standards](standards.md)
 * [Picking the route](../picking-the-route.md)
+
+*Last updated: 8 July 2026*

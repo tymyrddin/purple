@@ -41,3 +41,5 @@ what that honesty will cost them.
                 <a href="https://tymyrddin.dev/contact/">Culture beats campaigns</a>
             </div>
         </div>
+
+*Last updated: 1 July 2026*

@@ -29,3 +29,5 @@ increasing silence as adversaries operate in gaps the rules no longer cover.
    detection.md
    workflows.md
    maturity.md
+
+*Last updated: 3 July 2026*

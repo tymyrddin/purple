@@ -84,3 +84,5 @@ meet the RTO and miss the recovery.
 - [Continuity through a foundations lens](foundations.md)
 - [Incident response choreography](../incident-response/choreography.md)
 - [Risk to operations](../risk-management/to-operations.md)
+
+*Last updated: 4 July 2026*

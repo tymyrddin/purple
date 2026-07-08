@@ -35,3 +35,5 @@ budget rather than the ones at the console.
                 <a href="https://tymyrddin.dev/contact/">See it in practice</a>
             </div>
         </div>
+
+*Last updated: 2 July 2026*

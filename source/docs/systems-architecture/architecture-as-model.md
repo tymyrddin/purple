@@ -46,3 +46,5 @@ conditions change.
 This is not a diminished vision of the role. It is a more accurate one. The architect whose model is continuously 
 accurate is more valuable, and more trusted, than the architect whose comprehensive initial design becomes 
 progressively less connected to reality over the following years.
+
+*Last updated: 4 July 2026*

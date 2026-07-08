@@ -100,3 +100,5 @@ acceptances that would survive a second look. The register decides what gets pac
 * [Threat register](../supportive/threat-register.md)
 * [Risk scoring](../supportive/risk-scoring.md)
 * [Risk management as a process](../../workshops/risk-management.md)
+
+*Last updated: 4 July 2026*

@@ -30,8 +30,10 @@ Getting the conditions right does not require resolving all of this before doing
 naming it, building processes that produce honest rather than safe documentation, and treating the gap between the 
 written version and the operational reality as a finding rather than an embarrassment.
 
-The pages that follow build [playbooks](playbooks.md) that survive contact with reality, 
+[Playbooks](playbooks.md) that survive contact with reality, 
 [manuals](manuals.md) that get used at 3:00, [dashboards](dashboards.md) that answer the question the analyst is actually asking, and [workflows](workflows.md) 
-that reduce friction rather than add it. They are most useful when the conditions for honest documentation exist. 
-Where those conditions are still being built, the section on 
+that reduce friction rather than add it are all most useful when the conditions for honest documentation exist. 
+Where those conditions are still being built, 
 [organisational development](../foundations/organisational-development/satir-core.md) is the place to start.
+
+*Last updated: 8 July 2026*

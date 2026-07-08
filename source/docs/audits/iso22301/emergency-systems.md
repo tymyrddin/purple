@@ -62,3 +62,5 @@ cover for critical roles. Each solution is owned, costed, and traceable to a rec
 * [ISO 27001 The gear depot](../../audits/iso27001/gear-depot.md)
 * [Gap analysis](../supportive/gap-analysis.md)
 * [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
+
+*Last updated: 4 July 2026*

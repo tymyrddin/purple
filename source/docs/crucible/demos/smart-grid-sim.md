@@ -29,3 +29,5 @@ race past it.
 
 Blue keeps the defender-facing writeup at
 [Smart Grid SimLab](https://blue.tymyrddin.dev/docs/ot/labs/smart-grid-sim/).
+
+*Last updated: 2 July 2026*

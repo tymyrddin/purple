@@ -19,3 +19,5 @@ where [MycoSec](https://red.tymyrddin.dev/docs/earthworks/mycosec/), the Fungoli
 deliberately exposed labs that make the ground for the exercises. Purple's interest is the loop between the
 two: a roleplay earns its place when both seats are played by people who will have to live with what the
 exercise surfaces, rather than narrated from one side.
+
+*Last updated: 2 July 2026*

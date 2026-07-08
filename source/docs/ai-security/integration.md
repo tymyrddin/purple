@@ -127,3 +127,5 @@ the same data, and whether that inconsistency can be walked through as a detecti
 None of this happens without an owner. Assigning responsibility for the system-level integration picture, rather
 than only for individual component security, makes the relational view someone's job rather than nobody's, and a
 relational failure is visible only to a relational view.
+
+*Last updated: 3 July 2026*

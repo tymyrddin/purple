@@ -44,3 +44,5 @@ A programme tracks recurrence. If the same class of failure appears in multiple 
 design problem. It is a finding about the conditions the exercises have not yet reached. That finding deserves 
 explicit attention: what structural change would alter the conditions, and who has the authority to make it?
 
+
+*Last updated: 4 July 2026*

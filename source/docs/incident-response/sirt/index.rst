@@ -22,3 +22,5 @@ The three problem-solving layers are equally relevant to how the SIRT itself is 
    roles.md
    structure.md
    learning.md
+
+*Last updated: 4 July 2026*

@@ -21,3 +21,5 @@ from the dramatic version possible.
    arms-race.md
    fearmongering.md
 
+
+*Last updated: 3 July 2026*

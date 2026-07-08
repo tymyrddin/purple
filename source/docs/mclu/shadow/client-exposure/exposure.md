@@ -23,3 +23,5 @@ what good security practice looks like.
 The exposure surface scales directly with the depth of trust. The more a client did everything
 right, the more comprehensively they are observed. The MCLU notes, for the record, that this
 is not how security relationships are supposed to work.
+
+*Last updated: 28 February 2026*

@@ -125,3 +125,5 @@ sources periodically, with attention to whether any one input population is push
 direction, is the question automated pipelines never ask on their own. Folding feedback-loop integrity into
 security review for any pipeline that learns from user-generated outcomes makes it someone's job to ask, since
 the mechanism that improves the model is the same one that degrades it.
+
+*Last updated: 3 July 2026*

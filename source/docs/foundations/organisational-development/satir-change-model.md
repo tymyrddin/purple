@@ -70,3 +70,5 @@ Reading the resistance correctly is more useful than overcoming it. The map show
 where the design needs adjustment, and where the communication has left people without the context they need to
 commit.
 
+
+*Last updated: 1 July 2026*

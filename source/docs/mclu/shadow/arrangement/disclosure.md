@@ -26,3 +26,5 @@ courtrooms for long enough to have strong opinions about the seating.
 No.
 
 The MCLU is rarely this brief. We feel the situation warrants it.
+
+*Last updated: 8 May 2026*

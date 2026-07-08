@@ -39,3 +39,5 @@ The insider threat is uncomfortable because the organisation created the conditi
 ## Outputs
 
 A clear record of where decision-making stalled and why. An honest assessment of whether cross-team coordination between security, HR, and legal is practised or only theoretically in place. The specific monitoring gaps that would need to close for earlier detection. Any legal and HR guidance worth establishing in advance rather than improvising under time pressure.
+
+*Last updated: 3 April 2026*

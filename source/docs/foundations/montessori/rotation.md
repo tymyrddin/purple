@@ -54,3 +54,5 @@ sold as permanent; framed as development it stays safe, and now and then a role 
 output does dip during the learning period. That dip is the investment, and over any reasonable horizon it usually pays
 for itself.
 
+
+*Last updated: 1 July 2026*

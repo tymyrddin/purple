@@ -29,3 +29,5 @@ alternatives and concluded that saying something imperfectly is preferable to sa
 correctly. We have a pamphlet. It now has a section on this specific problem. The section
 is short, because the honest answer is that you largely cannot investigate surveillance
 without being surveilled in the process, and the MCLU has always preferred accuracy to comfort.
+
+*Last updated: 8 May 2026*

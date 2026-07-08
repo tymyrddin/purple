@@ -122,3 +122,5 @@ the effectiveness evidence the climb will generate. [Now theory meets altitude](
 * [ISO 22301 The factory's emergency systems](../iso22301/emergency-systems.md)
 * [IEC 62443 Locks and patrols](../iec62443/locks-and-patrols.md)
 * [Gap analysis](../supportive/gap-analysis.md)
+
+*Last updated: 4 July 2026*

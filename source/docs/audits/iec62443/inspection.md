@@ -71,3 +71,5 @@ produce on request. Keeping it that way is the business of [keeping watch](keepi
 * [ISO 27001 Base camp check](../../audits/iso27001/base-camp-check.md)
 * [Evidence](../supportive/evidence.md)
 * [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
+
+*Last updated: 4 July 2026*

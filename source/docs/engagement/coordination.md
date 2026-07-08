@@ -32,3 +32,5 @@ The out-brief to leadership works best when framed in terms that produce decisio
 - [Documentation](documentation.md)
 - [Facilitation over instruction](../foundations/montessori/facilitation.md)
 - [Reflection and feedback loops](../foundations/montessori/reflection.md)
+
+*Last updated: 4 July 2026*

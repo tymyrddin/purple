@@ -84,3 +84,5 @@ organisation would prefer to believe it is in.
 The Satir model does not say how to design the change. It shows where support is needed and what
 the pressure to abandon the change actually means. That is the part many change efforts fail to account for.
 
+
+*Last updated: 1 July 2026*

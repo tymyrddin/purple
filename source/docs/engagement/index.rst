@@ -30,3 +30,5 @@ structural work that determines whether the engagement produces findings or chan
                 <a href="https://tymyrddin.dev/contact/">Scope your engagement</a>
             </div>
         </div>
+
+*Last updated: 2 July 2026*

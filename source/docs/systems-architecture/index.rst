@@ -34,3 +34,5 @@ A systems architect designs and oversees complex IT systems, ensuring that hardw
                 <a href="https://tymyrddin.dev/contact/">Discuss your architecture challenges</a>
             </div>
         </div>
+
+*Last updated: 30 June 2026*

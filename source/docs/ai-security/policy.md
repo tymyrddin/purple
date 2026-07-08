@@ -129,3 +129,5 @@ probes the region where the constraint most often fails and testing most often s
 policy author and the model deployer in the room together surfaces the gap between what the policy intends and
 what the model infers, which neither sees alone. And repeating it when the provider ships a new version catches
 the constraint that was reliable in one model and quietly degraded in the next.
+
+*Last updated: 4 July 2026*

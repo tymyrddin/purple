@@ -88,3 +88,5 @@ the risk treatment plan and the corrective action log.
 * [IEC 62443 Knowing the besiegers](../iec62443/besiegers.md)
 * [IEC 62443 Locks and patrols](../iec62443/locks-and-patrols.md)
 * [Risk scoring](risk-scoring.md)
+
+*Last updated: 4 July 2026*

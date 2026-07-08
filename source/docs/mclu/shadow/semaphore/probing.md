@@ -19,3 +19,5 @@ service, and were not informed their activity was being observed and reported. T
 nonetheless, in the data. The MCLU is considering what notification obligations, if any,
 exist in this direction. It is a novel legal question for Ankh-Morpork, and the MCLU has
 added it to the list of things we are pursuing through channels we invented for the purpose.
+
+*Last updated: 8 May 2026*

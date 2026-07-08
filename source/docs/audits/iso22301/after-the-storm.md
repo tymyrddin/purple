@@ -53,3 +53,5 @@ trying to prove.
 * [Corrective action](../supportive/corrective-action.md)
 * [Gap analysis](../supportive/gap-analysis.md)
 * [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
+
+*Last updated: 4 July 2026*

@@ -90,3 +90,5 @@ clear authority.
 * [ISO 27001 The gear depot](../iso27001/gear-depot.md)
 * [ISO 22301 The factory's emergency systems](../iso22301/emergency-systems.md)
 * [IEC 62443 Locks and patrols](../iec62443/locks-and-patrols.md)
+
+*Last updated: 4 July 2026*

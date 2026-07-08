@@ -34,3 +34,5 @@ The limits on social engineering exist because [survival stances](../foundations
 - [Safety and risk management](safety.md)
 - [Coordination and communication](coordination.md)
 - [Survival stances and congruence](../foundations/organisational-development/satir-core.md)
+
+*Last updated: 4 July 2026*

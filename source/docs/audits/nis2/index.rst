@@ -40,3 +40,5 @@ framing.
                 <a href="https://tymyrddin.dev/contact/">Find a river guide</a>
             </div>
         </div>
+
+*Last updated: 4 July 2026*

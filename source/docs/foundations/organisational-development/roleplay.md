@@ -59,3 +59,5 @@ differently?" The survival stances can be named without blame, as Satir intended
 noticed the conversation moved away from the uncomfortable point, what was going on for you there?" This requires a
 facilitator who is attending to the emotional and political layers of the room, not just the content of the exercise.
 
+
+*Last updated: 4 July 2026*

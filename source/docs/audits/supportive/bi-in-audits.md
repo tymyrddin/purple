@@ -64,3 +64,5 @@ part of the demonstration that monitoring is real; where they are not, it is dec
 * [Evidence](evidence.md)
 * [Continuous compliance monitoring](continuous-monitoring.md)
 * [EU regulations reference](eu-regulations.md)
+
+*Last updated: 4 July 2026*

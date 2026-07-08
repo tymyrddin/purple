@@ -24,7 +24,7 @@ organisation were a rational actor that responds predictably to documentation.
 
 ## Who needs to be in the room
 
-The exercises in this section require the people who know what the organisation depends on (operational knowledge), the
+The exercises require the people who know what the organisation depends on (operational knowledge), the
 people who understand what threatens it (technical and threat intelligence knowledge), and the people who have the
 authority to make decisions about treatment (decision-making authority).
 
@@ -47,3 +47,5 @@ findings with timelines are not producing risk management. They are producing ri
   requirements of information security management.
 - [NIS2 compliance](../audits/nis2/river.md) shows how critical asset analysis connects to the proportionate measures
   required for essential and important entities.
+
+*Last updated: 8 July 2026*

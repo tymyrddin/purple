@@ -19,3 +19,5 @@ Advice does not sign decisions.
    foresight.md
    the-room.md
    checking-your-working.md
+
+*Last updated: 26 May 2026*

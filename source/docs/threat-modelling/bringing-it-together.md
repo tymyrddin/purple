@@ -61,3 +61,5 @@ threat model whose highest-priority findings have no owner is a document, not a 
 
 What remains is [crafting scenarios](crafting-scenarios.md) for the priority paths,
 then [building the model](building-model.md): assembling everything into something an owner can maintain.
+
+*Last updated: 3 July 2026*

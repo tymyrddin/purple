@@ -45,3 +45,5 @@ The insider threat scenario is uncomfortable because it requires holding two thi
 ## Outputs
 
 A clear record of detection timing and what triggered it. An assessment of whether cross-team response coordination between security, HR, and legal is functional or theoretical. Any clarification needed on account access revocation authority. Specific monitoring improvements that would enable earlier detection of the behaviours exhibited.
+
+*Last updated: 3 July 2026*

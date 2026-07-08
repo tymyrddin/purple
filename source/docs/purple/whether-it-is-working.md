@@ -35,3 +35,5 @@ teaches everyone to surface fewer of them next time.
 - [Whether you are ready](whether-you-are-ready.md)
 - [What it leaves behind](what-it-leaves-behind.md)
 - [SOC maturity](../incident-response/soc/maturity.md)
+
+*Last updated: 3 July 2026*

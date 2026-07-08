@@ -65,3 +65,5 @@ It is how capable organisations work: iteratively, with each intervention produc
 - [The change workshop](../foundations/change-management/what-it-is.md)
 - [Problem solving applied to security work](../foundations/problem-solving/in-security.md)
 - [Objectives](objectives.md)
+
+*Last updated: 4 July 2026*

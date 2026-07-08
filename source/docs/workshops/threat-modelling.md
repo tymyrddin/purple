@@ -4,8 +4,8 @@ Threat modelling asks who would attack a system, how they would go about it, and
 did. Run as a workshop rather than a solo analyst's write-up, it does what the solo version cannot: it builds
 a shared picture across the people who operate the system, the people who built it, and the people
 responsible for defending it, and it surfaces the disagreements and blank spots that mark where the real work
-is. The full process lives in [its own section](../threat-modelling/choreography.md); what follows is where it
-sits among the analytical processes.
+is. The full process lives in [threat modelling choreography](../threat-modelling/choreography.md); the
+question here is where it sits among the analytical processes.
 
 A threat model is a model, accurate at the moment it is drawn and drifting from then on. It encodes
 assumptions about who the adversaries are, what they want, and which paths are open to them, and a model left
@@ -19,3 +19,5 @@ straight into a threat model of that attacker's likely approach. Backward planni
 paths as an input, since they shape what a desired security posture even means. And a retrospective closes the
 loop: after an exercise or a real incident, it asks whether the model held and what needs redrawing.
 
+
+*Last updated: 8 July 2026*

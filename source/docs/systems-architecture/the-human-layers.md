@@ -33,3 +33,5 @@ A quality that produces honest and durable architectural practice is congruence:
 Congruence is not the same as rigidity. A congruent architect can change their mind, revise their designs, and acknowledge when they were wrong, because those are honest responses to new information. What they do not do is present a position they do not hold, agree in the room and disengage afterwards, or retreat into technical formalism to avoid the harder conversation.
 
 Creating the conditions for congruent architectural practice is partly individual habit and partly organisational culture. In environments where architectural error is career-consequential, architects will learn to protect their positions rather than report them honestly. In environments where finding the model failure is valued more than appearing to have had the right model all along, the same architects will produce more accurate architectures faster.
+
+*Last updated: 4 July 2026*

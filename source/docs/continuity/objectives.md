@@ -69,3 +69,5 @@ objectives are shorter than the work would justify.
 - [Degraded operations](degraded.md)
 - [Risk assessment](../risk-management/risk-assessment.md)
 - [Choreography of risk to operations](../risk-management/to-operations.md)
+
+*Last updated: 9 May 2026*

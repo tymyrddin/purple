@@ -32,3 +32,5 @@ Automate the steps that do not require human judgement: log collection, initial 
 
 The goal of automation is to reduce the cognitive load on analysts during routine handling so that more attention is available for the events that genuinely require it. Automation that replaces human oversight on consequential decisions is a different thing, and a risk in its own right.
 
+
+*Last updated: 4 July 2026*

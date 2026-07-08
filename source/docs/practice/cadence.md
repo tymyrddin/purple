@@ -32,3 +32,5 @@ logged and owned. The second, same scenario, reached the SOC in minutes, so that
 evidence rather than assurance. The third surfaced what the first two could not: the bridge now worked,
 but a payment gateway outsourced since the last run had no place in the runbook at all. The value was not
 in any single quarter. It was in the line the three drew.
+
+*Last updated: 2 July 2026*

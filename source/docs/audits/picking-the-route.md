@@ -1,10 +1,10 @@
 # Picking the route
 
-Four journeys live in this section: a mountain, a river, a fortress, and a factory. Choosing which to walk, and
+Four journeys are on offer: a mountain, a river, a fortress, and a factory. Choosing which to walk, and
 in what order, is a strategic decision that rarely gets made strategically. In practice, it is made by
 whichever standard arrives first: a customer questionnaire, a regulator's letter, a consultant with a favourite
-slide deck. The arrival order of paperwork is not a strategy. (These pages are, admittedly, also a consultant's
-slide deck. At least this one names the routes it is not selling.)
+slide deck. The arrival order of paperwork is not a strategy. (This map is, admittedly, also a consultant's
+slide deck. At least it names the routes it is not selling.)
 
 ## What each route is for
 
@@ -31,7 +31,7 @@ across a contract, increasingly common as supply chain clauses propagate; third-
 and supervisory, a regulator with statutory powers, of which the NIS2 crossing is the local example. 
 
 Beyond
-this section's four sit others an executive is likely to meet: SOC 2 where customers, often American ones, ask
+these four sit others an executive is likely to meet: SOC 2 where customers, often American ones, ask
 for an assurance report rather than a certificate; DORA for financial entities, with its own ICT risk and
 resilience testing expectations; data protection audits under GDPR; sector schemes such as TISAX in automotive.
 
@@ -62,7 +62,7 @@ well across two simultaneous certification programmes.
 
 * Certificate collecting. Audits acquired as trophies, each with its own binder, none changing how anyone works. The
   wall gets fuller, the organisation does not get safer, and everyone quietly knows it.
-* The one exhausted person. Every standard in this section assumes an organisation carries it. When a single coordinator
+* The one exhausted person. Every one of these standards assumes an organisation carries it. When a single coordinator
   carries all of it, the programme's real single point of failure is on the payroll, and no business continuity plan
   mentions them.
 * The consultant's favourite. The standard chosen because the adviser knows it well, rather than because the risk asks
@@ -79,3 +79,5 @@ attention will still be there in year two, when the novelty is gone and the surv
 standards themselves assume this layer exists and works; the [second foundation](../asimov/second-foundation.md)
 is a name for why that assumption is the one most worth checking first. An organisation that picks its route by
 its own carrying capacity, rather than by the brochure, tends to arrive.
+
+*Last updated: 8 July 2026*

@@ -37,3 +37,5 @@ access controls and audit trail that implies.
 - [Cloud recon runbooks](https://red.tymyrddin.dev/docs/in/cloud/runbooks/index.html)
 - [Cloud misconfigurations](https://red.tymyrddin.dev/docs/in/cloud/notes/misconfigurations.html)
 - [Why cloud environments are hard to test](https://red.tymyrddin.dev/docs/in/cloud/notes/challenges.html)
+
+*Last updated: 3 July 2026*

@@ -36,3 +36,5 @@ Reflection generates feedback not only for individual learners but for the learn
 
 This closes the loop between [the prepared environment](prepared-environment.md) and the learning that happens in it. The environment is designed, the learning happens, the reflection surfaces what the design produced, and the environment is adjusted. The programme improves not through a periodic curriculum review but through continuous observation and adjustment, which is the Montessori method applied to the programme as a whole rather than to individual learners.
 
+
+*Last updated: 2 July 2026*

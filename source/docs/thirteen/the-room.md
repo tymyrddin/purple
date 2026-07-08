@@ -107,3 +107,5 @@ the condition under which the assessment was valid, and the fact that the summar
 carry it. That note is the only accurate reconstruction of what was said. It is not a guarantee
 that the record will be corrected. But it is available, with a timestamp, when the conversation
 about what was said eventually happens.
+
+*Last updated: 26 May 2026*

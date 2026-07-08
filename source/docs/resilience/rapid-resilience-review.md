@@ -24,7 +24,7 @@ at which point three directors deferred to a finance lead who was not in the ses
 escalation path; the scenario found it ran to someone who, on the day, would be on a plane. Surfacing
 that was the review's return.
 
-What follows is an executive dashboard: the top few risks in plain language, the current posture read
+The deliverable is an executive dashboard: the top few risks in plain language, the current posture read
 as ready, partial or exposed, and the decisions leadership owns on investment, staffing and strategy.
 It is built to be read and acted on in ten minutes.
 
@@ -34,3 +34,5 @@ Run once, the review is a photograph of a moving thing. Set on a quarterly or an
 can become a shared language a board can use to track whether the posture is improving, and a standing
 point of contact with the [loop](../purple/running-the-loop.md) running below it, where the same risks
 are exercised at the console rather than described in the boardroom.
+
+*Last updated: 8 July 2026*

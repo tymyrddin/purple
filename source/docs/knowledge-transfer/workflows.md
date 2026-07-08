@@ -65,3 +65,5 @@ and for whom?
 * Endpoint security consoles
 
 If a workflow requires opening yet another tool, it will die quietly and alone.
+
+*Last updated: 4 July 2026*

@@ -33,7 +33,7 @@ the policy requires it but because it is the obvious thing to do. Where a post-i
 failure analysis not because the facilitator has established psychological safety but because honesty is the
 cultural default.
 
-The [phishing programme](../social-engineering/phishing-programme.md) described elsewhere in this collection has a new 
+The [phishing programme](../social-engineering/phishing-programme.md) has a new 
 status quo that gestures toward this: security becomes a background habit, people discuss phishing attempts in normal 
 team meetings, participants who have played attacker become the most reliable reporters. That is a small-scale Gaia. 
 It took months of deliberate work to produce it. It is also reversible, which Gaia, by design, is not.
@@ -80,3 +80,5 @@ suggest the plan was the deviation.
 - [Why phishing simulations often fail](../social-engineering/why-simulations-fail.md)
 - [Building a phishing programme that actually works](../social-engineering/phishing-programme.md)
 - [Organisational risk audits & resilience assessments](../resilience/index.rst)
+
+*Last updated: 8 July 2026*

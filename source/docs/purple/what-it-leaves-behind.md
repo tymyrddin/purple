@@ -36,3 +36,5 @@ recovery, the slow baseline.
 - [Running the loop](running-the-loop.md)
 - [Whether it is working](whether-it-is-working.md)
 - [Playbooks the team will follow](../workshops/collaborative-playbooks.md)
+
+*Last updated: 3 July 2026*

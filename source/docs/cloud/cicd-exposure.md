@@ -47,3 +47,5 @@ rarely visible until the migration becomes urgent for other reasons.
 - [Multi-cloud and on-prem CI/CD deployment](https://blue.tymyrddin.dev/docs/dev/devsecops/cicd/next.html)
 - [Foundation for a secure GCP deployment pipeline](https://blue.tymyrddin.dev/docs/dev/devsecops/gcp/pipeline.html)
 - [Big tech cloud exit checklist](https://blue.tymyrddin.dev/docs/dev/devsecops/cicd/exit-checklist.html)
+
+*Last updated: 3 July 2026*

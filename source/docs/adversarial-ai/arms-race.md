@@ -65,7 +65,7 @@ measurement of a threshold is fragile when the threshold cannot be measured from
 Those measures are the product of successful deterrence, which requires the red lines already to be in place.
 
 Beneath all four: deterrence depends on observability, attribution, and shared understanding of what constitutes a
-trigger. AI sabotage, as described throughout this section, is designed to evade all three. A poisoned model looks like
+trigger. AI sabotage is designed to evade all three. A poisoned model looks like
 bad training data. An extracted model looks like legitimate API use. Without observable thresholds, credible
 attribution, and agreed triggers, MAIM remains a posture rather than a mechanism.
 
@@ -166,3 +166,5 @@ error.
 If the best deterrence framework available is structurally weak, and the technology it is meant to govern is already
 being used in active conflicts ... what does that mean for what comes next?
 
+
+*Last updated: 8 July 2026*

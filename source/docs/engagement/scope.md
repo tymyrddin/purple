@@ -30,3 +30,5 @@ How far can the engagement go after initial access? The answer to this question 
 - [Rules of engagement](rules.md)
 - [Safety and risk management](safety.md)
 - [Systems, models, and errors](../foundations/system-effectiveness/core-triad.md)
+
+*Last updated: 4 July 2026*

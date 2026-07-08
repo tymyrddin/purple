@@ -40,3 +40,5 @@ Translation is presentation. It labels the behavioural evidence in the terms a s
 files a pointer to it. The risk worth watching is letting the labelling become the work, at which point
 the evidence can slide back into a claim on paper. Kept in the organisation's own rhythm, the same run of
 tests that made it more resilient is what it shows the auditor.
+
+*Last updated: 2 July 2026*

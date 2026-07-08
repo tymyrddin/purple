@@ -50,3 +50,5 @@ The exercise splits into parts, so the intensity and duration fit what the team 
 What a run leaves behind, a team-specific incident playbook, an owned improvement backlog, a recorded
 decision timeline, stays with the team and feeds the next round rather than settling into a report filed
 elsewhere.
+
+*Last updated: 3 July 2026*

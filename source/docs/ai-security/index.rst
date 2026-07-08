@@ -42,3 +42,5 @@ heading, can be found in the blue notes:
    integration.md
    external.md
    policy.md
+
+*Last updated: 4 July 2026*

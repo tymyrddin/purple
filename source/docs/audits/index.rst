@@ -36,3 +36,5 @@ it, can be found in :doc:`resilience assessments </docs/resilience/index>`.
                 <a href="https://tymyrddin.dev/contact/">Compare notes first</a>
             </div>
         </div>
+
+*Last updated: 4 July 2026*

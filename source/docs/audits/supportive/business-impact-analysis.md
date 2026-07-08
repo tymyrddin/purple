@@ -4,7 +4,7 @@ A business impact analysis answers two questions the rest of continuity planning
 organisation not afford to lose, and for how long? It is the instrument that turns an asset register into
 recovery priorities, and every continuity number worth defending (tolerable downtime, recovery targets, backup
 cadence) traces back to it. The [storm charts](../iso22301/storm-charts.md) stage leans on it and NIS2's
-business continuity measure assumes it; this page owns the craft.
+business continuity measure assumes it.
 
 ## The numbers a BIA produces
 
@@ -105,3 +105,5 @@ organisation has promised to whom.
 * [Risk scoring](risk-scoring.md)
 * [Interview and workshop facilitation](interview-facilitation.md)
 * [Supply chain and third-party risk](supply-chain.md)
+
+*Last updated: 8 July 2026*

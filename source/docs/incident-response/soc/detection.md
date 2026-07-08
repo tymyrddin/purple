@@ -47,3 +47,5 @@ Regular joint exercises keep the handover process functional. The first time a h
 conditions is too late to discover that the communication channels are unclear or that the information the SIRT 
 expects is not in the format the SOC provides.
 
+
+*Last updated: 3 July 2026*

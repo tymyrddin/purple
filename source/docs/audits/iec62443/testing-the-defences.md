@@ -55,3 +55,5 @@ actions with retest status, and a body of effectiveness evidence. That body of e
 * [ISO 22301 Running the drills](../iso22301/drills.md)
 * [Unseen University Power & Light Co. IT/OCS pentest](https://red.tymyrddin.dev/docs/power/)
 * [Gap analysis](../supportive/gap-analysis.md)
+
+*Last updated: 4 July 2026*

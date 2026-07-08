@@ -48,3 +48,5 @@ loop sits in the :doc:`Crucible </docs/crucible/purple-teaming>`.
                 <a href="https://tymyrddin.dev/contact/">Start the learning loop</a>
             </div>
         </div>
+
+*Last updated: 2 July 2026*

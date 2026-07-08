@@ -29,3 +29,5 @@ The learning-environment version of this, for technical practice, is the CTF
 where the debrief also has to settle the disturbance a hard scenario can leave behind, is in
 [facilitator guidance](../incident-response/facilitator-guidance.md). What a debrief harvests only counts
 if it then travels, which is where [acting on findings](acting-on-findings.md) picks up.
+
+*Last updated: 4 July 2026*

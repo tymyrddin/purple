@@ -50,3 +50,5 @@ The security version is this: how a security team is experienced by the rest of 
 information reaches it. A team that is experienced as judgemental, obstructive, or disconnected from operational reality
 is likely to be [managed, not collaborated with](in-security.md). That is a capability gap.
 
+
+*Last updated: 1 July 2026*

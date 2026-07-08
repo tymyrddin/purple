@@ -1,8 +1,8 @@
 # Building a phishing programme
 
-The redesign of a phishing simulation programme follows the [change arc](../foundations/organisational-development/satir-change-model.md) described elsewhere in these foundations.
-This page covers what each phase looks like in practice, and what a programme built on genuine attacker
-techniques requires to operate.
+The redesign of a phishing simulation programme follows the [change arc](../foundations/organisational-development/satir-change-model.md).
+Each phase looks different in practice, and a programme built on genuine attacker techniques has its own
+operating requirements.
 
 ## Purple team sessions as the foundation
 
@@ -90,3 +90,5 @@ detection gaps become tuning cases rather than abstract concerns.
 
 This is no longer a training programme measured by a click-rate chart. It is a continuous, live test of the
 organisation as a system, detection, reporting, response, and adaptation all running together.
+
+*Last updated: 8 July 2026*

@@ -58,3 +58,5 @@ expectations of the proposed one.
 
 This overlaps directly with [ChangeShop](../change-management/what-it-is.md): the resistance is a map. The question is what it maps.
 
+
+*Last updated: 1 July 2026*
