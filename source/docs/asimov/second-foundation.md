@@ -29,7 +29,7 @@ for change) can be identified.
 
 Second foundation work in security is less visible than the first because it does not produce outputs that
 look like security outputs. It can produce a team that reports problems honestly instead of managing upward. It
-can produce an incident debrief in which people say what they actually observed rather than what they think they
+can produce an incident debrief in which people say what they actually observed, unedited by what they think they
 should have observed. It can produce an organisation in which the security function learns from its own failures
 rather than repeating them on a quarterly cycle with better documentation.
 
@@ -56,10 +56,10 @@ right to steer the larger group who did not. They were probably correct, within 
 Making the model's own assumptions the problem.
 
 In security, an equivalent is the security team that treats human behaviour as a variable to be managed
-rather than a perspective to be taken seriously. An awareness training that is designed to produce compliance
+instead of a perspective to be taken seriously. An awareness training that is designed to produce compliance
 rather than understanding. A phishing simulation programme that measures click rates without asking whether
 the people clicking have been given any real understanding of why the current techniques are hard to spot. The
-purple team exercise designed to produce a finding that justifies a budget request rather than to discover what
+purple team exercise designed to produce a finding that justifies a budget request, whatever
 is actually true about the organisation's resilience.
 
 The second foundation work is intended to create conditions for people to develop genuine capability. It risks 

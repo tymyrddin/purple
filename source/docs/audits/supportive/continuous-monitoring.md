@@ -91,11 +91,11 @@ eighteen months ago that found no exploitable paths provides limited assurance i
 substantially. A tabletop exercise that tested the incident response procedure last quarter provides more
 current assurance than one from two years ago.
 
-Scheduling simulation activities as part of the compliance calendar, rather than treating them as one-off
-events, converts them into an ongoing evidence stream. The [stress-testing](../../resilience/stress-testing.md)
+Scheduling simulation activities as part of the compliance calendar converts them into an ongoing
+evidence stream. The [stress-testing](../../resilience/stress-testing.md)
 format is designed to run on a recurring basis for exactly this reason: each run either confirms that the
 previous findings were addressed or surfaces new ones, and the sequence constitutes a testable compliance
-record rather than a single data point.
+record.
 
 ## Related
 

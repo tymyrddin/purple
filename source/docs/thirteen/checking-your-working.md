@@ -98,7 +98,7 @@ landscape has shifted in ways that are visible in other parts of the institution
 not been incorporated into this assessment. The counterfactual, what would have occurred without
 the programme, is assumed rather than argued.
 
-Examining these: the success indicators were chosen to demonstrate activity rather than impact.
+Examining these: the success indicators were chosen to demonstrate activity, with impact left unmeasured.
 The threat has evolved beyond the programme's original framing. Outcomes attributed to the
 programme include effects that may have other causes. None of this appeared in the assessment
 because none of it was examined.

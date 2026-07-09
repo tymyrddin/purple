@@ -57,7 +57,7 @@ correctly identified, accurately described, properly referenced. Necessary, but 
 producing change.
 
 The emotional layer is how the finding lands for the team it implicates. A finding that names a department's
-process as non-compliant can be heard as a judgement of that team rather than an observation about a control.
+process as non-compliant can be heard as a judgement of that team when it was an observation about a control.
 How the finding is communicated internally determines whether the conversation that follows is about the
 problem or the framing.
 
@@ -91,7 +91,7 @@ destabilising event. The chaos phase that follows is structural, not a sign that
 the auditor was unreasonable.
 
 The organisations that work through the chaos phase are the ones that treated findings as observations about
-the system rather than verdicts about people, staged the response rather than attempting to address everything
+the system rather than verdicts about people, staged the response instead of attempting everything
 at once, and supported the people responsible for remediation through the difficult period where things look
 worse before they look better.
 
@@ -102,7 +102,7 @@ what that period looks like and why retreating from it is the more expensive opt
 
 Findings received from an external auditor or supervisory authority need to reach different internal audiences
 in different forms. The same finding means different things to different people, and a report shared without
-translation often produces paralysis or defensiveness rather than action.
+translation often produces paralysis or defensiveness.
 
 | Audience                 | What they need from a finding                                                                                            |
 |:-------------------------|:-------------------------------------------------------------------------------------------------------------------------|

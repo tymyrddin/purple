@@ -32,7 +32,7 @@ is being done at the depth the cases suggest is needed.
 
 ## Framework gap
 
-Standard security frameworks tend to focus on internal IT and physical perimeters. They rarely cover
+Standard security frameworks focus on internal IT and physical perimeters. They rarely cover
 correlated public-data exposure, because the risk does not present at the perimeter. It presents in the publication
 choices of organisations that may not consider themselves part of the security stack at all: planning offices, water
 boards, procurement aggregators.
@@ -69,7 +69,7 @@ The political layer is turf: the Ministry of Defence, the MIVD, gemeenten, water
 none of whom currently own the cross-domain question.
 
 The emotional layer is the discomfort of being seen as adversarial inside an institution whose default posture is
-defensive. Hiring systems thinkers rather than compliance auditors is a right instinct in the wrong domain. The people
+defensive. Hiring more systems thinkers over compliance auditors is a right instinct in the wrong domain. The people
 are findable. The system that would have to host them is the harder bet.
 
 ### Models, errors, and the same incident in slightly different clothes
@@ -83,11 +83,11 @@ clothes.
 
 ### Survival stances under classification pressure
 
-Raise aggregation risk inside a classified-handling culture and the response tends to fall into two grooves.
+Raise aggregation risk inside a classified-handling culture and the response usually falls into two grooves.
 [The survival-stance vocabulary](../foundations/organisational-development/satir-core.md) names them blaming
-and computing. Blaming directs fault at the journalist, the activist, the contractor, rather than at
+and computing. Blaming directs fault at the journalist, the activist, the contractor, anywhere except
 the publication system that produced the aggregation. Computing retreats into procedure (the document was correctly
-handled under regulation X) rather than engaging with what was actually exposed. Both are honest survival behaviours,
+handled under regulation X), away from what was actually exposed. Both are honest survival behaviours,
 and both block the conversation that would change the model. Naming the stance is often the cheapest move available.
 
 ## Demands on practitioners
@@ -112,11 +112,11 @@ that from happening:
   act on this" lands differently from one that just says "here is what we found." If no such group exists, building it
   is part of the work, not preparatory to it.
 - Name the political layer in the document itself. A reader can react to a stated political fact. A reader forced to
-  infer one tends to react to the analysis instead.
+  infer one is apt to react to the analysis instead.
 - Pre-name the survival stances. "This is likely to read as an attack on the publication system. It is not, and here is
   why." Naming what is about to happen usually defuses the reaction it predicts.
 
-None of this removes the discomfort. The point is to make the discomfort discussable rather than letting it route the
+None of this removes the discomfort. The point is to make the discomfort discussable before it routes the
 response.
 
 *Last updated: 8 July 2026*

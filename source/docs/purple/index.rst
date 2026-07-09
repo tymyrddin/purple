@@ -12,9 +12,9 @@ detections against the threats it can imagine, and meets the ones it could not t
 each side learns while the other is still in the room, and the conditions under which a detection fails become
 visible to the people who could fix it.
 
-Done well, it shows what the defences actually catch rather than what they were hoped to catch, and narrows
+Done well, it replaces what the defences were hoped to catch with what they actually catch, and narrows
 the gap between finding a weakness and being able to act on it. What emerges over several rounds is coverage
-that reflects real behaviour rather than configuration intent, a shared vocabulary across the two sides, and
+that reflects real behaviour instead of configuration intent, a shared vocabulary across the two sides, and
 investment decided by what the organisation has been shown to be exposed to rather than by what is being sold
 to it.
 
@@ -27,7 +27,7 @@ the pattern for every one after it. And the exercise has to be built to find wha
 ready for, not to confirm what it already knows: a programme designed to succeed will succeed, and teach
 nothing.
 
-When those conditions hold, the rest is craft. Run as a live or tabletop exercise rather than read about, the
+When those conditions hold, the rest is craft. Run as a live or tabletop exercise, the
 loop sits in the :doc:`Crucible </docs/crucible/purple-teaming>`.
 
 .. toctree::

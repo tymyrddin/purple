@@ -1,7 +1,7 @@
 # Learning culture
 
 [Cross-training](rotation.md) takes hold where the surrounding culture supports it: where [continuous learning is normal](../../incident-response/sirt/learning.md), where failure
-is safe, and where collaboration is default rather than exception. Without those conditions training happens
+is safe, and where collaboration is the default. Without those conditions training happens
 and capability building does not.
 
 ## Psychological safety
@@ -13,7 +13,7 @@ one. Teaching others is recognised as real work; hoarding knowledge, however qui
 
 ## Time and resource allocation
 
-None of this survives contact with a calendar that has no room in it. Protected learning time, scheduled rather than
+None of this survives contact with a calendar that has no room in it. Protected learning time, scheduled instead of
 fitted in when nothing else is pressing, signals that the work is real. So does a budget that reaches external courses,
 conferences, lab infrastructure, and tools. [Development goals that connect to both the role](self-directed.md) and a person's own
 trajectory give the time somewhere to go. And leaders who visibly learn, and talk about their own development, make it
@@ -24,9 +24,9 @@ easier for everyone else to admit they are still learning too.
 Knowledge moves through a team by specific mechanisms, not by osmosis. Informal lunchtime sessions where someone shares
 what they have been working on. Internal wikis that document techniques, tools, and procedures in a form others can
 actually find. Show-and-tell of new skills, interesting findings, or projects that worked. Mentorship that pairs less
-and more experienced people for sustained transfer rather than a single introduction. And external sharing, through [blog
+and more experienced people for sustained transfer. And external sharing, through [blog
 posts](https://broomstick.tymyrddin.dev), talks, or [open-source contributions](https://github.com/tymyrddin/), 
-which builds reputation while forcing a clarity that tends to arrive only when something has to be explained 
+which builds reputation while forcing a clarity that arrives only when something has to be explained 
 to strangers.
 
 ## Recognition and rewards
@@ -40,7 +40,7 @@ quite efficiently.
 ## Integration with daily work
 
 Learning that is not used decays. Connecting training to current projects, presenting what was learned so the knowledge
-multiplies rather than staying with one person, tracking how cross-training shows up in actual security outcomes, and
+multiplies, tracking how cross-training shows up in actual security outcomes, and
 building regular occasions to practise: these keep a new capability from quietly atrophying. Skills go unused and are
 lost, usually faster than anyone expects.
 

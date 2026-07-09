@@ -20,7 +20,7 @@ Trade-offs made once are never revisited. The decision was made three years ago 
 
 Whoever is under the most immediate pressure makes the call. When the system is slow, the team under performance pressure removes the security control. When the audit is approaching, the security team re-enables it. When there is a reliability incident, the operations team takes the path of least resistance regardless of its security properties. These are not individual failures. They are what happens when a decision that requires authority across multiple domains is left to whoever is currently most uncomfortable with it.
 
-The failure modes that have not been experienced are not modelled. Reliability work tends to defend against the failure modes that have already occurred. Security incidents frequently exploit the failure modes that have not been modelled, because adversaries are not constrained to cause the failures the organisation has previously observed. A reliability architecture built exclusively on experience is a model of past failures, not of future ones.
+The failure modes that have not been experienced are not modelled. Reliability work defends against the failure modes that have already occurred. Security incidents frequently exploit the failure modes that have not been modelled, because adversaries are not constrained to cause the failures the organisation has previously observed. A reliability architecture built exclusively on experience is a model of past failures, not of future ones.
 
 ## The [SEM](../foundations/system-effectiveness/index.rst) view
 
@@ -28,7 +28,7 @@ Each of the three properties is a model. Reliability expresses a model of how th
 
 When they conflict, the conflict is a model problem. The reliability model encoded assumptions about failure modes that the security model shows are exploitable. The performance model encoded assumptions about acceptable latency that the security model shows are incompatible with the required controls. Treating these conflicts as implementation problems, to be resolved by whoever is under the most pressure, produces systems where the models are separately coherent and collectively incoherent.
 
-A [SEM response](../foundations/system-effectiveness/index.rst) is to make the assumptions in each model explicit and to examine the conflicts between them as a design activity rather than an operational emergency. The trade-off is a design decision. It belongs in the architecture, with its reasoning documented, its owner identified, and its trigger for revisit specified. A trade-off that has drifted out of alignment with current conditions is a model failure, and model failures recur until the model is corrected.
+A [SEM response](../foundations/system-effectiveness/index.rst) is to make the assumptions in each model explicit and to examine the conflicts between them as a design activity, before they become an operational emergency. The trade-off is a design decision. It belongs in the architecture, with its reasoning documented, its owner identified, and its trigger for revisit specified. A trade-off that has drifted out of alignment with current conditions is a model failure, and model failures recur until the model is corrected.
 
 ## The [homeostasis](../foundations/change-management/index.rst) view
 
@@ -48,7 +48,7 @@ The [three-layer frame](../foundations/problem-solving/index.rst) notes:
 
 ## The [congruence](../foundations/organisational-development/satir-core.md) view
 
-Architecture reviews of systems with contested trade-offs tend to produce [survival stances](../foundations/organisational-development/satir-core.md) rather than honest 
+Architecture reviews of systems with contested trade-offs are prone to produce [survival stances](../foundations/organisational-development/satir-core.md) instead of honest 
 engagement. The computing stance produces technically accurate accounts of each property's requirements without 
 addressing the conflict between them: the security section describes the security requirements, the performance 
 section describes the performance requirements, and nobody in the room names that they are incompatible in the 
@@ -62,7 +62,7 @@ should be properly addressed, followed by no change in the design.
 Congruent engagement with a trade-off means naming it directly: this design makes a choice, here is what the choice is, 
 here are the conditions under which that choice is defensible, and here is who is accountable for it. That naming 
 is uncomfortable because it makes the accountability explicit. It is also the only thing that allows the decision 
-to be made properly rather than deferred until circumstances make it for the organisation.
+to be made properly, before circumstances make it for the organisation.
 
 ## Limits of compliance
 

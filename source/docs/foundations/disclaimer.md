@@ -9,8 +9,7 @@ also limited in specific ways that are worth being clear about before applying a
 They offer ways of seeing. The [Satir Change Model](organisational-development/satir-change-model.md) makes the chaos phase of a transition visible and names it
 as structural rather than exceptional. [ChangeShop](change-management/what-it-is.md) makes the homeostatic resistance of organisations visible and
 names it as systemic rather than personal. [Problem-solving frameworks](problem-solving/index.rst) make the gap between desired state and
-currently perceived state visible, and can help name the problem as the normal starting condition rather than an 
-anomaly.
+currently perceived state visible, and can help name the problem as the normal starting condition.
 
 Applied to security, these lenses change what gets looked at. They make the political layer of a security problem
 visible alongside the technical one. They make communication patterns visible as a factor in whether honest
@@ -34,13 +33,13 @@ describe patterns and dynamics. How those patterns apply in a particular organis
 with a particular set of constraints, requires judgement that no framework can provide in advance.
 
 They do not guarantee outcomes. The Satir model implies that organisations which survive the chaos phase
-tend to reach a new and often better equilibrium. Often, not always. It does not guarantee that every organisation will get there,
+reach a new and often better equilibrium. Often, not always. It does not guarantee that every organisation will get there,
 or that the new equilibrium will be better in all respects, or that the change will produce the results it was
 designed for. New status quos can be worse than old ones, or only differently problematic. The model maps
-what tends to happen; it does not determine what will.
+what usually happens; it does not determine what will.
 
 They cannot substitute for the relational and structural work of change. Knowing that resistance is information
-rather than obstruction does not remove the difficulty of working with people who are resistant. Knowing that
+does not remove the difficulty of working with people who are resistant. Knowing that
 the chaos phase is expected does not make it easier to hold an organisation's nerve during it. The frameworks
 point toward the work. They do not do the work.
 

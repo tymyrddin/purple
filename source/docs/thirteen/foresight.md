@@ -1,6 +1,6 @@
 # Before the decision lands
 
-Two practices that belong before commitment rather than after, and that feed each other. Writing
+Two practices that belong before commitment, and that feed each other. Writing
 the failure account in advance. Naming the conditions that would shift the judgement.
 
 ## Pre-mortem
@@ -15,7 +15,7 @@ is made.
 
 ## Shape of institutional failure
 
-Failure tends toward particular shapes worth writing to specifically.
+Failure runs to particular shapes worth writing to specifically.
 
 An oversight review that finds: "The advice provided to the governing body correctly identified
 the primary risk. It did not identify the secondary condition that, in the event, determined the
@@ -75,11 +75,11 @@ specifically.
 Named in advance, these do two things. They are more honest than waiting for surprise to revise
 a judgement, because the conditions for revision are set before any pressure exists to hold the
 original position. And they give the brief a second life: the original assessment becomes a
-tracking document, revisable against the named conditions rather than simply ageing out of
+tracking document, revisable against the named conditions instead of simply ageing out of
 relevance.
 
 Positions once agreed often generate their own inertia. A position assessed as accurate at the
-time of agreement tends to get carried forward regardless of whether the indicators that would
+time of agreement gets carried forward regardless of whether the indicators that would
 have changed it have since materialised. Naming the indicators in the brief is not a guarantee
 that the institution will act on them. It is a record that the advisor identified them.
 

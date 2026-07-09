@@ -23,7 +23,7 @@ The Satir OD critique is not of the training format but of the underlying model:
 information to be deposited rather than a capacity to be developed. Information degrades. Capacity is more durable.
 
 A more durable approach combines occasional purple team sessions where staff experience both attacker and defender 
-perspectives, with regular simulations that run against live defences using current threat intelligence rather than 
+perspectives, with regular simulations that run against live defences using current threat intelligence instead of 
 archetypal scenarios. Staff see results in real time, practise actual responses, and understand why certain behaviours 
 count in terms of what they would actually prevent. Metrics track not only click rates and reports but filter 
 effectiveness and how quickly unusual activity is noticed and escalated. The goal is not zero clicks but fast 
@@ -48,8 +48,8 @@ incident carries disproportionate share of that workload. People make rational d
 actual culture, not the stated one.
 
 Changing reporting behaviour requires changing the actual culture, not reinforcing the stated one. That means 
-post-incident processes that produce learning rather than blame, near-miss reporting that produces visible improvement 
-rather than invisible remediation, and leadership behaviour that models the honesty it requires of others.
+post-incident processes that produce learning rather than blame, near-miss reporting that produces visible improvement, 
+and leadership behaviour that models the honesty it requires of others.
 
 Satir's contribution here is the observation that this is not primarily a policy design problem. It is a 
 relationship and trust problem. The conditions for honest reporting are built through the accumulated experience of 

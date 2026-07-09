@@ -34,7 +34,7 @@ be true. The response to that finding is to correct the model, not to repeat the
 
 ## The architect as model maintainer
 
-Understanding architecture as model maintenance rather than one-time design production changes what the role requires. 
+Understanding architecture as model maintenance changes what the role requires. 
 The initial design is the beginning of the work, not its completion.
 
 Model maintenance means: reviewing the architecture against the actual system at regular intervals, treating 

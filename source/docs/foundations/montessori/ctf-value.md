@@ -17,8 +17,7 @@ them to develop or apply a technique, and that reveals something about how the t
 
 Self-directed learning in a CTF means that the participant decides which challenges to attempt, in which order, and how
 long to spend. This is not the same as unconstrained freedom. The environment is structured. But within that structure,
-the participant governs their own path. This is the point: the motivation to keep going comes from the work itself
-rather than from external obligation.
+the participant governs their own path. This is the point: the motivation to keep going comes from the work itself.
 
 Hands-on concrete experience is what distinguishes a CTF from a course. The participant does not study a technique. They
 apply it, discover what it does and does not do, and update their understanding in response. The gap between what they
@@ -56,7 +55,7 @@ detection opportunity did it create, and what does this change about how you wou
 environment.
 
 These are not questions with correct answers. They are questions that make the experience explicit, so that the learning
-is portable rather than locked in the specific context of the challenge.
+is portable.
 
 The [Montessori reflection principle](reflection.md) applies here. A facilitator's role in the debrief is to ask the questions that
 help participants articulate what they learned, not to explain what the right answer was. Participants who solve the
@@ -64,8 +63,7 @@ challenge differently from the intended path have often learned more than those 
 
 ## Where CTFs fail
 
-[Over-gamification](gamified-scenarios.md) is a common failure mode. When the objective becomes solving challenges for points rather than
-understanding what the challenges reveal, participants optimise for the flag rather than the learning. Leaderboards and
+[Over-gamification](gamified-scenarios.md) is a common failure mode. When the objective shrinks to solving challenges for points, participants optimise for the flag rather than the learning. Leaderboards and
 time pressure can drive this. An antidote is a debrief that treats the question "what did you learn" as more important
 than the final score.
 

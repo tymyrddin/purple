@@ -31,8 +31,8 @@ practices around existing systems that a new design will disrupt.
 
 None of this is irrational. The emotional responses to architectural change reflect real considerations about 
 competence, identity, and continuity. An architect who treats these responses as obstacles to be overcome, rather 
-than as information about the implementation landscape, will encounter resistance that grows rather than diminishes. 
-The same design, arrived at in a way that acknowledged those concerns rather than bypassing them, often produces 
+than as information about the implementation landscape, will encounter resistance that grows. 
+The same design, arrived at in a way that acknowledged those concerns, often produces 
 entirely different outcomes.
 
 The emotional layer also applies to the architect's own relationship with their work. Architects who have invested 
@@ -55,7 +55,7 @@ constraints. The political layer is where those bindings are established and mai
 
 Understanding the political layer does not require the architect to become primarily a political operator. It 
 requires them to understand whose endorsement is needed for a design decision to be treated as a decision rather 
-than a suggestion, and to invest in obtaining that endorsement as part of the design process rather than after it.
+than a suggestion, and to invest in obtaining that endorsement as part of the design process.
 
 ## Across the three layers
 

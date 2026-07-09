@@ -6,11 +6,11 @@ aim is to move from comprehensive to comprehensible so that, when something brea
 right aid.
 
 The test is simple: can someone who's never seen it before use it successfully at 3:00? If not, it's documentation 
-theatre, not operational guidance.
+theatre.
 
 ## Manual types that get used
 
-Readable manuals behave like tools. They're designed for exactly one moment of need, not for theoretical completeness.
+Readable manuals behave like tools. They're designed for exactly one moment of need.
 
 ### The "torch in a blackout"
 
@@ -300,7 +300,7 @@ Written by people who've never responded to an incident, describing idealised pr
 
 The problem: No connection to operational reality, but more precisely, a [congruence gap](../foundations/organisational-development/satir-core.md). The people who have responded to incidents know what the manual should say. The people writing the manual have not. The gap between them is not accidental: documenting the real process means naming decisions, shortcuts, and structural gaps that reflect on systems and people. In organisations where honest reporting has a cost, the theoretical manual is the safe version. It describes what should happen, which nobody can argue with, rather than what does happen, which somebody might.
 
-The fix: Write manuals with direct input from people who actually respond to incidents. Treat the gap between what they say and what the theoretical version says as a finding. Update based on what works in practice, not what should work in theory.
+The fix: Write manuals with direct input from people who actually respond to incidents. Treat the gap between what they say and what the theoretical version says as a finding. Update based on what works in practice.
 
 ### The hidden manual
 
@@ -343,7 +343,7 @@ When manuals fail, you see:
 - "I read the manual but didn't understand what to do"
 - Senior staff making decisions from memory while ignoring documented procedures
 
-The goal: Manuals become instinctive tools, not optional references. When something breaks, reaching for the manual is automatic, not an afterthought.
+The goal: Manuals become instinctive tools. When something breaks, reaching for the manual is automatic.
 
 ## Principles
 

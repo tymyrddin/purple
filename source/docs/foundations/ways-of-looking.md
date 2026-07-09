@@ -9,13 +9,13 @@ a time. A single frame, held long enough, stops being a way of seeing and become
 
 Applying a frame to a case is deductive: the model says what to expect, and the case is read for it. Useful,
 and also the easy half. The frame was chosen because it fits, so it fits, and the fitting can feel like
-discovery rather than like the frame doing what it was built to do.
+discovery when it is mostly the frame doing what it was built to do.
 
 The harder movement is inductive: reading upward from what is actually present to a pattern the frame did not
 supply. That is where the recurring error, the detail that will not sit still, the part that stays strange
 after the ordinary account is complete, gets to speak. Weinberg's systems-effectiveness work turns on exactly
 this. An error is not an anomaly; it is evidence that the model used to design the thing does not match how
-the work happens. Read the error back into the model rather than suppressing the symptom, and the model gets
+the work happens. Read the error back into the model, and the model gets
 corrected. Suppress the symptom, and the same class of failure returns in a slightly different costume.
 
 Critical thinking, in this setting, is not scepticism about the case. It is scepticism about the frame:
@@ -58,7 +58,7 @@ retreating into procedure, falls away, and with it the dissonance of asserting o
 Honesty and hedging are not only manners here. They are how the thinking stays congruent with itself.
 
 The Montessori side adds the physical register. Work of this kind happens with the whole body, in a prepared
-environment that carries most of the load, at a self-set pace, rather than in the flooded state a crammed
+environment that carries most of the load, at a self-set pace, with none of the flooded state a crammed
 training module produces. Guarding attention against overstimulation is part of the method rather than a comfort
 added to it. A mind that is not bracing against its own environment has more attention to spend on the work
 itself.

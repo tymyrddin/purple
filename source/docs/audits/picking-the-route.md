@@ -32,7 +32,7 @@ and supervisory, a regulator with statutory powers, of which the NIS2 crossing i
 
 Beyond
 these four sit others an executive is likely to meet: SOC 2 where customers, often American ones, ask
-for an assurance report rather than a certificate; DORA for financial entities, with its own ICT risk and
+for an assurance report instead of a certificate; DORA for financial entities, with its own ICT risk and
 resilience testing expectations; data protection audits under GDPR; sector schemes such as TISAX in automotive.
 
 Penetration tests and red team exercises are not audits at all, though they produce the effectiveness evidence
@@ -45,7 +45,7 @@ actually is, who is asking, and who will carry the work.
 Law goes first when law applies. A NIS2 deadline outranks a certification ambition, and supervisory authorities
 are less patient than certification bodies.
 
-For the rest, an ISO 27001 spine tends to make the others cheaper. Its management system, risk register, and
+For the rest, an ISO 27001 spine generally makes the others cheaper. Its management system, risk register, and
 evidence habits map heavily onto NIS2's mandatory measures, so the crossing becomes an overlay: reporting
 obligations, supply chain formalisation, governance documentation. Building in the other direction, a scrambled
 NIS2 compliance push followed by a certification attempt, usually means redoing the governance layer that the
@@ -78,6 +78,6 @@ who will carry the work, how much change it can absorb while doing its actual jo
 attention will still be there in year two, when the novelty is gone and the surveillance audits begin. The
 standards themselves assume this layer exists and works; the [second foundation](../asimov/second-foundation.md)
 is a name for why that assumption is the one most worth checking first. An organisation that picks its route by
-its own carrying capacity, rather than by the brochure, tends to arrive.
+its own carrying capacity, with the brochure left in the tent.
 
 *Last updated: 8 July 2026*

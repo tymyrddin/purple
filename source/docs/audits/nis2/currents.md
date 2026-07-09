@@ -37,7 +37,7 @@ Security integrated into existing workflows outlives security bolted on beside t
 processes and accept integrated ones. Automation of monitoring, alerting, patching, and reporting keeps the
 focus on decision-making rather than repetitive work. Regular review cycles, metrics and dashboards that show
 the board trends rather than snapshots, and security present in projects and change processes from the start
-rather than added at the end, all push in the same direction.
+all push in the same direction.
 
 Common challenges appear in nearly every organisation: resistance rooted in comfort with existing ways of
 working, alert fatigue from untuned monitoring, competing priorities when security needs collide with delivery

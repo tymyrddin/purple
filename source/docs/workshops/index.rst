@@ -10,14 +10,14 @@ the heat.
 
 They are facilitated, not handed over. A rigid playbook assumes the ground stays still; these do not. They run
 stepwise and face to face, and they loop: work through one and a dependency surfaces, a blind spot opens, a risk that
-was not on the board appears, and the process bends to it rather than pressing on to a tidy diagram and a false sense
+was not on the board appears, and the process bends to it instead of pressing on to a tidy diagram and a false sense
 of certainty.
 
-What sets them apart is what other frameworks tend to leave out: the gap between what a team believes is happening and
+What sets them apart is what other frameworks often leave out: the gap between what a team believes is happening and
 what is, and between what it says it will do and what it does; timelines drawn to human energy rather than to project
-milestones; and the human obstacle, whose resistance and whose flagging attention, built into the plan from the start
-rather than found later in a retrospective. They are collaborative by design, rehearsed and adjusted together in the
-room rather than circulated on a screen, since none of this work gets done alone.
+milestones; and the human obstacle, whose resistance and whose flagging attention, built into the plan from the start.
+They are collaborative by design, rehearsed and adjusted together in the
+room, since none of this work gets done alone.
 
 .. toctree::
    :glob:

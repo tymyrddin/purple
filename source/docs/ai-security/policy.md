@@ -72,9 +72,9 @@ interpretation of what the policy permits, without changing the policy text.
 
 ## Policy layers are often retrofitted
 
-Guardrails are often retrofitted after deployment rather than designed alongside the system. The initial
+Guardrails are often retrofitted after deployment. The initial
 focus is on capability: does the model do what it is intended to do? Constraint robustness is assessed
-later, if at all. System prompts are frequently treated as configuration rather than security controls,
+later, if at all. System prompts are frequently treated as configuration,
 updated by engineering teams without a security review process equivalent to what a rule change would
 receive.
 
@@ -111,7 +111,7 @@ policy to mean.
 What the model understands the policy to mean is not fully determined by what the policy says. It is
 also determined by the model's training, the surrounding context, and how the input is framed. That
 makes the enforcement boundary interpretive, variable across model versions, and testable only through
-deliberate adversarial probing rather than configuration review.
+deliberate adversarial probing.
 
 ## Making constraints testable
 
@@ -123,7 +123,7 @@ First, treat the system prompt as what it is. A prompt that defines what a model
 security control, not configuration, and it warrants the change-review rigour given to a firewall rule rather
 than an edit made between deploys.
 
-Then test where interpretation slips, which is the boundary rather than the obvious violation. Exercising
+Then test where interpretation slips, which is the boundary. Exercising
 guardrail enforcement across category-boundary inputs and common bypass framings, not only direct violations,
 probes the region where the constraint most often fails and testing most often stops. Doing that review with the
 policy author and the model deployer in the room together surfaces the gap between what the policy intends and
