@@ -1,0 +1,30 @@
+# Threat signatures
+
+Every threat leaves a mark, and the marks share a shape: a divergence between two records that ought to
+agree. What the shape alone does not settle is whether a given divergence is worth anything, and that turns
+on two things: where the corroborating record sits, and what to make of a record that is simply not there.
+
+## Records beyond the actor's reach
+
+A divergence is only as good as its second record. The decisive one is the record the actor under suspicion
+could not have rewritten as part of the act: the packet capture independent of the system's own logs, the
+as-found-and-as-left report, the physical measurement, the audit trail the historian does not control. Where
+both disagreeing records lie within the actor's reach, the divergence proves little, because a competent
+actor edits both to agree. So the real question behind every signature is not just whether two records
+diverge, but whether the corroborating one is independent of the party being investigated. A signature
+resting on a single record the suspect could forge is a weak one, however clear it looks, and the same estate
+can hold a determination robustly against an outside attacker while being unable to make it against an
+insider with write access to the record.
+
+## Absence as evidence
+
+The hardest signature is the one that is not there. A replay on IEC 60870-5-104 can execute without an
+obvious log, and an actor can clean the audit trails behind the act, so the absence of an expected trace
+becomes the evidence. Absence is at once the weakest evidence and, in quantity, among the strongest. Weakest,
+because a missing record is at least as likely to be ordinary malfunction, a failure to log rather than a
+deletion, so a single gap proves almost nothing and a false-positive floor is built in. Strongest, because
+coherent removal is expensive: to erase an act cleanly an actor has to find and delete every trace of it
+across systems built to record independently, and a pattern of absence, several missing logs where
+operations certainly happened, is far harder to pass off as accident than any single gap.
+
+*Last updated: 12 July 2026*
