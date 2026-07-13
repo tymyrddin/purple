@@ -1,12 +1,12 @@
 # Timing and synchronisation anomalies
 
-Stedin's systems are expected to maintain synchronised clocks via NTP (Network Time Protocol) so that events across the
-SCADA, historian, protection relays, RTUs, and engineering workstations can be precisely correlated by timestamp. Clock
+Clocks across the SCADA, historian, protection relays, RTUs and engineering workstations are meant to stay synchronised
+via NTP (Network Time Protocol), so that events can be precisely correlated by timestamp. Clock
 synchronisation failures or deliberate tampering with timestamps create visible anomalies that are forensic signatures.
 
 ## NTP synchronisation and system clocks
 
-All of Stedin's systems that record events (SCADA server, historian server, protection relays, RTUs, engineering
+All systems that record events (SCADA server, historian server, protection relays, RTUs, engineering
 workstations) are meant to have their clocks synchronised to UTC via NTP, pulling from a master NTP server (which
 itself is synchronised to an atomic clock or GNSS). The synchronisation is usually within a few hundred milliseconds,
 and the tolerance for a system's clock drift before it is considered out of sync is on the order of minutes or
@@ -64,7 +64,7 @@ timing anomaly stands out.
 
 ## Clock-speed anomalies and frequency shifts
 
-Stedin's systems record frequency (the AC grid frequency, nominally 50 Hz in Europe). Frequency is a direct observable
+The systems record frequency (the AC grid frequency, nominally 50 Hz in Europe). Frequency is a direct observable
 property of the grid's physical state and is independent of any system's internal clock. A system's clock speed can be
 inferred from the frequency measurements it records: if a system is recording frequency as stable at 50 Hz while other
 systems record frequency oscillating between 49.5 Hz and 50.5 Hz, the first system's clock (and its timestamp recording)
@@ -76,7 +76,7 @@ suspect.
 
 ## Synchronisation logs and NTP audit trails
 
-Stedin's NTP clients log successful synchronisations and synchronisation failures. An NTP log that shows
+The NTP clients log successful synchronisations and synchronisation failures. An NTP log that shows
 synchronisation was lost at a critical time (during or just before unauthorised work) is forensic evidence. The log
 might show: "Lost synchronisation with primary NTP server at 23:45 UTC", followed by "Manual time adjustment at 23:52
 UTC", followed by "Resynchronised at 00:15 UTC". Such a log entry indicates the system's clock was not synchronised, was
@@ -102,10 +102,10 @@ falsified.
 
 ## Granularity and precision in timestamps
 
-Different systems record timestamps at different precision levels. The historian might record timestamps to millisecond
-precision (100ms resolution), while the SCADA records to second precision (1-second resolution). A protection relay's
-COMTRADE file records at microsecond precision. When correlating timestamps, the precision of each system must be
-understood.
+Different systems record timestamps at different precision levels. The historian samples its time-series to sub-second
+resolution (a reading every 100 milliseconds to one second), the SCADA journal stamps events to millisecond precision,
+and a protection relay's COMTRADE file records at microsecond precision. When correlating timestamps, each system's
+precision sets what a match can prove.
 
 An impossibly high-precision correlation (claiming that two events occurred at exactly the same nanosecond when the
 systems only record to millisecond precision) is a red flag suggesting that timestamps have been artificially aligned in
@@ -114,7 +114,7 @@ considered synchronised if their timestamps agree within the precision of the le
 
 ## Daylight saving time and time zone handling
 
-Stedin operates across time zones (though most operations are in the Netherlands, which uses CET/CEST). Time zone and
+The operator works across time zones (though most operations are in the Netherlands, which uses CET/CEST). Time zone and
 daylight saving time transitions are potential sources of timestamp anomalies. Systems that are not properly configured
 to handle timezone changes can record timestamps that are off by one hour at the instant of the transition.
 
@@ -133,4 +133,4 @@ their metadata intact) is essential. File timestamps, modification times, and cr
 evidence. A log file that shows a modification date later than the events it contains indicates the file was edited
 after the events were recorded.
 
-*Last updated: 12 July 2026*
+*Last updated: 13 July 2026*

@@ -1,96 +1,94 @@
 # Database transaction logs
 
-Stedin's enterprise and operational systems maintain databases: IBM Maximo (asset management), GE Smallworld (GIS
-network model), e-terra's SQL Server historian, and asset databases. These databases record transactions: inserts, updates, and
-deletes of records, with audit trails showing who changed what, when, and the old and new values.
+The portrait's enterprise and operational databases hold the record of what the network is supposed to be. IBM Maximo
+carries the asset inventory and the work-order history, GE Smallworld holds the GIS network model, and the e-terra
+historian sits on a SQL Server store. Each records its own changes as transactions, an insert, an update, a delete,
+stamped with who made the change, when, and the value before and after. On its own that trail says only that the record
+changed. Its forensic weight comes from setting each change against an independent account of what happened in the field:
+the SCADA journal, the device's own settings, the access logs, the physical asset.
 
-## Transaction-level audit trails
+## What a normal change leaves
 
-Modern database systems support transaction logging and audit trails. When a record is created, modified, or deleted,
-the operation is logged: the timestamp, the user who made the change, the operation type (insert/update/delete), the
-table and record ID, and crucially, the old value and new value. For example, if a Maximo maintenance record's status is
-changed from "Pending" to "In Progress", the audit log shows: timestamp, user ID, table (work_order), operation (
-update), field (status), old_value ("Pending"), new_value ("In Progress").
+A legitimate change moves through a business process, and the transactions follow that process step by step. A Maximo
+work order is raised as an insert, approved as a status update from Submitted to Approved, assigned, worked as In
+Progress, and closed, each transition its own row with a timestamp and an author. Read end to end, the rows tell one
+coherent story: a work order raised, authorised, worked, and signed off, in that order, across a plausible span of time.
+The baseline is that coherence. Every status the record passed through is accounted for, every change carries an actor,
+and the actor held the authority the change required.
 
-Normal database operations show a clear audit trail of legitimate business transactions. A work order is created (
-insert), approved (status update), executed (status update), and closed (status update). Each transaction is timestamped
-and user-attributed. The sequence of transactions forms a coherent narrative of the work order lifecycle.
+An asset attribute moves the same way. When a relay is re-rated or a transformer replaced, the asset record is updated
+and both values are kept, model, serial, condition, the settings baseline. A normal attribute change sits inside a work
+order, references it, and matches what the work order authorised.
 
-Unauthorised database modifications would appear as transactions that are not part of any legitimate business process. A
-transaction that updates a relay's settings baseline without a corresponding change order, or a transaction that deletes
-historical records without a retention policy authorisation, would be anomalous. A transaction that is made outside 
-any application interface (a direct database modification, bypassing the normal application workflow) would leave a
-signature in the audit log if the database's audit trail is comprehensive.
+## Work-order records against the operational record
 
-## Maximo asset and work-order tracking
+A work order is a claim: work of a stated scope happened on a stated asset, at a stated time, by a named person. Each
+element of that claim has an independent witness elsewhere in the estate, and the forensic move is to line the two up.
 
-Stedin's IBM Maximo system tracks assets, maintenance work orders, and asset change history. Each asset (transformer,
-switchpoint, relay) has a record with attributes (location, serial number, model, condition). Work orders describe
-planned maintenance or emergency repairs. When a work order is executed, the asset's attributes can be updated (a new
-transformer is installed, a relay's settings are changed).
+If a work order records switching on a feeder between 08:00 and 12:00, the
+[SCADA journal](../control-and-command-execution/scada-observables.md) holds the commands that switching would have
+produced. A work order marked Completed with no matching commands in the journal is a claim with no corroboration: the
+work was not done as recorded, or it was done through a channel that left no operational trace. The reverse is as
+telling, switching in the journal that no work order authorises is activity outside the documented process. And a work
+order naming an asset the [access and key logs](../access-and-authorisation/access-control-and-key-management.md) show no
+one attending describes a job whose worker was never on site.
 
-Normal Maximo operations show work orders that follow a lifecycle: created, approved, assigned to a technician,
-executed, and closed. Each step is logged. Upon completion, the work order's outcome (parts replaced, settings changed,
-measurements recorded) is documented, and the asset's record is updated to reflect the new state.
+The cross-check reaches what the work changed. A work order that authorises a relay setting change leaves the relay
+carrying the new setting and nothing more. If the asset record shows the overcurrent threshold moved from 1200A to 1500A
+but the [relay's own settings](../field-devices-and-protection/protection-relay-state.md), read back online, still hold
+1200A, the database and the device disagree, and one was changed without the other. From the database side that
+divergence is a transaction in the asset log with no answering change on the relay, or a relay changed with no
+transaction to authorise it.
 
-Unauthorised Maximo modifications would appear as asset attribute changes with no corresponding work order, or work
-orders that are marked completed without any actual work being performed (a work order is marked "Completed" but the
-asset shows no changes). A work order that is marked "Closed" but is later reopened (a status transition from Closed
-back to In Progress) would be unusual and would need explanation.
+## Attribute changes with no work behind them
 
-## Role-based database access and privilege enforcement
+The signature that repays the most attention is an asset record that changed with no work to explain it. A settings
+baseline updated with no work order referencing it. A transformer's condition moved from Healthy to Degraded with no
+inspection behind the move, or reversed from Degraded to Healthy with no maintenance to justify it. Each is a change to
+the record of what the network is, made outside the process meant to change it. The transaction log gives the edit, its
+author, and its timing; the absence of a work order, an inspection, or an approval beside it is what turns an ordinary
+edit into a question.
 
-Database systems implement role-based access control: a database user (application user, not necessarily a person) has
-permissions to perform specific operations on specific tables. Stedin's database systems enforce that only
-authorised applications and users can modify sensitive records.
+## Direct modification that bypasses the application
 
-For example, a SCADA application user may have permission to read from the historian but not to modify historical
-data. An engineer's account can update relay settings in the asset database, but only through the approved engineering
-tool. A contractor's account carries read-only access to specific substation data, but not write access.
+Changes are meant to reach the database through an application, Maximo's interface, the engineering tool, the GIS editor,
+and each application leaves its own session record. A legitimate transaction therefore has two witnesses: the database's
+audit row and the application log of the session that produced it. A transaction in the database log with no application
+session behind it points to a direct write, someone editing the store over a database connection rather than through the
+workflow the application enforces. Direct writes slip past the application's own checks,
+[authorisation](../access-and-authorisation/access-control-and-key-management.md), referential validation, field
+constraints, which is exactly where those checks would otherwise have left a trace. The audit row may be all that
+survives, so whether the store's own auditing is comprehensive decides whether the bypass is visible at all.
 
-If a database operation occurs with insufficient privilege (a user with read-only access successfully performs a write),
-that is evidence of either: a privilege-escalation vulnerability in the application, a misconfiguration of database
-permissions, or an attacker exploiting a vulnerability to bypass access controls.
+## The GIS model as a record under cross-check
 
-## Transaction consistency and referential integrity
+The Smallworld GIS holds the topology of record, which feeder connects where, which switch sits between which sections,
+and its transaction log shows who edited the model and when. A topology edit is legitimate when a documented
+reconfiguration accounts for it and the edit follows the physical change rather than leading it by weeks. The GIS model
+set against the SCADA's live [network model](../configuration-and-versions/configuration-management.md) and the physical
+substation is the stronger reading; from the database side, the signal is a model edit whose timing and author no
+reconfiguration explains.
 
-Databases enforce referential integrity: relationships between tables are maintained so that a record in one table
-cannot reference a non-existent record in another table. For example, a Maximo work order must reference an existing
-asset. If a transaction creates a work order pointing to a non-existent asset (or an asset that is deleted before the
-work order is completed), the database's referential integrity would be violated.
+## Deletions, gaps, and retention
 
-Detecting integrity violations requires database consistency checks. A query that looks for orphaned records (work
-orders with no corresponding asset, or SCADA devices with no asset record) would identify database corruption. Such
-corruption is forensic evidence of either database malfunction or unauthorised modification.
+Transaction logs accumulate, so a gap reads the way a gap in any append-only record reads, as something removed. A run of
+transactions that stops and resumes with a block missing, or an asset whose history jumps across a change that left no
+transaction, is a deletion, and the deletion is the evidence. A legitimate purge is rare, authorised, and itself logged,
+who removed what, when, and under what authority; missing records with no deletion record beside them is the harder case
+to account for.
 
-## Log retention and archival policies
+Retention sets how far back any of this can be read. A store that keeps detailed transaction history for ninety days and
+archives for years leaves a deep record; one cut to a few days has lost the evidence of anything older. Retention is an
+ordinary setting until it changes at a telling moment: a cut from ninety days to one, made while unauthorised work is in
+question, removes the very transactions an investigator would reach for, and the policy change is itself a transaction
+with an author and a time.
 
-Database systems typically implement log retention: old audit logs and transaction logs are archived or deleted
-according to retention policies. A typical policy might retain detailed transaction logs for 90 days and archived logs
-for up to 7 years.
+## Backups as an independent copy of the past
 
-If an investigator needs to examine database transactions from months ago, the logs must still be available. A system
-with poor log retention (keeping only 30 days of logs) might have lost the evidence of old unauthorised modifications.
-Conversely, a system with good long-term archival (7-year retention) provides investigators with a deep historical view.
+A backup taken before a suspected compromise is an independent copy of the database as it stood, and its use is direct:
+recover the earlier state and compare it against the current one to see which records changed. The comparison holds only
+if the backup sits where the same actor could not reach it; a backup on the compromised system may have been altered
+along with everything else. The backup catalogue is a record in its own right, a scheduled backup absent from it, on a
+date that counts, points to a copy deleted to prevent exactly that comparison.
 
-If the retention policy is changed, that change itself is logged: who
-changed the policy, when, and what the old and new retention periods were. A sudden change in log retention policy (from
-the standard 90-day retention to 1-day retention) made at a time when unauthorised work is suspected would be
-suspicious.
-
-## Database backup and recovery metadata
-
-Stedin's databases are backed up regularly for disaster recovery. The backup metadata (when each backup was taken, what
-was included, the backup verification status) is also forensic evidence. If a database is suspected of having been
-compromised, one approach is to recover the database from a backup taken before the suspected compromise, and then
-compare the current database against the recovered version to see what was changed.
-
-The backup process itself leaves logs: when the backup started and finished, whether it succeeded, and any errors
-encountered. If a backup is missing (a backup that was due on a specific date is not in the backup
-catalogue), that could indicate an attacker deliberately deleted the backup to prevent recovery and forensic comparison.
-
-The integrity of backups is important. A backup that is old enough to predate the suspected compromise, stored in a
-location where an attacker cannot access it, is a trusted source for forensic comparison. A backup that is stored on the
-same system that is suspected of being compromised could itself be corrupted.
-
-*Last updated: 12 July 2026*
+*Last updated: 13 July 2026*

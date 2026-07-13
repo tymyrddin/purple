@@ -1,13 +1,13 @@
 # Alarm and event logs
 
-Beyond SCADA's main command and state journals, Stedin's systems generate alarm and event logs that capture anomalies,
+Beyond SCADA's main command and state journals, the systems generate alarm and event logs that capture anomalies,
 threshold violations, and state machine transitions at granular levels. Alarms are conditions that exceed thresholds and
 require operator attention. Events are state changes that are logged without necessarily triggering an alarm. The
 patterns of alarms and their acknowledgement form forensic evidence of what the operators knew and when.
 
 ## Alarm thresholds and trigger criteria
 
-Stedin's distribution network has hundreds of configured alarm conditions. An overcurrent alarm is triggered when
+The distribution network has hundreds of configured alarm conditions. An overcurrent alarm is triggered when
 current exceeds a configured threshold. An overvoltage alarm triggers when voltage exceeds a maximum. An underfrequency
 alarm triggers when frequency falls below a minimum. These thresholds are set based on the network's design and
 operational requirements. The thresholds balance two goals: alarm often enough to catch real problems, but not so often
@@ -25,9 +25,8 @@ not interrupted by alarms. After maintenance, the thresholds are restored to nor
 are documented in the maintenance work order. An alarm that is suppressed without documentation is suspicious.
 
 Alarm threshold changes are observable in SCADA configuration history. If a threshold has been changed (raised from
-1200A to 1500A, for example), the change is visible in version comparisons. If the change is recent and does not
-correspond to any documented work (a network upgrade that requires the higher threshold), the change is unauthorised and
-makes protections less effective.
+1200A to 1500A, for instance), the change is visible in version comparisons. A recent change that corresponds to no
+documented work, such as a network upgrade that would require the higher threshold, is unauthorised.
 
 ## Alarm acknowledgement and operator response
 
@@ -55,7 +54,7 @@ that pattern reflects their priority assessment.
 
 ## Alarm silencing and notification management
 
-Stedin's SCADA systems typically allow operators to silence alarms without acknowledging them: the visual alert is
+The SCADA systems allow operators to silence alarms without acknowledging them: the visual alert is
 dismissed but the alarm condition persists. Silencing is useful when the operator is aware of an alarm and is addressing
 it, but wants to temporarily suppress the visible alert to focus on other tasks. Each silence action is logged: when it
 occurred and who silenced it.
@@ -86,9 +85,9 @@ which is statistically improbable unless there is a common cause (network-wide t
 
 ## Event log gaps and deletions
 
-The event log is continuous and complete. Events are appended as they occur, creating a chronological record. If
-events are missing (event 1000 at 10:00 UTC is immediately followed by event 1003 at 10:05 UTC, with events 1001 and
-1002 absent), events were deleted. The gap is forensic evidence of tampering.
+Like the [alarm journal](scada-observables.md), the event log is append-only, so a break in its sequence reads as
+deletion: event 1000 at 10:00 UTC followed by event 1003 at 10:05 UTC, with 1001 and 1002 absent, means those events
+were removed, and the gap is the evidence.
 
 Legitimate event deletions are extremely rare and would require explicit authorisation and documentation. A sensor
 malfunction might generate a flood of false events (thousands of spurious readings per second), and after the cause is
@@ -118,4 +117,4 @@ operator's decision can be reconstructed from the logs (what alarms they saw, wh
 acknowledged), then the forensic narrative can evaluate whether their decision was reasonable given the information
 available, or whether it was erroneous or suspicious.
 
-*Last updated: 12 July 2026*
+*Last updated: 13 July 2026*

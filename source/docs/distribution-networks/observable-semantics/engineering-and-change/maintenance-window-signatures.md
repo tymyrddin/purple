@@ -1,13 +1,13 @@
 # Maintenance window signatures
 
-Stedin's maintenance windows are planned periods when scheduled work is performed on the distribution network. The
+Maintenance windows are planned periods when scheduled work is performed on the distribution network. The
 evidence is dense: work orders, werkplannen (work plans), bedieningsplannen (switching plans), as-found-and-as-left
 records, key-management logs, and post-work commissioning tests. Normal maintenance and unauthorised work leave
 different signatures in this evidence.
 
 ## The planned maintenance framework
 
-Stedin's maintenance planning cycle starts with the meldpunt (central dispatch), which receives weekly contractor work
+The [maintenance planning cycle](../../operating-context/operations-and-cadence/operational-procedures-and-change.md) starts with the meldpunt (central dispatch), which receives weekly contractor work
 plans and publishes maintenance announcements. Each planned maintenance activity is documented in a work order that
 specifies what will be done, who will do it, when (the scheduled maintenance window), where (which substations or
 network sections), and what authority is needed (switching authority, access keys, approvals). Before work begins, a
@@ -17,7 +17,7 @@ or line operation.
 The bedieningsplan is the detailed safety and operational plan for switching. It specifies which switches must be opened
 in what sequence, how the load will be transferred to alternate feeders, and which sections will be de-energised for the
 duration of work. The plan is prepared in advance, reviewed and approved, and then executed step-by-step during the
-maintenance window. Stedin's Bedrijfsvoering application (the operations management system) holds the plan, and
+maintenance window. The Bedrijfsvoering application (the operations management system) holds the plan, and
 operators follow it precisely. Each step is logged: when the switch was operated, who operated it, what the command was,
 and whether it succeeded.
 
@@ -33,7 +33,7 @@ assets (which substations, which feeders), the technical justification (why this
 authorisation (which manager approved it and when). A legitimate maintenance activity has a work order number, a scope,
 and an approval trail showing the chain of authority.
 
-After maintenance, the work order has completion evidence: a completion certificate (or tekening af), records of
+After maintenance, the work order has completion evidence: a completion certificate (an oplevering), records of
 what was actually done, any issues encountered, and sign-off from the Installatieverantwoordelijke (Installation
 Responsible Authority) or equivalent. If a work order shows it was approved for 08:00-17:00 and actual work occurred
 from 08:00 to 23:00, the scope diverged from the plan and the extension needs justification and approval.
@@ -46,7 +46,7 @@ unauthorised operations occurred.
 
 ## As-found-and-as-left records
 
-Before and after any maintenance involving protective equipment, Stedin documents the equipment state. As-found records
+Before and after any maintenance involving protective equipment, the equipment state is documented. As-found records
 document what condition the equipment was in when the maintenance crew arrived. As-left records document what condition
 it was in when they departed. The records are specific: for a protection relay, the as-found record lists all settings (
 threshold values, pickup currents, time delays); the as-left record shows the same settings after maintenance. For any
@@ -124,7 +124,7 @@ look before the maintenance is signed off.
 
 ## Maintenance window anomalies and patterns
 
-Over time, a baseline for maintenance activity at Stedin becomes apparent. The number of maintenance activities per
+Over time, a baseline for maintenance activity becomes apparent. The number of maintenance activities per
 month, the typical duration, the affected equipment classes, and the personnel involved all follow patterns. Anomalies
 in these patterns are forensic clues.
 
@@ -134,10 +134,10 @@ activities concentrated in one area over a short period) could indicate a coordi
 affecting that area. A change in the personnel performing maintenance (a new contractor or team) introduces new
 personnel and new patterns.
 
-Maintenance timing anomalies are also observable. Stedin's maintenance is generally scheduled during daytime working
+Maintenance timing anomalies are also observable. Maintenance is generally scheduled during daytime working
 hours and business days. Maintenance at 03:00 on a weekend is unusual and would carry a justification. If a pattern
 emerges of multiple maintenance activities at unusual hours without documented emergency circumstances, that pattern
 suggests either an operational crisis (the network is in critical condition requiring emergency work) or unauthorised
 activity disguised as maintenance.
 
-*Last updated: 12 July 2026*
+*Last updated: 13 July 2026*

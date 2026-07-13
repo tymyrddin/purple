@@ -1,6 +1,6 @@
 # Historian patterns
 
-Stedin's e-terra SQL Server historian records time-series process data: voltage, current, frequency, load, temperature, and
+The portrait's e-terra SQL Server historian records time-series process data: voltage, current, frequency, load, temperature, and
 thousands of other measurements flowing from the distribution network into the control centre at high frequency (
 typically one to ten samples per second). The historian is also a transaction database with edit-audit records. Its
 patterns show what normal time-series data looks like, what tampering leaves behind, and how a legitimate data
@@ -8,10 +8,10 @@ correction reads differently from compromise.
 
 ## The time-series baseline
 
-Stedin's distribution network exhibits predictable electrical patterns that appear in the historian. Voltage follows a
+The distribution network exhibits predictable electrical patterns that appear in the historian. Voltage follows a
 daily and weekly cycle: lower at night when demand is low, higher during the afternoon peak. Current reflects load:
 lower at night, spiking during morning and evening peaks. Frequency shows network stress: it dips when large generators
-trip offline or when demand spikes, and rises when generation exceeds load. Across seasons, summer typically shows lower
+trip offline or when demand spikes, and rises when generation exceeds load. Across seasons, summer usually shows lower
 baseload (fewer space heaters in use), while winter shows higher consumption and more volatile demand.
 
 A specific feeder or substation develops its own pattern based on what customers it serves. A residential feeder shows a
@@ -36,14 +36,14 @@ The historian is a database that stores measurements as time-series records, and
 where changes are logged. An authorised operator or engineer can correct a value in the historian if the measurement was
 erroneous (a sensor failed and reported wildly wrong values, and someone later corrected the record). When a value is
 edited, the historian logs the edit: who edited it, when, what the old value was, what the new value is. This audit log
-is stored in a separate audit database that is not typically accessed by the main historian queries but is available for
+is stored in a separate audit database that is not normally accessed by the main historian queries but is available for
 forensic review.
 
 Normal corrections are rare and small. A sensor malfunctions for a few seconds and records implausible values (voltage
 at 9999V, indicating a data overflow). An engineer notices this when reviewing the data, flags the bad values, and
 corrects them. The historian's audit log shows a cluster of edit entries, each one corresponding to one of the bad
 values, all made at the same time by the same user, with an annotation ("Sensor malfunction correction"). The corrected
-values are typically set to the last known good value or interpolated from surrounding correct values.
+values are set to the last known good value or interpolated from surrounding correct values.
 
 Unauthorised editing is distinguished by its pattern. A single measurement value is changed from 240V to 280V without a
 detectable reason, and no corresponding sensor malfunction or correction note exists. Multiple values spread across
@@ -57,9 +57,9 @@ are edited, removing evidence of the fault condition).
 
 The historian keeps its archived history separately from a live current-value cache. That cache holds only the latest value of each point, not a queryable history, so it offers no independent second copy of the past to reconcile the archive against. Detecting an altered historical value rests on two things instead: the archive's own edit audit trail, and agreement with records the historian does not control.
 
-The archive logs edits to stored values: the editing user, the timestamp, the old and new value, and an optional annotation. A legitimate correction appears as a cluster of edits carrying an annotation and matching a
+The archive logs edits to stored values: the editing user, the timestamp, the old and new value, and an optional annotation. Whether that logging happens at all depends on the product and its configuration: some historians record every value edit, others only administrative actions, and where value-level auditing is off or absent a modified reading leaves no on-system trace, throwing detection onto the external check. A legitimate correction appears as a cluster of edits carrying an annotation and matching a
 documented work order. An edited value with no corresponding audit entry, or an audit trail that has itself been
-truncated, is the on-system signature of tampering. The stronger check is external. A stored value that no longer
+truncated, is the on-system signature of tampering. Edit timestamps carry their own tell: a cluster of edits at the same instant to the millisecond, or edits made when the historian would not normally be written to, reads as automated tampering rather than an operator's hand-correction. The stronger check is external. A stored value that no longer
 agrees with the relay's COMTRADE capture or the RTU's own log has been changed, whatever the audit trail says. If the
 archive shows a smooth, constant voltage (240V with no variation for an entire day) while the relay and RTU records for
 the same feeder show the ordinary variation of a live network, the archived history has been overwritten with synthetic
@@ -67,7 +67,7 @@ data.
 
 ## Measurement consistency across independent systems
 
-Stedin's distribution network has multiple independent measurement sources. The RTUs measure voltage and current at
+The distribution network has multiple independent measurement sources. The RTUs measure voltage and current at
 their locations and report via IEC 60870-5-104. The protection relays measure the same electrical quantities locally and
 record their measurements in their own event logs and disturbance records. The historian receives the RTU measurements
 and stores them. When a fault occurs, the protection relay measures it, trips, and records the fault condition. All of
@@ -95,17 +95,17 @@ a time series that is suspiciously smooth (voltage at exactly 240.00V for hours 
 perfectly linear increase with no noise), that pattern indicates the data may be synthetic or heavily filtered.
 
 A legitimate data-smoothing scenario occurs when an operator notices a sensor failure (a sensor reporting implausible
-values) and manually corrects the time-series by replacing the bad values with synthetic estimates. For example, if a
+values) and manually corrects the time-series by replacing the bad values with synthetic estimates. If a
 current sensor fails and reports zero current for an hour when actual current is nonzero, an operator might replace the
 bad data with interpolated values based on surrounding correct data. This correction is documented: the audit log
 shows a cluster of edits at the same time with an annotation indicating sensor correction.
 
-An illegitimate scenario occurs when the historian is edited to hide evidence. For example, if a fault condition existed
+An illegitimate scenario occurs when the historian is edited to hide evidence. If a fault condition existed
 that the historian originally recorded, but the historian is later edited to remove or smooth out the evidence of the
 fault, the edited values would appear suspiciously smooth (all fault-related measurements replaced with constant
 baseline values, or a fault period replaced with an interpolated smooth transition). The difference between legitimate
 correction and illegitimate editing is context: a legitimate correction is rare, documented, and affects a small time
-range (typically seconds to minutes of bad data); an illegitimate edit affects larger time ranges (hours to days) and is
+range (seconds to minutes of bad data); an illegitimate edit affects larger time ranges (hours to days) and is
 not documented.
 
 ## Event patterns and cascade analysis
@@ -131,7 +131,7 @@ mismatches are signatures of either data tampering or serious equipment malfunct
 
 Cross-checking the historian against other systems only works while their clocks agree. A historian timestamp that
 disagrees with the relay's COMTRADE (which carries its own clock) and the RTU's event log for the same event points to
-a synchronisation problem or to deliberate backdating, and Stedin's NTP logs show whether synchronisation was holding
+a synchronisation problem or to deliberate backdating, and the NTP logs show whether synchronisation was holding
 at the time.
 
-*Last updated: 12 July 2026*
+*Last updated: 13 July 2026*

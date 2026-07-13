@@ -121,46 +121,23 @@ those opportunities.
 
 ## Observable traces
 
-Insider threats appear as access to systems outside the person's assigned role, changes made without authorisation, commands executed at odd times, data accessed and later found in external locations, and configuration changes that don't follow procedure.
+Insider threats appear as access to systems outside the person's assigned role, credentials used from places the person
+would not normally be, repeated attempts to reach systems they lack authority for, and configuration changes with no work
+order behind them, each a deviation read against the
+[access and authorisation record](../../observable-semantics/access-and-authorisation/access-control-and-key-management.md).
+Many organisations keep little detailed access logging on OT systems, which is part of what makes an insider hard to
+catch.
 
-The first observable trace is unexpected access. If an audit log shows an employee accessing a system outside
-their assigned role, or accessing a system at an unusual time or location, that warrants investigation. Many
-organisations do not maintain detailed access logs on OT systems, making this detection difficult.
+Three traces are more particular to the insider. Temporal correlation: unusual access followed by unusual changes,
+followed in turn by network anomalies or customer complaints, points to one hand behind the chain. Data found outside:
+network diagrams, relay settings, or asset registers from Maximo turning up copied or photographed on cloud storage, in
+email or on a personal device is exfiltration, and it usually surfaces only during an incident investigation or an audit.
+And an access pattern that shifts shortly before someone leaves, suddenly reaching systems they never normally touch,
+reads as gathering, or as seeding access that will outlast their employment; catching it takes a comparison of recent
+access against their history.
 
-The second trace is changes without authorisation. If a SIPROTEC or SEL relay's settings are modified outside a
-documented maintenance window in the schedule, or if a modification is made by someone without documented authority
-to modify that relay in Bedrijfsvoering, that indicates either a security compromise or an insider violation.
-
-The third trace is temporal correlation. If unusual system access is followed by unusual system changes, and
-those changes are followed by network anomalies or customer complaints, the correlation suggests an insider was
-responsible for the chain of events.
-
-The fourth trace is data found outside. If network diagrams, relay settings from DIGSI 5 or AcSELerator QuickSet,
-or asset registers from IBM Maximo are found to have been copied or photographed and stored in an external location (
-cloud storage, email, a personal device), that indicates data exfiltration. This often comes to light during incident
-investigation or during security audits.
-
-The fifth trace is credential usage that does not match the person's normal pattern. If an insider's credentials
-are used to access e-terracontrol SCADA from multiple locations in rapid succession, or from geographic locations the
-employee would not normally be in, that suggests the credentials have been compromised or are being used by an attacker.
-
-The sixth trace is attempted access violations. If an employee repeatedly attempts to access a system they do not
-have authority for, the failed attempts accumulate and can be detected through audit logs. An internal attacker
-trying to escalate their privileges would attempt unauthorised access.
-
-The seventh trace is changes that don't follow procedure. If a configuration change is made without going through
-the documented change-control process (no work order in Maximo, no approval, no documentation), and the change is
-made by someone with the technical access but not the documented authority in Bedrijfsvoering, that indicates either an
-insider violation or a security breach.
-
-A particularly strong trace is when an employee's access patterns change shortly before they leave the
-organisation. An employee planning to steal data or enable an external attacker might suddenly access systems
-they do not normally access, attempting to gather information or establish access that will persist after they leave.
-Detecting this requires comparison of historical access patterns against recent access.
-
-The challenge for the defender is that many insider threats are low-volume and subtle. An employee accessing one
-unauthorised system once, or making a small configuration change outside procedure, might not trigger investigation if
-the organisation does not actively monitor and audit. It is only when such actions accumulate, or when they correlate with
-observable damage, that the insider threat becomes apparent.
+The challenge is that many insider actions are low-volume and subtle. One unauthorised access, or one small
+out-of-procedure change, may not trip an investigation on its own; it is when such actions accumulate, or line up in time
+with observable damage, that the insider becomes visible.
 
 *Last updated: 13 July 2026*

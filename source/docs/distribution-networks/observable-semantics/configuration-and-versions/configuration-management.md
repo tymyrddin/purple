@@ -1,15 +1,15 @@
 # Configuration management
 
-Stedin's configuration-management surfaces span the e-terra SCADA, the GE Smallworld GIS, protection relay project
+The portrait's configuration-management surfaces span the e-terra SCADA, the GE Smallworld GIS, protection relay project
 files, and RTU configuration. Configuration changes flow through change-control processes that leave audit trails. Those audit trails distinguish
 authorised configuration from unauthorised modification, and baseline configurations can be established for forensic
 comparison.
 
 ## SCADA configuration versioning and baselines
 
-Stedin's e-terra SCADA stores configuration data: the network model (devices, topology, dependencies), alarm thresholds,
+The e-terra SCADA stores configuration data: the network model (devices, topology, dependencies), alarm thresholds,
 load-shedding logic, under-frequency protection settings, and operator interface definitions. This configuration is
-stored in a database and is typically backed up. Configuration changes at Stedin go through a change-control process: an
+stored in a database and is typically backed up. Configuration changes go through a change-control process: an
 engineer submits a change request, it is reviewed and approved, the engineer applies the change at a scheduled time, and
 the change is documented.
 
@@ -22,24 +22,20 @@ between them (what changed), and the approval trail (who approved the change and
 An unauthorised configuration change would appear as a divergence between the approved baseline and the current
 configuration, with no corresponding approval or change order. If the SCADA's configuration history shows a change was
 made at a specific time, but the change-control log shows no approval for that change at that time, the change is
-unauthorised. The most concerning scenario is a configuration change that makes protections less effective: alarm
-thresholds are raised (so alarms trigger less often), load-shedding logic is disabled, under-frequency protection
-settings are weakened. Such changes would be immediately suspicious because they reduce network resilience without
-apparent reason.
+unauthorised. A change that quietly weakens protection, and so lowers network resilience for no visible operational reason, reads as
+the most suspicious of all.
 
 ## Smallworld GIS model consistency
 
-The GE Smallworld GIS maintains Stedin's network model: the location and interconnections of all substations, feeders,
+The GE Smallworld GIS maintains the network model: the location and interconnections of all substations, feeders,
 switchpoints, and transformers. This model is the canonical source for what the physical network is meant to be. The SCADA's
 network model is derived from Smallworld: the network structure in e-terra's configuration is built from the GIS model
 to ensure alignment.
 
 A consistent network model means: every device in the GIS model is accounted for in the physical network, every physical
-device has a corresponding GIS model entry, and the GIS topology matches the physical topology. Inconsistencies indicate
-either model corruption or physical changes that were not reflected in the model. A phantom device (exists in the GIS
-model but not physically) would be invisible in the SCADA and would cause confusing behaviour if an operator tried to
-control it. A missing device (exists physically but not in the GIS) would not be visible to the SCADA and could not be
-remotely controlled.
+device has a corresponding GIS model entry, and the GIS topology matches the physical topology. Inconsistencies point to
+either a physical change never reflected in the model or a corrupted one: a phantom device present in the GIS but not
+the field, or a real device missing from it. Either way the model no longer describes the network the operator acts on.
 
 Smallworld changes go through change control: a work order authorises a model change (adding a new substation, removing
 a decommissioned device, changing a connection). The change is made in the GIS database by an authorised engineer, and
@@ -102,9 +98,9 @@ settings, someone modified the baseline. If the primary and backup baselines div
 baselines match but the deployed configuration differs from all of them, the relay was modified after the baselines were
 created. Multi-level baseline comparison provides defence against attackers who compromise a single system.
 
-For Stedin, this practice is particularly important for critical relays (protection relays on the main
+This practice is particularly important for critical relays (protection relays on the main
 transmission-distribution interface, relays protecting large urban loads). The cost of maintaining multiple baselines is
 modest, and the forensic benefit is significant. A relay with multiple independent baselines that all agree is
 more likely to be trustworthy; a relay with a single baseline is more exposed.
 
-*Last updated: 12 July 2026*
+*Last updated: 13 July 2026*

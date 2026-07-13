@@ -55,7 +55,7 @@ unauthorised work.
     T-3 days: Bedieningsplan finalised
       • Switching plan details: "Open switch Y to isolate zone"
       • Attacker plans: "During this 90-minute window, reprogram RTU in same zone"
-      • RTU firmware change takes 20 minutes; work plan covers full 90 minutes
+      • RTU reprogramming takes about 20 minutes (firmware upload plus I/O remap); work plan covers full 90 minutes
       • Overhead: 70 minutes of documented work + 20 minutes unauthorised
 
     T-1 day: Contractor assigned, access granted
@@ -71,7 +71,7 @@ unauthorised work.
            | Legitimate activity: setup, verify de-energisation
            │
     14:50  | Authorised switching begins
-           | Contractor closes switch Y per bedieningsplan (documented)
+           | Contractor opens switch Y per bedieningsplan (documented)
            │
     14:55  | Supervision focus: switchpoint replacement (main task)
            | ← Window of opportunity: attacker has legitimate reason to access RTU
@@ -93,7 +93,7 @@ unauthorised work.
            | • Changes "Output 1 = close Switchpoint A" → "Output 1 = open Switchpoint B"
            | • Modification time: 5 minutes (hidden in switchpoint replacement activity)
            │
-    15:35  | Switch Y re-opened per bedieningsplan (closing the maintenance window)
+    15:35  | Switch Y re-closed per bedieningsplan (closing the maintenance window)
            | • Site returns to normal operational state
            | • Authorised work documented and signed off
            │
@@ -116,7 +116,7 @@ unauthorised work.
 
     Access audit:
       • Engineering workstation log: contractor accessed e-terracontrol 15:03-15:25
-      • DIGSI connection log: firmware upload session detected
+      • e-terracontrol connection log: firmware upload detected
       • Contractor's claim: "only verified de-energised state"
       • But logs show: firmware read, modify, write operations
 
@@ -174,44 +174,12 @@ system access logs, and physical inspection of equipment after maintenance.
 
 ## Observable traces
 
-Maintenance-window abuse shows up as work orders that don't match the actual changes made, switching plans that differ from the executed switching, configuration changes outside the scope of the maintenance, and unauthorised test equipment connected to the network.
-
-The first evidence is a discrepancy between the work plan and the actual work performed. The work plan specifies
-what will be done; the completion record should document that it was done exactly as planned. If the work-order
-completion record in IBM Maximo shows changes that are not in the work plan, or if the actual system state after
-maintenance differs from what the work plan specified, that indicates unauthorised work.
-
-For configuration changes, the as-found-and-as-left records are the critical trace. Before maintenance, the technician
-documents the current state of the SIPROTEC or SEL relay or e-terracontrol SCADA setting. After maintenance, they
-document the final state. The comparison should show only the changes documented in the work plan. Additional
-changes indicate unauthorised modifications.
-
-For switching operations, the bedieningsplan specifies what switches will be operated. The operator or technician
-documents what switches were actually operated in a log or work order. If the actual switches operated differ from
-the plan, that indicates either a deviation from the plan (which should be approved) or unauthorised switching.
-
-For unauthorised equipment or malware installation, physical inspection after maintenance is the primary
-detection method. An unexpected device in a substation (a logging device, a repeater, or similar) would be
-physically visible. Malware installation on an engineering workstation would be detected through endpoint
-protection tools or through suspicious system behaviour.
-
-Time records can also reveal abuse. If a maintenance activity is scheduled for four hours but the technician
-logs many more hours, and there is no documented reason for the longer duration (such as unexpected complications
-documented in the work order in Maximo), that could indicate additional unauthorised work.
-
-Network-access logs can show whether a contractor accessed systems beyond what the work plan authorised. If
-the work plan authorises access to one relay but the access logs show the contractor connected to five relays, that
-is a deviation worth investigating.
-
-A pattern of unusual changes across multiple maintenance windows could indicate systematic abuse. If several
-maintenance activities result in configuration changes that are outside the work plan, or if costs or resource
-hours systematically exceed what was estimated, that pattern suggests that the maintenance windows are being used
-for unauthorised purposes.
-
-The challenge for the defender is that maintenance windows involve legitimate changes and legitimate access to
-normally-restricted systems, so distinguishing unauthorised work from authorised work requires detailed documentation
-and careful comparison. An insider who understands the procedures and documentation can hide unauthorised work by
-carefully documenting it as if it were authorised, or by making small unauthorised changes alongside large authorised
-changes where they are not immediately noticed.
+Maintenance-window abuse shows up as work orders that don't match the actual changes made, switching plans that differ
+from the executed switching, configuration changes outside the maintenance scope, and unauthorised equipment or malware
+left behind. The last is caught only by physical inspection and endpoint tooling after the window, since it sits in no
+work record. The rest are documentary: the work plan, the
+[as-found-and-as-left records](../../observable-semantics/engineering-and-change/maintenance-window-signatures.md), the
+switching log, the time records and the access log, read against what was authorised, part a falsified record from an
+honest one, down to the pattern of small unexplained overruns across several windows that reads as systematic abuse.
 
 *Last updated: 13 July 2026*

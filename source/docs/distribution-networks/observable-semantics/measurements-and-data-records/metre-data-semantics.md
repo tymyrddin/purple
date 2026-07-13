@@ -1,6 +1,6 @@
 # Metre data semantics
 
-Stedin's smart-meter base (Landis+Gyr, Iskraemeco, Kaifa, Sagemcom) reports consumption data via CDMA to the metering
+The smart-meter base (Landis+Gyr, Iskraemeco, Kaifa, Sagemcom) reports consumption data via CDMA to the metering
 platform. The meters record cumulative kilowatt-hours consumed, and the platform aggregates readings across customers,
 feeders, and the entire network. Consumption patterns, anomalies, and the relationship between meter readings and
 network measurements form the observable layer for metering integrity.
@@ -8,13 +8,13 @@ network measurements form the observable layer for metering integrity.
 ## Normal consumption patterns and baselines
 
 The meters record consumption continuously. A residential meter in a typical Dutch home consumes 8-15 kWh per day
-in winter (heating load) and 3-8 kWh per day in summer. An office building shows a sharp daytime peak (08:00-18:00) and
+in winter (shorter days and more lighting, plus a heat pump where fitted; Dutch homes mostly heat with gas) and 3-8 kWh per day in summer. An office building shows a sharp daytime peak (08:00-18:00) and
 minimal nighttime consumption. A supermarket shows steady baseline load (refrigeration, lighting) plus daily peaks
 around shopping hours. Industrial customers show load that correlates with production schedules. These patterns are
 consistent and repeatable year-over-year, with seasonal variation and day-of-week variation (weekday loads differ from
 weekend loads).
 
-Stedin's metering platform aggregates readings at multiple levels: individual meter, district, feeder, substation, and
+The metering platform aggregates readings at multiple levels: individual meter, district, feeder, substation, and
 network-wide. The aggregated consumption shows the sum of all customer consumption downstream of a measurement point. A
 feeder's total consumption at 15:00 matches the sum of all meter readings downstream of that feeder. When
 consumption is compared across aggregation levels, the pyramid balances: the sum of all customers equals the sum
@@ -23,13 +23,13 @@ of all meters, which equals the sum of all feeders, which equals the network-wid
 The baseline for each meter, district, feeder, and substation is constructed from historical data. The expected
 consumption pattern for a Tuesday afternoon in March is known with reasonable precision. When real-time data arrives, it
 is compared against the baseline. A meter that normally shows 2 kW steady load suddenly dropping to zero is anomalous. A
-feeder that normally shows 50 MW at midday suddenly showing 30 MW stands out. A network-wide consumption that diverges
+feeder that normally shows 5 MW at midday suddenly showing 3 MW stands out. A network-wide consumption that diverges
 from the expected pattern by more than a few per cent points the same way. These anomalies can indicate equipment failure,
 customer usage change, meter malfunction, or tampering.
 
 ## Meter-to-network measurement alignment
 
-Stedin's distribution network has multiple independent measurement sources. Smart meters measure consumption at
+The distribution network has multiple independent measurement sources. Smart meters measure consumption at
 individual customer points, aggregating to feeders and substations. RTUs at substations measure total feeder consumption
 via CT (current transformer) inputs and report to the SCADA and historian. These two independent measurement sources (
 meters and RTUs) show alignment. The sum of all meter readings on a feeder approximately equals the RTU's
@@ -68,31 +68,25 @@ relay trip and no disconnection in SCADA logs, the drop is unexplained.
 
 ## Meter tampering signatures
 
-Meter tampering can take several forms, each with distinct signatures. A meter can be physically bypassed (a circuit
-shunt or reverse-polarity connection is installed so the meter does not record the consumed energy). The visible
-signature is that the meter's consumption does not match the customer's actual load (which can be estimated from other
-sources like billing complaints or electricity-company inspection) or the meter reading stays constant when the customer
-reports consuming power.
+Meter tampering can take several forms, each with distinct signatures. A physically bypassed meter (a shunt or reverse-polarity connection across it) reads a consumption that does not match
+the customer's actual load, estimable from billing complaints or an inspection, or a reading that stays flat while the
+customer draws power.
 
-A meter can be remotely modified if it accepts remote commands via CDMA. The signature of remote tampering is that the
-meter's consumption value suddenly resets or jumps without a corresponding disconnection-reconnection event. A meter reading that goes backward (consumption decreases instead of
-increasing) is an obvious signature, as meters are designed to record cumulative consumption only.
+A meter modified over its CDMA command channel shows a consumption value that suddenly resets or jumps with no
+disconnection-reconnection behind it, or, most obviously, a reading that runs backward, which a cumulative meter should
+never do.
 
-A meter can be swapped. A tampered or non-reporting meter is physically replaced with a different meter that reports
-artificially low consumption. The signature is a discontinuity in the meter's serial number or an abrupt change in the
-consumption profile at the instant of meter replacement. If a meter ID suddenly changes and the consumption history
-resets, that indicates a meter replacement. The question is whether the replacement was documented (a work order
-authorises the replacement) or unauthorised.
+A swapped meter, one physically replaced with another reporting artificially low consumption, shows as a discontinuity
+in the serial number or an abrupt profile change at the instant of replacement; a meter ID that changes and a history
+that resets is a replacement, and the only question is whether a work order authorised it.
 
-A meter's reported consumption can be altered during transmission or at the platform. If the meter correctly records and
-reports 1000 Wh, but the metering platform receives 500 Wh, the data was modified in transit or at the platform. The
-signature is a divergence between what the meter transmitted (visible in Utility Connect's CDMA logs if available) and
-what the platform recorded. If the platform's audit log shows the value was edited (who edited it, when, what the
-old value was), that is the signature of manual tampering.
+Consumption altered in transit or at the platform, the meter reports 1000 Wh but the platform records 500, shows as a
+divergence between what the meter transmitted (in Utility Connect's CDMA logs, where available) and what the platform
+stored, or as an edit in the platform's own audit log.
 
 ## Non-technical losses and energy theft
 
-Stedin recognises several classes of electricity loss. Technical losses are expected: electricity dissipates as heat in
+Several classes of electricity loss are recognised. Technical losses are expected: electricity dissipates as heat in
 the distribution network's conductors, transformers have inherent losses, and metering has inherent uncertainty.
 Non-technical losses are energy that is consumed but not properly metered or billed, including energy theft, metering
 errors, and unauthorised connections.
@@ -110,15 +104,15 @@ Identifying such outliers requires statistical analysis, but the signatures are 
 
 ## Regulatory and billing applications
 
-Stedin's metering data flows to Netbeheer Nederland for the national energy balance and to billing systems for customer
+The metering data flows through the grid operators' central market data exchange into the national settlement that TenneT balances, and to billing systems for customer
 accounts. The data also flows to regulators who verify that metering is accurate. When metering data is disputed (a
-customer claims they were over-billed, or a regulator questions Stedin's reported network losses), the meter readings
+customer claims they were over-billed, or a regulator questions the reported network losses), the meter readings
 are the source of evidence.
 
-Stedin has been involved in metering disputes with the ACM (Dutch energy regulator). In one [dispute over meter
-readings](https://www.acm.nl/nl/publicaties/geschilbesluiten-consumenten-stedin-over-meterstanden), it was Stedin's own
+The operator has been involved in metering disputes with the ACM (Dutch energy regulator). In one [dispute over meter
+readings](https://www.acm.nl/nl/publicaties/geschilbesluiten-consumenten-stedin-over-meterstanden), it was the operator's own
 logbook, the physical record of repeated in-person attempts to read a meter, that proved decisive: the ACM accepted it
-as evidence that Stedin had met its reading obligation and ruled the complaint unfounded. The handwritten record carried
+as evidence that the operator had met its reading obligation and ruled the complaint unfounded. The handwritten record carried
 the point the digital platform alone could not.
 
 The metering platform's audit logs (who accessed the data, when, and what changes were made) are forensic sources for
@@ -128,7 +122,7 @@ of tampering. Conversely, if the audit log is complete and shows no such edits, 
 
 ## Consumption forecasting and anomaly detection
 
-Stedin's metering platform can apply statistical models to detect anomalies. A model predicts the expected consumption
+The metering platform can apply statistical models to detect anomalies. A model predicts the expected consumption
 for each customer based on historical data, weather, calendar (weekday/weekend), and seasonal factors. When real-time
 meter readings arrive, they are compared against the prediction. Readings that deviate significantly from the prediction
 are flagged for investigation.
@@ -146,4 +140,4 @@ substation district are anomalous), that suggests a systematic problem at that l
 temporally (all anomalies occur at night or all occur on weekends), that suggests a pattern related to behavioural or
 operational factors.
 
-*Last updated: 12 July 2026*
+*Last updated: 13 July 2026*

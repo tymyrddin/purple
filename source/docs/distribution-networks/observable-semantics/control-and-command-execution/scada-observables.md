@@ -1,12 +1,12 @@
 # SCADA observables
 
-The e-terra SCADA system at Stedin logs alarms, operator commands, mode changes, and network state at the control-centre
+The e-terra SCADA system logs alarms, operator commands, mode changes, and network state at the control-centre
 level. The alarm journal shows what normal operation looks like, what evidence survives when a command is issued, and
 how a legitimate operational decision reads differently from an unauthorised change.
 
 ## The normal baseline
 
-Stedin's e-terra SCADA maintains a continuous alarm and event journal that logs all state changes in the distribution
+The e-terra SCADA maintains a continuous alarm and event journal that logs all state changes in the distribution
 network. The journal records operator commands issued from the control room, the timestamp of each action, the
 operator's user ID, the target device (a switchpoint, a load, a protection zone), the command (Open, Close, Isolate,
 Restore), and whether the command was acknowledged. Each command has a corresponding event record when the field device
@@ -23,14 +23,14 @@ itself, and login-logout events of operators connecting to e-terra.
 Normal operation also includes background alarms that appear regularly and are expected by the operators. A feeder
 that consistently runs near its thermal limit may generate a low-level warning alarm every warm afternoon that the
 operator acknowledges and monitors; this is normal, not evidence of a problem. High-voltage transmissions under stress
-during peak demand trigger alarms that the TenneT dispatcher and Stedin operator coordinate on; this too is routine. The
+during peak demand trigger alarms that the TenneT dispatcher and the operator coordinate on; this too is routine. The
 baseline for an operator includes learning which alarms are "crying wolf" and require investigation versus which are
 expected noise. The SCADA journal captures this pattern: frequent acknowledgements of the same alarm, quick dismissals
 without further action, and a steady cadence matching the network's load and weather cycles.
 
 ## Configuration changes and audit trails
 
-Stedin's e-terra maintains version records of its alarm thresholds, load-shedding logic, under-frequency relay settings,
+e-terra maintains version records of its alarm thresholds, load-shedding logic, under-frequency relay settings,
 and the mapping between logical network model (the GIS view of the distribution network) and physical reality (the
 actual substation). Configuration changes can be initiated by authorised engineers through the SCADA
 engineering interface, and when a change is made, the system logs the old value and new value, the timestamp, the user
@@ -40,7 +40,7 @@ A legitimate configuration change during a maintenance window appears in the jou
 associated work order, preceding a series of switching operations that test the new configuration. The most common
 changes involve updating alarm thresholds when a network branch is upgraded (raising voltage limits because a new
 transformer with higher capacity is installed), or modifying load-shedding logic when the network topology changes.
-These changes go through change control at Stedin: the engineer submits a change proposal, it is reviewed and approved
+These changes go through change control: the engineer submits a change proposal, it is reviewed and approved
 by the OT lead, the engineer applies it at a scheduled time, and the change is documented in the asset management
 system (Maximo).
 
@@ -65,15 +65,15 @@ discrepancy is isolated or systematic, dozens of commands with no corresponding 
 
 ## Operator action patterns and anomalies
 
-Stedin's SCADA logs operator actions at a fine grain: not just which switches were operated, but which operator did it,
+The SCADA logs operator actions at a fine grain: not just which switches were operated, but which operator did it,
 when, and from which control-room terminal. Over time, an operator develops a pattern of working hours, typical
 commands, typical sequence of actions, and typical response times to alarms. An operator who normally works 08:00-17:00
 suddenly logging in at 02:00 is anomalous. An operator who typically issues five switching commands per shift suddenly
 issuing fifty in an hour is hard to explain. An operator who normally manages low-voltage distribution and suddenly accessing
-high-voltage relay settings is suspicious. The credential-compromise signals underneath these patterns, simultaneous
+high-voltage relay settings is suspicious. A command executed and then at once reversed, an open followed immediately by a close, or a protection function disabled and re-enabled, is another tell: the journal holds two contradictory commands in quick succession, the shape of a temporary change made and then hidden. The credential-compromise signals underneath these patterns, simultaneous
 sessions, failed-then-successful logins, logins from unexpected places, are read from the authentication record.
 
-Commands outside the operator's authorisation level are another pattern. Stedin's Bedrijfsvoering system defines what
+Commands outside the operator's authorisation level are another pattern. The [Bedrijfsvoering system](../../operating-context/operations-and-cadence/operational-procedures-and-change.md) defines what
 each operator is Schakelbevoegd to do. If an operator with authorisation only for low-voltage work attempts to
 issue a command on a high-voltage substation and the command is rejected, that is evidence either of an attacker using
 the operator's compromised credentials or of a confusion about what the operator is authorised for. Approval
@@ -85,7 +85,7 @@ the SCADA system itself.
 
 ## The control-room evidence surface
 
-The control room is the evidence-generating layer for the entire Stedin network. Everything visible to the operator at
+The control room is the evidence-generating layer for the entire network. Everything visible to the operator at
 the HMI (the graphical map of the network on their screen), every command they issue, every alarm they acknowledge,
 every setting they change, and every time they log in is recorded by the SCADA system, transmitted to a historian, and
 archived. The strength of this evidence is that it is continuous and comprehensive: if an operator acted, it is
@@ -121,4 +121,4 @@ serious malfunction.
     a false claim has to stay coherent across, the larger the footprint forging it
     leaves.
 
-*Last updated: 12 July 2026*
+*Last updated: 13 July 2026*

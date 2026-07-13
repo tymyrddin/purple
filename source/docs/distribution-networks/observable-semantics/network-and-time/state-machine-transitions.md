@@ -1,10 +1,12 @@
 # State machine transitions
 
-Stedin's network devices move through defined operational states. A switchpoint is either Open or Closed. A breaker is
-Healthy, Degraded, or Unhealthy based on its mechanical operating count and contact condition. A protection relay is
-either In Service, Out of Service for Maintenance, or Disabled. A feeder is either Energised or De-energised. The
-transitions between these states are governed by logic and constraints, and anomalous transitions reveal compromise or
-malfunction.
+Network devices move through defined operational states: a switchpoint Open or Closed, a breaker Healthy, Degraded or
+Unhealthy, a protection relay In Service, Out of Service or Disabled, a feeder Energised or De-energised. Each reported
+state is a claim, and every claim answers to two things: the logic that governs which transitions are allowed, and an
+independent record of what the plant actually did. A transition reads as normal when it is permitted, authorised, and
+borne out by a physical change or a second system that saw the same thing. It reads as a signature of compromise or
+malfunction when the state moves against the rules, without a command, or without the physical world moving to match.
+The work throughout is setting the reported state against a record the reporting device does not control.
 
 ## Switchpoint and breaker state machines
 
@@ -22,18 +24,19 @@ state), a state change that contradicts the command (Close command issued but th
 that oscillates rapidly (the switchpoint rapidly alternates between Open and Closed within seconds, which is physically
 impossible for a mechanical switchpoint and indicates either false reporting or a sensor malfunction).
 
-Breaker state is more complex. A breaker's mechanical condition is tracked by monitoring its operating count (the number
-of times it has opened and closed). Each operation causes contact wear and mechanical stress. At Stedin, mechanical
-counters on breakers track this directly. As the count increases, the breaker's condition degrades. When the count
-reaches a maintenance threshold, the breaker enters a Degraded state and must be serviced or replaced. If the mechanical
-count shows an impossible jump (sudden increase of thousands of operations in seconds), that indicates either sensor
-tampering, mechanical failure, or false reporting.
+Breaker condition is tracked by an operating count, the number of open-close cycles the mechanism has run, since each
+cycle wears the contacts. A mechanical counter on the breaker holds this directly, and as the count climbs the breaker
+moves from Healthy towards Degraded and, at a maintenance threshold, out of service. The counter is a record in its own
+right, independent of the SCADA's tally of the operations it commanded, and that independence is the check. A counter
+that leaps by thousands in seconds is not a breaker that truly cycled that many times but sensor tampering, mechanical
+fault, or false reporting; a handful of commanded operations beneath a counter reading thousands puts the fault in the
+counter or its sensor, not in the plant.
 
 ## Protection relay service states
 
-Protection relays can be in several states: In Service (actively protecting the network), Out of Service for
-Maintenance (accessible to engineers but not protecting), or Disabled (protection function explicitly disabled). These
-states are controlled by configuration and operator settings.
+A protection relay reports one of a few service states, In Service and actively protecting the network, Out of Service
+for maintenance and reachable by engineers but not protecting, or Disabled with the protection function explicitly off.
+The state is a field the relay sets and the SCADA reads, which is precisely why it cannot be taken at face value.
 
 The normal state is In Service. The relay continuously monitors electrical quantities and would trip if configured
 thresholds are exceeded. During planned maintenance, a relay is explicitly placed Out of Service, meaning the protection
@@ -46,10 +49,15 @@ remaining Out of Service for an extended period without justification. If a crit
 without a documented maintenance activity, that is suspicious. A relay that is placed Out of Service at 01:00 without
 emergency justification suggests unauthorised disabling of protection.
 
-The state-transition log is the forensic source. If the relay's internal logs show it was placed Out of Service at 03:00
-UTC on a date when no maintenance was scheduled, but the work order records show the maintenance was scheduled for 09:00
-UTC, there is a timing discrepancy. Either the relay's clock is incorrect, or the relay was transitioned out of service
-early to allow unauthorised work, or the logs are falsified.
+The state-transition log catches a discrepancy against the paperwork: a relay's internal log showing Out of Service at
+03:00 UTC on a date with no scheduled maintenance, against a work order set for 09:00, leaves the relay disabled early,
+its clock wrong, or the log falsified. But a service state is a claim like any other, and the firmer check does not take
+the relay's word for whether it was protecting. A fault settles that. If the
+[historian](../measurements-and-data-records/historian-patterns.md) shows an overcurrent that crossed the trip threshold
+while the relay, reporting In Service, recorded no trip and the breaker never opened, the relay was not protecting
+whatever its state field said. The reverse reads too, an RTU or the SCADA seeing protection drop out while the state log
+still shows In Service, sets the reported state against what the network actually saw rather than against the relay's own
+account.
 
 ## Feeder and section energisation state
 
@@ -74,9 +82,15 @@ feeder remaining De-energised far longer than the planned maintenance window. A 
 re-energised at 17:00 but was still de-energised at 20:00 indicates either an extended maintenance, a problem
 re-energising, or unauthorised continued de-energisation.
 
+The reported state answers to the measurement beneath it. A section reported De-energised while the
+[historian](../measurements-and-data-records/historian-patterns.md) still holds voltage or current on it is a report the
+plant contradicts, the reading an operator's safety check is there to catch before anyone works the line. A section
+reported Energised while every downstream measurement sits at zero is the same contradiction the other way, and in both
+the measurement is the independent word the switchpoint's own state report has to meet.
+
 ## Asset state and condition tracking
 
-Stedin tracks asset condition: transformers, capacitors, and other equipment have condition states (New, Healthy,
+The operator tracks asset condition: transformers, capacitors, and other equipment have condition states (New, Healthy,
 Degraded, Needs Replacement). These states are updated through maintenance inspections, condition monitoring, and
 automated alerts. An asset that transitions from Healthy to Degraded normally has a corresponding maintenance work order
 explaining why the condition changed.
@@ -85,10 +99,12 @@ Normal state transitions show: asset in Healthy state, inspection performed (doc
 assessed, and state updated if necessary (to Degraded if inspection found problems). The assessment is documented with
 details (what was found, what corrective action is needed).
 
-Anomalous transitions include: an asset state changed without a corresponding inspection or work order, or an asset's
-condition state reversed (Degraded to Healthy) without maintenance being performed. If an asset's condition state is
-downgraded (Healthy to Degraded) without corresponding evidence of condition change (no inspection records, no technical
-justification), that is hard to explain innocently.
+Anomalous transitions include an asset state changed with no inspection or work order behind it, or a condition reversed
+from Degraded to Healthy with no maintenance performed. Where the asset carries condition monitoring, the state has data
+to answer to as well as paperwork: a downgrade to Degraded that no monitoring reading supports, no rising dissolved-gas
+trend in a transformer, no temperature excursion, no partial-discharge activity, is a record moved by hand rather than
+by the asset, and a reversal to Healthy with nothing between the two states is a record moved to bury a problem rather
+than fix it.
 
 ## Work order and asset life-cycle states
 
@@ -100,9 +116,12 @@ Normal work-order progression shows smooth transitions from one state to the nex
 transition. A work order that is submitted and then jumps directly to Closed without passing through Approved, In
 Progress, and Verified would indicate either a system malfunction or unauthorised state manipulation.
 
-The work-order state is important because it controls what activities are authorised. Once a work order is Closed, the
-maintenance window is officially ended. If work continues after the work order is Closed, that work is unauthorised.
-Conversely, if a work order remains In Progress indefinitely, the work is extending beyond its authorised window.
+The work-order state governs what is authorised, which is why it is worth setting against what was actually done. Once a
+work order is Closed the window is ended, so switching that still appears in the
+[SCADA journal](../control-and-command-execution/scada-observables.md) under that work after its Closed timestamp is
+activity with no authorisation behind it. A work order left In Progress indefinitely is the same gap from the other
+side, work running past the window it was granted. The state transition on its own is only a claim in Maximo; the
+operational record is where it is borne out or contradicted.
 
 ## Timing of state transitions
 
@@ -122,7 +141,7 @@ event timestamps.
 
 ## State consistency across replicated systems
 
-For critical assets, Stedin may have redundant monitoring or control systems. A switchpoint's state is reported by the
+For critical assets, there may be redundant monitoring or control systems. A switchpoint's state is reported by the
 RTU that controls it and by the SCADA that commands it, and potentially by multiple sensors. These independent systems
 are expected to agree on the switchpoint's state.
 
@@ -134,4 +153,4 @@ The consistency check is powerful because it is independent of the system being 
 compromised, the other independent systems provide validation. If multiple systems diverge in their state reports for
 the same asset, the divergence is the forensic signature that something is wrong.
 
-*Last updated: 12 July 2026*
+*Last updated: 13 July 2026*

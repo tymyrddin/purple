@@ -1,6 +1,6 @@
 # Engineering workstation artefacts
 
-Stedin's engineering workstations (dedicated computers running DIGSI 5, AcSELerator QuickSet, SCADA tools, and GIS
+The engineering workstations (dedicated computers running DIGSI 5, AcSELerator QuickSet, SCADA tools, and GIS
 software) are the front-line interfaces for configuration and change. These workstations generate forensic artefacts:
 project files, connection logs, session histories, file metadata, and Windows event logs. The artefacts reveal who
 accessed what devices, when, and what changes were made.
@@ -61,7 +61,7 @@ settings, settings change history, and metadata about when the project was last 
 DIGSI project file post-incident to extract the configuration and see what it was supposed to deploy. AcSELerator stores
 settings in a database format that can be exported to human-readable CSV or XML.
 
-For SCADA tools, the format varies (GE SCADA, Siemens, Schneider all use different formats), but they typically store
+For SCADA tools, the format varies (GE SCADA, Siemens, Schneider all use different formats), but they usually store
 configuration in databases or text-based formats that can be exported and analysed. A complete forensic analysis of an
 engineering workstation involves exporting all project files and configuration databases to a neutral format so they can
 be reviewed and compared against official baselines.
@@ -126,4 +126,4 @@ However, memory evidence is often unavailable in distributed networks. By the ti
 workstation is acquired, the machine may have been shut down or rebooted (clearing memory), or the user may have deleted
 evidence. In most cases, the file-system and log evidence on the workstation are the primary forensic sources.
 
-*Last updated: 12 July 2026*
+*Last updated: 13 July 2026*

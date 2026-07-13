@@ -10,7 +10,7 @@ order-of-magnitude, with the exact value sitting in the open GIS data rather tha
 The distribution layer is the well-reported stock: around 26,500 distribution substations (trafohuisjes, converting
 medium to low voltage) under management as of
 the [2022 report](https://www.stedingroep.nl/-/media/project/groep/files/stedin-groep-jaarverslag-2022---energiek-doorpakken-final.pdf),
-growing by a few hundred a year, with the [2024 report](https://www.stedingroep.nl/-/media/project/groep/files/stedin-groep-jaarverslag-2024.pdf) recording 478 added in 2022, 266 in 2023 and 353 in 2024.
+growing by a few hundred a year, with the [2024 report](https://www.stedingroep.nl/-/media/project/groep/files/stedin-groep-jaarverslag-2024.pdf) recording 478 added in 2022, 266 in 2023 and 353 in 2024. Counts vary with what is included: other Stedin material puts the secondary-substation population nearer 20,000, the gap most likely the customer stations not always counted alongside them.
 
 The higher-voltage stations (regional HV and HV/MV
 substations) are not given a clean single count in these sources; press references to "500 stations" in a build year mix

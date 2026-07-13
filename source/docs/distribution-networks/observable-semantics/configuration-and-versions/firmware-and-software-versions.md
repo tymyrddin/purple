@@ -1,16 +1,16 @@
 # Firmware and software versions
 
-Stedin's field devices (RTUs, protection relays, smart grid terminals) run firmware: executable code stored in
+Field devices (RTUs, protection relays, smart grid terminals) run firmware: executable code stored in
 non-volatile memory that implements the device's protocols, logic, and functionality. Each firmware version is uniquely
-identified by a version number, and Stedin maintains records of which devices are running which versions. Version
+identified by a version number, and the operator maintains records of which devices are running which versions. Version
 tracking, upgrade histories, and cryptographic verification of firmware integrity form the observable layer for hardware
 compromise detection.
 
 ## Firmware version baselines
 
-Each field device at Stedin is expected to run a specific known firmware version. RTUs at medium-voltage stations
+Each field device is expected to run a specific known firmware version. RTUs at medium-voltage stations
 might be running a Smart Grid Terminal firmware version such as 3.5.2. Protection relays, with the maker inferred as
-SIPROTEC or SEL, might be running a version such as 5.12.4. Stedin keeps a baseline of the expected version for each
+SIPROTEC or SEL, might be running a version such as 5.12.4. A baseline of the expected version is kept for each
 device.
 
 A query to the device (via the SCADA, via the engineering tool, or via a direct connection) asks the device to report
@@ -18,7 +18,7 @@ its firmware version. The response is compared against the baseline. A match mea
 firmware. A mismatch indicates either: a legitimate firmware update that the baseline has not been updated to reflect,
 or an unauthorised firmware modification.
 
-Normal firmware updates follow a documented process. Stedin evaluates a new firmware release from the vendor, approves
+Normal firmware updates follow a documented process. The operator evaluates a new firmware release from the vendor, approves
 it, schedules an update window, and performs the update. The process is typically: download the new firmware, verify it
 against the vendor's digital signature (if available), load it into the engineering tool, connect to the device, and
 upload the new firmware to the device's flash memory. The device reboots with the new firmware, reports the new version,
@@ -26,7 +26,7 @@ and the baseline is updated.
 
 Firmware version history is the record of all firmware updates to a device: when
 each update was performed, by whom, what version was deployed, and whether the update was successful. The history is
-observable through device logs (if the device records firmware updates) and through Stedin's asset-management system (
+observable through device logs (if the device records firmware updates) and through the asset-management system (
 Maximo or equivalent).
 
 ## Unauthorised firmware modification signatures
@@ -36,12 +36,9 @@ baseline, with no corresponding update record in the update history. If the base
 3.5.2, but querying RTU X reports version 3.5.3, either the baseline is outdated (there was an update that was not
 reflected in the baseline) or the firmware was modified.
 
-The challenge is that a sophisticated attacker might compromise not only the firmware on the device but also the
-version-reporting mechanism. The compromised firmware could report the old version while running new malicious code,
-defeating the simple version check. To detect this attack, more sophisticated methods are needed: cryptographic
-verification of the firmware (if the vendor provides signatures), extraction and analysis of the firmware from the
-device's flash memory, or observation of the device's behaviour to detect functional anomalies that indicate modified
-firmware.
+The version check catches only naive tampering: firmware that reports its old version string while running new code
+defeats it, so confirming integrity means going past the report, to cryptographic verification against the vendor
+signature, extraction and analysis of the flash image, or behavioural testing for functional anomalies.
 
 An RTU with modified firmware might behave anomalously: failing to execute commands correctly, reporting false
 measurements, losing communication intermittently, or executing commands that were not issued. These behavioural
@@ -49,7 +46,7 @@ anomalies are the signatures of firmware compromise when the firmware version ch
 
 ## Firmware integrity verification
 
-Some vendors provide cryptographic signatures for firmware releases. If Stedin obtains firmware from the vendor signed
+Some vendors provide cryptographic signatures for firmware releases. If the operator obtains firmware from the vendor signed
 with the vendor's private key, the signature can be verified before deploying the firmware to a device. A firmware
 package that fails signature verification (either the signature is invalid, or the firmware contents have been modified
 since signing) is rejected.
@@ -59,14 +56,14 @@ signature before loading the firmware, and refuse to load unsigned or incorrectl
 queried for its firmware and the firmware fails signature verification (extracted from the device and verified against
 the vendor's public key), the firmware is either modified or corrupted.
 
-For devices where the vendor does not provide signatures, hash-based verification can be used: Stedin computes a
+For devices where the vendor does not provide signatures, hash-based verification can be used: the operator computes a
 cryptographic hash (SHA-256 or similar) of the expected firmware and stores the hash in a secure location. When a device
 is audited, the firmware is extracted, hashed, and compared against the stored hash. A matching hash provides confidence
 that the firmware is authentic and unmodified.
 
 ## Firmware update audit logs
 
-Stedin's engineering workstations (DIGSI, AcSELerator, other tools) log when firmware updates are performed. The logs
+The engineering workstations (DIGSI, AcSELerator, other tools) log when firmware updates are performed. The logs
 record: the timestamp of the update, the user who performed it, the source of the firmware (file path, version
 number), and the target device (device address, type). After the update, the device is queried to verify it reported the
 new version.
@@ -120,13 +117,13 @@ from the device's flash memory via JTAG, or via vendor tools if available) and a
 disassembling the code, identifying modified sections, comparing against the expected firmware version, and
 understanding what the unauthorised code is doing.
 
-This analysis is technically challenging and typically requires specialised expertise and tools. It is also
+This analysis is technically challenging and usually requires specialised expertise and tools. It is also
 destructive (extracting firmware from a device may require physical access and may damage the device). For operational
-networks, firmware extraction is typically done post-incident or on lab equipment, not on active production devices.
+networks, firmware extraction is done post-incident or on lab equipment, not on active production devices.
 
 The evidence from firmware analysis is powerful but requires expert interpretation. If a modified firmware section is
 identified, it can potentially be reverse-engineered to understand the attacker's intent (what malicious logic was
 injected). However, this requires access to the original unmodified firmware for comparison, and may require
 reverse-engineering skills to understand proprietary code formats and logic.
 
-*Last updated: 12 July 2026*
+*Last updated: 13 July 2026*

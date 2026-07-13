@@ -6,8 +6,7 @@
 
 At the top sits [Stedin Holding N.V.](https://www.stedingroep.nl/), trading as Stedin
 Groep, with three separate subsidiaries: the regulated grid operator Stedin Netbeheer B.V., plus the unregulated
-NetVerder B.V. and DNWG Groep N.V. DNWG Groep in turn holds the (now-merged) grid operator Enduris and the
-infrastructure company DNWG Infra B.V.
+NetVerder B.V. and DNWG Groep N.V. DNWG Groep in turn holds the infrastructure company DNWG Infra B.V.
 
 The group's own definitions treat these as distinct legal persons. This separation is not cosmetic. It descends from
 the [Wet Onafhankelijk Netbeheer](https://wetten.overheid.nl/BWBR0020608), which since 2011 has required

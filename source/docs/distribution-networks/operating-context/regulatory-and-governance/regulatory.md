@@ -3,7 +3,7 @@
 ![Regulatory perimeter](/_static/images/distribution-regulatory-perimeter.png)
 
 [Stedin Netbeheer B.V.](https://www.acm.nl/nl/publicaties/tarievenbesluit-stedin-elektriciteit-2026) is one of the
-seven regional distribution system operators in the Netherlands, running electricity and gas distribution across most of
+six regional distribution system operators in the Netherlands, running electricity and gas distribution across most of
 South Holland, Utrecht and parts of Zeeland, and owned by municipalities and provinces in its area.
 
 Its perimeter sits

@@ -1,15 +1,22 @@
 # RTU behaviour
 
-Stedin's Smart Grid Terminals and older RTUs deployed in medium-voltage and low-voltage stations communicate with
+Smart Grid Terminals and older RTUs in medium-voltage and low-voltage stations communicate with
 e-terra SCADA via IEC 60870-5-104 telecontrol protocol. They accept commands from the control centre, execute them on
 field devices, and report measurements and state back. The RTU's firmware, configuration, and I/O logs are the
 observable layer through which RTU behaviour can be validated.
 
 ## Firmware version
 
-Each Stedin RTU runs firmware implementing the IEC 60870-5-104 protocol, and reports its version when queried. An RTU
-reporting a version other than the one Stedin holds on record is a first-order red flag, with the caveat that version
-reporting is itself software and a naive comparison only catches naive tampering.
+Each RTU runs firmware implementing the IEC 60870-5-104 protocol and reports its version when queried. The version
+string is the weakest of the firmware records, since the same code that would be altered also answers the query, so a
+version other than the one on record catches only tampering that did not trouble to fake the reply. The firmer checks
+sit beside it: the [firmware image's hash or signature](../configuration-and-versions/firmware-and-software-versions.md)
+read back from the device against the vendor's published value, and the running firmware's behaviour against what the
+recorded version is known to do. For an RTU those behavioural tells are specific, a protocol quirk the recorded version
+does not implement, a response timing that shifts, an information object the device begins to emit or stops emitting. An
+RTU whose reported version matches the baseline but whose behaviour does not is the case the version string cannot reach,
+and it is read by setting the device's I/O and protocol behaviour against the record of what that version does, not by
+trusting the number it returns.
 
 ## I/O command and response logs
 
@@ -32,7 +39,10 @@ commands consistently received inverted or redirected to the wrong output), it s
 a random glitch. An RTU that reports successful command execution but the actual field device (observed by a technician,
 or measured by independent sensors) remains in the original state is evidence of false reporting. If the SCADA command
 log shows a command was issued but the RTU event log shows no corresponding received command, the command was either
-lost in transmission or never sent.
+lost in transmission or never sent. That the mismatch shows at all is assumed, not guaranteed: some RTUs log each command
+received and its result in enough detail to expose a received-Open-against-issued-Close mismatch, others record little
+beyond state changes, and older substation units may keep nothing queryable, so where the device is thin the mismatch
+has to be caught upstream at the SCADA master or in a separate sequence-of-events recorder, if at all.
 
 Replay attacks manifest as duplicate commands in the RTU event log arriving in rapid succession. If the RTU receives
 "Open switchpoint A" at 10:34:22.501 UTC and then again at 10:34:23.105 UTC (exactly one second later), and only one
@@ -57,15 +67,19 @@ Closed. An operator at the SCADA sees Open and believes the switchpoint is de-en
 maintenance work, but the actual switchpoint is still energised, creating a safety hazard. A dramatic misreport: the RTU
 begins reporting false measurements (voltage shown as 240V when actually 280V, current shown as 0A when actually 1000A).
 The SCADA's alarms are based on these false values, so protections meant to trigger do not, or false alarms are
-raised. False measurement reporting is detectable if independent measurements are available: a technician at the site
-physically measures the voltage with a meter and compares it to the RTU's report, or a protection relay at the same
-location measures the same electrical quantity and its measurement is compared to the RTU's report.
+raised. False reporting is caught only against a record the RTU does not produce. The strongest is the protection relay in the
+same bay: it measures the same current and voltage off the same instrument transformers through its own acquisition
+path, so a relay reading 1000A while the RTU reports 0A places the fault in the RTU, not the primary plant. A field
+meter held against the terminals does the same for a spot check. The historian is no help here, since it stores the
+RTU's own series and inherits whatever the RTU reported. Where a switchpoint's position is in doubt, the co-located
+relay's [sequence-of-events record](protection-relay-state.md) of the same contact, or a technician's eyes on the
+mechanism, is the independent word against the RTU's.
 
-The risk of misreporting is that it can persist undetected for extended periods if no one cross-checks the RTU's report
-against independent measurements. An RTU that reports false state only under specific conditions (for example, reporting
-Open for a switchpoint only when that switchpoint is being actively controlled, but reporting Closed at all other times)
-might evade detection for months if the SCADA operator never has a reason to verify the state when no active control is
-happening.
+A misreport survives for as long as nothing forces that comparison. An RTU that falsifies state only while a switchpoint
+is under active control, and reports truthfully the rest of the time, gives the operator no reason to look and can hold
+the gap for months. What breaks it is a scheduled reconciliation rather than a prompted one: the RTU's reported states
+and measurements read against the relay and the field on a cadence, so the check happens whether or not anything looked
+wrong.
 
 ## Configuration consistency
 
@@ -78,14 +92,14 @@ altered to map it to switchpoint B, a command the SCADA sends to A is executed o
 success. The operator believes A is closed while B is. Nothing in the command exchange reads as wrong; only a
 configuration comparison or a field check exposes it.
 
-Stedin's RTU configurations are typically stored in the RTU's non-volatile memory (flash) and are also stored in
+RTU configurations are stored in the RTU's non-volatile memory (flash) and are also stored in
 engineering tool project files on the engineering workstation. Like relay settings, RTU configurations are versioned and
 baselined. A periodic maintenance check involves reading the RTU's configuration and comparing it against the baseline.
 A divergence points to unauthorised modification. The configuration is static between firmware updates (a new
 firmware version might come with a default configuration that then needs updating), so a configuration change outside a
 firmware update or documented maintenance window stands out.
 
-The challenge is that RTU configuration is often opaque. Unlike protection relay settings, which are typically
+The challenge is that RTU configuration is often opaque. Unlike protection relay settings, which are usually
 human-readable (e.g. "Overcurrent threshold: 1200A"), RTU configuration files are often binary or proprietary formats
 that require the vendor's engineering tool to interpret. That opacity slows an investigator reading the configuration as
 much as anyone altering it.
@@ -95,16 +109,20 @@ much as anyone altering it.
 Over time, an RTU develops a behavioural pattern that is observable even without detailed log analysis. An RTU that
 operates correctly most of the time but occasionally exhibits anomalous behaviour (failing to execute a command
 correctly, reporting false state for a brief interval, then resuming normal operation) might be running compromised
-firmware with conditional logic. A "dead man's switch" compromise would cause the RTU to operate normally 99 per cent of
-the time, only becoming malicious when triggered by a specific condition (a sequence of commands, a specific network
-state, or a time-based trigger).
+firmware with [conditional logic](../../threat-landscape/attack-surfaces/rtu-compromise.md) that stays dormant until a
+trigger fires.
 
-Conditional activation is harder to detect in logs because the normal operation events far outnumber the anomalous
-events. However, pattern analysis can reveal it. If anomalies occur only under specific conditions (only when voltage
-exceeds a certain level, or only when a specific protection relay has recently tripped), that pattern suggests
-intentional logic rather than random malfunction. A random hardware failure is equally likely under any condition; a
-deliberate conditional trigger is not. Statistical analysis of the timing and conditions under which anomalies occur can
-reveal patterns that suggest deliberate compromise.
+Conditional activation hides in the ratio: the dormant intervals far outnumber the triggered ones, so the anomaly reads
+as an occasional glitch rather than a pattern. What separates it from a glitch is the trigger. Ageing hardware fails
+without regard to the state of the network; a planted condition fires on a cue, a measured quantity crossing a set
+point, a particular command arriving, a date reached, a neighbouring relay tripping. So the tell is not that an RTU
+misbehaved but that it misbehaved each time the same cue was present and never otherwise, and pinning that down means
+holding the anomalous moments against the network state recorded around them and asking what they share.
+
+Correlation across the estate sharpens it. An RTU is one of many carrying the same vendor firmware build, so a fault
+seeded in that build is shared by every device running it, while a worn coil or a corroded contact is one device's own
+problem. Several RTUs of the same build turning anomalous within one window point past coincidence to the build they
+have in common; the same behaviour confined to a single unit, tracking its age and duty, reads as hardware.
 
 Behavioural baselines are useful for this analysis: how often an RTU normally executes commands successfully,
 how often it reports state changes, how often measurement values change. A sudden deviation from this baseline (
@@ -112,4 +130,4 @@ significantly fewer successful command executions, measurement values that stop 
 anomalous. A gradual degradation over time might indicate hardware ageing; an abrupt shift suggests a change in firmware
 or configuration.
 
-*Last updated: 12 July 2026*
+*Last updated: 13 July 2026*

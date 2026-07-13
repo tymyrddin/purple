@@ -40,7 +40,7 @@ The deferral falls where it safely can: the brittle-gas replacement remains non-
 
 The cadence itself is a constraint. Allowed income and the WACC are set for five-year periods (2022-2026, then 2027-2031), the investment plan is approved on a two-year cycle, and tariffs are set annually, so spending cannot simply track need in real time.
 
-The 2027-2031 round ran through eight sounding-board sessions, a draft decision in September 2025, submissions in October, and a sector-wide [agreement on the new method](https://www.acm.nl/nl/publicaties/netgebruikers-netbeheerders-en-acm-ondertekenen-akkoord-over-nieuwe-reguleringsmethode) in which the parties committed not to litigate except on the depreciation of historical book value, with the [method decision detail](https://www.acm.nl/system/files/documents/methodebesluit-tennet-op-land-2027-2031.pdf) spelling out the parameters.
+The 2027-2031 round ran through eight sounding-board sessions, a draft decision in September 2025, submissions in October, and a sector-wide [agreement on the new method](https://www.acm.nl/nl/publicaties/netgebruikers-netbeheerders-en-acm-ondertekenen-akkoord-over-nieuwe-reguleringsmethode) in which the parties committed not to litigate except on the depreciation of historical book value, with the [method decision detail](https://www.acm.nl/system/files/documents/methodebesluit-dsb-e-2027-2031.pdf) spelling out the parameters.
 
 The cycle also lags reality: the ACM had to partly adjust the 2022-2027 regime mid-period to give electricity operators more room to finance investment, and an earlier appeal court ruling forced a reopening of the 2022-2026 decisions. Approval is thus periodic and litigable, not continuous.
 

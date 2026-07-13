@@ -45,7 +45,7 @@ The closest neighbour is forensic readiness, the older discipline of arranging i
 preserve evidence that will stand up later. Evidentiary capability shares its instinct and narrows it: not
 "can we preserve evidence" but "can the evidence we preserve separate malice from its legitimate twins",
 computed as a property of the architecture rather than assessed by a reviewer's judgement. The novelty is
-modest and worth stating plainly, the discrimination among competing benign explanations, and the treatment
+narrow, and better named than dressed up: the discrimination among competing benign explanations, and the treatment
 of ordinary operational disorder as the substrate the determination has to survive.
 
 *Last updated: 12 July 2026*

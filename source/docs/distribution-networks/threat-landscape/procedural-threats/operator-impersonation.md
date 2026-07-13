@@ -95,48 +95,14 @@ that the junior operator has exceeded their authority, causing disciplinary acti
 
 ## Observable traces
 
-Operator impersonation surfaces as commands from unexpected endpoints, commands outside the operator's competency level, authentication failures followed by successful access, activity during off-hours, and simultaneous sessions from different locations.
-
-The evidence of credential compromise or session hijacking manifests in several ways. First, unexpected login
-endpoints. If an operator normally logs into e-terracontrol from their office workstation, a successful login
-from a VPN session or from an internet cafe would be unusual. The operator's typical pattern can be established from
-the historical logs, and deviations can be flagged.
-
-Second, commands issued outside the operator's normal working hours. If an operator works day shift and sudden
-commands appear in e-terracontrol logs during the night, that suggests either the operator is working overtime (which
-would be recorded in the schedule) or the account is compromised. Night-shift commands from a day-shift operator
-are a warning sign.
-
-Third, a burst of activity that is unusual in volume or speed. An operator might manually issue five switching
-commands in a working day, but an attacker with a compromised account might issue fifty in an hour, executing a
-pre-planned attack sequence as quickly as possible.
-
-Fourth, authentication failures followed by successful access. If the logs show multiple failed login attempts
-using the operator's username (an attacker guessing the password), followed by a successful login from an unexpected
-location, that pattern is consistent with credential compromise.
-
-Fifth, simultaneous sessions from different locations. If an operator's account is logged in from two different IP
-addresses at the same time, that indicates either an attacker has compromised the account while the real operator is
-still using it, or the operator's session was hijacked.
-
-Sixth, commands followed immediately by their reversal. An attacker might execute a malicious command (open a
-switchpoint, disable a protection function) and then immediately reverse it, trying to hide the temporary change.
-The logs would show two contradictory commands issued in rapid succession, which stands out.
-
-Seventh, failed commands that should have succeeded. If an operator with valid credentials and appropriate authority (
-Schakelbevoegd flag in Bedrijfsvoering) attempts to execute a command that should succeed, but the command fails, it
-could indicate that the operator is actually an attacker using compromised credentials that lack some subtle privilege,
-or that the compromised account's authority is not exactly matching what the attacker expected.
-
-The challenge with detecting impersonation is that if the attacker has compromised the credentials of a legitimate
-high-authority operator, the commands appear to be authorised. The attacker's actions will be logged as coming
-from an authorised source. Detection depends on establishing what the operator's normal pattern is (when they work, what
-commands they issue, what locations they work from) and flagging deviations. For an internal
-attacker who understands the operator's patterns and deliberately mimics them, detection becomes more difficult.
-
-If the attacker lacks knowledge of the operator's normal pattern, they will stand out: logging in at the wrong
-time, issuing unusual commands, or working from unexpected locations. The investment in understanding the target
-operator's normal behaviour is part of the pre-attack reconnaissance that distinguishes a sophisticated attacker from an
-opportunistic one.
+Impersonation surfaces as a break from the
+[operator's established pattern](../../observable-semantics/control-and-command-execution/scada-observables.md): a command
+from an unexpected login endpoint, activity outside their normal hours, a burst of commands far above the usual volume, a
+command issued and then at once reversed to hide it, or a command that fails because the stolen credentials lack a
+privilege the real operator holds. The credential mechanics underneath, [failed logins then a success, simultaneous
+sessions from two places at once](../../observable-semantics/access-and-authorisation/access-control-and-key-management.md),
+are read from the authentication record. The harder case is the insider who already knows the pattern and mimics it: an
+attacker who has done the reconnaissance to look normal leaves far less to flag than an opportunist logging in at the
+wrong time from the wrong place.
 
 *Last updated: 13 July 2026*

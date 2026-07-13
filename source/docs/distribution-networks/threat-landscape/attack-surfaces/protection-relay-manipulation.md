@@ -1,14 +1,24 @@
 # Protection relay manipulation
 
-Attacks on protection relays cluster around a few moves: changing trip thresholds, modifying pickup settings, disabling protection functions, or causing false trips. A relay compromise can disable the protection system or cause it to operate incorrectly, leading to cascade failures or leaving faults uncontrolled.
+Attacks on protection relays cluster around a few moves: changing trip thresholds, modifying pickup settings, disabling
+protection functions, or causing false trips. A relay compromise can disable the protection system or cause it to
+operate incorrectly, leading to cascade failures or leaving faults uncontrolled.
 
-Protection relay settings are managed through engineering tools (DIGSI, AcSELerator) and tested before deployment. Settings are versioned and compared against baselines. Unauthorised changes leave traces in the engineering workstation logs, settings files, and the online-versus-offline comparison.
+Protection relay settings are managed through engineering tools (DIGSI, AcSELerator) and tested before deployment.
+Settings are versioned and compared against baselines. Unauthorised changes leave traces in the engineering workstation
+logs, settings files, and the online-versus-offline comparison.
 
 ## Threshold modification
 
-The portrait's protection relays (inferred as SIPROTEC 5 and SEL-451, not independently confirmed yet) trip when measured electrical quantities exceed configured thresholds. An overcurrent relay trips when current exceeds the threshold, an over-voltage relay trips when voltage exceeds the threshold, a frequency relay trips when frequency deviates beyond the threshold. These thresholds are the front line of protection against faults in the network.
+The portrait's protection relays (inferred as SIPROTEC 5 and SEL-451, not independently confirmed yet) trip when
+measured electrical quantities exceed configured thresholds. An overcurrent relay trips when current exceeds the
+threshold, an over-voltage relay trips when voltage exceeds the threshold, a frequency relay trips when frequency
+deviates beyond the threshold. These thresholds are the front line of protection against faults in the network.
 
-An attacker modifying relay thresholds disables protection. Increasing an overcurrent threshold (1200A to 1500A) allows larger fault currents without a trip. The fault would then propagate deeper into the network, affecting more equipment and more customers. In cascading-fault scenarios, downstream equipment fails after prolonged stress and significant degradation.
+An attacker modifying relay thresholds disables protection. Increasing an overcurrent threshold (1200A to 1500A) allows
+larger fault currents without a trip. The fault would then propagate deeper into the network, affecting more equipment
+and more customers. In cascading-fault scenarios, downstream equipment fails after prolonged stress and significant
+degradation.
 
     OVERCURRENT RELAY PROTECTION LOGIC: Attack Surface
     ──────────────────────────────────────────────────
@@ -70,15 +80,18 @@ An attacker modifying relay thresholds disables protection. Increasing an overcu
       → Responds to any fault above 5A
 
     After attacker modifies:
-      Pickup: 40A (MODIFIED: shifted above normal 3A load)
+      Pickup: 40A (MODIFIED: shifted well above normal 3A load)
       Threshold: 1200A (unchanged)
 
     Zone behaviour:
-      • Load current swings 25A-35A: Relay responds (I > pickup)
-      • Load current spikes 38A: Relay still responds (I > pickup)
-      • Load current temporarily 42A during startup: Relay NOW IGNORES (threshold not exceeded yet)
-      • This creates false sense of protection during transient events
-      • Protection zone becomes "hair-trigger" on benign swings, deaf to real faults
+      • Normal load 1A-3A: below pickup, relay idle (correct, as before)
+      • High-impedance or remote fault drawing 20A-35A: now below the
+        40A pickup, so the relay stays idle and the real fault is missed
+      • Only currents above 40A start the element at all
+      • The whole 5A-40A band the old pickup would have caught is now
+        unprotected, while the zone looks healthy day to day
+      • Deaf to weak faults, not hair-trigger: raising pickup only
+        removes sensitivity
 
 
     INTERCONNECTED CONSTRAINT: What the attacker cannot hide
@@ -100,43 +113,78 @@ An attacker modifying relay thresholds disables protection. Increasing an overcu
       • Maintenance records show no authorised change
       • Next firmware update from engineering tool: forces relay to baseline (corrupts it back)
 
-
-An attacker faces a choice: modify the thresholds gradually over multiple maintenance cycles (so that each individual change appears normal), or modify them suddenly (in which case a settings comparison would immediately flag the change). An attacker with inside knowledge of the maintenance schedule might insert a threshold change during a legitimate maintenance window, making it appear as an authorised change.
+An attacker faces a choice: modify the thresholds gradually over multiple maintenance cycles (so that each individual
+change appears normal), or modify them suddenly (in which case a settings comparison would immediately flag the change).
+An attacker with inside knowledge of the maintenance schedule might insert a threshold change during a legitimate
+maintenance window, making it appear as an authorised change.
 
 ## Pickup setting compromise
 
-A relay's pickup setting defines the current level at which the relay begins to respond to a fault. Below the pickup current, the relay ignores the fault. At and above the pickup, the relay measures the time delay and trips if appropriate. A relay with a 5A pickup setting will respond to faults greater than 5A; a relay with a 50A pickup will ignore smaller faults.
+A relay's pickup setting defines the current level at which the relay begins to respond to a fault. Below the pickup
+current, the relay ignores the fault. At and above the pickup, the relay measures the time delay and trips if
+appropriate. A relay with a 5A pickup setting will respond to faults greater than 5A; a relay with a 50A pickup will
+ignore smaller faults.
 
-An attacker who increases a relay's pickup setting would cause the relay to ignore smaller faults. In a distribution network where many protection zones overlap (where multiple relays could potentially protect a fault), increasing a relay's pickup in one zone might cause that zone's relay to not respond, leaving protection to a less-sensitive relay elsewhere. This can change the effective protection strategy of the network.
+An attacker who increases a relay's pickup setting would cause the relay to ignore smaller faults. In a distribution
+network where many protection zones overlap (where multiple relays could potentially protect a fault), increasing a
+relay's pickup in one zone might cause that zone's relay to not respond, leaving protection to a less-sensitive relay
+elsewhere. This can change the effective protection strategy of the network.
 
-Pickup setting changes are often less obvious than threshold changes because they interact with the network's load current. A relay's pickup must be set above the normal maximum load current, or it would trip constantly. An attacker who increases the pickup to just above the known maximum load would appear to be setting it reasonably, but would actually be creating a narrow margin that could be exceeded during high-load conditions.
+Pickup setting changes are often less obvious than threshold changes because they interact with the network's load
+current. A relay's pickup must be set above the normal maximum load current, or it would trip constantly. An attacker
+who increases the pickup to just above the known maximum load would appear to be setting it reasonably, but would
+actually be creating a narrow margin that could be exceeded during high-load conditions.
 
 ## Protection function disabling
 
-Some protection relays have multiple protection functions: overcurrent, over-voltage, under-voltage, frequency, and others. These can be individually enabled or disabled. An attacker who can disable a protection function would remove protection from that class of faults.
+Some protection relays have multiple protection functions: overcurrent, over-voltage, under-voltage, frequency, and
+others. These can be individually enabled or disabled. An attacker who can disable a protection function would remove
+protection from that class of faults.
 
-Disabling a protection function is a more obvious attack than modifying a threshold, because the online-versus-offline comparison would show a function that is disabled when it should be enabled. An attacker might disable a function to hide a settings change, expecting that the function is not regularly tested and that the disabling would go unnoticed. But modern protection-maintenance practices include periodic functional testing of relays, and a disabled function would likely be caught.
+Disabling a protection function is a more obvious attack than modifying a threshold, because the online-versus-offline
+comparison would show a function that is disabled when it should be enabled. An attacker might disable a function to
+hide a settings change, expecting that the function is not regularly tested and that the disabling would go unnoticed.
+But modern protection-maintenance practices include periodic functional testing of relays, and a disabled function would
+likely be caught.
 
-Alternatively, an attacker might temporarily disable a protection function around the time of an intended attack (causing a fault when the protection is disabled), then re-enable the function after the attack, hoping that the window of disability is not discovered.
+Alternatively, an attacker might temporarily disable a protection function around the time of an intended attack (
+causing a fault when the protection is disabled), then re-enable the function after the attack, hoping that the window
+of disability is not discovered.
 
 ## False trip injection
 
-A compromised relay could trip when it should not, causing an unnecessary outage. This can be caused by modifying a relay's logic so that it trips at the wrong condition, or by commanding the relay to trip directly through its output coil.
+A compromised relay could trip when it should not, causing an unnecessary outage. This can be caused by modifying a
+relay's logic so that it trips at the wrong condition, or by commanding the relay to trip directly through its output
+coil.
 
-False trips are damaging because they cause unplanned outages and degrade customer confidence. They also consume the operator's emergency-response resources. A pattern of false trips from a particular relay might cause the operator to question the relay's reliability and might lead to it being bypassed or removed, which would then remove protection from that zone. An attacker could strategically cause false trips to degrade confidence in a particular protection zone, then replace the relay with a compromised device that has disabled protection.
+False trips are damaging because they cause unplanned outages and degrade customer confidence. They also consume the
+operator's emergency-response resources. A pattern of false trips from a particular relay might cause the operator to
+question the relay's reliability and might lead to it being bypassed or removed, which would then remove protection from
+that zone. An attacker could strategically cause false trips to degrade confidence in a particular protection zone, then
+replace the relay with a compromised device that has disabled protection.
 
 ## Settings baseline divergence
 
-Protection relay settings are stored in the relay's non-volatile memory and are also stored in the engineering tool database (on the engineering workstation or in a centralised configuration repository). Standard maintenance procedure is to connect to a relay periodically and compare the current settings against the baseline to detect divergence. Two things have to hold for that to work. *The comparison catches a single-sided change only if someone runs it on a cadence short enough to matter, and only if the stored baseline is itself trustworthy. More often than not the check is manual and tied to a maintenance visit rather than continuous, and the engineering-tool baseline is rarely reconciled against an independent record, so an attacker who corrupts both sides has a long window before anyone looks.* How these baselines are maintained and tested is foundational to catching unauthorised changes, and rests on [how relay settings are verified and documented](../../operating-context/operations-and-cadence/maintenance-philosophy.md).
+Protection relay settings live in the relay's non-volatile memory and in the engineering-tool database, and a routine
+online-versus-offline comparison is what a single-sided change runs into. Two things have to hold for that to work. *The
+comparison catches a single-sided change only if someone runs it on a cadence short enough to matter, and only if the
+stored baseline is itself trustworthy. More often than not the check is manual and tied to a maintenance visit rather
+than continuous, and the engineering-tool baseline is rarely reconciled against an independent record, so an attacker
+who corrupts both sides has a long window before anyone looks.* Which is why a divergence is not self-explaining: it has
+[three readings](../../observable-semantics/field-devices-and-protection/protection-relay-state.md), authorised, stale
+baseline, or unauthorised, and separating them is the whole task.
 
-A relay with diverged settings indicates either that a maintenance activity modified the settings (which should be documented and approved), or that an unauthorised modification has occurred. The distinction depends on whether the settings change matches the documented maintenance and whether the change was approved.
-
-An attacker would need to modify both the relay's settings and the baseline in the engineering tool database to hide the change. If only the relay is modified and the baseline remains unchanged, an online-versus-offline comparison will immediately reveal the mismatch. If only the baseline is modified and the relay remains unchanged, a later maintenance activity that updates the relay from the baseline will silently corrupt the relay's settings, which will be obvious once the relay is tested under fault conditions.
-
-A sophisticated attacker might compromise the engineering tool database to store a false baseline, then compromise a relay to run a different (malicious) configuration. The online-versus-offline comparison would show a match (because both the relay and the baseline are compromised), but the relay is actually running the wrong settings. This would require compromising two separate systems, which is more difficult but more durable.
+To hide a change, then, an attacker has to modify both the relay's settings and the baseline in the engineering-tool
+database. Change only the relay and the comparison flags the mismatch; change only the baseline and a later maintenance
+update silently corrupts the relay, which shows once it is tested under fault conditions. Compromising both, the relay
+to run a malicious configuration and the database to store a matching false baseline, defeats the comparison, but takes
+two separate systems and is correspondingly harder, if more durable.
 
 ## Observable traces
 
-Evidence of relay setting changes emerges from multiple sources: the relay's own event log (which records when settings were changed and often records who changed them, if the relay has an audit capability), the engineering tool's connection logs (showing when DIGSI 5 or AcSELerator QuickSet connected to the relay and what was read or written), the maintenance records (which document what settings changes were approved and when), and as-found-and-as-left records that document the state of the relay before and after maintenance. The challenge is that legitimate maintenance generates the same evidence trail. An engineer connecting to a relay and modifying settings leaves the same logs as an attacker would. The distinction emerges from whether the activity was authorised, whether it matches the documented scope of work, and whether the settings change is consistent with the intended maintenance outcome.
+Relay setting changes surface in the
+[relay's own event log](../../observable-semantics/field-devices-and-protection/protection-relay-state.md), the DIGSI 5
+or AcSELerator QuickSet connection logs, the maintenance records, and the as-found-and-as-left comparison, all of which
+legitimate maintenance produces too.
 
 *Last updated: 13 July 2026*

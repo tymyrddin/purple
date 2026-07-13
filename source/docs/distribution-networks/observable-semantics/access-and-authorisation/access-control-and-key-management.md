@@ -1,13 +1,13 @@
 # Access control and key management
 
-Stedin's physical access to substations and network equipment is controlled through key management (traditional keys for
+Physical access to substations and network equipment is controlled through key management (traditional keys for
 physical locks) and electronic access (badge systems, electronic locks). Authentication and authorisation for logical
 access (SCADA, engineering tools) is managed through user credentials and role-based access control. The audit trails
 from both physical and logical access form observable evidence of who accessed what and when.
 
 ## Physical key issuance and return logs
 
-Stedin maintains a Sleutelbeleid (key policy) where keys to substations are issued through authorised personnel (the IV,
+The operator maintains a Sleutelbeleid (key policy) where keys to substations are issued through authorised personnel (the IV,
 Installation Responsible Authority, or equivalent), logged at issuance, and returned at the end of the work period. The
 key log records: the key ID, who it was issued to, when, for what work (work order reference), and when it was returned.
 
@@ -59,20 +59,11 @@ the same time, which is impossible).
 
 ## Credential compromise detection
 
-A compromised user credential (a password or certificate that an attacker obtained) would allow the attacker to access
-systems as the legitimate user. The signs of credential compromise are: the user reports not making certain actions that
-appear in the logs (the user claims they did not log in at 03:00, but the authentication log shows a successful login),
-or the user reports that their password might be compromised.
-
-Authentication logs combined with action logs can reveal compromise. If the authentication log shows a user logged in at
-03:00, and the SCADA action log shows that a relay configuration was changed at 03:10 by that user, but the user claims
-they did not perform that action, the credential was likely compromised. An attacker logged in with the user's stolen
-credentials and performed unauthorised work.
-
-The investigation would then determine: when was the credential compromised (when did the attacker first log in), what
-actions did the attacker take (what changes were made), and what is the scope of the compromise (were other systems
-accessed). This drives into security breach investigation territory, where the focus shifts from operational forensics
-to security incident forensics.
+The tell of a [compromised credential](../../threat-landscape/procedural-threats/operator-impersonation.md) is a login
+the account holder disowns. Authentication logs read against action logs surface it: if the authentication log shows a
+user logged in at 03:00 and the SCADA action log shows a relay configuration changed at 03:10 under that user, but the
+user says they did no such thing, the credential was likely used by someone else. What the intruder then did, and how
+far the access reached, is a security-incident question rather than an operational-forensics one.
 
 ## Role-based access control and privilege escalation
 
@@ -81,7 +72,7 @@ Engineer, Administrator), and the role determines what actions the user can perf
 acknowledge alarms, but cannot change protection relay settings. An Engineer can modify relay settings. An Administrator
 can modify system configuration.
 
-Stedin's Bedrijfsvoering system explicitly tracks authorisation: a person has a Schakelbevoegd flag if they are
+The [Bedrijfsvoering system](../../operating-context/operations-and-cadence/operational-procedures-and-change.md) explicitly tracks authorisation: a person has a Schakelbevoegd flag if they are
 authorised to perform switching operations. Without this flag, a person cannot perform switching, even if they have
 physical access to the SCADA.
 
@@ -96,7 +87,7 @@ evidence of either a system vulnerability or a configuration error.
 
 ## Contractor and third-party access management
 
-Stedin works with contractors (maintenance teams, inspectors, testing companies) who require temporary access to
+The operator works with contractors (maintenance teams, inspectors, testing companies) who require temporary access to
 substations and systems. Contractor access is managed differently from employee access: it is typically more restricted,
 time-limited, and supervised.
 
@@ -110,14 +101,14 @@ used after their contract ended, the badge was either not properly revoked, or s
 
 ## Physical and logical access
 
-Stedin's substations are fenced and may be watched, so a physical breach, a cut fence, footprints, someone on the
+The substations are fenced and may be watched, so a physical breach, a cut fence, footprints, someone on the
 surveillance record, leaves its own evidence. The forensically useful move is to set that physical record against the
 logical one. A badge swipe with no one on the footage points to a cloned badge or a falsified log; a person on the
 footage with no badge swipe points to a cloned badge, a physical key, or a failed reader. Authorised work lines up on
 both sides: someone physically at the substation, logged into the SCADA or engineering tool over the same window, with a
 work order that matches the change. Where physical presence, logical session and documented work all agree the sequence
 is internally consistent; where one is missing, the work is suspicious. Whatever authentication factors are in place the
-logs show whether a session carried a valid one, so a session without it stands out; whether Stedin runs multifactor on
+logs show whether a session carried a valid one, so a session without it stands out; whether the operator runs multifactor on
 SCADA access is not publicly established.
 
-*Last updated: 12 July 2026*
+*Last updated: 13 July 2026*

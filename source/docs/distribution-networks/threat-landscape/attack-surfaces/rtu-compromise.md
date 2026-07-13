@@ -115,26 +115,21 @@ More dangerously, a compromised RTU could execute outputs autonomously without r
 
 ## Device state manipulation
 
-An RTU at a site continuously reports its state to e-terracontrol SCADA: whether inputs are high or low, whether outputs are energised, whether communication is normal, and what measurements are being collected. An attacker who can compromise the RTU's state reporting could cause the RTU to report false state to the operators.
-
-For instance, a compromised RTU could report that a switchpoint is Open when it is actually Closed. An operator would believe the switchpoint is open and might take actions based on that false belief. If the operator is trying to de-energise a load for safety, and relies on the false report that the switchpoint is open, they might believe the work is safe to proceed when it is actually not.
-
-Alternatively, a compromised RTU could report false measurements: reporting a voltage as 240V when it is actually 280V, or reporting a current as 0A when it is actually 1000A. This would cause e-terracontrol's alarms and protections to be based on false information about the network.
-
-The challenge for the attacker is that field devices have independent state. A relay at the output can be visually observed or measured independently. A technician doing work at a site might physically measure the voltage and recognise that it is not what the RTU is reporting. But if the attacker's goal is only to influence e-terracontrol's decision-making (not to actually misrepresent the physical state indefinitely), then the false reporting only needs to persist long enough for the operator to make a decision based on it.
+An RTU continuously reports its state to e-terracontrol, and an attacker who compromises that reporting makes the SCADA's
+picture diverge from what is physically there: a switchpoint shown Open while it is still live, a measurement flattened
+so an alarm that should fire stays silent. The hazard is a decision taken on the false picture, an operator
+de-energising a load for safety on a switchpoint that never opened. Because
+[the reported state can be set against an independent measurement](../../observable-semantics/field-devices-and-protection/rtu-behaviour.md),
+the lie does not have to survive scrutiny, only persist long enough for that one decision.
 
 ## Observable traces
 
-RTU compromise leaves traces in several places. First, the RTU records its firmware version in its non-volatile memory and reports this version when queried. If the operator has a record of what firmware version should be running and periodically checks the deployed firmware, a mismatch indicates a problem. But if the attacker compromises the firmware version reporting as well (so that the RTU reports the old version while running new code), this check fails.
-
-Second, RTUs have event logs that record when commands were received, whether they executed successfully, and when state changed. Assumed, not guaranteed. *Some RTUs log each command received and its execution result in enough detail to expose a received-Open-against-issued-Close mismatch. Others record little beyond state changes, and older substation units may keep nothing queryable. Where the device is thin, the mismatch has to be caught upstream at the SCADA master or in a separate sequence-of-events recorder, if it is caught at all.* An RTU with compromised firmware that ignores commands, or that executes commands different from what was received, would show inconsistencies in its event logs. For instance, if a control room operator's log shows "issued Close to Switchpoint A" but the RTU's event log shows "received Close to Switchpoint B", the mismatch is evidence.
-
-Third, there is a gap between commanded and actual state. If a control room operator commands a switchpoint to close, e-terracontrol sends a command to the RTU, the RTU's event log shows it received the command, the RTU reports back that the command succeeded, but the actual switchpoint (measured independently by a technician, or measured by a separate sensor) remains open, there is clear evidence of RTU compromise.
-
-Fourth, firmware update records leave a trace. The operator typically maintains a record of which firmware version is deployed to each RTU and when it was updated. An unexpected firmware update, or a firmware version that does not match the records, stands out.
-
-Fifth, pattern analysis can reveal compromise. An RTU that begins behaving oddly (reporting unusual values, executing commands unexpectedly, or losing communication) might be malfunctioning rather than compromised, but pattern analysis can help distinguish. If many RTUs across the network begin behaving anomalously at the same time, or if the anomalous behaviour occurs only when specific field conditions are met, that pattern is more consistent with compromise than with random hardware failure.
-
-The most difficult compromises to detect are those where the RTU operates normally most of the time and only exhibits anomalous behaviour under specific activation conditions. An RTU that runs normal firmware 99 per cent of the time and only activates malicious code when it receives a specific input pattern would appear to be functioning normally to most audits. Detection would require continuous monitoring of RTU behaviour and historical analysis of logs to look for patterns that suggest conditional activation.
+RTU compromise leaves traces across the
+[RTU's own logs](../../observable-semantics/field-devices-and-protection/rtu-behaviour.md): a firmware version that no
+longer matches the record, a received command that differs from the one issued, a reported success the field device's
+state contradicts, an unexpected firmware-update entry. None is decisive alone, a thin RTU may barely log and a version
+string can itself be forged, and the hardest compromise runs normal firmware almost all the time, turning malicious only
+on a trigger. What exposes that is pattern rather than any single record: several devices anomalous at once, or anomalies
+that track a specific field condition.
 
 *Last updated: 13 July 2026*

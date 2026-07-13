@@ -23,7 +23,7 @@ And there is an awkward coupling: the cyber side is tightly bound to the physics
 milliseconds earlier or later can be the difference between a contained fault and half a feeder disappearing. Emulating
 packets does not necessarily emulate what the packets control.
 
-## What a testbed could perhaps simulate
+## The tractable questions
 
 For security research grounded in [observable semantics](observable-semantics/index.rst), the expense is misplaced. 
 The goal is not to prove "the transformer explodes under this attack." Useful questions are concrete:
@@ -41,8 +41,8 @@ simulation is reproducing the physics. The comparatively cheap part is reproduci
 
 ## The abstraction layer
 
-Building a testbed around observable semantics rather than vendor-specific implementations allows progress surprisingly
-far without owning a substation in the back garden.
+Building a testbed around observable semantics rather than vendor-specific implementations carries a complex estate
+surprisingly far without standing up the plant behind it.
 
 A realistic distribution-network simulation needs:
 
@@ -98,18 +98,10 @@ Essential:
 
 ## Design pattern
 
-System-portrait provides the skeleton:
-
-- Control architecture: SCADA system with EMS/DMS, historian layer, centralised authentication
-- Field devices: protection relays, RTUs communicating over standard protocols, Smart Grid Terminals
-- Asset management: maintenance workflow system with audit trails
-- Enterprise systems: ERP for financial and procurement, cloud platforms for business applications
-- Staffing and procedures: contractors under long-term framework contracts, documented work plans and switching plans,
-  shift schedules
-- Constraints: capital regulation, legacy equipment, labour shortages, regulatory pressure
-
-A testbed instantiates that skeleton with evidence-emitting systems, constraint layers, and representative operational
-load. The questions observable-semantics asks then have answers.
+[System-portrait](operating-context/system-portrait.md) already supplies the skeleton, the control architecture, field
+devices, asset management, enterprise systems, staffing and constraints. A testbed instantiates that skeleton with
+evidence-emitting systems, constraint layers and a representative operational load, and the questions observable
+semantics asks then have answers.
 
 Did a relay settings change occur outside a scheduled maintenance window? Evidence exists: there is a work order, a
 switching plan, a contractor shift log, and a relay sequence-of-events. Either they all align, or they don't.

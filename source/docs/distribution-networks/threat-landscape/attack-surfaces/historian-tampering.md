@@ -86,40 +86,10 @@ indication that they were modified.
 
 ## Observable traces
 
-Tampering with the historian data leaves several traces. First, the historian's archive logs edits to stored values:
-the editing user, the timestamp, and the old and new value. Depends on the product and how it is configured. *Some historians log every edit to archived data with the old and new value, the user, and a timestamp. Others record only administrative actions, or leave value edits untracked unless an optional audit feature is switched on. Where value-level auditing is off or absent, a modified reading leaves no on-system trace, and detection falls back on cross-checking against independent records.* An edited value with no matching audit entry, or an audit
-trail with gaps, is the on-system signature. The live current-value cache holds only current values, so it is no help in reconstructing
-an altered past.
-
-Second, historian records are often integrated with other system logs. If an RTU sent a particular value to
-e-terracontrol SCADA at a particular time, that value should appear in e-terracontrol's event log at approximately the
-same time it appears in the historian. If an investigator finds a discrepancy (the event log shows a value that
-does not match the historian record, or vice versa), that can indicate tampering.
-
-Third, missing audit trail entries are themselves evidence. If the historian's audit logs suddenly have a gap (
-records 1000 to 2000 are present, but records 2001 to 2050 are missing), that suggests the audit log was edited.
-Similarly, if the audit trail should show an edit to a particular value but does not, that is evidence that the audit
-trail was tampered with.
-
-Fourth, process-value inconsistency with physical reality provides evidence. If the historian shows that a voltage
-was steady at 240V throughout the night, but a SIPROTEC or SEL protection relay at that location has an event log
-showing it measured 280V (an over-voltage condition) at that same time, the discrepancy indicates that one of the
-records is false. A sophisticated attacker would need to corrupt all related records to maintain consistency, which is
-difficult and leaves a larger forensic footprint.
-
-Fifth, timestamps can reveal tampering. Historian databases record the timestamp when a value was inserted or
-edited. If an investigator finds many edits that occurred at the same instant (to the millisecond), or edits that
-occurred at times when the historian system was not expected to be modified, that can indicate automated tampering
-rather than manual operator correction.
-
-The difficulty with detecting historian tampering is that it requires proactive forensic investigation, not passive
-monitoring. An operator who simply queries the historian for recent values will see only the current state of the
-database, not evidence that it was modified. Detection requires comparing the historian against other independent
-records (relay event logs from SIPROTEC and SEL relays, e-terracontrol SCADA transaction logs, real-time field device
-state) and looking for discrepancies, and it requires examining the historian's own audit logs for evidence of
-modifications. Knowing [how historians are used to reconstruct network events](../../operating-context/evidence-and-incident-traces/incident-analysis-and-forensics.md) helps defenders
-recognise when those data have been tampered with. A historian compromise that is well-executed (modifying values,
-editing audit logs, maintaining reconciliation between subsystems) might not be detected unless the investigator is
-specifically looking for it.
+Tampering with the historian rarely surfaces in a passive query. The tells are an edited value with no matching entry
+in the [archive's edit log](../../observable-semantics/measurements-and-data-records/historian-patterns.md), or a gap in
+that log; a stored value that no longer agrees with the RTU's log or a relay's COMTRADE for the same instant; a curve
+too smooth to be real. A well-executed compromise that edits the values, trims the audit trail and keeps the subsystems
+reconciled may pass unless an investigator goes looking.
 
 *Last updated: 13 July 2026*

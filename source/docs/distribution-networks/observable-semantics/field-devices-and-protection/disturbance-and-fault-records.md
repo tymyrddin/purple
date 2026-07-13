@@ -1,6 +1,6 @@
 # Disturbance and fault records
 
-Stedin's protection relays (inferred as SIPROTEC 5 and SEL-451, not independently confirmed) record disturbance data: high-fidelity waveforms captured at the
+The protection relays (inferred as SIPROTEC 5 and SEL-451, not independently confirmed yet) record disturbance data: high-fidelity waveforms captured at the
 instant a protection event is detected. These recordings, stored in COMTRADE format (IEEE C37.111 / IEC 60255-24),
 are the highest-confidence forensic evidence available for understanding what the relay actually measured and why it
 operated.
@@ -9,12 +9,12 @@ operated.
 
 COMTRADE (Common Format for Transient Data Exchange) is a standardised binary format for recording waveform data from
 power-system equipment. A COMTRADE file contains: the sampled values of currents, voltages, and status signals at high
-frequency (typically 256 or 1024 samples per second or higher), the timestamp of when sampling started, and the
+frequency (specified in samples per cycle, commonly 16 to 256 per cycle at 50 Hz, so from under a kilohertz to over ten kilohertz), the timestamp of when sampling started, and the
 configuration data specifying what signals were recorded and their scaling factors.
 
-When a relay detects a fault condition, it initiates a disturbance recording. The sampling had typically been running
+When a relay detects a fault condition, it initiates a disturbance recording. The sampling had been running
 continuously or on demand, and when the fault is detected, the relay captures the waveforms surrounding the fault:
-typically a pre-fault window (seconds before the fault is detected), the fault window (seconds during which the fault
+a pre-fault window (seconds before the fault is detected), the fault window (seconds during which the fault
 persists), and a post-fault window (seconds after the fault is cleared). The relay stores the recording in its memory,
 and the recording is later extracted via engineering tools or via a gateway connected to the relay.
 
@@ -105,7 +105,7 @@ This capability is useful for forensic analysis: if a COMTRADE from a fault is a
 and the COMTRADE can be played back through a relay simulator to verify that the relay would indeed respond as it did
 during the actual event.
 
-If the replay shows the relay would not have responded as documented (for example, the replay shows the relay's
+If the replay shows the relay would not have responded as documented (for instance, the replay shows the relay's
 threshold was not exceeded, but the relay's event log shows it tripped), then either the COMTRADE is not representative
 of the actual fault, or the relay's settings were different during the actual event than they are now, or the event log
 is falsified.
@@ -143,4 +143,4 @@ most COMTRADE files appear normal but a few are anomalous (corresponding to the 
 suspected to have occurred), the relay may have been conditionally compromised (malicious code activated only under
 specific conditions).
 
-*Last updated: 12 July 2026*
+*Last updated: 13 July 2026*

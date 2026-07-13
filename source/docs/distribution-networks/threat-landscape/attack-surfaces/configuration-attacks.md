@@ -206,34 +206,27 @@ noticed.
 
 ## Settings baseline divergence
 
-The operator most likely maintains a baseline of all system settings: SIPROTEC and SEL relay protection settings, e-terracontrol SCADA
-configuration, Smallworld network model, alarm thresholds, device communication parameters. Uniform in theory, uneven in practice. *Relay settings are usually the best-baselined, since protection work already turns on versioned settings files and as-found/as-left records. SCADA configuration, alarm thresholds, and the network model are often held with less rigour, sometimes with no independent baseline to compare against at all. The layer with the weakest baseline discipline is where an unauthorised change survives longest.* When maintenance is
-performed on any system, the settings that change are documented and approved. After the maintenance window, the
-system's settings should match the updated baseline.
+A baseline exists for most system settings, relay protection settings, e-terracontrol configuration, the Smallworld
+model, alarm thresholds, device parameters, and an unauthorised change is measured against it. Uniform in theory,
+uneven in practice. *Relay settings are usually the best-baselined, since protection work already turns on versioned
+settings files and as-found/as-left records. SCADA configuration, alarm thresholds, and the network model are often
+held with less rigour, sometimes with no independent baseline to compare against at all. The layer with the weakest
+baseline discipline is where an unauthorised change survives longest.*
 
-An attacker who introduces unauthorised configuration changes faces the risk that those changes will be discovered
-during a routine baseline comparison. If an operator periodically connects to each relay and performs a Read
-Settings operation through DIGSI 5 or AcSELerator QuickSet, comparing the current settings to the baseline, a divergence
-will be flagged. Similarly, if an operator periodically exports the e-terracontrol configuration and compares it against
-a known-good version, changes will be visible. How these baselines are established, maintained, and tested is
-foundational to understanding what unauthorised changes would appear as, and follows [how baseline settings are verified and
-documented](../../operating-context/operations-and-cadence/maintenance-philosophy.md).
-
-The time interval between baseline comparisons is the blind spot. If the operator compares settings annually, an
-attacker has a year to exploit the changes before they are discovered. If comparisons happen monthly, the window is
-smaller. If comparisons happen continuously through an automated integrity-checking tool, the window is minimal. But
-continuous integrity checking requires that the checking tool itself is trustworthy and that the baseline it is
-comparing against is accurate. An attacker who compromises both the live system and the baseline database could
-maintain the illusion of consistency while running unauthorised settings on the live system.
+For the attacker the baseline comparison is the thing to defeat. Modifying only the live setting leaves a divergence a
+routine comparison will flag, so hiding a change means corrupting both the live system and the baseline database at
+once, keeping the two agreeing on the wrong value. The interval between comparisons is the exposure: compared annually,
+an attacker has a year before discovery; monthly, less; continuously, almost none, though continuous checking only
+helps if the checking tool and the stored baseline are themselves trustworthy.
 
 ## Observable traces
 
-Evidence of configuration changes can be found in several places: the relay's own event log (which records settings
-changes), e-terracontrol's transaction log, the engineering tool's connection logs (showing when DIGSI 5 or AcSELerator
-QuickSet connected to a device), and IBM Maximo's audit trail (which records changes to asset records and maintenance
-activities). The challenge is that legitimate maintenance generates the same kinds of records: engineers
-connecting to relays, systems being modified, and settings being updated. Distinguishing between an authorised change
-and an unauthorised one requires understanding what the change was, whether it was approved, and whether it matches the
-documented maintenance activity for that time period.
+Configuration changes surface across the engineering tools,
+[version control](../../observable-semantics/configuration-and-versions/configuration-management.md), settings databases
+and audit trails: the relay's own event log, the
+[e-terracontrol transaction log](../../observable-semantics/control-and-command-execution/scada-observables.md), the
+DIGSI 5 or AcSELerator QuickSet connection logs, and IBM Maximo's audit trail. Because legitimate maintenance leaves the
+same records, an authorised change and an unauthorised one are separated only by reading each against the approved
+change-control trail.
 
 *Last updated: 13 July 2026*

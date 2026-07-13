@@ -46,7 +46,7 @@ maintenance-execution side.
 ### Smart meter suppliers
 
 Well attested and the richest procurement trail. Historically Landis+Gyr and the Flonidan and Iskraemeco consortium won
-a joint tender across Liander, Stedin, DELTA and Westland (around six million meters; trade-press reports, perishable),
+a joint tender across Liander, Stedin, DELTA and Westland (around three million meters, with options to extend; trade-press reports, perishable),
 and Stedin's installed base visibly includes Landis+Gyr units (model manuals on stedin.net) and Kaifa, including a
 Stedin CDMA electricity-meter lot awarded to Shenzhen Kaifa (a tender aggregator, perishable).
 
