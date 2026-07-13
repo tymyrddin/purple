@@ -1,6 +1,8 @@
 Threat actors and capabilities
 ============================================
 
+.. image:: /_static/images/distribution-threat-landscape-actors.png
+
 State actors have the patience for supply-chain and persistence plays, degrading service on demand or quietly learning
 how the network behaves at scale; criminals go where the money is, ransoming the IT layer or defrauding the metering
 estate rather than attacking the grid directly; and insiders trade on concentrated access, dressing an unauthorised

@@ -1,6 +1,8 @@
 Procedural threats
 ============================================
 
+.. image:: /_static/images/distribution-threat-landscape-procedural.png
+
 Impersonation, maintenance-window abuse and the insider threat share one property: the action is authorised on its face
 and leaves the same evidence as the real thing. A stolen credential or hijacked session issues commands the
 access-control system reads as legitimate; a maintenance window is a window of legitimacy in which unauthorised work

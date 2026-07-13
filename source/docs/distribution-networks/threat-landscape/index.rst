@@ -1,6 +1,8 @@
 Threat landscape
 ============================================
 
+.. image:: /_static/images/distribution-threat-landscape.png
+
 Reading threats to critical infrastructure at distribution scale from the defender's side: not what an attacker would
 set out to do, but what those actions leave in the observable record, and what a defender can look for.
 

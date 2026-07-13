@@ -1,13 +1,15 @@
 Observable signatures
 ============================================
 
+.. image:: /_static/images/distribution-threat-landscape-signatures.png
+
 Each threat type leaves its own mark, a replayed frame as duplicate RTU commands, a raised relay threshold as baseline
 divergence, an edited historian value as a gap in the audit trail or a curve too smooth to be real, an impersonated
 operator as an off-shift login or two simultaneous sessions, window abuse as a work order that does not match what
 changed.
 
 A single anomaly rarely settles anything on its own; the signature that
-holds up is a divergence between records that should agree, the control-room command log against the RTU's
+holds up is a divergence between records that ought to agree, the control-room command log against the RTU's
 received-command log, the relay's own event log against the historian, the reported state against the physically
 measured one. No one system is trusted to check itself.
 

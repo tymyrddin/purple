@@ -1,6 +1,6 @@
 # Threat signatures
 
-Every threat leaves a mark, and the marks share a shape: a divergence between two records that ought to
+Whatever the threat, its signature reduces to one shape: a divergence between two records that ought to
 agree. What the shape alone does not settle is whether a given divergence is worth anything, and that turns
 on two things: where the corroborating record sits, and what to make of a record that is simply not there.
 
@@ -27,4 +27,4 @@ coherent removal is expensive: to erase an act cleanly an actor has to find and 
 across systems built to record independently, and a pattern of absence, several missing logs where
 operations certainly happened, is far harder to pass off as accident than any single gap.
 
-*Last updated: 12 July 2026*
+*Last updated: 13 July 2026*

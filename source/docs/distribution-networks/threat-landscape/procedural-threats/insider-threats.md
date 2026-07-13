@@ -1,7 +1,7 @@
 # Insider threats
 
-Threats from people with legitimate access and authority: operators, engineers, contractors, or support staff who misuse
-their access to damage the system, exfiltrate data, or enable external attackers.
+Insider threats come from people with legitimate access and authority: operators, engineers, contractors, or support 
+staff who misuse their access to damage the system, exfiltrate data, or enable external attackers.
 
 Insiders have real credentials, real competencies, and real authority. Their actions during normal work are harder to
 distinguish from compromise than an external attacker's. The key is that insider actions either violate procedure (
@@ -10,11 +10,11 @@ normally don't, accessing systems they normally don't).
 
 ## Credential abuse by legitimate personnel
 
-Stedin's staff (roughly 4,500 permanent employees plus 1,000 contractors) have legitimate access to systems according to
+The portrait's workforce (roughly 4,500 permanent employees plus 1,000 contractors) has legitimate access to systems according to
 their roles. An operator has e-terracontrol SCADA access, an engineer has Smallworld GIS access, a technician has DIGSI
 5 or AcSELerator QuickSet relay-configuration access. These staff members hold credentials (usernames, passwords,
 physical keys for substations) and have been vetted and trained. An insider threat occurs when legitimate
-personnel misuse their access. Who has access and how concentrated it is follows [how Stedin's workforce is distributed and the skill shortages
+personnel misuse their access. Who has access and how concentrated it is follows [how the workforce is distributed and the skill shortages
 that drive contractor reliance](../../operating-context/staffing-and-capability/staffing-realities.md).
 
 Motivations vary, and most are mundane. A disgruntled employee sabotages to wound the organisation; one recruited by a
@@ -32,7 +32,7 @@ risks it carries.
 
 ## Authority scope violation
 
-Each employee at Stedin has a defined role and associated authority. A protection-relay technician can configure
+Each employee has a defined role and associated authority. A protection-relay technician can configure
 SIPROTEC and SEL relays, but might not be authorised to modify e-terracontrol SCADA settings. A network engineer can
 modify the Smallworld GIS model, but might not be authorised to execute switching commands. A contractor might have
 access to one substation but not others. [How roles and responsibilities are organised](../../operating-context/regulatory-and-governance/organisational-structure.md), and how authority is delegated, is what lets defenders recognise a violation.
@@ -43,22 +43,22 @@ a meter technician (whose normal access is limited to metering systems) suddenly
 unusual, and plainly out of role. An operator with approval authority modifying SIPROTEC or SEL relay protection
 settings without engineering approval would violate the separation of duties.
 
-Stedin's Bedrijfsvoering system (the permit-to-work and appointment system) maintains these authority boundaries. Each
+The Bedrijfsvoering system (the permit-to-work and appointment system) maintains these authority boundaries. Each
 person's appointment includes flags indicating what they can do: whether they hold Schakelbevoegd (switching authority),
 whether they can approve maintenance plans, whether they can modify relay settings with DIGSI 5 or AcSELerator QuickSet.
 An insider who exceeds their documented authority is either violating procedure (a security concern) or has corrupted
 their appointment record (a system compromise).
 
-Detecting authority-scope violations at Stedin depends on access controls being enforced and logged. If a meter
-technician tries to access e-terracontrol SCADA, Stedin's access-control system denies access and logs the attempt.
+Detecting authority-scope violations depends on access controls being enforced and logged. If a meter
+technician tries to access e-terracontrol SCADA, the access-control system denies access and logs the attempt.
 If the denial is logged consistently, failed access attempts accumulate and can trigger investigation. But if the
 access controls are weak or improperly configured, a technician might be able to access e-terracontrol SCADA despite not
 having authority.
 
 ## Pattern violation (unusual access or changes)
 
-A Stedin insider's normal work pattern is established over time. An operator works day shift and issues switching
-commands during business hours. A technician visits specific Stedin substations regularly as part of their assigned
+An insider's normal work pattern is established over time. An operator works day shift and issues switching
+commands during business hours. A technician visits specific substations regularly as part of their assigned
 routes. A relay engineer connects to SIPROTEC and SEL relays during scheduled maintenance windows. Deviations from this
 pattern can indicate compromise or misuse.
 
@@ -69,7 +69,7 @@ are worth investigating.
 
 A particularly telling pattern is when an insider's access correlates with damage. If an insider accessed a
 SIPROTEC or SEL protection relay shortly before that relay's settings are found to be corrupted, the temporal
-correlation points to the insider. If an insider accessed Stedin's historian database shortly before
+correlation points to the insider. If an insider accessed the historian database shortly before
 historian records are found to be missing, that correlation is hard to explain innocently.
 
 Detecting pattern violations requires establishing the baseline pattern and then monitoring for deviations.
@@ -79,31 +79,31 @@ particularly on OT systems where monitoring overhead is a concern.
 
 ## Data exfiltration
 
-An insider with access to Stedin's sensitive network data could steal that data. The network model (Smallworld with
+An insider with access to sensitive network data could steal that data. The network model (Smallworld with
 Lovion integration), asset register (IBM Maximo), relay settings (from SIPROTEC and SEL relays), protection
 configurations, and customer connection records are all valuable targets. An attacker who obtains this data could use it
-to plan attacks on Stedin, to identify high-value targets, or to sell it to competitors.
+to plan attacks on the network, to identify high-value targets, or to sell it to competitors.
 
-Data exfiltration can occur physically (a Stedin employee photographs or prints sensitive documents and removes them
+Data exfiltration can occur physically (an employee photographs or prints sensitive documents and removes them
 from the site), digitally (an employee copies files onto a USB drive or emails them), or by providing access (an
-employee gives an external attacker credentials or access to Stedin systems so they can copy data themselves).
+employee gives an external attacker credentials or access to the systems so they can copy data themselves).
 
-Physical exfiltration is difficult to prevent at Stedin with hundreds of employees and open physical access. An employee
+Physical exfiltration is difficult to prevent with hundreds of employees and open physical access. An employee
 could photograph a drawing, take a screenshot of a system, or print a configuration. Preventing this requires either
-restricting physical access (not feasible at a large organisation like Stedin) or creating a strong culture of security
+restricting physical access (not feasible at a large organisation) or creating a strong culture of security
 where employees understand the value of the data and the risk of exfiltration.
 
 Digital exfiltration can be made more difficult through egress monitoring (preventing USB drives from being used,
 blocking email to external addresses, monitoring network uploads), but these controls are often not implemented on
-Stedin's engineering systems where employees regularly need to move data.
+the engineering systems where employees regularly need to move data.
 
-An insider at Stedin might provide access credentials or physical keys to an external attacker, enabling the attacker to
-access Stedin systems after the insider has left their shift. This is particularly dangerous because the external
+An insider might provide access credentials or physical keys to an external attacker, enabling the attacker to
+access the systems after the insider has left their shift. This is particularly dangerous because the external
 attacker can operate outside normal business hours when fewer people are present and oversight is reduced.
 
 ## Enabling external attackers
 
-A sophisticated attack on Stedin's distribution network might involve an insider working in coordination with an
+A sophisticated attack on the distribution network might involve an insider working in coordination with an
 external attacker. The insider provides credentials, physical access to sites, information about
 procedures and security measures, or assistance with technical attacks. The external attacker executes the attack using
 the access and information the insider has provided.
@@ -111,7 +111,7 @@ the access and information the insider has provided.
 An insider might provide credentials for a high-authority employee (an engineer or operator with Schakelbevoegd
 flag), giving the external attacker immediate privileged access to e-terracontrol. An insider might disable or delay
 the security monitoring during a critical window, giving the external attacker time to execute their attack
-undetected. An insider might physically plant equipment in a Stedin substation (a network-monitoring device, a device
+undetected. An insider might physically plant equipment in a substation (a network-monitoring device, a device
 that injects false IEC 60870-5-104 telecontrol frames, or a device that reprograms an RTU).
 
 This kind of coordinated attack is particularly damaging because it combines the technical sophistication of an external
@@ -121,28 +121,26 @@ those opportunities.
 
 ## Observable traces
 
-What insider threats might look like: access to systems outside the person's assigned role, changes made without
-authorisation, commands executed at odd times, data accessed and later found in external locations, configuration
-changes that don't follow procedure.
+Insider threats appear as access to systems outside the person's assigned role, changes made without authorisation, commands executed at odd times, data accessed and later found in external locations, and configuration changes that don't follow procedure.
 
-The first observable trace is unexpected access. If a Stedin audit log shows an employee accessing a system outside
+The first observable trace is unexpected access. If an audit log shows an employee accessing a system outside
 their assigned role, or accessing a system at an unusual time or location, that warrants investigation. Many
-organisations do not maintain detailed access logs on OT systems, making this detection difficult at Stedin.
+organisations do not maintain detailed access logs on OT systems, making this detection difficult.
 
 The second trace is changes without authorisation. If a SIPROTEC or SEL relay's settings are modified outside a
-documented maintenance window in Stedin's schedule, or if a modification is made by someone without documented authority
+documented maintenance window in the schedule, or if a modification is made by someone without documented authority
 to modify that relay in Bedrijfsvoering, that indicates either a security compromise or an insider violation.
 
 The third trace is temporal correlation. If unusual system access is followed by unusual system changes, and
 those changes are followed by network anomalies or customer complaints, the correlation suggests an insider was
 responsible for the chain of events.
 
-The fourth trace is data found outside. If Stedin network diagrams, relay settings from DIGSI 5 or AcSELerator QuickSet,
+The fourth trace is data found outside. If network diagrams, relay settings from DIGSI 5 or AcSELerator QuickSet,
 or asset registers from IBM Maximo are found to have been copied or photographed and stored in an external location (
 cloud storage, email, a personal device), that indicates data exfiltration. This often comes to light during incident
 investigation or during security audits.
 
-The fifth trace is credential usage that does not match the person's normal pattern. If a Stedin insider's credentials
+The fifth trace is credential usage that does not match the person's normal pattern. If an insider's credentials
 are used to access e-terracontrol SCADA from multiple locations in rapid succession, or from geographic locations the
 employee would not normally be in, that suggests the credentials have been compromised or are being used by an attacker.
 
@@ -156,7 +154,7 @@ made by someone with the technical access but not the documented authority in Be
 insider violation or a security breach.
 
 A particularly strong trace is when an employee's access patterns change shortly before they leave the
-organisation. An employee planning to steal Stedin data or enable an external attacker might suddenly access systems
+organisation. An employee planning to steal data or enable an external attacker might suddenly access systems
 they do not normally access, attempting to gather information or establish access that will persist after they leave.
 Detecting this requires comparison of historical access patterns against recent access.
 
@@ -165,4 +163,4 @@ unauthorised system once, or making a small configuration change outside procedu
 the organisation does not actively monitor and audit. It is only when such actions accumulate, or when they correlate with
 observable damage, that the insider threat becomes apparent.
 
-*Last updated: 10 July 2026*
+*Last updated: 13 July 2026*

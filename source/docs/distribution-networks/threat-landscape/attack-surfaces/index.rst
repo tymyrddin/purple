@@ -1,6 +1,8 @@
 Attack surfaces
 ============================================
 
+.. image:: /_static/images/distribution-threat-landscape-surfaces.png
+
 Two findings.
 
 The telecontrol protocols and field devices were built for a trusted perimeter, not message-level
@@ -11,7 +13,7 @@ that has the control room acting on a network that is not there, or dormant firm
 until a trigger pattern wakes it.
 
 The second finding is what limits all of it. Every layer, relay settings, SCADA configuration, the Smallworld model,
-RTU firmware, the historian, is held against a stored baseline, so a single-sided change is flagged by
+RTU firmware, the historian, is held against a stored baseline, so a single-sided change is in principle flagged by
 online-versus-offline comparison and a later update from the engineering tool re-imposes the baseline. To stay
 hidden an attacker has to corrupt both the live device and its baseline at once, or spoof consistently across
 independent records.
