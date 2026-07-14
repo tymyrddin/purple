@@ -18,5 +18,5 @@ Metering adds an accounting cross-check the process layer cannot: the sum of the
 measurement of what flowed into it, and a persistent gap is the signature of under-reporting, theft, or a mismeasuring
 RTU. Tampering can sit at the meter, in CDMA transit, or at the platform, and each leaves a different footprint, an
 individual meter out of line with physical verification, a whole concentrator moving together, or a platform audit-log
-edit. The sharpest illustration is a real one: in an ACM meter-reading dispute it was the operator's handwritten logbook of
-physical read attempts that settled the question, the paper record carrying what the platform data could not.
+edit. The platform edit is the subtlest of the three, the stored figure drifting while the meters stay honest, so what
+settles it is a record the platform never controlled, sometimes as plain as a paper log of physical read attempts.

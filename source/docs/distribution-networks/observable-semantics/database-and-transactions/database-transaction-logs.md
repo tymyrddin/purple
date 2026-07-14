@@ -92,6 +92,6 @@ along with everything else. The backup catalogue is a record in its own right, a
 date that counts, points to a copy deleted to prevent exactly that comparison.
 
 The work-order lifecycle alone keeps a steady stream of inserts and updates flowing, so a single transaction is
-unremarkable and the signal is a change with no business process around it.
+unremarkable, and it is the change with no business process behind it that does not belong.
 
 *Last updated: 13 July 2026*

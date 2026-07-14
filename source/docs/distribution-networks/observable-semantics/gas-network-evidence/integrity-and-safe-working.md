@@ -80,8 +80,9 @@ customer's report of smell, a survey the neighbouring section shares, the physic
 underneath, the register agreeing with the ground. The gas record is thin enough that the physical world often has to be
 the witness the paperwork cannot.
 
-The baseline is set by slowness, not volume. Measurements are sparse and scheduled, records lag the field as a matter
-of course, and an overdue check or a stale drawing is common and mostly innocent, so a single gap proves little; the
-signal is a gap that lines up with something else, an unsmelled leak, a corroded main, a work a permit does not cover.
+On the gas side the record moves at the pace of scheduled work, not live telemetry. Measurements are sparse and
+scheduled, records lag the field as a matter of course, and an overdue check or a stale drawing is common and mostly
+innocent, so a single gap proves little; what indicts is a gap that lines up with something else, an unsmelled leak, a
+corroded main, a job a permit does not cover.
 
 *Last updated: 14 July 2026*

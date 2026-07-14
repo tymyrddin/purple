@@ -63,10 +63,10 @@ strange call but a missing register: an approval with no roster match, no regist
 write-up alone. The blind spot is real but narrow. It is the fast out-of-hours go-ahead that the paperwork never caught
 up with, and it is there, and only there, that whether the line was recorded decides whether anything can be said at all.
 
-The baseline is sparse and mostly content-free by design. Almost all authority runs on paper; verbal authority is the
-out-of-hours exception, and of the calls that carry it, usually only the metadata survives. The baseline is thin, a
-scatter of call-detail records and a few registrations, so a single uncorroborated verbal approval is not on its own an
-anomaly; it is ordinary under a fault. The signal is a verbal approval the registers, the roster and the action cannot
+Verbal authority is sparse and mostly content-free by design. Almost all authorisation runs on paper; the spoken kind
+is the out-of-hours exception, and of the calls that carry it usually only the metadata survives, a scatter of
+call-detail records and a few registrations. So a single uncorroborated verbal approval is not on its own an anomaly; it
+is ordinary under a fault. What draws suspicion is a verbal approval the registers, the roster and the action cannot
 confirm, not the mere fact that authority was given by voice.
 
 *Last updated: 14 July 2026*
