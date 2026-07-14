@@ -11,10 +11,12 @@ but whose identity it happened under.
    :maxdepth: 1
 
    access-control-and-key-management
+   telephony-and-verbal-authority
 
 The strong check is the correlation of physical and logical access. Someone physically at a substation but logged into
 nothing is not doing authorised work; a badge swipe with no one on the camera means the badge was cloned or the log was
 faked; an Operator role or a person without the Schakelbevoegd flag that nonetheless executes engineer-level changes
 is either an access-control failure or a compromised account. Contractor and third-party access is the standing
 exposure, time-limited by design and dangerous when a badge outlives the contract, which is why the physical and
-logical trails carry weight only when they agree with each other.
+logical trails carry weight only when they agree with each other. Alongside that credential trail runs a quieter
+authorisation channel, authority given by voice under a fault, thin enough to need a reading of its own.

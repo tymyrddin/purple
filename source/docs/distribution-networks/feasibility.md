@@ -211,10 +211,13 @@ optional, and it stands unchanged. Operating context, observable semantics and t
 estate configuration that is the audit tool's default ingestion input, a realistic estate to compute against rather than
 an abstract one. What each feeds:
 
-- Predicted residue, the strongest contribution: the eight [observable-semantics](observable-semantics/index.rst)
+- Predicted residue, the strongest contribution: the nine [observable-semantics](observable-semantics/index.rst)
   subgroups are, in effect, a residue catalogue, giving per-artefact fields and the legitimate-versus-tampering
   contrast for alarms, badge and key logs, workstation sessions, work orders, relay records, historian edits,
-  and as-found and as-left states. The gap here is phone-call logs, which are not covered.
+  gas-station telemetry and safe-working records, call and verbal-authority records, and as-found and as-left states.
+  The residual gap is narrower now: a verbal approval left as a bare call-detail record when its registration was
+  skipped, which the [telephony and verbal authority](observable-semantics/access-and-authorisation/telephony-and-verbal-authority.md)
+  page marks as its own limit.
 - The estate model: [system-portrait](operating-context/system-portrait.md) and its evidence-propagation
   view, [vendor-platform](operating-context/system-composition/vendor-platform.md) for the systems of record
   and what each emits, [timing and synchronisation](observable-semantics/network-and-time/timing-and-synchronisation-anomalies.md)
