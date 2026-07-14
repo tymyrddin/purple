@@ -153,4 +153,14 @@ The consistency check is powerful because it is independent of the system being 
 compromised, the other independent systems provide validation. If multiple systems diverge in their state reports for
 the same asset, the divergence is the forensic signature that something is wrong.
 
+Planned switching makes state changes common inside a maintenance window and rare outside it, so a transition with no
+command behind it stands out most where the baseline is otherwise still. The In Service claim, two origins:
+
+    A RELAY REPORTS IN SERVICE
+    ──────────────────────────
+                    ACTUALLY PROTECTING       │  NOT PROTECTING
+    at a fault      trips, breaker opens      │  overcurrent crosses, no trip
+    breaker         opens                     │  never opens
+    RTU / SCADA     protection active         │  saw protection drop out
+
 *Last updated: 13 July 2026*

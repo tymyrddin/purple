@@ -126,4 +126,16 @@ However, memory evidence is often unavailable in distributed networks. By the ti
 workstation is acquired, the machine may have been shut down or rebooted (clearing memory), or the user may have deleted
 evidence. In most cases, the file-system and log evidence on the workstation are the primary forensic sources.
 
+## The authorised connection and its double
+
+The noise floor is bursty: engineering sessions cluster inside maintenance windows and the workstation is otherwise
+quiet, so a connection, a settings write or a tool launch outside a window stands against very little. An engineering
+session leaves the same artefacts whether or not it was meant to happen: a connection log, a settings
+write, a file timestamp, a login. What decides is the surrounding record. A legitimate connection sits inside a
+maintenance window with an approved work order behind it, its edits committed to version control, its login from where
+the engineer normally works; the same connection at 02:00 with no window, no work order, no commit, and a login from an
+IP the engineer disowns is the authorised act with its authorisation removed. The single session rarely settles it, so
+the workstation's own logs are read against the work order and the version-control history a real change would carry, and
+it is the gap between them, not the session itself, that carries the weight.
+
 *Last updated: 13 July 2026*

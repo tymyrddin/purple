@@ -130,4 +130,23 @@ significantly fewer successful command executions, measurement values that stop 
 anomalous. A gradual degradation over time might indicate hardware ageing; an abrupt shift suggests a change in firmware
 or configuration.
 
+## Telling the RTU's failures apart
+
+Each way an RTU can mislead has an innocent counterpart. A false state or measurement can be the device lying or the
+plant genuinely changed, and the co-located relay reading the same instrument transformers settles which. An occasional
+glitch can be ageing hardware or planted logic waiting on a cue, and the trigger it locks to, with whether devices of
+the same firmware build fail together, tells them apart. A remapped I/O table reads as a clean success at the command
+layer, so only a configuration comparison or a field check exposes it. In each, the RTU's own account is the one thing
+not trusted; the verdict comes from the record beside it.
+
+An RTU reports continuously and steadily, with the odd genuine glitch from ageing hardware, so a one-off oddity sits
+within the hum and only a fault that recurs on the same cue rises clear. The disagreement, two origins:
+
+    THE RTU'S REPORT AND THE PLANT DISAGREE
+    ───────────────────────────────────────
+                     GENUINE CHANGE           │  FALSE REPORT
+    co-located relay  agrees (same CTs/VTs)   │  reads 1000A while the RTU says 0A
+    field check      confirms the state       │  contradicts it
+    historian        follows the change       │  no help, it inherits the RTU's series
+
 *Last updated: 13 July 2026*

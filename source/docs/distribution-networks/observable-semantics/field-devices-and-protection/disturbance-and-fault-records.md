@@ -143,4 +143,25 @@ most COMTRADE files appear normal but a few are anomalous (corresponding to the 
 suspected to have occurred), the relay may have been conditionally compromised (malicious code activated only under
 specific conditions).
 
+## Genuine capture or forgery
+
+A COMTRADE either records a fault that happened or dresses up one that did not, and the file alone cannot always tell
+which: its integrity protection is thin, so a clean-looking record proves little. What decides is corroboration. The
+waveform is set against the RTU's reading, the historian's stored values and a second relay's capture of the same event,
+and against the physics the event would have to obey; a forgery has to stay coherent across all of them, which is hard
+by hand. The case the cross-check cannot reach is a relay whose own firmware emits synthetic waveforms, since the false
+data is generated at source; there only physical-plausibility and the wider independent record remain, and a fault the
+relay claims but leaves no COMTRADE behind is the absence that gives it away.
+
+A COMTRADE is written only when a relay trips, so the record is sparse; a capture present with no fault, or missing where
+a trip claims one, stands against a quiet backdrop. The capture, two origins:
+
+    A COMTRADE FILE FOR A LOGGED TRIP
+    ─────────────────────────────────
+                    GENUINE FAULT             │  FORGED, OR NO FAULT
+    RTU + historian  agree with the waveform  │  disagree
+    second relay    same fault, same time     │  no matching capture
+    physics         balances across phases    │  inconsistent, unless built with care
+    the file        present                   │  may be missing for a claimed trip
+
 *Last updated: 13 July 2026*

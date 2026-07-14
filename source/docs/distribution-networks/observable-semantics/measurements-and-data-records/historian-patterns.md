@@ -134,4 +134,29 @@ disagrees with the relay's COMTRADE (which carries its own clock) and the RTU's 
 a synchronisation problem or to deliberate backdating, and the NTP logs show whether synchronisation was holding
 at the time.
 
+## Correction or cover
+
+Every edit on this layer wears the same shape as a legitimate one, because the legitimate one is common: a failed sensor
+is corrected, a cluster of bad values replaced with interpolation, all annotated and tied to a work order. The
+illegitimate edit is that act without the context, unannotated, or spread across hours rather than seconds, or made when
+the historian is not normally written to. The audit trail carries that distinction where value-level logging is on;
+where it is off, or has itself been truncated, the archive cannot be trusted to indict itself, and the decision moves to
+records the historian does not control, the relay's COMTRADE and the RTU's log holding the ordinary variation a real
+network leaves. A smoothed archive beside a live capture that still shows noise is the overwrite, whatever the audit
+trail says.
+
+The measurements are never quiet, voltage and current vary second to second, which is why a smooth trace is suspect;
+edits, by contrast, are rare, so a single unexplained one stands against an almost empty log. The two edits, side by
+side:
+
+    A STORED HISTORIAN VALUE, EDITED
+    ────────────────────────────────
+                    SENSOR CORRECTION         │  EVIDENCE-HIDING EDIT
+    what changed    a few bad samples         │  a fault period
+    span            seconds to minutes        │  hours to days
+    annotation      "sensor malfunction"      │  none
+    work order      present                   │  none
+    edit timing     an operator's hand        │  one instant, to the ms
+    external check  agrees with COMTRADE/RTU   │  archive now disagrees
+
 *Last updated: 13 July 2026*

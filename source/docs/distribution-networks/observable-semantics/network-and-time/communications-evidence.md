@@ -150,4 +150,15 @@ Timing baselines are also observable. If the network normally exchanges IEC 6087
 by legitimate out-of-hours emergency work (a fault requiring urgent response) or it could be an attack. The explanation
 depends on whether an emergency was documented and whether the traffic pattern matches the expected emergency response.
 
+The SCADA polls on a steady cycle, thousands of messages an hour, so the traffic is heavy and an intrusion shows less in
+the volume than in the shape. One Close command on the wire, three ways it arrives:
+
+    A CLOSE COMMAND IN THE 104 CAPTURE
+    ──────────────────────────────────
+                    LEGITIMATE     │  REPLAY          │  INJECTION
+    SCADA own log   one match      │  logged once     │  no matching command
+    count on wire   one            │  two in <1 s     │  one
+    RTU response    "A Closed"     │  "A Closed"      │  "B Closed" to "Close A"
+    source          the main SCADA │  the main SCADA  │  an arbitrary IP to :2404
+
 *Last updated: 13 July 2026*

@@ -103,4 +103,14 @@ transmission-distribution interface, relays protecting large urban loads). The c
 modest, and the forensic benefit is significant. A relay with multiple independent baselines that all agree is
 more likely to be trustworthy; a relay with a single baseline is more exposed.
 
+Models and baselines trail the field as a matter of course, so a divergence is common and mostly benign; the signal is
+the one with no change order, no window and no update pending behind it. A model entry with no field match, two origins:
+
+    A GIS ENTRY THAT DOES NOT MATCH THE FIELD
+    ─────────────────────────────────────────
+                    LAGGING UPDATE             │  CORRUPTED MODEL
+    cause           a real change not modelled │  a model edit, field untouched
+    work order      present, change pending    │  none
+    edit timing     a documented change window │  an unusual hour, unexplained
+
 *Last updated: 13 July 2026*

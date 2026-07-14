@@ -126,4 +126,24 @@ identified, it can potentially be reverse-engineered to understand the attacker'
 injected). However, this requires access to the original unmodified firmware for comparison, and may require
 reverse-engineering skills to understand proprietary code formats and logic.
 
+## What the version report cannot settle
+
+A version that diverges from the baseline has two innocent readings before a hostile one: an update the baseline has not
+caught up to, or an update applied but never recorded. The update history separates them, an engineering-tool log and a
+Maximo entry naming who applied what and when sit behind a legitimate change, and their absence is what turns a
+divergence into a question. The harder case is the firmware that reports its old version while running new code, where
+the report itself is the thing in doubt; there the version number decides nothing, and only the signature or hash read
+back from the device, or behaviour that betrays a version the device denies running, tells the two apart.
+
+Firmware changes seldom and only through a documented update, so the baseline is quiet and a version off it is a rare
+event, its common innocent cause a record not yet caught up rather than routine churn. The mismatch, two origins:
+
+    A DEVICE REPORTS A VERSION OFF ITS BASELINE
+    ───────────────────────────────────────────
+                    LEGITIMATE UPDATE         │  UNAUTHORISED MODIFICATION
+    update record   engineering log + Maximo   │  none
+    signature/hash  verifies                  │  fails, or never checked
+    behaviour       matches the version       │  betrays a version it denies
+    version string  truthful                  │  may report the old, run new
+
 *Last updated: 13 July 2026*

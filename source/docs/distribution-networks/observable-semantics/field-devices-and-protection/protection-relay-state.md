@@ -129,4 +129,16 @@ discrepancy is the signature. Conversely, if the breaker's mechanical counter sh
 the relay's trip log, the breaker may have been operated manually (by field technicians pulling the breaker open) or the
 relay's event log is incomplete.
 
+A feeder's relay trips once or twice a year and its settings change only through documented maintenance, so the baseline
+is quiet enough that a single unexplained entry carries weight. The divergence has three readings, and only the last is
+compromise:
+
+    RELAY SETTINGS DIFFER FROM THE STORED BASELINE
+    ──────────────────────────────────────────────
+                    LEGIT CHANGE   │  STALE BASELINE  │  UNAUTHORISED
+    work order      present        │  none            │  none
+    as-found/left   matches        │  not updated     │  no record
+    relay clock     in a window    │  an old change   │  03:00, no window
+    remedy          none needed    │  re-record base  │  investigate
+
 *Last updated: 13 July 2026*

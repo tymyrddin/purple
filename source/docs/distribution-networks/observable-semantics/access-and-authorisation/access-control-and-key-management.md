@@ -111,4 +111,15 @@ is internally consistent; where one is missing, the work is suspicious. Whatever
 logs show whether a session carried a valid one, so a session without it stands out; whether the operator runs multifactor on
 SCADA access is not publicly established.
 
+The noise floor is time-shaped: business hours bring logins, badge swipes and failed attempts thick enough to hide one
+more, while the small hours are genuinely quiet. The same login at 03:00 and setting change at 03:10, two origins:
+
+    A LOGIN, AND A RELAY SETTING CHANGED UNDER IT
+    ─────────────────────────────────────────────
+                    AUTHORISED SESSION        │  COMPROMISED CREDENTIAL
+    work order      matches the change        │  none
+    login source    the engineer's usual IP   │  an IP outside the Netherlands
+    physical entry  badge logged at the site  │  none, logical only
+    account holder  confirms the session      │  disowns it
+
 *Last updated: 13 July 2026*

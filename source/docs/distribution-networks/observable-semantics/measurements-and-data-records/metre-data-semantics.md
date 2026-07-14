@@ -140,4 +140,28 @@ substation district are anomalous), that suggests a systematic problem at that l
 temporally (all anomalies occur at night or all occur on weekends), that suggests a pattern related to behavioural or
 operational factors.
 
+## Which of the innocent readings holds
+
+A metering anomaly rarely arrives with its cause attached. A feeder's consumption halving at an instant could be a large
+customer disconnecting, a relay tripping the feeder, theft suddenly lifted, or meters falsifying; a district's losses
+climbing from two to eight per cent could be a new metering fault, theft, or unauthorised load. The record narrows it by
+refusing to let the meter be the only witness: a drop that a SCADA relay trip explains is not a metering event at all,
+and a suspected tamper is placed by where its signature sits, at an individual meter against physical verification, in
+the gap between what Utility Connect's CDMA logs show leaving the meter and what the platform stored, or in an edit to
+the platform's own audit log. Where the digital record runs out, the physical one can still decide it, as the operator's
+handwritten read log did in the ACM dispute.
+
+The noise floor is high at the single meter, where consumption varies household to household and detection throws false
+positives, and low at the aggregate, where the sum of meters against the feeder's own measurement leaves little room for
+benign disagreement. A reading out of line, read two ways:
+
+    A METER READING THAT WILL NOT RECONCILE
+    ───────────────────────────────────────
+                     METER FAULT              │  TAMPERING
+    reading          flat, or drops to zero   │  flat while load is still drawn
+    CDMA vs platform  agree                   │  meter sent 1000 Wh, platform 500
+    platform audit   no edit                  │  an edit after reception
+    meter serial     unchanged                │  reset where a meter was swapped
+    physical check   a failed meter           │  a shunt, a bypass, or a swap
+
 *Last updated: 13 July 2026*

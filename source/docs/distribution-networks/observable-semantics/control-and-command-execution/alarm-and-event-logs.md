@@ -117,4 +117,25 @@ operator's decision can be reconstructed from the logs (what alarms they saw, wh
 acknowledged), then the forensic narrative can evaluate whether their decision was reasonable given the information
 available, or whether it was erroneous or suspicious.
 
+## The documented twin
+
+Almost everything alarming on this layer has a legitimate double. A suppressed alarm is routine when a section is under
+maintenance and reckless when it hides a live condition; a raised threshold is housekeeping after an upgrade and sabotage
+without one; a gap in the event log is an authorised purge or a deletion covering its tracks. What separates each pair is
+the paperwork the legitimate version carries and the illegitimate one cannot forge cheaply: the work order that
+authorises the suppression or the threshold change, and the deletion record a real purge leaves beside the missing
+events. Suppression with no work order, a threshold moved with no work behind it, events gone with no deletion logged,
+these are the same act stripped of its authorisation, and the missing authorisation is the signature.
+
+The noise floor is high by design: hundreds of configured conditions and a few alarms a day on a busy feeder, much of it
+nuisance alarms the operators acknowledge and move past, so no single alarm carries the signal and only the pattern
+does. The gap, two origins:
+
+    A GAP IN THE APPEND-ONLY EVENT LOG
+    ──────────────────────────────────
+                    AUTHORISED DELETION       │  TAMPERING
+    deletion log    user, time, authority     │  none
+    incident note   a sensor-flood report     │  none
+    gap timing      a routine period          │  over a spell of unauthorised work
+
 *Last updated: 13 July 2026*

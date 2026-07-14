@@ -133,4 +133,26 @@ their metadata intact) is essential. File timestamps, modification times, and cr
 evidence. A log file that shows a modification date later than the events it contains indicates the file was edited
 after the events were recorded.
 
+## Drift or a hand on the clock
+
+A timestamp that will not line up has mostly innocent causes: a clock left to drift, an NTP sync lost, a daylight-saving
+transition mishandled. Each leaves its own reading. The NTP log carries an explained adjustment where a clock was reset
+in the open; an unexplained shift that also contradicts other systems is the one that reads as manipulation. A
+daylight-saving fault shows in one system where it is misconfigured and in all systems where the configuration is simply
+shared, so the spread across systems tells a bug from an edit. And because grid frequency is a physical property no
+internal clock controls, a system whose timestamps are in doubt can be checked against the frequency it recorded: a
+clock running slow or fast betrays itself there, where an NTP log alone might not.
+
+A few hundred milliseconds of skew is ordinary, drift is tolerated up to minutes and the clocks shift twice a year for
+daylight saving, so only a divergence beyond the systems' own precision, or one no clock event explains, reads as more
+than housekeeping. The off timestamp, two origins:
+
+    A SYSTEM'S TIMESTAMPS ARE OFF
+    ─────────────────────────────
+                    DRIFT OR MISCONFIG        │  MANIPULATION
+    NTP log         an explained adjustment   │  an unexplained shift
+    other systems   agree once corrected      │  contradict it
+    DST error       one system, or all alike  │  not the pattern
+    grid frequency  matches                   │  betrays a slow or fast clock
+
 *Last updated: 13 July 2026*

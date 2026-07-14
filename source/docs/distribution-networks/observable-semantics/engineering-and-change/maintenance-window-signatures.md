@@ -140,4 +140,16 @@ emerges of multiple maintenance activities at unusual hours without documented e
 suggests either an operational crisis (the network is in critical condition requiring emergency work) or unauthorised
 activity disguised as maintenance.
 
+Planned work runs to a regular monthly rhythm, the loud majority of the record, so an anomaly shows against it as a
+spike in unscheduled work or a step outside the plan, not as any single work order. Switching in the window, two
+origins:
+
+    SWITCHING OPERATIONS IN A MAINTENANCE WINDOW
+    ────────────────────────────────────────────
+                    PER THE PLAN              │  BEYOND SCOPE
+    bedieningsplan  commands match, in order  │  operations not in the plan
+    count           as planned (say 20)       │  more than planned (say 50)
+    feeders         only the authorised one   │  a second feeder too
+    as-found/left   settings as recorded      │  relay timestamps show a change
+
 *Last updated: 13 July 2026*
