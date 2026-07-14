@@ -10,19 +10,18 @@ The work throughout is setting the reported state against a record the reporting
 
 ## Switchpoint and breaker state machines
 
-A switchpoint has a simple binary state machine: Open or Closed. Under normal operation, the switchpoint is commanded to
-transition by an operator or by protection logic. When a command is issued, the switchpoint mechanically transitions (
-takes seconds to minute depending on the mechanism), and then reports its new state. The SCADA records the command, the
-transition time, and the final state.
+A switchpoint is Open or Closed, nothing between. An operator or the protection logic commands it, it takes seconds to a
+minute to move depending on the mechanism, and it reports the new state; the SCADA records the command, the time, and
+where it ended.
 
-Normal transition logs show: command issued, brief delay (transition time), report received confirming new state, and
-the new state matching the command. A Close command results in a Closed state report. An Open command results in an Open
-state report. The delay is consistent (the same switchpoint always takes approximately the same transition time).
+A normal log reads cleanly: the command goes out, a brief and consistent transition time passes, and the switchpoint
+reports the state the command asked for, Close to Closed, Open to Open. The same switchpoint takes about the same time
+every time.
 
-Anomalous transitions include: a command that is not executed (command issued but the switchpoint remains in the old
-state), a state change that contradicts the command (Close command issued but the switchpoint opens instead), or a state
-that oscillates rapidly (the switchpoint rapidly alternates between Open and Closed within seconds, which is physically
-impossible for a mechanical switchpoint and indicates either false reporting or a sensor malfunction).
+What breaks that reads three ways. A command that never takes leaves the switchpoint in its old state. A command
+answered by the opposite, a Close that opens, is a contradiction on its face. And a state that flickers Open and Closed
+within seconds is not a mechanical switchpoint at all, which cannot move that fast, but a false report or a failing
+sensor.
 
 Breaker condition is tracked by an operating count, the number of open-close cycles the mechanism has run, since each
 cycle wears the contacts. A mechanical counter on the breaker holds this directly, and as the count climbs the breaker
@@ -76,11 +75,9 @@ switching plans. A normal transition sequence for planned de-energisation might 
 The logs record this sequence clearly. The switching plan specifies the steps, the SCADA logs show commands and
 responses, and the switching times are consistent with the sequence.
 
-Anomalous transitions include: a feeder transitioning from Energised to De-energised without an operator command (
-spontaneous de-energisation, which would indicate either a fault triggering protection or unauthorised switching), or a
-feeder remaining De-energised far longer than the planned maintenance window. A feeder that was supposed to be
-re-energised at 17:00 but was still de-energised at 20:00 indicates either an extended maintenance, a problem
-re-energising, or unauthorised continued de-energisation.
+The anomalies are a de-energisation no command explains, which is either protection tripping on a fault or someone
+switching without authority, and a section that stays dead far past its window, a feeder due back at 17:00 but still
+cold at 20:00, which is an overrun, a failed re-energisation, or a de-energisation held open on purpose.
 
 The reported state answers to the measurement beneath it. A section reported De-energised while the
 [historian](../measurements-and-data-records/historian-patterns.md) still holds voltage or current on it is a report the
@@ -95,9 +92,9 @@ Degraded, Needs Replacement). These states are updated through maintenance inspe
 automated alerts. An asset that transitions from Healthy to Degraded normally has a corresponding maintenance work order
 explaining why the condition changed.
 
-Normal state transitions show: asset in Healthy state, inspection performed (documented in work order), condition
-assessed, and state updated if necessary (to Degraded if inspection found problems). The assessment is documented with
-details (what was found, what corrective action is needed).
+Normally the state moves on the back of an inspection: a Healthy asset is examined under a work order, its condition
+assessed, and the state stepped to Degraded only if the inspection found something, with the finding and the corrective
+action written down.
 
 Anomalous transitions include an asset state changed with no inspection or work order behind it, or a condition reversed
 from Degraded to Healthy with no maintenance performed. Where the asset carries condition monitoring, the state has data
@@ -130,9 +127,8 @@ trip (a state transition from Normal to Tripped) occurs at the same time as the 
 the historian's measurements. A switchpoint state change is visible in the feeder's current measurements (a
 sudden drop in current when a switchpoint opens).
 
-Timing anomalies include: a state transition that is recorded but does not correspond to any observable physical
-change (a relay trip recorded but no fault visible in the historian, a switchpoint open recorded but no current drop
-measured). These mismatches indicate either false reporting or log falsification.
+A timing anomaly is a recorded transition with nothing physical under it: a relay trip the historian shows no fault for,
+a switchpoint open with no drop in current. Either the report is false or the log was.
 
 Similarly, the timestamp of a state transition is observable. If a state transition is recorded with a timestamp that is
 out of order (a transition at 10:00 UTC is followed by a transition at 09:50 UTC), the logs have inconsistent timestamps
@@ -154,13 +150,6 @@ compromised, the other independent systems provide validation. If multiple syste
 the same asset, the divergence is the forensic signature that something is wrong.
 
 Planned switching makes state changes common inside a maintenance window and rare outside it, so a transition with no
-command behind it stands out most where the baseline is otherwise still. The In Service claim, two origins:
-
-    A RELAY REPORTS IN SERVICE
-    ──────────────────────────
-                    ACTUALLY PROTECTING       │  NOT PROTECTING
-    at a fault      trips, breaker opens      │  overcurrent crosses, no trip
-    breaker         opens                     │  never opens
-    RTU / SCADA     protection active         │  saw protection drop out
+command behind it stands out most where the baseline is otherwise still.
 
 *Last updated: 13 July 2026*

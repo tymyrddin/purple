@@ -1,8 +1,8 @@
 # Metre data semantics
 
 The smart-meter base (Landis+Gyr, Iskraemeco, Kaifa, Sagemcom) reports consumption data via CDMA to the metering
-platform. The meters record cumulative kilowatt-hours consumed, and the platform aggregates readings across customers,
-feeders, and the entire network. Consumption patterns, anomalies, and the relationship between meter readings and
+platform. The meters record consumption as a cumulative register and as the interval readings they send to the platform, which
+aggregates across customers, feeders, and the entire network. Consumption patterns, anomalies, and the relationship between meter readings and
 network measurements form the observable layer for metering integrity.
 
 ## Normal consumption patterns and baselines
@@ -86,15 +86,13 @@ stored, or as an edit in the platform's own audit log.
 
 ## Non-technical losses and energy theft
 
-Several classes of electricity loss are recognised. Technical losses are expected: electricity dissipates as heat in
-the distribution network's conductors, transformers have inherent losses, and metering has inherent uncertainty.
-Non-technical losses are energy that is consumed but not properly metered or billed, including energy theft, metering
-errors, and unauthorised connections.
+Not all the missing energy is a crime. Some loss is only physics, heat in the conductors, the transformers' own losses,
+the slack in any meter, and it is expected. The rest, the non-technical loss, is energy used but not metered or billed:
+theft, metering error, an unauthorised connection.
 
-Non-technical losses are estimated as the gap between the total energy input to a region (measured by the wholesale
-market) and the total metered consumption (sum of all meter readings). When non-technical losses spike above the
-expected baseline, investigation is warranted. A district that normally shows 2 per cent loss suddenly showing 8 per cent
-loss indicates either a new systematic metering problem, energy theft, or new unauthorised load.
+It is estimated as the gap between what the wholesale market says entered a region and what the meters say was drawn.
+When that gap opens past its usual width, a district running its normal 2 per cent suddenly sitting at 8, it is a new
+metering fault, theft, or fresh unauthorised load.
 
 Individual meters or customers can also be outliers. If a specific customer shows a consumption that is substantially
 lower than their historical average and lower than structurally similar customers in the same area, they may be
@@ -127,12 +125,10 @@ for each customer based on historical data, weather, calendar (weekday/weekend),
 meter readings arrive, they are compared against the prediction. Readings that deviate significantly from the prediction
 are flagged for investigation.
 
-This approach is effective for detecting sudden changes (a meter that stops reporting due to malfunction, or a customer
-who suddenly increases consumption due to new equipment). It is less effective for detecting gradual systematic
-tampering (a meter that slowly under-reports by 1 per cent per day). The strength of anomaly detection is that it is
-automated and scalable (thousands of customers can be monitored continuously). The limitation is that it generates false
-positives (legitimate consumption changes trigger alerts) and requires human review to distinguish legitimate anomalies
-from tampering.
+It is good at the sudden things, a meter that stops reporting, a household whose use jumps when they buy an electric
+car, and blind to the patient ones, the meter that shaves one per cent off a day. Running across thousands of customers
+at once is its strength; the price is a steady stream of false positives, the ordinary changes of life tripping the
+alert, which a person still has to sift from real tampering.
 
 For forensic analysis, anomaly detection can provide initial leads. If a district shows unusually high consumption that
 does not match expectations, that is a pointer to investigate. If anomalies cluster geographically (all meters in one
@@ -151,17 +147,8 @@ the gap between what Utility Connect's CDMA logs show leaving the meter and what
 the platform's own audit log. Where the digital record runs out, the physical one can still decide it, as the operator's
 handwritten read log did in the ACM dispute.
 
-The noise floor is high at the single meter, where consumption varies household to household and detection throws false
+Benign variation is heavy at the single meter, where consumption varies household to household and detection throws false
 positives, and low at the aggregate, where the sum of meters against the feeder's own measurement leaves little room for
-benign disagreement. A reading out of line, read two ways:
-
-    A METER READING THAT WILL NOT RECONCILE
-    ───────────────────────────────────────
-                     METER FAULT              │  TAMPERING
-    reading          flat, or drops to zero   │  flat while load is still drawn
-    CDMA vs platform  agree                   │  meter sent 1000 Wh, platform 500
-    platform audit   no edit                  │  an edit after reception
-    meter serial     unchanged                │  reset where a meter was swapped
-    physical check   a failed meter           │  a shunt, a bypass, or a swap
+benign disagreement.
 
 *Last updated: 13 July 2026*

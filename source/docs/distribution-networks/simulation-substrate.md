@@ -25,41 +25,31 @@ packets does not necessarily emulate what the packets control.
 
 ## The tractable questions
 
-For security research grounded in [observable semantics](observable-semantics/index.rst), the expense is misplaced. 
-The goal is not to prove "the transformer explodes under this attack." Useful questions are concrete:
-
-- Was a protection setting modified?
-- Did a breaker receive an unexpected open command?
-- Was an engineering workstation used outside a maintenance window?
-- Did an RTU accept a configuration download that does not match the baseline?
-- Did process values become inconsistent with expected operating state?
-- Did historian edits occur without corresponding work orders?
-- Did switching operations happen in the wrong sequence or outside the documented bedieningsplan?
-
-These observations can be represented without simulating megawatts flowing through copper. The expensive part of OT
-simulation is reproducing the physics. The comparatively cheap part is reproducing the evidence.
+For security research grounded in [observable semantics](observable-semantics/index.rst), the expense is misplaced. The
+goal is not to prove that the transformer explodes under this attack but to answer concrete questions about the record:
+whether a protection setting was modified, whether a breaker took an unexpected open command, whether a workstation was
+used outside a window, whether process values drifted out of step with the operating state. Each can be represented
+without simulating megawatts through copper. The expensive part of OT simulation is reproducing the physics; the cheap
+part is reproducing the evidence.
 
 ## The abstraction layer
 
 Building a testbed around observable semantics rather than vendor-specific implementations carries a complex estate
 surprisingly far without standing up the plant behind it.
 
-A realistic distribution-network simulation needs:
+A realistic distribution-network simulation needs a handful of parts. The evidence-emitters come first, and one
+principle runs through all of them: each leaves the record, not the physics behind it.
 
-Evidence-emission systems (not full implementations)
+- A SCADA that logs alarms, operator actions and switching commands, without running load flow.
+- A historian that writes time-series and edit audit trails in the shape observable-semantics describes, without
+  calculating a value.
+- Protection relays that emit sequence-of-events, fault records and disturbance captures, driven by test scenarios
+  rather than electromagnetic transients.
+- Engineering workstations that log configuration uploads, version comparisons and connections, which off-the-shelf
+  tools already do.
+- RTUs that log downloads and state changes and report state without driving hardware.
 
-- A SCADA system that emits alarm and event journals, operator action logs, and switching commands. It need not run real
-  load flow; it needs to log actions and state transitions consistently.
-- A historian that records process values and audit trails of edits. It need not calculate physics; it needs to emit
-  time-series data and change records in the format observable-semantics describes.
-- Protection relays that emit sequence-of-events logs, fault records, and disturbance captures. A relay simulator driven
-  by test scenarios can produce realistic event logs without simulating electromagnetic transients.
-- Engineering workstations that log configuration uploads, version comparisons, and connection records. Off-the-shelf
-  tools or test harnesses can produce these logs.
-- RTUs that log configuration downloads and state changes. A simulated RTU can accept commands and report state without
-  driving actual hardware.
-
-Constraint systems (the procedural layer)
+The constraint systems are the procedural layer:
 
 - Work authorisation: documented work plans and switching plans, contractor appointments, shift approvals, maintenance
   windows. These can be a database and a state machine.
@@ -69,7 +59,7 @@ Constraint systems (the procedural layer)
   open, for example). These can be implemented as business rules.
 - Audit trails: logging who did what, when, and why. This is application-level logging, not simulation.
 
-Realistic operational load (representative but not exhaustive)
+The operational load is representative, not exhaustive:
 
 - Contractor work orders and maintenance windows on a plausible schedule
 - RTU telemetry and measurement updates on typical intervals
@@ -77,24 +67,14 @@ Realistic operational load (representative but not exhaustive)
 - Periodic relay testing and commissioning activities
 - Network traffic and communications logs
 
-Not required:
+What it can skip is the physics entirely: electromagnetic transients, fault dynamics and relay operation under real
+faults, load flow, harmonic distortion, and communications latency down to the millisecond.
 
-- Detailed electromagnetic transient simulation
-- Realistic fault physics or protection relay operation under actual faults
-- Accurate load flow
-- Harmonic distortion modelling
-- Communications latency down to the millisecond
-
-Essential:
-
-- Consistent observable evidence: if a relay settings change is logged, it appears in the relay's sequence-of-events, in
-  the engineering workstation logs, in Maximo, and in the historian if relevant
-- Temporal coherence: a work order completion timestamp is plausible given the maintenance window, the contractor shift
-  schedule, and known travel times
-- Constraint enforcement: a switching operation that violates a safety interlock cannot execute, and the log reflects
-  the denial
-- Realistic noise: not every measurement is exactly smooth; not every test passes on the first attempt; contractors
-  sometimes make errors that require rework
+What it cannot skip is coherence. A logged relay settings change has to surface everywhere it belongs, the relay's
+sequence-of-events, the workstation logs, Maximo, the historian. A work-order completion time has to sit plausibly
+against the maintenance window, the shift schedule and the travel. A switching operation that breaks a safety interlock
+has to fail, with the log showing the denial. And the record has to carry realistic noise: not every measurement
+smooth, not every test passing first time, contractors making the errors that need rework.
 
 ## Design pattern
 
@@ -103,13 +83,13 @@ devices, asset management, enterprise systems, staffing and constraints. A testb
 evidence-emitting systems, constraint layers and a representative operational load, and the questions observable
 semantics asks then have answers.
 
-Did a relay settings change occur outside a scheduled maintenance window? Evidence exists: there is a work order, a
-switching plan, a contractor shift log, and a relay sequence-of-events. Either they all align, or they don't.
+Did a relay settings change happen outside a scheduled maintenance window? The work order, the switching plan, the
+contractor shift log and the relay's sequence-of-events either line up or they do not.
 
-Did a historian value edit happen without a work order? The audit trail shows.
+Did a historian value get edited with no work order behind it? The audit trail settles that one on its own.
 
-Did an engineering workstation connect to a protection relay at an unusual time? Evidence clarifies: was there an
-emergency call? Did the contractor respond within the response-time SLA?
+Did an engineering workstation reach a protection relay at an odd hour? That one turns on whether an emergency was
+called and whether the crew answered inside its response window, and the record holds both.
 
 These are solvable questions in a testbed built around observable semantics. The transformer never needs simulation.
 

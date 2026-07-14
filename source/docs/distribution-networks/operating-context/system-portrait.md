@@ -10,8 +10,7 @@ read against.
 
 The operator serves a few million connections across electricity and gas. The estate runs to
 [tens of thousands of distribution substations](asset-base-and-constraints/asset-classes.md) converting medium to low
-voltage, tens of thousands of kilometres of cable, hundreds of thousands of meters, and secondary stations housing
-protection and control equipment. A network operations centre monitors and switches both networks in real time.
+voltage, tens of thousands of kilometres of cable, and a few million meters. A network operations centre monitors and switches both networks in real time.
 High-voltage operation is shared with the transmission operator through a joint venture, and metering traffic runs over
 a separate carrier network shared with other operators.
 
@@ -56,9 +55,9 @@ from several vendors (Landis+Gyr, Iskraemeco, Kaifa, Sagemcom) report over a wir
 ## Staffing and contractors
 
 The operator employs a few thousand people across operations, engineering, maintenance and administration, with
-[contractors](operations-and-cadence/contractor-management.md) making up roughly a fifth of the workforce and carrying
-much of the physical build and maintenance under long framework contracts assigned to geographic areas. A few hundred
-technicians keep the installed base in condition. A [labour shortage](staffing-and-capability/staffing-realities.md) runs
+hired-in staff making up roughly a fifth of the direct headcount; beyond that, much of the physical build and
+maintenance runs through [framework contractors](operations-and-cadence/contractor-management.md) assigned to geographic
+areas. A core of specialist technicians keeps the installed base in condition. A [labour shortage](staffing-and-capability/staffing-realities.md) runs
 underneath: skilled workers are retiring, certification cannot be bought in at short notice, and out-of-hours cover is
 thin, which deepens the reliance on contractors. Contractor access runs through credentials and formal appointments in
 the access-management systems; screening is required, and physical access is governed by a key policy that lets managers

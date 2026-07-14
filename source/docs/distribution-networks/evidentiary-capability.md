@@ -36,7 +36,7 @@ supported the malice-or-not call under the twenty-four hour clock, because the r
 beyond anything a production estate retains.
 
 Logging-maturity assessments, the SIEM-coverage and log-retention audits familiar from IT security, count
-sources and check retention windows. They answer "are we collecting enough". Evidentiary capability is
+sources and check retention windows. Their question is whether enough is being collected. Evidentiary capability is
 downstream of coverage: two estates with identical log inventories can differ sharply in whether those logs,
 taken together, separate the benign explanations from the malicious one for a given class of incident.
 Coverage is necessary and not sufficient; the discrimination is the thing being measured.

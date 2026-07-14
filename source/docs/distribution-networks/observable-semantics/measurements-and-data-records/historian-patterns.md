@@ -146,17 +146,6 @@ network leaves. A smoothed archive beside a live capture that still shows noise 
 trail says.
 
 The measurements are never quiet, voltage and current vary second to second, which is why a smooth trace is suspect;
-edits, by contrast, are rare, so a single unexplained one stands against an almost empty log. The two edits, side by
-side:
-
-    A STORED HISTORIAN VALUE, EDITED
-    ────────────────────────────────
-                    SENSOR CORRECTION         │  EVIDENCE-HIDING EDIT
-    what changed    a few bad samples         │  a fault period
-    span            seconds to minutes        │  hours to days
-    annotation      "sensor malfunction"      │  none
-    work order      present                   │  none
-    edit timing     an operator's hand        │  one instant, to the ms
-    external check  agrees with COMTRADE/RTU   │  archive now disagrees
+edits, by contrast, are rare, so a single unexplained one stands against an almost empty log.
 
 *Last updated: 13 July 2026*

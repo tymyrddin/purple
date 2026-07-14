@@ -140,13 +140,6 @@ layer, so only a configuration comparison or a field check exposes it. In each, 
 not trusted; the verdict comes from the record beside it.
 
 An RTU reports continuously and steadily, with the odd genuine glitch from ageing hardware, so a one-off oddity sits
-within the hum and only a fault that recurs on the same cue rises clear. The disagreement, two origins:
-
-    THE RTU'S REPORT AND THE PLANT DISAGREE
-    ───────────────────────────────────────
-                     GENUINE CHANGE           │  FALSE REPORT
-    co-located relay  agrees (same CTs/VTs)   │  reads 1000A while the RTU says 0A
-    field check      confirms the state       │  contradicts it
-    historian        follows the change       │  no help, it inherits the RTU's series
+within the hum and only a fault that recurs on the same cue rises clear.
 
 *Last updated: 13 July 2026*

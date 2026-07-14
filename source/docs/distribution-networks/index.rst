@@ -20,37 +20,40 @@ has to answer: NIS2 asks an operator to say, inside a day, whether an incident i
 presupposes the estate can tell a malicious change from its legitimate twin at all. Evidentiary capability is that
 precondition, a property of the record measurable before anything happens.
 
+Observable infrastructure:
+
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Understanding observable infrastructure:
+   :caption:
 
    operating-context/index.rst
    threat-landscape/index.rst
    observable-semantics/index.rst
 
+Evidentiary capability?
+
 .. toctree::
    :maxdepth: 1
-   :caption: Evidentiary capability, a possible direction:
 
    evidentiary-capability
    evidentiary-capability-core-design
    evidentiary-capability-as-audit
    evidentiary-capability-as-training
 
+Building the design:
+
 .. toctree::
    :maxdepth: 1
-   :caption: Building the design:
 
    simulation-substrate
    feasibility
 
+Open questions, caveats, and risks:
+
 .. toctree::
    :maxdepth: 1
-   :caption: Open questions, caveats, and risks:
 
-   evidentiary-capability-open-questions
-   evidentiary-capability-caveats
-   evidentiary-capability-risks
+   evidentiary-capability-limits
 
 *Last updated: 12 July 2026*

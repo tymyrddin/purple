@@ -9,17 +9,14 @@ from both physical and logical access form observable evidence of who accessed w
 
 The operator maintains a Sleutelbeleid (key policy) where keys to substations are issued through authorised personnel (the IV,
 Installation Responsible Authority, or equivalent), logged at issuance, and returned at the end of the work period. The
-key log records: the key ID, who it was issued to, when, for what work (work order reference), and when it was returned.
+key log holds the key's ID, who took it, when, against which work order, and when it came back.
 
-Normal key management shows clean records: keys issued at the start of a maintenance window, returned at the end of the
-work. The issuance and return times match the maintenance plan and the work order dates. Multiple keys for the same
-substation or different substations can be issued to a work crew, and all are returned.
+Normal key management is clean: keys go out at the start of a window and come back at the end, their issue and return
+times matching the maintenance plan and the work order, and where a crew draws several, all come back.
 
-Anomalous key management includes: keys that are not returned (a key was issued but never returned), keys retained
-beyond the authorised maintenance window (issued for an 8-hour maintenance window but returned three days later), or
-keys issued without a corresponding work order (a key is issued, but no maintenance activity justifies the access). A
-key that is issued during one work order and returned during a different work order suggests either the first work order
-extended beyond its authorised window, or the key was retained improperly across multiple work periods.
+The anomalies are keys that never come back, keys held long past their window (issued for an eight-hour job, returned
+three days later), and keys drawn against no work order at all. A key issued under one work order and returned under
+another points to the first job overrunning, or the key quietly kept across two.
 
 ## Electronic access logs and badge systems
 
@@ -31,10 +28,9 @@ Normal electronic access shows badges being swiped to open doors at the expected
 maintenance crew is authorised for substation X on Tuesday 08:00-17:00, the access logs show badge swipes during
 those hours at substation X's doors. Access to other substations or access outside the authorised window is unexpected.
 
-Unauthorised access would appear as: badge swipes to substations outside the authorised maintenance area, badge swipes
-outside the authorised time window (at 03:00 when no maintenance was planned), badge swipes by personnel who are not on
-the authorised work list, or repeated badge swipes suggesting multiple attempts (a badge swipe failure followed by
-repeated attempts, which might indicate a lost badge or a forged badge being used incorrectly).
+Unauthorised access breaks that pattern in familiar ways. A badge swipes into a substation outside the authorised area,
+or at 03:00 with no maintenance planned, or under the name of someone not on the work list. A run of failed swipes then
+a success reads as a lost badge, or a forged one being worked out by trial.
 
 A badge that is used at impossible locations (a badge in substation A at 10:00 and simultaneously in substation B 50
 km away at 10:05) indicates either the badge was cloned, or the access log was falsified.
@@ -42,20 +38,17 @@ km away at 10:05) indicates either the badge was cloned, or the access log was f
 ## Credential authentication and login attempts
 
 SCADA systems, engineering workstations, and other software systems authenticate users via username and password, or via
-certificate-based authentication. Authentication logs record successful and failed login attempts, including: the
-username, the timestamp, the source IP address or location, and for failed attempts, the reason for failure (invalid
-password, account locked, etc.).
+certificate-based authentication. The logs record every login attempt, successful or failed, with the username, the
+time, the source address, and for a failure its reason, a bad password or a locked account.
 
-Normal authentication patterns show: employees logging in during business hours from expected locations (their office IP
-range, or their home IP if they work remotely), the login succeeding, and a session being established. Logout events are
-logged when the session ends. For a user with a regular work pattern (always logging in at 08:00 from their office IP),
-the pattern is predictable.
+Normal authentication runs to a rhythm: employees log in during business hours from where they usually work, the office
+range or a home address, the login takes, a session opens, and a logout closes it when they leave. A user who always
+signs on at 08:00 from the same office IP is as predictable as clockwork.
 
-Anomalous authentication patterns include: multiple failed login attempts using a user's username (an attacker guessing
-passwords), a successful login following multiple failures (the attacker guessed correctly), a login from an unexpected
-geographic location (IP geolocation shows the login came from outside the Netherlands, or from a city the user has never
-been to), or simultaneous sessions from different locations (the same user logged in from two different IP addresses at
-the same time, which is impossible).
+The anomalies are the familiar ones. A run of failed attempts on a username is someone guessing; a success straight
+after them is the guess landing. A login from outside the Netherlands, or a city the user has never been to, does not
+fit a settled pattern. And two sessions under one account from two places at once is not a pattern at all: it is
+impossible, and that is the tell.
 
 ## Credential compromise detection
 
@@ -111,15 +104,7 @@ is internally consistent; where one is missing, the work is suspicious. Whatever
 logs show whether a session carried a valid one, so a session without it stands out; whether the operator runs multifactor on
 SCADA access is not publicly established.
 
-The noise floor is time-shaped: business hours bring logins, badge swipes and failed attempts thick enough to hide one
-more, while the small hours are genuinely quiet. The same login at 03:00 and setting change at 03:10, two origins:
-
-    A LOGIN, AND A RELAY SETTING CHANGED UNDER IT
-    ─────────────────────────────────────────────
-                    AUTHORISED SESSION        │  COMPROMISED CREDENTIAL
-    work order      matches the change        │  none
-    login source    the engineer's usual IP   │  an IP outside the Netherlands
-    physical entry  badge logged at the site  │  none, logical only
-    account holder  confirms the session      │  disowns it
+The record is time-shaped: business hours bring logins, badge swipes and failed attempts thick enough to hide one
+more, while the small hours are genuinely quiet.
 
 *Last updated: 13 July 2026*

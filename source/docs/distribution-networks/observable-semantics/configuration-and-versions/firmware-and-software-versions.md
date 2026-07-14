@@ -1,10 +1,10 @@
 # Firmware and software versions
 
-Field devices (RTUs, protection relays, smart grid terminals) run firmware: executable code stored in
-non-volatile memory that implements the device's protocols, logic, and functionality. Each firmware version is uniquely
-identified by a version number, and the operator maintains records of which devices are running which versions. Version
-tracking, upgrade histories, and cryptographic verification of firmware integrity form the observable layer for hardware
-compromise detection.
+A field device runs firmware, and the version it reports is a claim it makes about itself, one worth checking. RTUs,
+protection relays and smart grid terminals each carry a firmware version, and the operator keeps a record of which
+device runs which. Hardware compromise shows in the gap between that record, the code actually on the device, and the
+version the device admits to, read through version tracking, upgrade histories, and the cryptographic checks that go
+past the device's own word.
 
 ## Firmware version baselines
 
@@ -31,7 +31,7 @@ Maximo or equivalent).
 
 ## Unauthorised firmware modification signatures
 
-Unauthorised firmware modification would appear as a device reporting a firmware version that diverges from the
+Tampered firmware shows as a device reporting a version that diverges from the
 baseline, with no corresponding update record in the update history. If the baseline shows RTU X at version
 3.5.2, but querying RTU X reports version 3.5.3, either the baseline is outdated (there was an update that was not
 reflected in the baseline) or the firmware was modified.
@@ -99,7 +99,7 @@ is evaluated for compatibility and risk, it is tested in a controlled environmen
 systems. The deployment of a software update is documented: when it was applied, by whom, and whether it was
 successful.
 
-Unauthorised software modifications would appear as system processes or executables that diverge from the expected
+Tampered host software shows as processes or executables that diverge from the expected
 version. File-integrity monitoring tools can detect if critical system files have been modified. If an SCADA server's
 core executables are different from what the vendor provided (detected through hash verification), the system may be
 compromised.
@@ -136,14 +136,6 @@ the report itself is the thing in doubt; there the version number decides nothin
 back from the device, or behaviour that betrays a version the device denies running, tells the two apart.
 
 Firmware changes seldom and only through a documented update, so the baseline is quiet and a version off it is a rare
-event, its common innocent cause a record not yet caught up rather than routine churn. The mismatch, two origins:
-
-    A DEVICE REPORTS A VERSION OFF ITS BASELINE
-    ───────────────────────────────────────────
-                    LEGITIMATE UPDATE         │  UNAUTHORISED MODIFICATION
-    update record   engineering log + Maximo   │  none
-    signature/hash  verifies                  │  fails, or never checked
-    behaviour       matches the version       │  betrays a version it denies
-    version string  truthful                  │  may report the old, run new
+event, its common innocent cause a record not yet caught up rather than routine churn.
 
 *Last updated: 13 July 2026*

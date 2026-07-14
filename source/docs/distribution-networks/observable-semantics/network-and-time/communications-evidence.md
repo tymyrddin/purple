@@ -25,13 +25,12 @@ issued match commands received, in the same order, with the same timing.
 
 ## Protocol capture and anomaly detection
 
-Network captures of IEC 60870-5-104 traffic are the raw forensic source. Where they exist. *Continuous full packet 
-capture is common on IT networks but far from universal on OT ones, where bandwidth, storage, and the age of the kit 
-often mean only sampled traffic, or nothing, is kept. Where no capture was running, the pcap-based checks below are 
-unavailable. The record then falls back to the endpoints' own logs, the very logs a capture would be there to 
-cross-check.* A network analyser or IDS watching the network can record all traffic between the SCADA and RTUs. The 
-captures are stored in pcap (packet capture) format, readable by standard tools like Wireshark. For forensic analysis, 
-a pcap file is a complete transcript of what was communicated.
+Network captures of IEC 60870-5-104 traffic are the raw forensic source where they exist, and on OT networks they often
+do not: bandwidth, storage and the age of the kit mean only sampled traffic, or nothing, tends to be kept. Where no
+capture was running, the pcap-based checks below are unavailable, and the record falls back to the endpoints' own logs,
+the very logs a capture would be there to cross-check. Where one does exist, a network analyser or IDS records all
+traffic between the SCADA and RTUs, stored in pcap format and readable by standard tools like Wireshark, and a pcap file
+is a complete transcript of what was communicated.
 
 Normal protocol operation shows messages that conform to the IEC 60870-5-104 standard. Each message type can be parsed
 by a protocol decoder and the payload understood. Command messages have specific structures, response messages match
@@ -39,20 +38,15 @@ expected types. Replay detection is straightforward: if a command message appear
 second apart) and the SCADA's own log shows only one command being issued, the second message in the capture is a
 replay.
 
-Anomalies in protocol captures indicate either legitimate protocol violations (when SCADA or RTUs are
-non-conformant) or active attacks. A message that does not conform to the standard structure is anomalous: a command
-with an invalid type identifier, or a response that does not match any valid response type. A message with a malformed
-address field (the device address is outside the expected range) indicates either misconfiguration or tampering. A
-sequence of messages where the SCADA sends a command and the RTU responds to a different command (the SCADA issues 
-"Close switchpoint A" and the RTU responds with "OK, switchpoint B is now Closed") indicates command injection or RTU
-misconfiguration.
+An anomalous capture reads as a non-conformant device or an attack, and the malformed frame is where it starts: a
+command carrying an invalid type identifier, a response of no valid type, an address outside the range the estate uses.
+The sharper tell is a mismatch of question and answer, the SCADA issuing Close A and the RTU acknowledging B closed,
+which is command injection or a badly misconfigured RTU.
 
-Timing anomalies are also observable in pcap files. The time between a command and its response is consistent 
-(typically 10-500 milliseconds depending on network latency). If the time is orders of magnitude longer than expected 
-(5-10 seconds), that could indicate network congestion or a compromised RTU processing the command slowly. If multiple
-commands from the SCADA arrive at the RTU in rapid succession without waiting for responses (the SCADA sends command A,
-command B, command C all within 10 milliseconds before receiving any response), that is unusual and could indicate
-either pipelined operation (if the protocol supports it) or an attacker sending commands automatically.
+Timing shows too. A command and its answer normally sit 10 to 500 milliseconds apart; a gap stretched to five or ten
+seconds is congestion or an RTU labouring under something, and a burst of commands fired off without waiting for a
+reply, three inside ten milliseconds, is either pipelining the protocol allows or an attacker running commands on a
+script.
 
 ## Network topology and unexpected connections
 
@@ -88,14 +82,10 @@ consumption readings (a feeder that normally shows 100 kW suddenly shows 1000 kW
 round (all meters reporting exactly 1000 Wh with no variation), or missing periods (the metering data collection for an
 entire hour is missing).
 
-Tampering with metering data can occur at different points: at the meter itself (if an attacker can access a meter
-physically and modify the stored consumption value), during transmission (if the CDMA network is compromised and
-messages are intercepted or modified), or at the platform (if the metering database is compromised). The observable
-evidence at each layer is different. Tampering at the meter would show up as individual meters reporting wrong values
-that differ from physical verification (a technician measures the actual consumption by checking the meter's display, 
-and it does not match the reported value). Tampering in transmission would affect groups of meters simultaneously (all
-meters on a particular CDMA concentrator reporting anomalously). Tampering at the platform would affect the recorded
-data in the database without necessarily affecting the meters themselves.
+Metering data can be tampered with at three points, and each leaves a different mark. At the meter, one device reports a
+value that a technician's own reading of its display contradicts. In transmission, a whole CDMA concentrator's worth of
+meters go wrong together, because the interception hits them as a group. At the platform, the stored figures drift while
+the meters themselves stay honest, so only the database and its audit trail carry the change.
 
 ## CDMA network logs and transmission patterns
 

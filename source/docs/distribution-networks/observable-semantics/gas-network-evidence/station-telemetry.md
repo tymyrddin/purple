@@ -4,8 +4,8 @@ The gas network's live record is thin next to the electricity net's, and it come
 Pressure is handed down through a chain of them: from the national high-pressure transport into a gas receiving station
 (where the gas is metered and already carries its odorant), through district stations that drop roughly 8 bar to the 100
 or 30 mbar of the low-pressure net, to delivery stations for large users. Each station is instrumented; the low-pressure
-mains between them are not. So the telemetered layer covers the nodes and leaves the reticulation to periodic
-inspection, worked out in [gas integrity and safe working](integrity-and-safe-working.md).
+mains between them are not. So the telemetered layer covers the nodes and leaves the reticulation to [periodic
+inspection](integrity-and-safe-working.md).
 
 ## What a station measures
 
@@ -43,9 +43,9 @@ underneath all of them: a genuine excursion pushes the monitor to take over and,
 slam-shut, so a pressure the telemetry calls dangerous with no safety-device response, or a safety-device response with
 no pressure excursion in the record, is the contradiction to chase.
 
-A configuration change at the station, a regulator setpoint, an alarm limit, a datalogger setting, reads like any other
-change: legitimate with a work order and a window behind it, unauthorised without, the reasoning worked out in
-[configuration management](../configuration-and-versions/configuration-management.md).
+A [configuration change](../configuration-and-versions/configuration-management.md) at the station, a regulator
+setpoint, an alarm limit, a datalogger setting, reads like any other: legitimate with a work order and a window behind
+it, unauthorised without.
 
 ## Cross-checks
 
@@ -69,19 +69,8 @@ disabled gas detection and pressed on, tends to fall silent alone, sometimes jus
 and comes back only when someone re-enables it. The safety chain is the backstop the record cannot silence: whatever the
 telemetry does, the slam-shut's latched state is a physical fact an engineer reads off the valve.
 
-The noise floor here is quiet but gappy. Gas telemetry is sparse and coarse, comms drops are routine, and the safety
+The baseline here is quiet but gappy. Gas telemetry is sparse and coarse, comms drops are routine, and the safety
 chain is silent by design, so absence is ordinary and proves little on its own, which is exactly why a silenced device
 hides well and why the physical and periodic records carry more of the weight than they do on the electricity side.
-
-A station that fell silent has, for instance, two origins:
-
-    A TELEMETERED STATION GOES QUIET
-    ────────────────────────────────
-                    COMMS FAILURE             │  SILENCED DEVICE
-    neighbours      often silent too          │  still reporting
-    last reading    normal                    │  sometimes an excursion first
-    field check     a dead modem or battery   │  a device switched off
-    recovery        returns on a modem swap   │  needs re-enabling
-    safety chain    latched state still true  │  latched state still true
 
 *Last updated: 14 July 2026*

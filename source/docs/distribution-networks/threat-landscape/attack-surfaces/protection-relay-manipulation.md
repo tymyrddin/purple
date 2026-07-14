@@ -26,80 +26,66 @@ degradation.
     NORMAL OPERATION: Three-parameter protection chain
     ──────────────────────────────────────────────────
 
-    Incoming current measurement
+    Incoming current  (primary amps)
               │
-              ↓
-         ┌───────────────────────────────┐
-         │ PICKUP: Is I > 5A?            │  ← Minimum sensitivity threshold
-         │ (if NO: ignore, stay armed)   │    Usually set above max load
-         └──────────────┬────────────────┘
-                        │ YES
-                        ↓
-         ┌───────────────────────────────┐
-         │ THRESHOLD: Is I > 1200A?      │  ← Trip level (overcurrent limit)
-         │ (fault vs load discrimination)     Attacker target: INCREASE (hide faults)
-         └──────────────┬────────────────┘
-                        │ YES
-                        ↓
-         ┌───────────────────────────────┐
-         │ TIME DELAY: Hold 100ms        │  ← Coordinated with upstream relays
-         │ (let faster relays act first) │    Attacker target: INCREASE (delay trip)
-         └──────────────┬────────────────┘
-                        │ DELAY EXPIRES
-                        ↓
-                   🔴 TRIP RELAY
+      ┌───────┴───────────────┐
+      ↓                       ↓
+    ┌─────────────────────────┐   ┌────────────────────────────┐
+    │ 51 time-overcurrent     │   │ 50 instantaneous           │
+    │ pickup 300A             │   │ threshold 1200A            │
+    │ (set above ~200A load)  │   │ (heavy fault, trips fast)  │
+    └────────────┬────────────┘   └─────────────┬──────────────┘
+         I > 300A?                        I > 1200A?
+                 │ YES                            │ YES
+                 ↓                                ↓
+         hold time delay 300ms              TRIP (no delay)
+         (graded with upstream relays)
+                 │ delay expires
+                 ↓
+               TRIP
+
+    Either element opens the breaker. The attacker's targets are the 51
+    pickup, raised to hide smaller faults, and the 50 threshold or the time
+    delay, raised to slow the clearance of a heavy one.
 
 
-    ATTACK SCENARIO: Threshold manipulation
-    ────────────────────────────────────────
+    ATTACK SCENARIO: Pickup raised, smaller faults go unseen
+    ────────────────────────────────────────────────────────
 
-    Normal setting:
-      Pickup: 5A (above 3A max load)
-      Threshold: 1200A
-      Delay: 100ms
-      → Trip on sustained 1200A current within 100ms
+    Normal:
+      load          ~200A
+      51 pickup     300A     (trips after the time delay)
+      50 threshold  1200A    (trips at once)
 
-    After attacker modifies (DIGSI 5 or AcSELerator QuickSet):
-      Pickup: 5A (unchanged, appears normal)
-      Threshold: 1500A (MODIFIED: +300A margin)
-      Delay: 100ms (unchanged)
-
-    Result:
-      • Fault current 1200-1500A: Relay sees current > pickup but < threshold → NO TRIP
-      • Fault propagates further into network
-      • Downstream equipment overheats and fails
-      • Cascade spreads to adjacent zones
+    After the attacker raises the 51 pickup to 450A:
+      A high-impedance or remote fault drawing 300-450A no longer starts the
+      time element, so it is never cleared. The band the old pickup would
+      have caught is now unprotected, and the relay looks healthy on load.
+      Raising pickup only removes sensitivity: the zone goes deaf to weak
+      faults, it does not become hair-trigger.
 
 
-    ATTACK SCENARIO: Pickup increase (more dangerous)
-    ──────────────────────────────────────────────────
+    ATTACK SCENARIO: Instantaneous slowed, a heavy fault clears late
+    ────────────────────────────────────────────────────────────────
 
-    Normal setting:
-      Pickup: 5A
-      Threshold: 1200A
-      → Responds to any fault above 5A
+    Normal:
+      50 threshold  1200A    → a 1500A fault trips at once
+      51 delay      300ms
 
-    After attacker modifies:
-      Pickup: 40A (MODIFIED: shifted well above normal 3A load)
-      Threshold: 1200A (unchanged)
-
-    Zone behaviour:
-      • Normal load 1A-3A: below pickup, relay idle (correct, as before)
-      • High-impedance or remote fault drawing 20A-35A: now below the
-        40A pickup, so the relay stays idle and the real fault is missed
-      • Only currents above 40A start the element at all
-      • The whole 5A-40A band the old pickup would have caught is now
-        unprotected, while the zone looks healthy day to day
-      • Deaf to weak faults, not hair-trigger: raising pickup only
-        removes sensitivity
+    After the attacker raises the 50 threshold to 1600A (or lengthens the
+    delay):
+      A 1500A fault no longer gets the instantaneous trip; it waits out the
+      slower time-overcurrent delay instead. Clearance is late, the faulted
+      plant heats for longer, and the grading with upstream relays breaks,
+      so a fault meant to clear locally can reach further in.
 
 
     INTERCONNECTED CONSTRAINT: What the attacker cannot hide
     ─────────────────────────────────────────────────────────
 
     Baseline comparison (DIGSI 5 online-vs-offline):
-      Settings file on engineering workstation shows: Threshold 1200A, Pickup 5A
-      Relay reports (queried live): Threshold 1500A, Pickup 40A
+      Settings file on engineering workstation shows: 51 pickup 300A, 50 threshold 1200A
+      Relay reports (queried live): 51 pickup 450A, 50 threshold 1600A
       → MISMATCH flagged immediately
 
     Attacker's only solution: Corrupt BOTH
@@ -122,8 +108,7 @@ maintenance window, making it appear as an authorised change.
 
 A relay's pickup setting defines the current level at which the relay begins to respond to a fault. Below the pickup
 current, the relay ignores the fault. At and above the pickup, the relay measures the time delay and trips if
-appropriate. A relay with a 5A pickup setting will respond to faults greater than 5A; a relay with a 50A pickup will
-ignore smaller faults.
+appropriate. A relay picking up at 300A responds to faults above 300A; one shifted to 450A ignores the band beneath.
 
 An attacker who increases a relay's pickup setting would cause the relay to ignore smaller faults. In a distribution
 network where many protection zones overlap (where multiple relays could potentially protect a fault), increasing a
@@ -131,7 +116,7 @@ relay's pickup in one zone might cause that zone's relay to not respond, leaving
 elsewhere. This can change the effective protection strategy of the network.
 
 Pickup setting changes are often less obvious than threshold changes because they interact with the network's load
-current. A relay's pickup must be set above the normal maximum load current, or it would trip constantly. An attacker
+current. A relay's pickup sits above the normal maximum load current, or it would trip constantly. An attacker
 who increases the pickup to just above the known maximum load would appear to be setting it reasonably, but would
 actually be creating a narrow margin that could be exceeded during high-load conditions.
 

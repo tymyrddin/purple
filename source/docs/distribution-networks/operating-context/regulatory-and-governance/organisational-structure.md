@@ -9,9 +9,9 @@ Groep, with three separate subsidiaries: the regulated grid operator Stedin Netb
 NetVerder B.V. and DNWG Groep N.V. DNWG Groep in turn holds the infrastructure company DNWG Infra B.V.
 
 The group's own definitions treat these as distinct legal persons. This separation is not cosmetic. It descends from
-the [Wet Onafhankelijk Netbeheer](https://wetten.overheid.nl/BWBR0020608), which since 2011 has required
-utilities to hive the regulated network activity into a separate company under a group prohibition, the reason Stedin
-was split from Eneco in the first place.
+the [Wet Onafhankelijk Netbeheer](https://wetten.overheid.nl/BWBR0020608), of 2006, which requires
+utilities to hive the regulated network activity into a separate company under a group prohibition; upheld by the Hoge
+Raad in 2015, it is why Stedin was split from Eneco in the 2017 demerger.
 
 In access terms, the group prohibition is an access control regime expressed through company law. It dictates which
 legal entity may operate the regulated gas and electricity networks and separates the regulated network operator from

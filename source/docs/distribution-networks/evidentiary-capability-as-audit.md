@@ -60,7 +60,7 @@ The report is computed over an ingested estate configuration, the structured des
 out on the [core-design page](evidentiary-capability-core-design.md): systems of record, fields, retention
 values, clock discipline, authorisation model, retrieval costs. The determinations are only as sound as that
 description, so the honesty of the configuration is the real constraint, a point the
-[risks page](evidentiary-capability-risks.md) does not let go of.
+[limits page](evidentiary-capability-limits.md) does not let go of.
 
 Operating context distils into the default estate configuration, a worked example the report can run against
 out of the box rather than an abstract one. It is only a default: a real deployment supplies its own, and the

@@ -15,8 +15,10 @@ with a historian for data logging, and with remote access for field engineers, t
 segments with other applications. An attacker who compromises an engineering workstation or gains access to the
 control-room network segment through phishing or supply-chain compromise can eavesdrop on telecontrol frames. IEC
 60870-5-104 sends commands in plaintext, so observing the traffic reveals what switching operations are being commanded.
-More dangerously, an attacker can capture a frame (for instance, a command to Close a switchpoint at a specific
-substation), replay it later, and cause the same switching operation again without the operator's knowledge.
+More dangerously, an attacker sitting in the traffic can replay a captured command frame, a Close to a specific
+switchpoint, and cause the same operation again without the operator's knowledge. That needs the man-in-the-middle
+position the rest of this page assumes: 104 runs over a TCP session with send-and-receive sequence numbers, so a frame
+merely captured and resent later falls out of sequence and is dropped.
 
 Understanding what systems communicate, how they integrate, and what network paths carry critical data is the 
 threat surface, and 
@@ -40,9 +42,8 @@ where interception is possible and what observable traces it leaves in field dev
          └─ Read state ──────────────────────────>│              │
             (polling)                             │              │
                                            Closed <──────────────┤
-                                                  |
 
-    Operator sees: Switchpoint A = CLOSED ✓ (correct)
+    Operator sees: Switchpoint A = CLOSED (correct)
 
 
     ATTACK 1: Command Manipulation (man-in-the-middle)
@@ -67,8 +68,9 @@ where interception is possible and what observable traces it leaves in field dev
          
     Operator sees: Switchpoint A = CLOSED (thinks it worked)
     Reality: Switchpoint B is now OPEN (unintended consequence)
-    Result: Network configuration mismatches switching plan
-            Fused load energises, protection zone fails
+    Result: the field no longer matches the switching plan, the intended
+            close never happened and an unrelated switchpoint has opened,
+            de-energising a section no one meant to
 
 
     ATTACK 2: State Report Spoofing
@@ -90,11 +92,11 @@ where interception is possible and what observable traces it leaves in field dev
          │<──── FALSE: OPEN ──────┤                     │              │
          │                                              │              │
 
-    Operator sees: Switchpoint = OPEN (false belief!)
-    Reality: Switchpoint is CLOSED (unprotected)
-    Result: Operator makes unsafe decisions based on false mental model
-            E.g., "de-energise this zone" when it's already energised
-            E.g., "protection is working" when it's actually disabled
+    Operator sees: Switchpoint = OPEN (false belief)
+    Reality: Switchpoint is CLOSED, the line is still live
+    Result: the operator acts on a false picture, treating a live section
+            as dead, for instance clearing a crew to work a line the
+            report calls open while it is actually energised
 
 
 Attackers with network access can do more than eavesdrop. They can modify frames. An RTU expects commands in a specific 
@@ -103,8 +105,8 @@ sequence and format. If these are known, an attacker can intercept a command (Cl
 issued Close A, the system acknowledges, the RTU opens B.
 
 The field operation now mismatches operator intent. The planned switching sequence to isolate a fault gets corrupted en 
-route. A device opened when it should close. The network configuration no longer matches the switching plan. A fused 
-load energises. A protection zone isn't isolated. A device enters an unsafe state. The operator detects this through 
+route. A device opens where a close was commanded, the field no longer matches the switching plan, and a section meant to be
+isolated stays live while another goes dark. The operator detects this through 
 state reports: a switchpoint they commanded to Open still reports Closed. But the delay is seconds. And if multiple 
 commands are corrupted, the operator might attribute it to RTU malfunction rather than attack.
 

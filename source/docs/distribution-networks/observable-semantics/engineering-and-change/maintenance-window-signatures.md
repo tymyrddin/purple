@@ -38,7 +38,7 @@ what was actually done, any issues encountered, and sign-off from the Installati
 Responsible Authority) or equivalent. If a work order shows it was approved for 08:00-17:00 and actual work occurred
 from 08:00 to 23:00, the scope diverged from the plan and the extension needs justification and approval.
 
-Unauthorised work would appear as activities that lack a work order, or as activities that diverge significantly from
+Unauthorised work is activity that lacks a work order, or that diverges significantly from
 the authorised scope. If the work order authorises access to one specific substation but access logs show a technician
 visited five substations, the scope was violated. If the work order is for "inspecting transformer Q12" but switching
 operations are performed that affect multiple feeders downstream of Q12, the work scope has been exceeded and
@@ -52,9 +52,9 @@ it was in when they departed. The records are specific: for a protection relay, 
 threshold values, pickup currents, time delays); the as-left record shows the same settings after maintenance. For any
 changed settings, the record documents the old value and new value.
 
-Normal as-found-and-as-left records show: what was found (equipment in expected condition, or a specific defect noted),
-what was done (settings changes, equipment replacement, cleaning, calibration), and what was left (equipment in working
-condition, all settings restored or changed per the work plan). The records are signed by the technician and often
+A normal record runs found, done, left. What was found is the equipment in its expected state, or a defect noted; what
+was done is the settings changed, the part replaced, the clean or the calibration; what was left is the equipment
+working again, settings restored or changed to the work plan. The records are signed by the technician and often
 reviewed and approved by the Werkverantwoordelijke (Work Responsible) or supervisor.
 
 Falsified as-found-and-as-left records are a signature of unauthorised work disguised as legitimate maintenance. If the
@@ -83,7 +83,7 @@ but the SCADA log shows they were opened in order A, C, B, D (out of sequence), 
 The divergence could be due to an operational issue (switch C had to be opened before B to avoid unintended load
 shifts), which would be documented in an incident report. An undocumented divergence stands out.
 
-Unauthorised operations during a maintenance window would appear as switching operations that were not in the
+Unauthorised operations in a maintenance window are switching steps that were not in the
 bedieningsplan. If the plan authorises switching on feeder 1 only, but the SCADA log shows switches were also operated
 on feeder 2, unauthorised work occurred. If the bedieningsplan shows 20 planned switch operations but the SCADA log
 shows 50, extra unauthorised operations occurred.
@@ -99,7 +99,7 @@ a second engineer), the change is applied during the maintenance window, and the
 as-found-and-as-left (what the configuration was before, what it is after). For protection relay settings, the as-left
 record explicitly lists each setting value.
 
-Unauthorised configuration changes would appear as changes not listed in the work order, or changes that are more
+Unauthorised configuration changes are changes not listed in the work order, or ones that are more
 extensive than authorised. If the work order authorises changing the overcurrent threshold on one relay, but as-left
 records show thresholds were changed on five relays, unauthorised changes occurred. If the work order authorises no
 configuration changes (pure hardware maintenance), but the as-left record shows relay settings were changed,
@@ -141,15 +141,6 @@ suggests either an operational crisis (the network is in critical condition requ
 activity disguised as maintenance.
 
 Planned work runs to a regular monthly rhythm, the loud majority of the record, so an anomaly shows against it as a
-spike in unscheduled work or a step outside the plan, not as any single work order. Switching in the window, two
-origins:
-
-    SWITCHING OPERATIONS IN A MAINTENANCE WINDOW
-    ────────────────────────────────────────────
-                    PER THE PLAN              │  BEYOND SCOPE
-    bedieningsplan  commands match, in order  │  operations not in the plan
-    count           as planned (say 20)       │  more than planned (say 50)
-    feeders         only the authorised one   │  a second feeder too
-    as-found/left   settings as recorded      │  relay timestamps show a change
+spike in unscheduled work or a step outside the plan, not as any single work order.
 
 *Last updated: 13 July 2026*

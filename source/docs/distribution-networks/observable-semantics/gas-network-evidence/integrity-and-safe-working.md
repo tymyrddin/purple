@@ -67,8 +67,7 @@ missing.
 All of this rests on the asset register and the network drawings being right. When the register is stale the crew works
 to a picture that no longer matches the ground, which is what the Zoetermeer investigation found in the outdated
 drawings, so a divergence between the register and the field is a signature in its own right. A change to the register,
-meanwhile, carries the same authorised-or-not question as any other record, worked out in [database transaction
-logs](../database-and-transactions/database-transaction-logs.md): a network drawing altered with no work behind it is as
+meanwhile, carries the same authorised-or-not question as any [other record](../database-and-transactions/database-transaction-logs.md): a network drawing altered with no work behind it is as
 much a question as a relay setting changed the same way.
 
 ## What the gas record cannot always show
@@ -81,18 +80,8 @@ customer's report of smell, a survey the neighbouring section shares, the physic
 underneath, the register agreeing with the ground. The gas record is thin enough that the physical world often has to be
 the witness the paperwork cannot.
 
-The noise floor is set by slowness, not volume. Measurements are sparse and scheduled, records lag the field as a matter
+The baseline is set by slowness, not volume. Measurements are sparse and scheduled, records lag the field as a matter
 of course, and an overdue check or a stale drawing is common and mostly innocent, so a single gap proves little; the
 signal is a gap that lines up with something else, an unsmelled leak, a corroded main, a work a permit does not cover.
-
-Work on a live main, two origins:
-
-    A GAS MAIN WORKED WHILE IN SERVICE
-    ──────────────────────────────────
-                    GAS-FREE, PER PLAN      │  UNSAFE, DETECTION OVERRIDDEN
-    drukloos check  verified and filed      │  none
-    gas detector    obeyed, work stops      │  alarm overridden, work continued
-    procedure       VIAG plan followed      │  supplementary step missing
-    register/map    matches the site        │  stale, did not match
 
 *Last updated: 14 July 2026*

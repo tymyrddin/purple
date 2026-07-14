@@ -54,15 +54,11 @@ cannot support, which is the opposite of what the Article 23 bar, with its permi
 for. The honest finding that malice cannot be told from its legitimate twin at this estate is a finding, as
 feasibility puts it, rather than a failure.
 
-The reveal also carries the lesson the [core design](evidentiary-capability-core-design.md) builds in about
-trusting evidence. Part of reading a record honestly is noticing which artefacts are independent of the actor
-under suspicion and which that actor could have written, and not resting a determination on a single clean
-source when an out-of-band one disagrees. The observable-semantics material the record is drawn from already
-turns on this, the capture that is independent of the logs, the paper logbook that outlasted the platform, so
-an exercise built on it can reward the analyst who cross-checks and distrusts the too-tidy record, which is
-exactly the instinct a forged-benign incident would demand. That scenario is decidable only when the estate
-holds a record beyond the attacker's reach, so it exercises precisely what the capability report grades,
-whether the separating evidence is independent or merely forgeable.
+The reveal also carries the [core design](evidentiary-capability-core-design.md)'s lesson about trusting
+evidence: an exercise built on records that are independent of the actor rewards the analyst who cross-checks and
+distrusts the too-tidy source, which is exactly the instinct a forged-benign incident demands. That scenario is
+decidable only where the estate holds a record beyond the attacker's reach, so it exercises precisely what the
+capability report grades.
 
 The exercise record is reproducible: the same ordinary week, ground truth, and seed regenerate the same
 incident, so a cohort can be run against one scenario and compared, and a remediated estate can be

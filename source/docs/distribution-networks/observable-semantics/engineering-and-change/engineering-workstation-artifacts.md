@@ -18,7 +18,7 @@ change and references the associated work order. A review process might require 
 before they are deployed to devices. All of this activity is logged: the Git history shows commits and who made them,
 the tools log when projects are opened and modified.
 
-Unauthorised activity on a project file would appear as edits without version-control commits, edits by unexpected
+Unauthorised activity on a project file leaves edits with no version-control commit, edits by unexpected
 users, or edits followed by immediate deployment without testing or review. If an engineering workstation's
 version-control log shows that a critical relay project was never committed (changes made but not saved to version
 control), those changes exist only in the working directory and are at risk of being lost or forgotten. If a project
@@ -42,7 +42,7 @@ an approved work order, settings read and compared against the baseline, and eit
 or approved changes made and documented as-found-and-as-left records. The sequence is: connect, read, compare, (if
 changes needed) apply, read back, verify. The entire sequence is traceable in the connection logs.
 
-Unauthorised connections would appear as undocumented accesses. A connection to a critical relay at 02:00 with no
+An unauthorised connection is an undocumented one. A connection to a critical relay at 02:00 with no
 maintenance window scheduled, no work order, and no documentation of what the connection was for is a red flag. A
 connection that results in configuration changes (a settings write) without corresponding change-control documentation
 is particularly suspicious. Multiple connections from the same user to the same devices in rapid succession might
@@ -56,15 +56,9 @@ not use, that is anomalous.
 
 ## Tool-specific artefact formats
 
-DIGSI 5 stores projects in XML-based formats that can be extracted and analysed. The projects contain protection
-settings, settings change history, and metadata about when the project was last modified. An investigator can parse a
-DIGSI project file post-incident to extract the configuration and see what it was supposed to deploy. AcSELerator stores
-settings in a database format that can be exported to human-readable CSV or XML.
-
-For SCADA tools, the format varies (GE SCADA, Siemens, Schneider all use different formats), but they usually store
-configuration in databases or text-based formats that can be exported and analysed. A complete forensic analysis of an
-engineering workstation involves exporting all project files and configuration databases to a neutral format so they can
-be reviewed and compared against official baselines.
+DIGSI 5 keeps its projects as XML, AcSELerator as an exportable database, and the SCADA tools each in their own format,
+but the forensic move is the same across them: extract the project files and configuration databases to a neutral form,
+read out what each was set to deploy, and compare it against the official baseline.
 
 The metadata in project files is often revealing. DIGSI projects store the name of the user who last edited the file,
 the timestamp of the edit, and sometimes version information. If a project file shows it was edited by an engineer who
@@ -83,16 +77,13 @@ relay model), with reasonable directory structures and file naming conventions. 
 run (DIGSI creates temporary copies of projects when opening them, which are deleted when the tool closes normally).
 These temporary files are expected and are not problematic if they are cleaned up after the tool exits.
 
-Anomalous file-system activity includes: project files in unexpected locations (a relay project copied to the Desktop or
-a USB drive), suspicious temporary files that were not cleaned up (suggesting an application crash or abnormal
-termination), multiple versions of the same project file with slightly different names (backup copies or variants that
-suggest experimentation), or recently deleted files that were critical (a deletion without backup is reckless).
+The anomalies are files where they do not belong, a relay project copied to the Desktop or a USB stick; temporary files
+left behind, which says a tool crashed rather than closed cleanly; several near-identically-named copies of one project,
+the mark of someone experimenting; and a critical file recently deleted, a deletion with no backup being reckless.
 
-Windows Prefetch files contain evidence of program execution. When a user runs an application, Windows creates a
-Prefetch file that speeds up the next launch. Prefetch files contain the executable's name, the timestamp it was run,
-and which files it accessed. An investigator examining an engineering workstation can review Prefetch files to see: what
-tools were run, when they were run, and which files they accessed. If DIGSI was run at 03:00 on a date when no
-maintenance was scheduled, the Prefetch evidence shows this execution happened.
+Windows Prefetch settles when a tool ran. Each launch leaves a record of the executable, the time it ran and the files
+it touched, so DIGSI started at 03:00 on a date with no maintenance is a fact on the disk, whatever the connection logs
+do or do not hold.
 
 ## Recent-files lists and browser history
 
@@ -128,7 +119,7 @@ evidence. In most cases, the file-system and log evidence on the workstation are
 
 ## The authorised connection and its double
 
-The noise floor is bursty: engineering sessions cluster inside maintenance windows and the workstation is otherwise
+Activity here is bursty: engineering sessions cluster inside maintenance windows and the workstation is otherwise
 quiet, so a connection, a settings write or a tool launch outside a window stands against very little. An engineering
 session leaves the same artefacts whether or not it was meant to happen: a connection log, a settings
 write, a file timestamp, a login. What decides is the surrounding record. A legitimate connection sits inside a

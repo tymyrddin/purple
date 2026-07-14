@@ -198,7 +198,7 @@ The generator is the larger build: the residue generator described here, extende
 injection, a coherence critic, and a seedable, reproducible scenario, feeding the deliberately tedious query interface
 and the reveal the [training tool](evidentiary-capability-as-training.md) turns on. It is research-grade because it
 inherits the open edge already named, validation against real traces, and adds the un-elicited priors the
-[risks page](evidentiary-capability-risks.md) sets out.
+[limits page](evidentiary-capability-limits.md) sets out.
 
 A sensible build order follows the confidence: the structural report first, defensible today and useful on its own; the
 generator and exercise second, as a research effort whose payoff depends on calibration that may or may not become
@@ -215,9 +215,9 @@ an abstract one. What each feeds:
   subgroups are, in effect, a residue catalogue, giving per-artefact fields and the legitimate-versus-tampering
   contrast for alarms, badge and key logs, workstation sessions, work orders, relay records, historian edits,
   gas-station telemetry and safe-working records, call and verbal-authority records, and as-found and as-left states.
-  The residual gap is narrower now: a verbal approval left as a bare call-detail record when its registration was
-  skipped, which the [telephony and verbal authority](observable-semantics/access-and-authorisation/telephony-and-verbal-authority.md)
-  page marks as its own limit.
+  The residual gap is narrower now: a verbal approval left as a bare [call-detail
+  record](observable-semantics/access-and-authorisation/telephony-and-verbal-authority.md) when its registration was
+  skipped.
 - The estate model: [system-portrait](operating-context/system-portrait.md) and its evidence-propagation
   view, [vendor-platform](operating-context/system-composition/vendor-platform.md) for the systems of record
   and what each emits, [timing and synchronisation](observable-semantics/network-and-time/timing-and-synchronisation-anomalies.md)
@@ -241,11 +241,8 @@ an abstract one. What each feeds:
   [configuration management](observable-semantics/configuration-and-versions/configuration-management.md).
   The gap is a consolidated hypothesis set; the benign firmware-bug explanation is thin.
 
-Four facts none of this fixes are carried as explicit unknowns in the default configuration rather than
-invented: artefact retrieval cost and out-of-hours obtainability; whether a work order records the
-emergency-exception approver; whether contractor credentials are individual or shared; and a consolidated set
-of base rates and explanations. These are deployment specifics that stay
-[private](operating-context/system-composition/procurement-documents.md) to the operator, so marking them
-unknown is honest rather than a shortfall.
+Four facts none of this fixes stay [private](operating-context/system-composition/procurement-documents.md) to the
+operator, artefact retrieval cost, the emergency-exception approver, whether contractor logins are shared, and the base
+rates, and are carried in the default configuration as explicit unknowns rather than invented.
 
 *Last updated: 12 July 2026*

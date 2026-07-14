@@ -7,10 +7,11 @@ operated.
 
 ## COMTRADE format and contents
 
-COMTRADE (Common Format for Transient Data Exchange) is a standardised binary format for recording waveform data from
-power-system equipment. A COMTRADE file contains: the sampled values of currents, voltages, and status signals at high
-frequency (specified in samples per cycle, commonly 16 to 256 per cycle at 50 Hz, so from under a kilohertz to over ten kilohertz), the timestamp of when sampling started, and the
-configuration data specifying what signals were recorded and their scaling factors.
+A COMTRADE file is the closest thing to a hardware witness the estate holds: the relay's own capture of the current and
+voltage waveforms at the instant it acted. The format (Common Format for Transient Data Exchange) is a standardised
+binary one, holding the sampled values at high frequency, specified in samples per cycle, commonly 16 to 256 per cycle
+at 50 Hz, so from under a kilohertz to over ten kilohertz, alongside the start timestamp and the configuration that says
+what was recorded and how it scales.
 
 When a relay detects a fault condition, it initiates a disturbance recording. The sampling had been running
 continuously or on demand, and when the fault is detected, the relay captures the waveforms surrounding the fault:
@@ -28,10 +29,9 @@ internally consistent with the physics of the event).
 
 ## COMTRADE interpretation and physical validity
 
-A COMTRADE file is interpreted by plotting the sampled waveforms and inspecting them for the signatures of faults. An
-overcurrent fault appears as a sudden increase in current. An overvoltage fault appears as a sudden increase in voltage.
-An underfrequency condition appears as the frequency calculated from the voltage waveform (by counting zero-crossings)
-dropping below the nominal 50 Hz.
+A COMTRADE file is read by plotting the waveforms and looking for the shape of a fault: a sudden jump in current or
+voltage for an overcurrent or overvoltage, or, for underfrequency, the frequency counted off the voltage zero-crossings
+sliding below the nominal 50 Hz.
 
 For a legitimate fault, the waveforms show clear physical signatures. An overcurrent fault shows current amplitude
 increasing suddenly, and in three-phase systems, the three current phases may show an imbalance (depending on the fault
@@ -39,11 +39,9 @@ type: line-to-line, line-to-ground, etc.). The transient is visible: a sudden ju
 the fault condition. After protection operates (after the relay's trip signal opens a breaker), the current drops back
 toward normal (or to zero if the faulted section is fully isolated).
 
-Anomalous or unphysical waveforms in a COMTRADE file are red flags. A COMTRADE showing perfectly sine-wave voltage and
-current with no noise is suspicious (real power systems have continuous variation and noise). A COMTRADE showing a fault
-condition that appears to violate physical laws (current flowing backward when it should flow forward, or unbalanced
-three-phase currents that sum to a non-zero value when they should sum to zero) indicates either sensor malfunction or
-forged data.
+A waveform that could not have come off real plant is the tell. A trace too clean to be true, perfect sine voltage and
+current with none of the noise a live network always carries, or one that breaks physics, current running backward,
+three-phase currents that fail to sum to zero, is either a sensor fault or a forgery.
 
 ## COMTRADE file integrity
 
@@ -81,10 +79,9 @@ timestamps. The event log carries an entry for a fault detection at the instant 
 fault, and the event log timestamp matches the COMTRADE's start timestamp (allowing for clock synchronisation
 differences).
 
-If the event log shows a relay trip at 10:00:10 UTC but the COMTRADE shows the fault beginning at 10:00:05 UTC, the
-timing divergence requires explanation. Possible explanations include: the relay's clock drifted by 5 seconds (clock
-synchronisation issue), or the COMTRADE was misdated (timestamped incorrectly), or the event log is incomplete (the
-relay detected and began recording the fault 5 seconds before it officially recorded the trip event).
+If the event log times the trip at 10:00:10 but the COMTRADE has the fault starting at 10:00:05, the five seconds have
+to be accounted for: a relay clock adrift, a capture misdated, or an event log that noted the trip a beat after the
+relay had already begun recording the fault.
 
 ## Missing COMTRADE files
 
@@ -154,14 +151,6 @@ data is generated at source; there only physical-plausibility and the wider inde
 relay claims but leaves no COMTRADE behind is the absence that gives it away.
 
 A COMTRADE is written only when a relay trips, so the record is sparse; a capture present with no fault, or missing where
-a trip claims one, stands against a quiet backdrop. The capture, two origins:
-
-    A COMTRADE FILE FOR A LOGGED TRIP
-    ─────────────────────────────────
-                    GENUINE FAULT             │  FORGED, OR NO FAULT
-    RTU + historian  agree with the waveform  │  disagree
-    second relay    same fault, same time     │  no matching capture
-    physics         balances across phases    │  inconsistent, unless built with care
-    the file        present                   │  may be missing for a claimed trip
+a trip claims one, stands against a quiet backdrop.
 
 *Last updated: 13 July 2026*

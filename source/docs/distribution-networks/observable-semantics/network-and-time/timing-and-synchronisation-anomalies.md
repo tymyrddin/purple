@@ -12,10 +12,9 @@ itself is synchronised to an atomic clock or GNSS). The synchronisation is usual
 and the tolerance for a system's clock drift before it is considered out of sync is on the order of minutes or
 more.
 
-Normal NTP operation shows all systems maintaining approximately the same time. When events are correlated across
-systems (a relay trip at time T, a SCADA command at time T, historian measurements at time T), the times are close (
-within milliseconds or a second, accounting for network propagation delays). The correlation allows precise
-reconstruction of sequence-of-events.
+In normal operation every clock reads within a whisker of the others, so a relay trip, the SCADA command that followed
+it and the historian's measurements all carry near-identical stamps, close enough, within a second once propagation is
+allowed for, to lay the sequence of events out in order.
 
 A system with a clock that has drifted significantly out of sync is observable. An engineering workstation's clock might
 be several minutes ahead or behind the SCADA's clock if it is not syncing properly. The drift is visible if timestamps
@@ -30,9 +29,8 @@ any value, and an attacker could use this to manipulate event timestamps.
 
 ## Timestamp manipulation and evidence ordering
 
-Event timestamps serve two purposes: they allow correlation between systems, and they establish a definitive ordering of
-events. If event A occurs at 10:00:00 and event B occurs at 10:00:05, then A preceded B. Manipulating timestamps can
-reverse this order or create artificial gaps.
+A timestamp does two jobs at once: it lets systems be lined up against each other, and it fixes the order events
+happened in. Both are what tampering goes after, reversing an order or opening an artificial gap where none belongs.
 
 Backdating leaves a signature. When a system's clock has drifted and is manually adjusted, the adjustment is recorded in
 the system logs and might be explainable. But if there is no explanation for the clock adjustment, and timestamps show
@@ -52,10 +50,9 @@ in the historian measurements, the protection relay detects and responds, the sw
 switchpoint responds, and the load redistribution is visible in measurements. The whole sequence takes
 milliseconds to seconds.
 
-An anomaly would be if the sequence is reversed (a switchpoint opens before a protection relay detects the fault), or if
-the timing is implausibly long (20 seconds between a protection relay detecting a fault and the switchpoint opening,
-when the expected response time is less than one second). Such timing anomalies indicate either system malfunction or
-deliberate manipulation of logs.
+The sequence going backwards is the tell, a switchpoint opening before the relay ordering it detected anything, or a gap
+with no physical sense, twenty seconds from a relay seeing a fault to the breaker moving where a response inside a second
+is expected. Either the plant misbehaved or the log was rewritten.
 
 Similarly, if two independent protection relays are protecting the same fault point (providing backup protection), they
 detect the fault within milliseconds of each other. If one relay is recorded as detecting the fault five seconds
@@ -145,14 +142,6 @@ clock running slow or fast betrays itself there, where an NTP log alone might no
 
 A few hundred milliseconds of skew is ordinary, drift is tolerated up to minutes and the clocks shift twice a year for
 daylight saving, so only a divergence beyond the systems' own precision, or one no clock event explains, reads as more
-than housekeeping. The off timestamp, two origins:
-
-    A SYSTEM'S TIMESTAMPS ARE OFF
-    ─────────────────────────────
-                    DRIFT OR MISCONFIG        │  MANIPULATION
-    NTP log         an explained adjustment   │  an unexplained shift
-    other systems   agree once corrected      │  contradict it
-    DST error       one system, or all alike  │  not the pattern
-    grid frequency  matches                   │  betrays a slow or fast clock
+than housekeeping.
 
 *Last updated: 13 July 2026*

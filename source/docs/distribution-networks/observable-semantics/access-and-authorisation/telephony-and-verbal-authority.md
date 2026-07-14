@@ -63,21 +63,10 @@ strange call but a missing register: an approval with no roster match, no regist
 write-up alone. The blind spot is real but narrow. It is the fast out-of-hours go-ahead that the paperwork never caught
 up with, and it is there, and only there, that whether the line was recorded decides whether anything can be said at all.
 
-The noise floor is sparse and mostly content-free by design. Almost all authority runs on paper; verbal authority is the
+The baseline is sparse and mostly content-free by design. Almost all authority runs on paper; verbal authority is the
 out-of-hours exception, and of the calls that carry it, usually only the metadata survives. The baseline is thin, a
 scatter of call-detail records and a few registrations, so a single uncorroborated verbal approval is not on its own an
 anomaly; it is ordinary under a fault. The signal is a verbal approval the registers, the roster and the action cannot
 confirm, not the mere fact that authority was given by voice.
-
-An emergency change approved by phone, two origins:
-
-    A CHANGE APPROVED BY VOICE, OUT OF HOURS
-    ────────────────────────────────────────
-                    GENUINE APPROVAL           │  FABRICATED
-    call record     to the on-call officer     │  none, or to no one authorised
-    roster          the officer held the duty  │  the approver was not on it
-    read-back       on the recorded line       │  absent, or contradicts the write-up
-    registered plan filed after, two drafts    │  none
-    write-up        matches call and action    │  stands alone
 
 *Last updated: 14 July 2026*

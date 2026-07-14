@@ -50,7 +50,7 @@ A modified RTU firmware could include a "dead man's switch": logic that lies dor
     │ RECOGNITION: This is the         │
     │ attacker's activation pattern    │
     │                                  │
-    │ → Trigger: ACTIVATED ✗           │
+    │ → Trigger: ACTIVATED           │
     └──────────────────────────────────┘
 
 
@@ -77,7 +77,7 @@ A modified RTU firmware could include a "dead man's switch": logic that lies dor
     │ • Action: Open specified load shedding   │
     │           switchpoint without command    │
     │                                          │
-    │ → Firmware now behaves maliciously ✗     │
+    │ → Firmware now behaves maliciously     │
     └──────────────────────────────────────────┘
 
 

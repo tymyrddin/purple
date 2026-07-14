@@ -67,10 +67,9 @@ discrepancy is isolated or systematic, dozens of commands with no corresponding 
 
 The SCADA logs operator actions at a fine grain: not just which switches were operated, but which operator did it,
 when, and from which control-room terminal. Over time, an operator develops a pattern of working hours, typical
-commands, typical sequence of actions, and typical response times to alarms. An operator who normally works 08:00-17:00
-suddenly logging in at 02:00 is anomalous. An operator who typically issues five switching commands per shift suddenly
-issuing fifty in an hour is hard to explain. An operator who normally manages low-voltage distribution and suddenly accessing
-high-voltage relay settings is suspicious. A command executed and then at once reversed, an open followed immediately by a close, or a protection function disabled and re-enabled, is another tell: the journal holds two contradictory commands in quick succession, the shape of a temporary change made and then hidden. The credential-compromise signals underneath these patterns, simultaneous
+commands, typical sequence of actions, and typical response times to alarms. An operator who keeps 08:00 to 17:00 and
+turns up at 02:00 is out of character. Five switching commands a shift becoming fifty in an hour wants an explanation.
+And someone who runs low-voltage distribution reaching into high-voltage relay settings is not where they belong. A command executed and then at once reversed, an open followed immediately by a close, or a protection function disabled and re-enabled, is another tell: the journal holds two contradictory commands in quick succession, the shape of a temporary change made and then hidden. The credential-compromise signals underneath these patterns, simultaneous
 sessions, failed-then-successful logins, logins from unexpected places, are read from the authentication record.
 
 Commands outside the operator's authorisation level are another pattern. The [Bedrijfsvoering system](../../operating-context/operations-and-cadence/operational-procedures-and-change.md) defines what

@@ -85,10 +85,10 @@ at this estate by construction, and the determination between them is unreachabl
 This is a set operation over the configuration, defensible without any estimate of how often anything
 happens. The trust dimension sharpens it into three outcomes rather than two. When the explanation to be
 ruled out is one the actor could fake, a malicious change dressed as routine, the diverging artefacts split
-by who could have written them. A pair is distinguishable and robust when at least one diverging artefact is
-held independently of that actor, beyond their reach to plant; distinguishable but low-trust when the only
+by who could have written them. A pair is Supported when at least one diverging artefact is
+held independently of that actor, beyond their reach to plant; supported only on forgeable evidence when the only
 diverging artefact sits in a record the actor could forge, since the malicious explanation can produce it
-too; and indistinguishable when no diverging artefact survives at all. A forgeable artefact counts as
+too; and unsupported when no diverging artefact survives at all. A forgeable artefact counts as
 decisive only once an independent record corroborates it, the packet capture beside the log, the paper beside
 the platform. This is still a set operation, now over the write-authority the configuration records, with no
 estimate of how often anything happens, so the trust grade joins the structural core rather than the
@@ -99,11 +99,11 @@ diverging artefact survives, the benign explanation may be common enough that th
 a little. Weighting the comparison by base rates would turn a yes-or-no identifiability into a
 strength-of-evidence, but it rests on estimates of how often clocks drift, work orders get backdated, logins
 get shared. Those numbers are not fixed by operating context and are hard to elicit honestly, so this
-layer reads as indicative rather than load-bearing, and the [risks page](evidentiary-capability-risks.md)
+layer reads as indicative rather than load-bearing, and the [limits page](evidentiary-capability-limits.md)
 returns to why.
 
-The output of the computation is the subject of the two pages that follow: read statically, it is an audit
-finding; wrapped in a generated incident, it is a training exercise.
+The output of the computation reads two ways: statically, it is an audit finding; wrapped in a generated incident, a
+training exercise.
 
 ## The shape of the two tools
 

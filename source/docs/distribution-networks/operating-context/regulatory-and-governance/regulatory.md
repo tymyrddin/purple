@@ -2,7 +2,7 @@
 
 ![Regulatory perimeter](/_static/images/distribution-regulatory-perimeter.png)
 
-[Stedin Netbeheer B.V.](https://www.acm.nl/nl/publicaties/tarievenbesluit-stedin-elektriciteit-2026) is one of the
+[Stedin Netbeheer B.V.](https://www.stedin.net/) is one of the
 six regional distribution system operators in the Netherlands, running electricity and gas distribution across most of
 South Holland, Utrecht and parts of Zeeland, and owned by municipalities and provinces in its area.
 
@@ -15,7 +15,7 @@ provisional.
 ## Regulators
 
 The economic regulator is
-the [Autoriteit Consument en Markt (ACM)](https://www.acm.nl/nl/publicaties/tarievenbesluit-stedin-elektriciteit-2026).
+the [Autoriteit Consument en Markt (ACM)](https://www.acm.nl/en).
 Because a regional operator holds a monopoly
 and customers cannot choose their operator, the ACM as supervisor fixes the maximum tariffs an operator may apply.
 Beyond tariffs, it sets the

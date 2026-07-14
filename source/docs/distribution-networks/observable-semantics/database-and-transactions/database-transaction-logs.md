@@ -92,14 +92,6 @@ along with everything else. The backup catalogue is a record in its own right, a
 date that counts, points to a copy deleted to prevent exactly that comparison.
 
 The work-order lifecycle alone keeps a steady stream of inserts and updates flowing, so a single transaction is
-unremarkable and the signal is a change with no business process around it. The change, two origins:
-
-    A RECORD CHANGED IN THE STORE
-    ─────────────────────────────
-                    THROUGH THE APPLICATION     │  DIRECT WRITE
-    app session     a matching session log      │  none
-    authorisation   the application enforced it │  bypassed
-    work order      references the change       │  none
-    audit row       one of a coherent trail     │  isolated, or all that survives
+unremarkable and the signal is a change with no business process around it.
 
 *Last updated: 13 July 2026*

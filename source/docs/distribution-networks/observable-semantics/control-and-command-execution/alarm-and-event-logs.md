@@ -1,17 +1,16 @@
 # Alarm and event logs
 
-Beyond SCADA's main command and state journals, the systems generate alarm and event logs that capture anomalies,
-threshold violations, and state machine transitions at granular levels. Alarms are conditions that exceed thresholds and
-require operator attention. Events are state changes that are logged without necessarily triggering an alarm. The
-patterns of alarms and their acknowledgement form forensic evidence of what the operators knew and when.
+Beyond SCADA's main command and state journals, the systems keep alarm and event logs at a finer grain. The line
+between the two is thin: an alarm is a condition that crosses a threshold and asks for attention, an event a state
+change merely logged. Together they record the shape of what the operators knew, and when, in the pattern of alarms
+raised and acknowledged.
 
 ## Alarm thresholds and trigger criteria
 
-The distribution network has hundreds of configured alarm conditions. An overcurrent alarm is triggered when
-current exceeds a configured threshold. An overvoltage alarm triggers when voltage exceeds a maximum. An underfrequency
-alarm triggers when frequency falls below a minimum. These thresholds are set based on the network's design and
-operational requirements. The thresholds balance two goals: alarm often enough to catch real problems, but not so often
-as to generate nuisance alarms that operators ignore.
+The distribution network carries hundreds of configured alarm conditions, each a threshold on a measured quantity,
+current, voltage or frequency, that trips when the quantity crosses it. The thresholds are a balance struck against the
+network's design: tight enough to catch real problems, loose enough not to bury the operators in nuisance alarms they
+learn to ignore.
 
 Normal alarm behaviour shows a predictable frequency. A feeder that regularly carries near its thermal limit might
 generate a few overcurrent alarms per day during peak load, which the operator acknowledges and monitors but does not
@@ -41,9 +40,9 @@ operator understood about the alarm (why it happened, what action was taken or n
 windows, the acknowledgement might note that the condition is expected ("planned load transfer, alarm expected,
 monitoring only").
 
-Anomalous alarm patterns include: alarms that are generated but never acknowledged (an alarm persists for hours without
-an operator response), alarms that are acknowledged at unusual times (acknowledged at 03:00 when the control centre is
-minimally staffed), or multiple alarms of the same type in rapid succession suggesting a degrading condition. An alarm
+The anomalous patterns break that rhythm. An alarm left unacknowledged for hours has no operator behind it; an
+acknowledgement at 03:00, when the control centre is barely staffed, is out of place; the same alarm firing over and
+over is a condition getting worse. An alarm
 storm (dozens of alarms triggered within minutes) often indicates a serious fault condition or a sensor malfunction.
 
 A specific operator's alarm-acknowledgement pattern can also be revealing. If one operator consistently acknowledges
@@ -127,15 +126,8 @@ authorises the suppression or the threshold change, and the deletion record a re
 events. Suppression with no work order, a threshold moved with no work behind it, events gone with no deletion logged,
 these are the same act stripped of its authorisation, and the missing authorisation is the signature.
 
-The noise floor is high by design: hundreds of configured conditions and a few alarms a day on a busy feeder, much of it
+The baseline is loud by design: hundreds of configured conditions and a few alarms a day on a busy feeder, much of it
 nuisance alarms the operators acknowledge and move past, so no single alarm carries the signal and only the pattern
-does. The gap, two origins:
-
-    A GAP IN THE APPEND-ONLY EVENT LOG
-    ──────────────────────────────────
-                    AUTHORISED DELETION       │  TAMPERING
-    deletion log    user, time, authority     │  none
-    incident note   a sensor-flood report     │  none
-    gap timing      a routine period          │  over a spell of unauthorised work
+does.
 
 *Last updated: 13 July 2026*

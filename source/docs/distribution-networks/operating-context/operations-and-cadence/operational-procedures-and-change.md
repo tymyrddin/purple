@@ -125,9 +125,9 @@ planned-maintenance guidance), which ties back to the compensation regime that e
 
 ### Contractor access
 
-Contractor access is the most documented part of the appointment system: assessment and accreditation, recognised
-credentials, a key policy, an appointment register, metering-company access limits and heavy screening. Because that
-regime is contractor-specific, it is set out in full in [contractor management](contractor-management.md).
+[Contractor access](contractor-management.md) is the most documented part of the appointment system: assessment and
+accreditation, recognised credentials, a key policy, an appointment register, metering-company access limits and heavy
+screening.
 
 ### Emergency restoration
 

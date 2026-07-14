@@ -152,28 +152,27 @@ attacker with months of preparation might execute it in theory.
     THEORY: The cascade attack
     ─────────────────────────────────────────
 
-    1. Disable relay protection          2. Fault occurs                3. Cascade spreads
-       in Feeder A
-                                             ┌── Feeder A
-       SIPROTEC 5: trip threshold    Fault ──┤   (unprotected)
-       set to 5000A (disabled)           │   │    → current spreads
-                                         │   │    → voltage drops
-       Network model corrupted               │    → affects Feeder B
-                                             └─→ Feeder B fault
-                                                  SIPROTEC 5 trips
-                                                  (still working)
-                                                  but load shifting
-                                                  overloads Feeder C
-                                                  
-                                                  Cascades across multiple
-                                                  zones before containment
+    1. Disable a feeder relay        2. A fault occurs on Feeder A
+
+       Raise its pickup beyond          The Feeder A relay stays idle, so the
+       any real fault, or corrupt       fault is not cleared locally.
+       the network model.
+
+    3. Backup protection still clears it, late
+
+       The upstream incomer relay picks the fault up and clears it after its
+       grading delay, so clearance is late rather than absent. While the
+       fault burns, load transfers onto Feeder B, and if Feeder B was already
+       near its limit the shift can push it into overload and trip its own
+       relay. A single disabled relay slows clearance and stresses its
+       neighbours; it does not leave a fault burning unattended.
 
 
     PRACTICE: Three hard constraints block it
     ──────────────────────────────────────────
 
     Constraint 1: NOT INTERNET-FACING
-    • Field devices on IEC 60870-5-104 (closed protocol)
+    • Field devices on IEC 60870-5-104 (specialised telecontrol, not internet-facing)
     • Access requires: supply-chain OR network segment compromise OR physical access
     • Multiple lock layers to reach a single relay
 
