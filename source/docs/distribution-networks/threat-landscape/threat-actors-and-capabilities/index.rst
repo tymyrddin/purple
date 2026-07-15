@@ -13,7 +13,7 @@ act as legitimate maintenance.
 
    threat-actors
 
-The recurring conclusion is that capability on paper is not capability in practice. The elegant coordinated cascade,
+A recurring conclusion is that capability on paper is not capability in practice. The elegant coordinated cascade,
 disable protection, corrupt the model, drive devices into unsafe states, runs into three hard constraints: the
 operational layer is not internet-facing, so reaching it needs supply-chain, network or physical access; it is
 instrumented for forensics, so legitimate-interface use is logged while bypassing the interface needs physical or

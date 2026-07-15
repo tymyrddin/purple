@@ -116,8 +116,8 @@ serious malfunction.
     the signature of compromise or serious malfunction. The records differ in how
     far they sit from an attacker's reach: the SCADA journal is tool-mediated and
     editable, the RTU and relay logs sit on separate devices and network segments,
-    the physical measurement is outside every system. The more independent records
-    a false claim has to stay coherent across, the larger the footprint forging it
-    leaves.
+    the physical measurement is outside every system. A lie told only in the
+    editable journal is cheap; one that also has to bend the RTU, the relay and
+    the physical state leaves a far larger footprint.
 
 *Last updated: 13 July 2026*

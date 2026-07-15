@@ -3,8 +3,8 @@ System composition
 
 .. image:: /_static/images/distribution-system-composition.png
 
-The stack splits cleanly into a confident half and an operational-technology heart. The confident half is well
-attested from procurement, careers pages and adverts: an SAP core on Azure for enterprise and market, GE Smallworld
+The stack splits cleanly into a confident half and an operational-technology heart. The confident half comes
+straight from procurement, careers pages and adverts: an SAP core on Azure for enterprise and market, GE Smallworld
 with Lovion and IBM Maximo for the network model and asset register, and a Landis+Gyr, Iskraemeco, Kaifa and Sagemcom
 metering base over Utility Connect's CDMA network. The heart took longer to pin but now resolves: Alstom's e-terra
 runs SCADA, EMS and DMS, now under GE Vernova, with e-terracontrol's own SQL Server historian. What stays open is

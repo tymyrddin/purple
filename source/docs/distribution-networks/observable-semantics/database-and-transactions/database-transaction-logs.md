@@ -34,7 +34,7 @@ order naming an asset the [access and key logs](../access-and-authorisation/acce
 one attending describes a job whose worker was never on site.
 
 The cross-check reaches what the work changed. A work order that authorises a relay setting change leaves the relay
-carrying the new setting and nothing more. If the asset record shows the overcurrent threshold moved from 1200A to 1500A
+carrying the new setting and nothing more. If the asset record shows the overcurrent threshold moved from 1200A to 1600A
 but the [relay's own settings](../field-devices-and-protection/protection-relay-state.md), read back online, still hold
 1200A, the database and the device disagree, and one was changed without the other. From the database side that
 divergence is a transaction in the asset log with no answering change on the relay, or a relay changed with no

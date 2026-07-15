@@ -1,8 +1,7 @@
 # Communications evidence
 
-The portrait's distribution network communicates via IEC 60870-5-104 telecontrol between the e-terra SCADA and field 
-RTUs, and via CDMA machine-to-machine on Utility Connect's network for smart-meter collection. Network traffic, 
-protocol captures, and timing anomalies form the observable layer for communications security.
+The portrait's distribution network communicates via IEC 60870-5-104 telecontrol between the e-terra SCADA and field
+RTUs, and via CDMA machine-to-machine on Utility Connect's network for smart-meter collection.
 
 ## IEC 60870-5-104 protocol structure
 

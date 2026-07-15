@@ -1,6 +1,6 @@
 # Evidentiary capability
 
-Under NIS2, an operator of an essential service files an early warning within twenty-four hours of becoming
+Under NIS2, an essential entity files an early warning within twenty-four hours of becoming
 aware of a significant incident. Article 23(4)(a) asks that the warning indicate whether the incident is
 suspected to be caused by an unlawful or malicious act. The bar is suspicion, not proof, and "unknown" is a
 permitted answer; the fuller account follows in the seventy-two hour notification and the final report. The

@@ -9,28 +9,25 @@ makes incident reports possible in the first place.
 
 ## Vendor ecosystem
 
-The confident half of the picture is coherent: an SAP core on Azure for the enterprise and market side, GE Smallworld
-plus Lovion plus IBM Maximo for the network-model and asset side, and a Landis+Gyr, Iskraemeco, Kaifa and Sagemcom
-metering base talking over Utility Connect's CDMA network. The gaps left in the operational-technology heart are
-narrower: the ADMS if a distinct product exists, the protection-relay maker, and the OT-monitoring tool are the items
-public careers and press material does not name.
+The families divide into a firmly-pinned enterprise-and-metering half and a harder-won operational-technology heart,
+taken one at a time below.
 
 ### ERP
 
-Well attested, and the clearest of the set. The core is SAP, migrated to S/4HANA, with SAP Cloud for Customer (C4C) as
+The clearest of the set. The core is SAP, migrated to S/4HANA, with SAP Cloud for Customer (C4C) as
 the CRM, SAP Ariba and the SAP Business Network on procurement, and SAP BTP as the integration layer, all named on the [Stedin IT careers page](https://werkenbij.stedin.net/it-en-data), with further module detail on S/4HANA and C4C in Stedin adverts surfaced on a job aggregator. The IT team "Services & Markt" is named as the operator of the SAP
 estate. So the administrative and market-facing digital core is a fairly pure SAP stack.
 
 ### Cloud providers
 
-Well attested: Microsoft Azure. Stedin describes having migrated the greater part of its business applications to the
+The cloud is Microsoft Azure. Stedin describes having migrated the greater part of its business applications to the
 Azure Public Cloud, with a Solution Architect Cloud Transitie role and a hybrid Azure-plus-on-premises posture (Stedin job-board adverts), an emphasis consistent across its IT careers page and security vacancies. No evidence of AWS or
 Google as a primary platform surfaced. Security certifications sought are Azure-oriented, which reinforces a
 single-hyperscaler reading.
 
 ### GIS
 
-Well attested: GE Smallworld, paired with Lovion for network documentation and work management, feeding the asset
+GE Smallworld is paired with Lovion for network documentation and work management, feeding the asset
 register (found in a Stedin Smallworld GIS Developer advert on a technical job board). The product family is the
 utility-standard [GE Vernova Smallworld](https://www.gevernova.com/software/products/geospatial-network-management-smallworld-gis)
 geospatial network model. The same advert notes an API-first, loosely-coupled target architecture and, usefully, an
@@ -38,14 +35,14 @@ integration from Smallworld into the SCADA system, which places GIS as the as-bu
 
 ### Asset management platforms
 
-Well attested: IBM Maximo, set up and optimised with an implementation partner, running the maintenance chain and moving
+IBM Maximo, set up and optimised with an implementation partner, runs the maintenance chain and moves
 toward risk-based maintenance with condition dashboards (from the implementation partner's case study). This sits under
 the Asset Management owner function, with Smallworld and Lovion as the register side and Maximo as the
 maintenance-execution side.
 
 ### Smart meter suppliers
 
-Well attested and the richest procurement trail. Historically Landis+Gyr and the Flonidan and Iskraemeco consortium won
+The fullest procurement trail of the set. Historically Landis+Gyr and the Flonidan and Iskraemeco consortium won
 a joint tender across Liander, Stedin, DELTA and Westland (around three million meters, with options to extend; trade-press reports, perishable),
 and Stedin's installed base visibly includes Landis+Gyr units (model manuals on stedin.net) and Kaifa, including a
 Stedin CDMA electricity-meter lot awarded to Shenzhen Kaifa (a tender aggregator, perishable).
@@ -73,7 +70,7 @@ pinned.
 
 ### SCADA, EMS and DMS
 
-Well attested: Alstom Grid's e-terra platform (now part of GE Vernova following GE's 2015 acquisition of Alstom Grid).
+The OT heart resolves to Alstom Grid's e-terra platform (now part of GE Vernova following GE's 2015 acquisition of Alstom Grid).
 
 The primary record is Alstom Grid's own 2012 announcement that it was selected to upgrade Stedin's distribution management system to the e-terra distribution solution, noting in passing that Alstom had also provided Stedin's existing SCADA and Energy Management System, so all three control-room layers are the same e-terra family ([Alstom Grid press release, 2012](https://www.alstom.com/press-releases-news/2012/3/alstom-grid-selected-to-upgrade-distribution-management-system-for-stedin-in-the-netherlands)).
 

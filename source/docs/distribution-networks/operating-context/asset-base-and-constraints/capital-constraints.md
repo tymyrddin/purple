@@ -42,7 +42,7 @@ The cadence itself is a constraint. Allowed income and the WACC are set for five
 
 The 2027-2031 round ran through eight sounding-board sessions, a draft decision in September 2025, submissions in October, and a sector-wide [agreement on the new method](https://www.acm.nl/nl/publicaties/netgebruikers-netbeheerders-en-acm-ondertekenen-akkoord-over-nieuwe-reguleringsmethode) in which the parties committed not to litigate except on the depreciation of historical book value, with the [method decision detail](https://www.acm.nl/system/files/documents/methodebesluit-dsb-e-2027-2031.pdf) spelling out the parameters.
 
-The cycle also lags reality: the ACM had to partly adjust the 2022-2027 regime mid-period to give electricity operators more room to finance investment, and an earlier appeal court ruling forced a reopening of the 2022-2026 decisions. Approval is thus periodic and litigable, not continuous.
+The cycle also lags reality: the ACM had to partly adjust the 2022-2026 regime mid-period to give electricity operators more room to finance investment, and an earlier appeal court ruling forced a reopening of the 2022-2026 decisions. Approval is thus periodic and litigable, not continuous.
 
 ## Imperfect solutions stay in service
 
@@ -52,6 +52,6 @@ So an asset that still functions, even if it is technically past its ideal repla
 
 This is also why the capital-avoidance toolkit recurs across Stedin's planning. Flexibility, congestion management, non-firm connection and transport agreements, and peak-shaving are all ways to defer a physical reinforcement, which is to say ways to keep an under-capacity but functional network in service rather than fund the reinforcement now. The brownfield, wrap-don't-replace architecture and the risk-based maintenance that runs assets to a condition threshold are the same logic on the technical side: both extend the service life of the imperfect installed base because the capital and the recovery timing do not support wholesale renewal.
 
-The independent variable is the regulated capital envelope and its cycle; the persistence of good-enough legacy solutions is the dependent one. A technical review would read those as engineering compromises; the capital constraints show them as the only choices the financing permits.
+On their own these read as a run of engineering compromises. Set against the regulated capital envelope, they are the only moves the financing leaves open, the income cycle doing the choosing and the tired-but-serviceable network the shape that choice takes.
 
 *Last updated: 11 July 2026*

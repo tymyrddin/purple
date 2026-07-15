@@ -2,8 +2,7 @@
 
 Physical access to substations and network equipment is controlled through key management (traditional keys for
 physical locks) and electronic access (badge systems, electronic locks). Authentication and authorisation for logical
-access (SCADA, engineering tools) is managed through user credentials and role-based access control. The audit trails
-from both physical and logical access form observable evidence of who accessed what and when.
+access (SCADA, engineering tools) is managed through user credentials and role-based access control.
 
 ## Physical key issuance and return logs
 

@@ -1,6 +1,8 @@
 Observable semantics
 ============================================
 
+.. image:: /_static/images/distribution-evidence-synthesis.png
+
 What evidence exists in a distribution network, and what it means. Not the internal state of the SCADA system or the
 power flowing through copper, but the observable layer: logs, alerts, configuration changes, metre data, network
 traffic, engineering records, equipment state transitions, and the patterns that indicate normal operation.
@@ -21,9 +23,6 @@ a complex infrastructure be modelled without owning a substation in the back gar
    network-and-time/index
    database-and-transactions/index
    gas-network-evidence/index
-
-Two pages read across the classes rather than down one: a synthesis of what they share, and the property they all
-assume.
 
 .. toctree::
    :maxdepth: 1

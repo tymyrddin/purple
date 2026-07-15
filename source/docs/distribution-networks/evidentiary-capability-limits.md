@@ -10,8 +10,7 @@ priors and the enumerated explanation set, show up as a caveat, an open question
 
 The design inherits the substrate framing whole: it reproduces the evidence an estate emits, not the electrical
 behaviour behind it. It never computes a fault current or a load flow, and the band where the physical dynamics
-themselves are the evidence sits outside it, as [feasibility](feasibility.md) and
-[simulation-substrate](simulation-substrate.md) set out. Questions that need hardware-in-the-loop stay out of scope.
+themselves are the evidence sits outside it. Questions that need hardware-in-the-loop stay out of scope.
 
 ### Not detection, not the wire
 
@@ -34,7 +33,7 @@ can be as sensitive as the operator chooses, which is a reason to keep the compu
 
 ### Relative to an enumerated set
 
-Every verdict, the structural layer included, is relative to the explanations enumerated for a class of incident. It
+Every verdict, the four gates included, is relative to the explanations enumerated for a class of incident. It
 answers "can these explanations be told apart at this estate", not "is there any conceivable account this record could
 not distinguish". An explanation left off the list cannot be weighed, and the design does not discover the explanations
 for you. This is the boundary most easily forgotten, and the open questions and risks below both return to it.
@@ -46,11 +45,11 @@ mislead even when it works.
 
 ### Eliciting the priors
 
-The entropy-weighted layer of the [identifiability computation](evidentiary-capability-core-design.md) needs base rates:
+The base-rate weighting the [design](evidentiary-capability-design.md) keeps outside the four gates needs base rates:
 how often clocks drift, work orders get backdated, logins get shared, relays get left in test mode. Those numbers are
 not fixed by operating context and vary by estate. Whether they can be elicited from operators honestly and cheaply,
-estimated from a period of a site's own logs, or whether the design has to stay on the structural layer that needs no
-priors, is open, and the answer sets how far the weighted layer can ever be trusted.
+estimated from a period of a site's own logs, or whether the design has to stay on the four gates alone, which need no
+priors, is open, and the answer sets how far any weighting can ever be trusted.
 
 ### Validation against real incidents
 
@@ -83,12 +82,12 @@ catalogue is itself unfinished work.
 
 These are the ways the direction could mislead when it runs exactly as designed, the honest counterweight to the claim.
 
-### The weighted verdict rests on un-elicited priors
+### The weighting rests on un-elicited priors
 
 Presented as a number, a strength-of-evidence carries an authority the underlying estimate cannot support, and a
-confident-looking weighting built on a guessed prior is worse than an honest "unknown". The structural layer, the set
-intersection that needs no priors, is the defensible core; the weighted layer is best read as indicative, and the design
-is better off wearing that distinction on its face than blurring the two into one score.
+confident-looking weighting built on a guessed prior is worse than an honest "unknown". The four gates, which need no
+priors, are the defensible core; the base-rate weighting on top is best read as indicative, and the design is better off
+wearing that distinction on its face than blurring the two into one score.
 
 ### Self-reported entropy skews optimistic
 
@@ -127,9 +126,10 @@ In training mode the tool's own evidence is synthetic, so it inherits the distru
 record: if the generator leaves a tell no benign week would, analysts learn to spot the synthesis rather than reason
 about the incident, and nothing transfers to a real determination. The coherence critic and calibration against real
 traces are the intended defences, and the adversarial discriminator above is the way to stop them being a matter of
-faith. The audit tool's own version of the problem, a retained artefact an attacker could have forged, is handled by the
-[forgeable-evidence grade](evidentiary-capability-core-design.md) rather than hidden, and that grade is only as good as
-the configuration's account of which records lie beyond which actor's reach.
+faith. The audit half's own version of the problem, a retained artefact an attacker could have forged, is handled by the
+[independence gate](evidentiary-capability-design.md), which reads the verdict against the suspect who could have written
+the record rather than counting it blind, and is only as good as the configuration's account of which records lie beyond
+which actor's reach.
 
 ### The novelty can be overstated
 

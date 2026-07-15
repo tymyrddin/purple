@@ -1,6 +1,6 @@
 # Operational priorities
 
-The annual reports and investment plans, read as hypotheses about where pressure sits, mark out the operational priorities.
+The annual reports and investment plans, read for where the pressure sits, mark out the operational priorities.
 Stedin's own [2024 annual report](https://www.stedingroep.nl/-/media/project/groep/files/stedin-groep-jaarverslag-2024.pdf) organises everything under two strategic
 priorities, Netcapaciteit (building and using) and Netkwaliteit (managing), which is itself the tell: the whole document
 is a balancing act between expanding fast enough and keeping the existing network reliable. Eight themes show where that
@@ -15,8 +15,8 @@ a capacity one (this specific point comes from SodM material rather than the ann
 
 On electricity, the reliability chapter in the [2023 report](https://www.stedingroep.nl/-/media/project/groep/files/stedin-groep-jaarverslag-2023.pdf) attributes a large share of faults to internal defects in cables and joints where no cause could be traced, which is the classic ageing-population fault mode.
 
-Hypothesis: replacement demand competes for the same crews and budget
-as expansion, and the gas replacement obligation is non-deferrable in a way expansion is not.
+So replacement demand looks to compete for the same crews and budget
+as expansion, with the gas replacement obligation non-deferrable in a way expansion is not.
 
 ## Congestion
 
@@ -28,8 +28,8 @@ The Rotterdam
 port area is cited as having reached by 2022 the growth that had been projected for the whole 2020-2030 decade (
 investment plan).
 
-Hypothesis: congestion is not a future risk but a present constraint that is already shaping which
-customers can connect, and it concentrates geographically in the industrial and port zones.
+Which suggests congestion is not a future risk but a present constraint, already shaping which
+customers can connect, and concentrated geographically in the industrial and port zones.
 
 ## Electrification
 
@@ -40,7 +40,7 @@ per cent all feed the same demand curve (investment plan; 2024 report).
 The report goes as far as trading one against the other, noting that for each charge point switched off in the evening peak,
 one extra new-build home could be connected.
 
-Hypothesis: the pressure is disproportionately in the low-voltage layer and
+The pressure, then, sits disproportionately in the low-voltage layer and
 in peak coincidence, not just in total volume, which is where flexibility measures are being reached for.
 
 ## Labour shortages
@@ -53,7 +53,7 @@ The investment plan names a shortage of
 technical personnel, together with long permit lead times and lack of space to build, as a cause of the gap between what
 has to be realised and what can be.
 
-Hypothesis: labour is a binding constraint on execution, so throwing capital at the
+Labour reads as a binding constraint on execution, so throwing capital at the
 problem does not straightforwardly convert into delivered capacity.
 
 ## Capacity expansion
@@ -66,7 +66,7 @@ plan describes a "maakbaarheidsgat", a buildability gap, estimating that around 
 portfolio, roughly a billion euro, cannot be realised in time, and points to collective vehicles such as the Landelijk
 Actieprogramma Netcongestie as the coordination mechanism.
 
-Hypothesis: expansion ambition now exceeds delivery capacity,
+Expansion ambition now appears to exceed delivery capacity,
 so the operative constraint has moved from money to permits, space, materials and people.
 
 ## Reliability metrics
@@ -76,7 +76,7 @@ about 19 minutes in 2021, 22 in 2022 and 20 in 2023, against a target in the reg
 is in the
 annual [Netbeheer Nederland reliability report](https://www.netbeheernederland.nl/sites/default/files/2025-04/03.02._betrouwbaarheid_van_elektriciteitsnetten_in_nederland_-_resultaten_2024.pdf).
 
-Hypothesis: reliability has drifted slightly above target while the network is under expansion strain, and single large
+Reliability seems to have drifted slightly above target while the network is under expansion strain, and single large
 incidents move the annual figure by whole minutes, so a small number of complex faults dominate the metric.
 
 ## Regulatory targets
@@ -86,7 +86,7 @@ quality incentive to that reliability figure. The N-1 reliability norm on the ne
 sustainability reporting from the 2024 report onward, and the CO2-reduction targets aligned to the European Green
 Deal (2024 report).
 
-Hypothesis: the operator is being pulled by targets that
+The operator looks pulled by targets that
 do not fully align, since the reliability and cost-efficiency incentives push toward conservative management of the
 existing network while the transition targets push toward maximum build, and the same constrained crews serve both.
 
@@ -101,7 +101,7 @@ The priority ordering in the plans runs: keep the existing
 network reliable first, absorb autonomous growth to prevent bottlenecks, then the publicly-steered expansion under
 provincial energy plans.
 
-Hypothesis: the balance-sheet constraint that dominated before 2023 has eased, which pushes the
+The balance-sheet constraint that dominated before 2023 has eased, which pushes the
 binding constraint firmly onto the physical and human delivery side rather than the financial one.
 
 Taken together, the pattern is that Stedin's pressure has migrated from capital to execution: money is now available, 

@@ -14,9 +14,9 @@ Change runs on a nested cadence, daily control-centre operations, weekly contrac
 annual investment and multi-year regulatory cycles, multi-decade masterplans, with the outer clock set by the
 five-yearly ACM method decision and the two-yearly investment plan. Contractors do much of the hands-on build and
 maintenance under long-term framework contracts, so they create the bulk of the operational evidence and concentrate
-access across several systems. The consequence that runs through the group is that legitimate work leaves the same
-traces an intrusion would; what separates them is not the trace but whether the activity was authorised and matches
-the documented scope.
+access across several systems. The consequence that runs through the group is that the operational record turns on authorisation and scope: the
+routine and the malicious leave much the same traces, so what the evidence settles is not whether something changed but
+whether it was allowed to.
 
 .. toctree::
    :maxdepth: 1

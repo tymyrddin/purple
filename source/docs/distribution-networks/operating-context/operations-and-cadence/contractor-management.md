@@ -2,7 +2,7 @@
 
 Contractors do a large share of the operational work: field maintenance, cable laying, substation construction, relay commissioning, metering installation, and emergency restoration. They are effectively an extension of the workforce, and much of the operational evidence is created through their hands.
 
-At the end of 2023, Stedin Netbeheer employed 5,471 people directly, 4,465 internal staff and 1,006 external (contracted) workers, so roughly 18 per cent of the workforce was hired-in (2023 group annual report, via a council-hosted copy). Beyond this, contractors perform the physical build and maintenance work under framework contracts, which shapes what operational evidence exists and how work gets authorised and tracked.
+At the end of 2023, Stedin Netbeheer staffed 5,471 people, 4,465 internal and 1,006 external (contracted), so roughly 18 per cent of the workforce was hired-in (2023 group annual report, via a council-hosted copy). Beyond this, contractors perform the physical build and maintenance work under framework contracts, which shapes what operational evidence exists and how work gets authorised and tracked.
 
 ## Framework contracts and area-based assignment
 
@@ -42,37 +42,30 @@ Maintenance records create an operational audit trail: what work was authorised,
 
 ## Evidence trails contractors create
 
-Contractors create multiple types of operational evidence through their work:
-
-- Connection logs. When a contractor connects an engineering laptop to a relay or RTU to commission or test it, that connection is logged by the device (if it has audit capabilities) or by the network (if network monitoring is in place). The log shows who connected, when, and what was accessed.
-
-- Settings changes. When a contractor uploads relay settings through DIGSI or AcSELerator, the engineering tool logs the connection, the user who made the change, the settings that were written, and the timestamp. If the relay also logs settings changes, there are two independent records of the same event.
-
-- Test records. Commissioning and maintenance testing of relays, RTUs, and protection systems generates test reports. Omicron CMC relay test reports, for example, document the settings used for testing, the test results, pass/fail status, and the test technician's identification. These records are kept on the engineering workstation and in Maximo.
-
-- Work orders and sign-offs. Every maintenance activity generates a work order with authorisation, scope, contractor identification, and completion documentation. These are stored in Maximo with audit trails showing who created, modified, and completed the work order.
-
-- Badge access and physical logs. Contractors with site access may be logged through physical access systems (badge readers at substations or offices). These logs show who was on site, when, and for how long.
-
-- Network access logs. Contractors connecting to engineering workstations or accessing the systems leave traces in network and system logs: login attempts, successful connections, file access, tool usage.
-
-- Switching logs. Contractors performing switching operations (opening or closing switchpoints) under the bedieningsplan create entries in the switching log, documented in the Bedrijfsvoering application.
+A contractor's work touches most of the estate's evidence at once. Connecting an engineering laptop to a relay leaves a
+connection log on the device and in the network record; a settings upload through DIGSI or AcSELerator logs the user,
+the values written and the time, doubled by the relay's own log; commissioning generates Omicron test reports; every job
+carries a Maximo work order with its authorisation and sign-off; site visits leave badge-reader and switching-log
+entries in Bedrijfsvoering. The breadth is the point. One contractor's shift can write to the workstation logs, the
+relay, Maximo, the badge system and the switching log together, so their actions are both heavily evidenced and, to an
+impersonator, a rich thing to hide behind.
 
 ## A distributed, mobile workforce
 
-Because contractors do so much of the field work, a large portion of the operational evidence is created by people who are not employees. Their access is managed through credentials and appointments recorded in the operator's systems, but they work under contract and rotation. A contractor working on relays here might work for three different utilities in a given week, a workforce that is distributed, mobile, and often more specialised in specific technical areas than the operator's own staff. The workforce and training side of that dependence, the fitter shortage and the certification pipeline, sits in [staffing realities](../staffing-and-capability/staffing-realities.md).
+Because contractors do so much of the field work, a large portion of the operational evidence is created by people who are not employees. Their access is managed through credentials and appointments recorded in the operator's systems, but they work under contract and rotation. A contractor working on relays here might work for three different utilities in a given week, a workforce that is distributed, mobile, and often more specialised in specific technical areas than the operator's own staff.
 
 ## The contractor evidence question
 
-Contractors explain many forms of operational evidence that would otherwise read as anomalous:
+Much of what would otherwise read as anomalous is just contractor work. An engineering workstation reaching a relay at
+02:00 is usually emergency maintenance under the fault-duty rota; a settings file on a laptop that differs from the relay
+is more often one prepared for testing before upload; test records with no work order behind them are the mark of
+informal commissioning checks; a work order whose completion date trails the relay's settings timestamp most likely means
+the job was done one day and logged in Maximo the next. Each is a legitimate trail that can pass for compromise at a glance. What
+separates the two is the ordinary triple: whether the work was authorised, whether it matches the scope in the work
+plan, and whether the completion record matches what actually changed.
 
-- Why was an engineering workstation connected to a relay at 02:00? Usually a contractor performing emergency maintenance or commissioning work under the fault-duty rota.
-- Why do settings files exist on an engineering workstation that differ from what is on the relay? Probably a contractor prepared a new settings file for testing before uploading it.
-- Why are there test records for a relay that do not correspond to any work order? Often informal testing during commissioning or troubleshooting.
-- Why does a work order show a different completion date than the settings timestamp in the relay? Most likely the contractor finished the work on one day but logged it in Maximo on another.
+That resemblance is also what makes contractor access a high-value target. A contractor holds legitimate access to
+several systems, can account for connections and changes, and works under looser supervision than internal staff, so an
+attacker wearing a contractor's credentials moves in a way the logs read as routine.
 
-Contractors create legitimate evidence trails that can superficially resemble compromise. What separates legitimate contractor work from unauthorised access or modification is whether the work was authorised, whether it matches the scope documented in the work plan, and whether the completion records match what actually changed.
-
-It also makes contractor access a high-value target: a contractor has legitimate access to multiple systems, can justify connections and changes, and works under less direct supervision than internal staff. An attacker who impersonates a contractor or compromises a contractor's credentials gains access that reads as legitimate to the logs and audit systems.
-
-*Last updated: 12 July 2026*
+*Last updated: 14 July 2026*

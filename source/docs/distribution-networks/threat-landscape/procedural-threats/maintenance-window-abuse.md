@@ -139,12 +139,12 @@ the maintenance team could include unauthorised changes in the authorised work.
 
 For instance, a maintenance activity might authorise changing a relay's time delay from 100 milliseconds to
 150 milliseconds. The work plan documents this change. During the maintenance, an insider could make that change, but
-could also change the relay's threshold from 1200A to 1500A. The threshold change is unauthorised and is not documented,
+could also change the relay's threshold from 1200A to 1600A. The threshold change is unauthorised and is not documented,
 but if the relay settings comparison is done after the maintenance without detailed record-keeping of what changed,
 the two changes (the authorised and the unauthorised) might go unnoticed together.
 
 More subtly, an insider might document the authorised change correctly but make a different change than documented. The
-work plan says "change threshold to 1200A" but the insider actually changes it to 1500A. The maintenance paperwork
+work plan says "change threshold to 1200A" but the insider actually changes it to 1600A. The maintenance paperwork
 shows the correct change was made (the insider signs the work-order completion in Maximo), but the actual relay has the
 wrong setting.
 

@@ -15,10 +15,11 @@ measured electrical quantities exceed configured thresholds. An overcurrent rela
 threshold, an over-voltage relay trips when voltage exceeds the threshold, a frequency relay trips when frequency
 deviates beyond the threshold. These thresholds are the front line of protection against faults in the network.
 
-An attacker modifying relay thresholds disables protection. Increasing an overcurrent threshold (1200A to 1500A) allows
-larger fault currents without a trip. The fault would then propagate deeper into the network, affecting more equipment
-and more customers. In cascading-fault scenarios, downstream equipment fails after prolonged stress and significant
-degradation.
+An attacker modifying relay thresholds degrades protection. Raising the instantaneous overcurrent threshold (1200A to
+1600A) stops the relay clearing a heavy fault at once; the slower time-overcurrent element still trips, but only after
+its grading delay, so the fault burns longer and the faulted plant takes more thermal stress before it clears. The local
+relay still clears the fault, just late. Only when a whole element is defeated, its pickup lifted beyond any real fault,
+does clearance fall to a slower upstream backup and the outage spread wider.
 
     OVERCURRENT RELAY PROTECTION LOGIC: Attack Surface
     ──────────────────────────────────────────────────
@@ -75,9 +76,9 @@ degradation.
     After the attacker raises the 50 threshold to 1600A (or lengthens the
     delay):
       A 1500A fault no longer gets the instantaneous trip; it waits out the
-      slower time-overcurrent delay instead. Clearance is late, the faulted
-      plant heats for longer, and the grading with upstream relays breaks,
-      so a fault meant to clear locally can reach further in.
+      slower time-overcurrent delay instead. Clearance is late and the faulted
+      plant heats for longer, though the local 51 still clears it ahead of any
+      upstream backup, so grading holds and the fault stays local.
 
 
     INTERCONNECTED CONSTRAINT: What the attacker cannot hide
@@ -91,7 +92,7 @@ degradation.
     Attacker's only solution: Corrupt BOTH
       1. Modify relay settings in field
       2. Update baseline in engineering tool database
-      3. Both must match for "online-vs-offline" check to pass
+      3. Both have to match for "online-vs-offline" check to pass
 
     Evidence emerges if:
       • Baseline not recently checked (audit gap)
@@ -115,10 +116,9 @@ network where many protection zones overlap (where multiple relays could potenti
 relay's pickup in one zone might cause that zone's relay to not respond, leaving protection to a less-sensitive relay
 elsewhere. This can change the effective protection strategy of the network.
 
-Pickup setting changes are often less obvious than threshold changes because they interact with the network's load
-current. A relay's pickup sits above the normal maximum load current, or it would trip constantly. An attacker
-who increases the pickup to just above the known maximum load would appear to be setting it reasonably, but would
-actually be creating a narrow margin that could be exceeded during high-load conditions.
+What makes a pickup change hard to catch is that it interacts with load. A relay's pickup has to sit above the normal
+maximum load, or it would trip on load alone, so nudging it upward reads as a routine margin adjustment against rising
+demand rather than as tampering, even as it widens the band of real faults the relay will now sit through.
 
 ## Protection function disabling
 

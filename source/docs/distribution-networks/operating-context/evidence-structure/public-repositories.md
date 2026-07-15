@@ -26,6 +26,6 @@ A sister Dutch DSO has open-sourced its own field-device integration layer. Alli
 
 These repositories are the test corpus against which a config or project parser is developed. The sample SCDs from the open IED project, the ICDs bundled with libiec61850, the SCDs in rapid61850, and OpenPLC on the controller side provide ground truth for the substation-configuration layer. Each file allows a parser to be developed and validated against real structure before it meets a live deployment.
 
-The repo exposes the form, schema and vocabulary, the material substrate of configuration, held separately from any one operator's content. What Stedin specifically ticked, enabled and retained stays in its own private configuration; everything around it, from the standard down to the example file, is legible in public.
+The repo exposes the form, schema and vocabulary, the material substrate of configuration, held separately from any one operator's content.
 
 *Last updated: 11 July 2026*

@@ -45,7 +45,7 @@ corrects them. The historian's audit log shows a cluster of edit entries, each o
 values, all made at the same time by the same user, with an annotation ("Sensor malfunction correction"). The corrected
 values are set to the last known good value or interpolated from surrounding correct values.
 
-Unauthorised editing is distinguished by its pattern. A single measurement value is changed from 240V to 280V without a
+Unauthorised editing is distinguished by its pattern. A single measurement value is changed from 230V to 280V without a
 detectable reason, and no corresponding sensor malfunction or correction note exists. Multiple values spread across
 different time periods are changed consistently (all overload alarms are reduced by 10 per cent, or all voltage dips are
 smoothed out). Edits are made at odd hours with no corresponding work order. Values are deleted rather than corrected (
@@ -61,7 +61,7 @@ The archive logs edits to stored values: the editing user, the timestamp, the ol
 documented work order. An edited value with no corresponding audit entry, or an audit trail that has itself been
 truncated, is the on-system signature of tampering. Edit timestamps carry their own tell: a cluster of edits at the same instant to the millisecond, or edits made when the historian would not normally be written to, reads as automated tampering rather than an operator's hand-correction. The stronger check is external. A stored value that no longer
 agrees with the relay's COMTRADE capture or the RTU's own log has been changed, whatever the audit trail says. If the
-archive shows a smooth, constant voltage (240V with no variation for an entire day) while the relay and RTU records for
+archive shows a smooth, constant voltage (230V with no variation for an entire day) while the relay and RTU records for
 the same feeder show the ordinary variation of a live network, the archived history has been overwritten with synthetic
 data.
 
@@ -91,22 +91,13 @@ more trustworthy source.
 A time-series of real measurements is noisy. Voltage varies by a few volts second to second due to load fluctuations and
 reactive power. Current varies with customer load changes. Frequency drifts by fractions of a Hz as the grid is
 stressed. Real data has natural variation; synthetic data or smoothed data often does not. If a historian query returns
-a time series that is suspiciously smooth (voltage at exactly 240.00V for hours with no variation, or current showing a
+a time series that is suspiciously smooth (voltage at exactly 230.00V for hours with no variation, or current showing a
 perfectly linear increase with no noise), that pattern indicates the data may be synthetic or heavily filtered.
 
-A legitimate data-smoothing scenario occurs when an operator notices a sensor failure (a sensor reporting implausible
-values) and manually corrects the time-series by replacing the bad values with synthetic estimates. If a
-current sensor fails and reports zero current for an hour when actual current is nonzero, an operator might replace the
-bad data with interpolated values based on surrounding correct data. This correction is documented: the audit log
-shows a cluster of edits at the same time with an annotation indicating sensor correction.
-
-An illegitimate scenario occurs when the historian is edited to hide evidence. If a fault condition existed
-that the historian originally recorded, but the historian is later edited to remove or smooth out the evidence of the
-fault, the edited values would appear suspiciously smooth (all fault-related measurements replaced with constant
-baseline values, or a fault period replaced with an interpolated smooth transition). The difference between legitimate
-correction and illegitimate editing is context: a legitimate correction is rare, documented, and affects a small time
-range (seconds to minutes of bad data); an illegitimate edit affects larger time ranges (hours to days) and is
-not documented.
+Smoothness by itself does not settle it, because smoothing can be legitimate: an operator who finds a failed sensor may
+replace its bad values with interpolated estimates, documented in the audit log. What separates the two is where the
+smoothness sits. A fault the historian once recorded, later smoothed to a constant baseline, is synthetic calm laid over
+an event the relay's capture and the RTU's log still hold, and that disagreement is the tell.
 
 ## Event patterns and cascade analysis
 

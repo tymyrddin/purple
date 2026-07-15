@@ -24,7 +24,7 @@ not interrupted by alarms. After maintenance, the thresholds are restored to nor
 are documented in the maintenance work order. An alarm that is suppressed without documentation is suspicious.
 
 Alarm threshold changes are observable in SCADA configuration history. If a threshold has been changed (raised from
-1200A to 1500A, for instance), the change is visible in version comparisons. A recent change that corresponds to no
+1200A to 1600A, for instance), the change is visible in version comparisons. A recent change that corresponds to no
 documented work, such as a network upgrade that would require the higher threshold, is unauthorised.
 
 ## Alarm acknowledgement and operator response

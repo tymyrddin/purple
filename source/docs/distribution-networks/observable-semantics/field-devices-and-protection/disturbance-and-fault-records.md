@@ -1,9 +1,8 @@
 # Disturbance and fault records
 
-The protection relays (inferred as SIPROTEC 5 and SEL-451, not independently confirmed yet) record disturbance data: high-fidelity waveforms captured at the
-instant a protection event is detected. These recordings, stored in COMTRADE format (IEEE C37.111 / IEC 60255-24),
-are the highest-confidence forensic evidence available for understanding what the relay actually measured and why it
-operated.
+When a protection event fires, the relay (inferred as SIPROTEC 5 and SEL-451, not independently confirmed yet) captures
+a high-fidelity waveform of the instant it operated, stored in COMTRADE format (IEEE C37.111 / IEC 60255-24). It is
+close to a photograph of the fault: what the relay actually measured, and why it tripped.
 
 ## COMTRADE format and contents
 
@@ -40,8 +39,9 @@ the fault condition. After protection operates (after the relay's trip signal op
 toward normal (or to zero if the faulted section is fully isolated).
 
 A waveform that could not have come off real plant is the tell. A trace too clean to be true, perfect sine voltage and
-current with none of the noise a live network always carries, or one that breaks physics, current running backward,
-three-phase currents that fail to sum to zero, is either a sensor fault or a forgery.
+current with none of the noise a live network always carries, or one that breaks physics, a fault current that rises
+with no matching sag in voltage, or phase currents that cannot be reconciled with the measured residual, is either a
+sensor fault or a forgery.
 
 ## COMTRADE file integrity
 
@@ -55,22 +55,6 @@ That is difficult to do convincingly by hand. The stronger check is external: th
 independent measurements of the same event (the RTU's readings, the historian's stored values, a second relay's
 capture). A relay whose firmware has been modified to emit synthetic waveforms defeats any file-level check, because the
 false data is generated at source. Only physical-plausibility analysis and cross-source comparison catch that case.
-
-## Cross-checking COMTRADE against other measurement sources
-
-The power-system measurements in a COMTRADE file are consistent with other independent measurement sources when nothing
-has gone wrong. A SIPROTEC relay that recorded a COMTRADE showing an overcurrent fault at a location has, as its
-corroboration, the RTU at that location reading increased current at approximately the same time and the historian
-holding the same measurements. The three independent sources agree.
-
-If the COMTRADE shows a fault at 10:00:00.000 UTC with a measured current of 1500A, the RTU's log carries high current
-at approximately 10:00:00 UTC (clock drift stays small with NTP synchronisation) and the historian the same current at
-that time. The three sources align.
-
-A divergence is forensic evidence of tampering or malfunction. If the COMTRADE shows a fault at 10:00:00 UTC but the
-historian shows normal current at 10:00:00 UTC and high current at 10:05:00 UTC, either the COMTRADE's timestamp is
-wrong, or the historian's measurements are wrong, or one of the systems is falsifying data. The investigation would
-proceed by examining clocks, NTP synchronisation, and other evidence to determine which source is trustworthy.
 
 ## Relay event log and COMTRADE correlation
 
@@ -147,8 +131,7 @@ which: its integrity protection is thin, so a clean-looking record proves little
 waveform is set against the RTU's reading, the historian's stored values and a second relay's capture of the same event,
 and against the physics the event would have to obey; a forgery has to stay coherent across all of them, which is hard
 by hand. The case the cross-check cannot reach is a relay whose own firmware emits synthetic waveforms, since the false
-data is generated at source; there only physical-plausibility and the wider independent record remain, and a fault the
-relay claims but leaves no COMTRADE behind is the absence that gives it away.
+data is generated at source, and there only physical plausibility and the wider independent record remain.
 
 A COMTRADE is written only when a relay trips, so the record is sparse; a capture present with no fault, or missing where
 a trip claims one, stands against a quiet backdrop.

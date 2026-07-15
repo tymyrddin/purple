@@ -1,8 +1,8 @@
 # Reading across the record
 
-The rest of this section takes the evidence a class at a time: the SCADA journal, the relay's records, the historian,
-the meter, the gas station, the phone call. This page reads across them, because no single record settles anything, and
-it is worth stating once what the whole method rests on.
+No single record settles anything, so the evidence is read across the classes, the SCADA journal against the relay's
+records, the historian, the meter, the gas station, the phone call. What the whole reading rests on is worth setting
+down.
 
 ## Independence is what a record is worth
 
@@ -39,10 +39,11 @@ otherwise full.
 
 ## What the whole reading needs
 
-So the record tells malice from its legitimate twin only when several things hold at once: the records that agree are
-independent, not copies of one editable source; they are read against the class's own baseline; the signature is
-present, or its absence lines up with corroboration; and the evidence is [obtainable inside the
-clock](obtainability.md). Any one missing, and the honest answer is the one the law permits, unknown, reached not
-because nothing happened but because the record could not be made to say.
+So the record tells malice from its legitimate twin only when four things hold at once. The signature discriminates:
+read against the class's own baseline, its presence or absence actually separates the explanations rather than sitting
+inside the ordinary noise. The records that carry it are independent, not copies of one editable source. The signature is
+present, or its absence lines up with corroboration. And the evidence is [obtainable inside the clock](obtainability.md).
+Any one missing, and the honest answer is the one the law permits, unknown, reached not because nothing happened but
+because the record could not be made to say.
 
 *Last updated: 14 July 2026*

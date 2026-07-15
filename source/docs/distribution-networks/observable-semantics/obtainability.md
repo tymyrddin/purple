@@ -3,7 +3,7 @@
 A record that would tell a malicious change from its legitimate twin is worth nothing if it cannot be retrieved when the
 question is asked. Under NIS2 the operator has to say, inside a day, whether an incident is suspected malicious, so the
 evidence has to be not only discriminating but present and reachable inside that clock. Obtainability is that property,
-and it is the one most easily assumed: the other pages describe what a record would show and quietly take for granted
+and it is the one most easily assumed: it is easy to say what a record would show and quietly take for granted
 that someone can get it.
 
 ## Retention sets the floor

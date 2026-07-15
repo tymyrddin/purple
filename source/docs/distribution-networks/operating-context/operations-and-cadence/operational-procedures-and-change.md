@@ -24,8 +24,7 @@ that the cadence is rolling rather than fixed.
 ### Procurement schedules and framework contracts
 
 The defining cadence shift is from project-by-project procurement to long framework contracts with fixed partners, the
-LS Buurtaanpak framework signed in January 2026 and the earlier infracontracten from 2024. The contractor-side detail,
-the parties, the terms and the area-based assignment, is in [contractor management](contractor-management.md).
+LS Buurtaanpak framework signed in January 2026 and the earlier infracontracten from 2024.
 
 On materials, the metering side runs on multi-year frameworks (the smart-meter awards and the 2025 modular DSMR6
 tender). The procurement schedule is thus consolidating into fewer, longer commitments rather than recurring competitive

@@ -9,7 +9,7 @@ the reconciliation layer.
 
 ## Event log deletion
 
-The portrait's historian, e-terra's SQL Server historian, maintains time-series records of process values (voltages, 
+The portrait's historian, e-terracontrol's SQL Server historian, maintains time-series records of process values (voltages, 
 currents, frequencies, transformer temperatures) and system events (alarms, operator commands, device state changes). 
 These records are the forensic trace of what happened on the network. Incident investigation typically starts by 
 pulling event logs from the historian and examining the sequence of events preceding the failure. The historian's 

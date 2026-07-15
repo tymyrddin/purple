@@ -62,8 +62,8 @@ report.
 
 A telemetered station can go quiet for an innocent reason or a hostile one, and the gas net goes quiet often: battery
 and mobile links drop, and a coarse periodic archive looks like a gap even when nothing is wrong. What separates a dead
-modem from a silenced device is the company the silence keeps. A comms failure tends to take the neighbouring stations
-on the same link with it and to follow a normal last reading; a device switched off, of the kind the [Zoetermeer
+modem from a silenced device is the company the silence keeps. A comms failure usually takes the neighbouring stations
+on the same link with it and follows a normal last reading; a device switched off, of the kind the [Zoetermeer
 investigation](../../operating-context/operations-and-cadence/operational-procedures-and-change.md) found when workers
 disabled gas detection and pressed on, tends to fall silent alone, sometimes just after a reading worth not recording,
 and comes back only when someone re-enables it. The safety chain is the backstop the record cannot silence: whatever the

@@ -6,7 +6,7 @@ small number of hard replacement programmes running in parallel on safety ground
 
 ## Risk-based maintenance
 
-This is the explicit direction of travel and the best-attested part. Stedin describes moving away from the static
+This is the explicit direction of travel and the part the public record is clearest on. Stedin describes moving away from the static
 intervals a supplier specifies at handover toward dynamic maintenance driven by the condition of an asset and its risk
 of failure, on the reasoning that an installation exposed to sea air needs attention sooner than one in a sheltered
 setting, and that condition-and-risk targeting is more effective and efficient (from the implementation partner Gemba's

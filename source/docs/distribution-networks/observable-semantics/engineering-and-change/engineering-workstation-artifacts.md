@@ -1,9 +1,9 @@
 # Engineering workstation artefacts
 
-The engineering workstations (dedicated computers running DIGSI 5, AcSELerator QuickSet, SCADA tools, and GIS
-software) are the front-line interfaces for configuration and change. These workstations generate forensic artefacts:
-project files, connection logs, session histories, file metadata, and Windows event logs. The artefacts reveal who
-accessed what devices, when, and what changes were made.
+Every configuration change reaches a device through an engineering workstation, dedicated machines running DIGSI 5,
+AcSELerator QuickSet, the SCADA tools and GIS software. That is where the fullest account of a change lives: the project
+files, connection logs, session histories, file metadata and Windows event logs that between them show who reached which
+device, when, and what they altered.
 
 ## Project files and version control
 
@@ -24,7 +24,7 @@ version-control log shows that a critical relay project was never committed (cha
 control), those changes exist only in the working directory and are at risk of being lost or forgotten. If a project
 file is edited at 03:00 and deployed immediately without review, that stands out.
 
-The file timestamps on the engineering workstation are forensic evidence. When a project file is modified, its timestamp
+File timestamps carry their own record. When a project file is modified, its timestamp
 changes. If an investigator has access to the workstation (post-incident), they can examine file timestamps to see when
 projects were touched. A file with a recent modification date but no corresponding recent commits in version control is
 anomalous. A file with metadata indicating it was edited multiple times but version control shows only one commit is
@@ -48,7 +48,7 @@ connection that results in configuration changes (a settings write) without corr
 is particularly suspicious. Multiple connections from the same user to the same devices in rapid succession might
 indicate testing of unauthorised changes or systematic scanning of devices.
 
-The engineering workstation's user accounts are forensic evidence. If a shared workstation is used by multiple
+The workstation's user accounts tell their own story. If a shared workstation is used by multiple
 engineers, Windows event logs show who logged in, when, and what they did. If an unauthorised user (someone who is not
 on the authorised list of engineers) logged into the workstation, that is evidence of either a compromised account or
 physical unauthorised access. If an authorised engineer logged in at an unusual time and accessed tools they normally do
@@ -68,8 +68,8 @@ reversed), the file's metadata may have been manipulated.
 
 ## Engineering workstation file system
 
-An engineering workstation's file system is a rich source of forensic artefacts. Temporary files, cache files, backup
-copies, deleted files (recoverable from Slack space if the drive has not been wiped), and recent-files lists all provide
+The workstation's file system holds more than the tools do. Temporary files, cache files, backup
+copies, deleted files (recoverable from slack space if the drive has not been wiped), and recent-files lists all provide
 evidence of what activity occurred.
 
 Normal file-system activity shows project files in expected locations (a projects directory organised by customer or by
@@ -115,7 +115,7 @@ malicious activity.
 
 However, memory evidence is often unavailable in distributed networks. By the time an incident is detected and the
 workstation is acquired, the machine may have been shut down or rebooted (clearing memory), or the user may have deleted
-evidence. In most cases, the file-system and log evidence on the workstation are the primary forensic sources.
+evidence. In most cases, the file-system and log evidence on the workstation are what usually remains.
 
 ## The authorised connection and its double
 

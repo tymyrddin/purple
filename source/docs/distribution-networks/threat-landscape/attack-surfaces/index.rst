@@ -27,7 +27,6 @@ independent records.
    rtu-compromise
    protection-relay-manipulation
 
-The catch is that legitimate maintenance produces exactly the same logs, settings diffs and
-connection records. What is left as the standing exposure is time: the interval between baseline checks is the window in
+What is left as the standing exposure is time: the interval between baseline checks is the window in
 which a two-sided change sits undetected, and the shorter that interval, the smaller the gap an attacker has to hide
 in.

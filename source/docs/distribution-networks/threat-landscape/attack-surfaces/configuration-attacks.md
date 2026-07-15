@@ -106,32 +106,12 @@ changes are authorised, who performs them, and what documentation trails they le
 
 ## Protection relay settings compromise
 
-The portrait's protection relays (inferred as SIPROTEC 5 or SEL families like SEL-451, not independently confirmed yet) are configured through engineering tools (DIGSI 5
-for SIPROTEC, AcSELerator QuickSet for SEL). A relay's protection settings define when the relay will trip (and thus
-isolate a fault), and how quickly. These are safety-critical settings: if they are set incorrectly, the relay might trip
-when it should not (nuisance trip) or might not trip when it should (leaving a fault uncontrolled and allowing it to
-spread).
-
-An attacker able to reach the relay settings targets specific thresholds. For instance, changing an
-overcurrent threshold from 1200A to 1500A would cause the relay to tolerate larger fault currents before tripping.
-Changing a time delay from 100 milliseconds to 500 milliseconds would delay the trip, allowing the fault to persist
-longer. Disabling a protection function entirely (like disabling ground-fault detection) would leave a class of faults
-unprotected. Each of these changes can be made through DIGSI 5 or AcSELerator QuickSet if the attacker has access to
-them.
-
-Settings are managed through a baseline configuration that is stored in the relay's non-volatile memory and also in
-the engineering tool database. When a technician connects to a relay to perform maintenance, they can compare the
-current settings against the baseline by connecting DIGSI 5 or AcSELerator QuickSet and performing a "Read Settings"
-operation. This online-versus-offline comparison is a standard diagnostic step and serves as an integrity check. An
-attacker trying to hide a relay settings change would need to modify not only the settings on the relay device itself
-but also the baseline settings stored in the tool database, so that the comparison returns a match even though the relay
-is running non-standard settings.
-
-Relay settings are also logged in the relay's own event records. The relay records when settings were changed, who
-changed them (if the relay has an audit capability), and when the change was implemented. These logs are visible through
-the relay's user interface and are collected in the historian. An attacker could modify these logs to hide evidence
-of a settings change, but doing so requires either physical access to the relay's memory or network access to the relay
-with sufficient privilege to edit the relay's event database.
+Protection relay settings are the highest-stakes configuration surface: set wrong, a relay can trip on healthy load or
+sit through a real fault, and the change reaches the device through the same engineering tools (DIGSI 5, AcSELerator
+QuickSet) as any other configuration, logged in the tool database and the relay's own event records. The thresholds an
+attacker moves, why raising an instantaneous element only defers a heavy fault's clearance rather than removing it, and
+how the online-versus-offline comparison forces corrupting both the relay and its stored baseline, all belong to
+[protection relay manipulation](protection-relay-manipulation.md).
 
 ## Engineering tool abuse
 

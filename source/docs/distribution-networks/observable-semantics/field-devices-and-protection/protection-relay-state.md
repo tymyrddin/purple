@@ -1,10 +1,8 @@
 # Protection relay state
 
-The portrait's protection relays, inferred as SIPROTEC 5 and SEL-451 but not independently confirmed yet, record their own state continuously: thresholds, pickup settings, protection
-function status, fault records, event logs, and breaker trip counts. The relay is a second independent observer of the
-distribution network, and its logs are the primary forensic source for protection behaviour. Its record shows how
-relay baselines are maintained, what state divergence looks like, and how legitimate maintenance reads differently from
-unauthorised modification.
+The portrait's protection relays, inferred as SIPROTEC 5 and SEL-451 but not independently confirmed yet, keep their own state continuously: thresholds, pickup settings, protection
+function status, fault records, event logs, and breaker trip counts. The relay is a second observer of the network, one
+that answers to no control room, so where its account and the control room's diverge, one of them is wrong.
 
 ## Relay settings as a baseline
 

@@ -13,47 +13,20 @@ refuses to retire, and budgets rarely stretch to doing things properly. Every su
 historian leaves a trace as it runs, and defending the estate turns on knowing what that trace looks like when the
 system works as designed, and what changes when something goes wrong or someone is moving quietly through it.
 
-The evidence is the point, and it works two ways. Read through a defender's lens, it shows what each system emits and
-where a legitimate change and an intrusion part company. In a testbed, it is what gets reproduced, not the physics
-behind it, a distribution estate to interrogate without a substation in the garden. And it opens a question the record
-has to answer: NIS2 asks an operator to say, inside a day, whether an incident is suspected to be malicious, which
-presupposes the estate can tell a malicious change from its legitimate twin at all. Evidentiary capability is that
-precondition, a property of the record measurable before anything happens.
-
-Observable infrastructure:
+The evidence is the point. Read through a defender's lens it shows what each system emits and where a legitimate change
+and an intrusion part company. It also raises a harder question: NIS2 asks an operator to say, inside a day, whether an
+incident is suspected malicious, which presupposes the estate can tell a malicious change from its legitimate twin at
+all. Evidentiary capability is that precondition, a property of the record measurable before anything happens.
 
 .. toctree::
    :maxdepth: 1
-   :includehidden:
-   :caption:
 
    operating-context/index.rst
    threat-landscape/index.rst
    observable-semantics/index.rst
+   evidentiary-capability.md
+   evidentiary-capability-design.md
+   feasibility.md
+   evidentiary-capability-limits.md
 
-Evidentiary capability?
-
-.. toctree::
-   :maxdepth: 1
-
-   evidentiary-capability
-   evidentiary-capability-core-design
-   evidentiary-capability-as-audit
-   evidentiary-capability-as-training
-
-Building the design:
-
-.. toctree::
-   :maxdepth: 1
-
-   simulation-substrate
-   feasibility
-
-Open questions, caveats, and risks:
-
-.. toctree::
-   :maxdepth: 1
-
-   evidentiary-capability-limits
-
-*Last updated: 12 July 2026*
+*Last updated: 15 July 2026*

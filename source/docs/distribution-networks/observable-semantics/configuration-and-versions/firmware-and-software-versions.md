@@ -9,8 +9,8 @@ past the device's own word.
 ## Firmware version baselines
 
 Each field device is expected to run a specific known firmware version. RTUs at medium-voltage stations
-might be running a Smart Grid Terminal firmware version such as 3.5.2. Protection relays, with the maker inferred as
-SIPROTEC or SEL, might be running a version such as 5.12.4. A baseline of the expected version is kept for each
+might be running a Smart Grid Terminal firmware version such as 3.5.2. Protection relays, with the make inferred as
+SIPROTEC 5 or SEL, might be running a version such as 5.12.4. A baseline of the expected version is kept for each
 device.
 
 A query to the device (via the SCADA, via the engineering tool, or via a direct connection) asks the device to report
@@ -135,7 +135,7 @@ divergence into a question. The harder case is the firmware that reports its old
 the report itself is the thing in doubt; there the version number decides nothing, and only the signature or hash read
 back from the device, or behaviour that betrays a version the device denies running, tells the two apart.
 
-Firmware changes seldom and only through a documented update, so the baseline is quiet and a version off it is a rare
-event, its common innocent cause a record not yet caught up rather than routine churn.
+A version almost never moves except through a logged update, so a device reporting one the record does not is the rare
+event here, and its usual innocent cause is a log that has not caught up rather than churn.
 
 *Last updated: 13 July 2026*

@@ -1,14 +1,23 @@
 # Feasibility
 
-The shape falls out of the inversion already drawn. If the expensive thing is the physics and the cheap thing is
+Building a realistic OT security testbed is a rabbit hole. "Just build a distribution network lab" turns into "build a
+small utility company": protection relays with millisecond timing, RTUs on IEC 60870-5-104, SCADA interlocks, a
+historian, engineering workstations running DIGSI and AcSELerator, gas-station PLCs, and the electrical behaviour
+software emulation does not capture. Worse, the cyber side is bound to the physics, a relay tripping fifty milliseconds
+early or late being the difference between a contained fault and half a feeder gone, so emulating the packets does not
+emulate what they control. For research grounded in [observable semantics](observable-semantics/index.rst), that expense
+is misplaced: the question is not whether the transformer explodes but whether the record can tell a malicious change
+from its legitimate twin, and the record is the cheap half.
+
+The shape falls out of that inversion. If the expensive thing is the physics and the cheap thing is
 the residue, the simulator is a residue generator: something that emits the observable traces a distribution estate
 produces during ordinary operation, plus whatever a chosen incident layers on top. It never computes a fault current. It
 asserts that a fault occurred and lets the evidence follow.
 
-This residue generator is what the [training tool](evidentiary-capability-as-training.md) needs, and a leaner
-version of the same reasoning underlies the [audit tool](evidentiary-capability-as-audit.md). So the feasibility of the
-direction is really the feasibility of two things: the residue generator described here, and the structural capability
-report that needs far less of it. The mechanism comes first; the buildability of each part follows at the end.
+This residue generator is what the [training exercise](evidentiary-capability-design.md) needs, and a leaner
+version of the same reasoning underlies the [audit](evidentiary-capability-design.md). So the feasibility of the
+direction is really the feasibility of two things: the residue generator, and the capability
+report that needs far less of it.
 
 Three parts tend to do most of the work.
 
@@ -107,7 +116,7 @@ Each node carries a small attribute set and nothing electrical:
 
     7SJ85 (relay)      mode              : In service | Out of service | Test
                        active_group      : A            (A | B)
-                       group_A.oc_pickup : 1200 A
+                       group_A.oc_pickup : 300 A
                        group_A.oc_delay  : 300 ms
                        last_config       : 2026-05-12 11:02:40  by m.devries (DIGSI 5)
                        owning_window     : none
@@ -135,7 +144,7 @@ names a trigger, a guard that has to hold, and the residue it leaves:
         guard   : no earth applied, no conflicting bedieningsplan, interlock clear
         residue : 104 indication, SOE record, alarm-clear
 
-    7SJ85  active_group A → B   /   group_A.oc_pickup 1200 → 1500
+    7SJ85  active_group A → B   /   group_A.oc_pickup 300 → 450
         trigger : engineering action (setting download)
         guard   : session authenticated; ideally inside an owning_window
         residue : DIGSI 5 workstation log (who / when / what),
@@ -151,7 +160,7 @@ names a trigger, a guard that has to hold, and the residue it leaves:
         guard   : none (a physical event, asserted rather than computed)
         residue : 104 spontaneous indication via SGT-2043
 
-The residue column is the join to the emitters. Nothing in the model holds amps or megawatts: the setting value 1200 A
+The residue column is the join to the emitters. Nothing in the model holds amps or megawatts: the setting value 300 A
 is a label the grammar compares, not a current it solves.
 
 ## Two traces, side by side
@@ -188,27 +197,26 @@ Producing that absence costs nothing, because the upstream transitions simply ne
 
 The direction is two builds of different weight, and the mechanism above serves them unequally.
 
-The structural capability report is the cheaper of the two. It needs an estate configuration and a set of competing
-explanations with their predicted residue, and it computes a set intersection: for each pair, does the estate retain and
-can it retrieve the diverging artefact. No simulator, no injected incident, no priors, just the categorical bookkeeping
-the [audit tool](evidentiary-capability-as-audit.md) reads off the architecture. It sits at the cheap end for the same
+The capability report is the cheaper of the two. It needs an estate configuration and a set of competing
+explanations with their predicted residue, and it runs the four gates over each pair: whether the artefact is
+discriminating, present, obtainable in time, and independent of the suspect. No simulator, no injected incident, no priors,
+just the categorical bookkeeping the [audit](evidentiary-capability-design.md) reads off the architecture. It sits at the cheap end for the same
 reason configuration and command evidence does, above, and it is buildable today.
 
-The generator is the larger build: the residue generator described here, extended with an ordinary-week model, ground-truth
+The generator is the larger build: the residue generator, extended with an ordinary-week model, ground-truth
 injection, a coherence critic, and a seedable, reproducible scenario, feeding the deliberately tedious query interface
-and the reveal the [training tool](evidentiary-capability-as-training.md) turns on. It is research-grade because it
-inherits the open edge already named, validation against real traces, and adds the un-elicited priors the
-[limits page](evidentiary-capability-limits.md) sets out.
+and the reveal the [training exercise](evidentiary-capability-design.md) turns on. It is research-grade because it
+inherits the open edge already named, validation against real traces, and adds the un-elicited
+[priors](evidentiary-capability-limits.md) it cannot yet ground.
 
-A sensible build order follows the confidence: the structural report first, defensible today and useful on its own; the
+A sensible build order follows the confidence: the capability report first, defensible today and useful on its own; the
 generator and exercise second, as a research effort whose payoff depends on calibration that may or may not become
 available.
 
 ## What feeds the design
 
-[simulation-substrate](simulation-substrate.md) supplies the rationale, the evidence is the point and the physics is
-optional, and it stands unchanged. Operating context, observable semantics and the threat landscape distil into the
-estate configuration that is the audit tool's default ingestion input, a realistic estate to compute against rather than
+Operating context, observable semantics and the threat landscape distil into the
+estate configuration that is the report's default ingestion input, a realistic estate to compute against rather than
 an abstract one. What each feeds:
 
 - Predicted residue, the strongest contribution: the nine [observable-semantics](observable-semantics/index.rst)
@@ -231,7 +239,7 @@ an abstract one. What each feeds:
   for deferral and a hybrid estate, and [maintenance philosophy](operating-context/operations-and-cadence/maintenance-philosophy.md)
   for the incomplete asset register.
 - The malicious space and its signatures: the
-  [threat landscape](threat-landscape/observable-signatures/threat-signatures.md), including absence as
+  [threat landscape](threat-landscape/observable-signatures/index.rst), including absence as
   evidence, the [annotated maintenance-window timeline](threat-landscape/procedural-threats/maintenance-window-abuse.md),
   and the dual-baseline compromise in
   [protection-relay state](observable-semantics/field-devices-and-protection/protection-relay-state.md).
@@ -239,7 +247,7 @@ an abstract one. What each feeds:
   [protection-relay state](observable-semantics/field-devices-and-protection/protection-relay-state.md) and
   the emergency verbal approval in
   [configuration management](observable-semantics/configuration-and-versions/configuration-management.md).
-  The gap is a consolidated hypothesis set; the benign firmware-bug explanation is thin.
+  The gap is a consolidated explanation set; the benign firmware-bug explanation is thin.
 
 Four facts none of this fixes stay [private](operating-context/system-composition/procurement-documents.md) to the
 operator, artefact retrieval cost, the emergency-exception approver, whether contractor logins are shared, and the base

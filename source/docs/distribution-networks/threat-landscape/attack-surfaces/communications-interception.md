@@ -16,8 +16,8 @@ segments with other applications. An attacker who compromises an engineering wor
 control-room network segment through phishing or supply-chain compromise can eavesdrop on telecontrol frames. IEC
 60870-5-104 sends commands in plaintext, so observing the traffic reveals what switching operations are being commanded.
 More dangerously, an attacker sitting in the traffic can replay a captured command frame, a Close to a specific
-switchpoint, and cause the same operation again without the operator's knowledge. That needs the man-in-the-middle
-position the rest of this page assumes: 104 runs over a TCP session with send-and-receive sequence numbers, so a frame
+switchpoint, and cause the same operation again without the operator's knowledge. That needs a man-in-the-middle
+position on the link: 104 runs over a TCP session with send-and-receive sequence numbers, so a frame
 merely captured and resent later falls out of sequence and is dropped.
 
 Understanding what systems communicate, how they integrate, and what network paths carry critical data is the 

@@ -111,7 +111,7 @@ An RTU deployed at a site has digital inputs and outputs. Inputs are connected t
 
 An attacker who can compromise the RTU's I/O handling could cause a mismatch between commanded outputs and actual outputs. For instance, an operator could command an output to Close a switchpoint, but the compromised RTU could ignore the command and keep the switchpoint open. Alternatively, the RTU could execute the command physically, but report back to e-terracontrol SCADA that the command failed, making the operator believe the switchpoint is still open.
 
-More dangerously, a compromised RTU could execute outputs autonomously without receiving a command from e-terracontrol SCADA. If the RTU's logic is modified to sense a specific input condition (like a frequency deviation below 48 Hz), the RTU could be programmed to open a switchpoint whenever that condition is met, without waiting for a command from the control room. This would appear to e-terracontrol as if the RTU is malfunctioning (spontaneously opening a switchpoint), but would actually be the programmed behaviour of the compromised firmware.
+More dangerously, a compromised RTU could execute outputs autonomously without receiving a command from e-terracontrol SCADA. If the RTU's logic is modified to sense a specific input condition (like a frequency deviation below 48.5 Hz), the RTU could be programmed to open a switchpoint whenever that condition is met, without waiting for a command from the control room. This would appear to e-terracontrol as if the RTU is malfunctioning (spontaneously opening a switchpoint), but would actually be the programmed behaviour of the compromised firmware.
 
 ## Device state manipulation
 

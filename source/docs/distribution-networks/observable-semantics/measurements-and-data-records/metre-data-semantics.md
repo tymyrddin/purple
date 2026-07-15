@@ -2,8 +2,7 @@
 
 The smart-meter base (Landis+Gyr, Iskraemeco, Kaifa, Sagemcom) reports consumption data via CDMA to the metering
 platform. The meters record consumption as a cumulative register and as the interval readings they send to the platform, which
-aggregates across customers, feeders, and the entire network. Consumption patterns, anomalies, and the relationship between meter readings and
-network measurements form the observable layer for metering integrity.
+aggregates across customers, feeders, and the entire network.
 
 ## Normal consumption patterns and baselines
 
@@ -107,11 +106,11 @@ accounts. The data also flows to regulators who verify that metering is accurate
 customer claims they were over-billed, or a regulator questions the reported network losses), the meter readings
 are the source of evidence.
 
-The operator has been involved in metering disputes with the ACM (Dutch energy regulator). In one [dispute over meter
-readings](https://www.acm.nl/nl/publicaties/geschilbesluiten-consumenten-stedin-over-meterstanden), it was the operator's own
-logbook, the physical record of repeated in-person attempts to read a meter, that proved decisive: the ACM accepted it
-as evidence that the operator had met its reading obligation and ruled the complaint unfounded. The handwritten record carried
-the point the digital platform alone could not.
+The operator has been involved in metering disputes with the ACM (Dutch energy regulator). In one published ACM
+geschilbesluit (dispute decision) over meter readings, it was the operator's own logbook, the physical record of
+repeated in-person attempts to read a meter, that proved decisive: the ACM accepted it as evidence that the operator had
+met its reading obligation and ruled the complaint unfounded. The handwritten record carried the point the digital
+platform alone could not.
 
 The metering platform's audit logs (who accessed the data, when, and what changes were made) are forensic sources for
 understanding whether data was modified. If the audit log shows that a technician accessed meter XYZ's record and

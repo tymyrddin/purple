@@ -14,7 +14,7 @@ network sections), and what authority is needed (switching authority, access key
 werkplan details the step-by-step process and a bedieningsplan specifies the switching sequence for any de-energisation
 or line operation.
 
-The bedieningsplan is the detailed safety and operational plan for switching. It specifies which switches must be opened
+The bedieningsplan is the detailed safety and operational plan for switching. It specifies which switches are opened
 in what sequence, how the load will be transferred to alternate feeders, and which sections will be de-energised for the
 duration of work. The plan is prepared in advance, reviewed and approved, and then executed step-by-step during the
 maintenance window. The Bedrijfsvoering application (the operations management system) holds the plan, and

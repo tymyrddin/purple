@@ -1,9 +1,9 @@
 # Configuration management
 
-The portrait's configuration-management surfaces span the e-terra SCADA, the GE Smallworld GIS, protection relay project
-files, and RTU configuration. Configuration changes flow through change-control processes that leave audit trails. Those audit trails distinguish
-authorised configuration from unauthorised modification, and baseline configurations can be established for forensic
-comparison.
+Configuration in the portrait lives in four places: the e-terra SCADA, the GE Smallworld GIS, the protection-relay
+project files, and the RTUs. Changes to any of them run through change control and leave an audit trail, and every
+deployed configuration has an approved baseline behind it, so an unauthorised change shows as a divergence from that
+baseline with no change order to explain it.
 
 ## SCADA configuration versioning and baselines
 
@@ -49,8 +49,7 @@ Configuration reaches the devices from project files held on the [engineering
 workstations](../engineering-and-change/engineering-workstation-artifacts.md), where the version-control history, the
 file timestamps and the commit trail are the record of who proposed what and when. What is particular to configuration
 management is the deployment: a change pushed to a relay with no commit behind it, or a file edited and loaded without
-ever being version-controlled, is a change with no authorising trail, the same gap the deployment logs below catch from
-the device side.
+ever being version-controlled, is a change with no authorising trail, a gap the device-side deployment logs catch too.
 
 ## Configuration deployment and audit logs
 
@@ -69,7 +68,7 @@ technically (the relay's logs show it received new configuration), but there is 
 multiple unauthorised deployments occur to the same relay, that pattern suggests deliberate targeted compromise.
 
 The challenge for investigators is distinguishing legitimate maintenance deployments from unauthorised ones in
-historical logs. An emergency maintenance (a relay must be reconfigured immediately to work around a fault) might be
+historical logs. An emergency maintenance (a relay needs reconfiguring immediately to work around a fault) might be
 deployed without full advance documentation, approved verbally rather than via a paper form. Investigators separate
 genuinely exceptional circumstances (documented in incident logs, with an emergency work order, and an after-action
 review) from unauthorised activity (no documentation, no emergency context, and no explanation).

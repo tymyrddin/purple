@@ -84,9 +84,9 @@ its minimal-regret rule is a response to procurement lead times measured in year
 early, low-regret commitments substitute for accurate prediction.
 
 The through-line is that Stedin's architecture is shaped less by what is technically ideal than by what a brownfield
-estate under materials scarcity and multi-year lead times permits. The scarce, slow, end-of-life physical layer is the
-independent variable; the API-first integration, the island-mode segmentation, the standardised stations and the 2050
-masterplans are the dependent ones. A technical document would present those as design decisions; the annual reports
-show them as constraints made visible.
+estate under materials scarcity and multi-year lead times permits. None of this is architecture freely chosen. The scarce, slow,
+end-of-life physical layer sets the terms, and the API-first integration, the island-mode segmentation, the standardised
+stations and the 2050 masterplans are what building around it looks like, design decisions on the page and forced moves
+on the ground.
 
 *Last updated: 11 July 2026*

@@ -65,7 +65,7 @@ state is observable and stable.
 Misreporting can be subtle or dramatic. A subtle misreport: the RTU reports a switchpoint as Open when it is actually
 Closed. An operator at the SCADA sees Open and believes the switchpoint is de-energised, and may proceed with
 maintenance work, but the actual switchpoint is still energised, creating a safety hazard. A dramatic misreport: the RTU
-begins reporting false measurements (voltage shown as 240V when actually 280V, current shown as 0A when actually 1000A).
+begins reporting false measurements (voltage shown as 230V when actually 280V, current shown as 0A when actually 1000A).
 The SCADA's alarms are based on these false values, so protections meant to trigger do not, or false alarms are
 raised. False reporting is caught only against a record the RTU does not produce. The strongest is the protection relay in the
 same bay: it measures the same current and voltage off the same instrument transformers through its own acquisition

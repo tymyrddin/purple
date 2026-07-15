@@ -1,10 +1,8 @@
 # System portrait
 
-The operating-context findings converge on one operator. Nothing here is invented: the systems, vendors, procedures,
+Nothing here is invented: the systems, vendors, procedures,
 staffing and constraints are drawn from the OSINT record and assembled into a single estate that is coherent to run and
-emits the evidence a working operator would. What follows is that estate as a whole, the frame the
-[threat landscape](../threat-landscape/index.rst) and [observable semantics](../observable-semantics/index.rst) then
-read against.
+emits the evidence a working operator would.
 
 ## Scale and scope
 
@@ -95,6 +93,6 @@ flows wirelessly, the control system couples to the GIS over APIs, and the oldes
 instrumentation. So a threat that reads elegantly on paper may be impossible in practice because the configuration
 violates an interlock, the maintenance window does not exist, or the staffing to run it does not exist. Evidence that
 looks like compromise may be mismanagement under pressure; evidence that looks innocent may be someone who knows the
-estate well enough to hide inside normal operation. That is the frame the rest of the section reads against.
+estate well enough to hide inside normal operation.
 
 *Last updated: 13 July 2026*

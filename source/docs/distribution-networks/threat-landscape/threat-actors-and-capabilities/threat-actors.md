@@ -167,30 +167,6 @@ attacker with months of preparation might execute it in theory.
        relay. A single disabled relay slows clearance and stresses its
        neighbours; it does not leave a fault burning unattended.
 
-
-    PRACTICE: Three hard constraints block it
-    ──────────────────────────────────────────
-
-    Constraint 1: NOT INTERNET-FACING
-    • Field devices on IEC 60870-5-104 (specialised telecontrol, not internet-facing)
-    • Access requires: supply-chain OR network segment compromise OR physical access
-    • Multiple lock layers to reach a single relay
-
-    Constraint 2: INSTRUMENTED FOR FORENSICS
-    • Relay settings versioned (DIGSI 5, AcSELerator tracking)
-    • SCADA commands logged with operator identity (e-terracontrol)
-    • Work operations signed digitally (Bedrijfsvoering werkplan)
-    • Asset changes in audit trail (IBM Maximo)
-    • Legitimate interface usage: logged. Bypass interface: requires physical/supply-chain.
-
-    Constraint 3: INSTITUTIONAL KNOWLEDGE
-    • Baseline settings known: SIPROTEC 5 and SEL-451 current config
-    • Network model known: Smallworld baseline topology
-    • Switching patterns known: normal operation signature
-    • Attack surface visible: divergence from baseline triggers investigation
-    • Time to respond: cascade takes seconds to minutes, not instantaneous
-    • Outage noticed: immediately, incident investigation starts
-
 In practice, an attacker faces three hard constraints.
 
 First, most of the system is not internet-facing: field devices rely on specialised protocols (IEC 60870-5-104, 

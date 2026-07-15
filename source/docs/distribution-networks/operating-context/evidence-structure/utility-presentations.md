@@ -22,6 +22,6 @@ False-alarm reduction and relay replacement are staple CIRED and PAC World subje
 
 The strength of conference presentations lies in their focus on demonstrating operational improvement: they show the real interface, the real architecture and the real numbers rather than a sanitised abstraction. The distribution-automation write-up gives a protocol and a data-flow separation. The eSmart case study gives an asset count and an attribute count. A CIRED condition-monitoring paper gives the sensor and the analysis chain. Where screenshots appear, they show the actual SCADA mimic, the alarm list and the asset dashboard, revealing the fields, the naming conventions and sometimes the product.
 
-The residue that persists across these presentations is the control-room platform: named nowhere specifically, yet described functionally everywhere, the shape of a well-guarded core surrounded by a highly legible periphery.
+The residue that persists across these presentations is the control-room platform: named nowhere specifically, yet described functionally everywhere.
 
 *Last updated: 11 July 2026*
