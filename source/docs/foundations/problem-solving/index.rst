@@ -27,6 +27,8 @@ inconvenienced someone important. Being stuck usually means solving the wrong pa
    three-domains.md
    psl-approach.md
    in-security.md
+   are-your-lights-on.md
+   secrets-of-consulting.md
 
 .. raw:: html
 

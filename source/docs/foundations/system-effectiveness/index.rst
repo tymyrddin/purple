@@ -28,6 +28,8 @@ of failure returns in a slightly different form.
    core-triad.md
    applying-sem.md
    for-defence.md
+   general-systems-thinking.md
+   quality-software-management.md
 
 .. raw:: html
 

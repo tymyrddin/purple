@@ -34,6 +34,10 @@ than draining.
    gamified-scenarios.md
    ctf-value.md
    defensive-skills.md
+   discovery-of-the-child.md
+   secret-of-childhood.md
+   from-childhood-to-adolescence.md
+   to-educate-the-human-potential.md
 
 .. raw:: html
 

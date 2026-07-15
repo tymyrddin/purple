@@ -33,6 +33,8 @@ what that honesty will cost them.
    in-security.md
    wrong.md
    roleplay.md
+   peoplemaking.md
+   more-secrets-of-consulting.md
 
 .. raw:: html
 

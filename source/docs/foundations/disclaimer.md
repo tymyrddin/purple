@@ -61,7 +61,7 @@ They work as lenses, not recipes. A lens changes what is visible. It does not pr
 it shows.
 
 They work best in combination. A situation that looks like a communication problem through one lens may look like a
-structural problem through another. Both readings may be accurate, and the most useful intervention may address
+structural problem through another. Both readings may be accurate, and the most useful intervention addresses 
 both simultaneously.
 
 They reward scepticism. If a framework seems to explain everything too neatly, the neatness is probably wrong.
