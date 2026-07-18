@@ -16,13 +16,6 @@ and security frameworks miss aggregation risk, whose remit it falls into, and th
 reasons the gap stays open. The cases are the evidence; the frame is an exploration of what to do with
 it.
 
-Where the same logic reassembles a person rather than a site, see green's `de-anonymisation model
-<https://green.tymyrddin.dev/docs/threat-models/deanonymisation/>`_. Where it reads a municipality's
-software estate rather than a site's physical supports, see red's `OSINT of the municipal stack
-<https://red.tymyrddin.dev/docs/ankh-morpork/osint/>`_. The defensive counterpart,
-organised by who is doing the defending, is green's `defensive strategies
-<https://green.tymyrddin.dev/docs/strategy/>`_.
-
 .. toctree::
    :maxdepth: 1
    :includehidden:
@@ -34,5 +27,12 @@ organised by who is doing the defending, is green's `defensive strategies
    netwerkruimtes.md
    sos.md
    strategy.md
+
+Where the same logic reassembles a person rather than a site, see green's `de-anonymisation model
+<https://green.tymyrddin.dev/docs/threat-models/deanonymisation/>`_. Where it reads a municipality's
+software estate rather than a site's physical supports, see red's `OSINT of the municipal stack
+<https://red.tymyrddin.dev/docs/ankh-morpork/osint/>`_. The defensive counterpart,
+organised by who is doing the defending, is green's `defensive strategies
+<https://green.tymyrddin.dev/docs/strategy/>`_.
 
 *Last updated: 18 July 2026*
