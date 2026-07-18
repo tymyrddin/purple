@@ -30,9 +30,9 @@ it.
 
 Where the same logic reassembles a person rather than a site, see green's `de-anonymisation model
 <https://green.tymyrddin.dev/docs/threat-models/deanonymisation/>`_. Where it reads a municipality's
-software estate rather than a site's physical supports, see red's `OSINT of the municipal stack
+software estate rather than a site's physical supports, see red's `OSINT of a municipal stack
 <https://red.tymyrddin.dev/docs/ankh-morpork/osint/>`_. The defensive counterpart,
-organised by who is doing the defending, is green's `defensive strategies
+organised by who is doing the defending, can be found in `defensive strategies
 <https://green.tymyrddin.dev/docs/strategy/>`_.
 
 *Last updated: 18 July 2026*
