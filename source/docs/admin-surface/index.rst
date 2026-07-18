@@ -6,20 +6,31 @@ The administrative attack surface
 The risk is not that any one publication exposes a secret. None does. The risk is what a few weeks of
 patient cross-reading turn that publication regime into: a targeting picture for a foreign service,
 search narrowing for a sabotage planner, queue ordering for a pre-conflict state. Collection is
-expensive and sometimes detectable. Correlation is cheap, legal, and increasingly automated.
+expensive and sometimes detectable. Correlation is cheap, legal, and increasingly automated. The runway
+between an analyst and a running pipeline has become short.
 
-A method, some worked Dutch cases, and an SOS correlation proof-of-concept can be found in the
-`infrastructure aggregation threat model <https://green.tymyrddin.dev/docs/threat-models/infrastructure-aggregation/>`_,
-alongside de-anonymisation, where the same logic reassembles a person rather than a site.
+An open-data aggregation study built from real public records sits below: the method, three worked
+Dutch cases, and a correlation proof-of-concept design. Entirely Dutch context, but the pattern is
+likely similar elsewhere in Europe. The strategic frame follows from them: why standard classification
+and security frameworks miss aggregation risk, whose remit it falls into, and the organisational
+reasons the gap stays open. The cases are the evidence; the frame is an exploration of what to do with
+it.
 
-Focus here is on the strategic frame: why standard classification and security frameworks miss
-aggregation risk, whose remit it falls into, and the organisational reasons the gap stays open. The
-cases are the evidence; this is an exploration of what to do with it.
+Where the same logic reassembles a person rather than a site, see green's `de-anonymisation model
+<https://green.tymyrddin.dev/docs/threat-models/deanonymisation/>`_. The defensive counterpart,
+organised by who is doing the defending, is green's `defensive strategies
+<https://green.tymyrddin.dev/docs/strategy/>`_.
 
 .. toctree::
    :maxdepth: 1
    :includehidden:
+   :caption: Each document is routine; the combination is the finding.
 
+   osint.md
+   herwijnen.md
+   dpo.md
+   netwerkruimtes.md
+   sos.md
    strategy.md
 
-*Last updated: 3 July 2026*
+*Last updated: 18 July 2026*
