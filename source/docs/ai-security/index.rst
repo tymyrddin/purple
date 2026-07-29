@@ -20,7 +20,7 @@ Ten pages map where that influence takes hold, eight forming a sequential chain,
 
 The attacks that target the model itself, evasion, poisoning, extraction, inference, and prompt
 injection, can be found as red tradecraft in
-`learned models <https://red.tymyrddin.dev/docs/through/learned-models/>`_. The defensive use of AI as a
+`learned models <https://red.tymyrddin.dev/docs/loops/change/>`_. The defensive use of AI as a
 detection method, distributed across the attacker techniques it counters rather than gathered under one
 heading, can be found in the blue notes:
 `behavioural detection <https://blue.tymyrddin.dev/docs/counter/evasion/behavioural-detection/>`_,

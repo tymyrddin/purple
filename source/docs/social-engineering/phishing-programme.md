@@ -51,9 +51,9 @@ tokens after MFA has completed. At which point the second factor has already ser
 session is live.
 
 The attacker's side of each is documented in the red notes:
-[quishing](https://red.tymyrddin.dev/docs/in/real/phishing/quishing/) for the QR-in-PDF route,
-[MFA bypass](https://red.tymyrddin.dev/docs/in/real/credentials/mfa-bypass/) for the adversary-in-the-middle
-proxy, and [cloud-hosted credential pages](https://red.tymyrddin.dev/docs/in/real/credentials/cloud-hosting/)
+[quishing](https://red.tymyrddin.dev/docs/grounds/human/phishing/quishing.html) for the QR-in-PDF route,
+[MFA bypass](https://red.tymyrddin.dev/docs/loops/position/credentials/mfa-bypass.html) for the adversary-in-the-middle
+proxy, and [cloud-hosted credential pages](https://red.tymyrddin.dev/docs/loops/position/credentials/cloud-hosting.html)
 for harvesting on trusted infrastructure. Building current templates from those, rather than from a static
 vendor library, is what keeps a programme testing what is actually arriving.
 

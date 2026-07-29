@@ -7,7 +7,7 @@ Attacks on learned models attract loud coverage, and the loudest scenarios are r
 the most damage. The five mechanics, evasion at inference time, poisoning the training data,
 extracting a working copy through the query interface, running the model backwards to recover what it
 learned, and talking past its instructions, are documented in
-`learned models <https://red.tymyrddin.dev/docs/through/learned-models/>`_. A defender's view of AI
+`learned models <https://red.tymyrddin.dev/docs/loops/change/>`_. A defender's view of AI
 placed inside security operations can be found in :doc:`/docs/ai-security/index`.
 
 Focus here is working out which of these attacks is worth fearing for a given system, and which is sales theatre.

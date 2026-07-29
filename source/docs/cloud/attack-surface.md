@@ -33,9 +33,9 @@ access controls and audit trail that implies.
 
 ## Mapping the surface
 
-- [Cloud surface discovery](https://red.tymyrddin.dev/docs/in/cloud/notes/recon.html)
-- [Cloud recon runbooks](https://red.tymyrddin.dev/docs/in/cloud/runbooks/index.html)
-- [Cloud misconfigurations](https://red.tymyrddin.dev/docs/in/cloud/notes/misconfigurations.html)
-- [Why cloud environments are hard to test](https://red.tymyrddin.dev/docs/in/cloud/notes/challenges.html)
+- [Cloud surface discovery](https://red.tymyrddin.dev/docs/grounds/cloud/notes/recon.html)
+- [Cloud recon runbooks](https://red.tymyrddin.dev/docs/grounds/cloud/runbooks/index.html)
+- [Cloud misconfigurations](https://red.tymyrddin.dev/docs/grounds/cloud/notes/misconfigurations.html)
+- [Why cloud environments are hard to test](https://red.tymyrddin.dev/docs/grounds/cloud/notes/challenges.html)
 
 *Last updated: 3 July 2026*

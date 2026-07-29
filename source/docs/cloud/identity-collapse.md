@@ -44,10 +44,10 @@ reasonable on a diagram and miss the actual attack patterns.
 
 ## Control-plane playbooks
 
-- [Cloud control plane persistence](https://red.tymyrddin.dev/docs/through/persistence/notes/cloud.html)
-- [Cloud IAM persistence](https://red.tymyrddin.dev/docs/through/persistence/runbooks/cloud-iam.html)
-- [Cloud initial access playbooks](https://red.tymyrddin.dev/docs/in/cloud/playbooks/index.html)
-- [Playbook: cloud initial access](https://red.tymyrddin.dev/docs/in/cloud/playbooks/cloud-entry.html)
-- [Pivot from endpoint to cloud](https://red.tymyrddin.dev/docs/in/endpoint/runbooks/pivot-to-cloud.html)
+- [Cloud control plane persistence](https://red.tymyrddin.dev/docs/loops/position/persistence/notes/cloud.html)
+- [Cloud IAM persistence](https://red.tymyrddin.dev/docs/loops/position/persistence/runbooks/cloud-iam.html)
+- [Cloud initial access playbooks](https://red.tymyrddin.dev/docs/grounds/cloud/playbooks/index.html)
+- [Playbook: cloud initial access](https://red.tymyrddin.dev/docs/grounds/cloud/playbooks/cloud-entry.html)
+- [Pivot from endpoint to cloud](https://red.tymyrddin.dev/docs/grounds/endpoint/runbooks/pivot-to-cloud.html)
 
 *Last updated: 3 July 2026*

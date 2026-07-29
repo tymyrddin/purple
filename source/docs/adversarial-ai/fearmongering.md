@@ -8,7 +8,7 @@ the pattern is the starting point.
 ## The projection argument
 
 Some scepticism is warranted. The examples below are clearest in
-the [poisoning domain](https://red.tymyrddin.dev/docs/through/learned-models/poisoning/), where the mismatch between
+the [poisoning domain](https://red.tymyrddin.dev/docs/loops/change/model-poisoning.html), where the mismatch between
 alarm and evidence is most pronounced, but the institutional dynamic applies across all five attack types. Three
 structural reasons the threat can get overstated:
 

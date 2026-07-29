@@ -39,8 +39,8 @@ infrastructure that connects cloud data centres to the rest of the internet beco
 
 ## Network-layer variants
 
-- [Cloud metadata service abuse via ICMP](https://red.tymyrddin.dev/docs/in/network/roots/icmp/cloud-metadata-service-abuse.html)
-- [Cloud and middlebox-specific attacks](https://red.tymyrddin.dev/docs/in/network/roots/tcp/cloud-middlebox-attacks.html)
-- [BGP and CDN/cloud infrastructure attacks](https://red.tymyrddin.dev/docs/in/network/roots/bgp/bgp-cdn-cloud-infrastructure-attacks)
+- [Cloud metadata service abuse via ICMP](https://red.tymyrddin.dev/docs/loops/map/roots/icmp/cloud-metadata-service-abuse.html)
+- [Cloud and middlebox-specific attacks](https://red.tymyrddin.dev/docs/loops/map/roots/tcp/cloud-middlebox-attacks.html)
+- [BGP and CDN/cloud infrastructure attacks](https://red.tymyrddin.dev/docs/loops/map/roots/bgp/bgp-cdn-cloud-infrastructure-attacks.html)
 
 *Last updated: 3 July 2026*

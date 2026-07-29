@@ -46,11 +46,11 @@ updated it is in only marginally better shape.
 
 ## Harvesting and hardening
 
-- [Credential harvesting via legitimate cloud services](https://red.tymyrddin.dev/docs/in/real/credentials/cloud-hosting.html)
-- [SaaS and cloud platform harvesting](https://red.tymyrddin.dev/docs/out/collection/runbooks/saas-harvesting.html)
-- [Living-off-cloud exfiltration (notes)](https://red.tymyrddin.dev/docs/out/exfiltration/notes/living-off-cloud.html)
-- [Living-off-cloud exfiltration (runbook)](https://red.tymyrddin.dev/docs/out/exfiltration/runbooks/living-off-cloud-exfil.html)
-- [Cloud sync exfiltration](https://red.tymyrddin.dev/docs/out/exfiltration/runbooks/cloud-sync-exfil.html)
+- [Credential harvesting via legitimate cloud services](https://red.tymyrddin.dev/docs/loops/position/credentials/cloud-hosting.html)
+- [SaaS and cloud platform harvesting](https://red.tymyrddin.dev/docs/loops/value/collection/runbooks/saas-harvesting.html)
+- [Living-off-cloud exfiltration (notes)](https://red.tymyrddin.dev/docs/loops/value/exfiltration/notes/living-off-cloud.html)
+- [Living-off-cloud exfiltration (runbook)](https://red.tymyrddin.dev/docs/loops/value/exfiltration/runbooks/living-off-cloud-exfil.html)
+- [Cloud sync exfiltration](https://red.tymyrddin.dev/docs/loops/value/exfiltration/runbooks/cloud-sync-exfil.html)
 - [Email and cloud security: putting locks on the spice rack](https://blue.tymyrddin.dev/docs/home/cloud/index.html)
 - [Encrypt cloud files before uploading](https://blue.tymyrddin.dev/docs/home/cloud/encrypt.html)
 

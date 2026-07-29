@@ -1,7 +1,6 @@
 /*
-  Content-Security-Policy: default-src 'self'; img-src 'self'; script-src 'self'; style-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'self'
-  Permissions-Policy: geolocation=(); midi=(); notifications=(); push=(); sync-xhr=(); accelerometer=(); gyroscope=(); magnetometer=(); payment=(); camera=(); microphone=(); usb=(); xr=(); speaker=(self); vibrate=(); fullscreen=(self)
+  Content-Security-Policy: default-src 'self'; img-src 'self'; script-src 'self'; style-src 'self'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'
+  Permissions-Policy: geolocation=(), midi=(), sync-xhr=(), accelerometer=(), gyroscope=(), magnetometer=(), payment=(), camera=(), microphone=(), usb=(), xr-spatial-tracking=(), fullscreen=()
   X-Frame-Options: DENY
-  X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
-  Referrer-Policy: no-referrer-when-downgrade
+  Referrer-Policy: strict-origin-when-cross-origin
