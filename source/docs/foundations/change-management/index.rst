@@ -27,6 +27,7 @@ the unsafe one. Resistance is not noise. It is a map.
    why-change-fails.md
    approach.md
    satir-change-model.md
+   lewin.md
 
 .. raw:: html
 
