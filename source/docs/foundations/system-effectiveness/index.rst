@@ -5,7 +5,8 @@ Security system effectiveness
   :alt: An overhead view of a large diagram spread across a table, showing interconnected nodes, feedback arrows, and annotated loops. Coffee cups and pens are scattered around the edges. Someone has circled one loop in red and written "this is where it breaks down".
 
 When a patching programme stalls at the same percentage every quarter, when response times improve in exercises
-but not in real :doc:`events <../../crucible/index>`, when controls that passed audit are quietly bypassed, the usual reading is carelessness.
+but not in real :doc:`events <../../crucible/index>`, when controls that passed audit are quietly bypassed, the
+usual reading is carelessness.
 SEM, developed by Gerald and Daniel Weinberg, reads it differently: an error is not an anomaly but evidence that
 the model used to design the thing does not match how the work happens. The fix is to correct the model, not to
 suppress the symptom.
@@ -28,6 +29,7 @@ of failure returns in a slightly different form.
    core-triad.md
    applying-sem.md
    for-defence.md
+   ashby.md
    general-systems-thinking.md
    quality-software-management.md
 
@@ -39,4 +41,4 @@ of failure returns in a slightly different form.
             </div>
         </div>
 
-*Last updated: 2 July 2026*
+*Last updated: 7 August 2026*
