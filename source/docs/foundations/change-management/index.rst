@@ -37,4 +37,4 @@ the unsafe one. Resistance is not noise. It is a map.
             </div>
         </div>
 
-*Last updated: 4 June 2026*
+*Last updated: 7 August 2026*
