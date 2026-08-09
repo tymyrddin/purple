@@ -1,19 +1,20 @@
 # The force field under the change model
 
 Organisations hold their state, and resistance carries information about why they hold it and how. That claim
-runs through [ChangeShop](what-it-is.md) and through the [Satir model](../organisational-development/satir-change-model.md). Both inherit it from Kurt Lewin, whose version is more specific than the
-phrase that survived him.
+runs through [ChangeShop](what-it-is.md) and through the 
+[Satir model](../organisational-development/satir-change-model.md). Both inherit it from Kurt Lewin, whose version is 
+more specific than the phrase that survived him.
 
 Lewin was a psychologist, trained in the Berlin Gestalt school, out of Germany in 1933, and at work in the
-United States from then until his death in 1947, first at Iowa and then at the Research Center for Group
-Dynamics he founded at MIT.
+United States from then until his death in 1947, at Cornell and then Iowa, and finally at the Research Center
+for Group Dynamics he founded at MIT.
 
 *Several of the sources have no web page in front of them, so those links download a PDF rather than opening a
 page.*
 
 ## Quasi-stationary equilibrium
 
-Lewin's last paper, [Frontiers in Group Dynamics](https://lchc.ucsd.edu/MCA/Mail/xmcamail.2013_07.dir/pdfeF83xvxgaM.pdf), appeared in the first issue of *Human Relations* in 1947, weeks after his death. It
+One of Lewin's last papers, [Frontiers in Group Dynamics](https://lchc.ucsd.edu/MCA/Mail/xmcamail.2013_07.dir/pdfeF83xvxgaM.pdf), appeared in the first issue of *Human Relations* in June 1947, four months after his death. It
 starts from a refusal: group life is never at a steady state. What looks like stability is a level held in
 place by driving forces pushing towards change and restraining forces holding it back, in rough balance. Lewin
 called these quasi-stationary equilibria, and the qualifier does the work. A process running at a constant
@@ -35,7 +36,7 @@ forces are reduced. Both land on the same line.
 ```
 
 Both work. They do not cost the same. Adding force raises tension across the whole field, and in Lewin's
-account tension has to come out somewhere. [The frustration experiments](https://archive.org/details/in.ernet.dli.2015.501046) he ran with Roger Barker and Tamara Dembo in 1941 found it
+account the tension comes out somewhere. [The frustration experiments](https://archive.org/details/in.ernet.dli.2015.501046) he ran with Roger Barker and Tamara Dembo in 1941 found it
 coming out as regression, children playing below the level they had already reached. The leadership climates
 his group ran later found aggression looking for a target. Taking a restraint away moves the level at lower
 tension. Lewin argued for the second, and said so plainly.
@@ -129,7 +130,7 @@ which puts them in the same category as an [architecture diagram](../../systems-
 as measurement.
 
 The notation goes further than the account behind it. Topology gives regions, boundaries and paths, none of
-which have a size. The forces drawn across them are arrows, which imply one. Nothing in the account fixes a
+which have a size. The forces drawn across them are arrows, which can be read as having one. Nothing in the account fixes a
 scale for a force, so a longer arrow is a judgement about the field rather than a quantity, and the balance in
 a quasi-stationary equilibrium is asserted rather than computed. The sketch of the two routes to L2 is built
 the same way: six arrows against three, and nothing anywhere saying what one arrow is worth. Bernard Burnes
@@ -143,7 +144,7 @@ individual psychology". The diagrams promised a measurement. It never arrived.
 ## Leadership study and sample
 
 Lewin, Lippitt and White found in 1939 that groups run democratically do better than autocratic or
-laissez-faire ones. Their [experimentally created social climates](https://tu-dresden.de/mn/psychologie/ipep/lehrlern/ressourcen/dateien/lehre/lehramt/lehrveranstaltungen/Lehrer_Schueler_Interaktion_SS_2011/Lewin_1939_original.pdf) were five-member after-school clubs of ten-year-olds at the Child Welfare
+laissez-faire ones. Their [experimentally created social climates](https://tu-dresden.de/mn/psychologie/ipep/lehrlern/ressourcen/dateien/lehre/lehramt/lehrveranstaltungen/Lehrer_Schueler_Interaktion_SS_2011/Lewin_1939_original.pdf) were five-member after-school clubs of ten-year-old boys at the Child Welfare
 Research Station in Iowa, six clubs across two series, each passing through more than one climate under more
 than one adult leader.
 
@@ -166,4 +167,4 @@ training covered. And a room where people work on their own problem while others
 Lewin's method with the labels changed. The three steps came through intact. The field they were cut from did
 not.
 
-*Last updated: 7 August 2026*
+*Last updated: 9 August 2026*

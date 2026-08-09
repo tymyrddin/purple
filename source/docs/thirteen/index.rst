@@ -19,5 +19,6 @@ Advice does not sign decisions.
    foresight.md
    the-room.md
    checking-your-working.md
+   designing-what-machines-notice.md
 
-*Last updated: 26 May 2026*
+*Last updated: 9 August 2026*

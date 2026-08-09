@@ -1,8 +1,8 @@
 # Core ideas of Satir systems OD
 
-Virginia Satir developed her work originally in family therapy. It was extended by Gerald Weinberg and others 
-into organisational settings. The core observations hold across both contexts because they describe how people 
-behave under stress, and stress is not unique to families.
+Virginia Satir developed her work originally in family therapy. Gerald Weinberg and others extended it 
+into organisational settings. The same patterns proved recognisable there. They describe how people 
+behave under stress, and a workplace supplies no shortage of that.
 
 ## The system shapes behaviour
 
@@ -18,9 +18,9 @@ improvement followed by regression.
 
 ## Communication patterns under stress
 
-Satir identified recurring patterns in how people communicate when they feel threatened or under pressure. These 
-patterns are attempts to manage the stress, not character flaws, and they are consistent across different 
-people and contexts.
+Satir identified recurring patterns in how people communicate when they feel threatened or under pressure. These
+patterns are attempts to manage the stress, not character flaws, and they describe what somebody does in the moment
+rather than what somebody is.
 
 ![Survival stances](/_static/images/satir-stances.png)
 

@@ -26,7 +26,7 @@ Step 2: Work through priority risks (30 minutes)
 
 For each critical and high risk, identify realistic treatment options in each applicable category. For each proposed treatment, ask: what would reduce the likelihood of this? What would reduce the impact if it occurs? What would improve detection and response?
 
-Be honest about feasibility. "Implement MFA" is not a treatment plan for an organisation that does not have the budget to license an identity provider or the technical capacity to configure one. The exercise is most useful when it surfaces feasibility constraints, not papers over them.
+Be honest about feasibility. "Implement MFA" is not a treatment plan for an organisation that does not have the budget to licence an identity provider or the technical capacity to configure one. The exercise is most useful when it surfaces feasibility constraints, not papers over them.
 
 For each proposed treatment, ask: what is the actual effort and cost? What is the realistic timeline? Does this create new risks? Who needs to approve and fund it? Who would implement it? If the answers to those questions are unclear, the treatment is not ready to be committed to.
 

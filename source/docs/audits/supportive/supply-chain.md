@@ -51,7 +51,7 @@ A useful starting taxonomy:
 
 | Category | What it covers | Typical risk profile |
 |:---------|:---------------|:---------------------|
-| Technology and software providers | SaaS platforms, cloud infrastructure, licensed software | Code execution, data residency, credential federation, update channels |
+| Technology and software providers | SaaS platforms, cloud infrastructure, licenced software | Code execution, data residency, credential federation, update channels |
 | Service providers with system access | Managed security services, IT support, outsourced operations | Privileged access, monitoring coverage, incident response interface |
 | Component and hardware suppliers | OT components, network equipment, firmware | Embedded vulnerabilities, counterfeit risk, update integrity |
 | Professional services | Consultants, auditors, system integrators | Temporary access, credential handling, data exposure during engagement |
