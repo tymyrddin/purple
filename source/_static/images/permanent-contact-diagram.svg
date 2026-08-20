@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" font-family="Helvetica, Arial, sans-serif">
+<title>US cyber operations as a cycle that closes operationally but not strategically</title>
+<desc>American cyber operations drawn as a cycle. Five nodes form a closed operational loop, running clockwise: intelligence, access, persistent presence, disruption, and the shared take (findings passed to partners and industry), returning to intelligence. These edges are solid, meaning documented. Below the loop, a node for adversary networks degraded receives a solid edge from disruption. From there a dashed, open edge curves up and ends in a question mark without closing: whether continuous contact deters, degrades, or merely sustains a contest both sides get better at. The operational cycle closes; the strategic return edge does not.</desc>
+<rect id="background" x="0" y="0" width="860" height="560" fill="#ffffff"/>
+<text id="title" x="430" y="40" font-size="24" text-anchor="middle" fill="#000000">Permanent contact</text>
+<text id="subtitle" x="430" y="64" font-size="14" text-anchor="middle" fill="#000000">The operational cycle closes; the strategic return edge does not</text>
+
+<!-- ring edges (solid) -->
+<path d="M 459.4 161.3 L 546.3 224.4" fill="none" stroke="#000000" stroke-width="1.5"/>
+<polygon points="546.3,224.4 533.6,221.4 539.5,213.3" fill="#000000"/>
+<path d="M 565.0 267.2 L 529.7 376.1" fill="none" stroke="#000000" stroke-width="1.5"/>
+<polygon points="529.7,376.1 528.6,363.1 538.1,366.2" fill="#000000"/>
+<path d="M 458.2 411.4 L 395.8 411.4" fill="none" stroke="#000000" stroke-width="1.5"/>
+<polygon points="395.8,411.4 407.8,406.4 407.8,416.4" fill="#000000"/>
+<path d="M 334.1 387.6 L 298.8 278.9" fill="none" stroke="#000000" stroke-width="1.5"/>
+<polygon points="298.8,278.9 307.2,288.8 297.7,291.8" fill="#000000"/>
+<path d="M 325.0 216.2 L 400.6 161.3" fill="none" stroke="#000000" stroke-width="1.5"/>
+<polygon points="400.6,161.3 393.9,172.4 388.0,164.3" fill="#000000"/>
+
+<text x="430" y="294" font-size="12" text-anchor="middle" fill="#8c8c8c">continuous,</text>
+<text x="430" y="310" font-size="12" text-anchor="middle" fill="#8c8c8c">by design</text>
+
+<!-- ring nodes -->
+<ellipse cx="430" cy="140" rx="64" ry="24" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="430" y="145" font-size="13.5" text-anchor="middle" fill="#000000">intelligence</text>
+<ellipse cx="572.7" cy="243.6" rx="44" ry="24" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="572.7" y="248.6" font-size="13.5" text-anchor="middle" fill="#000000">access</text>
+<ellipse cx="518.2" cy="411.4" rx="62" ry="36" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="518.2" y="407.4" font-size="13.5" text-anchor="middle" fill="#000000">persistent</text>
+<text x="518.2" y="423.4" font-size="13.5" text-anchor="middle" fill="#000000">presence</text>
+<ellipse cx="341.8" cy="411.4" rx="54" ry="24" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="341.8" y="416.4" font-size="13.5" text-anchor="middle" fill="#000000">disruption</text>
+<ellipse cx="287.3" cy="243.6" rx="58" ry="36" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="287.3" y="239.6" font-size="13.5" text-anchor="middle" fill="#000000">the shared</text>
+<text x="287.3" y="255.6" font-size="13.5" text-anchor="middle" fill="#000000">take</text>
+
+<!-- documented edge to adversary -->
+<path d="M 360 430 L 400.5 458" fill="none" stroke="#000000" stroke-width="1.5"/>
+<polygon points="400.5,458 388.6,453.0 393.6,444.9" fill="#000000"/>
+<ellipse cx="430" cy="488" rx="94" ry="28" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="430" y="484" font-size="13.5" text-anchor="middle" fill="#000000">adversary networks</text>
+<text x="430" y="500" font-size="13.5" text-anchor="middle" fill="#000000">degraded</text>
+
+<!-- open strategic edge (dashed) -->
+<path d="M 524 478 Q 700 440 690 262" fill="none" stroke="#8c8c8c" stroke-width="1.5" stroke-dasharray="5 4"/>
+<polygon points="690,254 685.4,263.5 694.6,263.5" fill="#8c8c8c"/>
+<text x="705" y="250" font-size="22" fill="#8c8c8c">?</text>
+<text x="612" y="372" font-size="12" fill="#8c8c8c">deters? degrades?</text>
+<text x="612" y="388" font-size="12" fill="#8c8c8c">or permanent contest?</text>
+
+<!-- note -->
+<text x="40" y="540" font-size="12.5" fill="#000000">Solid: the machinery, documented. Dashed: whether the contact changes adversary behaviour, unmeasured in open sources.</text>
+</svg>

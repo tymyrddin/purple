@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" font-family="Helvetica, Arial, sans-serif">
+<title>Israeli cyber capability as a revolving door out of the state</title>
+<desc>Israeli cyber power drawn as a revolving door. A left-to-right pipeline of five nodes, joined by solid arrows: military intelligence (Unit 8200), veterans, companies, products, and the global market. A dashed vertical line labelled "the door" sits between the state and the market, where people cross out. A wide dashed arc runs back over the top from the market to military intelligence, labelled as returning only partly: a strong sector, diplomatic weight, and a pool to rehire from. Solid edges are people and products leaving the state; the dashed return is what comes back, a sector and a talent pool, not the capability itself.</desc>
+<rect id="background" x="0" y="0" width="900" height="430" fill="#ffffff"/>
+<text id="title" x="450" y="40" font-size="24" text-anchor="middle" fill="#000000">The revolving door</text>
+<text id="subtitle" x="450" y="64" font-size="14" text-anchor="middle" fill="#000000">Capability the state trains, and cannot keep</text>
+
+<!-- return arc (dashed) -->
+<path d="M 785 272 Q 437 95 90 272" fill="none" stroke="#8c8c8c" stroke-width="1.5" stroke-dasharray="5 4"/>
+<polygon points="90,272 103,266 99,276" fill="#8c8c8c"/>
+<text x="437" y="132" font-size="12.5" text-anchor="middle" fill="#8c8c8c">returns only partly:</text>
+<text x="437" y="148" font-size="12.5" text-anchor="middle" fill="#8c8c8c">a sector, diplomatic weight, a pool to rehire from</text>
+
+<!-- the door -->
+<line x1="200" y1="250" x2="200" y2="352" stroke="#8c8c8c" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="200" y="368" font-size="11" text-anchor="middle" fill="#8c8c8c">the door</text>
+
+<!-- pipeline edges (solid) -->
+<path d="M 138 300 L 223 300" fill="none" stroke="#000000" stroke-width="1.5"/>
+<polygon points="223,300 211,295 211,305" fill="#000000"/>
+<path d="M 307 300 L 392 300" fill="none" stroke="#000000" stroke-width="1.5"/>
+<polygon points="392,300 380,295 380,305" fill="#000000"/>
+<path d="M 488 300 L 566 300" fill="none" stroke="#000000" stroke-width="1.5"/>
+<polygon points="566,300 554,295 554,305" fill="#000000"/>
+<path d="M 654 300 L 733 300" fill="none" stroke="#000000" stroke-width="1.5"/>
+<polygon points="733,300 721,295 721,305" fill="#000000"/>
+
+<!-- nodes -->
+<ellipse cx="90" cy="300" rx="48" ry="34" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="90" y="296" font-size="13" text-anchor="middle" fill="#000000">military</text>
+<text x="90" y="312" font-size="13" text-anchor="middle" fill="#000000">intelligence</text>
+<ellipse cx="265" cy="300" rx="42" ry="24" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="265" y="305" font-size="13" text-anchor="middle" fill="#000000">veterans</text>
+<ellipse cx="440" cy="300" rx="48" ry="24" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="440" y="305" font-size="13" text-anchor="middle" fill="#000000">companies</text>
+<ellipse cx="610" cy="300" rx="44" ry="24" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="610" y="305" font-size="13" text-anchor="middle" fill="#000000">products</text>
+<ellipse cx="785" cy="300" rx="54" ry="34" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="785" y="296" font-size="13" text-anchor="middle" fill="#000000">the global</text>
+<text x="785" y="312" font-size="13" text-anchor="middle" fill="#000000">market</text>
+
+<!-- note -->
+<text x="40" y="410" font-size="12.5" fill="#000000">Solid: people and products leaving the state. Dashed: what comes back, a sector and a talent pool, not the capability itself.</text>
+</svg>

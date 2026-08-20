@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 460" font-family="Helvetica, Arial, sans-serif">
+<title>Lithuanian cyber capability as a mesh of institutions pushed outward</title>
+<desc>Lithuanian cyber power drawn as a mesh with no centre. Seven national nodes, the defence ministry, the cyber-security centre, cyber command, the criminal police, utilities, volunteer riflemen and universities, are joined to one another by thin grey links into a web with no hub. Two bold arrows leave the web toward the right, to Ukraine and Moldova and into the alliance, showing capability pushed outward to the frontline rather than hoarded behind it. There is no single actor to name; the acting entity is the network itself.</desc>
+<rect id="background" x="0" y="0" width="860" height="460" fill="#ffffff"/>
+<text id="title" x="430" y="40" font-size="24" text-anchor="middle" fill="#000000">No single hand</text>
+<text id="subtitle" x="430" y="64" font-size="14" text-anchor="middle" fill="#000000">Cyber power constituted as a network, and pushed outward</text>
+
+<!-- mesh links (thin, drawn under nodes) -->
+<g stroke="#8c8c8c" stroke-width="0.9">
+<line x1="185" y1="160" x2="300" y2="250"/>
+<line x1="185" y1="160" x2="350" y2="135"/>
+<line x1="350" y1="135" x2="300" y2="250"/>
+<line x1="300" y1="250" x2="130" y2="258"/>
+<line x1="300" y1="250" x2="190" y2="345"/>
+<line x1="300" y1="250" x2="430" y2="315"/>
+<line x1="190" y1="345" x2="130" y2="258"/>
+<line x1="190" y1="345" x2="300" y2="378"/>
+<line x1="300" y1="378" x2="430" y2="315"/>
+<line x1="300" y1="378" x2="300" y2="250"/>
+</g>
+
+<!-- outward arrows (drawn over links, under external labels via rim endpoints) -->
+<path d="M 362 244 L 590 208" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="590,208 577,205 581,215" fill="#000000"/>
+<path d="M 486 318 L 598 330" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="598,330 585,326 585,336" fill="#000000"/>
+
+<!-- national nodes -->
+<ellipse cx="185" cy="160" rx="64" ry="22" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="185" y="165" font-size="12.5" text-anchor="middle" fill="#000000">defence ministry</text>
+<ellipse cx="350" cy="135" rx="54" ry="22" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="350" y="140" font-size="12.5" text-anchor="middle" fill="#000000">criminal police</text>
+<ellipse cx="300" cy="250" rx="64" ry="34" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="300" y="246" font-size="12.5" text-anchor="middle" fill="#000000">cyber-security</text>
+<text x="300" y="262" font-size="12.5" text-anchor="middle" fill="#000000">centre</text>
+<ellipse cx="130" cy="258" rx="42" ry="22" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="130" y="263" font-size="12.5" text-anchor="middle" fill="#000000">utilities</text>
+<ellipse cx="190" cy="345" rx="50" ry="34" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="190" y="341" font-size="12.5" text-anchor="middle" fill="#000000">cyber</text>
+<text x="190" y="357" font-size="12.5" text-anchor="middle" fill="#000000">command</text>
+<ellipse cx="300" cy="378" rx="58" ry="34" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="300" y="374" font-size="12.5" text-anchor="middle" fill="#000000">volunteer</text>
+<text x="300" y="390" font-size="12.5" text-anchor="middle" fill="#000000">riflemen</text>
+<ellipse cx="430" cy="315" rx="56" ry="22" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="430" y="320" font-size="12.5" text-anchor="middle" fill="#000000">universities</text>
+
+<!-- external recipients -->
+<ellipse cx="660" cy="200" rx="66" ry="34" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="660" y="196" font-size="12.5" text-anchor="middle" fill="#000000">Ukraine and</text>
+<text x="660" y="212" font-size="12.5" text-anchor="middle" fill="#000000">Moldova</text>
+<ellipse cx="660" cy="335" rx="58" ry="24" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="660" y="340" font-size="12.5" text-anchor="middle" fill="#000000">the alliance</text>
+
+<!-- note -->
+<text x="40" y="435" font-size="12.5" fill="#000000">No central actor: national, military, EU, US-bilateral, commercial and volunteer bodies form a mesh, and the capability</text>
+<text x="40" y="451" font-size="12.5" fill="#000000">is pushed to the frontline rather than hoarded behind it.</text>
+</svg>

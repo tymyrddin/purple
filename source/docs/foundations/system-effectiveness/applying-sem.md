@@ -1,70 +1,63 @@
 # Applying SEM to security
 
-[SEM](core-triad.md) changes what gets looked at and what questions get asked. The shift is from "what failed" to "what model allowed 
-this to seem acceptable."
+[SEM](core-triad.md) moves the question. "What failed" gives way to "what model made this look acceptable at the time".
 
 ## Vulnerabilities as model failures
 
-A standard finding: over-permissive access roles allow lateral movement. The conventional response is to tighten the 
+A standard finding: over-permissive access roles allow lateral movement. The conventional response tightens the
 permissions.
 
-SEM asks what model produced the over-permissioning. Usually it is something like "broad access is necessary for 
-productivity" or "ownership of access review is unclear so we err toward permissiveness." If that model is not 
-corrected, the same pattern of permissions re-emerges in a different role, a different service, or a different 
-team. The YAML was not the problem.
+The model underneath is usually something like "broad access is necessary for productivity", or "nobody owns access
+review, so we err towards permissiveness". Left in place, it re-emerges as the same pattern of permissions in a
+different role, a different service, a different team. The YAML was not the problem.
 
-This applies to many recurring vulnerability classes. Secrets in source code persist because the model is "secret 
-management is someone else's concern" and no safe alternative exists within the workflow. Unpatched systems persist 
-because the model is "patching creates operational risk" and there is no mechanism for establishing that the risk 
-of not patching is higher. Each class of recurring finding has a model underneath it.
+Many recurring vulnerability classes work this way. Secrets persist in source code on a model of "secret management is
+someone else's concern", with no safe alternative inside the workflow. Systems go unpatched on a model of "patching
+creates operational risk", with nothing in place to establish that not patching carries more.
 
 ## Incidents as evidence
 
-Instead of asking what broke in an incident, a SEM question is what belief or assumption was in place that made the 
-outcome unsurprising in retrospect.
+The question after an incident is usually what broke. A more useful one is what belief was in place that made the
+outcome unsurprising in hindsight.
 
-Secrets committed to a repository: the surface explanation is developer error. A SEM question is what model allowed 
-this to seem like a low-risk action. Usually: "secrets handling is handled at the infrastructure level" (someone 
-else's model), or "our repo is private" (a model about exposure that may be accurate or may not be), or simply "I did not 
-think about it" (absence of any model at that decision point, which is itself a system design finding about where security 
-thinking is and is not embedded in the workflow).
+Secrets committed to a repository read, on the surface, as developer error. Underneath sit three candidate models.
+"Secrets handling happens at the infrastructure level" puts the work in someone else's hands. "Our repo is private"
+makes a claim about exposure that may or may not hold. "I did not think about it" is the absence of any model at that
+decision point. That points at the workflow rather than the developer: security thinking is not embedded where the
+decision gets made.
 
 ## Tools encode assumptions
 
-Every security tool is a [materialised model](../../systems-architecture/architecture-as-model.md). The model that produced it is encoded in what it detects, what it ignores,
-and what it treats as normal.
+Every security tool is a [materialised model](../../systems-architecture/architecture-as-model.md), and the model shows
+in what it detects, what it ignores, and what it treats as normal.
 
-A SIEM built on a model of "threats are external and anomalous" will systematically miss insider threats and 
-slow-moving campaigns that stay within baseline behaviour. An EDR built on a model of "endpoints are controlled units" 
-will have gaps in environments where endpoints are ephemeral, containerised, or BYOD. A CSPM built on a model of 
-"misconfigurations are visible and teams will fix them when alerted" will produce an alert backlog that grows until it 
-is ignored.
+A SIEM built on "threats are external and anomalous" can miss insider threats and slow campaigns that stay inside
+baseline behaviour. An EDR built on "endpoints are controlled units" leaves gaps wherever endpoints are ephemeral,
+containerised or BYOD. A CSPM built on "misconfigurations are visible and teams will fix them when alerted" grows an
+alert backlog until the backlog gets ignored.
 
-A SEM question for any tool: when does this model break, and what does the blind spot look like? That blind spot 
-is a [finding before an attacker finds it](for-defence.md).
+A tool's model gives out somewhere, and what falls into the gap is a [finding in its own right](for-defence.md).
 
 ## Best practices as frozen models
 
-Security standards and checklists encode a model of the threat environment as it existed when they were written, 
-applied to an organisational context that may bear no resemblance to the present one.
+Standards and checklists encode a threat environment as it stood when they were written, then get applied to an
+organisational context that may bear no resemblance to it.
 
-"Apply least privilege" is sound in principle. In a fast-moving product team with unclear ownership under delivery 
-pressure, the model behind it (that access review is a manageable, owned process) does not fit the operational reality. 
-The result is exceptions everywhere, shadow access patterns, and a nominal compliance posture that diverges from the 
-actual one.
+"Apply least privilege" is sound in principle. It assumes access review is a manageable, owned process. In a fast-moving
+product team with unclear ownership and delivery pressure, that assumption does not hold. What often follows is
+exceptions everywhere, shadow access patterns, and a nominal compliance posture drifting away from the real one.
 
-The SEM approach is not to abandon the principle but to ask whether the model fits the environment, and if not, what 
-changes in the environment would make the model applicable.
+The principle survives the mismatch. What changes is the question: does the model fit this environment, and if not, what
+would have to change in the environment before it did?
 
 ## Error amplification in modern environments
 
-Small model errors produce large consequences in tightly coupled, fast-moving systems. Cloud environments propagate 
-misconfiguration at speed. CI/CD pipelines distribute errors across environments before anyone notices. APIs connect 
-systems in ways that turn a single trust assumption into an organisation-wide exposure.
+Small model errors can produce large consequences in tightly coupled, fast-moving systems. Cloud environments propagate
+misconfiguration at speed. CI/CD pipelines distribute an error across environments before anyone notices. APIs turn a
+single trust assumption into an organisation-wide exposure.
 
-A model that says "this service is internal only" may be accurate for the service itself and entirely wrong about its 
-exposure through an API gateway. The service is internal. The gateway is not. The model was correct about one layer 
-and silent about the others. In a cloud-native environment, that silence scales.
+"This service is internal only" can be accurate about the service and entirely wrong about its exposure through an API
+gateway. The service is internal. The gateway is not. The model was right about one layer and silent about the others,
+and in a cloud-native environment that silence scales.
 
-
-*Last updated: 1 July 2026*
+*Last updated: 11 August 2026*

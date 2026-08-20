@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 484" font-family="Helvetica, Arial, sans-serif">
+<title>Chinese cyber activity read as a procurement ledger</title>
+<desc>A stylised procurement ledger reading the February 2024 i-Soon leak, drawn as the mundane paperwork the essay reads in place of the intrusion. Vendor: i-Soon, also known as Anxun, a Shanghai contractor. Billed to a provincial bureau of the Ministry of State Security. Line items with prices: access to one Vietnamese ministry, priced for resale, 55,000 dollars; lesser targets in bulk, many at far less, hundreds of dollars; one operator per month, complaints attached, around 1,000 dollars; access to a university, off the target list and resold later, with no order yet; and a six-figure sum owed by Chengdu 404, the company behind APT41, in an unpaid contract dispute. A note records the staff as underpaid, competitive, and playing mahjong between intrusions. The paperwork is dull because the work is procurement.</desc>
+<rect id="background" x="0" y="0" width="820" height="484" fill="#ffffff"/>
+<text id="title" x="410" y="40" font-size="24" text-anchor="middle" fill="#000000">The banality on the invoice</text>
+<text id="subtitle" x="410" y="64" font-size="15" text-anchor="middle" fill="#000000">Chinese cyber activity read from the paperwork, not the intrusion</text>
+
+<!-- document panel -->
+<rect id="doc" x="40" y="86" width="740" height="386" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+
+<text x="60" y="120" font-size="15" font-family="Courier New, Courier, monospace" fill="#000000">vendor: i-Soon (Anxun), Shanghai</text>
+<text x="760" y="120" font-size="15" font-family="Courier New, Courier, monospace" text-anchor="end" fill="#000000">billed to: a provincial MSS bureau</text>
+<line x1="60" y1="136" x2="760" y2="136" stroke="#000000" stroke-width="0.8"/>
+
+<text x="60" y="164" font-size="13" font-family="Courier New, Courier, monospace" letter-spacing="1.5" fill="#000000">ITEM</text>
+<text x="400" y="164" font-size="13" font-family="Courier New, Courier, monospace" letter-spacing="1.5" fill="#000000">NOTE</text>
+<text x="760" y="164" font-size="13" font-family="Courier New, Courier, monospace" letter-spacing="1.5" text-anchor="end" fill="#000000">PRICE</text>
+<line x1="60" y1="176" x2="760" y2="176" stroke="#8c8c8c" stroke-width="0.6"/>
+
+<text x="60" y="206" font-size="16" font-family="Courier New, Courier, monospace" fill="#000000">access to one Vietnamese ministry</text>
+<text x="400" y="206" font-size="16" font-family="Courier New, Courier, monospace" fill="#8c8c8c">priced for resale</text>
+<text x="760" y="206" font-size="16" font-family="Courier New, Courier, monospace" text-anchor="end" fill="#000000">$55,000</text>
+
+<text x="60" y="244" font-size="16" font-family="Courier New, Courier, monospace" fill="#000000">lesser targets, in bulk</text>
+<text x="400" y="244" font-size="16" font-family="Courier New, Courier, monospace" fill="#8c8c8c">many at far less</text>
+<text x="760" y="244" font-size="16" font-family="Courier New, Courier, monospace" text-anchor="end" fill="#000000">$ hundreds</text>
+
+<text x="60" y="282" font-size="16" font-family="Courier New, Courier, monospace" fill="#000000">one operator, per month</text>
+<text x="400" y="282" font-size="16" font-family="Courier New, Courier, monospace" fill="#8c8c8c">complaints filed</text>
+<text x="760" y="282" font-size="16" font-family="Courier New, Courier, monospace" text-anchor="end" fill="#000000">~$1,000</text>
+
+<text x="60" y="320" font-size="16" font-family="Courier New, Courier, monospace" fill="#000000">access to a university</text>
+<text x="400" y="320" font-size="16" font-family="Courier New, Courier, monospace" fill="#8c8c8c">off-list, resold later</text>
+<text x="760" y="320" font-size="16" font-family="Courier New, Courier, monospace" text-anchor="end" fill="#000000">no order yet</text>
+
+<text x="60" y="358" font-size="16" font-family="Courier New, Courier, monospace" fill="#000000">owed by Chengdu 404 (APT41)</text>
+<text x="400" y="358" font-size="16" font-family="Courier New, Courier, monospace" fill="#8c8c8c">contract dispute</text>
+<text x="760" y="358" font-size="16" font-family="Courier New, Courier, monospace" text-anchor="end" fill="#000000">six figures, unpaid</text>
+
+<line x1="60" y1="380" x2="760" y2="380" stroke="#8c8c8c" stroke-width="0.6"/>
+<text x="60" y="408" font-size="15" font-family="Courier New, Courier, monospace" fill="#000000">staff: underpaid, competitive, playing mahjong between intrusions</text>
+<text x="60" y="434" font-size="13" font-family="Courier New, Courier, monospace" fill="#8c8c8c">every line from the February 2024 i-Soon leak. dull because the work is procurement.</text>
+</svg>

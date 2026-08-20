@@ -39,6 +39,7 @@ and defences get built. Necessary, and on its own never quite enough.
    docs/admin-surface/index
    docs/audits/index
    docs/distribution-networks/index
+   docs/signatures/index
 
 Second foundation: the human and organisational layer
 ------------------------------------------------------
