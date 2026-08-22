@@ -1,4 +1,4 @@
-National signatures
+National cyber "fingerprints"
 ============================================
 
 .. image:: /_static/images/national-signatures.png
