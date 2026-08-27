@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 798" font-family="Helvetica, Arial, sans-serif">
+<title>Russia: cultivated, not commanded</title>
+<desc>A diagram of effects for the Russian state's relationship to cybercrime, drawn as one reinforcing loop with a single branch. State toleration sustains the criminal ecosystem, the ecosystem supplies deniable capability, the capability proves useful to the state, and that usefulness is why the state keeps tolerating and cultivating it. The four edges run in the same direction, so the loop is reinforcing, marked R and read clockwise. Drawn in grey, meaning a sourced effect on a branch with no evidenced return: enforcement, the switch the state can throw and rarely does, which lowered the ecosystem briefly with the 2022 REvil arrests and did not hold. An increase in state toleration raises the criminal ecosystem. An increase in the criminal ecosystem raises deniable capability. An increase in deniable capability raises usefulness to the state, by human intervention. An increase in usefulness to the state raises state toleration, by human intervention. An increase in enforcement lowers the criminal ecosystem, by human intervention.</desc>
+<rect id="background" x="0" y="0" width="960" height="798" fill="#ffffff"/>
+<text id="title" x="480" y="38" font-size="20" text-anchor="middle" fill="#000000">Russia: cultivated, not commanded</text>
+<text id="subtitle" x="480" y="60" font-size="13" text-anchor="middle" fill="#000000">One reinforcing loop, with enforcement as the switch the state rarely throws</text>
+
+<!-- nodes -->
+<ellipse id="node-toleration" cx="480" cy="150" rx="84" ry="34" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text id="text-toleration" x="480" y="154" font-size="13.5" text-anchor="middle" fill="#000000">state toleration</text>
+
+<ellipse id="node-ecosystem" cx="730" cy="320" rx="62" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text id="text-ecosystem-1" x="730" y="316" font-size="13.5" text-anchor="middle" fill="#000000">criminal</text>
+<text id="text-ecosystem-2" x="730" y="332" font-size="13.5" text-anchor="middle" fill="#000000">ecosystem</text>
+
+<ellipse id="node-capability" cx="480" cy="500" rx="95" ry="34" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text id="text-capability" x="480" y="504" font-size="13.5" text-anchor="middle" fill="#000000">deniable capability</text>
+
+<ellipse id="node-usefulness" cx="230" cy="320" rx="72" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text id="text-usefulness-1" x="230" y="316" font-size="13.5" text-anchor="middle" fill="#000000">usefulness to</text>
+<text id="text-usefulness-2" x="230" y="332" font-size="13.5" text-anchor="middle" fill="#000000">the state</text>
+
+<ellipse id="node-enforcement" cx="810" cy="500" rx="66" ry="34" fill="#ffffff" stroke="#8c8c8c" stroke-width="1.5"/>
+<text id="text-enforcement" x="810" y="504" font-size="13.5" text-anchor="middle" fill="#8c8c8c">enforcement</text>
+
+<!-- loop edges (clockwise) -->
+<path id="edge-u1" d="M 547.8 170.1 Q 632.2 195.0 702.1 284.3" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon id="head-u1" points="702.1,284.3 690.2,277.2 698.0,271.0" fill="#000000"/>
+
+<path id="edge-u2" d="M 703.3 356.1 Q 633.8 450.0 550.4 477.1" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon id="head-u2" points="550.4,477.1 561.3,468.3 564.3,477.9" fill="#000000"/>
+
+<path id="edge-u3" d="M 409.6 477.1 Q 326.2 450.0 257.3 356.9" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon id="head-u3" points="257.3,356.9 269.0,364.4 261.0,370.4" fill="#000000"/>
+<g id="mark-u3" transform="rotate(38.3 329.8 433.5)"><rect x="323.3" y="427.0" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/></g>
+
+<path id="edge-u4" d="M 258.6 283.4 Q 327.8 195.0 412.2 170.1" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon id="head-u4" points="412.2,170.1 401.1,178.6 398.3,169.0" fill="#000000"/>
+<g id="mark-u4" transform="rotate(-36.4 331.6 210.9)"><rect x="325.1" y="204.4" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/></g>
+
+<!-- reinforcing loop badge -->
+<path id="loop-R" d="M 505 320 A 25 25 0 1 1 492.5 298.35" fill="none" stroke="#d81e1e" stroke-width="1.6"/>
+<polygon id="loop-head-R" points="492.5,298.35 481.7,289.6 490.3,284.6" fill="#d81e1e"/>
+<text id="loop-letter-R" x="480" y="328" font-size="22" text-anchor="middle" fill="#d81e1e">R</text>
+
+<!-- grey enforcement branch -->
+<path id="edge-v1" d="M 806.3 466.1 Q 798.8 397.2 760.9 354.7" fill="none" stroke="#8c8c8c" stroke-width="1.6"/>
+<polygon id="head-v1" points="760.9,354.7 773.3,361.1 765.9,367.7" fill="#8c8c8c"/>
+<g id="mark-v1" transform="rotate(67.8 791.2 403.8)"><rect x="784.7" y="397.3" width="13" height="13" fill="#8c8c8c" stroke="#8c8c8c" stroke-width="1.5"/></g>
+
+<!-- notes -->
+<text id="note-1" x="52" y="660" font-size="12.5" fill="#000000">One reinforcing loop: toleration feeds the ecosystem, which feeds deniable capability, which proves useful, which feeds toleration.</text>
+<text id="note-2" x="52" y="677" font-size="12.5" fill="#000000">Enforcement is the grey switch the state rarely throws: the 2022 REvil arrests dipped the ecosystem and did not hold.</text>
+<text id="note-3" x="52" y="694" font-size="12.5" fill="#000000">The loop is the macro relationship, not an order; whether any single crew is tasked stays a separate and harder question.</text>
+
+<!-- legend -->
+<path id="leg-1-edge" d="M 52 722.0 L 80 722.0" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon id="leg-1-head" points="80,722.0 70,718.0 70,726.0" fill="#000000"/>
+<text x="92" y="726.0" font-size="12.5" fill="#000000">natural effect, same direction as the movement of the cause</text>
+
+<path id="leg-2-edge" d="M 52 748.0 L 80 748.0" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon id="leg-2-head" points="80,748.0 70,744.0 70,752.0" fill="#000000"/>
+<rect x="52.5" y="741.5" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="92" y="752.0" font-size="12.5" fill="#000000">human intervention, same direction as the movement of the cause</text>
+
+<path id="leg-3-edge" d="M 52 774.0 L 80 774.0" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon id="leg-3-head" points="80,774.0 70,770.0 70,778.0" fill="#000000"/>
+<rect x="52.5" y="767.5" width="13" height="13" fill="#000000" stroke="#000000" stroke-width="1.5"/>
+<text x="92" y="778.0" font-size="12.5" fill="#000000">human intervention, opposite direction to the movement of the cause</text>
+
+<path id="leg-4-edge" d="M 500 722.0 L 528 722.0" fill="none" stroke="#8c8c8c" stroke-width="1.6"/>
+<polygon id="leg-4-head" points="528,722.0 518,718.0 518,726.0" fill="#8c8c8c"/>
+<text x="540" y="726.0" font-size="12.5" fill="#8c8c8c">grey: sourced effect on a branch with no evidenced return</text>
+</svg>

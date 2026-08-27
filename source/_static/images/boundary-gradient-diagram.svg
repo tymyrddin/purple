@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 485" font-family="Helvetica, Arial, sans-serif">
 <title>Russian cyber actors on a state-to-crime gradient</title>
-<desc>A spectrum of Russian cyber actors from state command on the left to criminal autonomy on the right, with three regions beneath it: directed state operation, tasked-but-independent crew, tolerated free agent. Each actor is drawn as a range on the spectrum rather than a point, the width of the range showing how unevenly the evidence locates it. Sandworm and Fancy Bear sit hard against the state end in narrow bands. Evil Corp spans a wide band across the middle, sitting in neither column. Conti, REvil and LockBit spread toward the criminal end, with Conti reaching back toward the middle where the leaked logs show intelligence interest. The bands overlap and no line divides the spectrum, which is the boundary not holding.</desc>
+<desc>A spectrum of Russian cyber actors from state command on the left to criminal autonomy on the right, with three regions beneath it: directed state operation, tasked criminal capability, tolerated free agent. Each actor is drawn as a range on the spectrum rather than a point, the width of the range showing how unevenly the evidence locates it. Sandworm and Fancy Bear sit hard against the state end in narrow bands. Evil Corp spans a wide band across the middle, sitting in neither column. Conti, REvil and LockBit spread toward the criminal end, with Conti reaching back toward the middle where the leaked logs show intelligence interest. The bands overlap and no line divides the spectrum, which is the boundary not holding.</desc>
 <rect id="background" x="0" y="0" width="960" height="485" fill="#ffffff"/>
 <text id="title" x="480" y="40" font-size="20" text-anchor="middle" fill="#000000">Russia: the boundary that does not hold</text>
 <text id="subtitle" x="480" y="63" font-size="13" text-anchor="middle" fill="#000000">A gradient from state command to tolerated crime, with no clean join along it</text>
@@ -39,7 +39,7 @@
 <!-- spectrum axis -->
 <line id="axis" x1="120" y1="380" x2="840" y2="380" stroke="#000000" stroke-width="1.2"/>
 <text id="zone-1" x="235" y="400" font-size="12" text-anchor="middle" fill="#000000">directed state operation</text>
-<text id="zone-2" x="480" y="400" font-size="12" text-anchor="middle" fill="#000000">tasked-but-independent crew</text>
+<text id="zone-2" x="480" y="400" font-size="12" text-anchor="middle" fill="#000000">tasked criminal capability</text>
 <text id="zone-3" x="725" y="400" font-size="12" text-anchor="middle" fill="#000000">tolerated free agent</text>
 
 <!-- note -->

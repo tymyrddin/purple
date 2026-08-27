@@ -1,15 +1,13 @@
 National cyber "fingerprints"
-============================================
+=============================
 
 .. image:: /_static/images/national-signatures.png
   :alt: Seven technical drawings inked on aged parchment, arranged in two rows like plates from an old engineering manual. Top row: a closed loop of concentric circles with one point marked in red; a chevron opening onto a gradient of dots that scatter and thin toward the right, with red marks at its edges; a ruled ledger of columns and rows with small red entries; a vertical arrow rising toward a horizontal bar and stopping just beneath it. Bottom row: a dense burst of lines radiating from a central square, like people leaving through a door; a spiral of fine tendrils reaching outward from a single hub in every direction; a mesh of nodes joined in every direction with no centre, some nodes marked red. Each plate is framed by faint construction lines.
 
-North Korea steals cryptocurrency because sanctions closed the banks. Russia lets its ransomware crews run because a
-crew it tolerates is a crew it can borrow. China buys intrusions from underpaid contractors against a published
-five-year plan. Iran wipes disks and posts slogans and stops just short of the response it could not absorb. Israel
-trains more hackers than it can employ and licenses what they build. The United States wrote a doctrine that makes
-being inside everyone else's networks routine. Lithuania, too small to hoard anything, spreads its capability across an
-alliance and is the first to notice.
+A state's cyber activity reaches the record under a name: a unit number, a group alias, a bureau, an indictment. The
+name is where many accounts stop, and it is not the informative part. What produced it sits underneath, in the
+conditions a state works from and the arrangement it has settled into with them, and that arrangement leaves a mark the
+way a hand does, repeatable and distinctive and not chosen stroke by stroke.
 
 .. toctree::
    :maxdepth: 1
@@ -21,7 +19,6 @@ alliance and is the first to notice.
    the-revolving-door.md
    permanent-contact.md
    no-single-hand.md
-   when-every-break-becomes-a-pattern.md
 
 .. raw:: html
 
@@ -31,4 +28,4 @@ alliance and is the first to notice.
             </div>
         </div>
 
-*Last updated: 20 August 2026*
+*Last updated: 27 August 2026*

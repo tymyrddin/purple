@@ -1,44 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" font-family="Helvetica, Arial, sans-serif">
-<title>Israeli cyber capability as a revolving door out of the state</title>
-<desc>Israeli cyber power drawn as a revolving door. A left-to-right pipeline of five nodes, joined by solid arrows: military intelligence (Unit 8200), veterans, companies, products, and the global market. A dashed vertical line labelled "the door" sits between the state and the market, where people cross out. A wide dashed arc runs back over the top from the market to military intelligence, labelled as returning only partly: a strong sector, diplomatic weight, and a pool to rehire from. Solid edges are people and products leaving the state; the dashed return is what comes back, a sector and a talent pool, not the capability itself.</desc>
-<rect id="background" x="0" y="0" width="900" height="430" fill="#ffffff"/>
-<text id="title" x="450" y="40" font-size="24" text-anchor="middle" fill="#000000">The revolving door</text>
-<text id="subtitle" x="450" y="64" font-size="14" text-anchor="middle" fill="#000000">Capability the state trains, and cannot keep</text>
-
-<!-- return arc (dashed) -->
-<path d="M 785 272 Q 437 95 90 272" fill="none" stroke="#8c8c8c" stroke-width="1.5" stroke-dasharray="5 4"/>
-<polygon points="90,272 103,266 99,276" fill="#8c8c8c"/>
-<text x="437" y="132" font-size="12.5" text-anchor="middle" fill="#8c8c8c">returns only partly:</text>
-<text x="437" y="148" font-size="12.5" text-anchor="middle" fill="#8c8c8c">a sector, diplomatic weight, a pool to rehire from</text>
-
-<!-- the door -->
-<line x1="200" y1="250" x2="200" y2="352" stroke="#8c8c8c" stroke-width="1" stroke-dasharray="3 3"/>
-<text x="200" y="368" font-size="11" text-anchor="middle" fill="#8c8c8c">the door</text>
-
-<!-- pipeline edges (solid) -->
-<path d="M 138 300 L 223 300" fill="none" stroke="#000000" stroke-width="1.5"/>
-<polygon points="223,300 211,295 211,305" fill="#000000"/>
-<path d="M 307 300 L 392 300" fill="none" stroke="#000000" stroke-width="1.5"/>
-<polygon points="392,300 380,295 380,305" fill="#000000"/>
-<path d="M 488 300 L 566 300" fill="none" stroke="#000000" stroke-width="1.5"/>
-<polygon points="566,300 554,295 554,305" fill="#000000"/>
-<path d="M 654 300 L 733 300" fill="none" stroke="#000000" stroke-width="1.5"/>
-<polygon points="733,300 721,295 721,305" fill="#000000"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 798" font-family="Helvetica, Arial, sans-serif">
+<title>Israel: trained, released, recalled</title>
+<desc>A diagram of effects for Israel's cyber ecosystem, drawn as one reinforcing loop with a single branch. State cyber investment trains talent, the trained talent builds companies and a sector, the sector draws capital and strategic weight, and that weight funds more state investment. The four edges run in the same direction, so the loop is reinforcing, marked R and read clockwise. Two of its edges are human interventions, the state's decision to train and its decision to reinvest; the other two are the flow of people into the sector and of capital toward it. Drawn in grey, meaning a sourced effect on a branch with no evidenced return: wartime reserve call-up, which pulls trained people back out of the companies. An increase in state cyber investment raises trained cyber talent, by human intervention. An increase in trained cyber talent raises cyber companies and sector. An increase in cyber companies and sector raises capital and strategic weight. An increase in capital and strategic weight raises state cyber investment, by human intervention. An increase in wartime reserve call-up lowers cyber companies and sector, by human intervention.</desc>
+<rect id="background" x="0" y="0" width="960" height="798" fill="#ffffff"/>
+<text id="title" x="480" y="38" font-size="20" text-anchor="middle" fill="#000000">Israel: trained, released, recalled</text>
+<text id="subtitle" x="480" y="60" font-size="13" text-anchor="middle" fill="#000000">One reinforcing loop, with wartime reserve as the branch that pulls people back</text>
 
 <!-- nodes -->
-<ellipse cx="90" cy="300" rx="48" ry="34" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="90" y="296" font-size="13" text-anchor="middle" fill="#000000">military</text>
-<text x="90" y="312" font-size="13" text-anchor="middle" fill="#000000">intelligence</text>
-<ellipse cx="265" cy="300" rx="42" ry="24" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="265" y="305" font-size="13" text-anchor="middle" fill="#000000">veterans</text>
-<ellipse cx="440" cy="300" rx="48" ry="24" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="440" y="305" font-size="13" text-anchor="middle" fill="#000000">companies</text>
-<ellipse cx="610" cy="300" rx="44" ry="24" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="610" y="305" font-size="13" text-anchor="middle" fill="#000000">products</text>
-<ellipse cx="785" cy="300" rx="54" ry="34" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="785" y="296" font-size="13" text-anchor="middle" fill="#000000">the global</text>
-<text x="785" y="312" font-size="13" text-anchor="middle" fill="#000000">market</text>
+<ellipse id="node-talent" cx="480" cy="150" rx="72" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="480" y="146" font-size="13.5" text-anchor="middle" fill="#000000">trained cyber</text>
+<text x="480" y="162" font-size="13.5" text-anchor="middle" fill="#000000">talent</text>
 
-<!-- note -->
-<text x="40" y="410" font-size="12.5" fill="#000000">Solid: people and products leaving the state. Dashed: what comes back, a sector and a talent pool, not the capability itself.</text>
+<ellipse id="node-companies" cx="730" cy="320" rx="81" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="730" y="316" font-size="13.5" text-anchor="middle" fill="#000000">cyber companies</text>
+<text x="730" y="332" font-size="13.5" text-anchor="middle" fill="#000000">and sector</text>
+
+<ellipse id="node-capital" cx="480" cy="500" rx="86" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="480" y="496" font-size="13.5" text-anchor="middle" fill="#000000">capital and</text>
+<text x="480" y="512" font-size="13.5" text-anchor="middle" fill="#000000">strategic weight</text>
+
+<ellipse id="node-investment" cx="230" cy="320" rx="65" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="230" y="316" font-size="13.5" text-anchor="middle" fill="#000000">state cyber</text>
+<text x="230" y="332" font-size="13.5" text-anchor="middle" fill="#000000">investment</text>
+
+<ellipse id="node-reserve" cx="810" cy="500" rx="80" ry="40" fill="#ffffff" stroke="#8c8c8c" stroke-width="1.5"/>
+<text x="810" y="496" font-size="13.5" text-anchor="middle" fill="#8c8c8c">wartime</text>
+<text x="810" y="512" font-size="13.5" text-anchor="middle" fill="#8c8c8c">reserve call-up</text>
+
+<!-- loop edges (clockwise) -->
+<path d="M 258.2 284.0 Q 327.8 195.0 416.4 168.8" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="416.4,168.8 405.4,177.3 402.6,167.7" fill="#000000"/>
+<g transform="rotate(-36.0 332.6 210.7)"><rect x="326.1" y="204.2" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/></g>
+
+<path d="M 543.6 168.8 Q 632.2 195.0 700.8 282.7" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="700.8,282.7 688.9,275.5 696.7,269.4" fill="#000000"/>
+
+<path d="M 702.2 357.6 Q 633.8 450.0 550.5 477.1" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="550.5,477.1 561.3,468.3 564.4,477.8" fill="#000000"/>
+
+<path d="M 409.5 477.1 Q 326.2 450.0 256.9 356.4" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="256.9,356.4 268.7,363.9 260.7,369.8" fill="#000000"/>
+<g transform="rotate(-141.7 329.7 433.4)"><rect x="323.2" y="426.9" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/></g>
+
+<!-- reinforcing loop badge -->
+<path id="loop-R" d="M 505 320 A 25 25 0 1 1 492.5 298.35" fill="none" stroke="#d81e1e" stroke-width="1.6"/>
+<polygon points="492.5,298.35 481.7,289.6 490.3,284.6" fill="#d81e1e"/>
+<text x="480" y="328" font-size="22" text-anchor="middle" fill="#d81e1e">R</text>
+
+<!-- grey reserve branch -->
+<path d="M 805.6 460.1 Q 798.8 397.2 762.6 356.6" fill="none" stroke="#8c8c8c" stroke-width="1.6"/>
+<polygon points="762.6,356.6 775.0,363.0 767.5,369.6" fill="#8c8c8c"/>
+<g transform="rotate(-112.6 791.5 402.8)"><rect x="785.0" y="396.3" width="13" height="13" fill="#8c8c8c" stroke="#8c8c8c" stroke-width="1.5"/></g>
+
+<!-- notes -->
+<text x="52" y="660" font-size="12.5" fill="#000000">One reinforcing loop: investment trains talent, talent builds the sector, the sector draws capital and weight, and the weight funds more investment.</text>
+<text x="52" y="677" font-size="12.5" fill="#000000">Two edges are the state's own decisions, to train and to reinvest; the others are people and capital flowing toward the sector.</text>
+<text x="52" y="694" font-size="12.5" fill="#000000">Wartime reserve call-up hangs off in grey, the return the door makes literal, pulling trained people back out of the companies.</text>
+
+<!-- legend -->
+<path d="M 52 722.0 L 80 722.0" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="80,722.0 70,718.0 70,726.0" fill="#000000"/>
+<text x="92" y="726.0" font-size="12.5" fill="#000000">natural effect, same direction as the movement of the cause</text>
+
+<path d="M 52 748.0 L 80 748.0" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="80,748.0 70,744.0 70,752.0" fill="#000000"/>
+<rect x="52.5" y="741.5" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="92" y="752.0" font-size="12.5" fill="#000000">human intervention, same direction as the movement of the cause</text>
+
+<path d="M 52 774.0 L 80 774.0" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="80,774.0 70,770.0 70,778.0" fill="#000000"/>
+<rect x="52.5" y="767.5" width="13" height="13" fill="#000000" stroke="#000000" stroke-width="1.5"/>
+<text x="92" y="778.0" font-size="12.5" fill="#000000">human intervention, opposite direction to the movement of the cause</text>
+
+<path d="M 500 722.0 L 528 722.0" fill="none" stroke="#8c8c8c" stroke-width="1.6"/>
+<polygon points="528,722.0 518,718.0 518,726.0" fill="#8c8c8c"/>
+<text x="540" y="726.0" font-size="12.5" fill="#8c8c8c">grey: sourced effect on a branch with no evidenced return</text>
 </svg>

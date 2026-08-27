@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" font-family="Helvetica, Arial, sans-serif">
+<title>Estonia: the state made restorable, and a target</title>
+<desc>A diagram of effects for Estonia's cyber posture, drawn as one reinforcing loop with a driver and a grey branch. Occupation memory drives the digitalisation of the state; digitalisation makes the state restorable; the restorable state yields resilience and standing; and that standing funds more digitalisation. The three loop edges run in the same direction, so the loop is reinforcing, marked R and read clockwise, and occupation memory feeds it from outside. Drawn in grey, meaning a sourced effect on a branch with no evidenced return into the loop: the state as a target, the attack surface the same digitalisation raises, so that a breach becomes an attack on the state itself. An increase in the digitalisation of the state raises the restorable state. An increase in the restorable state raises resilience and standing. An increase in resilience and standing raises the digitalisation of the state, by human intervention. An increase in occupation memory raises the digitalisation of the state, by human intervention. An increase in the digitalisation of the state raises the state as a target.</desc>
+<rect id="background" x="0" y="0" width="960" height="660" fill="#ffffff"/>
+<text id="title" x="480" y="38" font-size="20" text-anchor="middle" fill="#000000">Estonia: the state made restorable, and a target</text>
+<text id="subtitle" x="480" y="60" font-size="13" text-anchor="middle" fill="#000000">One reinforcing loop of digital statehood, driven by occupation memory, with a grey attack surface it raises</text>
+
+<!-- nodes -->
+<ellipse cx="480" cy="150" rx="82" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="480" y="146" font-size="13.5" text-anchor="middle" fill="#000000">digitalisation</text>
+<text x="480" y="162" font-size="13.5" text-anchor="middle" fill="#000000">of the state</text>
+
+<ellipse cx="720" cy="470" rx="85" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="720" y="466" font-size="13.5" text-anchor="middle" fill="#000000">the restorable</text>
+<text x="720" y="482" font-size="13.5" text-anchor="middle" fill="#000000">state</text>
+
+<ellipse cx="240" cy="470" rx="80" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="240" y="466" font-size="13.5" text-anchor="middle" fill="#000000">resilience</text>
+<text x="240" y="482" font-size="13.5" text-anchor="middle" fill="#000000">and standing</text>
+
+<ellipse cx="780" cy="232" rx="75" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="780" y="228" font-size="13.5" text-anchor="middle" fill="#000000">occupation</text>
+<text x="780" y="244" font-size="13.5" text-anchor="middle" fill="#000000">memory</text>
+
+<ellipse cx="178" cy="232" rx="82" ry="40" fill="#ffffff" stroke="#8c8c8c" stroke-width="1.5"/>
+<text x="178" y="228" font-size="13.5" text-anchor="middle" fill="#8c8c8c">the state</text>
+<text x="178" y="244" font-size="13.5" text-anchor="middle" fill="#8c8c8c">as a target</text>
+
+<!-- loop -->
+<path d="M 526.4 183.0 Q 651.2 271.6 706.3 430.5" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="706.3,430.5 697.3,419.9 706.8,416.6" fill="#000000"/>
+
+<path d="M 649.7 492.5 Q 480.0 546.8 307.4 491.6" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="307.4,491.6 321.3,490.8 318.2,500.3" fill="#000000"/>
+
+<path d="M 253.7 430.6 Q 308.8 271.6 433.6 183.0" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="433.6,183.0 425.9,194.6 420.1,186.4" fill="#000000"/>
+<g transform="rotate(-54.0 326.2 289.2)"><rect x="319.7" y="282.7" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/></g>
+
+<!-- reinforcing loop badge, clockwise -->
+<path id="loop-R" d="M 505 363 A 25 25 0 1 1 492.5 341.35" fill="none" stroke="#d81e1e" stroke-width="1.6"/>
+<polygon points="492.5,341.35 481.7,332.6 490.3,327.6" fill="#d81e1e"/>
+<text x="480" y="371" font-size="22" text-anchor="middle" fill="#d81e1e">R</text>
+
+<!-- driver -->
+<path d="M 732.4 201.1 Q 643.1 143.0 561.7 146.5" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="561.7,146.5 574.5,140.9 574.9,150.9" fill="#000000"/>
+<g transform="rotate(-162.3 645.1 158.4)"><rect x="638.6" y="151.9" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/></g>
+
+<!-- grey branch -->
+<path d="M 398.3 146.4 Q 315.9 142.7 227.3 200.0" fill="none" stroke="#8c8c8c" stroke-width="1.6"/>
+<polygon points="227.3,200.0 235.5,188.8 241.0,197.2" fill="#8c8c8c"/>
+
+<!-- notes -->
+<text x="52" y="558" font-size="12.5" fill="#000000">One reinforcing loop, driven by exposure: occupation memory drives the digitalisation of the state, which makes the</text>
+<text x="52" y="575" font-size="12.5" fill="#000000">state restorable, which yields resilience and standing, which funds more digitalisation.</text>
+<text x="52" y="592" font-size="12.5" fill="#000000">The grey branch is the cost of the same move: the more the state is data, the more a breach is an attack on the state itself.</text>
+
+<!-- legend -->
+<path d="M 52 620 L 80 620" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="80,620 70,616 70,624" fill="#000000"/>
+<text x="92" y="624" font-size="12.5" fill="#000000">natural effect, same direction as the movement of the cause</text>
+
+<path d="M 500 620 L 528 620" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="528,620 518,616 518,624" fill="#000000"/>
+<rect x="500.5" y="613.5" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="540" y="624" font-size="12.5" fill="#000000">human intervention, same direction as the movement of the cause</text>
+
+<path d="M 52 642 L 80 642" fill="none" stroke="#8c8c8c" stroke-width="1.6"/>
+<polygon points="80,642 70,638 70,646" fill="#8c8c8c"/>
+<text x="92" y="646" font-size="12.5" fill="#8c8c8c">grey: a sourced effect on a branch with no evidenced return</text>
+</svg>

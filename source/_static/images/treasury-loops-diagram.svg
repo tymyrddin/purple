@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 780" font-family="Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 798" font-family="Helvetica, Arial, sans-serif">
 <title>The finance of the North Korean state as a reinforcing loop</title>
 <desc>A reinforcing loop in the finance of the North Korean state. Sanctions cut the state's access to foreign currency, cyber operations restore it, the revenue funds the weapons programme, and the programme's continuation is what draws the sanctions, closing the circuit. Marked R, one reinforcing loop, held at the level of aggregate state finance rather than traceable transactions. Drawn in grey, meaning a sourced effect on a branch with no evidenced return into the loop: self-reliance policy (juche), and the supply of trained operators. An increase in sanctions on the DPRK lowers access to foreign currency. An increase in access to foreign currency lowers illicit cyber revenue operations, by human intervention. An increase in illicit cyber revenue operations raises state hard-currency income. An increase in state hard-currency income raises the nuclear and missile programme. An increase in the nuclear and missile programme raises sanctions on the DPRK, by human intervention. An increase in self-reliance policy (juche) lowers access to foreign currency, by human intervention. An increase in the supply of trained operators raises illicit cyber revenue operations, by human intervention.</desc>
-<rect id="background" x="0" y="0" width="960" height="780" fill="#ffffff"/>
+<rect id="background" x="0" y="0" width="960" height="798" fill="#ffffff"/>
 <text id="title" x="480" y="38" font-size="20" text-anchor="middle" fill="#000000">Fiscal policy conducted by other means</text>
 <text id="subtitle" x="480" y="60" font-size="13" text-anchor="middle" fill="#000000">One reinforcing loop: revenue returns to the survival it buys</text>
 
@@ -73,26 +73,26 @@
 <text id="note-3" x="52" y="694" font-size="12.5" fill="#000000">not figures the Panel derived, so the circuit is drawn no harder than the record. Grey branches feed the loop without returning to it.</text>
 
 <!-- legend -->
-<path d="M 52 704 L 84 704" fill="none" stroke="#000000" stroke-width="1.5"/>
-<polygon points="92,704 79,699 79,709" fill="#000000"/>
-<text x="100" y="708" font-size="11" fill="#000000">natural effect, same direction</text>
+<path d="M 52 722.0 L 84 722.0" fill="none" stroke="#000000" stroke-width="1.5"/>
+<polygon points="92,722.0 79,717.0 79,727.0" fill="#000000"/>
+<text x="100" y="726.0" font-size="12.5" fill="#000000">natural effect, same direction as the movement of the cause</text>
 
-<path d="M 52 730 L 84 730" fill="none" stroke="#000000" stroke-width="1.5"/>
-<polygon points="92,730 79,725 79,735" fill="#000000"/>
-<circle cx="68" cy="730" r="6.5" fill="#000000"/>
-<text x="100" y="734" font-size="11" fill="#000000">natural effect, opposite direction</text>
+<path d="M 52 748.0 L 84 748.0" fill="none" stroke="#000000" stroke-width="1.5"/>
+<polygon points="92,748.0 79,743.0 79,753.0" fill="#000000"/>
+<circle cx="68" cy="748.0" r="6.5" fill="#000000"/>
+<text x="100" y="752.0" font-size="12.5" fill="#000000">natural effect, opposite direction to the movement of the cause</text>
 
-<path d="M 52 756 L 84 756" fill="none" stroke="#000000" stroke-width="1.5"/>
-<polygon points="92,756 79,751 79,761" fill="#000000"/>
-<rect x="61.5" y="749.5" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-<text x="100" y="760" font-size="11" fill="#000000">human intervention, same direction</text>
+<path d="M 52 774.0 L 84 774.0" fill="none" stroke="#000000" stroke-width="1.5"/>
+<polygon points="92,774.0 79,769.0 79,779.0" fill="#000000"/>
+<rect x="54.5" y="767.5" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="100" y="778.0" font-size="12.5" fill="#000000">human intervention, same direction as the movement of the cause</text>
 
-<path d="M 500 704 L 532 704" fill="none" stroke="#000000" stroke-width="1.5"/>
-<polygon points="540,704 527,699 527,709" fill="#000000"/>
-<rect x="509.5" y="697.5" width="13" height="13" fill="#000000" stroke="#000000" stroke-width="1.5"/>
-<text x="548" y="708" font-size="11" fill="#000000">human intervention, opposite direction</text>
+<path d="M 500 722.0 L 532 722.0" fill="none" stroke="#000000" stroke-width="1.5"/>
+<polygon points="540,722.0 527,717.0 527,727.0" fill="#000000"/>
+<rect x="502.5" y="715.5" width="13" height="13" fill="#000000" stroke="#000000" stroke-width="1.5"/>
+<text x="548" y="726.0" font-size="12.5" fill="#000000">human intervention, opposite direction to the movement of the cause</text>
 
-<path d="M 500 730 L 532 730" fill="none" stroke="#8c8c8c" stroke-width="1.5"/>
-<polygon points="540,730 527,725 527,735" fill="#8c8c8c"/>
-<text x="548" y="734" font-size="11" fill="#8c8c8c">grey: sourced effect on a branch with no evidenced return</text>
+<path d="M 500 748.0 L 532 748.0" fill="none" stroke="#8c8c8c" stroke-width="1.5"/>
+<polygon points="540,748.0 527,743.0 527,753.0" fill="#8c8c8c"/>
+<text x="548" y="752.0" font-size="12.5" fill="#8c8c8c">grey: sourced effect on a branch with no evidenced return</text>
 </svg>

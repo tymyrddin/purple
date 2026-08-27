@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 628" font-family="Helvetica, Arial, sans-serif">
+<title>China: espionage bought off a shelf</title>
+<desc>A directed diagram of effects for Chinese state cyber acquisition, read left to right along a spine and downward into two open branches, with no loop closing. Published industrial priorities drive state collection tasking, tasking builds a contractor market, the contractor market yields access and stolen data, and the stolen material lands as domestic industrial capability. Nothing returns from there to the priorities that set it in motion, so the chain does not close. Drawn in grey, meaning a sourced effect on a branch with no evidenced return: stockpiled data holdings, and access pre-positioned in critical infrastructure. An increase in published industrial priorities raises state collection tasking, by human intervention. An increase in state collection tasking raises contractor-market activity, by human intervention. An increase in contractor-market activity raises access and data obtained. An increase in access and data obtained raises domestic industrial capability, by human intervention. An increase in access and data obtained raises stockpiled data holdings, by human intervention. An increase in state collection tasking raises access pre-positioned in critical infrastructure, by human intervention.</desc>
+<rect id="background" x="0" y="0" width="960" height="628" fill="#ffffff"/>
+<text id="title" x="480" y="38" font-size="20" text-anchor="middle" fill="#000000">China: espionage bought off a shelf</text>
+<text id="subtitle" x="480" y="60" font-size="13" text-anchor="middle" fill="#000000">A directed acquisition chain, with no loop, and two open branches that do not return</text>
+
+<!-- nodes: spine -->
+<ellipse id="node-priorities" cx="140" cy="150" rx="95" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text id="text-priorities-1" x="140" y="146" font-size="13.5" text-anchor="middle" fill="#000000">published industrial</text>
+<text id="text-priorities-2" x="140" y="162" font-size="13.5" text-anchor="middle" fill="#000000">priorities</text>
+
+<ellipse id="node-tasking" cx="380" cy="150" rx="84" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text id="text-tasking-1" x="380" y="146" font-size="13.5" text-anchor="middle" fill="#000000">state collection</text>
+<text id="text-tasking-2" x="380" y="162" font-size="13.5" text-anchor="middle" fill="#000000">tasking</text>
+
+<ellipse id="node-market" cx="620" cy="150" rx="87" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text id="text-market-1" x="620" y="146" font-size="13.5" text-anchor="middle" fill="#000000">contractor-market</text>
+<text id="text-market-2" x="620" y="162" font-size="13.5" text-anchor="middle" fill="#000000">activity</text>
+
+<ellipse id="node-access" cx="845" cy="150" rx="80" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text id="text-access-1" x="845" y="146" font-size="13.5" text-anchor="middle" fill="#000000">access and data</text>
+<text id="text-access-2" x="845" y="162" font-size="13.5" text-anchor="middle" fill="#000000">obtained</text>
+
+<ellipse id="node-capability" cx="845" cy="360" rx="95" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text id="text-capability-1" x="845" y="356" font-size="13.5" text-anchor="middle" fill="#000000">domestic industrial</text>
+<text id="text-capability-2" x="845" y="372" font-size="13.5" text-anchor="middle" fill="#000000">capability</text>
+
+<!-- nodes: grey open branches -->
+<ellipse id="node-data" cx="600" cy="360" rx="80" ry="40" fill="#ffffff" stroke="#8c8c8c" stroke-width="1.5"/>
+<text id="text-data-1" x="600" y="356" font-size="13.5" text-anchor="middle" fill="#8c8c8c">stockpiled data</text>
+<text id="text-data-2" x="600" y="372" font-size="13.5" text-anchor="middle" fill="#8c8c8c">holdings</text>
+
+<ellipse id="node-prepos" cx="300" cy="360" rx="112" ry="40" fill="#ffffff" stroke="#8c8c8c" stroke-width="1.5"/>
+<text id="text-prepos-1" x="300" y="356" font-size="13.5" text-anchor="middle" fill="#8c8c8c">pre-positioned access,</text>
+<text id="text-prepos-2" x="300" y="372" font-size="13.5" text-anchor="middle" fill="#8c8c8c">critical infrastructure</text>
+
+<!-- spine edges -->
+<path id="edge-e1" d="M 235 150 Q 265.5 150 296 150" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon id="head-e1" points="296,150 283,145 283,155" fill="#000000"/>
+<g id="mark-e1"><rect x="259" y="143.5" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/></g>
+
+<path id="edge-e2" d="M 464 150 Q 498.5 150 533 150" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon id="head-e2" points="533,150 520,145 520,155" fill="#000000"/>
+<g id="mark-e2"><rect x="492" y="143.5" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/></g>
+
+<path id="edge-e3" d="M 707 150 Q 736 150 765 150" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon id="head-e3" points="765,150 752,145 752,155" fill="#000000"/>
+
+<path id="edge-e4" d="M 845 190 Q 845 255 845 320" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon id="head-e4" points="845,320 840,307 850,307" fill="#000000"/>
+<g id="mark-e4" transform="rotate(90 845 255)"><rect x="838.5" y="248.5" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/></g>
+
+<!-- grey open branches -->
+<path id="edge-e5" d="M 790.5 179.3 Q 699.4 228.1 628.2 322.6" fill="none" stroke="#8c8c8c" stroke-width="1.6"/>
+<polygon id="head-e5" points="628.2,322.6 632.0,309.2 640.0,315.2" fill="#8c8c8c"/>
+<g id="mark-e5" transform="rotate(138.6 704.4 239.5)"><rect x="697.9" y="233" width="13" height="13" fill="#ffffff" stroke="#8c8c8c" stroke-width="1.5"/></g>
+
+<path id="edge-e6" d="M 355 188.2 Q 316.9 246.2 305.9 320.1" fill="none" stroke="#8c8c8c" stroke-width="1.6"/>
+<polygon id="head-e6" points="305.9,320.1 302.85,306.5 312.75,307.9" fill="#8c8c8c"/>
+<g id="mark-e6" transform="rotate(110.4 323.7 250.2)"><rect x="317.2" y="243.7" width="13" height="13" fill="#ffffff" stroke="#8c8c8c" stroke-width="1.5"/></g>
+
+<!-- notes -->
+<text id="note-1" x="52" y="470" font-size="12.5" fill="#000000">The spine is sourced and directed: priorities set tasking, tasking builds a contractor market, the market yields access, and stolen material lands as capability.</text>
+<text id="note-2" x="52" y="487" font-size="12.5" fill="#000000">Nothing returns from there to the priorities, so nothing closes. Where North Korea's diagram carries a reinforcing loop, this one is a market left open.</text>
+<text id="note-3" x="52" y="504" font-size="12.5" fill="#000000">Grey marks a sourced effect whose return is not evidenced: data held for later use, and access pre-positioned in critical infrastructure.</text>
+
+<!-- legend -->
+<path id="leg-1-edge" d="M 52 554.0 L 80 554.0" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon id="leg-1-head" points="80,554.0 70,550.0 70,558.0" fill="#000000"/>
+<text x="92" y="558.0" font-size="12.5" fill="#000000">natural effect, same direction as the movement of the cause</text>
+
+<path id="leg-2-edge" d="M 52 578.0 L 80 578.0" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon id="leg-2-head" points="80,578.0 70,574.0 70,582.0" fill="#000000"/>
+<rect x="52.5" y="571.5" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="92" y="582.0" font-size="12.5" fill="#000000">human intervention, same direction as the movement of the cause</text>
+
+<path id="leg-3-edge" d="M 52 602.0 L 80 602.0" fill="none" stroke="#8c8c8c" stroke-width="1.6"/>
+<polygon id="leg-3-head" points="80,602.0 70,598.0 70,606.0" fill="#8c8c8c"/>
+<text x="92" y="606.0" font-size="12.5" fill="#8c8c8c">grey: sourced effect on a branch with no evidenced return</text>
+</svg>

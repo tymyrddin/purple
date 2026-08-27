@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 780" font-family="Helvetica, Arial, sans-serif">
+<title>France: a sovereign loop on a foreign floor</title>
+<desc>A diagram of effects for France's cyber sovereignty, drawn as one reinforcing loop with a grey dependence branch. A commitment to strategic autonomy drives investment in the national stack; the investment builds a capability to act without the network; the capability yields freedom of action and strategic standing; and the standing renews the commitment. The four loop edges run in the same direction, so the loop is reinforcing, marked R and read clockwise. Drawn in grey, meaning a sourced effect on a branch with no evidenced return into the loop: the foreign floors the stack still rests on, hyperscale cloud, leading-edge silicon and allied intelligence. An increase in commitment to strategic autonomy raises investment in the national stack, by human intervention. An increase in investment in the national stack raises the capability to act without the network. An increase in the capability to act without the network raises freedom of action and strategic standing. An increase in freedom of action and strategic standing raises commitment to strategic autonomy, by human intervention. An increase in reliance on the foreign floors lowers the capability to act without the network.</desc>
+<rect id="background" x="0" y="0" width="960" height="780" fill="#ffffff"/>
+<text id="title" x="480" y="38" font-size="20" text-anchor="middle" fill="#000000">France: a sovereign loop on a foreign floor</text>
+<text id="subtitle" x="480" y="60" font-size="13" text-anchor="middle" fill="#000000">One reinforcing loop of autonomy, and a grey dependence the loop never closes</text>
+
+<!-- nodes -->
+<ellipse cx="480" cy="120" rx="108" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="480" y="116" font-size="13.5" text-anchor="middle" fill="#000000">commitment to</text>
+<text x="480" y="132" font-size="13.5" text-anchor="middle" fill="#000000">strategic autonomy</text>
+
+<ellipse cx="775" cy="340" rx="95" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="775" y="336" font-size="13.5" text-anchor="middle" fill="#000000">investment in</text>
+<text x="775" y="352" font-size="13.5" text-anchor="middle" fill="#000000">the national stack</text>
+
+<ellipse cx="480" cy="560" rx="112" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="480" y="556" font-size="13.5" text-anchor="middle" fill="#000000">capability to act</text>
+<text x="480" y="572" font-size="13.5" text-anchor="middle" fill="#000000">without the network</text>
+
+<ellipse cx="190" cy="340" rx="95" ry="40" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="190" y="336" font-size="13.5" text-anchor="middle" fill="#000000">freedom of action</text>
+<text x="190" y="352" font-size="13.5" text-anchor="middle" fill="#000000">and strategic standing</text>
+
+<ellipse cx="790" cy="595" rx="100" ry="50" fill="#ffffff" stroke="#8c8c8c" stroke-width="1.5"/>
+<text x="790" y="579" font-size="13" text-anchor="middle" fill="#8c8c8c">foreign floors:</text>
+<text x="790" y="595" font-size="13" text-anchor="middle" fill="#8c8c8c">cloud, silicon,</text>
+<text x="790" y="611" font-size="13" text-anchor="middle" fill="#8c8c8c">allied intelligence</text>
+
+<!-- loop edges -->
+<path d="M 559.2 147.2 Q 662.7 182.8 747.6 301.7" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="747.6,301.7 736.0,294.0 744.1,288.2" fill="#000000"/>
+<g transform="rotate(39.3 658.0 203.6)"><rect x="651.5" y="197.1" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/></g>
+
+<path d="M 747.6 378.3 Q 662.7 497.2 560.7 532.3" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="560.7,532.3 571.4,523.3 574.6,532.8" fill="#000000"/>
+
+<path d="M 400.3 531.9 Q 299.8 496.4 216.9 378.4" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="216.9,378.4 228.5,386.1 220.3,391.9" fill="#000000"/>
+
+<path d="M 216.9 301.6 Q 299.8 183.6 401.8 147.6" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="401.8,147.6 391.2,156.6 387.9,147.2" fill="#000000"/>
+<g transform="rotate(-39.8 304.6 204.1)"><rect x="298.1" y="197.6" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/></g>
+
+<!-- reinforcing loop badge, clockwise -->
+<path id="loop-R" d="M 505 340 A 25 25 0 1 1 492.5 318.35" fill="none" stroke="#d81e1e" stroke-width="1.6"/>
+<polygon points="492.5,318.35 481.7,309.6 490.3,304.6" fill="#d81e1e"/>
+<text x="480" y="348" font-size="22" text-anchor="middle" fill="#d81e1e">R</text>
+
+<!-- grey dependence branch -->
+<path d="M 697.1 613.6 Q 629.4 627.1 549.7 591.3" fill="none" stroke="#8c8c8c" stroke-width="1.6"/>
+<polygon points="549.7,591.3 563.6,592.1 559.5,601.2" fill="#8c8c8c"/>
+<circle cx="626.4" cy="614.8" r="6.5" fill="#8c8c8c"/>
+
+<!-- notes -->
+<text x="52" y="666" font-size="12.5" fill="#000000">One reinforcing loop: commitment to strategic autonomy funds the national stack, which builds the capability to act</text>
+<text x="52" y="683" font-size="12.5" fill="#000000">without the network, which buys the freedom of action that renews the commitment.</text>
+<text x="52" y="700" font-size="12.5" fill="#000000">The grey branch is the floor the loop never owns: cloud, silicon and allied intelligence still sit under the stack.</text>
+
+<!-- legend -->
+<path d="M 52 744.0 L 80 744.0" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="80,744.0 70,740.0 70,748.0" fill="#000000"/>
+<text x="92" y="748.0" font-size="12.5" fill="#000000">natural effect, same direction as the movement of the cause</text>
+
+<path d="M 500 744.0 L 528 744.0" fill="none" stroke="#000000" stroke-width="1.6"/>
+<polygon points="528,744.0 518,740.0 518,748.0" fill="#000000"/>
+<rect x="500.5" y="737.5" width="13" height="13" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="540" y="748.0" font-size="12.5" fill="#000000">human intervention, same direction as the movement of the cause</text>
+
+<path d="M 52 766.0 L 80 766.0" fill="none" stroke="#8c8c8c" stroke-width="1.6"/>
+<polygon points="80,766.0 70,762.0 70,770.0" fill="#8c8c8c"/>
+<circle cx="66" cy="766.0" r="6.5" fill="#8c8c8c"/>
+<text x="92" y="770.0" font-size="12.5" fill="#8c8c8c">grey: a sourced effect with no evidenced return, opposite to the movement of the cause</text>
+</svg>
