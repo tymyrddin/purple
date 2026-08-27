@@ -7,7 +7,7 @@ open, a procurement market, a lid kept on, a labour market, a standing apparatus
 underneath. The unit of analysis is a form instead of an actor.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :includehidden:
 
    anatomy.md
