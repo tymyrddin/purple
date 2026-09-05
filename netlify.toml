@@ -1,3 +1,9 @@
+[[redirects]]
+    from = "/*"
+    to = "https://purple.tymyrddin.eu/:splat"
+    status = 301
+    force = true
+
 [build]
     publish = "build/html"
     command = "pip install sphinx && make html"
